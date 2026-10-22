@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 62,
+    "min_y": -48,
+    "max_y": 16,
+    "size": 28,
+    "density": 0.4,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mercury_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:smooth_basalt",
+          "minecraft:calcite",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_wolframite/basalt"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_wolframite/basalt"
+          },
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/rich_wolframite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 44,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_wolframite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_mercury_wolframite_tfc_vein"
+  }
+}

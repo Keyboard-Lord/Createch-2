@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/lithium"
+    },
+    {
+      "tag": "c:physical_dusts/lithium"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 108,
+  "welding_temperature": 144
+}

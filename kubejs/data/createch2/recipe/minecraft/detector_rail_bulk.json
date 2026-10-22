@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "IPI",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "P": {
+      "tag": "createch2:materials/rock/pressure_plates"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result": {
+    "id": "minecraft:detector_rail",
+    "count": 12
+  }
+}

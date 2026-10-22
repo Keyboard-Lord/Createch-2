@@ -1,0 +1,90 @@
+{
+  "truth": "REVIEWED_EXISTING_AE2_SKY_STONE_TO_SINGULARITY",
+  "classes": {
+    "meteorStructure": {
+      "jar": "appliedenergistics2-19.2.18.jar",
+      "class": "appeng.worldgen.meteorite.MeteoriteStructure",
+      "sha256": "ceb7aa2721533682aa03efd7eecf945869f06de002465289d1fa278bac2e969e"
+    },
+    "meteorPiece": {
+      "jar": "appliedenergistics2-19.2.18.jar",
+      "class": "appeng.worldgen.meteorite.MeteoriteStructurePiece",
+      "sha256": "63a267081818e72cabe9575ad98efee4923328ad3cabce51712a448016099d62"
+    },
+    "meteorPlacer": {
+      "jar": "appliedenergistics2-19.2.18.jar",
+      "class": "appeng.worldgen.meteorite.MeteoritePlacer",
+      "sha256": "6ab3cb4dfd6a87151d565e1134fb1506eddbf2e8a0f80c48a2e85ee70930a97b"
+    },
+    "meteorPutter": {
+      "jar": "appliedenergistics2-19.2.18.jar",
+      "class": "appeng.worldgen.meteorite.MeteoriteBlockPutter",
+      "sha256": "9d3fda26a85bfc175ff9e33532f2fcd25f6e61ead8d1246247f3789fb8d5ace7"
+    },
+    "multiblocks": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.init.MultiblockMachines",
+      "sha256": "ec63cf6433b7d1e6539b1fced6e1dec6fc01d17dd2bcab8ec383d8f441fcbfff"
+    },
+    "shape": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.multiblocks.ShapeTemplate$Builder",
+      "sha256": "19c3730934502e2fe669d61d2901d69b48d03cda8956818c70dfb19e5875be38"
+    },
+    "electric": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.blockentities.multiblocks.ElectricCraftingMultiblockBlockEntity",
+      "sha256": "0d9de96aef9bbf64a7cefc491237beccb5872dcbb1caf6afbae08b56e64a4b35"
+    },
+    "itemHatch": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.blockentities.hatches.ItemHatch",
+      "sha256": "ebff73af8b4f289e929b2811186ff93a80f301e3b584878114c27971769540f7"
+    },
+    "upgrades": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.components.UpgradeComponent",
+      "sha256": "b2c87532986646b1aaf86cbc393fe457ae8c113c99098f44d37895f19cc9cbd6"
+    },
+    "tier": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.init.MachineTier",
+      "sha256": "98a53961ea2565fe2626c3608172fdcdc76f01493a29880ddc417d4cce93775f"
+    },
+    "meteorRegistrar": {
+      "jar": "appliedenergistics2-19.2.18.jar",
+      "class": "appeng.init.worldgen.InitStructures",
+      "sha256": "e14e1d1963eb43de5438f455178a927d0d96bb51a2108f4964de68ff4fd619be"
+    },
+    "hatches": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.init.MultiblockHatches",
+      "sha256": "26b986a2752792d24beef50799113126472c7b380fa8dcce49f1543fd1e82725"
+    },
+    "crafter": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.components.CrafterComponent",
+      "sha256": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6"
+    },
+    "singleInit": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      "sha256": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5"
+    },
+    "singleElectric": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.blockentities.ElectricCraftingMachineBlockEntity",
+      "sha256": "76ead9b8226a84b654965e8903c12552beec781509394d37313f9c263bb66fd4"
+    },
+    "tfcTiers": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.TFCTiers",
+      "sha256": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb"
+    }
+  },
+  "nativeJars": {
+    "appliedenergistics2-19.2.18.jar": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39",
+    "Modern-Industrialization-2.5.10.jar": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca",
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440"
+  }
+}

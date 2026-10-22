@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/beryllium_copper"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/beryllium_copper",
+    "amount": 100
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

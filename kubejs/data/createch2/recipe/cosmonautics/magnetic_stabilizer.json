@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "CTC",
+    "RBR"
+  ],
+  "key": {
+    "S": {
+      "tag": "createch2:iridium_sensors"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "C": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "T": {
+      "item": "rocketnautics:titanium_casing"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "B": {
+      "tag": "c:storage_blocks/iron"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:magnetic_stabilizer",
+    "count": 1
+  }
+}

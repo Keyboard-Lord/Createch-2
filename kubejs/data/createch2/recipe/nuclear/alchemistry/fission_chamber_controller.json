@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NEN",
+    "CFC",
+    "NRN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "E": {
+      "tag": "createch2:control/environment/harsh"
+    },
+    "C": {
+      "item": "mekanismgenerators:control_rod_assembly"
+    },
+    "F": {
+      "item": "alchemistry:fission_core"
+    },
+    "R": {
+      "item": "mekanismgenerators:fission_reactor_logic_adapter"
+    }
+  },
+  "result": {
+    "id": "alchemistry:fission_chamber_controller",
+    "count": 1
+  }
+}

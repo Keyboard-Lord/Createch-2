@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_native_platinum/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_platinum/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_native_platinum/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_platinum/granite",
+      "required": false
+    }
+  ]
+}

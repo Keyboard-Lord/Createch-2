@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_GREATE_RESEARCH_CORE_ENTRY_PRESERVATION",
+  "before": "bfbe4ed7145d0aa856da609838cd3567c4d0d7c0458e2fd78cbc178e0f661d53",
+  "after": "6e4ba1c372419758b229a8813730bd7bbddf3a09445f19a45eb785f9497b568b",
+  "added": [
+    "createch2/core/mixin/compat/GreateRecipeResearchMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 374,
+  "unchangedEntriesSha256": "b1eda14eafe6f133f87aa3d703d5edee97b73800fec6a4af1fa8e9d65d3497e7",
+  "sourceCheckpoint": "02000b4",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-bfbe4ed7145d0aa856da609838cd3567c4d0d7c0458e2fd78cbc178e0f661d53.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/GreateRecipeResearchMixin.class": {
+      "before": null,
+      "after": "150bc3e77f2c0e7af8bf97deec560238ba9016cf4b39a46765fde19922fb7526"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "5e7708b134e20846c8eff5b7f0564f05a21268ad3cc0a9115217324fec12e4bf",
+      "after": "11fb7f8d0aefa19db31c79e295e43f7f242d65bc2488f8ccb1c9488d3283a774"
+    },
+    "createch2core.mixins.json": {
+      "before": "515c61b738bd4608d72a9e58e35a8bd4ee2fbc60592218a16ab65d73fa29be36",
+      "after": "7bbb3f3dc2f3c8aa1f9e5054d1d55483a2bd5b15d4121555c0aebe568f739a50"
+    }
+  },
+  "scope": "Only current-team filtering of Greate native cached selection,with native predicates/cache/order preserved; required common binding guard. Native acceptance pending."
+}

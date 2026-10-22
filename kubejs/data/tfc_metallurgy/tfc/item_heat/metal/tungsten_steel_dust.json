@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/tungsten_steel"
+    },
+    {
+      "tag": "c:physical_dusts/tungsten_steel"
+    }
+  ],
+  "heat_capacity": 0.25,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

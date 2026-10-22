@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:compacting",
+  "recipe_tier": 4,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "modern_industrialization:polyethylene",
+      "amount": 864
+    }
+  ],
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "greate:polyethylene_belt_connector"
+    }
+  ]
+}

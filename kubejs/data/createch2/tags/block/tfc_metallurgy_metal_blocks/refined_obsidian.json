@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/refined_obsidian",
+      "required": false
+    }
+  ]
+}

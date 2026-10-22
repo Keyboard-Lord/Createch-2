@@ -1,0 +1,38 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:steel_rod_magnetic",
+      "amount": 2
+    },
+    {
+      "tag": "c:rods/steel",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:tin_cable",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:copper_wire",
+      "amount": 8
+    },
+    {
+      "item": "create:precision_mechanism",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 250
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:motor",
+      "amount": 2
+    }
+  ]
+}

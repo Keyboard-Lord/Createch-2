@@ -1,0 +1,108 @@
+{
+  "type": "sgjourney:lantea",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:lantea",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:lantea_deep_warm_ocean",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0.8,
+            "continentalness": -1,
+            "erosion": 0.3,
+            "weirdness": 0,
+            "depth": -0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_deep_warm_ocean",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.9,
+            "continentalness": -0.8,
+            "erosion": 0.6,
+            "weirdness": -0.3,
+            "depth": -0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_mirage_isles",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.5,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 0.4,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_white_cliffs",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.3,
+            "continentalness": 0.7,
+            "erosion": -0.8,
+            "weirdness": 0.8,
+            "depth": 0.6,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_rocky_reef",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 1,
+            "continentalness": -0.4,
+            "erosion": 0.2,
+            "weirdness": -0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_ancient_delta",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "weirdness": -0.9,
+            "depth": 0.85,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_bioshroom_caves",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0.4,
+            "weirdness": -0.3,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:lantea_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

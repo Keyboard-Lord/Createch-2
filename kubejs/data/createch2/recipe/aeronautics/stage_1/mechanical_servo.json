@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "SCS",
+    " B "
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "create:sequenced_gearshift"
+    },
+    "C": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "aeroworks:mechanical_servo",
+    "count": 1
+  }
+}

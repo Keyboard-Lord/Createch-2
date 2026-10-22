@@ -1,0 +1,52 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "XCCCCCCCY",
+    "CFFFFFFFC",
+    "CFMMMMMFC",
+    "CFMRNRMFC",
+    "CFUGSGUFC",
+    "CFMRNRMFC",
+    "CFMMMMMFC",
+    "CFFFFFFFC",
+    "CCCCCCCCC"
+  ],
+  "key": {
+    "X": {
+      "item": "gtceu:crystal_processor"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "Y": {
+      "item": "gtceu:luv_field_generator"
+    },
+    "F": {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    "M": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "R": {
+      "item": "rocketnautics:rocket_thruster"
+    },
+    "N": {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "U": {
+      "item": "modern_industrialization:uu_matter_bucket"
+    },
+    "G": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "S": {
+      "item": "avaritia:eternal_singularity"
+    }
+  },
+  "result": {
+    "id": "avaritia:star_fuel",
+    "count": 1
+  },
+  "tier": 4
+}

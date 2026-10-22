@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "HMH",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "aeronautics_utility_objects:hydraulic_connection_head",
+    "count": 1
+  }
+}

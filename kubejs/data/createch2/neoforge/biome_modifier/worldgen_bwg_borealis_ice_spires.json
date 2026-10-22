@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:bwg_borealis_ice_spires",
+  "features": [
+    "createch2:offworld/formations/borealis_ice_spires"
+  ],
+  "step": "local_modifications"
+}

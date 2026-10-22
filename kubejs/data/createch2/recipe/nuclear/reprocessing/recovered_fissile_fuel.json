@@ -1,0 +1,12 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "mekanism:oxidizing",
+  "input": {
+    "count": 1,
+    "item": "mekanism:reprocessed_fissile_fragment"
+  },
+  "output": {
+    "amount": 2000,
+    "id": "mekanism:fissile_fuel"
+  }
+}

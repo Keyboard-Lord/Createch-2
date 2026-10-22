@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/iridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/iridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/iridium",
+      "required": false
+    }
+  ]
+}

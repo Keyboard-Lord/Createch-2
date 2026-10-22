@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PC",
+    "GM"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "G": {
+      "item": "greate:andesite_alloy_gearbox"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_radar:auto_pitch_controller",
+    "count": 1
+  }
+}

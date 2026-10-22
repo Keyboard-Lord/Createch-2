@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": [
+    {
+      "tag": "c:nails/sterling_silver"
+    },
+    {
+      "tag": "c:rivets/sterling_silver"
+    },
+    {
+      "tag": "c:physical_screws/sterling_silver"
+    }
+  ],
+  "result_fluid": {
+    "id": "tfc:metal/sterling_silver",
+    "amount": 5
+  },
+  "temperature": 950
+}

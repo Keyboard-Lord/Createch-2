@@ -1,0 +1,109 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "chemicalHelper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.material.ChemicalHelper",
+      "sha256": "7a1d0342d9c0b804bee9560e0c2d6f1c4a19f238e13a9f6c4b9a0f7b1a960604"
+    },
+    "materialData": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.material.material.ItemMaterialData",
+      "sha256": "df9acaba7a0ed8713d09a58b6d75d9137b0390385e232b71f9995c51e2b8ad29"
+    },
+    "prefix": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.tag.TagPrefix",
+      "sha256": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b"
+    },
+    "blocks": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.block.GTBlocks",
+      "sha256": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868"
+    },
+    "predicates": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.multiblock.Predicates",
+      "sha256": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0"
+    },
+    "room": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.CleanroomMachine",
+      "sha256": "2072b7511b2b0cea17b3f6426cf875f74c648f6a36fe91b112a45acd49c6e5b2"
+    },
+    "logic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.trait.CleanroomLogic",
+      "sha256": "afd8e8da0b84fd35631061580c5325e582db2914d9ff7a98cd7548867eb16511"
+    },
+    "maintenance": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.MaintenanceHatchPartMachine",
+      "sha256": "f452175b38f9c14f62307bae05733cdf22b717c926be9912e42fd5918ee9bbb2"
+    },
+    "maintenanceInterface": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.feature.multiblock.IMaintenanceMachine",
+      "sha256": "62feba6f7fd82ba015a37c4abca72961452ae39eee89185c8e7c082f86ec9178"
+    },
+    "hatch": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.EnergyHatchPartMachine",
+      "sha256": "4e1dea2d2c9e938e27e27d10fbbb40b75d9c0c69fdf31b051336f36aecd3dc47"
+    },
+    "registry": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5"
+    },
+    "registryV": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "a66ab0bd952f7eba669fd69a9ee9c0131e1ec5ea5cee88ca8bdd0e134d6cd62a",
+      "verbose": true
+    },
+    "workable": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine",
+      "sha256": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5"
+    },
+    "parts": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.PartsRecipeHandler",
+      "sha256": "401b53a266d15470bfad6c303097deef1542ad57bca214f5154949bf157b9c4a"
+    },
+    "filters": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.block.CleanroomFilterType",
+      "sha256": "bbc4eae64fb19a9b39d848c4a8eee22cfcd0657eb53ae35b9131b9f94cdbf80c"
+    },
+    "hazards": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.capability.EnvironmentalHazardSavedData",
+      "sha256": "46a1e64265d0c05ae0716dd65a3b95fa76f74ca533631dea9fab2dd6505db97c"
+    },
+    "tools": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.ToolRecipeHandler",
+      "sha256": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77"
+    },
+    "baseLogic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.RecipeLogic",
+      "sha256": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04"
+    },
+    "energyList": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.misc.EnergyContainerList",
+      "sha256": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee"
+    }
+  },
+  "doorTag": {
+    "values": [
+      "minecraft:iron_door",
+      "#minecraft:wooden_doors"
+    ]
+  }
+}

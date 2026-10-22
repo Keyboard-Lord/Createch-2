@@ -1,0 +1,808 @@
+{
+  "scope": "Installed native startup lubricant, actual hardware and staged fluid bridge; static qualification only.",
+  "nativeClasses": {
+    "oven": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.CokeOvenBlockEntity",
+      false
+    ],
+    "coking": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.module.CokeOvenModule",
+      false
+    ],
+    "cokingRecipe": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.item.crafting.CokeOvenRecipe",
+      false
+    ],
+    "cokingSerializer": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.item.crafting.CokeOvenRecipe$Serializer",
+      false
+    ],
+    "ovenBlock": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.CokeOvenBricksBlock",
+      false
+    ],
+    "pattern": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.multiblock.MultiblockPattern",
+      false
+    ],
+    "patternBuilder": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.multiblock.MultiblockPattern$Builder",
+      false
+    ],
+    "miRegistration": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      false
+    ],
+    "miConfig": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines$Config",
+      false
+    ],
+    "miSteamCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.blockentities.SteamCraftingMachineBlockEntity",
+      false
+    ],
+    "miInventory": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.MachineInventoryComponent",
+      false
+    ],
+    "rcMultiblock": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.multiblock.MultiblockBlockEntity",
+      false
+    ],
+    "rcCooking": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.module.CookingModule",
+      false
+    ],
+    "rcTank": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.material.StandardTank",
+      false
+    ],
+    "rcFurnaceBlock": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.FurnaceMultiblockBlock",
+      false
+    ],
+    "rcPredicate": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.multiblock.BlockPredicate",
+      false
+    ],
+    "rcModules": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.module.ModuleDispatcher",
+      false
+    ],
+    "miSteamHelper": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.helper.SteamHelper",
+      false
+    ],
+    "miInventorySpec": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.MachineInventoryComponent$1",
+      false
+    ],
+    "miAbstractCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.blockentities.AbstractCraftingMachineBlockEntity",
+      false
+    ],
+    "miCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CrafterComponent",
+      false
+    ],
+    "rcMain": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.Railcraft",
+      false
+    ],
+    "rcCrafter": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.module.CrafterModule",
+      false
+    ],
+    "rcMultiblockBlock": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.MultiblockBlock",
+      false
+    ],
+    "miPipeBlock": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.impl.PipeBlock",
+      false
+    ],
+    "miPipeBlockEntity": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.impl.PipeBlockEntity",
+      false
+    ],
+    "miFluidConnection": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode$FluidConnection",
+      false
+    ],
+    "miCaps": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.MICapabilities",
+      false
+    ],
+    "miMachine": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.MachineBlockEntity",
+      false
+    ],
+    "rcListener": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.entity.multiblock.MultiblockListener",
+      false
+    ],
+    "rcModule": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.module.Module",
+      false
+    ],
+    "bridge_conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "bridge_basin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.basin.TieredBasinRecipe"
+    ],
+    "bridge_heat": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.HeatCondition"
+    ],
+    "bridge_factory": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      true
+    ],
+    "bridge_factoryCode": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues"
+    ],
+    "createBasin": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlockEntity",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "oven": "4eb340ff12ea5150a31bb1410337806aa1c9653d008167f3da04078a313fd837",
+    "coking": "f142f431e8b5c2c4495de5fc72f8c86dfcec2cddcef3a96868107a88623825d0",
+    "cokingRecipe": "68b9fea77fe5a9affd44402be322ed644fcc0f19377af9ca342aa5e71a2b9ded",
+    "cokingSerializer": "0e992162e98fa01bad064316b64a926499b31b172d72c41622c7f5087e1185ea",
+    "ovenBlock": "d4a122bdf83661841ff8fa51089e26507e6a8d469297e75924c2460556aca8e4",
+    "pattern": "9c736758caab43a6aa74796c73fbed2e1be9aeb9b44ad07e2498d4b5bbcaee0b",
+    "patternBuilder": "44e8c4af0144019dc4181e130ea5b3a35db970cb0c68c845d5cb02d277c9826b",
+    "miRegistration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+    "miConfig": "4f5f4c0f931a21161b9358d60a121178a600da92b8e6ab56bedda2c710ae9de7",
+    "miSteamCrafter": "fa9e348b7183130b150c77602997a165e2cbdfe281d2bc8d2ddbb15e1993038f",
+    "miInventory": "cb3aa919df36897eb9ff94c4cb008c1fa613a344b7cbbb72c8cd21323f476311",
+    "rcMultiblock": "a7b3f8f210be411566e9b4b64a5d7f5412ab43db9342372f0e037e1bb5f444de",
+    "rcCooking": "9fa54101391cd7e50354b9f864d56abd6a340aaa7f8c0d77c631644c434c6b31",
+    "rcTank": "ab413f6d365f385f20b68f38820837d8426f18d00fd1367b68407591c89685b8",
+    "rcFurnaceBlock": "bc76d82b16465ef7af332b877930a2421999bdd02cd80cc65d48835ac770695d",
+    "rcPredicate": "3879d84b9c11fa67185c623b076f9f5f09ffb1ec92bdef3fce4d3d63474be754",
+    "rcModules": "e194e68e1c00c9014ee0b153830f8255f773d996a70d2c0676d2eb274937b3f3",
+    "miSteamHelper": "434348c4dfa11c8664a733675726d8ba79a459e583018d3b8d76c1f7103390fd",
+    "miInventorySpec": "dbd8da8de15bb523be32a71ef0d144a348fe45f5dd3aad2a917d2b0759a64ef8",
+    "miAbstractCrafter": "759d67ed3e969a1d58278c0f92324d1caf8ada47927d803e27daecc70a1b45da",
+    "miCrafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+    "rcMain": "19d574d58c5881515918e98275b75ab31e4cbcbdaedf32b9a34e66b3ffed904e",
+    "rcCrafter": "7a3051be5607c057cca75b6ce61f626ce7415a52543cd1454da2c5c9be521b67",
+    "rcMultiblockBlock": "08d51eaa8df99a6a918cbdfb289c59dcaa66b25798913e3705b1d2c9576c9dc9",
+    "miPipeBlock": "22f92a536f18c0b92d9c84d8d3f3d5c0ea917e74ea6b14822af73ffdfa75a70d",
+    "miPipeBlockEntity": "87d01cc1839090c40ec60cfaa6335ecdd73ba827cb121df59e99b7131308b371",
+    "miFluidConnection": "7a0bfcbf29f7439f0c4b6eff307322e58d80449a62038a32e3c7532c1d72b670",
+    "miCaps": "feab40ff5322b41445faef3b11a741e10fb32a7adbc8d2bd0f6fd430ce36f657",
+    "miMachine": "258c86f3bb1a8e6ee9e2838aec85e9e31d9663dd230199baaa105b4aaa36293f",
+    "rcListener": "a4b138ff8aa10833dc93dc14828242cf6e75b271f74f48040c8508a5d471b489",
+    "rcModule": "6d0ea354993377abbffb1ff7ac9c1c0186320d7564492e0042d495f6363c65b8",
+    "bridge_conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "bridge_basin": "099173638d0b2b6870c8f155da637a3a477fa45d6f7df849894420e16bd3b3bf",
+    "bridge_heat": "319fc5fe8f5960caa8840bf2dbc550733d2797101b647335108aa6e9d55c625b",
+    "bridge_factory": "2adb4be912ed372db9ea6c536854ce3951fc032821563300614f1b89916da2f7",
+    "bridge_factoryCode": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "createBasin": "7e90ced4daec284d3e2bf63c44d4510e918f22bf0381e312a355adfa0f819db8"
+  },
+  "ids": {
+    "waterWheel": "createch2:age_foundation/create/water_wheel",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "smallCog": "createch2:greate/tier_0/cogwheel",
+    "gearbox": "createch2:greate/tier_0/gearbox",
+    "foundryLid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "bufferCraft": "create:crafting/kinetics/fluid_tank",
+    "oven": "createch2:heavy_industry/railcraft/coke_oven_bricks",
+    "mixer": "createch2:age_foundation/mi_bronze/mixer",
+    "bridgeMixer": "createch2:greate/tier_0/mechanical_mixer",
+    "basin": "createch2:age_foundation/create/basin",
+    "whisk": "create:crafting/kinetics/whisk",
+    "coking": "railcraft:coke_oven/charcoal",
+    "lubricant": "modern_industrialization:materials/mixer/lubricant",
+    "bridge": "createch2:fluid_compat/mi_lubricant_to_tfmg_lubrication_oil"
+  },
+  "recipes": {
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/gearbox": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CSC",
+        "PHP",
+        " S "
+      ],
+      "key": {
+        "C": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "P": {
+          "item": "create:andesite_alloy"
+        },
+        "H": {
+          "item": "create:andesite_casing"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_gearbox",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "createch2:heavy_industry/railcraft/coke_oven_bricks": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "FFF",
+        "CBC",
+        "FFF"
+      ],
+      "key": {
+        "F": {
+          "item": "tfc:fire_bricks"
+        },
+        "C": {
+          "tag": "c:plates/cast_iron"
+        },
+        "B": {
+          "item": "modern_industrialization:fire_clay_bricks"
+        }
+      },
+      "result": {
+        "id": "railcraft:coke_oven_bricks",
+        "count": 4
+      }
+    },
+    "createch2:age_foundation/mi_bronze/mixer": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "RGR",
+        "PMP",
+        "FBF"
+      ],
+      "key": {
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:heavy_gears/copper"
+        },
+        "P": {
+          "item": "modern_industrialization:bronze_plate"
+        },
+        "M": {
+          "item": "modern_industrialization:bronze_machine_casing"
+        },
+        "F": {
+          "tag": "modern_industrialization:fluid_pipes"
+        },
+        "B": {
+          "item": "create:brass_casing"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:bronze_mixer",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/mechanical_mixer": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        "SCS",
+        " W "
+      ],
+      "key": {
+        "G": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "W": {
+          "item": "create:whisk"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_mixer",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/basin": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A A",
+        "ALA",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:basin",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/whisk": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "S": {
+          "tag": "c:plates/iron"
+        }
+      },
+      "pattern": [
+        " C ",
+        "SCS",
+        "SSS"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:whisk"
+      }
+    },
+    "railcraft:coke_oven/charcoal": {
+      "type": "railcraft:coking",
+      "cookingTime": 300,
+      "creosoteOutput": 250,
+      "experience": 0.0,
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "result": {
+        "count": 1,
+        "id": "minecraft:charcoal"
+      }
+    },
+    "modern_industrialization:materials/mixer/lubricant": {
+      "type": "modern_industrialization:mixer",
+      "eu": 2,
+      "duration": 100,
+      "item_inputs": {
+        "item": "minecraft:redstone",
+        "amount": 1
+      },
+      "fluid_inputs": {
+        "tag": "c:creosote",
+        "amount": 500
+      },
+      "fluid_outputs": {
+        "fluid": "modern_industrialization:lubricant",
+        "amount": 500
+      }
+    },
+    "createch2:fluid_compat/mi_lubricant_to_tfmg_lubrication_oil": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:mixing",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "fluid": "modern_industrialization:lubricant",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:lubrication_oil",
+          "amount": 1000
+        }
+      ],
+      "recipe_tier": 0
+    }
+  },
+  "kinds": {
+    "createch2:age_foundation/create/water_wheel": "authored",
+    "createch2:age_foundation/create/shaft": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored",
+    "createch2:greate/tier_0/gearbox": "authored",
+    "createch2:age_foundation/foundry/basin_foundry_lid": "authored",
+    "createch2:age_foundation/mi_bronze/fluid_pipe": "authored",
+    "create:crafting/kinetics/fluid_tank": "native",
+    "createch2:heavy_industry/railcraft/coke_oven_bricks": "authored",
+    "createch2:age_foundation/mi_bronze/mixer": "authored",
+    "createch2:greate/tier_0/mechanical_mixer": "authored",
+    "createch2:age_foundation/create/basin": "authored",
+    "create:crafting/kinetics/whisk": "native",
+    "railcraft:coke_oven/charcoal": "native",
+    "modern_industrialization:materials/mixer/lubricant": "native",
+    "createch2:fluid_compat/mi_lubricant_to_tfmg_lubrication_oil": "authored"
+  },
+  "runtimeBridgeId": "greate:integration/createch2/fluid_compat/mi_lubricant_to_tfmg_lubrication_oil",
+  "runtimeBridgeData": {
+    "type": "greate:mixing",
+    "recipe_tier": 0,
+    "ingredients": [
+      {
+        "type": "neoforge:single",
+        "fluid": "modern_industrialization:lubricant",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "id": "tfmg:lubrication_oil",
+        "amount": 1000
+      }
+    ],
+    "processing_time": 0
+  },
+  "oven": {
+    "layers": [
+      [
+        "BBB",
+        "BBB",
+        "BBB"
+      ],
+      [
+        "BWB",
+        "WAW",
+        "BWB"
+      ],
+      [
+        "BBB",
+        "BBB",
+        "BBB"
+      ]
+    ],
+    "masterOffset": [
+      2,
+      1,
+      2
+    ],
+    "blocks": 26,
+    "capacityMb": 64000,
+    "blockCrafts": 7,
+    "blocksProduced": 28,
+    "spareBlocks": 2,
+    "craftInputs": {
+      "tfc:fire_bricks": 42,
+      "#c:plates/cast_iron": 14,
+      "modern_industrialization:fire_clay_bricks": 7
+    },
+    "formation": "Native NeighborNotifyEvent emits Railcraft NEIGHBOR_NOTIFY; multiblock listener enqueues evaluation; server tick evaluates the pattern. Interact with a formed member to open the master menu. Keep center air and all26blocks intact."
+  },
+  "layout": {
+    "ovenMin": [
+      -8,
+      0,
+      0
+    ],
+    "ovenMax": [
+      -6,
+      2,
+      2
+    ],
+    "ovenAir": [
+      -7,
+      1,
+      1
+    ],
+    "bronzeMixer": [
+      -3,
+      1,
+      1
+    ],
+    "boiler": [
+      -3,
+      1,
+      -3
+    ],
+    "basin": [
+      0,
+      0,
+      0
+    ],
+    "bridgeMixer": [
+      0,
+      2,
+      0
+    ],
+    "buffer": [
+      0,
+      0,
+      -3
+    ],
+    "spout": [
+      0,
+      0,
+      -6
+    ],
+    "depot": [
+      0,
+      -2,
+      -6
+    ],
+    "pipeRuns": {
+      "creosote": [
+        [
+          -5,
+          1,
+          1
+        ],
+        [
+          -4,
+          1,
+          1
+        ]
+      ],
+      "steam": [
+        [
+          -3,
+          1,
+          -2
+        ],
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          -3,
+          1,
+          0
+        ]
+      ],
+      "lubricant": [
+        [
+          -3,
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          3
+        ],
+        [
+          -2,
+          1,
+          3
+        ],
+        [
+          -1,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "oilBuffer": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -2
+        ]
+      ],
+      "oilSpout": [
+        [
+          0,
+          0,
+          -4
+        ],
+        [
+          0,
+          0,
+          -5
+        ]
+      ]
+    },
+    "handling": "Keep the basin facing DOWN, retaining output in its tanks. Separate five pipe networks. Use uncamo connection GUI. Select insertion/extraction deliberately. Stage two500mBlubricant runs per1000mBbridge batch. Disable basin extraction until that batch finishes with empty input; stop lubricant feed before enabling oil extraction, then drain output completely before repeating. This avoids draining unprocessed input through the combined capability. Collect2000mBoil in ordinary non-boiler8Ltank; refill1000mBspout twice over depot. No filter item, fluid pump, extra heat or block-recovery drop is credited."
+  },
+  "limits": [
+    "Selected native Railcraft log coking and2EU/t MI bronze mixer feed the existing tier0ambient Greate compatibility bridge. This is a scoped earlier-workshop supplier proof, not whole Stone-to-oil or17-age acceptance.",
+    "Earlier foundry metals, fire bricks, redstone, precision/casing materials, boiler fuel/water supply and finite aggregate workshop stock remain explicit boundaries. Eight coking charcoal byproducts are recorded without asserting a cold-boiler fuel budget.800EUis recipe work, not guaranteed total steam production/consumption or elapsed time.",
+    "The hollow26block oven requires native formation and master handling.300is declared duration;16unit progress steps round to19steps, with native scheduling/start/output delays still conditional. Output and tank room must be available before debit.",
+    "Native bronze-mixer steam and process slots, basin input/output storage and MI NeoForge connections are pinned. The staged pipe schedule requires actual complete transfer, empty input and disabled unwanted connections; no loaded fluid/inventory simulation is performed.",
+    "One8RPM8SUwater source runs the4SUmixer within tier0limit8. Existing native physical mixer/gearbox/cog geometry is reused without a burner or chute. NONE heat accepts ambient NONE.",
+    "The existing exact native bucket/spout supplier is composed without inherited oil. Its steel steam packer and steel curved plates still require the earlier steel workshop; the molten first-steel source remains open.",
+    "Actual native event delivery, generation/log collection, loaded recipes/conversion/mixins/capabilities, formation, fluid handling, heat/fuel/flow, stock quantities, machine work and quest completion remain runtime qualification. No launch, save/performance test or packaging."
+  ]
+}

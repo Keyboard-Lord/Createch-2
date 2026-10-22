@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/antimony",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/antimony",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/antimony",
+      "required": false
+    }
+  ]
+}

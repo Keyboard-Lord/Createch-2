@@ -1,0 +1,51 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create_radar:auto_yaw_controller"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:propulsion_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mil_04_instrumented_ballistics",
+    "createch2:air_03_long_range_airframes",
+    "createch2:ele_04_high_energy_grid"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_05_automated_defense.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_05_automated_defense.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:create_radar/crafting/auto_pitch_controller",
+      "createch2:create_radar/crafting/auto_yaw_controller",
+      "createch2:create_radar/crafting/guided_fuze",
+      "createch2:cbc_ballistics/cannon_control",
+      "createch2:cbc_ballistics/artillery_coordinator",
+      "createch2:military/infantry/gun/m107",
+      "createch2:military/infantry/gun/rpg7",
+      "createch2:military/air_defense/launcher",
+      "createch2:military/air_defense/c75_interceptor"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "SBS",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "modern_industrialization:redstone_battery"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:oxygen_tank",
+    "count": 1
+  }
+}

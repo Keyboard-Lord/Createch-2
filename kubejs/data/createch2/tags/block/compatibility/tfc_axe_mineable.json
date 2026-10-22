@@ -1,0 +1,327 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs_that_burn",
+    "#minecraft:planks",
+    {
+      "id": "tfc:wood/log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/log/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/willow",
+      "required": false
+    }
+  ]
+}

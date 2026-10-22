@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "tag": "c:sands"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "tfmg:fireclay_ball"
+    }
+  ],
+  "recipe_tier": 0
+}

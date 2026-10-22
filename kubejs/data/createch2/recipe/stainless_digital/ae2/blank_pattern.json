@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QGQ",
+    "GCG",
+    "SRS"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "G": {
+      "tag": "c:dusts/glowstone"
+    },
+    "C": {
+      "tag": "c:gems/certus_quartz"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result": {
+    "id": "ae2:blank_pattern",
+    "count": 2
+  }
+}

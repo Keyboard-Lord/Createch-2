@@ -1,0 +1,58 @@
+{
+  "shaders": [
+    null,
+    {
+      "texShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex",
+        "gtm$isImplicit": false
+      },
+      "texColorShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex_color",
+        "gtm$isImplicit": false
+      },
+      "displayName": {
+        "translate": "gui.darkmodeeverywhere.perfect_dark"
+      },
+      "divideFactor": 5.5,
+      "darkColorReplacement": 16777215
+    },
+    {
+      "texShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex",
+        "gtm$isImplicit": false
+      },
+      "texColorShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex_color",
+        "gtm$isImplicit": false
+      },
+      "displayName": {
+        "translate": "gui.darkmodeeverywhere.less_perfect_dark"
+      },
+      "divideFactor": 3.5,
+      "darkColorReplacement": 16777215
+    },
+    {
+      "texShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex",
+        "gtm$isImplicit": false
+      },
+      "texColorShaderLocation": {
+        "namespace": "darkmodeeverywhere",
+        "path": "dark_position_tex_color",
+        "gtm$isImplicit": false
+      },
+      "displayName": {
+        "translate": "gui.darkmodeeverywhere.toasted_light"
+      },
+      "divideFactor": 1.25,
+      "darkColorReplacement": 16773334
+    }
+  ],
+  "version": 2,
+  "selectedShaderIndex": 1
+}

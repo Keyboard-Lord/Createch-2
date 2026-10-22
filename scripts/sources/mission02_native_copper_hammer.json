@@ -1,0 +1,240 @@
+{
+  "ids": {
+    "craft": "tfc:crafting/metal/hammer/copper",
+    "mold": "tfc:knapping/ceramic/unfired_hammer_head_mold",
+    "firedMold": "tfc:heating/ceramic/hammer_head_mold",
+    "head": "tfc:casting/copper_hammer_head",
+    "molten": "tfc:heating/metal/ingot/copper",
+    "rod": "tfc:anvil/metal/rod/copper",
+    "stamen": "tfc_items:anvil/copper_stamen",
+    "rivet": "tfc_items:anvil/copper_rivet"
+  },
+  "recipes": {
+    "tfc:crafting/metal/hammer/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "key": {
+            "S": {
+              "tag": "c:rods/wooden"
+            },
+            "X": {
+              "item": "tfc:metal/hammer_head/copper"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "modifiers": [
+              {
+                "type": "tfc:copy_forging_bonus"
+              }
+            ],
+            "stack": {
+              "count": 1,
+              "id": "tfc:metal/hammer/copper"
+            }
+          }
+        }
+      },
+      {
+        "provider": "tfc_metal_tools-1.21.1-neoforge-1.0.7.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "pattern": [
+            "NX",
+            "HG"
+          ],
+          "key": {
+            "N": {
+              "tag": "c:rivets/copper"
+            },
+            "X": {
+              "item": "tfc:metal/hammer_head/copper"
+            },
+            "G": {
+              "tag": "c:glue"
+            },
+            "H": {
+              "tag": "c:handle/medium"
+            }
+          },
+          "result": {
+            "stack": {
+              "count": 1,
+              "id": "tfc:metal/hammer/copper"
+            },
+            "modifiers": [
+              {
+                "type": "tfc:copy_forging_bonus"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "tfc:knapping/ceramic/unfired_hammer_head_mold": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "knapping_type": "tfc:clay",
+          "pattern": [
+            "#####",
+            "     ",
+            "     ",
+            "## ##",
+            "#####"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:ceramic/unfired_hammer_head_mold"
+          }
+        }
+      }
+    ],
+    "tfc:heating/ceramic/hammer_head_mold": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "item": "tfc:ceramic/unfired_hammer_head_mold"
+          },
+          "result_item": {
+            "count": 1,
+            "id": "tfc:ceramic/hammer_head_mold"
+          },
+          "temperature": 1399
+        }
+      }
+    ],
+    "tfc:casting/copper_hammer_head": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:casting",
+          "fluid": {
+            "amount": 100,
+            "fluid": "tfc:metal/copper"
+          },
+          "mold": {
+            "item": "tfc:ceramic/hammer_head_mold"
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:metal/hammer_head/copper"
+          }
+        }
+      }
+    ],
+    "tfc:heating/metal/ingot/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result_fluid": {
+            "amount": 100,
+            "id": "tfc:metal/copper"
+          },
+          "temperature": 1080
+        }
+      }
+    ],
+    "tfc:anvil/metal/rod/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:anvil",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "tfc:metal/rod/copper"
+          },
+          "rules": [
+            "hit_last",
+            "hit_second_last",
+            "hit_third_last"
+          ],
+          "tier": 1
+        }
+      }
+    ],
+    "tfc_items:anvil/copper_stamen": [
+      {
+        "provider": "TFC-items-1.21.1-neoforge-1.2.1.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc"
+            }
+          ],
+          "type": "tfc:anvil",
+          "ingredient": {
+            "tag": "c:rods/copper"
+          },
+          "result": {
+            "id": "tfc_items:copper_stamen",
+            "count": 2
+          },
+          "tier": 1,
+          "rules": [
+            "bend_last",
+            "draw_second_last",
+            "draw_third_last"
+          ]
+        }
+      }
+    ],
+    "tfc_items:anvil/copper_rivet": [
+      {
+        "provider": "TFC-items-1.21.1-neoforge-1.2.1.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc"
+            }
+          ],
+          "type": "tfc:anvil",
+          "ingredient": {
+            "item": "tfc_items:copper_stamen"
+          },
+          "result": {
+            "id": "tfc_items:copper_rivet",
+            "count": 5
+          },
+          "tier": 1,
+          "rules": [
+            "draw_not_last",
+            "bend_any",
+            "hit_any"
+          ]
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "anvil": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.AnvilBlockEntity"
+    ],
+    "tags": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTags$Items"
+    ]
+  },
+  "nativeCodeSha256": {
+    "anvil": "57bced1600033241dd3f7d202cab2f1269112f79ed025a56ffaa206eaf80ae6c",
+    "tags": "38eb2027b31a6bc5fcd653f1ac8774cd98e1b06f2b65da01264c169144e0e4a0"
+  }
+}

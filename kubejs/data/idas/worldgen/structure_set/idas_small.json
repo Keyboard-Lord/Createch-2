@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "idas:ancient_statue/ancient_statue_plains",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_jungle",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_desert",
+      "weight": 2
+    },
+    {
+      "structure": "idas:train_ruins",
+      "weight": 3
+    },
+    {
+      "structure": "idas:snifferhenge",
+      "weight": 1
+    },
+    {
+      "structure": "idas:frozen_crypt",
+      "weight": 2
+    },
+    {
+      "structure": "idas:abandoned_lighthouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480673,
+    "spacing": 80,
+    "separation": 52,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "#idas:small_avoid"
+    }
+  }
+}

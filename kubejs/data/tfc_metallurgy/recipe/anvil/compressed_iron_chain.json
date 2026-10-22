@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "count": 16,
+    "id": "tfc_metallurgy:metal/chain/compressed_iron"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_any",
+    "hit_any",
+    "draw_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "apply_bonus": false
+}

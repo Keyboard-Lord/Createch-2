@@ -1,0 +1,1 @@
+{"type":"tfc:anvil","apply_bonus":true,"ingredient":{"tag":"c:sheets/bismuth_bronze"},"result":{"count":1,"id":"tfc:metal/fish_hook/bismuth_bronze"},"rules":["hit_any","bend_any","draw_not_last"],"tier":2}

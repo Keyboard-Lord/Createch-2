@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": [
+    "mekanism:ore_osmium_upper",
+    "mekanism:ore_osmium_middle",
+    "mekanism:ore_osmium_small"
+  ],
+  "step": "underground_ores"
+}

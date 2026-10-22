@@ -1,0 +1,83 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:fusion_reactor"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:nuclear_assays",
+      "createch2:grid_telemetry",
+      "createch2:process_samples",
+      "createch2:frontier_observations"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:nuc_05_fusion_fuels",
+    "createch2:thm_04_plasma_dynamics",
+    "createch2:ele_05_extreme_power_systems",
+    "createch2:com_06_quantum_computation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_06_controlled_fusion.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_06_controlled_fusion.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/fusion/chamber",
+      "createch2:quantum/fusion/reactor_workpiece",
+      "createch2:quantum/fusion/reactor_assembly",
+      "createch2:quantum/fusion/tfmg_generator",
+      "createch2:research/pack/nuclear_assays_fusion",
+      "createch2:greate/tier_6/cogwheel",
+      "createch2:greate/tier_6/crushing_wheel",
+      "createch2:greate/tier_6/encased_fan",
+      "createch2:greate/tier_6/gearbox",
+      "createch2:greate/tier_6/horizontal_gearbox",
+      "createch2:greate/tier_6/large_cogwheel",
+      "createch2:greate/tier_6/mechanical_mixer",
+      "createch2:greate/tier_6/mechanical_press",
+      "createch2:greate/tier_6/mechanical_pump",
+      "createch2:greate/tier_6/mechanical_saw",
+      "createch2:greate/tier_6/millstone",
+      "createch2:greate/tier_6/shaft_cutting",
+      "createch2:greate/tier_6/vertical_gearbox",
+      "createch2:material_recycling/tfmg_electric/generator",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_cogwheel",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_crushing_wheel",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_encased_fan",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_gearbox",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/large_rhodium_plated_palladium_cogwheel",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_mechanical_mixer",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_mechanical_press",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_mechanical_pump",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_mechanical_saw",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_millstone",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_shaft",
+      "createch2:material_recycling/greate_rhodium_plated_palladium/rhodium_plated_palladium_vertical_gearbox",
+      "createch2:greate/belts/polytetrafluoroethylene",
+      "createch2:greate/suppliers/copper_element_feed",
+      "createch2:greate/suppliers/sulfur_element_feed",
+      "createch2:greate/suppliers/rhodium_fusion",
+      "createch2:greate/suppliers/rhodium_compaction",
+      "createch2:greate/suppliers/rpp_blend",
+      "createch2:greate/suppliers/rpp_reduction",
+      "createch2:greate/suppliers/rpp_plate",
+      "createch2:greate/suppliers/luv_hull"
+    ]
+  }
+}

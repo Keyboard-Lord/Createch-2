@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CHC",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/titanium"
+    },
+    "G": {
+      "item": "greate:stainless_steel_mechanical_mixer"
+    },
+    "C": {
+      "item": "greate:titanium_cogwheel"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "greate:titanium_mechanical_mixer",
+    "count": 1
+  }
+}

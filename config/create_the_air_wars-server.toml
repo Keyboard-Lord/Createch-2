@@ -1,0 +1,15 @@
+[camera_monitor]
+	#Maximum camera monitor refresh rate in frames per second.
+	#Recommended range: 4-12
+	# Default: 8
+	# Range: 1 ~ 20
+	feed_fps = 8
+	#Camera monitor render resolution. Supported values: 64, 96, 128, 192, 256, 384, 512, 768, 1024
+	# Default: 512
+	# Range: 64 ~ 1024
+	feed_resolution = 512
+	#Camera monitor chunk view distance.
+	#Default: 6
+	# Default: 6
+	# Range: 1 ~ 16
+	feed_view_distance = 6

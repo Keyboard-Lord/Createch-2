@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "c:dusts/chromium"
+  },
+  "result": {
+    "id": "modern_industrialization:chromium_ingot"
+  }
+}

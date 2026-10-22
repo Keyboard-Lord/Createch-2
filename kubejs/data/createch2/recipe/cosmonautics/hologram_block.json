@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AGA",
+    "ITI",
+    "PPP"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "T": {
+      "item": "rocketnautics:titanium_casing"
+    },
+    "P": {
+      "item": "modern_industrialization:titanium_plate"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:hologram_block",
+    "count": 1
+  }
+}

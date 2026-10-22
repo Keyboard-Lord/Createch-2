@@ -1,0 +1,35 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "tag": "c:dusts/coal"
+    },
+    {
+      "tag": "c:dusts/fluorite"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:nitric_acid",
+      "nbt": {}
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 250,
+      "id": "chemica:nitrous_oxide"
+    },
+    {
+      "amount": 250,
+      "id": "minecraft:water"
+    }
+  ],
+  "processing_time": 200,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

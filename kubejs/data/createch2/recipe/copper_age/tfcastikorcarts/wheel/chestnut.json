@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CPC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "P": {
+      "item": "tfc:wood/planks/chestnut"
+    }
+  },
+  "result": {
+    "id": "tfcastikorcarts:wheel/chestnut",
+    "count": 1
+  }
+}

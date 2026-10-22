@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "PHP",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "greate:naquadah_alloy_cogwheel"
+    },
+    "S": {
+      "item": "greate:naquadah_alloy_shaft"
+    },
+    "P": {
+      "tag": "c:plates/naquadah_alloy"
+    },
+    "H": {
+      "item": "greate:rhodium_plated_palladium_gearbox"
+    }
+  },
+  "result": {
+    "id": "greate:naquadah_alloy_gearbox",
+    "count": 1
+  }
+}

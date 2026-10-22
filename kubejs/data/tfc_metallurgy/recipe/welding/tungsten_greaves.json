@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "bonus": "copy_best",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_greaves/tungsten"
+  },
+  "second_input": {
+    "tag": "c:sheets/tungsten"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/greaves/tungsten"
+  }
+}

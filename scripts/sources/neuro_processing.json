@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "routes": [
+    {
+      "nativeName": "chloromethane_from_methane",
+      "type": "large_chemical_reactor",
+      "eu": 30,
+      "duration": 80,
+      "circuit": 3,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:chlorine",
+          "amount": 2000
+        },
+        {
+          "fluid": "modern_industrialization:methane",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "modern_industrialization:hydrochloric_acid",
+          "amount": 1000
+        },
+        {
+          "fluid": "gtceu:chloromethane",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "nativeName": "dimethylchlorosilane_from_chloromethane",
+      "type": "large_chemical_reactor",
+      "eu": 96,
+      "duration": 240,
+      "itemInputs": [
+        "#c:dusts/silicon"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:chloromethane",
+          "amount": 2000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:dimethyldichlorosilane",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "nativeName": "polydimethylsiloxane_from_dimethyldichlorosilane",
+      "type": "large_chemical_reactor",
+      "eu": 96,
+      "duration": 240,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:dimethyldichlorosilane",
+          "amount": 1000
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "3x gtceu:polydimethylsiloxane_dust"
+      ],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:diluted_hydrochloric_acid",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "nativeName": "silicone_rubber",
+      "type": "large_chemical_reactor",
+      "eu": 30,
+      "duration": 600,
+      "itemInputs": [
+        "9x gtceu:polydimethylsiloxane_dust",
+        "#c:dusts/sulfur"
+      ],
+      "inputFluids": [],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:silicone_rubber",
+          "amount": 1296
+        }
+      ]
+    },
+    {
+      "nativeName": "neuro_processor",
+      "type": "large_chemical_reactor",
+      "eu": 80000,
+      "duration": 600,
+      "cleanroom": "CLEANROOM",
+      "itemInputs": [
+        "gtceu:wetware_printed_circuit_board",
+        "16x gtceu:stem_cells",
+        "8x gtceu:polybenzimidazole_small_fluid_pipe",
+        "8x #c:plates/electrum",
+        "16x gtceu:silicone_rubber_foil",
+        "8x gtceu:tungsten_steel_bolt"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:sterilized_growth_medium",
+          "amount": 250
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:neuro_processing_unit"
+      ],
+      "outputFluids": []
+    }
+  ],
+  "authoredMappings": {
+    "fastener": "Tungsten-steel bolts replace HSSE bolts at the same eight-part / 100-unit budget. Existing earned alloy is used; native HSSE material equivalence is not claimed.",
+    "forming": "Shared MI moulding and Greate tier-five forming conserve native fluid/form material quantities; machine timing is authored."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T T",
+    "COC",
+    "TRT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "O": {
+      "item": "stellaris:big_oxygen_tank"
+    },
+    "R": {
+      "item": "stellaris:rocket_engine"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_chestplate",
+    "count": 1
+  }
+}

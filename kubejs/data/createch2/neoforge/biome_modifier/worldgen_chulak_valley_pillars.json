@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "createch2:chulak_arid_mountains",
+    "createch2:chulak_dry_bushland"
+  ],
+  "features": [
+    "createch2:chulak_valley_pillars"
+  ],
+  "step": "local_modifications"
+}

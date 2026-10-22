@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "rima_survey": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "sgjourney:rima"
+      }
+    },
+    "cavum_survey": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "sgjourney:cavum_tenebrae"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rima_survey"
+    ],
+    [
+      "cavum_survey"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "createch2:offworld_archaeology/tollan_address"
+    ]
+  }
+}

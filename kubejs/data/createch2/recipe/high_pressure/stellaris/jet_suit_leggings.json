@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TST",
+    "CDC",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "S": {
+      "item": "stellaris:solerium"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "D": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_leggings",
+    "count": 1
+  }
+}

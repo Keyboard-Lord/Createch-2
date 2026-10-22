@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#stellaris:mars_biomes",
+  "entity_types": [
+    "stellaris:martian_raptor"
+  ]
+}

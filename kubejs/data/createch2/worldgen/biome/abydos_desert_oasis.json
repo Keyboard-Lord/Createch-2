@@ -1,0 +1,56 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "fog_color": 13494015,
+    "foliage_color": 5157688,
+    "grass_color": 7844664,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
+    },
+    "sky_color": 11653631,
+    "water_color": 4570768,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "createch2:offworld/decoration/oasis_dripleaf",
+      "createch2:offworld/decoration/oasis_lake_palms",
+      "createch2:offworld/decoration/oasis_lilypads",
+      "createch2:offworld/decoration/oasis_moss",
+      "createch2:offworld/decoration/oasis_scattered_palms"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

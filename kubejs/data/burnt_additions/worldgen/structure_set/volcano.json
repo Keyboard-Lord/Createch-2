@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "burnt_additions:volcano",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 12,
+    "salt": 913472056
+  }
+}

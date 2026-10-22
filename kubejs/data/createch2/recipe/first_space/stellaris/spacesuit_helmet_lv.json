@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WTW",
+    "GCG",
+    "R R"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "stellaris:oxygen_tank"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:space_suit_helmet",
+    "count": 1
+  }
+}

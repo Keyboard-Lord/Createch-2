@@ -1,0 +1,80 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:vacuum_freezer"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:grid_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mat_04_titanium_chlorination",
+    "createch2:che_04_advanced_separations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_05_vacuum_titanium.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_05_vacuum_titanium.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:high_pressure/mi/vacuum_freezer",
+      "createch2:high_pressure/titanium/vacuum_refine_ingot",
+      "createch2:greate/tier_4/cogwheel",
+      "createch2:greate/tier_4/crushing_wheel",
+      "createch2:greate/tier_4/encased_fan",
+      "createch2:greate/tier_4/gearbox",
+      "createch2:greate/tier_4/horizontal_gearbox",
+      "createch2:greate/tier_4/large_cogwheel",
+      "createch2:greate/tier_4/mechanical_mixer",
+      "createch2:greate/tier_4/mechanical_press",
+      "createch2:greate/tier_4/mechanical_pump",
+      "createch2:greate/tier_4/mechanical_saw",
+      "createch2:greate/tier_4/millstone",
+      "createch2:greate/tier_4/shaft_cutting",
+      "createch2:greate/tier_4/vertical_gearbox",
+      "createch2:greate/belts/polyethylene",
+      "createch2:factory_scaling/materials/titanium_ingot_batch",
+      "createch2:factory_scaling/components/mi_large_advanced_motor_batch",
+      "createch2:factory_scaling/components/mi_large_advanced_pump_batch",
+      "createch2:material_recycling/aerospace_titanium/titanium_nozzle",
+      "createch2:material_recycling/aerospace_titanium/rcs_thruster",
+      "createch2:material_recycling/aerospace_titanium/rocket_thruster",
+      "createch2:material_recycling/aerospace_titanium/booster_thruster",
+      "createch2:material_recycling/aerospace_titanium/vector_thruster",
+      "createch2:material_recycling/greate_titanium/titanium_cogwheel",
+      "createch2:material_recycling/greate_titanium/titanium_crushing_wheel",
+      "createch2:material_recycling/greate_titanium/titanium_encased_fan",
+      "createch2:material_recycling/greate_titanium/titanium_gearbox",
+      "createch2:material_recycling/greate_titanium/large_titanium_cogwheel",
+      "createch2:material_recycling/greate_titanium/titanium_mechanical_mixer",
+      "createch2:material_recycling/greate_titanium/titanium_mechanical_press",
+      "createch2:material_recycling/greate_titanium/titanium_mechanical_pump",
+      "createch2:material_recycling/greate_titanium/titanium_mechanical_saw",
+      "createch2:material_recycling/greate_titanium/titanium_millstone",
+      "createch2:material_recycling/greate_titanium/titanium_shaft",
+      "createch2:material_recycling/greate_titanium/titanium_vertical_gearbox",
+      "createch2:material_recycling/mi_process/vacuum_freezer",
+      "createch2:material_recycling/industrial_dust/titanium",
+      "tfc_metallurgy:casting/titanium_ingot",
+      "tfc_metallurgy:casting/titanium_fire_ingot"
+    ]
+  }
+}

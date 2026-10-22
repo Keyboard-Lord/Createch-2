@@ -1,0 +1,53 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:superconductor_cable"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:geological_surveys",
+      "createch2:computational_models"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mat_06_platinum_group_metals",
+    "createch2:che_07_extreme_purity",
+    "createch2:com_04_digital_fabrication"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_07_superconductors.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_07_superconductors.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/material_specimens_frontier",
+      "createch2:quantum/superconductor/quantum_alloy_dust",
+      "createch2:quantum/superconductor/hot_ingot",
+      "createch2:quantum/superconductor/cryogenic_ingot",
+      "createch2:quantum/superconductor/plate",
+      "createch2:quantum/superconductor/wire",
+      "createch2:quantum/superconductor/cable",
+      "createch2:quantum/superconductor/high_field_coil",
+      "createch2:factory_scaling/quantum/superconductor_dust_mature",
+      "createch2:factory_scaling/quantum/superconductor_coil_batch",
+      "createch2:material_recycling/superconductor/high_field_coil"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ATA",
+    "UPU",
+    "SCS"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:alloys/ultimate"
+    },
+    "T": {
+      "item": "mekanism:teleportation_core"
+    },
+    "U": {
+      "tag": "createch2:mekanism_ultimate_control"
+    },
+    "P": {
+      "item": "mekanism:module_base"
+    },
+    "S": {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    "C": {
+      "item": "modern_industrialization:quantum_machine_hull"
+    }
+  },
+  "result": {
+    "id": "mekanism:module_teleportation_unit",
+    "count": 1
+  }
+}

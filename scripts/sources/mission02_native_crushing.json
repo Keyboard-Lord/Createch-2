@@ -1,0 +1,156 @@
+{
+  "scope": "Exact selected native coke and quartzite crushing recipes with independently checked configuration-reader bytes; no gameplay override.",
+  "sourceId": "tfmg:crushing/coal_coke",
+  "source": {
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "tfmg:coal_coke"
+      }
+    ],
+    "results": [
+      {
+        "id": "tfmg:coal_coke_dust"
+      }
+    ]
+  },
+  "yamlLibrary": {
+    "provider": "gtceu-1.21.1-8.1.0.jar!META-INF/jarjar/configuration-1.21.1-3.1.1-neoforge.jar",
+    "sha256": "b903cc326e10af63226c7a45571bda1e0cf88b978c9920275806e852bcd92bc1",
+    "reference": "Installed YamlFormat.readFile/readStringArray independently returned[] for both current bare ignored-array keys; plain Java, no game bootstrap."
+  },
+  "runtimeId": "greate:integration/tfmg/crushing/coal_coke",
+  "runtimeData": {
+    "type": "greate:crushing",
+    "recipe_tier": 0,
+    "ingredients": [
+      {
+        "item": "tfmg:coal_coke"
+      }
+    ],
+    "results": [
+      {
+        "id": "tfmg:coal_coke_dust",
+        "count": 1,
+        "chance": 1
+      }
+    ],
+    "processing_time": 0
+  },
+  "quartzite": {
+    "sourceId": "woodencog:crushing/rock/raw/quartzite",
+    "source": {
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "item": "tfc:rock/raw/quartzite"
+        }
+      ],
+      "processing_time": 160,
+      "results": [
+        {
+          "chance": 0.5,
+          "id": "tfc:rock/cobble/quartzite"
+        },
+        {
+          "chance": 0.1,
+          "id": "minecraft:quartz"
+        }
+      ]
+    },
+    "runtimeId": "greate:integration/woodencog/crushing/rock/raw/quartzite",
+    "runtimeData": {
+      "type": "greate:crushing",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "item": "tfc:rock/raw/quartzite"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfc:rock/cobble/quartzite",
+          "count": 1,
+          "chance": 0.5
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1,
+          "chance": 0.1
+        }
+      ],
+      "processing_time": 160
+    }
+  },
+  "quartzMilling": {
+    "sourceId": "woodencog:milling/quartz",
+    "before": {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "tfc:rock/raw/quartzite"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:quartz",
+          "count": 1,
+          "chance": 0.05
+        }
+      ],
+      "processingTime": 50
+    },
+    "source": {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "tfc:rock/raw/quartzite"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:quartz",
+          "count": 1,
+          "chance": 0.05
+        }
+      ],
+      "processing_time": 50
+    },
+    "runtimeId": "greate:integration/woodencog/milling/quartz",
+    "runtimeData": {
+      "type": "greate:milling",
+      "ingredients": [
+        {
+          "item": "tfc:rock/raw/quartzite"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:quartz",
+          "count": 1,
+          "chance": 0.05
+        }
+      ],
+      "processing_time": 50,
+      "recipe_tier": 0
+    },
+    "repair": "Restore the pre-existing disabled native-ID stub using the exact installed native bill, with only results.item -> results.id and processingTime -> processing_time. Preserve raw quartzite input, one quartz,5percent chance and intended50ticks. Native original is invalid against the current required-id codec; no P0 metal/recovery/EMC supplier is changed.",
+    "packBefore": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:false"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "minecraft:barrier"
+        }
+      ],
+      "result": {
+        "id": "minecraft:barrier"
+      }
+    }
+  }
+}

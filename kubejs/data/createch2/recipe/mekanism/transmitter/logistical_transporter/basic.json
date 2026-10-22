@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SFS",
+    "HBR",
+    "SFS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "H": {
+      "item": "create:chute"
+    },
+    "F": {
+      "item": "create:brass_funnel"
+    },
+    "B": {
+      "item": "greate:rubber_belt_connector"
+    },
+    "R": {
+      "tag": "createch2:mekanism_basic_control"
+    }
+  },
+  "result": {
+    "id": "mekanism:basic_logistical_transporter",
+    "count": 4
+  }
+}

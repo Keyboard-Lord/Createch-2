@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/beryllium_copper"
+  },
+  "second_input": {
+    "tag": "c:sheets/beryllium_copper"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/beryllium_copper"
+  }
+}

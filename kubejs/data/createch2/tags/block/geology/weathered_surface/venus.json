@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:geology/replaceables/venus",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:brown_terracotta",
+    "minecraft:gravel",
+    "minecraft:orange_terracotta",
+    "minecraft:tuff",
+    "minecraft:yellow_terracotta"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Acero",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG sustituye al alto horno de TFC. El horno eléctrico posterior de MI conserva su función.$(br2)Para obtener arrabio de TFC, carga un lingote de hierro fundido de TFC y un fundente de TFC. El horno produce 100 mB de arrabio, que se moldean en un lingote. La calidad del mineral sigue determinando el hierro obtenido mediante el calentamiento de TFC."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:anvil/metal/ingot/high_carbon_steel",
+      "text": "La instalación de TFMG suministra el arrabio para las recetas de yunque y soldadura de TFC. Los aceros de alto carbono, negro, rojo y azul conservan sus requisitos de forja y aleación."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "black_steel",
+      "text": "El $(thing)acero negro$() es una forma avanzada de acero creada a partir de una aleación de acero y otros metales. Para crearlo, tendrás que producir una aleación llamada $(thing)acero débil$() en un $(l:metalworking/crucible)crisol$().",
+      "title": "Acero negro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_steel",
+      "title": "Acero débil",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 70 %: $(thing)Acero$()$(li)15 - 25 %: $(thing)Níquel$()$(li)15 - 25 %: $(thing)Bronce negro$()$(br2)El $(thing)acero débil$() fundido se puede moldear en lingotes."
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_black_steel",
+      "text": "Los $(thing)lingotes de acero débil$() pueden soldarse con $(thing)lingotes de arrabio$() para crear $(thing)lingotes de acero negro de alto carbono$(). Por último, se pueden trabajar en un $(l:metalworking/anvils)yunque$() para crear $(thing)lingotes de acero negro$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "El $(thing)acero negro$() puede usarse para fabricar herramientas y $(l:mechanics/armor)armaduras$(), y también es un ingrediente esencial para crear $(l:metalworking/steel#blue_steel)acero azul$() y $(l:metalworking/steel#red_steel)acero rojo$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blue_steel",
+      "text": "El $(thing)acero azul$() es uno de los dos metales de mayor nivel, junto con el $(l:metalworking/steel#red_steel)acero rojo$(). Al igual que con el $(l:metalworking/steel#black_steel)acero negro$(), el primer paso es crear una aleación de $(thing)acero azul débil$() en un $(l:metalworking/crucible)crisol$().",
+      "title": "Acero azul"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_blue_steel",
+      "title": "Acero azul débil",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 55 %: $(thing)Acero negro$()$(li)20 - 25 %: $(thing)Acero$()$(li)10 - 15 %: $(thing)Bronce de bismuto$()$(li)10 - 15 %: $(thing)Plata de ley$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_blue_steel",
+      "text": "Los $(thing)lingotes de acero azul débil$() pueden soldarse con $(l:metalworking/steel#black_steel)lingotes de acero negro$() para crear $(thing)lingotes de acero azul de alto carbono$(). Por último, se pueden trabajar en un $(l:metalworking/anvils)yunque$() para crear $(thing)lingotes de acero azul$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "El $(thing)acero azul$() puede usarse para crear herramientas y $(l:mechanics/armor)armaduras$(), y un $(thing)cubo de acero azul$(), que puede transportar $(cfg:metalBucketCapacity) de líquidos, incluida la $(6)lava$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_steel",
+      "text": "El $(thing)acero rojo$() es uno de los dos metales de mayor nivel, junto con el $(l:metalworking/steel#blue_steel)acero azul$(). Al igual que con el $(l:metalworking/steel#black_steel)acero negro$(), el primer paso es crear una aleación de $(thing)acero rojo débil$() en un $(l:metalworking/crucible)crisol$().",
+      "title": "Acero rojo"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_red_steel",
+      "title": "Acero rojo débil",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 55 %: $(thing)Acero negro$()$(li)20 - 25 %: $(thing)Acero$()$(li)10 - 15 %: $(thing)Latón$()$(li)10 - 15 %: $(thing)Oro rosa$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_red_steel",
+      "text": "Los $(thing)lingotes de acero rojo débil$() pueden soldarse con $(l:metalworking/steel#black_steel)lingotes de acero negro$() para crear $(thing)lingotes de acero rojo de alto carbono$(). Por último, se pueden trabajar en un $(l:metalworking/anvils)yunque$() para crear $(thing)lingotes de acero rojo$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "El $(thing)acero rojo$() puede usarse para crear herramientas y $(l:mechanics/armor)armaduras$(), y un $(thing)cubo de acero rojo$(), que puede transportar $(cfg:metalBucketCapacity) de líquidos, incluida la $(6)lava$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:metal/ingot/pig_iron": 1,
+    "tfc:metal/ingot/high_carbon_steel": 1,
+    "tfc:metal/ingot/steel": 1,
+    "tfc:metal/ingot/weak_steel": 3,
+    "tfc:metal/ingot/high_carbon_black_steel": 4,
+    "tfc:metal/ingot/black_steel": 4,
+    "tfc:metal/ingot/weak_blue_steel": 7,
+    "tfc:metal/ingot/high_carbon_blue_steel": 8,
+    "tfc:metal/ingot/blue_steel": 8,
+    "tfc:metal/ingot/weak_red_steel": 11,
+    "tfc:metal/ingot/high_carbon_red_steel": 12,
+    "tfc:metal/ingot/red_steel": 12
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/bismuth_bronze"
+    },
+    {
+      "tag": "c:physical_rings/bismuth_bronze"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 591,
+  "welding_temperature": 788
+}

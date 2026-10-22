@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:mars_gravel_desert",
+    "createch2:mars_desert_canyon",
+    "createch2:mars_rocky_mountains",
+    "createch2:mars_painted_mountains",
+    "createch2:mars_stony_spires"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/bronze"
+    },
+    {
+      "tag": "c:rivets/bronze"
+    },
+    {
+      "tag": "c:screws/bronze"
+    },
+    {
+      "tag": "c:physical_screws/bronze"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 570,
+  "welding_temperature": 760
+}

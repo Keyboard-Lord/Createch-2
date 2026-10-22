@@ -1,0 +1,1808 @@
+{
+	autofocus_id: "0C4F7FBDB9DA914D"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_06_age_05_steel_steam"
+	group: "0A85000000000002"
+	id: "094D8004B4BC61C6"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "18A0B81563CB338E"
+		image: "createch2:textures/quests/chapter_icons/steel_steam.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: -0.34d
+		y: 0.312d
+	}]
+	order_index: 2
+	quest_links: [{
+		id: "0822000000000007"
+		linked_quest: "09DA0EFC9C85F330"
+		shape: "rsquare"
+		size: 1.35d
+		x: 38.122d
+		y: -5.419d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"0B5A5B1254EE88FF"
+				"7E2F37A4005BB466"
+			]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "0C4F7FBDB9DA914D"
+			rewards: [{
+				auto: "enabled"
+				id: "27A46483677AAB40"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.5d
+			tags: [
+				"theme_steel_steam_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 16L
+				id: "022E46A23FC9F83E"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+				type: "item"
+			}]
+			x: 33.922d
+			y: -5.419d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			id: "047549F249559E07"
+			rewards: [{
+				auto: "enabled"
+				id: "0BA56624F9DE53BB"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0E8D0E6B5FE1BD07"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: 22.405d
+			y: -1.374d
+		}
+		{
+			dependencies: ["047549F249559E07"]
+			icon: {
+				id: "modern_industrialization:steel_boiler"
+			}
+			id: "0B14230D1C03E98D"
+			rewards: [{
+				auto: "enabled"
+				id: "5567D0873F8A034D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_steel_steam_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "078B5A480B7BF2C6"
+				item: { count: 1, id: "modern_industrialization:steel_boiler" }
+				type: "item"
+			}]
+			x: -8.433d
+			y: 25.882d
+		}
+		{
+			dependencies: ["0B14230D1C03E98D"]
+			icon: {
+				id: "modern_industrialization:steel_macerator"
+			}
+			id: "0346506881CE520F"
+			rewards: [{
+				auto: "enabled"
+				id: "711CC8A0096CD197"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_steel_steam_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "025CF6D3DDE50786"
+				item: { count: 1, id: "modern_industrialization:steel_macerator" }
+				type: "item"
+			}]
+			x: -8.628d
+			y: 18.234d
+		}
+		{
+			dependencies: ["0346506881CE520F"]
+			icon: {
+				id: "modern_industrialization:steel_upgrade"
+			}
+			icon_scale: 1.05d
+			id: "04A01A53CD67A510"
+			rewards: [{
+				auto: "enabled"
+				id: "31D71D59837F6799"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_steel_steam_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0E0D2808C49EA2E0"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: -7.447d
+			y: -0.356d
+		}
+		{
+			dependencies: ["047549F249559E07"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_plate"
+			}
+			icon_scale: 0.95d
+			id: "757A5A9D2DD7BA36"
+			rewards: [{
+				auto: "enabled"
+				id: "2549345A1DECA2F5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "20F3D1CBFFCF6183"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_plate" }
+				type: "item"
+			}]
+			x: 20.224d
+			y: -0.043d
+		}
+		{
+			dependencies: ["757A5A9D2DD7BA36"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			icon_scale: 0.95d
+			id: "29492794E40222BF"
+			rewards: [{
+				auto: "enabled"
+				id: "393E0CF7E07A13D5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_steel_steam_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:lubrication_oil"
+				}
+				id: "398E3E5C298D31C4"
+				type: "fluid"
+			}]
+			x: 13.66d
+			y: 6.029d
+		}
+		{
+			dependencies: ["0346506881CE520F"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_gear"
+			}
+			icon_scale: 0.95d
+			id: "2FB54C1F480EB542"
+			rewards: [{
+				auto: "enabled"
+				id: "26D63219F0A9F066"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_steel_steam_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 8L
+				id: "66F3DFBFC9030119"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_gear" }
+				type: "item"
+			}]
+			x: 1.69d
+			y: 10.547d
+		}
+		{
+			dependencies: ["2FB54C1F480EB542"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.94d
+			id: "55B8AEEB7ACA1E4E"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4FD1419105094760"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5A960621E61587CF"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "5F638DB1D4297C5D"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "028D60995487DF0B"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+			]
+			x: 3.344d
+			y: 9.078d
+		}
+		{
+			dependencies: ["04A01A53CD67A510"]
+			icon: {
+				id: "modern_industrialization:steel_upgrade"
+			}
+			icon_scale: 0.94d
+			id: "1A57E0F180BD83FE"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0C38568DE71DC457"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5CC01CAA64F31D0D"
+					item: {
+						count: 1
+						id: "create:light_gray_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "246D00F102FDE3A8"
+					item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+					type: "item"
+				}
+				{
+					id: "372B2A5C06584DA8"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+			]
+			x: -6.086d
+			y: 2.12d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.95d
+			id: "6BE1617D8EC9805C"
+			rewards: [{
+				auto: "enabled"
+				id: "593B398FB4DC9E3E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "36A73EFCF0C51941"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: 23.686d
+			y: 5.11d
+		}
+		{
+			dependencies: ["0346506881CE520F"]
+			icon: {
+				id: "modern_industrialization:steel_compressor"
+			}
+			icon_scale: 0.95d
+			id: "3BD8AAA53AF7205D"
+			rewards: [{
+				auto: "enabled"
+				id: "58002A1EA46A89E7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "7CCC729258D41A1B"
+				item: { count: 1, id: "modern_industrialization:steel_compressor" }
+				type: "item"
+			}]
+			x: 1.435d
+			y: -1.749d
+		}
+		{
+			dependencies: ["757A5A9D2DD7BA36"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_rod"
+			}
+			icon_scale: 0.94d
+			id: "0879EE2CB9AFE1B1"
+			rewards: [{
+				auto: "enabled"
+				id: "2DEA0DBD2B5A03C1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				count: 16L
+				id: "26DBDE5B502E163D"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_rod" }
+				type: "item"
+			}]
+			x: 14.116d
+			y: 4.224d
+		}
+		{
+			dependencies: ["3BD8AAA53AF7205D"]
+			icon: {
+				id: "modern_industrialization:steel_macerator"
+			}
+			icon_scale: 0.95d
+			id: "13600CBD07081E1A"
+			rewards: [{
+				auto: "enabled"
+				id: "57F892DD1C44E293"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "376643CDFD9C2C12"
+					item: { count: 1, id: "modern_industrialization:steel_macerator" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5EF0419D89FFC87C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+			]
+			x: -0.298d
+			y: -0.218d
+		}
+		{
+			dependencies: ["55B8AEEB7ACA1E4E"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.94d
+			id: "6971D4009FA025B2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6DF7710752F40384"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4286169D08460F28"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 4L
+				id: "18D142089EC35E8D"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: 5.009d
+			y: 7.579d
+		}
+		{
+			dependencies: ["6971D4009FA025B2"]
+			icon: {
+				id: "modern_industrialization:steel_ring"
+			}
+			icon_scale: 0.95d
+			id: "3850D9F3338D416E"
+			rewards: [{
+				auto: "enabled"
+				id: "0F00285C625BAE59"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "6D73A0443B1345D6"
+				item: { count: 1, id: "modern_industrialization:steel_ring" }
+				type: "item"
+			}]
+			x: 6.681d
+			y: 6.055d
+		}
+		{
+			dependencies: [
+				"0879EE2CB9AFE1B1"
+				"3850D9F3338D416E"
+				"17BA3A7302ABD355"
+			]
+			icon: {
+				id: "modern_industrialization:steel_water_pump"
+			}
+			icon_scale: 0.98d
+			id: "70B9B71E2690EED0"
+			rewards: [{
+				auto: "enabled"
+				id: "259672E73E1DE47D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			size: 1.55d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "0D952D312EB9D787"
+				item: { count: 1, id: "modern_industrialization:steel_water_pump" }
+				type: "item"
+			}]
+			x: 9.757d
+			y: 4.946d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.92d
+			id: "17BA3A7302ABD355"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7CFCC3967986BE42"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "32EDA5ADEBE120CA"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "7EC93137DFEBA8AB"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53B754003EC6B782"
+					item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+					type: "item"
+				}
+			]
+			x: 6.434d
+			y: 8.019d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_plate"
+			}
+			icon_scale: 0.92d
+			id: "65C742774D5BE2B7"
+			rewards: [{
+				auto: "enabled"
+				id: "4D3FCEB9605C6EC2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "50AEFCD02FF7E22B"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_plate" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2E7AE1E0FF7472E4"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+			]
+			x: -15.318d
+			y: -0.725d
+		}
+		{
+			dependencies: ["65C742774D5BE2B7"]
+			icon: {
+				id: "modern_industrialization:iron_dust"
+			}
+			icon_scale: 0.92d
+			id: "6D8EE28E14590C42"
+			rewards: [{
+				auto: "enabled"
+				id: "12F349B2ECAD4A1F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "4AA838C389602B6F"
+					item: { count: 1, id: "modern_industrialization:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1B236B585898F3A7"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+			]
+			x: -16.274d
+			y: 1.019d
+		}
+		{
+			dependencies: [
+				"757A5A9D2DD7BA36"
+				"41F95A6E5A884B05"
+			]
+			icon: {
+				id: "railcraft:steam_locomotive"
+			}
+			id: "2F33DA300848472E"
+			rewards: [{
+				auto: "enabled"
+				id: "50B60F69916C0336"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "0C2E9E32C7836107"
+					item: { count: 1, id: "railcraft:manual_rolling_machine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "239190145EE9E85F"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+				{
+					id: "641798F24649E134"
+					item: { count: 1, id: "railcraft:steam_locomotive" }
+					type: "item"
+				}
+			]
+			x: -7.15d
+			y: -3.95d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"757A5A9D2DD7BA36"
+				"13600CBD07081E1A"
+				"6D8EE28E14590C42"
+				"2EA08DCC6E926259"
+				"4C6FD6ECD0FC4D50"
+				"41F95A6E5A884B05"
+				"2F33DA300848472E"
+				"1872493EE179B692"
+				"2D0BDB724C406A86"
+				"567EB99FE065A2F0"
+			]
+			icon: {
+				id: "modern_industrialization:steel_upgrade"
+			}
+			icon_scale: 1.1d
+			id: "5F76C355880F605C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7284348B949FC83F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05D881E35ACFF0B8"
+					item: {
+						count: 1
+						id: "supplementaries:statue"
+					}
+					type: "item"
+				}
+				{
+					id: "13E913E45F46F12B"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_steel_steam_capstone"
+				"role_capstone"
+				"canonical_age_05"
+			]
+			tasks: [{
+				id: "26DB08218C180145"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: -6.868d
+			y: -6.611d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_plate"
+			}
+			id: "086C9BB82624C4F9"
+			rewards: [{
+				auto: "enabled"
+				id: "36A12F6B99427E4F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "02C7AB99D3249969"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_plate" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "35573108F1CB9C60"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_rod" }
+					type: "item"
+				}
+			]
+			x: -15.049d
+			y: -16.81d
+		}
+		{
+			dependencies: ["086C9BB82624C4F9"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			id: "2EA08DCC6E926259"
+			rewards: [{
+				auto: "enabled"
+				id: "4E7A615BE4FFF01C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5484568DC3B1BAAC"
+					item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "23A2363B65AB896D"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+			]
+			x: -17.217d
+			y: 2.741d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				id: "tfmg:steel_mechanism"
+			}
+			icon_scale: 0.94d
+			id: "7C1CEA2091E54BD7"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "723D0A6B9239C8E4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "07E45C23731696BD"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_steel_steam_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "71429151EBC3B8F7"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: -14.869d
+			y: -18.632d
+		}
+		{
+			dependencies: ["7C1CEA2091E54BD7"]
+			icon: {
+				id: "crush_depth:fathometer"
+			}
+			icon_scale: 0.96d
+			id: "5D335A7E21B7C901"
+			rewards: [{
+				auto: "enabled"
+				id: "1A7B3D0C92E451AF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_steel_steam_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "62C0A1E7B49D5832"
+					item: { count: 1, id: "crush_depth:fathometer" }
+					type: "item"
+				}
+				{
+					id: "7E14F0C29A63B5D8"
+					item: { count: 1, id: "create_submarine:copper_pressurizer" }
+					type: "item"
+				}
+				{
+					id: "21F6C84D3A0975BE"
+					item: { count: 1, id: "create_submarine:ballast_tank" }
+					type: "item"
+				}
+			]
+			x: -17.086d
+			y: -19.116d
+		}
+		{
+			dependencies: ["0879EE2CB9AFE1B1"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			icon_scale: 0.96d
+			id: "2CA26B11DAB16F59"
+			rewards: [{
+				auto: "enabled"
+				id: "150E50AABF76305B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_steel_steam_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "tfc:story/steel_age"
+				criterion: ""
+				id: "14E7C82FD2B4497A"
+				type: "advancement"
+			}]
+			x: 9.212d
+			y: 8.875d
+		}
+		{
+			dependencies: ["2CA26B11DAB16F59"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.98d
+			id: "5959C8A0F2C54056"
+			rewards: [{
+				auto: "enabled"
+				id: "3EE230D4E633244A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:steel_machine_casing"
+				criterion: ""
+				id: "00AAC70342B6F15C"
+				type: "advancement"
+			}]
+			x: 9.483d
+			y: 6.919d
+		}
+		{
+			dependencies: ["7E2F37A4005BB466"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "4C6FD6ECD0FC4D50"
+			rewards: [{
+				auto: "enabled"
+				id: "5735FB437D348FE7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4B6D05D99F168695"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+				type: "item"
+			}]
+			x: -14.531d
+			y: -14.726d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_plate"
+			}
+			id: "3FFD4B5CAFF374A4"
+			rewards: [{
+				auto: "enabled"
+				id: "20C2010B5149D8A3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "713087654D5FD55C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6E71515233D21F7C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_gear" }
+					type: "item"
+				}
+			]
+			x: -11.66d
+			y: -5.785d
+		}
+		{
+			dependencies: ["3FFD4B5CAFF374A4"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			id: "0EAC06C57F45B1AD"
+			rewards: [{
+				auto: "enabled"
+				id: "5069131855E29E18"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "5BC0969E4E60CA47"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -13.384d
+			y: -4.252d
+		}
+		{
+			dependencies: ["0EAC06C57F45B1AD"]
+			icon: {
+				id: "tfmg:steel_mechanism"
+			}
+			id: "41F95A6E5A884B05"
+			rewards: [{
+				auto: "enabled"
+				id: "6CF14363540630C0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "6868ED2251D9DEBB"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: -14.353d
+			y: -2.485d
+		}
+		{
+			dependencies: [
+				"74F7C07ACEF2F804"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "tfmg:steel_fluid_tank"
+			}
+			icon_scale: 0.95d
+			id: "22A53D2C69F4DB3A"
+			rewards: [{
+				auto: "enabled"
+				id: "1598A4E4EEF85519"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "67E5E7B082AE9B23"
+				item: { count: 1, id: "tfmg:steel_fluid_tank" }
+				type: "item"
+			}]
+			x: -33.052d
+			y: -6.191d
+		}
+		{
+			dependencies: [
+				"2404D0A02FBD90BF"
+				"0C4F7FBDB9DA914D"
+			]
+			icon: {
+				id: "tfmg:steel_fluid_tank"
+			}
+			icon_scale: 0.95d
+			id: "58D79D41B9F95039"
+			rewards: [{
+				auto: "enabled"
+				id: "4D2A63D81EF934A5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 3.25d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "0883C51DD201C49D"
+				item: { count: 1, id: "tfmg:steel_fluid_tank" }
+				type: "item"
+			}]
+			x: -30.439d
+			y: -25.257d
+		}
+		{
+			dependencies: ["22A53D2C69F4DB3A"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.95d
+			id: "043A38CEB7149E39"
+			rewards: [{
+				auto: "enabled"
+				id: "00CEF0F3416191D4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "7C539B4DC990A8B1"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A0C1CB762E1C3D0"
+					item: { count: 1, id: "rubberworks:rubber" }
+					type: "item"
+				}
+			]
+			x: -34.602d
+			y: -4.63d
+		}
+		{
+			dependencies: [
+				"7489D8F7F34227D4"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "tfmg:crude_oil_bucket"
+			}
+			icon_scale: 0.94d
+			id: "5333883A51E440D6"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "2627D70C2E3BD5C1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6E7D52807D250551"
+					item: {
+						count: 1
+						id: "tfmg:surface_scanner"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_oil_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:crude_oil"
+				}
+				id: "7889F643042C61D4"
+				type: "fluid"
+			}]
+			x: -22.875d
+			y: -11.294d
+		}
+		{
+			dependencies: [
+				"4F0BCB44E1B87E3A"
+				"557C03B422A6383A"
+				"5333883A51E440D6"
+			]
+			icon: {
+				id: "tfmg:pumpjack_base"
+			}
+			icon_scale: 0.94d
+			id: "2B4829C9BCB192C1"
+			rewards: [{
+				auto: "enabled"
+				id: "442120D35DF6512C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_oil_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "544D7596AFE5195C"
+				item: { count: 1, id: "tfmg:pumpjack_base" }
+				type: "item"
+			}]
+			x: -26.122d
+			y: -8.178d
+		}
+		{
+			dependencies: ["2B4829C9BCB192C1"]
+			icon: {
+				id: "tfmg:steel_fluid_tank"
+			}
+			icon_scale: 0.92d
+			id: "0732478B0B0442D2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0DF3A40328C9AAE2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "41BDEA283CD5990E"
+					item: {
+						count: 1
+						id: "tfmg:surface_scanner"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_oil_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "6AE7629987F0718A"
+					item: { count: 1, id: "tfmg:steel_fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "77C1F3482A723AD5"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: -27.739d
+			y: -6.611d
+		}
+		{
+			dependencies: ["0732478B0B0442D2"]
+			icon: {
+				id: "railcraft:coke_oven_bricks"
+			}
+			icon_scale: 0.92d
+			id: "37956FF2E3F6CA3B"
+			rewards: [{
+				auto: "enabled"
+				id: "33672441E738A2CE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 16000
+						id: "tfmg:crude_oil"
+					}
+					id: "6800C4C4241EC79D"
+					type: "fluid"
+				}
+				{
+					count: 27L
+					id: "53268557F175EA30"
+					item: { count: 1, id: "railcraft:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: -29.345d
+			y: -5.049d
+		}
+		{
+			dependencies: ["37956FF2E3F6CA3B"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			icon_scale: 0.92d
+			id: "2F702B914A1F1C04"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4EFA511B760EDC70"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "06308E249360298B"
+					item: {
+						count: 1
+						id: "tfmg:surface_scanner"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_oil_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:lubrication_oil"
+				}
+				id: "79AD91FFDD318651"
+				type: "fluid"
+			}]
+			x: -28.328d
+			y: -10.922d
+		}
+		{
+			dependencies: [
+				"1AC7A9885837340A"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			icon_scale: 0.94d
+			id: "6BF0E7D18F1E27C4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "51138E1ABC767E87"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "7B7B436E65732B22"
+					item: {
+						count: 1
+						id: "tfmg:surface_scanner"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_oil_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "07358E731D0ED0CC"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+				{
+					id: "0C807997072DF479"
+					item: { count: 1, id: "burnt:extinguisher" }
+					type: "item"
+				}
+				{
+					id: "2EE443E9DB6166D9"
+					item: { count: 1, id: "burnt:smoke_detector" }
+					type: "item"
+				}
+			]
+			x: -19.638d
+			y: -14.333d
+		}
+		{
+			dependencies: [
+				"0AA25E949D1B6390"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "stellaris:pipe_t1"
+			}
+			icon_scale: 0.98d
+			id: "6176537D8499A14D"
+			rewards: [{
+				auto: "enabled"
+				id: "3292BEA467DDFF77"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "17A6A39FB5BE7219"
+					item: { count: 1, id: "stellaris:pipe_t1" }
+					type: "item"
+				}
+				{
+					id: "790993BBAC081230"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: -16.444d
+			y: -17.24d
+		}
+		{
+			dependencies: [
+				"0AA25E949D1B6390"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.98d
+			id: "0FC8DDA0D19B4A93"
+			rewards: [{
+				auto: "enabled"
+				id: "26E6978B8C00996D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "6536F7569A215550"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: -18.034d
+			y: -15.806d
+		}
+		{
+			dependencies: [
+				"1AC7A9885837340A"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "tfmg:crude_oil_bucket"
+			}
+			icon_scale: 0.94d
+			id: "2CF15A3A85EEDA04"
+			rewards: [{
+				auto: "enabled"
+				id: "4CD61E3291C001E6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_oil_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:crude_oil"
+				}
+				id: "62F7951A31A99807"
+				type: "fluid"
+			}]
+			x: -21.253d
+			y: -12.827d
+		}
+		{
+			dependencies: [
+				"7489D8F7F34227D4"
+				"58D79D41B9F95039"
+			]
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			icon_scale: 0.96d
+			id: "4706501CE5F475DF"
+			rewards: [{
+				auto: "enabled"
+				id: "393BC6570A5251A0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_oil_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:diesel"
+				}
+				id: "25169967537104B4"
+				type: "fluid"
+			}]
+			x: -29.91d
+			y: -9.346d
+		}
+		{
+			dependencies: ["4706501CE5F475DF"]
+			icon: {
+				id: "stellaris:fuel_bucket"
+			}
+			icon_scale: 0.98d
+			id: "4A298C69045864C2"
+			rewards: [{
+				auto: "enabled"
+				id: "4F606E42B0E61FBB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "stellaris:fuel"
+				}
+				id: "0034A1DD5F03C0CE"
+				type: "fluid"
+			}]
+			x: -31.487d
+			y: -7.766d
+		}
+		{
+			dependencies: [
+				"544F5EC2B79B9229"
+				"04A01A53CD67A510"
+			]
+			icon: {
+				id: "railcraft:advanced_item_loader"
+			}
+			icon_scale: 0.96d
+			id: "6596BA0439C1B1C1"
+			rewards: [{
+				auto: "enabled"
+				id: "202D9FD07C0370DC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_logistics_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3CA11581B03687DF"
+				item: { count: 1, id: "railcraft:advanced_item_loader" }
+				type: "item"
+			}]
+			x: -6.269d
+			y: 4.103d
+		}
+		{
+			dependencies: ["6596BA0439C1B1C1"]
+			icon: {
+				id: "railcraft:item_loader"
+			}
+			icon_scale: 0.98d
+			id: "1872493EE179B692"
+			rewards: [{
+				auto: "enabled"
+				id: "607BF1200D66CBF9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "03F0D20F644A1760"
+					item: { count: 1, id: "railcraft:item_loader" }
+					type: "item"
+				}
+				{
+					advancement: "create:portable_storage_interface"
+					criterion: ""
+					id: "0E22E26B48C8DF1C"
+					type: "advancement"
+				}
+				{
+					id: "0BC4EAD97EED48DE"
+					item: { count: 1, id: "railcraft:item_unloader" }
+					type: "item"
+				}
+			]
+			x: -7.212d
+			y: 5.825d
+		}
+		{
+			dependencies: [
+				"0C4F7FBDB9DA914D"
+				"0F16DEDF6E39443D"
+			]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "0D281B4106EB3A2B"
+			rewards: [{
+				auto: "enabled"
+				id: "34C19EDF9FDFC080"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "1C4D324ED14D000D"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/steel" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "558E6ED59AB981B1"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -69.5d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				id: "railcraft:cargo_minecart"
+			}
+			id: "0E2455931392BE9E"
+			rewards: [{
+				auto: "enabled"
+				id: "5515A27C4CE4EF5A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_steel_steam_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "3C9C6DF4F59ED60A"
+					item: { count: 1, id: "railcraft:cargo_minecart" }
+					type: "item"
+				}
+				{
+					id: "720BEE9EAF330340"
+					item: { count: 1, id: "railcraft:item_loader" }
+					type: "item"
+				}
+				{
+					id: "197FE9FC37DAD99E"
+					item: { count: 1, id: "cargoboats:motorboat" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -66.25d
+		}
+		{
+			dependencies: ["0C4F7FBDB9DA914D"]
+			icon: {
+				id: "adpother:iron_filter_frame"
+			}
+			id: "570B2A572D09FF2F"
+			rewards: [{
+				auto: "enabled"
+				id: "2DABB343EC98C48D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_steel_steam_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3F8E9C3BDA358719"
+					item: { count: 1, id: "adpother:iron_filter_frame" }
+					type: "item"
+				}
+				{
+					id: "608232588628CCEA"
+					item: { count: 1, id: "adpother:iron_vacuum_bag" }
+					type: "item"
+				}
+			]
+			x: 160.0d
+			y: -69.5d
+		}
+	]
+	tags: ["theme_steel_steam_chapter"]
+}

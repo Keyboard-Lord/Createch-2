@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:tfc_structure_wetland",
+  "spawners": [
+    {
+      "type": "tfc:panther",
+      "weight": 24,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:tiger",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:crocodile",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

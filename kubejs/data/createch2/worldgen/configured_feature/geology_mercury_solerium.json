@@ -1,0 +1,40 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -56,
+    "max_y": 16,
+    "size": 20,
+    "density": 0.28,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mercury_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:smooth_basalt",
+          "minecraft:calcite",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "stellaris:mercury_solerium_ore"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 96,
+      "underground_rarity": 8,
+      "underground_count": 1,
+      "depth": 54,
+      "blocks": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    },
+    "random_name": "createch2_geology_mercury_solerium"
+  }
+}

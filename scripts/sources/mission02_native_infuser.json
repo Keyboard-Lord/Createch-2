@@ -1,0 +1,45 @@
+{
+  "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+  "nativeClasses": {
+    "infuser": {
+      "class": "mekanism.common.tile.machine.TileEntityMetallurgicInfuser",
+      "sha256": "3f4d34bf7922c9dcff4867e010d6caa0c4d71bbb4c7592200aadb207115cde12"
+    },
+    "energySlot": {
+      "class": "mekanism.common.inventory.slot.EnergyInventorySlot",
+      "sha256": "505f3d89b80482105bd4362c30246a6d5095bb1e0a59533738bd1ee6c9b93ae3"
+    },
+    "chemicalSlot": {
+      "class": "mekanism.common.inventory.slot.chemical.ChemicalInventorySlot",
+      "sha256": "0b24b0f20f742ddd71a7d73afa1a6e3bd89a4265aee89ee28564644c790482e0"
+    },
+    "machineEnergy": {
+      "class": "mekanism.common.capabilities.energy.MachineEnergyContainer",
+      "sha256": "a7a992d0dd4e2c0f4f3eb782b081dddf2827d8130401d90ff4266c2bdd1cbe20"
+    },
+    "cached": {
+      "class": "mekanism.api.recipes.cache.CachedRecipe",
+      "sha256": "30ec6b2844b1c8aa82075edfacdc18ae9b275c18c0d06e49442ab89ef567fe6a"
+    },
+    "twoInput": {
+      "class": "mekanism.api.recipes.cache.TwoInputCachedRecipe",
+      "sha256": "c5b6eb3b0dca554da4bffd8868d31bfce31d37721666cf40ae8db60cabc31262"
+    },
+    "serializer": {
+      "class": "mekanism.common.recipe.serializer.MekanismRecipeSerializer",
+      "sha256": "1c24186a42da04cf315a3b59ac1bd8086566290a6fcc6ad56b4af066ca8bde47"
+    },
+    "ingredient": {
+      "class": "mekanism.api.recipes.ingredients.ItemStackIngredient",
+      "sha256": "8913eda49e7acee2c5209d128adb078d511090e2bac5e0f312a4701db74811d9"
+    },
+    "blockTypes": {
+      "class": "mekanism.common.registries.MekanismBlockTypes",
+      "sha256": "6351fb732237968ae05248dc9467b5c6f232bb7d27dd05505681f4dd53d77929"
+    },
+    "chemicalTank": {
+      "class": "mekanism.api.chemical.BasicChemicalTank",
+      "sha256": "e9ee7a8e4fb56400813af90de4bb98c7230fd32778d88eb52e4ed5b6be2973ae"
+    }
+  }
+}

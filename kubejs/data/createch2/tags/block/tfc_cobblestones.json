@@ -1,0 +1,89 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:rock/cobble/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/chert",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/schist",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/shale",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/slate",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/tuff",
+      "required": false
+    }
+  ]
+}

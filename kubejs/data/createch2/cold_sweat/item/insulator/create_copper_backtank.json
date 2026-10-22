@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 15,
+    "heat": 15
+  },
+  "item": {
+    "items": [
+      "create:copper_backtank"
+    ]
+  }
+}

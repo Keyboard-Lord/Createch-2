@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": [
+    {
+      "tag": "c:nails/bismuth_bronze"
+    },
+    {
+      "tag": "c:rivets/bismuth_bronze"
+    },
+    {
+      "tag": "c:physical_screws/bismuth_bronze"
+    }
+  ],
+  "result_fluid": {
+    "id": "tfc:metal/bismuth_bronze",
+    "amount": 5
+  },
+  "temperature": 985
+}

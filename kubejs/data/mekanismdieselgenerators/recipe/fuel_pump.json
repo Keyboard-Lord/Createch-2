@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "X": {
+      "item": "mekanismdieselgenerators:engine_piston"
+    }
+  },
+  "pattern": [
+    "PBP",
+    "XCX",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:fuel_pump"
+  }
+}

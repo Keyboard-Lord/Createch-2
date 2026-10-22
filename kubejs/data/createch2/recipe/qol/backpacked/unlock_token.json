@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SLS",
+    "PBP",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "P": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "B": {
+      "tag": "createch2:wooden_storage_chests"
+    }
+  },
+  "result": {
+    "id": "backpacked:unlock_token",
+    "count": 2
+  }
+}

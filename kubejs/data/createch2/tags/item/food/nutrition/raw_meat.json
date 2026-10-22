@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "death_angels:death_angel_meat",
+    "eternal_starlight:aurora_deer_steak",
+    "eternal_starlight:doomeden_carrion",
+    "eternal_starlight:ratlin_meat",
+    "eternal_starlight:rotten_ham",
+    "evilcraft:flesh_humanoid",
+    "evilcraft:flesh_werewolf",
+    "minecraft:spider_eye",
+    "sgjourney:goauld_carcass",
+    "vampirism:human_heart",
+    "vampirism:weak_human_heart",
+    "werewolves:liver"
+  ]
+}

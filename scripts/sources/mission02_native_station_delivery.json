@@ -1,0 +1,364 @@
+{
+  "truth": "NATIVE_KUBE_STATION_RESEARCH_DELIVERY_REPAIR",
+  "coreJarSha256": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+  "helperSha256": "4738b33f292d1e73cb89bb4936210cb8b251a8021886eda0b5325060258f3a1f",
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:iv_conveyor_module",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:iv_conveyor_module",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:iv_robot_arm",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:iv_robot_arm",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/iv_sensor",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:iv_sensor",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_sensor"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:iv_sensor",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_sensor"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/iv_emitter",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:iv_emitter",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_emitter"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:iv_emitter",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_emitter"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/iv_field_generator",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:iv_field_generator",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_field_generator"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:iv_field_generator",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/iv_field_generator"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/quantum_processor",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:quantum_processor",
+            "count": 1
+          },
+          "cwu": 24,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/quantum_processor"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:quantum_processor",
+              "count": 1
+            },
+            "cwu": 24,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/quantum_processor"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/gtceu/crystal_soc",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "gtceu:crystal_soc",
+            "count": 1
+          },
+          "cwu": 24,
+          "deliveryId": "createch2:research_station/greg_4096/research/gtceu/crystal_soc"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "gtceu:crystal_soc",
+              "count": 1
+            },
+            "cwu": 24,
+            "deliveryId": "createch2:research_station/greg_4096/research/gtceu/crystal_soc"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "modern_industrialization:processing_unit",
+            "count": 1
+          },
+          "cwu": 16,
+          "deliveryId": "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "modern_industrialization:processing_unit",
+              "count": 1
+            },
+            "cwu": 16,
+            "deliveryId": "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "modern_industrialization:quantum_circuit",
+            "count": 1
+          },
+          "cwu": 32,
+          "deliveryId": "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "modern_industrialization:quantum_circuit",
+              "count": 1
+            },
+            "cwu": 32,
+            "deliveryId": "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "rocketnautics:rocket_thruster",
+            "count": 1
+          },
+          "cwu": 24,
+          "deliveryId": "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "rocketnautics:rocket_thruster",
+              "count": 1
+            },
+            "cwu": 24,
+            "deliveryId": "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster"
+          }
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:research_station/greg_4096/research/sgjourney/crystallizer",
+      "custom": {
+        "type": "gtceu:research_station",
+        "createch2NativeStationFactory": {
+          "held": {
+            "id": "sgjourney:crystallizer",
+            "count": 1
+          },
+          "cwu": 32,
+          "deliveryId": "createch2:research_station/greg_4096/research/sgjourney/crystallizer"
+        }
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "gtceu:research_station",
+          "createch2NativeStationFactory": {
+            "held": {
+              "id": "sgjourney:crystallizer",
+              "count": 1
+            },
+            "cwu": 32,
+            "deliveryId": "createch2:research_station/greg_4096/research/sgjourney/crystallizer"
+          }
+        }
+      ]
+    }
+  ],
+  "classes": {
+    "bridge": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.compat.GtStationResearchRecipes",
+      "sha256": "d9b38cff960d7ef35c8d6efad92d2099ba54135782b26daf5ff8016720f48803"
+    },
+    "output": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.compat.GtStationResearchRecipes$1",
+      "sha256": "c92c734227b5acc47231192375bfeee5a3f9464eab73c121143eea740f2fb320"
+    },
+    "kjs": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.integration.kjs.recipe.GTRecipeSchema$GTKubeRecipe",
+      "sha256": "a558b350202308ce3967382be9ec7b6478e04369f6c729ee0f668485d5e5c720"
+    },
+    "manager": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.utils.ResearchManager",
+      "sha256": "5bf16add087599fdc570e22a185bf35170afc4880bf03e7d5046f10f3cd058a5"
+    },
+    "builder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.GTRecipeBuilder",
+      "sha256": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3"
+    },
+    "stationLogic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.research.ResearchStationMachine$ResearchStationRecipeLogic",
+      "sha256": "d9d6ce2326332d77be98dccef4ee0ad2a3e45023dbca98474cafcd9f340aa311"
+    },
+    "helper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.RecipeHelper",
+      "sha256": "b5a1b2af6d963f1e985f56665d8fc049f656da5e3bd1f4dfe19e46f926d94c28"
+    }
+  },
+  "reviewedCoreResearchDataPolicyAddition": "Only native data predicate classes and one required Mixin config entry;station factory and all earlier methods/classes remain byte-identical"
+}

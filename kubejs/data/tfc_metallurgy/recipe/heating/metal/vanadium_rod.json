@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/vanadium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/vanadium",
+    "amount": 50
+  },
+  "temperature": 625,
+  "use_durability": false
+}

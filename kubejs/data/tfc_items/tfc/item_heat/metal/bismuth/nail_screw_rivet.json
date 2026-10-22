@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/bismuth"
+    },
+    {
+      "tag": "c:rivets/bismuth"
+    },
+    {
+      "tag": "c:screws/bismuth"
+    },
+    {
+      "tag": "c:physical_screws/bismuth"
+    }
+  ],
+  "heat_capacity": 0.342,
+  "forging_temperature": 162,
+  "welding_temperature": 216
+}

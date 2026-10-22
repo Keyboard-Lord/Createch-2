@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "yourmod:fireproof_beam",
+      "required": false
+    }
+  ]
+}

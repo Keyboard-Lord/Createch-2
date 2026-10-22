@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 3, "max": 6},
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:glass_bottle", "weight": 20},
+        {"type": "minecraft:item", "name": "tfc:poured_glass", "weight": 14},
+        {"type": "minecraft:item", "name": "tfc:metal/ingot/copper", "weight": 14},
+        {"type": "minecraft:item", "name": "minecraft:redstone", "weight": 14},
+        {"type": "minecraft:item", "name": "tfc_items:wrought_iron_nail", "weight": 12},
+        {"type": "minecraft:item", "name": "tfc:unrefined_paper", "weight": 10},
+        {"type": "minecraft:empty", "weight": 16}
+      ]
+    },
+    {
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.2}],
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:compass", "weight": 3},
+        {"type": "minecraft:item", "name": "minecraft:clock", "weight": 2}
+      ]
+    }
+  ]
+}

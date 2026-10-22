@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:wires/rose_gold"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/rose_gold",
+    "amount": 25
+  },
+  "temperature": 960
+}

@@ -1,0 +1,134 @@
+{
+  "scope": "Owned MEC-02 wrench with original Create material cost; Greate native removal and generated replacement distinguished. Native AU compatibility and three-reduction layout are static evidence only.",
+  "id": "createch2:age_foundation/create/wrench",
+  "nativeRows": [
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "G": {
+            "tag": "c:plates/gold"
+          },
+          "P": {
+            "item": "create:cogwheel"
+          },
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          "GG",
+          "GP",
+          " S"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:wrench"
+        }
+      }
+    }
+  ],
+  "nativeClasses": {
+    "wrench": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.WrenchItem"
+    ],
+    "wrenchable": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchable"
+    ],
+    "directional": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock"
+    ],
+    "deployerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerBlock"
+    ],
+    "rotation": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.RotationPropagator"
+    ],
+    "auShaped": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.api.unification.bundled.ShapedRecipeUnifier"
+    ],
+    "auHelper": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.unification.recipe.UnificationHelperImpl"
+    ],
+    "auLookup": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.unification.UnificationLookupImpl"
+    ],
+    "cog": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.simpleRelays.TieredCogwheelBlock"
+    ],
+    "greateRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.GreateRecipeRemoval"
+    ],
+    "createRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.CreateRecipeRemoval"
+    ],
+    "manager": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager"
+    ],
+    "greateCrafting": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.machine.GreateCraftingTableRecipes"
+    ],
+    "managerV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "wrench": "8ea9e4b6eb07f23c54b56803b265ef2f609b776793bb44b9e76715d5e6aa2d27",
+    "wrenchable": "998b6d79b453ecd16b9e7f3af4949f7d0d20c4557a5156a6f0d96bc7848037cc",
+    "directional": "670ea26986b4be63af2c51b25919efc7544f97425d94a8e1b5b74cfd6acaaf9e",
+    "deployerBlock": "298598976163123197b4c4161d231a45dc4065fb737b7717b3dd04d637bc11f1",
+    "rotation": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+    "auShaped": "2188edaeab20205dceaf513801b7e0a97fb2ad0cf956270a3e0341d22e3e6177",
+    "auHelper": "b348660b4e991c4be6536fdae5d5d0557eb47a0535b6893b80cbada792b96721",
+    "auLookup": "4bee3957db3e238da8f17f694c21e5feb6073fe2d311600abf692a69acfa1703",
+    "cog": "a832c1ca5b952059cc8d5d3b6e08685ba9263869401b1aa1cc8f103c62b7978e",
+    "greateRemoval": "4ef712145db17bed6bf7fb3bdf687038d69550ccc7a7f6b0e6cdd3813b3e689c",
+    "createRemoval": "d2fdbd4de9297398d4572a3ea6bd3d18281b34d4a755596d239bc67bf5c076dc",
+    "manager": "614496013c03cdf2ddeb3256cea91a927627f4fdb544356627ee6256595a9251",
+    "greateCrafting": "36e59b07449220b9b0c3bbd847ad831e278122db8e4f7ca0cb26c4b9f3621e73",
+    "managerV": "ae199a823a935a817a0a2f47c2269a69f89985cfa9a8897ceeee901e049e719e"
+  },
+  "legacyId": "create:crafting/kinetics/wrench",
+  "generatedNativeAlternative": "greate:wrench",
+  "ownedRecipe": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GG",
+      "GP",
+      " S"
+    ],
+    "key": {
+      "G": {
+        "tag": "c:plates/gold"
+      },
+      "P": {
+        "tag": "c:createch2_kinetics/cogwheel/andesite_alloy"
+      },
+      "S": {
+        "tag": "c:rods/wooden"
+      }
+    },
+    "result": {
+      "id": "create:wrench",
+      "count": 1
+    }
+  }
+}

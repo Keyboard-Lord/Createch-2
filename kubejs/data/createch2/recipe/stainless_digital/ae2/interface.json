@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "AIF",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "I": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "C": {
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "result": {
+    "id": "ae2:interface",
+    "count": 1
+  }
+}

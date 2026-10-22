@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:mercury_biomes",
+  "features": [
+    "createch2:geology_mercury_solerium"
+  ],
+  "step": "underground_ores"
+}

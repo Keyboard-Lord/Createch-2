@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "FAF",
+    "RHR"
+  ],
+  "key": {
+    "R": {
+      "item": "crowns:fuel_rod"
+    },
+    "C": {
+      "item": "mekanismgenerators:control_rod_assembly"
+    },
+    "F": {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "A": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "H": {
+      "item": "crowns:heat_exchanger"
+    }
+  },
+  "result": {
+    "id": "crowns:fuel_assembly",
+    "count": 1
+  }
+}

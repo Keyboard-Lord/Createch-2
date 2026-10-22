@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/platinum",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/platinum",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/platinum",
+      "required": false
+    }
+  ]
+}

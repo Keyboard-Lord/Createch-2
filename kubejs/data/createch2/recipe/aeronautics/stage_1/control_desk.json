@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " J ",
+    "SCS",
+    "RPR"
+  ],
+  "key": {
+    "J": {
+      "item": "aeroworks:joystick"
+    },
+    "S": {
+      "item": "aeroworks:mechanical_servo"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "create:redstone_link"
+    },
+    "P": {
+      "tag": "createch2:control/factory/analog"
+    }
+  },
+  "result": {
+    "id": "aeroworks:control_desk",
+    "count": 1
+  }
+}

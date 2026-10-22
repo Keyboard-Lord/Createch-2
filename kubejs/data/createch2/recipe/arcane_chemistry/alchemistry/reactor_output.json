@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "C",
+    "D"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "C": {
+      "item": "alchemistry:reactor_casing"
+    }
+  },
+  "result": {
+    "id": "alchemistry:reactor_output",
+    "count": 1
+  }
+}

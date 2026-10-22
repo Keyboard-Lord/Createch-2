@@ -1,0 +1,51 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "cbc_ballistics:ballistic_calculator"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:computational_models",
+      "createch2:grid_telemetry"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mil_03_industrial_ordnance",
+    "createch2:com_03_networked_control",
+    "createch2:pre_02_machine_instrumentation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_04_instrumented_ballistics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_04_instrumented_ballistics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:cbc_ballistics/ballistics_calculator",
+      "createch2:create_radar/crafting/fire_controller",
+      "createch2:cbc_enhanced_shells/fire_control/target_designator",
+      "createch2:cbc_enhanced_shells/fire_control/guided_nose_cone",
+      "createch2:military/infantry/attachment_workbench",
+      "createch2:military/infantry/gun/m4a1",
+      "createch2:military/infantry/gun/m249",
+      "createch2:military/infantry/gun/m320",
+      "createch2:military/naval/sonar",
+      "createch2:research/pack/ordnance_reports_instrumented"
+    ]
+  }
+}

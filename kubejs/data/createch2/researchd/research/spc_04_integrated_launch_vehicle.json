@@ -1,0 +1,52 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "stellaris:rocket_station"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:kinetic_data",
+      "createch2:process_samples",
+      "createch2:grid_telemetry",
+      "createch2:logistics_reports"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:spc_02_low_voltage_rocketry",
+    "createch2:spc_03_propellant_refining",
+    "createch2:mec_04_rolling_systems",
+    "createch2:log_03_locomotive_systems"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_04_integrated_launch_vehicle.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_04_integrated_launch_vehicle.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:first_space/stellaris/rocket_engine_lv",
+      "createch2:first_space/stellaris/rocket_fin_lv",
+      "createch2:first_space/stellaris/rocket_launch_pad_lv",
+      "createch2:first_space/stellaris/rocket_nose_cone_lv",
+      "createch2:first_space/stellaris/rocket_station_lv",
+      "createch2:first_space/stellaris/rocket_airframe_lv",
+      "createch2:first_space/stellaris/rocket_final_assembly",
+      "createch2:factory_scaling/aerospace/stellaris_rocket_engine_mature"
+    ]
+  }
+}

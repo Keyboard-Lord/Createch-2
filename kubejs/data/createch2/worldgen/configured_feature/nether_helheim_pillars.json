@@ -1,0 +1,61 @@
+{
+  "type": "createch2core:landform",
+  "config": {
+    "pillar": true,
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:netherrack"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:red_nether_bricks"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:crimson_nylium"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:magma_block"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": {
+      "type": "minecraft:true"
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 18,
+      "max_inclusive": 62
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 5,
+      "max_inclusive": 12
+    },
+    "tip_scale": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.15,
+      "max_exclusive": 0.45
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.015,
+      "max_exclusive": 0.08
+    },
+    "euclidean_weight": 20,
+    "manhattan_weight": 2,
+    "chebyshev_weight": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QMQ",
+    "ALF",
+    "SCS"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "M": {
+      "item": "ae2:semi_dark_monitor"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "C": {
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "result": {
+    "id": "ae2:terminal",
+    "count": 1
+  }
+}

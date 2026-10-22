@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "BHB",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/blackwood"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "W": {
+      "item": "tfcastikorcarts:wheel/blackwood"
+    }
+  },
+  "result": {
+    "id": "tfcastikorcarts:seed_drill/blackwood",
+    "count": 1
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "type": "sgjourney:cavum_tenebrae",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:cavum_tenebrae",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:cavum_deep_caves",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.8,
+            "depth": -0.9,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_deep_caves",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.4,
+            "depth": -0.6,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_infested_caves",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": -0.2,
+            "weirdness": 0,
+            "depth": -0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_mantle_caves",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -0.6,
+            "continentalness": 0,
+            "erosion": -0.6,
+            "weirdness": 0.4,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_hyacinth_deeps",
+          "parameters": {
+            "temperature": -0.3,
+            "humidity": 0.8,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0.8,
+            "depth": 0.6,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_redstone_caves",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.3,
+            "continentalness": 0,
+            "erosion": -0.4,
+            "weirdness": 1.2,
+            "depth": 0.9,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_inferno",
+          "parameters": {
+            "temperature": 1.8,
+            "humidity": -1,
+            "continentalness": 0.2,
+            "erosion": -0.7,
+            "weirdness": 0.4,
+            "depth": 1.1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_scorching_caves",
+          "parameters": {
+            "temperature": 1.5,
+            "humidity": -0.8,
+            "continentalness": 0.3,
+            "erosion": -0.6,
+            "weirdness": 0.8,
+            "depth": 1.05,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_bioshroom_caves",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0.4,
+            "weirdness": -0.3,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:cavum_ancient_delta",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "weirdness": -0.9,
+            "depth": 0.85,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

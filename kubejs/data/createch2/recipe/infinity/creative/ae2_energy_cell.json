@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "QQQQQQQ",
+    "QIIXIIQ",
+    "QICCCIQ",
+    "QIXGXIQ",
+    "QICCCIQ",
+    "QIIXIIQ",
+    "QQQQQQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quantum_ring"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "C": {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    "G": {
+      "item": "modern_industrialization:singularity"
+    }
+  },
+  "result": {
+    "id": "ae2:creative_energy_cell",
+    "count": 1
+  },
+  "tier": 4
+}

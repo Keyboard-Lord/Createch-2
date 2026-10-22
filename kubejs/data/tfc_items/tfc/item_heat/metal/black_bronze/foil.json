@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:foils/black_bronze"
+    },
+    {
+      "tag": "c:physical_foils/black_bronze"
+    }
+  ],
+  "heat_capacity": 2.857,
+  "forging_temperature": 642,
+  "welding_temperature": 856
+}

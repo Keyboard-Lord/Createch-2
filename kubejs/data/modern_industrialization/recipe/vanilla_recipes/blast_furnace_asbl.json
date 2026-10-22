@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "pfp",
+    "sss"
+  ],
+  "key": {
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "s": {
+      "item": "tfc:fire_bricks"
+    }
+  },
+  "result": {
+    "id": "minecraft:blast_furnace",
+    "count": 2
+  }
+}

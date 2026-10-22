@@ -1,0 +1,356 @@
+{
+  "createch2:cc_giant_foundry_windfall": {
+    "chance": 35,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "farmersdelight:hot_cocoa",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bubble_blower",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The foundry gets a festival. It still has to make its own metal.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_heavy_industry_drop": {
+    "chance": 45,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "survivorsdelight:golden_carrot",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:altimeter",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "A festival truck took a wrong turn in your favor.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_grid_pallet": {
+    "chance": 58,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:apple_cider",
+          "count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 24
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The electrical room gets an impossible morale pallet.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_chemistry_pallet": {
+    "chance": 66,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:stuffed_pumpkin",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The chemical plant receives suspiciously theatrical supplies.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_space_manifest": {
+    "chance": 74,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "gobberdelight:ender_goo",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 64
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Cargo manifest: fireworks, music, and a way home.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_digital_shipment": {
+    "chance": 82,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:apple_cider",
+          "count": 48
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The network receives an extravagant launch party.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_late_material_spark": {
+    "chance": 92,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "survivorsdelight:golden_carrot",
+          "count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 32
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "A late-game celebration, not a material sample.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_recovery_contract": {
+    "chance": 100,
+    "isGiantCubeReward": true,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:roast_chicken",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:altimeter",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The cube pays in recovery tools, dinner, and one good song.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_shutdown_drill": {
+    "chance": -25,
+    "isGiantCubeReward": true,
+    "Effect": [
+      {
+        "potionid": "mining_fatigue",
+        "duration": 75,
+        "amplifier": 2,
+        "radius": 32
+      },
+      {
+        "potionid": "darkness",
+        "duration": 18,
+        "amplifier": 0,
+        "radius": 32
+      }
+    ],
+    "Message": [
+      {
+        "message": "Emergency shutdown drill. Nobody signed the form.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_horde": {
+    "chance": -45,
+    "isGiantCubeReward": true,
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:zombie"
+        },
+        "copies": 10
+      },
+      {
+        "entity": {
+          "id": "minecraft:skeleton"
+        },
+        "copies": 4
+      }
+    ],
+    "Message": [
+      {
+        "message": "The production floor has visitors.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_containment_foam": {
+    "chance": -62,
+    "isGiantCubeReward": true,
+    "Effect": [
+      {
+        "potionid": "slowness",
+        "duration": 35,
+        "amplifier": 3,
+        "radius": 32
+      },
+      {
+        "potionid": "mining_fatigue",
+        "duration": 35,
+        "amplifier": 2,
+        "radius": 32
+      }
+    ],
+    "Message": [
+      {
+        "message": "Containment foam deployed. Nobody requested containment foam.",
+        "range": 48
+      }
+    ]
+  },
+  "createch2:cc_giant_blast_countdown_false_alarm": {
+    "chance": -85,
+    "isGiantCubeReward": true,
+    "Effect": [
+      {
+        "potionid": "darkness",
+        "duration": 12,
+        "amplifier": 0,
+        "radius": 40
+      },
+      {
+        "potionid": "levitation",
+        "duration": 5,
+        "amplifier": 3,
+        "radius": 40
+      },
+      {
+        "potionid": "slow_falling",
+        "duration": 18,
+        "amplifier": 0,
+        "radius": 40
+      }
+    ],
+    "Message": [
+      {
+        "message": "Five seconds. The floor drops away—then the blast circuit fails safe.",
+        "range": 64
+      }
+    ]
+  }
+}

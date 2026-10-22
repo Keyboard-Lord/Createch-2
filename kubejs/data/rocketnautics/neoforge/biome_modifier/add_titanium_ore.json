@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_biomes",
+  "features": "rocketnautics:titanium_ore",
+  "step": "underground_ores"
+}

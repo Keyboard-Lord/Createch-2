@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 6400,
+  "item_inputs": [
+    {
+      "item": "tfc_metallurgy:metal/ingot/high_carbon_tungsten_steel",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:nitrogen",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:tungsten_steel_ingot",
+      "amount": 4
+    }
+  ]
+}

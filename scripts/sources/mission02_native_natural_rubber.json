@@ -1,0 +1,2120 @@
+{
+  "scope": "Existing native GTCEu plantation, TFC sheepskin leather and Rubberworks/Greate serial factory; no new gameplay producer.",
+  "ids": {
+    "sapping": "createch2:rubberworks/sapping/gtceu_rubber_tree",
+    "sapper": "createch2:bronze_steam/rubberworks/sapper",
+    "compressor": "createch2:heavy_industry/rubberworks/compressor",
+    "warm": "rubberworks:compressing/rubber_warm",
+    "heated": "rubberworks:compressing/rubber",
+    "press": "rubberworks:pressing/rubber_sheet",
+    "rawHide": "tfc:crafting/small_raw_hide",
+    "soakedHide": "tfc:barrel/small_soaked_hide",
+    "scrapedHide": "tfc:scraping/small_scraped_hide",
+    "preparedHide": "tfc:barrel/small_prepared_hide",
+    "leather": "tfc:barrel/small_leather",
+    "tannin": "tfc:barrel/tannin",
+    "barrel": "tfc:crafting/wood/barrel/oak",
+    "woodenBucket": "tfc:crafting/wooden_bucket",
+    "axeHead": "tfc:knapping/stone/axe_head/sedimentary",
+    "axe": "tfc:crafting/stone/axe/sedimentary",
+    "limewater": "tfc:barrel/limewater",
+    "alloyPlate": "createch2:greate/tier_0/andesite_plate",
+    "gearbox": "createch2:greate/tier_0/gearbox",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "pressCraft": "createch2:age_foundation/create/mechanical_press",
+    "sawCraft": "createch2:greate/tier_0/mechanical_saw",
+    "steelShaft": "createch2:greate/tier_1/shaft_cutting",
+    "waterWheel": "createch2:age_foundation/create/water_wheel",
+    "smallCog": "createch2:greate/tier_0/cogwheel",
+    "largeCog": "createch2:greate/tier_0/large_cogwheel",
+    "foundryLid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "depotCraft": "create:crafting/kinetics/depot",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "firestarterCraft": "tfc:crafting/firestarter",
+    "bufferCraft": "create:crafting/kinetics/fluid_tank"
+  },
+  "nativeClasses": {
+    "sapper": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.sapper.SapperBlockEntity",
+      false
+    ],
+    "sapperBlock": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.sapper.SapperBlock",
+      false
+    ],
+    "sappingRecipe": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.sapper.SappingRecipe",
+      false
+    ],
+    "treeType": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.sapper.SapperBlockEntity$TreeType",
+      false
+    ],
+    "compressor": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlockEntity",
+      false
+    ],
+    "compressorBlock": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlock",
+      false
+    ],
+    "compDirection": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlockEntity$1",
+      false
+    ],
+    "compressingRecipe": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressingRecipe",
+      false
+    ],
+    "barrelBE": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.BarrelBlockEntity",
+      false
+    ],
+    "barrelRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.BarrelRecipe",
+      false
+    ],
+    "sealedRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.SealedBarrelRecipe",
+      false
+    ],
+    "barrelBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.BarrelBlock",
+      false
+    ],
+    "scrapingBE": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.ScrapingBlockEntity",
+      false
+    ],
+    "scrapingBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.ScrapingBlock",
+      false
+    ],
+    "scrapingRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.ScrapingRecipe",
+      false
+    ],
+    "blockHelper": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.utility.BlockHelper",
+      false
+    ],
+    "depotBE": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBlockEntity",
+      false
+    ],
+    "depot": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBehaviour",
+      false
+    ],
+    "rotation": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.RotationPropagator",
+      false
+    ],
+    "factory": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      false
+    ],
+    "factoryV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      true
+    ],
+    "converter": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      false
+    ],
+    "converterV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      true
+    ],
+    "rubberTreeChance": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.common.worldgen.modifier.RubberTreeChancePlacement",
+      false
+    ],
+    "basin": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlockEntity",
+      false
+    ],
+    "basinBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlock",
+      false
+    ],
+    "icog": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.simpleRelays.ICogWheel",
+      false
+    ],
+    "horizontal": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.HorizontalKineticBlock",
+      false
+    ],
+    "interactions": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.InteractionManager",
+      false
+    ],
+    "firestarter": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.FirestarterItem",
+      false
+    ],
+    "startFire": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.events.StartFireEvent",
+      false
+    ],
+    "forest": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.tree.ForestFeature",
+      false
+    ],
+    "randomTree": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.tree.RandomTreeFeature",
+      false
+    ],
+    "barrelInventory": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.BarrelBlockEntity$BarrelInventory",
+      false
+    ],
+    "fluidContainerItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.FluidContainerItem",
+      false
+    ],
+    "fluidContainerHandler": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.fluid.FluidContainerHandler",
+      false
+    ],
+    "fluidHelpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.fluids.FluidHelpers",
+      false
+    ],
+    "tfcTiers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTiers",
+      false
+    ],
+    "tfcItems": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      false
+    ],
+    "tfcItemsV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      true
+    ],
+    "instantBarrelRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.InstantBarrelRecipe",
+      false
+    ],
+    "itemCapabilities": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.capabilities.ItemCapabilities",
+      false
+    ],
+    "gearboxBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.gearbox.TieredGearboxBlock",
+      false
+    ],
+    "gearboxBE": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.gearbox.TieredGearboxBlockEntity",
+      false
+    ],
+    "createGearboxBE": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.gearbox.GearboxBlockEntity",
+      false
+    ],
+    "createGearboxBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.gearbox.GearboxBlock",
+      false
+    ],
+    "notPredated": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.loot.NotPredatedCondition",
+      false
+    ],
+    "bucketInfo": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.FluidContainerItem$1",
+      false
+    ],
+    "damageRemainder": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.outputs.DamageCraftingRemainderModifier",
+      false
+    ],
+    "fluidComponent": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.fluid.FluidComponent",
+      false
+    ],
+    "fluidContainer": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.fluid.FluidContainer",
+      false
+    ],
+    "tfcItemTags": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTags$Items",
+      false
+    ],
+    "saw": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlockEntity"
+    ],
+    "sawBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlock"
+    ],
+    "createSaw": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlockEntity"
+    ],
+    "createSawBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlock"
+    ],
+    "directional": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock"
+    ],
+    "processingParams": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipeParams",
+      false
+    ],
+    "processingSerializer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.StandardProcessingRecipe$Serializer",
+      false
+    ],
+    "recipeTypes": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.register.RubberworksRecipeTypes",
+      false
+    ],
+    "recipeTypesV": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.register.RubberworksRecipeTypes",
+      true
+    ],
+    "processingOutput": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput",
+      false
+    ],
+    "stress": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.config.RubberworksStress",
+      false
+    ],
+    "rwConfig": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.config.RubberworksConfig",
+      false
+    ],
+    "rwKinetics": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.config.server.GBKinetics",
+      false
+    ],
+    "rwConfigV": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.config.RubberworksConfig",
+      true
+    ],
+    "rwMain": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.Rubberworks",
+      false
+    ],
+    "bufferTank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity",
+      false
+    ],
+    "bufferTankBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlock",
+      false
+    ],
+    "bufferTankStorage": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.SmartFluidTank",
+      false
+    ],
+    "neoTank": [
+      "@loader",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "sapper": "4c59412ac450b1979b8c639c9193a6da782a43187fefb15892a8091b547bcab4",
+    "sapperBlock": "c5f291c1b929d3aa238a207df55332ccc0cd5ca000ee7efc94effa5029694c4a",
+    "sappingRecipe": "285948bcf0b509ffbb7d5e035c1a92ee93d4fd078098d570f4ecee2ef8643c08",
+    "treeType": "3ae6f56f7757ad6fa390053726c63064f42475ab7af22b1787c7bf0a88efbe8f",
+    "compressor": "2f68dab1d2942e46dd8d3b3932689cc14474614992ac56e041fc1dd2a5463f23",
+    "compressorBlock": "ef98adcb889304dbc41cdeea6af651e44d2e0e836addd2828f4541a624c2bd8a",
+    "compDirection": "836080457ebdef3bc42aa790cce328aee6f17ba53f3b743f350f7c465282e82c",
+    "compressingRecipe": "246f6627aa7ad40625ce2c26e3e8a3f651f808c4da878d43f4f6e39ac3bcc0a0",
+    "barrelBE": "c28d80ce2229773481a70dd2c507cc34caadfc0bdefe34f61391ecf19dee9212",
+    "barrelRecipe": "e129a97102ab074cd054eea94f8b3190c7628730799fedb61a201c7a66a9741d",
+    "sealedRecipe": "d05bb48b79b61e2f491ae8b6c9e059eb5a67dfcc0068c1e47bfea0b306ab6cce",
+    "barrelBlock": "3eeccfc76855ce740bff9bfbfbdd53414fe4c20f02336b30dbb1979cea735543",
+    "scrapingBE": "a6e6bc39a4a670d8712714361f9bfefe6aa391b02ec0516c7a081a4d192f7552",
+    "scrapingBlock": "90817cff044849db926fcaeebec693742299c28b1187444eb256f061cd567291",
+    "scrapingRecipe": "31d33d105bec24210bff92840d4f80dd60a6cd38006526eb7bbc11e34fda1f37",
+    "blockHelper": "88ce514a1428d083293ddff44ec90c174c649f7e78bcb5fa813a7281d0c19d2a",
+    "depotBE": "668315617753011e3a5905b77e66d02c8664007bdf0201660030b6cd8dc9bb28",
+    "depot": "4743a24fac8ef345f014a6995fec4f817592cd1dd5b7962c630fe5e2c31dc016",
+    "rotation": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+    "factory": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "factoryV": "2adb4be912ed372db9ea6c536854ce3951fc032821563300614f1b89916da2f7",
+    "converter": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "converterV": "b6831e2a5a1ebbe2ea7632c38f006d983e97be3ea608f925a2db78fea5332518",
+    "rubberTreeChance": "d1af2c219cbf4f522130e568987dfdb3113eb62dfe424d1b56e1b966e4a8c40b",
+    "basin": "7e90ced4daec284d3e2bf63c44d4510e918f22bf0381e312a355adfa0f819db8",
+    "basinBlock": "a56f06a149800e0cc0f4517fb9de3ac6327d6c49eff8e05a4a6946a8f671fb92",
+    "icog": "9bb98bf7241a488403d886857d956ed816196ee49bbc803b7b308840b94a22f0",
+    "horizontal": "596df63de1ddf154380a59d86e29b7b63c984ff18d6f7fcdde71921ac65ad3e0",
+    "interactions": "93113bf654159dd4bfd377432e6233d82fb1ed354360af9bba132373cd7c2458",
+    "firestarter": "950fadbf93ba47431a892af4a594606a2e007a01ebe0d1eaf63cc822a9a700ab",
+    "startFire": "ffdbce1d8184126e8c75291ece3b8f86531f4e73e8762d8114b81289633a6e1b",
+    "forest": "99a82b0af535527d089916ef6862ca76880c10eaf84fe8bbbffbe3eeb3b11138",
+    "randomTree": "748650f71205cda80554df4c43294febc6d95adaa3f553bd040372a496668dff",
+    "barrelInventory": "fef3b893f5ec285120cd6be6102e76caa0115d9910230bf2240bad1c0e0d4890",
+    "fluidContainerItem": "33915fe6e5c2af23784dcf0dc681fe1f7acdb9dc230e0f76c799b09b09bf7243",
+    "fluidContainerHandler": "a1e993580402fe034fcb2edfc6967996e291a1d29af170e9bb39dbd2e3288d1e",
+    "fluidHelpers": "3ad32f3d74f8100383e64f6e5a3e912e07186f1e4f817d7bd6efcd9108f3528e",
+    "tfcTiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "tfcItems": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "tfcItemsV": "f08da74a18eebfd6bb9be7fca644a2dfb4fbf061dec298709790c5890e97fb21",
+    "instantBarrelRecipe": "e0d2b26a454ef538ddbc0fb8a706d81f2e28bca0e8a31ccfc6d9a938ee29fb62",
+    "itemCapabilities": "7eb56b82ddfc5984f10d63474bc402e618ae267e89c926aadfa602e42ca5e450",
+    "gearboxBlock": "7c7cfa5b034f0cb551edb3762753344c17ef7e4d3a636f31f6e18f5746dd1add",
+    "gearboxBE": "ac018f367ddb6e31cafee0c6a193e8ec3ae06eaf425c016f3b1b12c9ec262a5a",
+    "createGearboxBE": "093d7388aab3452fd8455f29773537692ac3f2088d97cd793d19adb8a0c04b16",
+    "createGearboxBlock": "68605a5a018216fc99e33a5c77bca8a21b59ea7ec5f3c25d01cb8f35a2c607ef",
+    "notPredated": "5763f4d28cbdbcec42b6c66e95efddd2d322d8ac8fec801bbf7780db17e82138",
+    "bucketInfo": "8b5cec2f84376a713529107a2e0a827749f0359ed979a50371a6cf88d61c8221",
+    "damageRemainder": "ac0f4932b795f523d3d22c5f09576013d88bd6af7399c88f3eca294fc2df1eab",
+    "fluidComponent": "539b29fa033a6e9586fb4673e69d0cf27f9b513359c6836ff5118464139aea9c",
+    "fluidContainer": "863a70c0351f97d74b4d985aa2d6c7a2a72fc4d9b0e17a944b7ceb4336fbc319",
+    "tfcItemTags": "38eb2027b31a6bc5fcd653f1ac8774cd98e1b06f2b65da01264c169144e0e4a0",
+    "saw": "7e2e38be0682530d3265f902fb454eaf03acfe1c0a092e445fe8d15181f60bf0",
+    "sawBlock": "75dd79fd7585f6d91581ff30cda2b33d37160f6f7a965fe42a302fe17abd892a",
+    "createSaw": "ec223c2745e4b53f1f24b94d6039b240a3ec04eb1d3a3f378c0f279ebb2dc7b7",
+    "createSawBlock": "4af96a9cb073350f35492854ef637cd6be7ae110db50e431c19b577ed225fb8b",
+    "directional": "670ea26986b4be63af2c51b25919efc7544f97425d94a8e1b5b74cfd6acaaf9e",
+    "processingParams": "ffcc3404e4b7f824d7eae8b1038920af73cbf3870e9902ee2c5c773a433e839c",
+    "processingSerializer": "c7c95be2c25da145b73edb2627f0e72f9cb64287d2be065a98ae842dae426917",
+    "recipeTypes": "2622cc0b28e44d521eb73b107ea009f350954d2021ecd7b9d3203db9251e69ee",
+    "recipeTypesV": "f72e105bb719b233de7805e52e8df30130c4f500bd0fb8756330269f824dd633",
+    "processingOutput": "44cae193648fc75cd62159eb8edeb5b52bf737fbf604f583b0e7473eb37bb758",
+    "stress": "42405627e39b73d0abe073f525494b511d69cd12975b69996d2bd6420378a5d0",
+    "rwConfig": "833fef2541c4a2ef1a1a9326767ecb44db835438171625a6f577a96f6ea3c931",
+    "rwKinetics": "6dd2b7725d75fe36fcb26df0e28de5a29eb50bc1b3a5bcd3a0cda559716d4381",
+    "rwConfigV": "1f19995f903f8c61f0de3dddd45dff0d6de706d8828f451153cf1574e9539ecf",
+    "rwMain": "78a40aa938bdf7e9c00f79f714527ac34afc2c7671deff29dfad0c9324e6e1ff",
+    "bufferTank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "bufferTankBlock": "764867a962b37a966e0a8cb04fa0dc20fe07abecdccab1f18d36a4ce031cb973",
+    "bufferTankStorage": "8298bda26d0c4e963aad4f82e33fb334cfa93ac0790630d1171b70a2f85d5239",
+    "neoTank": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be"
+  },
+  "recipes": {
+    "createch2:rubberworks/sapping/gtceu_rubber_tree": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "rubberworks:sapping",
+        "ingredients": [
+          {
+            "item": "gtceu:rubber_log"
+          },
+          {
+            "item": "gtceu:rubber_leaves"
+          }
+        ],
+        "results": [
+          {
+            "id": "rubberworks:resin",
+            "amount": 100
+          }
+        ]
+      }
+    },
+    "createch2:bronze_steam/rubberworks/sapper": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " C ",
+          "BGB",
+          "WPL"
+        ],
+        "key": {
+          "C": {
+            "tag": "c:plates/copper"
+          },
+          "B": {
+            "tag": "createch2:materials/bronze/machine_grade"
+          },
+          "G": {
+            "item": "greate:andesite_alloy_cogwheel"
+          },
+          "W": {
+            "tag": "tfc:lumber"
+          },
+          "P": {
+            "item": "create:fluid_pipe"
+          },
+          "L": {
+            "tag": "c:leathers"
+          }
+        },
+        "result": {
+          "id": "rubberworks:sapper",
+          "count": 1
+        }
+      }
+    },
+    "createch2:heavy_industry/rubberworks/compressor": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " S ",
+          "BCB",
+          "PMP"
+        ],
+        "key": {
+          "S": {
+            "item": "greate:steel_shaft"
+          },
+          "B": {
+            "tag": "c:plates/cast_iron"
+          },
+          "C": {
+            "item": "create:brass_casing"
+          },
+          "P": {
+            "item": "create:fluid_pipe"
+          },
+          "M": {
+            "item": "create:precision_mechanism"
+          }
+        },
+        "result": {
+          "id": "rubberworks:compressor",
+          "count": 1
+        }
+      }
+    },
+    "rubberworks:compressing/rubber_warm": {
+      "kind": "native",
+      "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "data": {
+        "type": "rubberworks:compressing",
+        "ingredients": [
+          {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "rubberworks:resin"
+          }
+        ],
+        "results": [
+          {
+            "id": "rubberworks:rubber"
+          }
+        ]
+      }
+    },
+    "rubberworks:compressing/rubber": {
+      "kind": "native",
+      "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "data": {
+        "type": "rubberworks:compressing",
+        "ingredients": [
+          {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "rubberworks:resin"
+          }
+        ],
+        "results": [
+          {
+            "count": 2,
+            "id": "rubberworks:rubber"
+          }
+        ],
+        "heat_requirement": "heated"
+      }
+    },
+    "rubberworks:pressing/rubber_sheet": {
+      "kind": "native",
+      "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "data": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "rubberworks:rubber"
+          }
+        ],
+        "results": [
+          {
+            "id": "rubberworks:rubber_sheet"
+          }
+        ]
+      }
+    },
+    "tfc:crafting/small_raw_hide": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:advanced_shapeless_crafting",
+        "ingredients": [
+          {
+            "item": "tfc:small_sheepskin_hide"
+          },
+          {
+            "tag": "c:tools/knife"
+          }
+        ],
+        "primary_ingredient": {
+          "tag": "c:tools/knife"
+        },
+        "remainder": {
+          "modifiers": [
+            {
+              "type": "tfc:damage_crafting_remainder"
+            },
+            {
+              "type": "tfc:extra_products",
+              "stack": {
+                "count": 1,
+                "id": "tfc:wool"
+              }
+            }
+          ]
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:small_raw_hide"
+        }
+      }
+    },
+    "tfc:barrel/small_soaked_hide": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_sealed",
+        "duration": 7200,
+        "input_fluid": {
+          "amount": 300,
+          "fluid": "tfc:limewater"
+        },
+        "input_item": {
+          "count": 1,
+          "item": "tfc:small_raw_hide"
+        },
+        "output_item": {
+          "count": 1,
+          "id": "tfc:small_soaked_hide"
+        }
+      }
+    },
+    "tfc:scraping/small_scraped_hide": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:scraping",
+        "ingredient": {
+          "item": "tfc:small_soaked_hide"
+        },
+        "input_texture": "tfc:item/hide/small/soaked",
+        "output_texture": "tfc:item/hide/small/scraped",
+        "result": {
+          "count": 1,
+          "id": "tfc:small_scraped_hide"
+        }
+      }
+    },
+    "tfc:barrel/small_prepared_hide": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_sealed",
+        "duration": 7200,
+        "input_fluid": {
+          "amount": 300,
+          "fluid": "minecraft:water"
+        },
+        "input_item": {
+          "count": 1,
+          "item": "tfc:small_scraped_hide"
+        },
+        "output_item": {
+          "count": 1,
+          "id": "tfc:small_prepared_hide"
+        }
+      }
+    },
+    "tfc:barrel/small_leather": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_sealed",
+        "duration": 7200,
+        "input_fluid": {
+          "amount": 300,
+          "fluid": "tfc:tannin"
+        },
+        "input_item": {
+          "count": 1,
+          "item": "tfc:small_prepared_hide"
+        },
+        "output_item": {
+          "count": 1,
+          "id": "minecraft:leather"
+        }
+      }
+    },
+    "tfc:barrel/tannin": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_sealed",
+        "duration": 7200,
+        "input_fluid": {
+          "amount": 1000,
+          "fluid": "minecraft:water"
+        },
+        "input_item": {
+          "count": 1,
+          "tag": "tfc:tannin_logs"
+        },
+        "output_fluid": {
+          "amount": 1000,
+          "id": "tfc:tannin"
+        }
+      }
+    },
+    "tfc:crafting/wood/barrel/oak": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "L": {
+            "item": "tfc:wood/lumber/oak"
+          }
+        },
+        "pattern": [
+          "L L",
+          "L L",
+          "LLL"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:wood/barrel/oak"
+        }
+      }
+    },
+    "tfc:crafting/wooden_bucket": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "L": {
+            "tag": "tfc:lumber"
+          }
+        },
+        "pattern": [
+          "L L",
+          " L "
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:wooden_bucket"
+        }
+      }
+    },
+    "tfc:knapping/stone/axe_head/sedimentary": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:knapping",
+        "ingredient": {
+          "tag": "tfc:stones/loose/sedimentary"
+        },
+        "knapping_type": "tfc:rock",
+        "pattern": [
+          " #   ",
+          "#### ",
+          "#####",
+          "#### ",
+          " #   "
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:stone/axe_head/sedimentary"
+        }
+      }
+    },
+    "tfc:crafting/stone/axe/sedimentary": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "S": [
+            {
+              "tag": "c:rods/wooden"
+            },
+            {
+              "item": "minecraft:bone"
+            }
+          ],
+          "X": {
+            "item": "tfc:stone/axe_head/sedimentary"
+          }
+        },
+        "pattern": [
+          "X",
+          "S"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:stone/axe/sedimentary"
+        }
+      }
+    },
+    "tfc:barrel/limewater": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_instant",
+        "input_fluid": {
+          "amount": 500,
+          "fluid": "minecraft:water"
+        },
+        "input_item": {
+          "type": "neoforge:compound",
+          "children": [
+            {
+              "item": "tfc:powder/lime"
+            },
+            {
+              "item": "tfc:powder/flux"
+            }
+          ],
+          "count": 1
+        },
+        "output_fluid": {
+          "amount": 500,
+          "id": "tfc:limewater"
+        }
+      }
+    },
+    "createch2:greate/tier_0/andesite_plate": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "greate:pressing",
+        "recipe_tier": 0,
+        "ingredients": [
+          {
+            "item": "create:andesite_alloy"
+          }
+        ],
+        "results": [
+          {
+            "id": "greate:andesite_alloy_plate"
+          }
+        ]
+      }
+    },
+    "createch2:greate/tier_0/gearbox": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "CSC",
+          "PHP",
+          " S "
+        ],
+        "key": {
+          "C": {
+            "item": "greate:andesite_alloy_cogwheel"
+          },
+          "S": {
+            "item": "greate:andesite_alloy_shaft"
+          },
+          "P": {
+            "item": "create:andesite_alloy"
+          },
+          "H": {
+            "item": "create:andesite_casing"
+          }
+        },
+        "result": {
+          "id": "greate:andesite_alloy_gearbox",
+          "count": 1
+        }
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "A",
+          "L",
+          "A"
+        ],
+        "key": {
+          "A": {
+            "item": "create:andesite_alloy"
+          },
+          "L": {
+            "item": "createbigcannons:basin_foundry_lid"
+          }
+        },
+        "result": {
+          "id": "greate:andesite_alloy_shaft",
+          "count": 8
+        }
+      }
+    },
+    "createch2:age_foundation/create/mechanical_press": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " S ",
+          " C ",
+          " D "
+        ],
+        "key": {
+          "S": {
+            "item": "greate:andesite_alloy_shaft"
+          },
+          "C": {
+            "item": "create:andesite_casing"
+          },
+          "D": {
+            "item": "tfc:metal/double_sheet/copper"
+          }
+        },
+        "result": {
+          "id": "greate:andesite_alloy_mechanical_press",
+          "count": 1
+        }
+      }
+    },
+    "createch2:greate/tier_0/mechanical_saw": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " G ",
+          "SCS",
+          " W "
+        ],
+        "key": {
+          "G": {
+            "item": "greate:andesite_alloy_cogwheel"
+          },
+          "S": {
+            "item": "greate:andesite_alloy_shaft"
+          },
+          "C": {
+            "item": "create:andesite_casing"
+          },
+          "W": {
+            "item": "tfc:metal/double_sheet/bronze"
+          }
+        },
+        "result": {
+          "id": "greate:andesite_alloy_mechanical_saw",
+          "count": 1
+        }
+      }
+    },
+    "createch2:greate/tier_1/shaft_cutting": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "greate:cutting",
+        "recipe_tier": 0,
+        "ingredients": [
+          {
+            "tag": "c:plates/steel"
+          }
+        ],
+        "processing_time": 100,
+        "results": [
+          {
+            "id": "greate:steel_shaft",
+            "count": 6
+          }
+        ]
+      }
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "PSP",
+          "PLP"
+        ],
+        "key": {
+          "P": {
+            "tag": "minecraft:planks"
+          },
+          "S": {
+            "item": "greate:andesite_alloy_shaft"
+          },
+          "L": {
+            "item": "createbigcannons:basin_foundry_lid"
+          }
+        },
+        "result": {
+          "id": "create:water_wheel",
+          "count": 1
+        }
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "greate:andesite_alloy_shaft"
+          },
+          {
+            "item": "create:andesite_alloy"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "id": "greate:andesite_alloy_cogwheel",
+          "count": 1
+        }
+      }
+    },
+    "createch2:greate/tier_0/large_cogwheel": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "greate:andesite_alloy_cogwheel"
+          },
+          {
+            "item": "greate:andesite_alloy_cogwheel"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "id": "greate:large_andesite_alloy_cogwheel",
+          "count": 1
+        }
+      }
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "CCC",
+          "ABA",
+          "BBB"
+        ],
+        "key": {
+          "C": {
+            "tag": "c:ingots/copper"
+          },
+          "A": {
+            "item": "create:andesite_alloy"
+          },
+          "B": {
+            "tag": "createch2:ceramic/foundry_masonry"
+          }
+        },
+        "result": {
+          "id": "createbigcannons:basin_foundry_lid",
+          "count": 1
+        }
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "kind": "native",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "create:andesite_alloy"
+          },
+          {
+            "item": "create:andesite_casing"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:depot"
+        }
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "CCC",
+          "RGR",
+          "CCC"
+        ],
+        "key": {
+          "C": {
+            "item": "modern_industrialization:bronze_curved_plate"
+          },
+          "R": {
+            "item": "modern_industrialization:copper_rotor"
+          },
+          "G": {
+            "tag": "c:glass_panes"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:fluid_pipe",
+          "count": 12
+        }
+      }
+    },
+    "tfc:crafting/firestarter": {
+      "kind": "native",
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          " S",
+          "S "
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:firestarter"
+        }
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "kind": "native",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "tag": "c:plates/copper"
+          },
+          "C": {
+            "tag": "c:barrels/wooden"
+          }
+        },
+        "pattern": [
+          "B",
+          "C",
+          "B"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:fluid_tank"
+        }
+      }
+    }
+  },
+  "resources": {
+    "worldgen/configured_feature|gtceu:rubber_tree": {
+      "type": "minecraft:tree",
+      "config": {
+        "decorators": [],
+        "dirt_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        "foliage_placer": {
+          "type": "minecraft:jungle_foliage_placer",
+          "height": 1,
+          "offset": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 1,
+            "min_inclusive": 0
+          },
+          "radius": 1
+        },
+        "foliage_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "gtceu:rubber_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "force_dirt": false,
+        "ignore_vines": true,
+        "minimum_size": {
+          "type": "minecraft:two_layers_feature_size",
+          "limit": 1,
+          "lower_size": 0,
+          "upper_size": 2
+        },
+        "trunk_placer": {
+          "type": "minecraft:forking_trunk_placer",
+          "base_height": 5,
+          "height_rand_a": 1,
+          "height_rand_b": 3
+        },
+        "trunk_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "gtceu:rubber_log",
+            "Properties": {
+              "axis": "y",
+              "natural": "true"
+            }
+          }
+        }
+      }
+    },
+    "worldgen/placed_feature|gtceu:rubber_tree": {
+      "feature": "gtceu:rubber_tree",
+      "placement": [
+        {
+          "type": "gtceu:rubber_tree_chance"
+        },
+        {
+          "type": "minecraft:count",
+          "count": {
+            "type": "minecraft:biased_to_bottom",
+            "min_inclusive": 1,
+            "max_inclusive": 4
+          }
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:surface_water_depth_filter",
+          "max_water_depth": 0
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "tfc:climate",
+          "min_temperature": 18.0,
+          "max_temperature": 32.0,
+          "min_groundwater": 250,
+          "max_groundwater": 500,
+          "min_rain_variance": -0.35,
+          "max_rain_variance": 0.65,
+          "rain_variance_absolute": false,
+          "min_forest": 1,
+          "max_forest": 3,
+          "min_elevation": -20,
+          "max_elevation": 180,
+          "fuzzy": true
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "gtceu:rubber_sapling",
+              "Properties": {
+                "stage": "0"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "neoforge/biome_modifier|gtceu:rubber_tree": {
+      "type": "neoforge:add_features",
+      "biomes": "#createch2:tfc_rubber_tree_biomes",
+      "features": "gtceu:rubber_tree",
+      "step": "vegetal_decoration"
+    },
+    "loot_table|tfc:entities/sheep": {
+      "type": "minecraft:entity",
+      "pools": [
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "tfc:animal_yield",
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "max": 18.0,
+                      "min": 12.0
+                    },
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "tfc:food/mutton"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "conditions": [
+            {
+              "condition": "tfc:not_predated"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:bone"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "conditions": [
+            {
+              "condition": "tfc:not_predated"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:small_sheepskin_hide"
+            }
+          ],
+          "rolls": 1.0
+        }
+      ],
+      "random_sequence": "tfc:entities/sheep"
+    },
+    "worldgen/configured_feature|tfc:forest": {
+      "type": "tfc:forest",
+      "config": {
+        "entries": "#tfc:forest_trees"
+      }
+    },
+    "worldgen/placed_feature|tfc:forest": {
+      "feature": "tfc:forest",
+      "placement": []
+    },
+    "worldgen/configured_feature|tfc:tree/oak_entry": {
+      "type": "tfc:forest_entry",
+      "config": {
+        "climate": {
+          "min_temperature": -0.4,
+          "max_temperature": 17.6,
+          "min_groundwater": 210,
+          "max_groundwater": 500,
+          "min_rain_variance": -0.5,
+          "max_rain_variance": 0.75,
+          "rain_variance_absolute": false
+        },
+        "groundcover": [
+          {
+            "block": "tfc:wood/twig/oak"
+          },
+          {
+            "block": "tfc:wood/fallen_leaves/oak"
+          }
+        ],
+        "normal_tree": "tfc:tree/oak",
+        "dead_tree": "tfc:tree/oak_dead",
+        "soil_disc": "tfc:alfisol_disc",
+        "fallen_log": "tfc:wood/log/oak",
+        "fallen_leaves": "tfc:wood/fallen_leaves/oak",
+        "bush_log": {
+          "Name": "tfc:wood/wood/oak",
+          "Properties": {
+            "branch_direction": "down",
+            "axis": "y"
+          }
+        },
+        "bush_leaves": "tfc:wood/leaves/oak"
+      }
+    },
+    "worldgen/configured_feature|tfc:tree/oak": {
+      "type": "tfc:random_tree",
+      "config": {
+        "structures": [
+          "tfc:oak/1",
+          "tfc:oak/2",
+          "tfc:oak/3",
+          "tfc:oak/4",
+          "tfc:oak/5",
+          "tfc:oak/6",
+          "tfc:oak/7",
+          "tfc:oak/8"
+        ],
+        "radius": 1,
+        "placement": {
+          "width": 1,
+          "height": 5
+        }
+      }
+    },
+    "worldgen/placed_feature|tfc:tree/oak": {
+      "feature": "tfc:tree/oak",
+      "placement": []
+    },
+    "loot_table|tfc:blocks/wood/log/oak": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#c:tools/hammer"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 4,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:wood/log/oak"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfc:blocks/wood/twig/oak": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:wood/twig/oak"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    "tfc:plains",
+    "tfc:lowlands",
+    "tfc:rolling_hills",
+    "tfc:hills",
+    "tfc:highlands",
+    "tfc:plateau",
+    "tfc:plateau_wide",
+    "tfc:terrace_lower",
+    "tfc:terrace_upper",
+    "tfc:river_valley",
+    "tfc:drumlins",
+    "tfc:knob_and_kettle",
+    "tfc:doline_plains",
+    "tfc:doline_rolling_hills",
+    "tfc:cenote_plains",
+    "tfc:cenote_rolling_hills",
+    "tfc:tower_karst_plains",
+    "tfc:tower_karst_hills"
+  ],
+  "tanninLog": "tfc:wood/log/oak",
+  "passiveFire": "minecraft:fire",
+  "treeChance": 0.65,
+  "lootPolicySha256": "963661ead5a870632ebec035612ff347c3359136cd9cb8d42fae9f05bbd94387",
+  "pressRuntimeId": "greate:integration/rubberworks/pressing/rubber_sheet",
+  "pressRuntimeData": {
+    "type": "greate:pressing",
+    "recipe_tier": 0,
+    "ingredients": [
+      {
+        "item": "rubberworks:rubber"
+      }
+    ],
+    "results": [
+      {
+        "id": "rubberworks:rubber_sheet",
+        "count": 1,
+        "chance": 1
+      }
+    ],
+    "processing_time": 0
+  },
+  "drive": {
+    "source": {
+      "item": "create:water_wheel",
+      "position": [
+        -6,
+        -2,
+        3
+      ],
+      "axis": "X",
+      "rpm": 8,
+      "capacity": 8
+    },
+    "smallCogs": [
+      [
+        -4,
+        -2,
+        3
+      ],
+      [
+        -2,
+        -1,
+        2
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "largeCogs": [
+      [
+        -4,
+        -1,
+        2
+      ],
+      [
+        -2,
+        0,
+        1
+      ]
+    ],
+    "shafts": [
+      [
+        -5,
+        -2,
+        3
+      ],
+      [
+        -3,
+        -1,
+        2
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "sapper": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "facing": "east",
+      "axis": "X",
+      "rpm": -2,
+      "inputGap": [
+        -1,
+        0,
+        0
+      ],
+      "trunk": [
+        -2,
+        0,
+        0
+      ],
+      "fluidPort": [
+        1,
+        0,
+        0
+      ]
+    },
+    "phase0": {
+      "saw": [
+        -8,
+        -2,
+        3
+      ],
+      "facing": "up",
+      "axis": "X",
+      "axisAlongFirstCoordinate": true,
+      "rpm": 8,
+      "input": "Drop one steel plate onto the upward-facing saw.",
+      "output": "Empty-hand use of the upward-facing saw returns its native inventory; collect all six steel shafts.",
+      "note": "An isolated8SUsaw station manufactures the first steel shafts and remains separate from the main8SUrubber drive. Current cog recipes do not require plates. No saw disassembly, inherited finished shaft, wrench or raised capacity is credited.",
+      "source": [
+        -10,
+        -2,
+        3
+      ],
+      "shaft": [
+        -9,
+        -2,
+        3
+      ],
+      "independentSource": true
+    },
+    "phase2": {
+      "replaceSmallCogWithGearboxAt": [
+        0,
+        0,
+        1
+      ],
+      "gearboxAxis": "Y",
+      "sourceFacing": "west",
+      "outputFacing": "south",
+      "compressor": [
+        0,
+        0,
+        3
+      ],
+      "compressorFacing": "east",
+      "compressorAxis": "Z",
+      "rpm": 2,
+      "fluidPort": [
+        -1,
+        0,
+        3
+      ],
+      "collectorDepot": [
+        1,
+        -1,
+        3
+      ],
+      "clearOutlet": [
+        1,
+        0,
+        3
+      ],
+      "passiveFire": [
+        0,
+        -1,
+        3
+      ],
+      "heatSupportFuel": [
+        0,
+        -2,
+        3
+      ],
+      "note": "The old inline-compressor candidate was blocked by the standing sapper. This perpendicular gearbox station keeps both the sapper and its output tank intact while clearing the compressor outlet."
+    },
+    "pipePositions": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        -1,
+        1,
+        3
+      ],
+      [
+        -1,
+        0,
+        3
+      ]
+    ],
+    "phase3": {
+      "disconnectCompressorShaftAt": [
+        0,
+        0,
+        2
+      ],
+      "press": [
+        2,
+        0,
+        1
+      ],
+      "newShaft": [
+        1,
+        0,
+        1
+      ],
+      "axis": "X",
+      "rpm": -2,
+      "depot": [
+        2,
+        -2,
+        1
+      ],
+      "gearboxOutputFacing": "east",
+      "note": "Remove the compressor input shaft without crediting recovery. Use the sixth paid shaft on the gearbox east side to power the separate press; the compressor and sapper remain intact and disconnected. Collect/move the same depot before pressing."
+    },
+    "hardware": {
+      "create:water_wheel": 2,
+      "greate:andesite_alloy_shaft": 6,
+      "greate:andesite_alloy_cogwheel": 3,
+      "greate:large_andesite_alloy_cogwheel": 2,
+      "greate:andesite_alloy_gearbox": 1,
+      "rubberworks:sapper": 1,
+      "rubberworks:compressor": 1,
+      "greate:andesite_alloy_mechanical_press": 1,
+      "create:depot": 1,
+      "modern_industrialization:fluid_pipe": 7,
+      "greate:andesite_alloy_mechanical_saw": 1,
+      "tfc:firestarter": 1,
+      "create:fluid_tank": 1
+    },
+    "phases": [
+      "Isolated direct8RPMtier0UPsaw uses8SU to turn one earlier steel plate into6steel shafts;5remain after compressor crafting. This has its own water wheel.",
+      "Main source: only sapper2RPM*4=8SU.",
+      "Replace sapper driving small cog with a Y-axis gearbox; drive EAST-facing compressor+2RPM*4=8SU, retaining clear forward/lower depot output.",
+      "Disconnect compressor input shaft and drive separate tier0press from gearbox east output at-2RPM*1=2SU; relocate the same depot."
+    ],
+    "scope": "Physical apparatus counts and native constructive phase plan only. Material procurement and actual placement, flow, gear/network formation and operation remain qualification.",
+    "manualChangeover": "Exact axes/facings are placement conditions. Swap the sapper-driving small cog for the Y-axis gearbox, leaving sapper/tank intact; do not credit recovery of that cog. Later remove the compressor input shaft, then place the separately paid sixth shaft and press east of the gearbox. A wrench or recovery drop is not credited. The direct saw station stays isolated.",
+    "buffer": {
+      "item": "create:fluid_tank",
+      "position": [
+        1,
+        1,
+        2
+      ],
+      "blocks": 1,
+      "nativeCapacityMb": 8000,
+      "resinBatchMb": 4000,
+      "mode": "ordinary non-boiler controller",
+      "inputSide": "north",
+      "outputSide": "south",
+      "phase1": "Configure north insertion and keep south extraction disabled while filling4000mBmatching resin.",
+      "phase2": "Stop sapper drive, enable south extraction and feed the compressor through its west port; replenish for8separate500mBwarm runs."
+    },
+    "fluidRoute": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        -1,
+        1,
+        3
+      ],
+      [
+        -1,
+        0,
+        3
+      ]
+    ]
+  },
+  "retiredRecipes": {
+    "rubberworks:crafting/sapper": [
+      {
+        "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "C": {
+              "item": "create:andesite_casing"
+            },
+            "I": {
+              "item": "create:cogwheel"
+            },
+            "S": {
+              "item": "create:copper_sheet"
+            }
+          },
+          "pattern": [
+            " S ",
+            "CIS",
+            " S "
+          ],
+          "result": {
+            "count": 1,
+            "id": "rubberworks:sapper"
+          }
+        }
+      }
+    ],
+    "rubberworks:crafting/compressor": [
+      {
+        "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "C": {
+              "item": "create:industrial_iron_block"
+            },
+            "R": {
+              "item": "create:andesite_alloy_block"
+            },
+            "S": {
+              "item": "create:shaft"
+            }
+          },
+          "pattern": [
+            "S",
+            "R",
+            "C"
+          ],
+          "result": {
+            "count": 1,
+            "id": "rubberworks:compressor"
+          }
+        }
+      }
+    ],
+    "rubberworks:compacting/rubber": [
+      {
+        "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+        "data": {
+          "type": "create:compacting",
+          "ingredients": [
+            {
+              "tag": "minecraft:small_flowers"
+            },
+            {
+              "tag": "minecraft:small_flowers"
+            },
+            {
+              "tag": "minecraft:small_flowers"
+            },
+            {
+              "tag": "minecraft:small_flowers"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 1000,
+              "fluid": "minecraft:water"
+            }
+          ],
+          "results": [
+            {
+              "id": "rubberworks:rubber"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "oakTemplates": {
+    "tfc:oak/1": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "c74d8e578a4f9bd4ec33d2ebf053ed492b1747fee2730896c6e20c92240aff7a",
+      "oakLogs": 9
+    },
+    "tfc:oak/2": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "ccda24a913b2738d075b476624872d6a9dcfe2fb66eb67a9d6d59f05907cb55e",
+      "oakLogs": 9
+    },
+    "tfc:oak/3": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "a2f991e64a574e3e0d960d4f2388b302a1ee8e180ec310d6e1bcc7089d86f3e4",
+      "oakLogs": 13
+    },
+    "tfc:oak/4": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "191ce9f1c6f5f4b69995456df175e1f272c03905c8f2e9dd768ee709c7802bf2",
+      "oakLogs": 13
+    },
+    "tfc:oak/5": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "0859202880cca19c8e498810151bff1e807143f542f00bcb6e9189f5e7581245",
+      "oakLogs": 11
+    },
+    "tfc:oak/6": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "b0da30bc4b3eb679405080c08531070f3e06882d6ea7d4fd8d0ef50a9af3bd9f",
+      "oakLogs": 12
+    },
+    "tfc:oak/7": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "ca4ed3f435dd268b336f5afee5c1803c81d0125e09e3bab622bc5e1a7dee47a4",
+      "oakLogs": 12
+    },
+    "tfc:oak/8": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "sha256": "0504564f347444bed0466a8742c9b6c59ad58bfc2e2f2b15e909bc59e453853d",
+      "oakLogs": 17
+    }
+  },
+  "leatherPlan": {
+    "sheepskins": 1,
+    "rawHides": 1,
+    "soakedHides": 1,
+    "scrapedHides": 1,
+    "preparedHides": 1,
+    "leather": 1,
+    "barrels": 3,
+    "woodenBuckets": 1,
+    "freshWaterLoadedMb": 3000,
+    "limewaterLoadedMb": 1000,
+    "limewaterConsumedMb": 300,
+    "rinseWaterConsumedMb": 300,
+    "tanninProducedMb": 1000,
+    "tanninConsumedMb": 300,
+    "tanninLogsConsumed": 1,
+    "scrapingSurfaceLogsRetained": 1,
+    "retainedFluidsMb": {
+      "minecraft:water": 700,
+      "tfc:limewater": 700,
+      "tfc:tannin": 700
+    },
+    "sealedRuns": 4,
+    "scrapingCells": 16,
+    "notes": "Three barrels avoid partial-bucket measurements: B makes1000limewater from1000water/two flux, then soaks one hide; A makes1000tannin from1000water/one oak log and later tans the prepared hide in that same tannin; C rinses with1000water. Three700mBresidues remain. One extra oak log stays as the scraping surface. Native field procurement, calendar/wear/transfer and actual inventory remain qualification.",
+    "limewaterInstantRuns": 2,
+    "flux": 2,
+    "oakLogsProcured": 2,
+    "woodTwigsForToolHandles": 2,
+    "looseLimestoneForKnifeAndAxe": 3,
+    "lumberPerBarrel": 7,
+    "lumberForThreeBarrelsAndBucket": 24,
+    "recipeDurationSum": 28800,
+    "minimumCalendarElapsedTicksAcrossFourRuns": 28804,
+    "calendarGate": "Each selected sealed run completes only when elapsed native calendar ticks >7200; actual tick scheduling can delay it further."
+  },
+  "rubberHardwarePlan": {
+    "smallCogCrafts": 11,
+    "smallCogsInstalledInDrive": 3,
+    "smallCogsConsumedByLargeCogs": 4,
+    "smallCogsConsumedByGearbox": 2,
+    "smallCogsConsumedBySapper": 1,
+    "smallCogsConsumedBySaw": 1,
+    "largeCogCrafts": 2,
+    "shaftCraftRuns": 3,
+    "shaftsProduced": 24,
+    "shaftsUsed": 24,
+    "shaftsRetained": 0,
+    "foundryLids": 5,
+    "planks": 27,
+    "andesiteCasings": 4,
+    "copperDoubleSheets": 1,
+    "bronzeDoubleSheets": 1,
+    "steelPlateSawRuns": 1,
+    "steelPlates": 1,
+    "steelShaftsProduced": 6,
+    "steelShaftsForCompressor": 1,
+    "steelShaftsRetained": 5,
+    "fluidPipeCrafts": 1,
+    "miFluidPipesProduced": 12,
+    "miFluidPipesInstalled": 7,
+    "miFluidPipesRetained": 5,
+    "notes": "Selected recursive bill for two isolated sources, drive, saw, press, gearbox, depot and five foundation lids. Sapper/compressor remaining inputs, MI pipe ingredients and all upstream workshop procurement are additional. This is a one-batch stock plan; actual inventories/placement, flow, maintained fire and block recovery are not executed.",
+    "andesiteAlloyIncludingFiveFoundryLids": 30,
+    "independentWaterWheelSources": 2,
+    "copperIngotsForFiveLids": 15,
+    "ceramicMasonryForFiveLids": 20,
+    "noCogOrShaftRecoveryCredited": true,
+    "createBufferTanks": 1,
+    "createBufferCapacityMb": 8000,
+    "resinBufferedMb": 4000,
+    "additionalCopperPlatesForBuffer": 2,
+    "additionalTfcOakBarrelsForBuffer": 1
+  },
+  "rubberBatchPlan": {
+    "targetQuest": "0C462947C2A27098",
+    "targetSheets": 8,
+    "soloSapperCycles": 40,
+    "resinProducedMb": 4000,
+    "resinBufferedMb": 4000,
+    "warmCompressionRuns": 8,
+    "resinPerCompressionMb": 500,
+    "resinConsumedMb": 4000,
+    "rubberProduced": 8,
+    "pressRuns": 8,
+    "rubberConsumed": 8,
+    "sheetsProduced": 8,
+    "bufferResinRetainedMb": 0,
+    "bufferUnusedCapacityMb": 4000,
+    "note": "Optional eight-sheet production stock:40solo cycles/4000mB,8warm runs and8pressings. The saved supply objective checks one sheet and remains unchanged. Three main-drive phases cover this whole stock batch without repeated cog/gearbox replacement; actual transfer, stock and operation remain qualification.",
+    "objectiveSheetCount": 1,
+    "sheetsBeyondFirstObjective": 7
+  },
+  "loader": "21.1.256",
+  "questBinding": {
+    "chapter": "config/ftbquests/quests/chapters/createch2_05_age_04_heavy_industry.snbt",
+    "quest": "0C462947C2A27098",
+    "task": {
+      "id": "0E8FD96D86B5DEBC",
+      "item": {
+        "count": "1",
+        "id": "rubberworks:rubber_sheet"
+      },
+      "type": "item"
+    },
+    "literalItemStackCount": 1,
+    "descriptionPreviouslyClaimed": 8,
+    "scope": "Preserve the saved objective; correct its description. Eight is the optional production-stock plan, not a changed objective count."
+  }
+}

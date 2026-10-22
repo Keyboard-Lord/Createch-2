@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/chromite/poor",
+    "#createch2:tfc_ores/chromite/normal",
+    "#createch2:tfc_ores/chromite/rich"
+  ]
+}

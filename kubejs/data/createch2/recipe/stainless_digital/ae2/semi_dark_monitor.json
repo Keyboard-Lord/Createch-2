@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GQ",
+    "SRQ",
+    " GQ"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:dusts/glowstone"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result": {
+    "id": "ae2:semi_dark_monitor",
+    "count": 3
+  }
+}

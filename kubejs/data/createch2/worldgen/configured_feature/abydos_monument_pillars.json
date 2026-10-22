@@ -1,0 +1,55 @@
+{
+  "type": "createch2core:landform",
+  "config": {
+    "pillar": true,
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:sandstone"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "Name": "minecraft:cut_sandstone"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": {
+      "type": "minecraft:true"
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 14,
+      "max_inclusive": 48
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 4,
+      "max_inclusive": 10
+    },
+    "tip_scale": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.15,
+      "max_exclusive": 0.45
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.015,
+      "max_exclusive": 0.08
+    },
+    "euclidean_weight": 20,
+    "manhattan_weight": 2,
+    "chebyshev_weight": 1
+  }
+}

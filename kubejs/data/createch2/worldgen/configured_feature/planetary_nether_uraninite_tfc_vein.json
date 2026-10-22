@@ -1,0 +1,45 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 120,
+    "min_y": -48,
+    "max_y": 32,
+    "size": 18,
+    "density": 0.24,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:netherrack",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 45,
+            "block": "tfc_metallurgy:ore/poor_uraninite/basalt"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_uraninite/basalt"
+          },
+          {
+            "weight": 5,
+            "block": "tfc_metallurgy:ore/rich_uraninite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 22,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 44,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_uraninite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_nether_uraninite_tfc_vein"
+  }
+}

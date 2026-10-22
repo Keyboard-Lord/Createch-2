@@ -1,0 +1,42 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 96,
+  "duration": 480,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:silicon_dust",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:chlorine",
+      "amount": 4000
+    },
+    {
+      "fluid": "modern_industrialization:methane",
+      "amount": 2000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:polydimethylsiloxane_dust",
+      "amount": 3
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 2000
+    },
+    {
+      "fluid": "gtceu:diluted_hydrochloric_acid",
+      "amount": 2000
+    }
+  ]
+}

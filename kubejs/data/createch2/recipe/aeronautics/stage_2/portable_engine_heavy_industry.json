@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CEC",
+    "SAS",
+    "RPR"
+  ],
+  "key": {
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "E": {
+      "item": "simulated:engine_assembly"
+    },
+    "S": {
+      "item": "tfmg:steel_casing"
+    },
+    "A": {
+      "item": "create:mechanical_piston"
+    },
+    "R": {
+      "item": "tfmg:heavy_plate"
+    },
+    "P": {
+      "item": "tfmg:industrial_pipe"
+    }
+  },
+  "result": {
+    "id": "simulated:red_portable_engine",
+    "count": 1
+  }
+}

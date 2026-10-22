@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "FHF",
+    "CAC"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "F": {
+      "tag": "createch2:chemical_catalyst_media"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "result": {
+    "id": "mekanism:chemical_dissolution_chamber",
+    "count": 1
+  }
+}

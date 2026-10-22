@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "modern_industrialization:macerator",
+  "duration": 100,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "item": "chemlib:osmium_ingot",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "mekanism:dust_osmium"
+    }
+  ]
+}

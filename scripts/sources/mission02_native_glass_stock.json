@@ -1,0 +1,739 @@
+{
+  "truth": "REVIEWED_GLASS_STOCK_WITH_LUMBER_POTTERY_AND_HEAT",
+  "nativeClasses": {
+    "kiln": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PitKilnBlockEntity"
+    ],
+    "placed": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PlacedItemBlockEntity"
+    ],
+    "heating": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.HeatingRecipe"
+    ],
+    "sizes": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.size.ItemSizeManager"
+    ],
+    "addGlass": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.outputs.AddGlassModifier"
+    ],
+    "glassWorking": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.glass.GlassWorking"
+    ],
+    "saw": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlockEntity",
+      "-c-l"
+    ],
+    "baseSaw": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlockEntity"
+    ],
+    "conditions": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.TieredRecipeConditions"
+    ],
+    "conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "builder": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.recipe.TieredProcessingRecipeBuilder"
+    ],
+    "gtTypes": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.data.recipe.GTRecipeTypes"
+    ],
+    "gtTypesV": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.data.recipe.GTRecipeTypes",
+      "-v"
+    ],
+    "gtWood": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.data.recipe.misc.WoodMachineRecipes"
+    ],
+    "sawBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlock"
+    ],
+    "knapping": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.data.KnappingType"
+    ],
+    "table": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.HotPouredGlassBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "kiln": "b310bf7df1d9fe2da1fb66e70631ef1b275502d701aba911d3d2cb638d010842",
+    "placed": "8fedb2ee168fa9539c49da1c6a516e03914f0eaa83b0fdea1f3fc1976143ef2c",
+    "heating": "d2047f6749a749d49d4e69d820a111a73cd9434a01c4ec60825cdbe3992d4778",
+    "sizes": "fc88b50695d6de3911a583f5ca1202c5432dcd839c2381813eb57538a9a57869",
+    "addGlass": "c10aad5b2b3a2b530bb81f4f2dd6a54e6c7f0947e26a86290e48bdb480c4e6f0",
+    "glassWorking": "807f1a68e2ff81d8cc44d34e23289bbf52261dd7da32f65d7a5389c8c6bd2ad4",
+    "saw": "122df7507678f2d2fb6ce9b5fbe043cf9e7d4bac09594327026674bbfa839a07",
+    "baseSaw": "ec223c2745e4b53f1f24b94d6039b240a3ec04eb1d3a3f378c0f279ebb2dc7b7",
+    "conditions": "d19111bdd6524f12a0c54e1f2d876435741e0738c82076d37e3729d144dda246",
+    "conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "builder": "08f00bd80aa8c089eb4cca27022924bcaef440f0d316d83f252a251b2f55ee68",
+    "gtTypes": "f3e486dabfcdb015d16f6727ca8dcf69ce1e8add1ad868c5c336403f7c231308",
+    "gtTypesV": "0368e7493577e71a5ccd09fb5644a1647b240e879b8ca5a7e58022d61676546e",
+    "gtWood": "e4213832fd96bb73ff18aba1df73de7d86076e7bf399a6dcc3b38273de523008",
+    "sawBlock": "4af96a9cb073350f35492854ef637cd6be7ae110db50e431c19b577ed225fb8b",
+    "knapping": "2e276c7ab5a09cf162adcb9f1aa20f5159883c4bdedfc8cc07d430187255ef9b",
+    "table": "2be3dbd7c71ddcd3022a4a43a509b9e7023e848684d9ae8d2f8040b999c46659"
+  },
+  "ids": {
+    "axeHead": "tfc:knapping/stone/axe_head/sedimentary",
+    "axe": "tfc:crafting/stone/axe/sedimentary",
+    "plank": "tfc:crafting/wood/planks/oak",
+    "flux": "tfc:crafting/powder/flux",
+    "support": "tfc_lumberjack:compat/create/cutting/support/oak_log",
+    "lumber": "tfc_lumberjack:compat/create/cutting/lumber/oak"
+  },
+  "nativeRows": {
+    "tfc:knapping/stone/axe_head/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "ingredient": {
+            "tag": "tfc:stones/loose/sedimentary"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            " #   ",
+            "#### ",
+            "#####",
+            "#### ",
+            " #   "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/axe_head/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/axe/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/axe_head/sedimentary"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/axe/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/powder/flux": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shapeless_crafting",
+          "ingredients": [
+            {
+              "tag": "tfc:fluxstone"
+            },
+            {
+              "tag": "c:tools/hammer"
+            }
+          ],
+          "primary_ingredient": {
+            "tag": "c:tools/hammer"
+          },
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "result": {
+            "count": 2,
+            "id": "tfc:powder/flux"
+          }
+        }
+      }
+    ],
+    "tfc_lumberjack:compat/create/cutting/support/oak_log": [
+      {
+        "provider": "tfc-lumberjack-1.21.1-neoforge-1.0.5.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "create"
+            }
+          ],
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "item": "tfc:wood/stripped_log/oak"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfc:wood/support/oak",
+              "count": 3
+            },
+            {
+              "id": "tfc_lumberjack:sawdust",
+              "count": 2
+            }
+          ],
+          "processing_time": 300
+        }
+      }
+    ],
+    "tfc_lumberjack:compat/create/cutting/lumber/oak": [
+      {
+        "provider": "tfc-lumberjack-1.21.1-neoforge-1.0.5.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "create"
+            }
+          ],
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "item": "tfc:wood/support/oak"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfc:wood/lumber/oak",
+              "count": 4
+            },
+            {
+              "id": "tfc_lumberjack:sawdust",
+              "count": 2
+            }
+          ],
+          "processing_time": 300
+        }
+      }
+    ]
+  },
+  "resources": {
+    "data/tfc/tfc/knapping_type/rock.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "amount_to_consume": 1,
+        "click_sound": "tfc:item.knapping.stone",
+        "consume_after_complete": false,
+        "has_off_texture": false,
+        "icon": {
+          "count": 1,
+          "id": "tfc:rock/loose/granite"
+        },
+        "input": {
+          "count": 2,
+          "tag": "tfc:rock_knapping"
+        },
+        "spawns_particles": true
+      }
+    },
+    "data/tfc/tfc/knapping_type/clay.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "click_sound": "tfc:item.knapping.clay",
+        "consume_after_complete": true,
+        "has_off_texture": true,
+        "icon": {
+          "count": 1,
+          "id": "minecraft:clay_ball"
+        },
+        "input": {
+          "count": 5,
+          "tag": "tfc:clay_knapping"
+        },
+        "spawns_particles": false
+      }
+    },
+    "data/tfc/loot_table/blocks/wood/stripped_log/oak.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#c:tools/hammer"
+                        }
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 4,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "tfc:wood/stripped_log/oak"
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "census": {
+    "targets": [
+      "tfc:wood/stripped_log/oak",
+      "tfc:wood/support/oak"
+    ],
+    "rows": [
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/autocannon_barrel_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:autocannon_barrel_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/autocannon_breech_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:autocannon_breech_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/autocannon_recoil_spring_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:autocannon_recoil_spring_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/cannon_end_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:cannon_end_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/large_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:large_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/medium_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:medium_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/screw_breech_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:screw_breech_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/sliding_breech_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:sliding_breech_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/small_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:small_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/very_large_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:very_large_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "createbigcannons:cutting/very_small_cast_mould",
+        "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+        "event": {
+          "data": {
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "results": [
+              {
+                "id": "createbigcannons:very_small_cast_mould"
+              }
+            ]
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/support/oak",
+        "id": "tfc_lumberjack:compat/create/cutting/lumber/oak",
+        "provider": "tfc-lumberjack-1.21.1-neoforge-1.0.5.jar",
+        "event": {
+          "data": {
+            "neoforge:conditions": [
+              {
+                "type": "neoforge:mod_loaded",
+                "modid": "create"
+              }
+            ],
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "item": "tfc:wood/support/oak"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfc:wood/lumber/oak",
+                "count": 4
+              },
+              {
+                "id": "tfc_lumberjack:sawdust",
+                "count": 2
+              }
+            ],
+            "processing_time": 300
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      },
+      {
+        "item": "tfc:wood/stripped_log/oak",
+        "id": "tfc_lumberjack:compat/create/cutting/support/oak_log",
+        "provider": "tfc-lumberjack-1.21.1-neoforge-1.0.5.jar",
+        "event": {
+          "data": {
+            "neoforge:conditions": [
+              {
+                "type": "neoforge:mod_loaded",
+                "modid": "create"
+              }
+            ],
+            "type": "create:cutting",
+            "ingredients": [
+              {
+                "item": "tfc:wood/stripped_log/oak"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfc:wood/support/oak",
+                "count": 3
+              },
+              {
+                "id": "tfc_lumberjack:sawdust",
+                "count": 2
+              }
+            ],
+            "processing_time": 300
+          },
+          "applied": [],
+          "removed": false
+        },
+        "researchOwners": []
+      }
+    ]
+  },
+  "heatDefinitions": {
+    "tfc:ceramic/unfired_blowpipe": [
+      [
+        "tfc:ceramic/unfired_blowpipe",
+        {
+          "heat_capacity": 0.6,
+          "ingredient": {
+            "item": "tfc:ceramic/unfired_blowpipe"
+          }
+        }
+      ]
+    ],
+    "tfc:ceramic_blowpipe": [],
+    "tfc:ceramic_blowpipe_with_glass": [
+      [
+        "tfc:glass_blowpipes",
+        {
+          "heat_capacity": 0.7,
+          "ingredient": {
+            "tag": "tfc:glass_blowpipes"
+          }
+        }
+      ]
+    ],
+    "tfc:powder/flux": [
+      [
+        "tfc:powder/flux",
+        {
+          "heat_capacity": 0.7,
+          "ingredient": {
+            "item": "tfc:powder/flux"
+          }
+        }
+      ]
+    ],
+    "tfc:powder/lime": []
+  },
+  "itemSizeDefinitions": {
+    "tfc:ceramic/unfired_blowpipe": [],
+    "tfc:powder/flux": [
+      [
+        "tfc:powders",
+        {
+          "ingredient": {
+            "tag": "tfc:bowl_powders"
+          },
+          "size": "tiny",
+          "weight": "very_light"
+        }
+      ]
+    ]
+  }
+}

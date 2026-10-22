@@ -1,0 +1,33 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfc:stone/javelin/sedimentary"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:logistics_reports"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_01_organized_defense.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_01_organized_defense.description"
+    }
+  }
+}

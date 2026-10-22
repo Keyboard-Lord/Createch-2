@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "PBP",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "D": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "P": {
+      "item": "electroenergetics:converter"
+    },
+    "B": {
+      "item": "simulated:swivel_bearing"
+    },
+    "A": {
+      "item": "simulated:physics_assembler"
+    }
+  },
+  "result": {
+    "id": "aeronautics_utility_objects:damping_stress_bearing",
+    "count": 1
+  }
+}

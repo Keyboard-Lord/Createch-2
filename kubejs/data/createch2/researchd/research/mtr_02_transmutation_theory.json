@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "projecte:philosophers_stone"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:esoteric_records",
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mtr_01_equivalence_principles",
+    "createch2:eso_02_ritual_apparatus"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mtr_02_transmutation_theory.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mtr_02_transmutation_theory.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:projecte/age_08/medium_covalence_dust",
+      "createch2:projecte/age_09/high_covalence_dust",
+      "createch2:projecte/age_09/philosophers_stone"
+    ]
+  }
+}

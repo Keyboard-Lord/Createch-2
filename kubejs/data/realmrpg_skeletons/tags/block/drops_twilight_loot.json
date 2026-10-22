@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#realmrpg_skeletons:skeletons",
+      "required": false
+    }
+  ]
+}

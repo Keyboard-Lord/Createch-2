@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "CHC",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:conveyor"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "S": {
+      "item": "modularbees:modular_beehive_core"
+    }
+  },
+  "result": {
+    "id": "modularbees:modular_export",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle",
+    "#createch2:tfc_structure_karst_land"
+  ]
+}

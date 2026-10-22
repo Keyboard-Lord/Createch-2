@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "scope": "Reuse one previously paid oil bucket after both earlier bucket objectives; hold oil for a future matching locomotive fill without creating a frame.",
+  "nativeClasses": {
+    "bucketWrapper": [
+      "@loader",
+      "net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper"
+    ],
+    "basin": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlock"
+    ],
+    "helper": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.FluidHelper"
+    ],
+    "emptying": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.transfer.GenericItemEmptying"
+    ],
+    "itemTask": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.ItemTask"
+    ],
+    "chapter": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.Chapter"
+    ],
+    "questFile": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.BaseQuestFile"
+    ],
+    "tristate": [
+      "ftb-library-neoforge-2101.1.37.jar",
+      "dev.ftb.mods.ftblibrary.config.Tristate"
+    ]
+  },
+  "nativeCodeSha256": {
+    "bucketWrapper": "4e82d7ea9ea75d0549fca4f08c9d434cf71c1b7a255c650b9bc3392f88b1c2f5",
+    "basin": "a56f06a149800e0cc0f4517fb9de3ac6327d6c49eff8e05a4a6946a8f671fb92",
+    "helper": "6d1b2b7780cd1ba08f6c0e1faf9c0918b7c64fc174215ae364531c89cf2b1802",
+    "emptying": "7842a777119423eb51bb56a3c5222a8ec516fe8444ed8290cf6ec807f75b45bb",
+    "itemTask": "7736e7195ba81dad3f92b0769182f932306e5e5347ff177474250a5c31fcd7fb",
+    "chapter": "653da93ae2b9f1951a083b00e34670c69b4cfa9d33778f4e3b79f51e00dc7f7d",
+    "questFile": "83ddaa13cbfa3c9fd06ccedda238e5980a3e86c72e2843e4bdd97fbbf68fa78c",
+    "tristate": "c2c8f11e87d2e35eccb086cdcf74d0376f9bda683d1797748905acbdc8d9ae69"
+  },
+  "quests": {
+    "dataPath": "config/ftbquests/quests/data.snbt",
+    "chapterPath": "config/ftbquests/quests/chapters/createch2_05_age_04_heavy_industry.snbt",
+    "defaultConsume": "false",
+    "chapterConsume": null,
+    "rows": [
+      {
+        "id": "04C35F62E0D31D66",
+        "task": {
+          "id": "01F74D33AEEE9E9E",
+          "item": {
+            "count": "1",
+            "id": "tfmg:lubrication_oil_bucket"
+          },
+          "type": "item"
+        },
+        "questConsume": null
+      },
+      {
+        "id": "4F0A04160A028947",
+        "task": {
+          "id": "517B78B1CF8BF23F",
+          "item": {
+            "count": "1",
+            "id": "tfmg:lubrication_oil_bucket"
+          },
+          "type": "item"
+        },
+        "questConsume": null
+      }
+    ]
+  },
+  "explicitEmptyingCensus": []
+}

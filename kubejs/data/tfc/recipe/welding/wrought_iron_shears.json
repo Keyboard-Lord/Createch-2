@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfchotornot"
+    }
+  ],
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "sX ",
+    "SNX",
+    "RSs"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:rivets/wrought_iron"
+    },
+    "X": {
+      "item": "tfc:metal/knife_blade/wrought_iron"
+    },
+    "R": {
+      "tag": "c:physical_rings/wrought_iron"
+    },
+    "s": {
+      "tag": "c:leather/string"
+    },
+    "S": {
+      "tag": "c:handle/short"
+    }
+  },
+  "result": {
+    "stack": {
+      "count": 1,
+      "id": "tfc:metal/shears/wrought_iron"
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  }
+}

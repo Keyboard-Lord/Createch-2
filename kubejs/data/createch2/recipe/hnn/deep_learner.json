@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OGO",
+    "GCG",
+    "ODO"
+  ],
+  "key": {
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "D": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "hostilenetworks:deep_learner",
+    "count": 1
+  }
+}

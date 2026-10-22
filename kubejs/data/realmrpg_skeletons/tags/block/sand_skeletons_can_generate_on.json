@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:sand",
+      "required": false
+    },
+	{
+      "id": "minecraft:red_sand",
+      "required": false
+    },
+	{
+      "id": "#minecraft:sand",
+      "required": false
+    },
+	{
+      "id": "#minecraft:sand",
+      "required": false
+    },
+	{
+      "id": "#c:sands",
+      "required": false
+    }
+  ]
+}

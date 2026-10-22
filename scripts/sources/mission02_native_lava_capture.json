@@ -1,0 +1,436 @@
+{
+  "truth": "REVIEWED_NATIVE_PORTABLE_LAVA_CAPTURE_FIXTURE",
+  "nativeClasses": {
+    "wheelBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.waterwheel.WaterWheelBlock"
+    ],
+    "network": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FluidNetwork"
+    ],
+    "transport": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FluidTransportBehaviour"
+    ],
+    "pumpTransport": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pump.PumpBlockEntity$PumpFluidTransferBehaviour"
+    ],
+    "pipeTransport": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pipes.FluidPipeBlockEntity$StandardPipeFluidTransportBehaviour"
+    ],
+    "pipeBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pipes.FluidPipeBlock"
+    ],
+    "tank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity"
+    ],
+    "propagator": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FluidPropagator"
+    ],
+    "config": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GConfigUtility"
+    ],
+    "pressureConfig": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GPumps"
+    ],
+    "pumpMixin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinPumpFluidTransferBehaviour"
+    ],
+    "rangeMixin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinFluidPropagator"
+    ],
+    "pumpBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pump.PumpBlock"
+    ],
+    "pump": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pump.PumpBlockEntity"
+    ],
+    "tieredPump": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.fluids.pump.TieredPumpBlockEntity"
+    ],
+    "wheel": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.waterwheel.WaterWheelBlockEntity"
+    ],
+    "connection": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.PipeConnection"
+    ],
+    "handlerSource": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FlowSource$FluidHandler"
+    ],
+    "cogInterface": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.simpleRelays.ICogWheel"
+    ],
+    "pumpRegistry": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.registry.Pumps"
+    ],
+    "pumpMixinV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinPumpFluidTransferBehaviour",
+      true
+    ],
+    "rangeMixinV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinFluidPropagator",
+      true
+    ],
+    "fluidTank": [
+      "@neoforge",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank"
+    ],
+    "smart": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.SmartFluidTank"
+    ],
+    "bracketWrench": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchableWithBracket"
+    ],
+    "rotation": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.RotationPropagator"
+    ],
+    "openEnd": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.OpenEndedPipe"
+    ],
+    "handler": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.OpenEndedPipe$OpenEndFluidHandler"
+    ],
+    "directional": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.DirectionalKineticBlock"
+    ]
+  },
+  "nativeCodeSha256": {
+    "wheelBlock": "035e322da55ab9e013e9757aaad37e9a20ba3fd645f971907bdac13a8130ac06",
+    "network": "76561275b938fa5f99cafd1f7b257bfe719db3bc45161fa9da264dc4fe01edcb",
+    "transport": "53cd4cf9304cefbeb047ef35d4e6f02c9b27e95f8a20a78ca34cf56817c6eaf3",
+    "pumpTransport": "6fe5742d0e20b71bb7a49783f9ee267bf1b81465123a5e75c7a2374e72dbd7c8",
+    "pipeTransport": "b27a80cb02ffd6c876e79816ce47bf736a7d74d0baf1a905c001096df5bef250",
+    "pipeBlock": "90e4eb3fd4b7e229785e6e175f4544cc59db9c9e0c0ab647053863353e14a138",
+    "tank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "propagator": "413eb716b8c205251407168391bf9f92c5036b7f9bdef1c0b4faaa12a3f4baee",
+    "config": "2648805a84fd4c9316f5f2e331b0b04b047eed6b6460550771d7b9a3d527d65e",
+    "pressureConfig": "9046885dfda95d3f04bf9c2d19af65d8a98394194c15a33115eb8f0b4e76a78c",
+    "pumpMixin": "41cb56e55a0e6b51008705d78957314050a790b9b3d2a2b917b15b19c50a3199",
+    "rangeMixin": "e5b7301c127326a108bbc5bbf5c9f9bbfce8ef922286b5374a48bb35150df7b2",
+    "pumpBlock": "e3b1b99503a471f751f731c4dec1215233ebb29c51f5c71a2e3d343ebd02e6b6",
+    "pump": "43bdb8bda845e0e3e735f976c25caab96032055f018c44c20ae2d99d03430620",
+    "tieredPump": "a8adecb850a8095e6772d70f8c3fe5b124c10fe439bb35db7155795e3aec4141",
+    "wheel": "b379148a257a22a8c33c0231d07f359ef0229ffd6543d4d1974835bad1a21032",
+    "connection": "90911df49f0f61420f239e3d99744de20681b673a6e339e138cc0bf21e1bb6d5",
+    "handlerSource": "dd695c70979e09ff6ad752eac1ae82046c741c24f85579e08fd6fd1daf82eb19",
+    "cogInterface": "9bb98bf7241a488403d886857d956ed816196ee49bbc803b7b308840b94a22f0",
+    "pumpRegistry": "37cee7c78c8b461715e0c00da6f2afd0757e252ff27b41efbd82915a52b6d85c",
+    "pumpMixinV": "1fb1d82800c45d798ce2afe59f930c15909879c4ab90c4bc86c8136808a4ed5f",
+    "rangeMixinV": "318909970ffbdfffbfc49c3b8b1a791a189029977f632b3d592247b162ebaff0",
+    "fluidTank": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be",
+    "smart": "8298bda26d0c4e963aad4f82e33fb334cfa93ac0790630d1171b70a2f85d5239",
+    "bracketWrench": "5a34adf8995b3a97becaf38a6b61d821125554ff54b63ec3732fd8e2b3caf862",
+    "rotation": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+    "openEnd": "953437865987ad2571d7f7d728be8f1e0abe408b32acf60d82b707e0ac1eb90d",
+    "handler": "382267f60868fd647381c252f141d07f657da9ce6e2c6e4567d0d5a44781e2bc",
+    "directional": "9038d4bf3f8811f742706d441996b4f73a0d904d1d387990ab7c610078d1b853"
+  },
+  "ids": {
+    "wheel": "createch2:age_foundation/create/water_wheel",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "cog": "createch2:greate/tier_0/cogwheel",
+    "planks": "tfc:crafting/wood/planks/oak",
+    "barrel": "tfc:crafting/wood/barrel/oak",
+    "tank": "create:crafting/kinetics/fluid_tank",
+    "copperPlate": "createch2:create/pressing/copper_plate"
+  },
+  "recipes": {
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/planks/oak"
+      }
+    },
+    "tfc:crafting/wood/barrel/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "L L",
+        "L L",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/barrel/oak"
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "createch2:create/pressing/copper_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:copper_plate"
+        }
+      ],
+      "recipe_tier": 0
+    }
+  },
+  "kinds": {
+    "createch2:age_foundation/create/water_wheel": "authored",
+    "createch2:age_foundation/create/shaft": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored",
+    "tfc:crafting/wood/planks/oak": "native",
+    "tfc:crafting/wood/barrel/oak": "native",
+    "create:crafting/kinetics/fluid_tank": "native",
+    "createch2:create/pressing/copper_plate": "authored"
+  },
+  "nativeRows": {
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/wood/barrel/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "L": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "L L",
+            "L L",
+            "LLL"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/barrel/oak"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/fluid_tank": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:plates/copper"
+            },
+            "C": {
+              "tag": "c:barrels/wooden"
+            }
+          },
+          "pattern": [
+            "B",
+            "C",
+            "B"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:fluid_tank"
+          }
+        }
+      }
+    ]
+  },
+  "recoveryTables": [
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/water_wheel.json",
+      "item": "create:water_wheel",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "create:water_wheel"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/water_wheel"
+      }
+    },
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/fluid_pipe.json",
+      "item": "create:fluid_pipe",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "create:fluid_pipe"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/fluid_pipe"
+      }
+    }
+  ]
+}

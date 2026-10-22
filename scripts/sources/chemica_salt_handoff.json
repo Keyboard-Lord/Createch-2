@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "tag": "createch2:chemical_salt",
+  "tagValues": [
+    "tfc:powder/salt",
+    "#c:dusts/salt"
+  ],
+  "baselineCommit": "49e5f04",
+  "sourceRecipe": "tfc:quern/powder/salt",
+  "routes": [
+    {
+      "recipe": "chemica:mixing/brine",
+      "ingredients": 2,
+      "previousIngredient": {
+        "tag": "c:dusts/salt"
+      },
+      "previousCanonicalSha256": "8884887724332f8ccf86538cbc8877c712aff8d7a420dd919171c8bfcf931b8e"
+    },
+    {
+      "recipe": "chemica:mixing/vanadium_catalyst",
+      "ingredients": 4,
+      "previousIngredient": {
+        "item": "chemica:salt"
+      },
+      "previousCanonicalSha256": "1b83687d1a66558504b5e0f55ac0ed3bf69b545fb4ce854af99249420f1becfb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/salt",
+      "ingredients": 4,
+      "previousIngredient": {
+        "item": "chemica:salt"
+      },
+      "previousCanonicalSha256": "72e768cab9349ade5f94935fa79a8c6d9a3fa946599a54dcc72e43446389c99b"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/sodium_bisulfate",
+      "ingredients": 1,
+      "previousIngredient": {
+        "item": "chemica:salt"
+      },
+      "previousCanonicalSha256": "75c39bb9a3b8a9b9f6f3aeda290644269f984340dd87b8fa31664bbf43958107"
+    }
+  ],
+  "scope": "Normalize only the salt ingredient; preserve all quantities, fluid inputs/results, catalysts, heat, operations, vat types, duration and research IDs. Common salt compatibility preserves existing Chemica salt."
+}

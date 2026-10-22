@@ -1,0 +1,55 @@
+{
+  "type": "createch2core:landform",
+  "config": {
+    "pillar": true,
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:stone"
+          },
+          "weight": 7
+        },
+        {
+          "data": {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:terracotta"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": {
+      "type": "minecraft:true"
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 10,
+      "max_inclusive": 34
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 8
+    },
+    "tip_scale": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.15,
+      "max_exclusive": 0.45
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.015,
+      "max_exclusive": 0.08
+    },
+    "euclidean_weight": 20,
+    "manhattan_weight": 2,
+    "chebyshev_weight": 1
+  }
+}

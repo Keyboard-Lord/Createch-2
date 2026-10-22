@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:crimson_nylium",
+      "required": false
+    },
+	{
+      "id": "byg:overgrown_crimson_blackstone",
+      "required": false
+    }
+  ]
+}

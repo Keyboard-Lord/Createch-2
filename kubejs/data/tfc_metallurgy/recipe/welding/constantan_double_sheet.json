@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/constantan"
+  },
+  "second_input": {
+    "tag": "c:sheets/constantan"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/constantan"
+  }
+}

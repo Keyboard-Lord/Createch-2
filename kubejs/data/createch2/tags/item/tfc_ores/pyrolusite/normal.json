@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_pyrolusite/tuff",
+      "required": false
+    }
+  ]
+}

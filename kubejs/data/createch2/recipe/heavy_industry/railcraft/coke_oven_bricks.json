@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "CBC",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "tfc:fire_bricks"
+    },
+    "C": {
+      "tag": "c:plates/cast_iron"
+    },
+    "B": {
+      "item": "modern_industrialization:fire_clay_bricks"
+    }
+  },
+  "result": {
+    "id": "railcraft:coke_oven_bricks",
+    "count": 4
+  }
+}

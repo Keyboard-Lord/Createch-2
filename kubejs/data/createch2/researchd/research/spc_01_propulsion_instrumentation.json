@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:firework_rocket"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:kinetic_data",
+      "createch2:grid_telemetry"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:che_01_process_control",
+    "createch2:ele_02_electromechanical_conversion",
+    "createch2:mec_03_steel_mechanisms"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_01_propulsion_instrumentation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_01_propulsion_instrumentation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/propulsion_telemetry"
+    ]
+  }
+}

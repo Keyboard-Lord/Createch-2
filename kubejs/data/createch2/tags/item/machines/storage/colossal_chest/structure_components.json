@@ -1,0 +1,27 @@
+{
+
+  "replace": false,
+  "values": [
+    "colossalchests:chest_wall_wood",
+    "colossalchests:chest_wall_copper",
+    "colossalchests:chest_wall_iron",
+    "colossalchests:chest_wall_silver",
+    "colossalchests:chest_wall_gold",
+    "colossalchests:chest_wall_diamond",
+    "colossalchests:chest_wall_obsidian",
+    "colossalchests:colossal_chest_wood",
+    "colossalchests:colossal_chest_copper",
+    "colossalchests:colossal_chest_iron",
+    "colossalchests:colossal_chest_silver",
+    "colossalchests:colossal_chest_gold",
+    "colossalchests:colossal_chest_diamond",
+    "colossalchests:colossal_chest_obsidian",
+    "colossalchests:interface_wood",
+    "colossalchests:interface_copper",
+    "colossalchests:interface_iron",
+    "colossalchests:interface_silver",
+    "colossalchests:interface_gold",
+    "colossalchests:interface_diamond",
+    "colossalchests:interface_obsidian"
+  ]
+}

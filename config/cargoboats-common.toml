@@ -1,0 +1,54 @@
+#Base energy usage / tick of the motorboat
+# Default: 5
+# Range: > 0
+motorboat_base_energy_usage = 3
+#Maximum search distance between nodes for motorboats
+# Default: 200.0
+# Range: 0.0 ~ 1000.0
+motorboat_max_search_distance = 200.0
+#Base speed of motorboat in meters / tick
+# Default: 0.15
+# Range: 0.1 ~ 100.0
+motorboat_base_speed = 0.18
+#Speed upgrade speed multipliers by number of installed upgrades
+motorboat_speed_upgrade_multipliers = [1.35, 1.8, 2.35]
+#Base energy capacity of motorboat
+# Default: 100000
+# Range: > 0
+motorboat_base_energy_capacity = 120000
+#Base fluid capacity of fluid motorboat
+# Default: 64000
+# Range: > 0
+motorboat_base_fluid_capacity = 32000
+#Motorboat item capacity multipliers by number of installed upgrades
+motorboat_capacity_upgrade_item_multipliers = [2, 4, 8]
+#Motorboat fluid capacity by number of installed upgrades
+motorboat_capacity_upgrade_fluid = [96000, 256000, 768000]
+#If a chunk has not been fished in this amount of ticks, overfishing stat resets
+# Default: 3600
+# Range: > 1
+overfishing_forgiveness = 3600
+#If this value is B, then the fishing probability is multiplied by B^x where x is the fraction of time fished
+# Default: 0.06
+# Range: 0.0 ~ 1.0
+overfishing_exponential_base = 0.06
+#Base fishing time (in SECONDS) that the fishing time reduction is subtracted from
+# Default: 25.0
+# Range: 0.0 ~ Infinity
+base_fishing_time = 25.0
+#This number is divided by the calculated fishing time in seconds to calculate the per-tick probability before overfishing
+# Default: 0.1
+# Range: 0.0 ~ Infinity
+fishing_probability_factor = 0.1
+#Fishing energy consumption per tick
+# Default: 5
+# Range: > 0
+fishing_energy_consumption = 3
+#Range to unfreeze ice blocks
+# Default: 3
+# Range: > 0
+icebreaker_range = 3
+#Time (in ticks) between ice block unfreezing
+# Default: 10
+# Range: > 1
+icebreaker_interval = 10

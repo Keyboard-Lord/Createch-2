@@ -1,0 +1,2280 @@
+{
+	autofocus_id: "264EB1BB7695FED2"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_15_age_14_extreme_starlight"
+	group: "0A85000000000006"
+	id: "0A4400DB026A65B8"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "15DAB295B601CAA5"
+		image: "createch2:textures/quests/chapter_icons/extreme_starlight.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.508d
+		y: -0.037d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "0822000000000010"
+		linked_quest: "023A7897291258E3"
+		shape: "rsquare"
+		size: 1.35d
+		x: -46.088d
+		y: 30.875d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"081F382E5FEA2995"
+				"4F849CB77549B587"
+			]
+			icon: {
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			id: "06DA2CC545D9F9D7"
+			rewards: [{
+				auto: "enabled"
+				id: "39695EF8BA46E40C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.5d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0ECA873C5006828B"
+				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+				type: "item"
+			}]
+			x: 29.362d
+			y: 5.738d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			icon: {
+				id: "avaritia:neutron_collector"
+			}
+			id: "06B2B66E78C40CBC"
+			rewards: [{
+				auto: "enabled"
+				id: "709D3400382038D6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0F17929126CD1C2C"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: 42.903d
+			y: 4.426d
+		}
+		{
+			dependencies: ["06B2B66E78C40CBC"]
+			icon: {
+				id: "avaritia:neutron_compressor"
+			}
+			id: "01A9755D89820163"
+			rewards: [{
+				auto: "enabled"
+				id: "66D3D37A7003B6AA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "02F11B791FADF464"
+				item: { count: 1, id: "avaritia:neutron_compressor" }
+				type: "item"
+			}]
+			x: 40.538d
+			y: 2.688d
+		}
+		{
+			dependencies: ["264EB1BB7695FED2"]
+			icon: {
+				id: "eternal_starlight:starcore"
+			}
+			id: "0A503177E33387EA"
+			rewards: [{
+				auto: "enabled"
+				id: "483CEA1F962EADF7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_extreme_starlight_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "0B074F68607BD2B7"
+					item: { count: 1, id: "eternal_starlight:starcore" }
+					type: "item"
+				}
+				{
+					advancement: "createch2:campaign/returned_starlight"
+					criterion: ""
+					id: "0EE517766A734A33"
+					type: "advancement"
+				}
+			]
+			x: -17.808d
+			y: -31.675d
+		}
+		{
+			dependencies: ["0A503177E33387EA"]
+			icon: {
+				id: "eternal_starlight:starcore_block"
+			}
+			id: "071F82930443AD4B"
+			rewards: [{
+				auto: "enabled"
+				id: "2C162F58AB5963DC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_extreme_starlight_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "03C2BF1CE9D34381"
+				item: { count: 1, id: "eternal_starlight:starcore_block" }
+				type: "item"
+			}]
+			x: -30.74d
+			y: 11.568d
+		}
+		{
+			dependencies: ["071F82930443AD4B"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			id: "03AF7E430EC377B5"
+			rewards: [{
+				auto: "enabled"
+				id: "0B0B47735594B82A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_extreme_starlight_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0BE1A0EB0DF61EE6"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: -22.909d
+			y: 11.723d
+		}
+		{
+			dependencies: ["03AF7E430EC377B5"]
+			icon: {
+				id: "avaritia:neutron_ingot"
+			}
+			icon_scale: 1.05d
+			id: "0278C12679F56049"
+			rewards: [{
+				auto: "enabled"
+				id: "4EEA7ACA07E40AAB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_extreme_starlight_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "04DCA53A1894E580"
+				item: { count: 1, id: "avaritia:neutron_ingot" }
+				type: "item"
+			}]
+			x: 12.042d
+			y: 21.09d
+		}
+		{
+			dependencies: ["06B2B66E78C40CBC"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			icon_scale: 0.95d
+			id: "7010E0E2E7924D9C"
+			rewards: [{
+				auto: "enabled"
+				id: "2DB60B2C325739D7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "4E46EC22E8D909BD"
+				type: "dimension"
+			}]
+			x: 41.536d
+			y: 4.083d
+		}
+		{
+			dependencies: ["01A9755D89820163"]
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			icon_scale: 0.95d
+			id: "743B77F90D03EDF7"
+			rewards: [{
+				auto: "enabled"
+				id: "3BE7ACF656D4C5A1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "654861E0E44F9976"
+				item: { count: 1, id: "avaritia:neutron_pile" }
+				type: "item"
+			}]
+			x: 39.304d
+			y: 1.811d
+		}
+		{
+			dependencies: ["743B77F90D03EDF7"]
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			icon_scale: 0.94d
+			id: "74D72636703F7DCB"
+			rewards: [{
+				auto: "enabled"
+				id: "64214823B21B748A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				count: 16L
+				id: "6248A2D54B1E880F"
+				item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 37.837d
+			y: 1.443d
+		}
+		{
+			dependencies: ["0A503177E33387EA"]
+			icon: {
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			icon_scale: 0.95d
+			id: "3C0119E15CADA2FA"
+			rewards: [{
+				auto: "enabled"
+				id: "6D02033B69E1256F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1A2FC9ED14DB789C"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+				{
+					id: "5477D47E0B64C817"
+					item: { count: 1, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+			]
+			x: -12.58d
+			y: -25.544d
+		}
+		{
+			dependencies: ["3C0119E15CADA2FA"]
+			icon: {
+				id: "eternal_starlight:crystalborn_catalyst"
+			}
+			icon_scale: 0.95d
+			id: "7E8EA9CA3047460C"
+			rewards: [{
+				auto: "enabled"
+				id: "6B90CDAE48E9A6D3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6A78968F97C9925D"
+				item: { count: 1, id: "eternal_starlight:crystalborn_catalyst" }
+				type: "item"
+			}]
+			x: -10.764d
+			y: -25.089d
+		}
+		{
+			dependencies: [
+				"0278C12679F56049"
+				"06DA2CC545D9F9D7"
+			]
+			icon: {
+				id: "avaritia:neutron_ingot"
+			}
+			id: "71D7705EE25FFE16"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "62E75B0B355896F4"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "02CEE7C2AE463BBD"
+					item: {
+						count: 1
+						id: "create:magenta_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "65CB1E94822168A2"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "73263CB532399F19"
+					item: { count: 1, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+			]
+			x: -10.667d
+			y: 7.398d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			icon: {
+				id: "avaritia:crystal_matrix"
+			}
+			icon_scale: 0.95d
+			id: "551A7F4395805BB4"
+			rewards: [{
+				auto: "enabled"
+				id: "4DCD7FF741D673E5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "135E6516E874D1D4"
+				item: { count: 1, id: "avaritia:crystal_matrix" }
+				type: "item"
+			}]
+			x: -6.498d
+			y: 2.233d
+		}
+		{
+			dependencies: ["0A503177E33387EA"]
+			icon: {
+				id: "eternal_starlight:starcore_block"
+			}
+			icon_scale: 0.95d
+			id: "080BC37A71F8863F"
+			rewards: [{
+				auto: "enabled"
+				id: "39E58973637982ED"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "648B30E969C1D6FA"
+				item: { count: 1, id: "eternal_starlight:starcore_block" }
+				type: "item"
+			}]
+			x: 2.558d
+			y: -21.289d
+		}
+		{
+			dependencies: ["743B77F90D03EDF7"]
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			icon_scale: 0.95d
+			id: "3111E47A631230AE"
+			rewards: [{
+				auto: "enabled"
+				id: "3C1C3DA9B68A36CA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6768D81B88A47E3C"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0829E2EF473DAC15"
+					item: { count: 1, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+			]
+			x: 36.73d
+			y: 0.041d
+		}
+		{
+			dependencies: ["080BC37A71F8863F"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			icon_scale: 0.95d
+			id: "797E0732927C018D"
+			rewards: [{
+				auto: "enabled"
+				id: "6D87074DC1D2D0DA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "70FE437ED0C4A723"
+					item: { count: 1, id: "eternal_starlight:seeking_eye" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6033A8A558CF2D88"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+			]
+			x: 0.406d
+			y: -21.365d
+		}
+		{
+			dependencies: ["7E8EA9CA3047460C"]
+			icon: {
+				id: "eternal_starlight:thioquartz_shard"
+			}
+			icon_scale: 0.95d
+			id: "18819BDF2078A956"
+			rewards: [{
+				auto: "enabled"
+				id: "1383480FAE9CC5D0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "0C2887EE071C1AB9"
+					item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
+					type: "item"
+				}
+				{
+					id: "5382C21271127C40"
+					item: { count: 1, id: "eternal_starlight:deepsilver_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.686d
+			y: -21.923d
+		}
+		{
+			dependencies: ["18819BDF2078A956"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			icon_scale: 0.94d
+			id: "0C88C50112E775CA"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1ACD66906B0D4523"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "531F100F3F97AE3D"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "307E91B7E156D8F6"
+					item: { count: 1, id: "eternal_starlight:seeking_eye" }
+					type: "item"
+				}
+				{
+					id: "2AF8104D8A8119DA"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+			]
+			x: -5.618d
+			y: -22.407d
+		}
+		{
+			dependencies: [
+				"0C88C50112E775CA"
+				"76CFB32025BCFCA4"
+			]
+			icon: {
+				id: "eternal_starlight:starcore_block"
+			}
+			icon_scale: 0.94d
+			id: "59407412C8F87592"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4FB9BCD7316CDC61"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "36388241E4AF5837"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "7458123052967CDC"
+				item: { count: 1, id: "eternal_starlight:starcore_block" }
+				type: "item"
+			}]
+			x: -7.525d
+			y: -22.885d
+		}
+		{
+			icon: {
+				id: "avaritia:neutron_collector"
+			}
+			icon_scale: 0.92d
+			id: "76CFB32025BCFCA4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5231431A3963F661"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "25156C5E70301F20"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "7BE034C147A0053B"
+					item: { count: 1, id: "avaritia:neutron_collector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "621AAD40AF9C69D7"
+					item: { count: 1, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+			]
+			x: -9.14d
+			y: -24.065d
+		}
+		{
+			dependencies: ["284E95E09A2F5C5D"]
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			icon_scale: 0.92d
+			id: "5A46D3F5DE411C46"
+			rewards: [{
+				auto: "enabled"
+				id: "061EB3C10826734F"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "10F52C3E9F824D58"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "16C0F9641F31977E"
+					item: { count: 1, id: "eternal_starlight:crystalborn_catalyst" }
+					type: "item"
+				}
+			]
+			x: 18.349d
+			y: -0.571d
+		}
+		{
+			dependencies: ["03AF7E430EC377B5"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			icon_scale: 0.92d
+			id: "4DF84094860334C1"
+			rewards: [{
+				auto: "enabled"
+				id: "5D3AA30CFA04730D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "434DC3628E9B3BD8"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: 16.261d
+			y: -0.511d
+		}
+		{
+			dependencies: [
+				"71D7705EE25FFE16"
+				"551A7F4395805BB4"
+				"3111E47A631230AE"
+				"797E0732927C018D"
+				"18819BDF2078A956"
+				"5A46D3F5DE411C46"
+				"4DF84094860334C1"
+				"284E95E09A2F5C5D"
+				"3DAC55744EAAED81"
+				"0EC4D7DE80696A8D"
+				"0A503177E33387EA"
+			]
+			icon: {
+				id: "avaritia:neutron_ingot"
+			}
+			icon_scale: 1.1d
+			id: "156A51C1EA94D3A8"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "67B820AEB62BF174"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62A87436BB4C6423"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_extreme_starlight_capstone"
+				"role_capstone"
+				"canonical_age_14"
+			]
+			tasks: [{
+				id: "0642F494EB191857"
+				item: { count: 1, id: "avaritia:neutron_ingot" }
+				type: "item"
+			}]
+			x: -2.231d
+			y: -19.183d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			hide_lock_icon: true
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			icon_scale: 0.88d
+			id: "6D0D82E0E44EB0CD"
+			rewards: [{
+				auto: "enabled"
+				id: "15DA202E73078F1A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_extreme_starlight_info"
+				"role_info"
+			]
+			tasks: [
+				{
+					id: "2E35C9EEBF178854"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "09ED65992F1E64C8"
+					item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+					type: "item"
+				}
+			]
+			x: -6.023d
+			y: 6.695d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			icon: {
+				id: "eternal_starlight:thioquartz_shard"
+			}
+			id: "299745AA47196BB7"
+			rewards: [{
+				auto: "enabled"
+				id: "2555B36F69FB8CD0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "219483A0DEDE94E9"
+					item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "47047357906A6392"
+					item: { count: 1, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+			]
+			x: -4.282d
+			y: 2.172d
+		}
+		{
+			dependencies: ["299745AA47196BB7"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			id: "0EC4D7DE80696A8D"
+			rewards: [{
+				auto: "enabled"
+				id: "72511F6F416C0C13"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "1C6EB64748DA54DA"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: 4.602d
+			y: 1.949d
+		}
+		{
+			dependencies: ["6D0D82E0E44EB0CD"]
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			icon_scale: 0.96d
+			id: "6B7FC76B4CCC51B9"
+			rewards: [{
+				auto: "enabled"
+				id: "51ED192D1101184C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "eternal_starlight:starlight_forest"
+				id: "30840700E14E849E"
+				type: "biome"
+			}]
+			x: -3.58d
+			y: 6.063d
+		}
+		{
+			dependencies: ["6B7FC76B4CCC51B9"]
+			icon: {
+				id: "eternal_starlight:starcore"
+			}
+			icon_scale: 0.96d
+			id: "18AD71552677CA5D"
+			rewards: [{
+				auto: "enabled"
+				id: "5DBFF1FFA3ACFC10"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "eternal_starlight:the_abyss"
+				id: "6660837CC9446C3C"
+				type: "biome"
+			}]
+			x: -1.352d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18AD71552677CA5D"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			icon_scale: 0.96d
+			id: "5BB000DBC5E608BE"
+			rewards: [{
+				auto: "enabled"
+				id: "58193B51AA919350"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "379ACC8DD9D996D9"
+				structure: "eternal_starlight:golem_forge"
+				type: "structure"
+			}]
+			x: 0.649d
+			y: 6.284d
+		}
+		{
+			dependencies: ["4F4B304C7B802AC7"]
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			icon_scale: 0.96d
+			id: "55661DEFE02FB94F"
+			rewards: [{
+				auto: "enabled"
+				id: "5CEDCFF887DB314C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "eternal_starlight:nightfall_spider"
+				id: "30027F7552EBC58A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.808d
+			y: 0.389d
+		}
+		{
+			dependencies: ["4F4B304C7B802AC7"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			id: "56FE4D0B39EB1F04"
+			rewards: [{
+				auto: "enabled"
+				id: "241DFB3CA9F880A2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "70254CC14A87CD41"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.417d
+			y: 0.738d
+		}
+		{
+			dependencies: ["56FE4D0B39EB1F04"]
+			icon: {
+				id: "eternal_starlight:starcore"
+			}
+			id: "2E0AE7FA4DE808F3"
+			rewards: [{
+				auto: "enabled"
+				id: "102DD66868F59DBE"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				id: "0851F78F636C6F1A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.652d
+			y: -0.303d
+		}
+		{
+			dependencies: ["3111E47A631230AE"]
+			icon: {
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			icon_scale: 0.94d
+			id: "2EB6619D34A50989"
+			rewards: [{
+				auto: "enabled"
+				id: "1D6BBC9FAFA6D747"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				advancement: "avaritia:main/crystal_matrix_ingot"
+				criterion: ""
+				id: "59D9F5F0D1D27CDC"
+				type: "advancement"
+			}]
+			x: 35.193d
+			y: -0.344d
+		}
+		{
+			dependencies: ["3111E47A631230AE"]
+			icon: {
+				id: "avaritia:neutron_collector"
+			}
+			icon_scale: 0.98d
+			id: "12E1FB85FE0D8768"
+			rewards: [{
+				auto: "enabled"
+				id: "3B713652CBE94EB0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "avaritia:main/neutron_collector"
+				criterion: ""
+				id: "460360A5A02B4B55"
+				type: "advancement"
+			}]
+			x: 33.815d
+			y: -1.246d
+		}
+		{
+			dependencies: ["01A9755D89820163"]
+			icon: {
+				id: "avaritia:neutron_compressor"
+			}
+			icon_scale: 0.96d
+			id: "12B768245F2167BF"
+			rewards: [{
+				auto: "enabled"
+				id: "25262DE2350149FE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "avaritia:main/neutron_compressor"
+				criterion: ""
+				id: "7788BF7B0EAAAED9"
+				type: "advancement"
+			}]
+			x: -32.022d
+			y: 30.131d
+		}
+		{
+			dependencies: [
+				"081F382E5FEA2995"
+				"4F849CB77549B587"
+			]
+			icon: {
+				id: "eternal_starlight:lunar_log"
+			}
+			icon_scale: 0.96d
+			id: "264EB1BB7695FED2"
+			rewards: [{
+				auto: "enabled"
+				id: "1713C4E025BC052C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 3.25d
+			tags: [
+				"theme_extreme_starlight_main"
+				"role_main"
+			]
+			tasks: [{
+				advancement: "eternal_starlight:enter_starlight"
+				criterion: ""
+				id: "4DEA365904AFE577"
+				type: "advancement"
+			}]
+			x: -41.888d
+			y: 30.875d
+		}
+		{
+			dependencies: ["264EB1BB7695FED2"]
+			icon: {
+				id: "eternal_starlight:crystalborn_catalyst"
+			}
+			icon_scale: 0.94d
+			id: "6D35BF597D49EA38"
+			rewards: [{
+				auto: "enabled"
+				id: "699A0647A804ECD5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_crystalborn_catalyst"
+				criterion: ""
+				id: "2FE736AA3C85D02C"
+				type: "advancement"
+			}]
+			x: -28.128d
+			y: 30.633d
+		}
+		{
+			dependencies: ["0EC4D7DE80696A8D"]
+			icon: {
+				id: "avaritia:neutron_pile"
+			}
+			id: "4F4B304C7B802AC7"
+			rewards: [{
+				auto: "enabled"
+				id: "49DBD0DF56D2455D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "3E29AC85C27B868C"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					id: "103C2574A66D1F36"
+					item: { count: 1, id: "avaritia:neutron_collector" }
+					type: "item"
+				}
+			]
+			x: 2.815d
+			y: 0.893d
+		}
+		{
+			dependencies: ["4F4B304C7B802AC7"]
+			icon: {
+				id: "eternal_starlight:thioquartz_shard"
+			}
+			id: "4E3E05F63682F1EA"
+			rewards: [{
+				auto: "enabled"
+				id: "3D638DDB37E3AD54"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "76D9D487D07AEE71"
+					item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "13E7BA009E4FF97F"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+			]
+			x: -1.415d
+			y: 0.44d
+		}
+		{
+			dependencies: ["2E0AE7FA4DE808F3"]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			id: "7D41C26DE2441DEB"
+			rewards: [{
+				auto: "enabled"
+				id: "20D44F64527CB413"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5621DCB0B43CE1AD"
+					item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+					type: "item"
+				}
+				{
+					id: "1AADB9D8EAA949E5"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.661d
+			y: -0.802d
+		}
+		{
+			dependencies: ["2E0AE7FA4DE808F3"]
+			icon: {
+				id: "avaritia:neutron_compressor"
+			}
+			id: "284E95E09A2F5C5D"
+			rewards: [{
+				auto: "enabled"
+				id: "0FCA20EF20613AD3"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "2BAE8FC9C3D94813"
+				item: { count: 1, id: "avaritia:neutron_compressor" }
+				type: "item"
+			}]
+			x: 14.145d
+			y: -0.454d
+		}
+		{
+			dependencies: ["284E95E09A2F5C5D"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			icon_scale: 0.98d
+			id: "3900F7C76B6102F8"
+			rewards: [{
+				auto: "enabled"
+				id: "130BF02B312EEA40"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "0A108BB10D5E9E24"
+				item: { count: 1, id: "eternal_starlight:seeking_eye" }
+				type: "item"
+			}]
+			x: 12.209d
+			y: -0.939d
+		}
+		{
+			dependencies: ["3900F7C76B6102F8"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			icon_scale: 0.98d
+			id: "3DAC55744EAAED81"
+			rewards: [{
+				auto: "enabled"
+				id: "44547F73FFD3805A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "0E25522B2E4C9D3E"
+				type: "dimension"
+			}]
+			x: 10.458d
+			y: -1.966d
+		}
+		{
+			dependencies: [
+				"330A7790A680897D"
+				"081F382E5FEA2995"
+				"071F82930443AD4B"
+			]
+			icon: {
+				id: "eternal_starlight:starcore_block"
+			}
+			id: "31CFBADC9B1297D7"
+			rewards: [{
+				auto: "enabled"
+				id: "47595E1598527DC7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "7FCB0F54562AE08A"
+				item: { count: 1, id: "eternal_starlight:starcore_block" }
+				type: "item"
+			}]
+			x: -26.221d
+			y: 31.111d
+		}
+		{
+			dependencies: [
+				"081F382E5FEA2995"
+				"31CFBADC9B1297D7"
+			]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			id: "65009054BCFD0049"
+			rewards: [{
+				auto: "enabled"
+				id: "5CA0933993D6E4F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "7631DEFB1110F0CD"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: -24.121d
+			y: 31.159d
+		}
+		{
+			dependencies: [
+				"65009054BCFD0049"
+				"0278C12679F56049"
+			]
+			icon: {
+				id: "avaritia:neutron_compressor"
+			}
+			id: "7C45D11F8641A5FC"
+			rewards: [{
+				auto: "enabled"
+				id: "2797E75FE7A15BF5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1ACD14A64D7D244D"
+				item: { count: 1, id: "avaritia:neutron_compressor" }
+				type: "item"
+			}]
+			x: -18.321d
+			y: 21.66d
+		}
+		{
+			dependencies: ["7C45D11F8641A5FC"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.95d
+			id: "2A52FB7A72338821"
+			rewards: [{
+				auto: "enabled"
+				id: "5B87087E1402C54A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "357A2B5F8775CFD4"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -19.853d
+			y: 31.26d
+		}
+		{
+			dependencies: ["2A52FB7A72338821"]
+			icon: {
+				id: "gtceu:luv_lapotronic_battery"
+			}
+			icon_scale: 0.95d
+			id: "3A0C05506AFA7DD9"
+			rewards: [{
+				auto: "enabled"
+				id: "539AA97466F65CFE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5F2405E80E977A80"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -17.692d
+			y: 31.311d
+		}
+		{
+			dependencies: ["7C45D11F8641A5FC"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.95d
+			id: "5D3CBC6B00B0C010"
+			rewards: [{
+				auto: "enabled"
+				id: "2D520C0A6F9645AA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "27FF7E9681A1036A"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: -0.319d
+			y: 31.602d
+		}
+		{
+			dependencies: ["5D3CBC6B00B0C010"]
+			icon: {
+				id: "gtceu:luv_lapotronic_battery"
+			}
+			icon_scale: 0.95d
+			id: "68A6CDB0993D2252"
+			rewards: [{
+				auto: "enabled"
+				id: "4D539B8F04EE5E7A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1713820F9B7CA8C0"
+				max_input: 50000000L
+				type: "forge_energy"
+				value: 50000000L
+			}]
+			x: -2.459d
+			y: 31.588d
+		}
+		{
+			dependencies: ["3A0C05506AFA7DD9"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:steel_plate"
+			}
+			icon_scale: 0.95d
+			id: "6099F0FF13DACA8E"
+			rewards: [{
+				auto: "enabled"
+				id: "291587CCD475D257"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "21E7888E760A016D"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:steel_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0021086C4B5AB406"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_gear" }
+					type: "item"
+				}
+			]
+			x: -15.519d
+			y: 31.362d
+		}
+		{
+			dependencies: ["6099F0FF13DACA8E"]
+			icon: {
+				id: "gtceu:zpm_lapotronic_battery"
+			}
+			icon_scale: 0.95d
+			id: "300A457DBD9146B1"
+			rewards: [{
+				auto: "enabled"
+				id: "6529EA29B84C9A17"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "314DFB04B83889F2"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -13.338d
+			y: 31.41d
+		}
+		{
+			dependencies: [
+				"68A6CDB0993D2252"
+				"300A457DBD9146B1"
+			]
+			icon: {
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			id: "377A5013538B6EAB"
+			rewards: [{
+				auto: "enabled"
+				id: "64900A2E30DFB9DC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3516D8706C4CC197"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: -11.152d
+			y: 31.456d
+		}
+		{
+			dependencies: ["377A5013538B6EAB"]
+			icon: {
+				id: "gtceu:luv_lapotronic_battery"
+			}
+			icon_scale: 0.92d
+			id: "7E2C0F5826A32CFB"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "755B5F369515980F"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7C5A04DDD5772BF0"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_megastructures_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "248EF85A5C7D1EDF"
+				max_input: 250000000L
+				type: "forge_energy"
+				value: 250000000L
+			}]
+			x: -8.608d
+			y: 30.564d
+		}
+		{
+			dependencies: ["7E2C0F5826A32CFB"]
+			icon: {
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			icon_scale: 0.92d
+			id: "2C514B1654C3CD22"
+			rewards: [{
+				auto: "enabled"
+				id: "08F85510AE003548"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "736AAC2883DE9397"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7EDE09E077DA1C8B"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+					type: "item"
+				}
+			]
+			x: -6.425d
+			y: 30.593d
+		}
+		{
+			dependencies: ["2C514B1654C3CD22"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			icon_scale: 0.92d
+			id: "2E386CF02CE83DF0"
+			rewards: [{
+				auto: "enabled"
+				id: "040A7F59B63C8A12"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "3A869AA3FFC85E78"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 36256
+			}]
+			x: -4.435d
+			y: 31.092d
+		}
+		{
+			dependencies: [
+				"54FDA5E59836E28A"
+				"0278C12679F56049"
+			]
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			icon_scale: 0.98d
+			id: "69A7245BF499285A"
+			rewards: [{
+				auto: "enabled"
+				id: "4D2BD5DE787E53EA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7879754D54BF3552"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+				type: "item"
+			}]
+			x: -27.714d
+			y: 8.689d
+		}
+		{
+			dependencies: [
+				"06C979F2D1DC6D66"
+				"69A7245BF499285A"
+			]
+			hide_lock_icon: true
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			icon_scale: 0.88d
+			id: "1F5AA3ECA2497928"
+			rewards: [{
+				auto: "enabled"
+				id: "078CA13E25549D5E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_nuclear_safety_info"
+				"role_info"
+			]
+			tasks: [{
+				id: "7438698369468AFE"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: -24.757d
+			y: 11.259d
+		}
+		{
+			dependencies: ["1F5AA3ECA2497928"]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			icon_scale: 0.96d
+			id: "253399BD82CFA491"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "329571E825CAB2D9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "370F31044CDFBF7E"
+					item: {
+						count: 1
+						id: "supplementaries:candle_holder_green"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_safety_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "5E53F008F1AC9155"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+				{
+					id: "3F36F442FFB8B49C"
+					item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+					type: "item"
+				}
+			]
+			x: -26.574d
+			y: 10.804d
+		}
+		{
+			dependencies: [
+				"55D3554604CCB0B8"
+				"03AF7E430EC377B5"
+			]
+			icon: {
+				id: "eternal_starlight:aethersent_ingot"
+			}
+			icon_scale: 0.96d
+			id: "2729730E1F39B0E8"
+			rewards: [{
+				auto: "enabled"
+				id: "2C3808709BECD866"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "eternal_starlight:aethersent_golem"
+				id: "5508C270C84F29EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -37.535d
+			y: 29.22d
+		}
+		{
+			dependencies: ["2729730E1F39B0E8"]
+			icon: {
+				id: "eternal_starlight:blue_yeti_fur"
+			}
+			icon_scale: 0.96d
+			id: "41272B79024518C6"
+			rewards: [{
+				auto: "enabled"
+				id: "7852FF724EFA0CD1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "eternal_starlight:yeti"
+				id: "3D86E73364109AED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -35.622d
+			y: 29.229d
+		}
+		{
+			dependencies: ["41272B79024518C6"]
+			icon: {
+				id: "eternal_starlight:thioquartz_shard"
+			}
+			icon_scale: 0.96d
+			id: "642DCD7C4C3B1A3D"
+			rewards: [{
+				auto: "enabled"
+				id: "0F539AFEDEA2588A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "eternal_starlight:seeker"
+				id: "750EF39CF8BD657F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -33.839d
+			y: 29.676d
+		}
+		{
+			dependencies: ["7E8EA9CA3047460C"]
+			icon: {
+				id: "adfinders:gem_finder"
+			}
+			id: "3A5FC21E18B47F33"
+			rewards: [{
+				auto: "enabled"
+				id: "6DBF5430807B119A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_extreme_starlight_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "225582821818AD46"
+				item: { components: { "minecraft:max_damage": 24 }, count: 1, id: "adfinders:gem_finder" }
+				type: "item"
+			}]
+			x: 110.0d
+			y: -48.0d
+		}
+		{
+			dependencies: [
+				"06DA2CC545D9F9D7"
+				"6E3E8AC457D0AC6E"
+			]
+			icon: {
+				id: "modern_industrialization:nuclear_alloy_plate"
+			}
+			id: "4D1BF79714293B68"
+			rewards: [{
+				auto: "enabled"
+				id: "732F1CA10DD44C45"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "16C2A207D9DA4B74"
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0FFD0C4ADA7FF834"
+					item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -56.5d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			icon: {
+				id: "gtceu:luv_electric_motor"
+			}
+			id: "1978E82D0E882F14"
+			rewards: [{
+				auto: "enabled"
+				id: "0A135B9C0B9A796E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "5697338BE85977C2"
+					item: { count: 1, id: "gtceu:luv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "5D2851B2B9108426"
+					item: { count: 1, id: "gtceu:luv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "741C4124AB71584F"
+					item: { count: 1, id: "gtceu:luv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "1D23A85755658588"
+					item: { count: 1, id: "gtceu:luv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "5BD3BF38FD6238DC"
+					item: { count: 1, id: "gtceu:luv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "5AC3BF47CC33B068"
+					item: { count: 1, id: "gtceu:luv_sensor" }
+					type: "item"
+				}
+				{
+					id: "3BFC597626F8B014"
+					item: { count: 1, id: "gtceu:luv_emitter" }
+					type: "item"
+				}
+				{
+					id: "484A263750DC4993"
+					item: { count: 1, id: "gtceu:luv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1978E82D0E882F14"
+				"06DA2CC545D9F9D7"
+			]
+			icon: {
+				id: "gtceu:luv_electric_motor"
+			}
+			id: "43101E11DE8DF64D"
+			rewards: [{
+				auto: "enabled"
+				id: "42C9AA7A4011AF18"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_extreme_starlight_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "044DF7248A7EE9F0"
+					item: { count: 1, id: "gtceu:luv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "078D6D54D9FC21E7"
+					item: { count: 1, id: "gtceu:luv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "15B8A5D60BEA8D35"
+					item: { count: 1, id: "gtceu:luv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C24C5BE2695D559"
+					item: { count: 1, id: "gtceu:luv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B36A525F0763F2E"
+					item: { count: 1, id: "gtceu:luv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01375968612CA3E4"
+					item: { count: 1, id: "gtceu:luv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7C59A7BF7A449677"
+					item: { count: 1, id: "gtceu:luv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01553D1D0673F0ED"
+					item: { count: 1, id: "gtceu:luv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"43101E11DE8DF64D"
+				"06DA2CC545D9F9D7"
+			]
+			icon: {
+				id: "avaritia:neutron_collector"
+			}
+			id: "21E91F3D5C319BCE"
+			rewards: [{
+				auto: "enabled"
+				id: "358CE24BE6BD0FD5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_extreme_starlight_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "67455C738C47FC28"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06DA2CC545D9F9D7"]
+			icon: {
+				id: "gtceu:luv_electric_motor"
+			}
+			id: "6D848EF0D74DE7F6"
+			rewards: [{
+				auto: "enabled"
+				id: "3AA24CDAAC20A776"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_extreme_starlight_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "45F3A3E416FCB5D0"
+					item: { count: 1, id: "gtceu:luv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "1FD66D164CE0D12A"
+					item: { count: 1, id: "gtceu:luv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "31A3B3B108A54644"
+					item: { count: 1, id: "gtceu:luv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "64D6981E1E8CA6C8"
+					item: { count: 1, id: "gtceu:luv_sensor" }
+					type: "item"
+				}
+				{
+					id: "57A48087D76839BA"
+					item: { count: 1, id: "gtceu:luv_emitter" }
+					type: "item"
+				}
+				{
+					id: "2173E000ADB0B95D"
+					item: { count: 1, id: "gtceu:luv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -1.25d
+		}
+	]
+	tags: ["theme_extreme_starlight_chapter"]
+}

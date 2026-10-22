@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/saw_blade/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "apply_bonus": true
+}

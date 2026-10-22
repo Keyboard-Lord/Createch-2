@@ -1,0 +1,173 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/chest/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/chest/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapped_chest/willow",
+      "required": false
+    },
+    {
+      "id": "minecraft:chest",
+      "required": false
+    },
+    {
+      "id": "minecraft:trapped_chest",
+      "required": false
+    }
+  ]
+}

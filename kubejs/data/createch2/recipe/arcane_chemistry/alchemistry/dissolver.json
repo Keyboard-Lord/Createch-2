@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "TDT",
+    "AMA"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "C": {
+      "tag": "createch2:control/factory/electronic"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "D": {
+      "item": "evilcraft:dark_gem"
+    },
+    "A": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "M": {
+      "tag": "createch2:malum_industrial_occultism"
+    }
+  },
+  "result": {
+    "id": "alchemistry:dissolver",
+    "count": 1
+  }
+}

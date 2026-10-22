@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {liveRoot,developmentRoot} from './lib/live_paths.mjs';
+import {nativeManualApplicationResearch} from './lib/native_manual_application_research.mjs';
+import {nativeSawRecipeCycle} from './lib/native_saw_recipe_cycle.mjs';
+const state=path.join(developmentRoot,'createch-dev/runtime-state/mission02'),aliasGate=JSON.parse(fs.readFileSync(path.join(state,'research-runtime-alias-validation.json')));
+const sawCycle=nativeSawRecipeCycle({root:liveRoot});
+const result=nativeManualApplicationResearch({root:liveRoot,aliasGate,sawCycle});
+fs.writeFileSync(path.join(state,'manual-application-research-validation.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({truth:result.truth,coreSha256:result.coreJarSha256,nativeBindings:Object.keys(result.nativeCodeSha256).length,nativeNegatives:result.nativeNegativeCases.length,operationCases:result.cases.length,negativeCases:result.negativeCases.length,loadedMixinValidated:false,newInventoryCredit:false}));

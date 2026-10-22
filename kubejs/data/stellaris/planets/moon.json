@@ -1,0 +1,14 @@
+{
+  "system": "solar_system",
+  "level": "rocketnautics:moon",
+  "name": "Moon",
+  "translatable": "stellaris.planet.moon",
+  "oxygen": false,
+  "temperature": -153,
+  "distanceFromEarth": 384.4,
+  "gravity": 1.62,
+  "textures": {
+    "planet": "stellaris:textures/planet_bar/moon_planet_bar.png",
+    "planet_bar": "stellaris:textures/planet_bar/moon_planet_bar.png"
+  }
+}

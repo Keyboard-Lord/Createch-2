@@ -1,0 +1,53 @@
+{
+  "truth": "STATIC_MISSION04_KUBEJS_CONTEXT_LIFETIME_CORE_ENTRY_PRESERVATION",
+  "before": "e51221e376424f74f342dffd7bf1561703d6df390eceea77b5e8bb94ad21995c",
+  "after": "83132cd10f2bfe152ced5ff64672457b984f76fe269129035b12f1e3dd3d2781",
+  "added": [
+    "createch2/core/compat/KubeJsServerContextLifecycle.class",
+    "createch2/core/mixin/compat/KubeJsServerContextLifecycleMixin.class",
+    "createch2/core/mixin/compat/RhinoCurrentContextAccess.class",
+    "createch2/core/mixin/compat/client/KubeJsClientContextLifecycleMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2/core/Createch2Core.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 381,
+  "unchangedEntriesSha256": "20ab1b3d38b7f856107cdf8d3b3654332b28765ded6ea5979613ddff86d7fc88",
+  "sourceCheckpoint": "2d1875b",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-e51221e376424f74f342dffd7bf1561703d6df390eceea77b5e8bb94ad21995c.jar",
+  "entrySha256": {
+    "createch2/core/compat/KubeJsServerContextLifecycle.class": {
+      "before": null,
+      "after": "90bb74ef61e61b6672f661b2320095bca9386d4b8533755eec699f88a6671e45"
+    },
+    "createch2/core/mixin/compat/KubeJsServerContextLifecycleMixin.class": {
+      "before": null,
+      "after": "5fe6282d82d337ed4c7ccfaf60a3357bd8821c8ff49a0fdff3072c4f20dd9d80"
+    },
+    "createch2/core/mixin/compat/RhinoCurrentContextAccess.class": {
+      "before": null,
+      "after": "47a1591b86e7d12ec978ca73380bcbde84c9d6dfe6433df884e4d3fec16d7b3e"
+    },
+    "createch2/core/mixin/compat/client/KubeJsClientContextLifecycleMixin.class": {
+      "before": null,
+      "after": "b21c459bd056b2e26bc7a50da8b838a50f0491660cd16bd1adb06cf3ab18658c"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "6c2d684b2c4da52838703a789fd32955112ecdf415590e3e70f3ef79bc268b1b",
+      "after": "b155940bd36aca649cecce93c6eabd03cef95b6960ae3047b742edcf48d96594"
+    },
+    "createch2/core/Createch2Core.class": {
+      "before": "c2e7a117b0a5b7b26af7fb15c81739e1b14c2393b65fc4ed1df8b0b5b1a983cf",
+      "after": "098fe8a60e0eac85b978ba532204f8322a8f2f07b387d86dcf51a995a0e3b0e6"
+    },
+    "createch2core.mixins.json": {
+      "before": "fc90f0fb77f60a66666e77b280d9a88d2b34436f3f5d892b07cf94c0d32f5cc2",
+      "after": "b03ce3c605b17cb239ce20ae1364c1527d81158dac3177879d8b1d72db75aaa2"
+    }
+  },
+  "scope": "Remove replaced server factory current-thread context before native replacement. Weakly track loaded server factories; at ServerStopped retire only factories whose manager is exactly the stopped server resources manager. Remove their server-thread slot then drain only retired slots on the native client tick. No active-other-owner,startup/client context clearing,cross-thread mutation,filter/recipe/schema changes. Original logout-triggered candidate rejected after native early-logout observation; private receipt preserved outside active chain. Native acceptance pending."
+}

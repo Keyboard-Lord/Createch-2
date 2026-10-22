@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TST",
+    "CGC",
+    " D "
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "S": {
+      "item": "stellaris:solerium"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "G": {
+      "item": "minecraft:orange_stained_glass"
+    },
+    "D": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_helmet",
+    "count": 1
+  }
+}

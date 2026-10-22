@@ -1,0 +1,39 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "duration": 200,
+  "eu": 32,
+  "item_inputs": [
+    {
+      "amount": 8,
+      "item": "modern_industrialization:motor"
+    },
+    {
+      "amount": 8,
+      "tag": "c:rods/steel"
+    },
+    {
+      "amount": 12,
+      "item": "modern_industrialization:tin_cable"
+    },
+    {
+      "amount": 4,
+      "item": "modern_industrialization:piston"
+    },
+    {
+      "amount": 4,
+      "item": "modern_industrialization:analog_circuit"
+    },
+    {
+      "item": "modern_industrialization:robot_arm",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:robot_arm",
+      "amount": 4
+    }
+  ]
+}

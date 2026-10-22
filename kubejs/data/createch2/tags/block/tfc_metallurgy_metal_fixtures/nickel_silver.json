@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/nickel_silver",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/nickel_silver",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/nickel_silver",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/nickel_silver",
+      "required": false
+    }
+  ]
+}

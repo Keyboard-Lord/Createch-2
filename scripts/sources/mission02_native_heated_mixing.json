@@ -1,0 +1,132 @@
+{
+  "scope": "Exact installed native magnetic-alloy reaction and inspected native heated mixer/burner snapshots; no gameplay override.",
+  "sourceId": "tfmg:mixing/magnetic_alloy",
+  "source": {
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+      {
+        "tag": "c:ingots/nickel"
+      },
+      {
+        "tag": "c:ingots/nickel"
+      },
+      {
+        "item": "tfmg:silicon_ingot"
+      },
+      {
+        "tag": "c:ingots/steel"
+      },
+      {
+        "tag": "c:ingots/steel"
+      }
+    ],
+    "processing_time": 300,
+    "results": [
+      {
+        "count": 2,
+        "id": "tfmg:magnetic_alloy_ingot"
+      }
+    ]
+  },
+  "runtimeId": "greate:integration/tfmg/mixing/magnetic_alloy",
+  "runtimeData": {
+    "type": "greate:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+      {
+        "tag": "c:ingots/nickel"
+      },
+      {
+        "tag": "c:ingots/nickel"
+      },
+      {
+        "item": "tfmg:silicon_ingot"
+      },
+      {
+        "tag": "c:ingots/steel"
+      },
+      {
+        "tag": "c:ingots/steel"
+      }
+    ],
+    "processing_time": 300,
+    "results": [
+      {
+        "count": 2,
+        "id": "tfmg:magnetic_alloy_ingot"
+      }
+    ],
+    "recipe_tier": 0
+  },
+  "nativeClasses": {
+    "burnerItem": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockItem"
+    ],
+    "burner": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity"
+    ],
+    "burnerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlock"
+    ],
+    "heat": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.HeatCondition"
+    ],
+    "mixer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.mixer.MechanicalMixerBlockEntity"
+    ],
+    "mixerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.mixer.MechanicalMixerBlock"
+    ],
+    "tieredMixer": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.mixer.TieredMechanicalMixerBlockEntity"
+    ],
+    "tieredMixerBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.mixer.TieredMechanicalMixerBlock"
+    ],
+    "basin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.basin.TieredBasinRecipe"
+    ],
+    "factory": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      true
+    ],
+    "speedLevels": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.IRotate$SpeedLevel"
+    ],
+    "conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "factoryCode": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues"
+    ]
+  },
+  "nativeCodeSha256": {
+    "burnerItem": "06227daca5b2f4f2fa1645f9be0d4306eed6808ebd1514e9209edc253394d201",
+    "burner": "91abba0cca6ba6fc4d0b449b221d767ffe8f4f12418ccaec6755800d3d73e038",
+    "burnerBlock": "0180a20e55ec1898d2500845bb7dc7c205206b4472942c1a14662ae5104115db",
+    "heat": "319fc5fe8f5960caa8840bf2dbc550733d2797101b647335108aa6e9d55c625b",
+    "mixer": "02fead8d8efd98ed23ee7a2ddb45b0d5d018745ddf7e3021939289d2887c7201",
+    "mixerBlock": "66d8b5d6a6ea17edbf38fe46fe8171bebbe73bd3aead3ccd38e66eb14d00e474",
+    "tieredMixer": "d8eb2de64a7106e1fbec5aef2c40c8735338e77ccd6c79fc4323ad4869a1a4d2",
+    "tieredMixerBlock": "4798660b32f40cdbd660da62904355d751af83e9fe2fae1728283981b10343ef",
+    "basin": "099173638d0b2b6870c8f155da637a3a477fa45d6f7df849894420e16bd3b3bf",
+    "factory": "453f27e14a7d863f3c5034640ca836f67cb66387ed9170edccbd1c5838d553aa",
+    "speedLevels": "b73bf027d74537bad7fbf7514715989db030e64839640afd62927285ec77920a",
+    "conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "factoryCode": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7"
+  }
+}

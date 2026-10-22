@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "rubberworks:rubber"
+    }
+  },
+  "result": {
+    "id": "create:belt_connector",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:petroleum_sparse_province",
+  "features": "createch2:petroleum_sparse_deposit",
+  "step": "underground_ores"
+}

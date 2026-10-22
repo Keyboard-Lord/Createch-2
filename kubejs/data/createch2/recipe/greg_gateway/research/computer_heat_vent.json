@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 960,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "gtceu:stainless_steel_frame",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:iv_electric_motor",
+      "amount": 2
+    },
+    {
+      "item": "gtceu:stainless_steel_rotor",
+      "amount": 2
+    },
+    {
+      "item": "gtceu:stainless_steel_tiny_fluid_pipe",
+      "amount": 16
+    },
+    {
+      "tag": "c:plates/copper",
+      "amount": 16
+    },
+    {
+      "item": "modern_industrialization:superconductor_wire",
+      "amount": 1
+    }
+  ],
+  "item_outputs": {
+    "item": "gtceu:computer_heat_vent",
+    "amount": 2
+  }
+}

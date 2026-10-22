@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/sulfur/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/sulfur/granite",
+      "required": false
+    }
+  ]
+}

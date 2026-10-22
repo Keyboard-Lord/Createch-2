@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 480,
+  "duration": 400,
+  "fluid_inputs": [
+    {
+      "fluid": "gtceu:butyraldehyde",
+      "amount": 250
+    },
+    {
+      "fluid": "gtceu:polyvinyl_acetate",
+      "amount": 144
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gtceu:polyvinyl_butyral",
+      "amount": 144
+    }
+  ]
+}

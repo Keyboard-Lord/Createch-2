@@ -1,0 +1,67 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "electroenergetics:sulfur_hexafluoride_breaker"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:grid_telemetry",
+      "createch2:computational_models",
+      "createch2:material_specimens"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:ele_03_industrial_power",
+    "createch2:mat_03_space_aluminum"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.ele_04_high_energy_grid.title"
+    },
+    "desc": {
+      "translate": "research.createch2.ele_04_high_energy_grid.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "electroenergetics:compacting/plant_oil",
+      "electroenergetics:crafting/current_transformer",
+      "electroenergetics:crafting/electrum_wire",
+      "electroenergetics:crafting/electrum_wire_spool",
+      "electroenergetics:crafting/glass_insulator_segment",
+      "electroenergetics:crafting/glass_insulator_spool",
+      "electroenergetics:crafting/hanging_glass_insulator",
+      "electroenergetics:crafting/hv_switch",
+      "electroenergetics:crafting/insulator",
+      "electroenergetics:crafting/redstone_variac",
+      "electroenergetics:crafting/transformer",
+      "electroenergetics:crafting/tri_polar_energy_meter",
+      "electroenergetics:crafting/variac",
+      "electroenergetics:crafting/voltage_regulator",
+      "electroenergetics:crafting/wire_damper",
+      "electroenergetics:mechanical_crafting/linemans_stick",
+      "electroenergetics:mechanical_crafting/sulfur_hexafluoride_breaker",
+      "electroenergetics:mixing/transformer_oil",
+      "electroenergetics:stonecutting/high_voltage_sign",
+      "createch2:factory_scaling/components/lv_electric_motor_batch",
+      "createch2:factory_scaling/components/lv_electric_pump_batch",
+      "createch2:factory_scaling/components/lv_conveyor_module_batch",
+      "createch2:factory_scaling/components/mi_piston_batch",
+      "createch2:factory_scaling/components/mi_robot_arm_batch",
+      "createch2:factory_scaling/components/mi_conveyor_batch",
+      "greate:integration/electroenergetics/compacting/plant_oil",
+      "greate:integration/electroenergetics/mixing/transformer_oil"
+    ]
+  }
+}

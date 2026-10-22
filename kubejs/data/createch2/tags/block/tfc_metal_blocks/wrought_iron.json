@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/wrought_iron_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/wrought_iron_stairs",
+      "required": false
+    }
+  ]
+}

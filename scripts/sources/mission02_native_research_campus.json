@@ -1,0 +1,429 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "electricMultiblock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine",
+      "sha256": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5"
+    },
+    "modifier": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeModifiers",
+      "sha256": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e"
+    },
+    "overclock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.OverclockingLogic",
+      "sha256": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc"
+    },
+    "ocResult": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.OverclockingLogic$OCResult",
+      "sha256": "4d09f64c34e4f8a8256ebde9abc53680849e25a6a6bb912cb5bf4eafb5046eba"
+    },
+    "machineBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.registry.registrate.MachineBuilder",
+      "sha256": "a2ffd886c9c93def3ca52e580ab63fe1ae65304f8451a828bd0837307425af8f"
+    },
+    "component": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.hpca.HPCAComponentPartMachine",
+      "sha256": "d2c5a67abaa466844763c6a71f670b5719ba0b1601ae70f81e093835c28ef3a4"
+    },
+    "opticalPipe": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.blockentity.OpticalPipeBlockEntity",
+      "sha256": "9eb32fb713fbfc75041e4d4ebfd3ea6165373a9cd1ebd6511ce51b1137c08ccc"
+    },
+    "hpca": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.research.HPCAMachine",
+      "sha256": "34c39b420c1a053736fa8997a323075d5c49486b75df371748e787021e17faa6"
+    },
+    "grid": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.research.HPCAMachine$HPCAGridHandler",
+      "sha256": "ac6b1fdb3aa04df979090cdec2933a0419589502cd1cd3346723115a04f604b4"
+    },
+    "compute": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.hpca.HPCAComputationPartMachine",
+      "sha256": "3bf43d33cbe1cf70a238531d2837c79f6b7fcf3d59b37799a633c1f9f908e7c0"
+    },
+    "cooler": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.hpca.HPCACoolerPartMachine",
+      "sha256": "21b249671f67ce976b6f61349e7bf5e073a54827d3d54a7bbd9dfaeb669fd431"
+    },
+    "station": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.research.ResearchStationMachine",
+      "sha256": "a82fab436e55b07b4da4531fdda28046c3e24b7901cd527430ac39e4ce800ce4"
+    },
+    "stationLogic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.research.ResearchStationMachine$ResearchStationRecipeLogic",
+      "sha256": "d9d6ce2326332d77be98dccef4ee0ad2a3e45023dbca98474cafcd9f340aa311"
+    },
+    "computation": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableComputationContainer",
+      "sha256": "b176e86999a27b3c357991789032b330cb0279f33f2d988fe8906f7f3f9fb094"
+    },
+    "opticalHatch": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.OpticalComputationHatchMachine",
+      "sha256": "9c68370057d95900958272d3615110536006d491e0e2c9c3a27148af95b76612"
+    },
+    "opticalNet": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.pipelike.optical.OpticalNetHandler",
+      "sha256": "96918c710668b19d1c587fdaefe2027a03be8294a219bf99f4d8813d11144ef6"
+    },
+    "opticalWalker": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.pipelike.optical.OpticalNetWalker",
+      "sha256": "419cb91856d4218e2b596517c04b267446e4515daa54d7634ad7d64fea2415cd"
+    },
+    "objectHolder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.ObjectHolderMachine",
+      "sha256": "f6156f7df48aecf75b8a5d09a97595491b30575c259476f8910f1284a33d6475"
+    },
+    "registry": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTResearchMachines",
+      "sha256": "312e4bc1d3bb5ccfaf9b023f1c04c7172116fc3a924692f10ffd35b4d2fca246"
+    },
+    "builder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.registry.registrate.MultiblockMachineBuilder",
+      "sha256": "45f4b0c19f4cdd272bd513a6edc4841bf92115d556b3e4167a43fa9e5abb3183"
+    },
+    "logic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.RecipeLogic",
+      "sha256": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04"
+    },
+    "helper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.RecipeHelper",
+      "sha256": "b5a1b2af6d963f1e985f56665d8fc049f656da5e3bd1f4dfe19e46f926d94c28"
+    },
+    "manager": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.utils.ResearchManager",
+      "sha256": "5bf16add087599fdc570e22a185bf35170afc4880bf03e7d5046f10f3cd058a5"
+    },
+    "stationBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.ResearchRecipeBuilder$StationRecipeBuilder",
+      "sha256": "a7992165ab3b1d1b243ab1595e5656af1a87f72715b25c06fa5de0182b263d9d"
+    },
+    "researchBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.ResearchRecipeBuilder",
+      "sha256": "8fc9f887f4de95b749d8e03e871491fdc3341f1b9e456006d83a4972452364ce"
+    },
+    "kjs": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.integration.kjs.recipe.GTRecipeSchema$GTKubeRecipe",
+      "sha256": "a558b350202308ce3967382be9ec7b6478e04369f6c729ee0f668485d5e5c720"
+    },
+    "recipeBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.GTRecipeBuilder",
+      "sha256": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3"
+    },
+    "energyList": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.misc.EnergyContainerList",
+      "sha256": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee"
+    },
+    "machines": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5"
+    },
+    "blocks": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.block.GTBlocks",
+      "sha256": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868"
+    },
+    "computers": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.ComputerRecipes",
+      "sha256": "cb59537d9f70b9632dce9acbe9380288a874a3c33ba9da7f3b216ac0eef7b19a"
+    },
+    "prefix": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.tag.TagPrefix",
+      "sha256": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b"
+    },
+    "converter": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.trait.ConverterTrait",
+      "sha256": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb"
+    },
+    "workable": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.WorkableTieredMachine",
+      "sha256": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10"
+    }
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_4096/research/optical_pipe_bootstrap",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "#c:glass_blocks",
+            "2x #c:plates/silver"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:polytetrafluoroethylene",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:normal_optical_pipe"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:assembly_line/greg_4096/processors/crystal_soc",
+      "nativeType": "gtceu:assembly_line",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:qbit_cpu_chip",
+            "2x gtceu:advanced_soc",
+            "gtceu:quantum_processor",
+            "2x eternal_starlight:starcore",
+            "4x eternal_starlight:thioquartz_shard",
+            "4x modern_industrialization:superconductor_wire",
+            "sgjourney:communication_crystal"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:uu_matter",
+              "amount": 250
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:crystal_soc"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            4096
+          ]
+        },
+        {
+          "method": "setValue",
+          "args": [
+            "conditions",
+            {}
+          ]
+        },
+        {
+          "method": "stationResearch",
+          "args": [
+            {
+              "callbackSource": "builder => builder\n        .researchStack(Item.of(stack)).CWUt(cwu).EUt(2048)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:assembly_line/greg_4096/processors/crystal_processor",
+      "nativeType": "gtceu:assembly_line",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:fiber_reinforced_printed_circuit_board",
+            "2x gtceu:crystal_soc",
+            "2x gtceu:advanced_smd_resistor",
+            "2x gtceu:advanced_smd_capacitor",
+            "2x gtceu:advanced_smd_transistor",
+            "2x gtceu:advanced_smd_diode",
+            "modern_industrialization:quantum_circuit",
+            "ae2:engineering_processor"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 1152
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:crystal_processor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            4096
+          ]
+        },
+        {
+          "method": "setValue",
+          "args": [
+            "conditions",
+            {}
+          ]
+        },
+        {
+          "method": "stationResearch",
+          "args": [
+            {
+              "callbackSource": "builder => builder\n        .researchStack(Item.of(stack)).CWUt(cwu).EUt(2048)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priorLedgerSemanticSha256": "cac02ea564a477c83463d5f38db1d8e2640f18d4c73bbf0f2851fa0c20fd60c4",
+  "priorCom06SemanticSha256": "c9ef5bd5df5cc340b5eeb26a8a3fa280394355987dbdd4f11b6a86ab034f49c2",
+  "researchCallsites": {
+    "crystal_soc": {
+      "held": "gtceu:quantum_processor",
+      "minimumCWUt": 24,
+      "sourceSha256": "f52c9db30a138c64173c885174010668639e3261a9743c732dfadccc0659e9e8"
+    },
+    "crystal_processor": {
+      "held": "gtceu:crystal_soc",
+      "minimumCWUt": 24,
+      "sourceSha256": "007833e6688fb57a3fad530e8c7e80d692a9e7160d5b18e4c1f485287a06c979"
+    }
+  },
+  "reviewedLaterCom06Appends": [
+    "createch2:greg_gateway/assembly_line/tempered_glass",
+    "createch2:greg_gateway/assembly_line/acetic_acid",
+    "createch2:greg_gateway/assembly_line/vinyl_acetate",
+    "createch2:greg_gateway/assembly_line/polyvinyl_acetate",
+    "createch2:greg_gateway/assembly_line/butyraldehyde",
+    "createch2:greg_gateway/assembly_line/polyvinyl_butyral",
+    "createch2:greg_gateway/assembly_line/polyvinyl_butyral_plate",
+    "createch2:greg_gateway/assembly_line/laminated_glass",
+    "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module",
+    "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm",
+    "createch2:research_station/greg_4096/research/gtceu/iv_sensor",
+    "createch2:research_station/greg_4096/research/gtceu/iv_emitter",
+    "createch2:research_station/greg_4096/research/gtceu/iv_field_generator",
+    "createch2:research_station/greg_4096/research/gtceu/quantum_processor",
+    "createch2:research_station/greg_4096/research/gtceu/crystal_soc",
+    "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit",
+    "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit",
+    "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster",
+    "createch2:research_station/greg_4096/research/sgjourney/crystallizer",
+    "createch2:greg_gateway/assembly_line/single_input_bus",
+    "createch2:assembly_line/greg_4096/processors/crystal_soc",
+    "createch2:assembly_line/greg_4096/processors/crystal_processor"
+  ],
+  "reviewedLaterResearchAppends": [
+    {
+      "code": "FRN-05",
+      "id": "createch2:research_station/greate_uv/research/gtceu/crystal_processor_computer"
+    },
+    {
+      "code": "FRN-06",
+      "id": "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_assembly"
+    },
+    {
+      "code": "FRN-06",
+      "id": "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_computer"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:circuit_assembler/data_module_soldering_alloy"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:circuit_assembler/data_module"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:assembler/high_power_casing"
+    },
+    {
+      "code": "FRN-06",
+      "id": "mekanism:processing/refined_obsidian/ingot/from_dust"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components_0"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components_1"
+    }
+  ]
+}

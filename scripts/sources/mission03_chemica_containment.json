@@ -1,0 +1,733 @@
+{
+  "schema": 1,
+  "provider": "mods/chemica-1.21.1-0.7.1.jar",
+  "sha256": "fbeec7f6a35596dec4540e5dd2b9734459e9aa47a195c56dd92fb8de0533a60d",
+  "policy": "Retain existing 205 approved canonical Chemica routes and 98 prior denials. Twenty newly named leaching alternatives do not acquire authority from an external provider update.",
+  "recipes": {
+    "data/chemica/recipe/vat_machine_recipe/leaching_antimony.json": {
+      "nativeSha256": "2b57a54d8264099d068200e0c5a1a82668fa9ba29cee58946ffb370386eaf9a6",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:crushed_raw_antimony"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:hydrochloric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:antimony_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:antimony_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_asurine.json": {
+      "nativeSha256": "c5350d99168ca5c0872ad306725162c5ac1fac8e2d6ebb3fa4a2a99a7dee4e07",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:asurine"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:zinc_dust",
+            "count": 3
+          },
+          {
+            "id": "create:crushed_raw_zinc",
+            "chance": 0.1
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_chromium.json": {
+      "nativeSha256": "5438e2218ee984ab4a1b32f25895cf9a7e16ef5960916406dbe8755692aebe35",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "heatLevel": 2,
+        "ingredients": [
+          {
+            "item": "chemica:crushed_raw_chromium"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:chromium_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:chromium_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_cobalt.json": {
+      "nativeSha256": "358ff7d2c45ee712b9d9ed4a73b3eb27c85bbc711203c442b399952d9a8db84a",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:crushed_raw_cobalt"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:cobalt_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:cobalt_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_copper.json": {
+      "nativeSha256": "7c0485d08b63d5e112e91743279e19bd341dd618e58d7a94d667791afc814ec5",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_copper"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:copper_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:copper_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_crimsite.json": {
+      "nativeSha256": "f0a139a7f512fdd62ced67729b5f49a7fbe5ae6310088f8c96c8fd864484fbaa",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crimsite"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:iron_dust",
+            "count": 3
+          },
+          {
+            "id": "create:crushed_raw_iron",
+            "chance": 0.1
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_fervorite.json": {
+      "nativeSha256": "188c9e0ef3c560bb1d670d7876da57eb46a2fb8c6a0b4d37d538254e437ad0bf",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:fervorite"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:magnesium_dust",
+            "count": 2
+          },
+          {
+            "id": "tfmg:sulfur_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_gold.json": {
+      "nativeSha256": "f2a12595b112b8f003e2d1781cad2217d78a8c73463c428598b602bba9bb3717",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_gold"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:nitric_acid"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:hydrochloric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:gold_dust",
+            "count": 3
+          },
+          {
+            "id": "minecraft:gold_nugget",
+            "count": 5,
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_iron.json": {
+      "nativeSha256": "f5ef66935650191b1f41a2d68a168521a2d956743bb38aad05ab6fca92bada4e",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_iron"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:iron_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:iron_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_lead.json": {
+      "nativeSha256": "c20e137a9910f1b28f2474b523b4e5c309e50f4aea62060a0afbb86d3f6ed8e2",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_lead"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "pressure": 3,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "tfmg:lead_nugget",
+            "count": 18
+          },
+          {
+            "id": "tfmg:lead_nugget",
+            "count": 2,
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_molybdenum.json": {
+      "nativeSha256": "772b4d3b040656cb84c77fbf5d8307e7abff70f2952cb268823337c71c70e2b1",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "heatLevel": 2,
+        "ingredients": [
+          {
+            "item": "chemica:raw_molybdenum"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:molybdenum_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:molybdenum_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_nickel.json": {
+      "nativeSha256": "1c32ef25f664949d4c4ab5174aa0ea01877f0bd2cb195580d3f4fd7d1ce8b6f1",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_nickel"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:nickel_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:nickel_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_ochrum.json": {
+      "nativeSha256": "eda3a6aada011eb9a80112f0dc5a74f6f3be206e59c9746122239f9304003297",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:ochrum"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:gold_dust",
+            "count": 3
+          },
+          {
+            "id": "create:crushed_raw_gold",
+            "chance": 0.1
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_platinum.json": {
+      "nativeSha256": "26722a74ca4eaa2307af9db25007ddcfd8447830daa84f7d461e0221c03440a0",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_platinum"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:nitric_acid"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:hydrochloric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:platinum_dust",
+            "count": 3
+          },
+          {
+            "id": "chemica:platinum_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_silver.json": {
+      "nativeSha256": "d80a42e5d83f42fdf7fc0fed225be7e7bc0b7d598e89117e6e1105c4c17e1b4f",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_silver"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:nitric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:silver_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:silver_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_tin.json": {
+      "nativeSha256": "762004ae3a3c7a28015981a64d902b4fa76605fdda5e05399828a389894d8cd6",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_tin"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:hydrochloric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:tin_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:tin_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_vanadium.json": {
+      "nativeSha256": "081efeeac02a536c1ee04175c19336e1470e4e6834cc0e9e4132f4fe7b8178ed",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:crushed_raw_vanadium"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:vanadium_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:vanadium_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_veridium.json": {
+      "nativeSha256": "43b5812346cbfab427321ff940b4fdbfe527ec7b9c123be54424e448776bbe67",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:veridium"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:copper_dust",
+            "count": 3
+          },
+          {
+            "id": "create:crushed_raw_copper",
+            "chance": 0.1
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_zelosite.json": {
+      "nativeSha256": "c48cb4c178daf97212a219e8e3ac4a7e5c2af27a1e9d5356ba79152bd3befcd6",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:zelosite"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "chemica:hydrofluoric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:iridium_dust",
+            "chance": 0.8
+          },
+          {
+            "id": "chemica:tantalum_nugget",
+            "chance": 0.3
+          },
+          {
+            "id": "minecraft:netherite_scrap",
+            "chance": 0.05
+          }
+        ]
+      }
+    },
+    "data/chemica/recipe/vat_machine_recipe/leaching_zinc.json": {
+      "nativeSha256": "9a8d10b12693c358f8e2db28973572324ba3477ed3493df7826651f2198bb61c",
+      "data": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowedVatTypes": [
+          "tfmg:cast_iron_vat",
+          "tfmg:steel_vat",
+          "tfmg:firebrick_lined_vat"
+        ],
+        "ingredients": [
+          {
+            "item": "create:crushed_raw_zinc"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "tfmg:sulfuric_acid"
+          }
+        ],
+        "machines": [
+          "tfmg:mixing"
+        ],
+        "minSize": 1,
+        "processingTime": 300,
+        "results": [
+          {
+            "id": "chemica:zinc_dust",
+            "count": 2
+          },
+          {
+            "id": "chemica:zinc_dust",
+            "chance": 0.5
+          }
+        ]
+      }
+    }
+  }
+}

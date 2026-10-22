@@ -1,0 +1,398 @@
+{
+  "truth": "REVIEWED_NATIVE_TFC_CLEAR_GLASS_ROUTE",
+  "ids": {
+    "glass": "tfc:glassworking/glass",
+    "batch": "tfc:crafting/silica_glass_batch",
+    "unfired": "tfc:knapping/ceramic/unfired_blowpipe",
+    "fired": "tfc:heating/ceramic_blowpipe",
+    "load": "tfc:crafting/ceramic_blowpipe_with_glass",
+    "basin": "tfc:crafting/metal/block/brass",
+    "lime": "tfc:heating/powder/lime",
+    "pane": "minecraft:glass_pane",
+    "table": "tfc:glassworking/poured_glass",
+    "paddle": "tfc:crafting/paddle"
+  },
+  "nativeRows": {
+    "tfc:glassworking/glass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:glassworking",
+          "batch": {
+            "item": "tfc:silica_glass_batch"
+          },
+          "operations": [
+            "tfc:basin_pour"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:glass"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/silica_glass_batch": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "tag": "tfc:glass_potash"
+            },
+            {
+              "item": "tfc:powder/lime"
+            },
+            {
+              "tag": "c:sands/silica"
+            }
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfc:silica_glass_batch"
+          }
+        }
+      }
+    ],
+    "tfc:knapping/ceramic/unfired_blowpipe": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "knapping_type": "tfc:clay",
+          "pattern": [
+            " # # ",
+            " # # ",
+            " ### ",
+            " ### ",
+            " ### "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:ceramic/unfired_blowpipe"
+          }
+        }
+      }
+    ],
+    "tfc:heating/ceramic_blowpipe": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "item": "tfc:ceramic/unfired_blowpipe"
+          },
+          "result_item": {
+            "count": 1,
+            "id": "tfc:ceramic_blowpipe"
+          },
+          "temperature": 1399
+        }
+      }
+    ],
+    "tfc:crafting/ceramic_blowpipe_with_glass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shapeless_crafting",
+          "ingredients": [
+            {
+              "tag": "tfc:glass_batches"
+            },
+            {
+              "item": "tfc:ceramic_blowpipe"
+            }
+          ],
+          "primary_ingredient": {
+            "tag": "tfc:glass_batches"
+          },
+          "result": {
+            "modifiers": [
+              {
+                "type": "tfc:add_glass"
+              }
+            ],
+            "stack": {
+              "count": 1,
+              "id": "tfc:ceramic_blowpipe_with_glass"
+            }
+          }
+        }
+      }
+    ],
+    "tfc:crafting/metal/block/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "input_column": 2,
+          "key": {
+            "H": {
+              "tag": "c:tools/hammer"
+            },
+            "S": {
+              "tag": "c:sheets/brass"
+            },
+            "W": {
+              "tag": "minecraft:planks"
+            }
+          },
+          "pattern": [
+            " SH",
+            "SWS",
+            " S "
+          ],
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "result": {
+            "count": 8,
+            "id": "tfc:metal/block/brass"
+          }
+        }
+      }
+    ],
+    "tfc:heating/powder/lime": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "item": "tfc:powder/flux"
+          },
+          "result_item": {
+            "count": 1,
+            "id": "tfc:powder/lime"
+          },
+          "temperature": 840
+        }
+      }
+    ],
+    "minecraft:glass_pane": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:false"
+            }
+          ]
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "#": {
+              "item": "minecraft:glass"
+            }
+          },
+          "pattern": [
+            "###",
+            "###"
+          ],
+          "result": {
+            "count": 16,
+            "id": "minecraft:glass_pane"
+          }
+        }
+      }
+    ],
+    "tfc:glassworking/poured_glass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:glassworking",
+          "batch": {
+            "item": "tfc:silica_glass_batch"
+          },
+          "operations": [
+            "tfc:table_pour"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:poured_glass"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/paddle": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "L": {
+              "tag": "tfc:lumber"
+            },
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            "LL",
+            "LL",
+            "S "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:paddle"
+          }
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "basin": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.GlassBasinBlock"
+    ],
+    "cooling": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.GlassBasinBlockEntity"
+    ],
+    "pipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.GlassBlowpipeItem"
+    ],
+    "operation": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.glass.GlassOperation"
+    ],
+    "heat": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.Heat"
+    ],
+    "hotItems": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.EventHandler"
+    ],
+    "tableCooling": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.HotPouredGlassBlockEntity"
+    ],
+    "tableBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.HotPouredGlassBlock"
+    ],
+    "pouredBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.PouredGlassBlock"
+    ]
+  },
+  "nativeCodeSha256": {
+    "basin": "20c1ca144a41001274b52936f6a53794c9efbbdf799a1da7280d13ce6c57ec6c",
+    "cooling": "765bc13f6fa1cc07de594e480710423691462a2e4687fdf3e3a5ba060a589db0",
+    "pipe": "cb73e116537c6450b3adbbb39372fa8c15f50fdd58759f696c3296e868885eb2",
+    "operation": "6f6874e9977377db123816efbf929c4253d96988951da913769deb4d819eb5ac",
+    "heat": "93025d562766f5ecf3e9355b314b3264d3b69d01e7122703fa6bbb34678bf3b1",
+    "hotItems": "6b64ce90401ae84ce9c7abde69dc8c51612e30dcc67b45f3eda745e3dc2193e2",
+    "tableCooling": "2be3dbd7c71ddcd3022a4a43a509b9e7023e848684d9ae8d2f8040b999c46659",
+    "tableBlock": "e1d3b3c0b19d16365703b8054a11c4325027924ccac8d9e7f2354a3287e3bb53",
+    "pouredBlock": "e3c234b354d6310638d224f5f55667b6554d947899426da3ad99add510d4408c"
+  },
+  "resources": {
+    "data/tfc/tags/block/glass_basin_blocks.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "values": [
+          "tfc:metal/block/brass",
+          "tfc:metal/exposed_block/brass",
+          "tfc:metal/weathered_block/brass",
+          "tfc:metal/oxidized_block/brass"
+        ]
+      }
+    },
+    "data/minecraft/loot_table/blocks/glass.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data/tfc/tfc/knapping_type/clay.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "click_sound": "tfc:item.knapping.clay",
+        "consume_after_complete": true,
+        "has_off_texture": true,
+        "icon": {
+          "count": 1,
+          "id": "minecraft:clay_ball"
+        },
+        "input": {
+          "count": 5,
+          "tag": "tfc:clay_knapping"
+        },
+        "spawns_particles": false
+      }
+    },
+    "data/tfc/tags/block/glass_pouring_table.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "values": [
+          "tfc:metal/block/brass",
+          "tfc:metal/exposed_block/brass",
+          "tfc:metal/weathered_block/brass",
+          "tfc:metal/oxidized_block/brass"
+        ]
+      }
+    },
+    "data/tfc/loot_table/blocks/poured_glass.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_pane"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data/tfc/tags/item/glass_blowpipes.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "values": [
+          "tfc:blowpipe_with_glass",
+          "tfc:ceramic_blowpipe_with_glass"
+        ]
+      }
+    }
+  }
+}

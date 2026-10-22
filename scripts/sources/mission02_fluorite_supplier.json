@@ -1,0 +1,114 @@
+{
+  "feature": "createch2:vein/fluorite",
+  "files": {
+    "kubejs/data/createch2/worldgen/configured_feature/vein/fluorite.json": {
+      "type": "tfc:disc_vein",
+      "config": {
+        "rarity": 100,
+        "density": 0.35,
+        "min_y": -55,
+        "max_y": -12,
+        "project": true,
+        "project_offset": true,
+        "size": 20,
+        "height": 4,
+        "random_name": "createch2_fluorite",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/limestone",
+              "tfc:rock/raw/dolomite",
+              "tfc:rock/raw/chalk"
+            ],
+            "with": [
+              {
+                "weight": 1,
+                "block": "mekanism:fluorite_ore"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "kubejs/data/createch2/worldgen/placed_feature/vein/fluorite.json": {
+      "feature": "createch2:vein/fluorite",
+      "placement": []
+    }
+  },
+  "tagFile": "kubejs/data/tfc/tags/worldgen/placed_feature/in_biome/veins.json",
+  "previousTag": {
+    "replace": true,
+    "values": [
+      "tfc:vein/surface_native_copper",
+      "tfc:vein/surface_malachite",
+      "tfc:vein/montane_native_copper",
+      "tfc:vein/montane_malachite",
+      "tfc:vein/montane_tetrahedrite",
+      "tfc:vein/normal_malachite",
+      "tfc:vein/normal_tetrahedrite",
+      "tfc:vein/normal_native_gold",
+      "tfc:vein/rich_native_gold",
+      "tfc:vein/fake_native_gold",
+      "tfc:vein/montane_native_silver",
+      "tfc:vein/normal_native_silver",
+      "tfc:vein/montane_cassiterite",
+      "tfc:vein/surface_bismuthinite",
+      "tfc:vein/montane_bismuthinite",
+      "tfc:vein/normal_bismuthinite",
+      "tfc:vein/surface_sphalerite",
+      "tfc:vein/montane_sphalerite",
+      "tfc:vein/normal_sphalerite",
+      "tfc:vein/surface_hematite",
+      "tfc:vein/surface_magnetite",
+      "tfc:vein/surface_limonite",
+      "tfc:vein/montane_hematite",
+      "tfc:vein/montane_magnetite",
+      "tfc:vein/montane_limonite",
+      "tfc:vein/normal_garnierite",
+      "tfc:vein/gabbro_garnierite",
+      "tfc:vein/graphite",
+      "tfc:vein/lignite",
+      "tfc:vein/bituminous_coal",
+      "tfc:vein/sulfur",
+      "tfc:vein/tuff_sulfur",
+      "tfc:vein/normal_cinnabar",
+      "tfc:vein/montane_cinnabar",
+      "tfc:vein/saltpeter",
+      "tfc:vein/sylvite",
+      "tfc:vein/borax",
+      "tfc:vein/gypsum",
+      "tfc:vein/halite",
+      "tfc:vein/lapis_lazuli",
+      "tfc:vein/diamond",
+      "tfc:vein/emerald",
+      "tfc:vein/deep_ruby",
+      "firmalife:vein/normal_chromite",
+      "firmalife:vein/deep_chromite",
+      "tfc_metallurgy:vein/surface_galena",
+      "tfc_metallurgy:vein/normal_galena",
+      "tfc_metallurgy:vein/deep_galena",
+      "tfc_metallurgy:vein/surface_bauxite",
+      "tfc_metallurgy:vein/normal_bauxite",
+      "tfc_metallurgy:vein/surface_pyrolusite",
+      "tfc_metallurgy:vein/normal_pyrolusite",
+      "tfc_metallurgy:vein/surface_rutile",
+      "tfc_metallurgy:vein/normal_rutile",
+      "tfc_metallurgy:vein/deep_rutile",
+      "tfc_metallurgy:vein/surface_uraninite",
+      "tfc_metallurgy:vein/deep_uraninite",
+      "tfc_metallurgy:vein/surface_magnesite",
+      "tfc_metallurgy:vein/normal_magnesite",
+      "createch2:vein/malum_soulstone",
+      "createch2:vein/malum_brilliant_crystals",
+      "createch2:vein/malum_natural_quartz",
+      "createch2:vein/malum_cthonic_gold",
+      "createch2:vein/evilcraft_dark_ore"
+    ]
+  },
+  "block": "mekanism:fluorite_ore",
+  "ordinaryDrop": "mekanism:fluorite_gem",
+  "intent": "Provide the mandatory chemical fluorite supply under TFC geology; retain disabled generic Mekanism ore generation. No indicator item or retrogen is added.",
+  "additionalAuthorizedVeins": [
+    "createch2:vein/phosphorus"
+  ]
+}

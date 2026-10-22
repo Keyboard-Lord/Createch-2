@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "c:gems/diamond"
+    },
+    "top": {
+      "item": "ae2:engineering_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2:printed_engineering_processor"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PCP",
+    "GSG",
+    "PHP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/andesite_alloy"
+    },
+    "C": {
+      "item": "greate:andesite_alloy_cogwheel"
+    },
+    "G": {
+      "item": "create:andesite_casing"
+    },
+    "S": {
+      "item": "greate:andesite_alloy_shaft"
+    },
+    "H": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "result": {
+    "id": "greate:andesite_alloy_crushing_wheel",
+    "count": 2
+  },
+  "accept_mirrored": false
+}

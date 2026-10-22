@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/beryllium_copper",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/beryllium_copper",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/beryllium_copper",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/beryllium_copper",
+      "required": false
+    }
+  ]
+}

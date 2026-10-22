@@ -1,0 +1,11 @@
+{
+  "_createch2_reason": "The native three-pad output exceeds the registered stack limit on reload; the canonical LV industry recipe owns this machine.",
+  "neoforge:conditions": [
+    { "type": "neoforge:false" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:stone" }
+  ],
+  "result": { "id": "minecraft:stone" }
+}

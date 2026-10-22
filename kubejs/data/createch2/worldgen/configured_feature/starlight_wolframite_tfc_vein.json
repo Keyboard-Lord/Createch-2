@@ -1,0 +1,44 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 56,
+    "min_y": -48,
+    "max_y": 96,
+    "size": 30,
+    "density": 0.46,
+    "blocks": [
+      {
+        "replace": [
+          "eternal_starlight:grimstone",
+          "eternal_starlight:voidstone"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/poor_wolframite/basalt"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_wolframite/basalt"
+          },
+          {
+            "weight": 35,
+            "block": "tfc_metallurgy:ore/rich_wolframite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 10,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 40,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_wolframite"
+        }
+      ]
+    },
+    "random_name": "createch2_starlight_wolframite_tfc_vein"
+  }
+}

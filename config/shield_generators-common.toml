@@ -1,0 +1,94 @@
+#Default distance outside the protected object's bounds for newly placed or legacy generators, in blocks.
+# Default: 0.45
+# Range: 0.0 ~ 64.0
+shieldPadding = 0.45
+#Maximum adjustable shield distance from the protected object's bounds, in blocks.
+# Default: 5.0
+# Range: 0.0 ~ 64.0
+maxShieldDistance = 5.0
+#Maximum radius selectable in-game for ground hemispherical shields, in blocks.
+# Default: 50.0
+# Range: 1.0 ~ 256.0
+maxGroundShieldRadius = 32.0
+#Virtual per-tick Forge Energy input capacity advertised to energy networks. Energy is not stored between ticks.
+# Default: 50000
+# Range: > 0
+energyCapacity = 50000
+#Maximum Forge Energy input accepted per insertion, in FE.
+# Default: 2000
+# Range: > 0
+energyMaxReceive = 2000
+#Forge Energy consumed per equivalent crystal burn tick before crystal fuel is used.
+# Default: 20.0
+# Range: 0.0 ~ 1000000.0
+energyPerBurnTick = 40.0
+#Collision thickness of the shield shell, in blocks.
+# Default: 0.75
+# Range: 0.05 ~ 16.0
+shieldThickness = 0.75
+#Maximum shield heat produced from Forge Energy at full redstone signal. Set to 0 to make FE storage input-only.
+# Default: 100
+# Range: 0 ~ 100
+energyShieldHeat = 100
+#Projectiles moving at or above this speed in blocks/tick are blocked. Slow objects pass.
+# Default: 0.35
+# Range: 0.0 ~ 64.0
+blockProjectileSpeed = 0.35
+#If true, shield surfaces reflect fast objects crossing outward. If false, objects leaving the shield pass through.
+reflectOutgoingObjects = true
+#Local shield shudder strength where impacts begin to momentarily open a breach.
+# Default: 5.5
+# Range: 0.0 ~ 1024.0
+shieldBreachThreshold = 5.5
+#Local shield shudder strength where a breach lets all matching projectile and explosion effects through.
+# Default: 11.0
+# Range: 0.01 ~ 1024.0
+shieldFullBreachThreshold = 11.0
+#Explosion shudder divisor at full shield heat. Lower heat blends down toward normal 1x explosion shudder.
+# Default: 2.5
+# Range: 1.0 ~ 1024.0
+maxHeatExplosionShudderResistance = 2.5
+#Ticks that local shield shudder carries over for repeated hits in the same region.
+# Default: 18
+# Range: 0 ~ 200
+shieldBreachCarryoverTicks = 18
+#Render-space radius, in blocks, for grouping repeated shield hits into the same breach region.
+# Default: 2.75
+# Range: 0.1 ~ 64.0
+shieldBreachRegionRadius = 2.75
+#Maximum connected blocks to scan when the generator is placed outside a Sable object.
+# Default: 32768
+# Range: 1 ~ 262144
+maxStaticScanBlocks = 32768
+#Maximum block positions to inspect while building a detailed shield shape. Larger objects fall back to a box shell.
+# Default: 262144
+# Range: 1 ~ 4194304
+maxStaticScanPositions = 262144
+#Maximum scan radius when the generator is placed outside a Sable object.
+# Default: 64
+# Range: 1 ~ 256
+staticScanRadius = 64
+#Target maximum shield mesh triangles per square block of generated shield surface area.
+# Default: 6.0
+# Range: 0.25 ~ 64.0
+shieldTrianglesPerSurfaceBlock = 6.0
+#Absolute safety ceiling for generated shield mesh triangles after surface-area scaling.
+# Default: 6000
+# Range: 64 ~ 65536
+maxShieldTriangles = 6000
+#Generated shield surface area, in square blocks, that consumes crystal fuel at the normal 1x rate.
+# Default: 64.0
+# Range: 1.0 ~ 1048576.0
+shieldBurnReferenceSurfaceArea = 64.0
+#Minimum crystal fuel burn rate multiplier for an active shield.
+# Default: 0.1
+# Range: 0.0 ~ 1024.0
+minShieldBurnRate = 0.1
+#Maximum crystal fuel burn rate multiplier for very large shields.
+# Default: 32.0
+# Range: 0.01 ~ 1024.0
+maxShieldBurnRate = 32.0
+#Maximum crystal fuel burn rate multiplier for very large ground dome shields.
+# Default: 8192.0
+# Range: 0.01 ~ 1048576.0
+maxGroundShieldBurnRate = 8192.0

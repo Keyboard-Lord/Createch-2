@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NUN",
+    "UIU",
+    "NUN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "U": {
+      "item": "modern_industrialization:uranium_fuel_rod_double"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:uranium_fuel_rod_quad",
+    "count": 1
+  }
+}

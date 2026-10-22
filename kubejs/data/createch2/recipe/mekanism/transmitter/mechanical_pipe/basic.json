@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "PBP",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "P": {
+      "item": "tfmg:steel_pipe"
+    },
+    "B": {
+      "tag": "createch2:containers/metal_bucket"
+    }
+  },
+  "result": {
+    "id": "mekanism:basic_mechanical_pipe",
+    "count": 4
+  }
+}

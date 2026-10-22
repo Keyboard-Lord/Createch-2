@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "BHB",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:acacia_planks"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "W": {
+      "item": "astikorcartsredux:wheel"
+    }
+  },
+  "result": {
+    "id": "astikorcartsredux:acacia_seed_drill",
+    "count": 1
+  }
+}

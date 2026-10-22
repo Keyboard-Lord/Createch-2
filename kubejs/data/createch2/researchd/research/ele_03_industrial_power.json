@@ -1,0 +1,53 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "electroenergetics:accumulator"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:ele_02_electromechanical_conversion"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.ele_03_industrial_power.title"
+    },
+    "desc": {
+      "translate": "research.createch2.ele_03_industrial_power.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:mobility/aperture/long_fall_boots",
+      "electroenergetics:crafting/catenary_holder",
+      "electroenergetics:crafting/concrete_pole",
+      "electroenergetics:crafting/energy_meter",
+      "electroenergetics:crafting/iron_bus_spool",
+      "electroenergetics:crafting/iron_rail_spool",
+      "electroenergetics:crafting/iron_wire",
+      "electroenergetics:crafting/iron_wire_spool",
+      "electroenergetics:crafting/iron_wire_strand",
+      "electroenergetics:crafting/pantograph",
+      "electroenergetics:crafting/pole_mount",
+      "electroenergetics:crafting/rail_contact_shoe",
+      "electroenergetics:sequenced_assembly/miniature_circuit_breaker",
+      "createch2:electrical/conversion/portable_energy_interface",
+      "createch2:electrical/storage/modular_accumulator"
+    ]
+  }
+}

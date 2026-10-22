@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": "tfmg:galena_end_striated",
+  "step": "underground_ores"
+}

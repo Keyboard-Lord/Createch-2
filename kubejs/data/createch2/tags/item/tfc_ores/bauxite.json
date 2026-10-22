@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/bauxite/small",
+    "#createch2:tfc_ores/bauxite/poor",
+    "#createch2:tfc_ores/bauxite/normal",
+    "#createch2:tfc_ores/bauxite/rich"
+  ]
+}

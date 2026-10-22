@@ -1,0 +1,15 @@
+{
+  "name": "createch2:offworld_archaeology/venusian_field_station",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sgjourney:goauld_temple/badlands_ziggurat/badlands_ziggurat",
+        "processors": "createch2:offworld_machinery_inert",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

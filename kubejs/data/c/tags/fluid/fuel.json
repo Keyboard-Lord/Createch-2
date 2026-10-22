@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chemica:biodiesel",
+    "chemica:high_cetane_diesel",
+    "chemica:high_octane_gasoline",
+    "chemica:hydrogen_fuel"
+  ]
+}

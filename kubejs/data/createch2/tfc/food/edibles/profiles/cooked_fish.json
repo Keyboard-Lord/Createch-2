@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/cooked_fish"
+  },
+  "edible": true,
+  "protein": 2,
+  "decay_modifier": 2.25,
+  "hunger": 4,
+  "saturation": 1
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_lantean_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_lantean_outpost"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1879 @@
+{
+	autofocus_id: "05BA7B31EF14DF31"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_13_age_12_cosmonautics"
+	group: "0A85000000000004"
+	id: "0438176E6ABCF370"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "51ACBAEB6435CE0D"
+		image: "createch2:textures/quests/chapter_icons/cosmonautics.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.257d
+		y: 0.482d
+	}]
+	order_index: 1
+	quest_links: [{
+		id: "082200000000000E"
+		linked_quest: "0CAB92CC888C9309"
+		shape: "rsquare"
+		size: 1.35d
+		x: -6.369d
+		y: -9.515d
+	}]
+	quests: [
+		{
+			dependencies: ["0168C5BEAA769289"]
+			icon: {
+				id: "rocketnautics:titanium_casing"
+			}
+			id: "0E224B9C82027E65"
+			rewards: [{
+				auto: "enabled"
+				id: "265F8F7F2EDC75A8"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "04121AF42EF9513B"
+				item: { count: 1, id: "rocketnautics:titanium_casing" }
+				type: "item"
+			}]
+			x: -10.571d
+			y: -13.457d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "mekanism:elite_control_circuit"
+			}
+			id: "033679DB57674DF5"
+			rewards: [{
+				auto: "enabled"
+				id: "6E0D813C772FB325"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "07B0DBBE7B1E435F"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.75d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "rocketnautics:rcs_thruster"
+			}
+			id: "0013CE219649AEA7"
+			rewards: [{
+				auto: "enabled"
+				id: "2DBC91C24E839FF3"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0A7FA05209EB2C41"
+				item: { count: 1, id: "rocketnautics:rcs_thruster" }
+				type: "item"
+			}]
+			x: -1.355d
+			y: 12.618d
+		}
+		{
+			dependencies: ["0013CE219649AEA7"]
+			icon: {
+				id: "rocketnautics:magnetic_stabilizer"
+			}
+			id: "0D38915855917D2A"
+			rewards: [{
+				auto: "enabled"
+				id: "6FEE339198C5DC3A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0B7F7A06A9398788"
+				item: { count: 1, id: "rocketnautics:magnetic_stabilizer" }
+				type: "item"
+			}]
+			x: -8.234d
+			y: 8.317d
+		}
+		{
+			dependencies: ["05BA7B31EF14DF31"]
+			icon: {
+				id: "modern_industrialization:iridium_plate"
+			}
+			id: "0168C5BEAA769289"
+			rewards: [{
+				auto: "enabled"
+				id: "16F3F2D075F3D4D9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0F8C19CF9F084102"
+				item: { count: 1, id: "modern_industrialization:iridium_plate" }
+				type: "item"
+			}]
+			x: -8.471d
+			y: -13.589d
+		}
+		{
+			dependencies: [
+				"018AA9ACA248F094"
+				"677DBBBFEA49913C"
+			]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:platinum_ingot"
+			}
+			id: "05BA7B31EF14DF31"
+			rewards: [{
+				auto: "enabled"
+				id: "552E32B9E5B52A66"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "02B9FCD0D8645D03"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:platinum_ingot" }
+					type: "item"
+				}
+				{
+					id: "112EC80FDCB2772C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+			]
+			x: -6.369d
+			y: -13.715d
+		}
+		{
+			dependencies: ["0D38915855917D2A"]
+			icon: {
+				id: "rocketnautics:lunar_regolith"
+			}
+			icon_scale: 1.05d
+			id: "06C979F2D1DC6D66"
+			rewards: [{
+				auto: "enabled"
+				id: "514949AA3D6AA3AA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_cosmonautics_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 16L
+				id: "057044A1279FDC2D"
+				item: { count: 1, id: "rocketnautics:lunar_regolith" }
+				type: "item"
+			}]
+			x: -11.005d
+			y: 7.616d
+		}
+		{
+			dependencies: ["0013CE219649AEA7"]
+			icon: {
+				id: "modern_industrialization:raw_titanium"
+			}
+			icon_scale: 0.95d
+			id: "10E260D3B2D70D21"
+			rewards: [{
+				auto: "enabled"
+				id: "7F88049E857EAB6B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					dimension: "rocketnautics:deep_space"
+					id: "6D9753800719F0A6"
+					type: "dimension"
+				}
+				{
+					count: 4L
+					id: "0C9DC4CF00EBE60C"
+					item: { count: 1, id: "modern_industrialization:raw_titanium" }
+					type: "item"
+				}
+			]
+			x: -11.822d
+			y: 10.075d
+		}
+		{
+			dependencies: ["0013CE219649AEA7"]
+			icon: {
+				id: "rocketnautics:copper_nozzle"
+			}
+			icon_scale: 0.95d
+			id: "25E1BADE0D414E01"
+			rewards: [{
+				auto: "enabled"
+				id: "349B2ACD0A32B259"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "57730093EF802486"
+				item: { count: 1, id: "rocketnautics:copper_nozzle" }
+				type: "item"
+			}]
+			x: -2.475d
+			y: 14.909d
+		}
+		{
+			dependencies: ["25E1BADE0D414E01"]
+			icon: {
+				id: "rocketnautics:titanium_casing"
+			}
+			icon_scale: 0.95d
+			id: "47DB1F84DBC6CFD6"
+			rewards: [{
+				auto: "enabled"
+				id: "2B7837EB4156FE92"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "702FC19AB9C36A1A"
+					item: { count: 1, id: "rocketnautics:titanium_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "445CD1ADC37529C0"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+			]
+			x: -4.981d
+			y: 14.312d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			icon: {
+				id: "rocketnautics:booster_thruster"
+			}
+			icon_scale: 0.95d
+			id: "5C7D89A29C0FA9AF"
+			rewards: [{
+				auto: "enabled"
+				id: "35B99854FE6E4CE7"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "7B730CF582F454A0"
+				item: { count: 1, id: "rocketnautics:booster_thruster" }
+				type: "item"
+			}]
+			x: 3.573d
+			y: -11.328d
+		}
+		{
+			dependencies: ["5C7D89A29C0FA9AF"]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.95d
+			id: "5F235D88F7CE1D48"
+			rewards: [{
+				auto: "enabled"
+				id: "79DDF02924B50B11"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "0AF9D63DDF3D0E34"
+				item: { count: 1, id: "stellaris:big_oxygen_tank" }
+				type: "item"
+			}]
+			x: 5.69d
+			y: -11.427d
+		}
+		{
+			dependencies: ["06C979F2D1DC6D66"]
+			icon: {
+				id: "rocketnautics:lunar_regolith"
+			}
+			id: "092D0BAB89F1F9E0"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "64EEB8B1E1626B3B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4B79AD61E307A7BA"
+					item: {
+						count: 1
+						id: "create:gray_table_cloth"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "46DDF92BA5604C12"
+					item: { count: 1, id: "rocketnautics:lunar_regolith" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7A7790B02DBD1B6B"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+				{
+					advancement: "createch2:campaign/returned_lunar_industry"
+					criterion: ""
+					id: "020A7C17BA9DCBD6"
+					type: "advancement"
+				}
+			]
+			x: -7.298d
+			y: 5.764d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			icon: {
+				id: "rocketnautics:rocket_thruster"
+			}
+			icon_scale: 0.95d
+			id: "764FD52CDBFE613F"
+			rewards: [{
+				auto: "enabled"
+				id: "64209D1EFC349317"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "168C6143CBCD4BFD"
+				item: { count: 1, id: "rocketnautics:rocket_thruster" }
+				type: "item"
+			}]
+			x: -12.961d
+			y: -14.02d
+		}
+		{
+			dependencies: ["0168C5BEAA769289"]
+			icon: {
+				id: "rocketnautics:rcs_thruster"
+			}
+			icon_scale: 0.95d
+			id: "3103A0638044C9DC"
+			rewards: [{
+				auto: "enabled"
+				id: "3684B326800EF005"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "36BCA07580CBC7DA"
+					item: { count: 1, id: "rocketnautics:rcs_thruster" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53FE0AA6BA6EC52B"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+			]
+			x: 27.264d
+			y: 21.357d
+		}
+		{
+			dependencies: ["25E1BADE0D414E01"]
+			icon: {
+				id: "modern_industrialization:platinum_plate"
+			}
+			icon_scale: 0.95d
+			id: "413BAF736F4CC6C9"
+			rewards: [{
+				auto: "enabled"
+				id: "0CF3679804C3413D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "161AF6E01618B048"
+				item: { count: 1, id: "modern_industrialization:platinum_plate" }
+				type: "item"
+			}]
+			x: 37.224d
+			y: 28.069d
+		}
+		{
+			dependencies: ["3103A0638044C9DC"]
+			icon: {
+				id: "rocketnautics:rocket_thruster"
+			}
+			icon_scale: 0.95d
+			id: "1C67DB519D49BC6E"
+			rewards: [{
+				auto: "enabled"
+				id: "72D2D66ECDA15DF0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "025E866F250C131F"
+				item: { count: 1, id: "rocketnautics:rocket_thruster" }
+				type: "item"
+			}]
+			x: 13.293d
+			y: -9.484d
+		}
+		{
+			dependencies: ["5F235D88F7CE1D48"]
+			icon: {
+				id: "rocketnautics:rcs_thruster"
+			}
+			icon_scale: 0.95d
+			id: "3ECCBE14F9213837"
+			rewards: [{
+				auto: "enabled"
+				id: "20832A4E765D322F"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "521A4B1AAC641DB3"
+					item: { count: 1, id: "rocketnautics:rcs_thruster" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "419486FF028BF506"
+					item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+					type: "item"
+				}
+			]
+			x: 7.791d
+			y: -11.521d
+		}
+		{
+			dependencies: ["3ECCBE14F9213837"]
+			icon: {
+				id: "modern_industrialization:mixed_ingot_iridium"
+			}
+			icon_scale: 0.95d
+			id: "332A4A2C514A3588"
+			rewards: [{
+				auto: "enabled"
+				id: "5F2093E15A14582B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "390009FCF45DD505"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+				type: "item"
+			}]
+			x: 11.212d
+			y: -9.401d
+		}
+		{
+			dependencies: [
+				"413BAF736F4CC6C9"
+				"1C67DB519D49BC6E"
+				"332A4A2C514A3588"
+			]
+			icon: {
+				id: "rocketnautics:vector_thruster"
+			}
+			id: "4EE28C4DCD988F85"
+			rewards: [{
+				auto: "enabled"
+				id: "03690026F6FAB4A7"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "diamond"
+			size: 3.15d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "02D5CC90B305E944"
+				item: { count: 1, id: "rocketnautics:vector_thruster" }
+				type: "item"
+			}]
+			x: 13.075d
+			y: -27.104d
+		}
+		{
+			dependencies: ["4EE28C4DCD988F85"]
+			icon: {
+				id: "stellaris:battery"
+			}
+			icon_scale: 0.92d
+			id: "2BBFED3DCB268BAA"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "648A932357CB9763"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4E536CA63F1B735E"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_cosmonautics_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "519EA05CA357BCB3"
+				max_input: 1000000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: 33.463d
+			y: 22.248d
+		}
+		{
+			dependencies: ["2BBFED3DCB268BAA"]
+			icon: {
+				id: "rocketnautics:rcs_thruster"
+			}
+			icon_scale: 0.92d
+			id: "18068C9060097A6D"
+			rewards: [{
+				auto: "enabled"
+				id: "36551CD3EA5FCD73"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_cosmonautics_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "793D992A2FF4FF78"
+					item: { count: 1, id: "rocketnautics:rcs_thruster" }
+					type: "item"
+				}
+				{
+					id: "5324465822D2C494"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:platinum_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26E2B5CB15C1F157"
+					item: { count: 1, id: "stellaris:big_fuel_tank_upgrade" }
+					type: "item"
+				}
+			]
+			x: 29.202d
+			y: 21.202d
+		}
+		{
+			dependencies: ["18068C9060097A6D"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:iridium_ingot"
+			}
+			icon_scale: 0.92d
+			id: "1E62A29D12543CE6"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1860C1C99D111B73"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "0160ECE1149B2690"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_cosmonautics_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "24B4D01FA4E82A83"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5632D9F7349E05FD"
+					item: { count: 1, id: "modern_industrialization:iridium_plate" }
+					type: "item"
+				}
+			]
+			x: 30.924d
+			y: 20.363d
+		}
+		{
+			dependencies: [
+				"092D0BAB89F1F9E0"
+				"764FD52CDBFE613F"
+				"4EE28C4DCD988F85"
+				"465FBE95E0BE7F38"
+				"4A29644B5ECA6601"
+				"7F4A860BF440D2D2"
+				"3B35B9234CB6A36F"
+			]
+			icon: {
+				id: "rocketnautics:titanium_casing"
+			}
+			icon_scale: 1.1d
+			id: "1807EB5C02D2A745"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7A3B3E50C7436EE4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48AF840D769F2508"
+					item: {
+						count: 1
+						id: "stellaris:mars_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "7E3792931C73BBA7"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_cosmonautics_capstone"
+				"role_capstone"
+				"canonical_age_12"
+			]
+			tasks: [{
+				id: "4BEB4AC9C32CD1A4"
+				item: { count: 1, id: "rocketnautics:titanium_casing" }
+				type: "item"
+			}]
+			x: -36.709d
+			y: -2.922d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "rocketnautics:copper_nozzle"
+			}
+			id: "7103C2FC832DF6EB"
+			rewards: [{
+				auto: "enabled"
+				id: "1FF0068CE7AEF354"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3020605D2F961387"
+					item: { count: 1, id: "rocketnautics:copper_nozzle" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "08C6D7CDED421E23"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+			]
+			x: -12.503d
+			y: 0.235d
+		}
+		{
+			dependencies: [
+				"7103C2FC832DF6EB"
+				"033679DB57674DF5"
+			]
+			icon: {
+				id: "rocketnautics:booster_thruster"
+			}
+			id: "4CBDE6AE37B6FEFA"
+			rewards: [{
+				auto: "enabled"
+				id: "1CB040D37E8EBB15"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "26AA1F936A45CE3E"
+				item: { count: 1, id: "rocketnautics:booster_thruster" }
+				type: "item"
+			}]
+			x: -14.762d
+			y: 0.427d
+		}
+		{
+			dependencies: ["4CBDE6AE37B6FEFA"]
+			icon: {
+				id: "modern_industrialization:platinum_plate"
+			}
+			id: "5F310679FC0FC1DA"
+			rewards: [{
+				auto: "enabled"
+				id: "40178319D4811C26"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "30820D5FD86C40C1"
+					item: { count: 1, id: "modern_industrialization:platinum_plate" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "06E34A6FB386445C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:iridium_ingot" }
+					type: "item"
+				}
+			]
+			x: -19.38d
+			y: -0.119d
+		}
+		{
+			dependencies: ["10E260D3B2D70D21"]
+			icon: {
+				id: "rocketnautics:rcs_thruster"
+			}
+			icon_scale: 0.96d
+			id: "08EF4DC9F0013FA3"
+			rewards: [{
+				auto: "enabled"
+				id: "6FCD21F254F44841"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_cosmonautics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "stellaris:space"
+				id: "0C713CD6147A8285"
+				type: "biome"
+			}]
+			x: -10.053d
+			y: 9.204d
+		}
+		{
+			dependencies: ["10E260D3B2D70D21"]
+			icon: {
+				id: "modern_industrialization:iridium_plate"
+			}
+			id: "465FBE95E0BE7F38"
+			rewards: [{
+				auto: "enabled"
+				id: "264FC218CE601CCD"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "40CC5591472F5ED3"
+				structure: "stellaris:meteor"
+				type: "structure"
+			}]
+			x: -28.382d
+			y: -1.976d
+		}
+		{
+			dependencies: ["465FBE95E0BE7F38"]
+			icon: {
+				id: "rocketnautics:magnetic_stabilizer"
+			}
+			icon_scale: 0.96d
+			id: "477DE948B749CE2E"
+			rewards: [{
+				auto: "enabled"
+				id: "2D378DB494CE3040"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_cosmonautics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "77ACA005799D5F8C"
+				structure: "stellaris:mars_temple"
+				type: "structure"
+			}]
+			x: -26.364d
+			y: -2.15d
+		}
+		{
+			dependencies: ["477DE948B749CE2E"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 302400L
+					}
+				}
+				id: "stellaris:mars_fruit"
+			}
+			icon_scale: 0.96d
+			id: "59B66BAB8353746A"
+			rewards: [{
+				auto: "enabled"
+				id: "698631B40690558E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_cosmonautics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "stellaris:martian_raptor"
+				id: "047C2830E304BFE5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -21.735d
+			y: -0.898d
+		}
+		{
+			dependencies: ["477DE948B749CE2E"]
+			icon: {
+				id: "stellaris:mars_tharsite_ore"
+			}
+			icon_scale: 0.96d
+			id: "7912D59F16DCF8A6"
+			rewards: [{
+				auto: "enabled"
+				id: "193EEEF8C8BAC1BF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_cosmonautics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "stellaris:mogler"
+				id: "5BC7A155CF764822"
+				type: "kill"
+				value: 1L
+			}]
+			x: -24.317d
+			y: -2.329d
+		}
+		{
+			dependencies: ["05BA7B31EF14DF31"]
+			icon: {
+				id: "stellaris:plutonium_grain"
+			}
+			icon_scale: 0.96d
+			id: "3E27886653053060"
+			rewards: [{
+				auto: "enabled"
+				id: "1AD9DF799A2FB0FF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_cosmonautics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "stellaris:pygro_brute"
+				id: "2B2715B7CEBE0F03"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.27d
+			y: -13.836d
+		}
+		{
+			dependencies: ["413BAF736F4CC6C9"]
+			icon: {
+				id: "stellaris:mars_sand"
+			}
+			icon_scale: 0.96d
+			id: "66210706B4540F10"
+			rewards: [{
+				auto: "enabled"
+				id: "2E5596C74AF89C40"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "stellaris:mars_land"
+				criterion: ""
+				id: "1EA2BBF9969E0F00"
+				type: "advancement"
+			}]
+			x: -5.272d
+			y: 17.955d
+		}
+		{
+			dependencies: ["66210706B4540F10"]
+			icon: {
+				id: "stellaris:venus_sand"
+			}
+			icon_scale: 0.96d
+			id: "231AAA8D46F0E522"
+			rewards: [{
+				auto: "enabled"
+				id: "34D0640D961F2D6C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					advancement: "stellaris:venus_land"
+					criterion: ""
+					id: "436AC881A54FC9D8"
+					type: "advancement"
+				}
+				{
+					id: "4070155712807B3B"
+					item: { count: 1, id: "crush_depth:fathometer" }
+					type: "item"
+				}
+				{
+					id: "4649D07CC8450B0D"
+					item: { count: 1, id: "burnt:extinguisher" }
+					type: "item"
+				}
+			]
+			x: -7.718d
+			y: 17.368d
+		}
+		{
+			dependencies: ["231AAA8D46F0E522"]
+			icon: {
+				id: "stellaris:mercury_stone"
+			}
+			icon_scale: 0.96d
+			id: "728B2E2AB28A5C4E"
+			rewards: [{
+				auto: "enabled"
+				id: "2413A0F3541902FC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_cosmonautics_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "stellaris:mercury_land"
+				criterion: ""
+				id: "56071D84189B0E43"
+				type: "advancement"
+			}]
+			x: -4.25d
+			y: 15.738d
+		}
+		{
+			dependencies: ["5F310679FC0FC1DA"]
+			icon: {
+				id: "rocketnautics:copper_nozzle"
+			}
+			icon_scale: 0.98d
+			id: "5D2466F7486AD9EC"
+			rewards: [{
+				auto: "enabled"
+				id: "6B7504BFB8D4F563"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4F3B5D56AB4FE7BF"
+					item: { count: 1, id: "rocketnautics:copper_nozzle" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B2D1288F1266525"
+					item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+					type: "item"
+				}
+			]
+			x: -17.236d
+			y: -0.3d
+		}
+		{
+			dependencies: ["465FBE95E0BE7F38"]
+			icon: {
+				id: "rocketnautics:booster_thruster"
+			}
+			id: "6F35541A6AE49D6F"
+			rewards: [{
+				auto: "enabled"
+				id: "7ACC15A14ABB8C35"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4DB2CD86ABEF33D5"
+					item: { count: 1, id: "rocketnautics:booster_thruster" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76C42EDD8A0C898F"
+					item: { count: 1, id: "modern_industrialization:iridium_plate" }
+					type: "item"
+				}
+			]
+			x: -30.372d
+			y: -1.806d
+		}
+		{
+			dependencies: ["5F310679FC0FC1DA"]
+			icon: {
+				id: "modern_industrialization:platinum_plate"
+			}
+			id: "0FD62A2D2C3B5137"
+			rewards: [{
+				auto: "enabled"
+				id: "4AEC2361D1BB4FA7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "035AF37E486373AD"
+					item: { count: 1, id: "modern_industrialization:platinum_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3F585FF8E5F61C98"
+					item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
+					type: "item"
+				}
+			]
+			x: -32.586d
+			y: -2.453d
+		}
+		{
+			dependencies: [
+				"66197D8CF37A3640"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "ae2:quantum_link"
+			}
+			id: "6EB24DB178B647C9"
+			rewards: [{
+				auto: "enabled"
+				id: "6BC11F744206A8A0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "70B1EFD18E45B07A"
+				item: { count: 1, id: "ae2:quantum_link" }
+				type: "item"
+			}]
+			x: -1.813d
+			y: -13.251d
+		}
+		{
+			dependencies: [
+				"508DDE3C5248B0A2"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "megacells:item_storage_cell_1m"
+			}
+			icon_scale: 0.94d
+			id: "4C89B1BE1956FCAE"
+			rewards: [{
+				auto: "enabled"
+				id: "2CC33702A2EB647A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_ae2_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "0B92EA934B36A43B"
+				item: { count: 1, id: "megacells:item_storage_cell_1m" }
+				type: "item"
+			}]
+			x: 1.077d
+			y: -12.077d
+		}
+		{
+			dependencies: [
+				"0E224B9C82027E65"
+				"5EC0A201D5233C26"
+			]
+			icon: {
+				id: "modern_industrialization:titanium_large_plate"
+			}
+			id: "6E3E8AC457D0AC6E"
+			rewards: [{
+				auto: "enabled"
+				id: "4F9AAE040A9F046B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "51A726F9C899A003"
+					item: { count: 1, id: "modern_industrialization:titanium_large_plate" }
+					type: "item"
+				}
+				{
+					id: "6A27641B192ED0E5"
+					item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+					type: "item"
+				}
+				{
+					id: "7C557C4FFBE16924"
+					item: { count: 1, id: "create_submarine:iron_pressurizer" }
+					type: "item"
+				}
+				{
+					id: "30B051DD4EA04A2E"
+					item: { count: 1, id: "create_submarine:electrolyzer" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -59.75d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "create_aeronautics_automated_logistics:airship_station"
+			}
+			id: "70EA2DE834941114"
+			rewards: [{
+				auto: "enabled"
+				id: "7C3DC7EE6D4618E5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "5AF88F50E2A44569"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:airship_station" }
+					type: "item"
+				}
+				{
+					id: "625296C301F072B8"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:ship_transponder" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -50.0d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "3B35B9234CB6A36F"
+			rewards: [{
+				auto: "enabled"
+				id: "16E1BC3771E6FBD9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_cosmonautics_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					id: "6B67F6B325619EAC"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68E86DAE42267FBF"
+					item: { count: 1, id: "computercraft:monitor_advanced" }
+					type: "item"
+				}
+				{
+					id: "69DE5644C6964763"
+					item: { count: 1, id: "create_radar:radar_receiver_block" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -46.75d
+		}
+		{
+			dependencies: [
+				"0E224B9C82027E65"
+				"7656C8DECF6EDABB"
+			]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "4A29644B5ECA6601"
+			rewards: [{
+				auto: "enabled"
+				id: "1317ADF06189452E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_cosmonautics_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "261882C74AD03940"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "207C60194BC90AAC"
+					item: { count: 1, id: "computercraft:monitor_advanced" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34778B3FBE497E4B"
+					item: { count: 1, id: "computercraft:redstone_relay" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -63.0d
+		}
+		{
+			dependencies: [
+				"0E224B9C82027E65"
+				"4A29644B5ECA6601"
+			]
+			icon: {
+				id: "computercraft:monitor_advanced"
+			}
+			id: "0F14F8CEE2FBDEA0"
+			rewards: [{
+				auto: "enabled"
+				id: "1C871558EF9C9C2C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_cosmonautics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0EDAE2461588FA41"
+					item: { count: 1, id: "computercraft:monitor_advanced" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2362417BD1DCD9F9"
+					item: { count: 1, id: "computercraft:speaker" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "25B8478CAA1FFE5E"
+					item: { count: 1, id: "computercraft:wired_modem_full" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "03FDBE881CD47B10"
+					item: { count: 1, id: "synaxis:camera" }
+					type: "item"
+				}
+				{
+					id: "0E60F42C44C58246"
+					item: { count: 1, id: "synaxis:circuit_diagram" }
+					type: "item"
+				}
+				{
+					id: "4011C74B1627633C"
+					item: { count: 1, id: "synaxis:control_chair" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -59.75d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "computercraft:disk"
+			}
+			id: "2F2A359FCDEB76AD"
+			rewards: [{
+				auto: "enabled"
+				id: "3A82DC8A3D8A46D0"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_cosmonautics_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4BEC7A7D0C152357"
+					item: { count: 1, id: "computercraft:disk" }
+					type: "item"
+				}
+				{
+					id: "48A0D2B5DED65129"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EB2020C031DE641"
+					item: { count: 1, id: "computercraft:wired_modem_full" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -56.5d
+		}
+		{
+			dependencies: ["0E224B9C82027E65"]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "7F4A860BF440D2D2"
+			rewards: [{
+				auto: "enabled"
+				id: "690F4574038BB8B7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_cosmonautics_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					id: "39812D6D3EAF522B"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6383425A7CBD8D57"
+					item: { count: 1, id: "electroenergetics:sulfur_hexafluoride_breaker" }
+					type: "item"
+				}
+				{
+					id: "75A63CAADA3B7D3C"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 226.0d
+			y: -59.75d
+		}
+		{
+			dependencies: [
+				"0DD5A97327961323"
+				"21D8407F29294CF3"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "hostile_neural_industrialization:electric_simulation_chamber"
+			}
+			icon_scale: 0.96d
+			id: "65E891D36C209DB6"
+			rewards: [{
+				auto: "enabled"
+				id: "19EB77A673BA129E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_mass_processing_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "7DCCCCF1D82EC89C"
+				item: { count: 1, id: "hostile_neural_industrialization:electric_simulation_chamber" }
+				type: "item"
+			}]
+			x: 224.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"0DD5A97327961323"
+				"21D8407F29294CF3"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "hostile_neural_industrialization:mono_loot_fabricator"
+			}
+			icon_scale: 0.94d
+			id: "22008BADAC484239"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "059F9F13B2C3B093"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "352D67D6FD8C9137"
+					item: {
+						count: 1
+						id: "computercraft:cable"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_mass_processing_recovery"
+				"role_optional"
+			]
+			tasks: [{
+				id: "6A54F5DC4631042C"
+				item: { count: 1, id: "hostile_neural_industrialization:mono_loot_fabricator" }
+				type: "item"
+			}]
+			x: 228.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"22008BADAC484239"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "hostile_neural_industrialization:large_simulation_chamber"
+			}
+			icon_scale: 0.94d
+			id: "519966F77BB9EA1B"
+			rewards: [{
+				auto: "enabled"
+				id: "1318DD6B5196CD74"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_mass_processing_efficiency"
+				"role_optional"
+			]
+			tasks: [{
+				id: "054B8A8D7DB2B3FD"
+				item: { count: 1, id: "hostile_neural_industrialization:large_simulation_chamber" }
+				type: "item"
+			}]
+			x: 232.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"519966F77BB9EA1B"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "hostile_neural_industrialization:large_loot_fabricator"
+			}
+			icon_scale: 0.94d
+			id: "596FDB1756F3A775"
+			rewards: [{
+				auto: "enabled"
+				id: "461EA5982E9E4CE2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_mass_processing_efficiency"
+				"role_optional"
+			]
+			tasks: [{
+				id: "7780AF2D90BCA8B4"
+				item: { count: 1, id: "hostile_neural_industrialization:large_loot_fabricator" }
+				type: "item"
+			}]
+			x: 236.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"063E964BB6CF6EA6"
+				"037824F4D286C61E"
+				"05BA7B31EF14DF31"
+			]
+			icon: {
+				id: "aeroworks:gyroscope"
+			}
+			id: "1BE68BA11E58B77A"
+			rewards: [{
+				auto: "enabled"
+				id: "49764414C717B3E9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "7737EED460BFF9E3"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					id: "11D74C61E109AE28"
+					item: { count: 1, id: "aeroworks:stepper_servo" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -100.0d
+		}
+		{
+			dependencies: [
+				"0C26A049C9F82AC7"
+				"05BA7B31EF14DF31"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "aeroworks:gyroscope"
+			}
+			id: "36B517428853015E"
+			rewards: [{
+				auto: "enabled"
+				id: "4991FBBE5A7865A8"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_high_pressure_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "3E9E44768449B7B6"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					id: "169CB0EBCCC3D196"
+					item: { count: 1, id: "aeroworks:stepper_servo" }
+					type: "item"
+				}
+				{
+					id: "010824217EF33AAF"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 248.0d
+			y: -100.0d
+		}
+	]
+	tags: ["theme_cosmonautics_chapter"]
+}

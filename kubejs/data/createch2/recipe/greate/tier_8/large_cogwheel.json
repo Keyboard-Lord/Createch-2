@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    {
+      "tag": "c:plates/darmstadtium"
+    }
+  ],
+  "result": {
+    "id": "greate:large_darmstadtium_cogwheel",
+    "count": 1
+  }
+}

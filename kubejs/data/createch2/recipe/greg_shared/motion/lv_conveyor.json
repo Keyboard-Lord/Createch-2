@@ -1,0 +1,32 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 240,
+  "item_inputs": [
+    {
+      "item": "gtceu:lv_electric_motor",
+      "amount": 2
+    },
+    {
+      "item": "greate:silicone_rubber_belt_connector",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 144
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:lv_conveyor_module",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "chemica:carbon_fiber_composite_sheet",
+    "chemica:carbon_fiber_strands",
+    "chemica:cured_epoxy_sheet",
+    "chemica:electrochemically_exfoliated_graphene",
+    "chemica:polyethylene_sheet",
+    "chemica:polytetrafluoroethylene_sheet",
+    "chemica:polyvinyl_chloride_sheet",
+    "chemica:rubber_strip"
+  ]
+}

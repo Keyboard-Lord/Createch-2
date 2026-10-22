@@ -1,0 +1,35 @@
+{
+  "required_mods": [
+    "aquamirae"
+  ],
+  "type": "armor",
+  "item": {
+    "items": [
+      "aquamirae:terrible_chestplate"
+    ]
+  },
+  "entity": {
+    "entities": ["*"],
+    "equipment": {
+      "head": {"items": ["aquamirae:terrible_helmet"]},
+      "chest": {"items": ["aquamirae:terrible_chestplate"]},
+      "legs": {"items": ["aquamirae:terrible_leggings"]},
+      "feet": {"items": ["aquamirae:terrible_boots"]}
+    }
+  },
+  "attributes": {
+    "cold_sweat:cold_resistance": [
+      {
+        "name": "cold_sweat:three_bolt_set_bonus",
+        "amount": 0.2,
+        "operation": "add_value"
+      }
+    ]
+  },
+  "immune_temp_modifiers": {
+    "cold_sweat:water": 1.0
+  },
+  "hint": {
+    "key": "tooltip.hint.aqua_three_bolt"
+  }
+}

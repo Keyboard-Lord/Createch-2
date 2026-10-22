@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " n ",
+    "SSS",
+    " H "
+  ],
+  "key": {
+    "n": {
+      "tag": "c:nuggets/iron"
+    },
+    "S": {
+      "item": "tfmg:steel_ingot"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:solid_shot",
+    "count": 1
+  }
+}

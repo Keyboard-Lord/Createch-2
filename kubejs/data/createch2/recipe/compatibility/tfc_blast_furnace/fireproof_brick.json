@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:ceramic/fire_brick"
+    }
+  ],
+  "result": {
+    "id": "tfmg:fireproof_brick",
+    "count": 1
+  }
+}

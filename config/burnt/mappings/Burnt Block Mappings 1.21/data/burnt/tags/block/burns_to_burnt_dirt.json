@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:rich_dirt",
+      "required": false
+    },
+    {
+      "id": "yourmod:loam",
+      "required": false
+    }
+  ]
+}

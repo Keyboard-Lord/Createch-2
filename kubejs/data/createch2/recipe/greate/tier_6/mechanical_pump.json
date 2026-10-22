@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "GHC",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "greate:tungsten_steel_mechanical_pump"
+    },
+    "H": {
+      "tag": "c:plates/rhodium_plated_palladium"
+    },
+    "C": {
+      "tag": "gtceu:circuits/luv"
+    },
+    "S": {
+      "item": "greate:rhodium_plated_palladium_cogwheel"
+    }
+  },
+  "result": {
+    "id": "greate:rhodium_plated_palladium_mechanical_pump",
+    "count": 1
+  }
+}

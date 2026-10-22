@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 25600,
+  "item_inputs": [
+    {
+      "item": "sgjourney:naquadah_ingot",
+      "amount": 8
+    },
+    {
+      "item": "sgjourney:trinium_ingot",
+      "amount": 4
+    },
+    {
+      "item": "chemlib:osmium_dust",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:iridium_dust",
+      "amount": 3
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:nitrogen",
+      "amount": 4000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:naquadah_alloy_ingot",
+      "amount": 16
+    }
+  ]
+}

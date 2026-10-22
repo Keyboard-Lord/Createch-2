@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "SPS",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "P": {
+      "tag": "createch2:control/factory/analog"
+    }
+  },
+  "result": {
+    "id": "mekanism:energy_tablet",
+    "count": 1
+  }
+}

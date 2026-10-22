@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "upstream": {
+    "file": "mods/champions-neoforge-21.1.1.7.jar",
+    "sha256": "a618cc8743f6b4f695bdaf00d9dea67afe92f1895c827c2d46d82c560ca7bc49"
+  },
+  "retired_native_archetypes": [
+    "boss_line",
+    "creeper_arch",
+    "endermen_line",
+    "modded_mob",
+    "skeleton_line",
+    "spider_arch",
+    "witch_arch",
+    "zombie_line"
+  ],
+  "archetype": {
+    "id": "champions:default_monster",
+    "weight": 1,
+    "tier_range": {},
+    "affix_pools": [
+      {
+        "tier_range": {
+          "max": 1
+        },
+        "min_count": 1,
+        "max_count": 1,
+        "candidates": [
+          {
+            "affix": "champions:knocking",
+            "max_strength": 1,
+            "weight": 12
+          },
+          {
+            "affix": "champions:dampening",
+            "max_strength": 1,
+            "weight": 10
+          },
+          {
+            "affix": "champions:shielding",
+            "max_strength": 1,
+            "weight": 8
+          },
+          {
+            "affix": "champions:hasty",
+            "max_strength": 1,
+            "weight": 10
+          },
+          {
+            "affix": "champions:wounding",
+            "max_strength": 1,
+            "weight": 8
+          }
+        ]
+      },
+      {
+        "tier_range": {
+          "min": 2,
+          "max": 2
+        },
+        "min_count": 1,
+        "max_count": 2,
+        "candidates": [
+          {
+            "affix": "champions:knocking",
+            "max_strength": 2,
+            "weight": 12
+          },
+          {
+            "affix": "champions:dampening",
+            "max_strength": 2,
+            "weight": 10
+          },
+          {
+            "affix": "champions:shielding",
+            "max_strength": 2,
+            "weight": 8
+          },
+          {
+            "affix": "champions:hasty",
+            "max_strength": 2,
+            "weight": 10
+          },
+          {
+            "affix": "champions:wounding",
+            "max_strength": 2,
+            "weight": 8
+          },
+          {
+            "affix": "champions:plagued",
+            "max_strength": 1,
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "tier_range": {
+          "min": 3,
+          "max": 3
+        },
+        "min_count": 2,
+        "max_count": 2,
+        "candidates": [
+          {
+            "affix": "champions:knocking",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 10
+          },
+          {
+            "affix": "champions:dampening",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 10
+          },
+          {
+            "affix": "champions:shielding",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 8
+          },
+          {
+            "affix": "champions:lively",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 7
+          },
+          {
+            "affix": "champions:hasty",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 9
+          },
+          {
+            "affix": "champions:wounding",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 8
+          },
+          {
+            "affix": "champions:reflective",
+            "max_strength": 1,
+            "weight": 4
+          },
+          {
+            "affix": "champions:molten",
+            "max_strength": 1,
+            "weight": 4
+          },
+          {
+            "affix": "champions:arctic",
+            "max_strength": 1,
+            "weight": 4
+          },
+          {
+            "affix": "champions:enkindling",
+            "max_strength": 1,
+            "weight": 4
+          },
+          {
+            "affix": "champions:plagued",
+            "max_strength": 2,
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "tier_range": {
+          "min": 4
+        },
+        "min_count": 2,
+        "max_count": 3,
+        "candidates": [
+          {
+            "affix": "champions:knocking",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 9
+          },
+          {
+            "affix": "champions:dampening",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 9
+          },
+          {
+            "affix": "champions:shielding",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 7
+          },
+          {
+            "affix": "champions:lively",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 6
+          },
+          {
+            "affix": "champions:hasty",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 8
+          },
+          {
+            "affix": "champions:wounding",
+            "min_strength": 2,
+            "max_strength": 3,
+            "weight": 7
+          },
+          {
+            "affix": "champions:reflective",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 4
+          },
+          {
+            "affix": "champions:molten",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 4
+          },
+          {
+            "affix": "champions:arctic",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 4
+          },
+          {
+            "affix": "champions:enkindling",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 4
+          },
+          {
+            "affix": "champions:plagued",
+            "min_strength": 1,
+            "max_strength": 2,
+            "weight": 4
+          },
+          {
+            "affix": "champions:magnetic",
+            "max_strength": 1,
+            "weight": 3
+          },
+          {
+            "affix": "champions:desecrating",
+            "max_strength": 1,
+            "weight": 3
+          }
+        ]
+      }
+    ]
+  }
+}

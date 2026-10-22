@@ -1,0 +1,49 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfmg:steel_ingot"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens",
+      "createch2:kinetic_data"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:thm_01_boiler_science",
+    "createch2:mat_01_bronze_metallurgy"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.thm_02_industrial_heat.title"
+    },
+    "desc": {
+      "translate": "research.createch2.thm_02_industrial_heat.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_crushed_iron",
+      "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust",
+      "createch2:steel_steam/tfmg/industrial_blasting/pig_iron",
+      "createch2:steel_steam/tfmg/casting/pig_iron_ingot",
+      "createch2:steel_steam/tfmg/casting/steel_ingot",
+      "createch2:consequences/fire/extinguisher",
+      "createch2:steel_steam/tfmg/steel_nuggets",
+      "createch2:greate/suppliers/steel_foundry_melting",
+      "createch2:tfc_geology/bronze_steam/iron_dust_from_wrought_iron"
+    ]
+  }
+}

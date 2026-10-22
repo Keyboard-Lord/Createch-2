@@ -1,0 +1,249 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680",
+    "Modern-Industrialization-2.5.10.jar": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca"
+  },
+  "classes": {
+    "materials": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.MaterialRecipeHandler",
+      "sha256": "a30e78594405f356e39c4e24b3a7373fea2beb88392a8ab65df815dfe676fb3a"
+    },
+    "parts": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.PartsRecipeHandler",
+      "sha256": "401b53a266d15470bfad6c303097deef1542ad57bca214f5154949bf157b9c4a"
+    },
+    "pipes": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.PipeRecipeHandler",
+      "sha256": "245ac6fe00295f67d5d62a454b06e31d1959b33a5cdd4dfec25ec75e3f41cce5"
+    },
+    "elements": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.material.ElementMaterials",
+      "sha256": "d6b58be43972b478999d12c0885b8fe49db8a4994a2b62e83f41f6bf1099104f"
+    },
+    "alloys": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.material.FirstDegreeMaterials",
+      "sha256": "75e155fa7c2f07312c228441240d78fa5f8f0d395b36c0de0ade869f225249de"
+    },
+    "flags": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.material.GTMaterials",
+      "sha256": "e0fbed4711516561672c1b1d83b3ac7e36d393db52b33ef3a4ecd27780029249"
+    },
+    "requiredFlags": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.material.material.info.MaterialFlags",
+      "sha256": "1e09d7b56f713d2ceb66538b7d2785aa4f6b936cf8633ff002557ebc89e22cc8"
+    },
+    "flag": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.material.material.info.MaterialFlag",
+      "sha256": "38ce1fec67bf83b089ee62137394f1a81a0687c99f028df2b46c456b5adbd99c"
+    },
+    "material": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.material.material.Material",
+      "sha256": "ccfa0820e4c97e61e5387b4b2927b26151b789e3255b7a428eecc8d525d2e7df"
+    },
+    "prefix": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.tag.TagPrefix",
+      "sha256": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b"
+    },
+    "prefixV": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.tag.TagPrefix",
+      "sha256": "ad5a913a95b7bbda94cfeaaff4edacdd1eda3923348a8bf70c077987cc4dcde0",
+      "verbose": true
+    },
+    "blocks": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.block.GTMaterialBlocks",
+      "sha256": "cc3fcb6bb97b49860998ce9d91b931140a8a3b70d924fde505b8d8869c87629f"
+    },
+    "fluidPipeType": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.pipelike.fluidpipe.FluidPipeType",
+      "sha256": "6f0f0a7108ce4c054c1c02ffbc735e9e00dea7e6266df5e57d7e75969082ac59"
+    },
+    "computers": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.ComputerRecipes",
+      "sha256": "cb59537d9f70b9632dce9acbe9380288a874a3c33ba9da7f3b216ac0eef7b19a"
+    },
+    "loader": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipes",
+      "sha256": "ba5ac4dc586466463ba1bf165ac3783726820794818c7e2bd525944714ead357"
+    },
+    "upgrades": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.components.UpgradeComponent",
+      "sha256": "b2c87532986646b1aaf86cbc393fe457ae8c113c99098f44d37895f19cc9cbd6"
+    }
+  },
+  "advancedUpgrade": {
+    "type": "modern_industrialization:assembler",
+    "eu": 8,
+    "duration": 400,
+    "item_inputs": [
+      {
+        "item": "modern_industrialization:basic_upgrade",
+        "amount": 4
+      },
+      {
+        "item": "modern_industrialization:large_motor",
+        "amount": 2
+      },
+      {
+        "item": "modern_industrialization:large_pump",
+        "amount": 1
+      },
+      {
+        "item": "modern_industrialization:electronic_circuit_board",
+        "amount": 1
+      }
+    ],
+    "fluid_inputs": {
+      "fluid": "modern_industrialization:polyethylene",
+      "amount": 1000
+    },
+    "item_outputs": [
+      {
+        "item": "modern_industrialization:advanced_upgrade",
+        "amount": 4
+      }
+    ]
+  },
+  "upgradeMap": {
+    "values": {
+      "modern_industrialization:advanced_upgrade": {
+        "extraMaxEu": 16
+      },
+      "modern_industrialization:basic_upgrade": {
+        "extraMaxEu": 2
+      },
+      "modern_industrialization:highly_advanced_upgrade": {
+        "extraMaxEu": 512
+      },
+      "modern_industrialization:quantum_upgrade": {
+        "extraMaxEu": 999999999
+      },
+      "modern_industrialization:turbo_upgrade": {
+        "extraMaxEu": 64
+      }
+    }
+  },
+  "materials": [
+    [
+      "cobalt",
+      "Cobalt",
+      "elements",
+      "EXT_METAL",
+      [
+        "GENERATE_FINE_WIRE"
+      ]
+    ],
+    [
+      "copper",
+      "Copper",
+      "elements",
+      "EXT_METAL",
+      [
+        "GENERATE_FINE_WIRE"
+      ]
+    ],
+    [
+      "iridium",
+      "Iridium",
+      "elements",
+      "EXT2_METAL",
+      [
+        "GENERATE_FRAME"
+      ]
+    ],
+    [
+      "stainless_steel",
+      "StainlessSteel",
+      "alloys",
+      "EXT2_METAL",
+      [
+        "GENERATE_FRAME",
+        "GENERATE_ROTOR"
+      ]
+    ]
+  ],
+  "priorLedgerSemanticSha256": "12fb3e4ccf209fd4748b91c3b5c32c60c782a7d5fe6e74fad3391d2f2a6d57cc",
+  "priorCom06SemanticSha256": "566ae656216244c7f8a75322ee6fc085efd61a95c2533c4d4479adfc0dc8db9c",
+  "reviewedLaterCom06Appends": [
+    "createch2:circuit_assembler/greg_4096/research/optical_pipe_bootstrap",
+    "createch2:greg_gateway/assembly_line/tempered_glass",
+    "createch2:greg_gateway/assembly_line/acetic_acid",
+    "createch2:greg_gateway/assembly_line/vinyl_acetate",
+    "createch2:greg_gateway/assembly_line/polyvinyl_acetate",
+    "createch2:greg_gateway/assembly_line/butyraldehyde",
+    "createch2:greg_gateway/assembly_line/polyvinyl_butyral",
+    "createch2:greg_gateway/assembly_line/polyvinyl_butyral_plate",
+    "createch2:greg_gateway/assembly_line/laminated_glass",
+    "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module",
+    "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm",
+    "createch2:research_station/greg_4096/research/gtceu/iv_sensor",
+    "createch2:research_station/greg_4096/research/gtceu/iv_emitter",
+    "createch2:research_station/greg_4096/research/gtceu/iv_field_generator",
+    "createch2:research_station/greg_4096/research/gtceu/quantum_processor",
+    "createch2:research_station/greg_4096/research/gtceu/crystal_soc",
+    "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit",
+    "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit",
+    "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster",
+    "createch2:research_station/greg_4096/research/sgjourney/crystallizer",
+    "createch2:greg_gateway/assembly_line/single_input_bus",
+    "createch2:assembly_line/greg_4096/processors/crystal_soc",
+    "createch2:assembly_line/greg_4096/processors/crystal_processor"
+  ],
+  "reviewedLaterResearchAppends": [
+    {
+      "code": "FRN-05",
+      "id": "createch2:research_station/greate_uv/research/gtceu/crystal_processor_computer"
+    },
+    {
+      "code": "FRN-06",
+      "id": "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_assembly"
+    },
+    {
+      "code": "FRN-06",
+      "id": "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_computer"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:circuit_assembler/data_module_soldering_alloy"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:circuit_assembler/data_module"
+    },
+    {
+      "code": "FRN-06",
+      "id": "gtceu:assembler/high_power_casing"
+    },
+    {
+      "code": "FRN-06",
+      "id": "mekanism:processing/refined_obsidian/ingot/from_dust"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components_0"
+    },
+    {
+      "code": "SPC-07",
+      "id": "ae2:network/cells/spatial_components_1"
+    }
+  ]
+}

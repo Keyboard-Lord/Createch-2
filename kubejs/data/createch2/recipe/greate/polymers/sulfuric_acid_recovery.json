@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:distillation_tower",
+  "eu": 120,
+  "duration": 600,
+  "fluid_inputs": [
+    {
+      "fluid": "gtceu:diluted_sulfuric_acid",
+      "amount": 3000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:sulfuric_acid",
+      "amount": 2000
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ]
+}

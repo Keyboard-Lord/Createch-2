@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/copper"
+    },
+    {
+      "tag": "c:rivets/copper"
+    },
+    {
+      "tag": "c:screws/copper"
+    },
+    {
+      "tag": "c:physical_screws/copper"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 648,
+  "welding_temperature": 864
+}

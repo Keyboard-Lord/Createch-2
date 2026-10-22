@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/magnesium"
+    },
+    {
+      "tag": "c:physical_dusts/magnesium"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 390,
+  "welding_temperature": 520
+}

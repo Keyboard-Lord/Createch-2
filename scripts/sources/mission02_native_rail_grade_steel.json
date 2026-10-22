@@ -1,0 +1,150 @@
+{
+  "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+  "nativeClasses": {
+    "recipe": "world.item.crafting.BlastFurnaceRecipe",
+    "serializer": "world.item.crafting.BlastFurnaceRecipe$Serializer",
+    "furnace": "world.level.block.entity.BlastFurnaceBlockEntity",
+    "furnaceV": "world.level.block.entity.BlastFurnaceBlockEntity",
+    "block": "world.level.block.BlastFurnaceBricksBlock",
+    "blockV": "world.level.block.BlastFurnaceBricksBlock",
+    "module": "world.module.BlastFurnaceModule",
+    "menu": "world.inventory.BlastFurnaceMenu",
+    "rcCooking": "world.module.CookingModule",
+    "rcCrafter": "world.module.CrafterModule",
+    "rcMultiblock": "world.level.block.entity.multiblock.MultiblockBlockEntity",
+    "rcFurnaceBlock": "world.level.block.FurnaceMultiblockBlock",
+    "rcPredicate": "world.level.block.entity.multiblock.BlockPredicate",
+    "rcModules": "world.module.ModuleDispatcher",
+    "rcMain": "Railcraft",
+    "rcMultiblockBlock": "world.level.block.MultiblockBlock",
+    "rcListener": "world.level.block.entity.multiblock.MultiblockListener",
+    "pattern": "world.level.block.entity.multiblock.MultiblockPattern",
+    "patternBuilder": "world.level.block.entity.multiblock.MultiblockPattern$Builder",
+    "rcMultiblockBlockV": "world.level.block.MultiblockBlock"
+  },
+  "nativeCodeSha256": {
+    "recipe": "3cabf150089519ef8bd895d12e2bf9f436baf090bc7e0d2a585e1e8a1875510d",
+    "serializer": "c64ed7e25489b8d7306da202079b26c3fd0d5a8a0e693ecc0a7ca5221878a39c",
+    "furnace": "456eddc31a1c578af7c3bf71491f1a63a1f886600858265d73859222db94b505",
+    "furnaceV": "8227007a17f3bd3831ba8e5a6e5d3744905d9f4c0eefc79696154427000493cd",
+    "block": "a0772b99d9edc730710e767a14ee2f289b1bbad9b9f5f3e303a5f73b5fa87034",
+    "blockV": "8fb4fd868eaa16b622aafdc4f20454106afec350a5d736571fb56c457b840411",
+    "module": "45d83a974c0552c4b20f7ead67c53569fecf1ae85c8728d35ae593d6a442ee24",
+    "menu": "52fcbb14e9458fd637db2fb730774f05f16e4ba0e25a6e74b3adcdf23a2bf805",
+    "rcCooking": "9fa54101391cd7e50354b9f864d56abd6a340aaa7f8c0d77c631644c434c6b31",
+    "rcCrafter": "7a3051be5607c057cca75b6ce61f626ce7415a52543cd1454da2c5c9be521b67",
+    "rcMultiblock": "a7b3f8f210be411566e9b4b64a5d7f5412ab43db9342372f0e037e1bb5f444de",
+    "rcFurnaceBlock": "bc76d82b16465ef7af332b877930a2421999bdd02cd80cc65d48835ac770695d",
+    "rcPredicate": "3879d84b9c11fa67185c623b076f9f5f09ffb1ec92bdef3fce4d3d63474be754",
+    "rcModules": "e194e68e1c00c9014ee0b153830f8255f773d996a70d2c0676d2eb274937b3f3",
+    "rcMain": "19d574d58c5881515918e98275b75ab31e4cbcbdaedf32b9a34e66b3ffed904e",
+    "rcMultiblockBlock": "08d51eaa8df99a6a918cbdfb289c59dcaa66b25798913e3705b1d2c9576c9dc9",
+    "rcListener": "a4b138ff8aa10833dc93dc14828242cf6e75b271f74f48040c8508a5d471b489",
+    "pattern": "9c736758caab43a6aa74796c73fbed2e1be9aeb9b44ad07e2498d4b5bbcaee0b",
+    "patternBuilder": "44e8c4af0144019dc4181e130ea5b3a35db970cb0c68c845d5cb02d277c9826b",
+    "rcMultiblockBlockV": "2c00711ea172a9c3189c1565a26df1527267b981796da9a8017eab48a170e308"
+  },
+  "ids": {
+    "steel": "createch2:railway/blast_furnace/rail_grade_steel",
+    "bricks": "createch2:railway/blast_furnace/bricks",
+    "netherBricks": "minecraft:nether_bricks",
+    "netherBrick": "minecraft:nether_brick"
+  },
+  "recipes": {
+    "createch2:railway/blast_furnace/rail_grade_steel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:blasting",
+      "experience": 0,
+      "ingredient": {
+        "item": "tfmg:steel_ingot"
+      },
+      "result": {
+        "count": 1,
+        "id": "railcraft:steel_ingot"
+      },
+      "slagOutput": 1
+    },
+    "createch2:railway/blast_furnace/bricks": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "NBN",
+        "BCB",
+        "NBN"
+      ],
+      "key": {
+        "N": {
+          "item": "minecraft:nether_bricks"
+        },
+        "B": {
+          "item": "railcraft:coke_oven_bricks"
+        },
+        "C": {
+          "item": "tfmg:fireproof_bricks"
+        }
+      },
+      "result": {
+        "id": "railcraft:blast_furnace_bricks",
+        "count": 4
+      }
+    },
+    "minecraft:nether_bricks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "key": {
+        "#": {
+          "item": "minecraft:nether_brick"
+        }
+      },
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:nether_bricks"
+      }
+    },
+    "minecraft:nether_brick": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.1,
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      },
+      "result": {
+        "id": "minecraft:nether_brick"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:railway/blast_furnace/rail_grade_steel": "authored",
+    "createch2:railway/blast_furnace/bricks": "authored",
+    "minecraft:nether_bricks": "native",
+    "minecraft:nether_brick": "native"
+  },
+  "layers": [
+    [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    [
+      "BWB",
+      "WBW",
+      "BWB"
+    ]
+  ],
+  "scope": "Exact owned TFMGsteel-to-railcraftsteel handoff and its native34brick/two-air furnace. Native raw-iron steel alternatives remain excluded; previous ten ingots remain allocated elsewhere."
+}

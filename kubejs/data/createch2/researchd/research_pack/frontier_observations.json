@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 143,
+    "g": 103,
+    "b": 211
+  },
+  "sorting_value": 100,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.frontier_observations.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.frontier_observations.description"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "currency": "minecraft:emerald",
+  "maximum_uses": 4,
+  "default_inputs": [
+    {
+      "item": "minecraft:paper",
+      "count": 24
+    },
+    {
+      "item": "minecraft:string",
+      "count": 24
+    }
+  ],
+  "profession_inputs": {
+    "minecraft:armorer": [
+      {
+        "item": "minecraft:charcoal",
+        "count": 24
+      },
+      {
+        "item": "minecraft:leather",
+        "count": 12
+      }
+    ],
+    "minecraft:butcher": [
+      {
+        "item": "minecraft:leather",
+        "count": 12
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 24
+      }
+    ],
+    "minecraft:cartographer": [
+      {
+        "item": "minecraft:paper",
+        "count": 24
+      },
+      {
+        "item": "minecraft:ink_sac",
+        "count": 12
+      }
+    ],
+    "minecraft:cleric": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "count": 32
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 12
+      }
+    ],
+    "minecraft:farmer": [
+      {
+        "item": "tfc:straw",
+        "count": 48
+      },
+      {
+        "item": "tfc:compost",
+        "count": 24
+      }
+    ],
+    "minecraft:fisherman": [
+      {
+        "item": "minecraft:string",
+        "count": 24
+      },
+      {
+        "item": "tfc:jute_fiber",
+        "count": 24
+      }
+    ],
+    "minecraft:fletcher": [
+      {
+        "item": "minecraft:stick",
+        "count": 48
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 24
+      }
+    ],
+    "minecraft:leatherworker": [
+      {
+        "item": "minecraft:leather",
+        "count": 12
+      },
+      {
+        "item": "minecraft:string",
+        "count": 24
+      }
+    ],
+    "minecraft:librarian": [
+      {
+        "item": "minecraft:paper",
+        "count": 24
+      },
+      {
+        "item": "minecraft:book",
+        "count": 8
+      }
+    ],
+    "minecraft:mason": [
+      {
+        "item": "minecraft:brick",
+        "count": 32
+      },
+      {
+        "item": "minecraft:flint",
+        "count": 24
+      }
+    ],
+    "minecraft:shepherd": [
+      {
+        "item": "minecraft:string",
+        "count": 24
+      },
+      {
+        "item": "minecraft:white_wool",
+        "count": 12
+      }
+    ],
+    "minecraft:toolsmith": [
+      {
+        "item": "minecraft:charcoal",
+        "count": 24
+      },
+      {
+        "item": "minecraft:stick",
+        "count": 48
+      }
+    ],
+    "minecraft:weaponsmith": [
+      {
+        "item": "minecraft:flint",
+        "count": 24
+      },
+      {
+        "item": "minecraft:charcoal",
+        "count": 24
+      }
+    ]
+  },
+  "sales": [
+    {
+      "item": "minecraft:painting",
+      "price": 2,
+      "minimum_level": 1
+    },
+    {
+      "item": "minecraft:white_banner",
+      "price": 4,
+      "minimum_level": 2
+    },
+    {
+      "item": "minecraft:blue_banner",
+      "price": 6,
+      "minimum_level": 3
+    },
+    {
+      "item": "minecraft:green_banner",
+      "price": 6,
+      "minimum_level": 3
+    },
+    {
+      "item": "minecraft:name_tag",
+      "price": 20,
+      "minimum_level": 5
+    }
+  ],
+  "retained_service_outputs": [
+    "minecraft:filled_map"
+  ],
+  "map_service_second_cost": "minecraft:compass"
+}

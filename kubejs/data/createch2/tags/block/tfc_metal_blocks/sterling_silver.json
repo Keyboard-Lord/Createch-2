@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/sterling_silver",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/sterling_silver_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/sterling_silver_stairs",
+      "required": false
+    }
+  ]
+}

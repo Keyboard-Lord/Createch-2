@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "vatHeat": [
+    {
+      "recipe": "chemica:vat_machine_recipe/centrifuge/reformate",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/brine",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/charcoal_dust",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/electrochemically_exfoliated_graphene",
+      "heatLevel": 2
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/hydrofluoric_acid",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/powdered_obsidian",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/salt",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_bisulfate",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_persulfate",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/amine_catalyst",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hexamethylenediamine_solution",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nylon_salt_crystals",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/tungsten_hexafluoride",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/carbon_monoxide",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_air",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_oxygen",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/steam",
+      "heatLevel": 2
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_dust",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_hg",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_mg",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "createch2:chemica/feedstock/molybdenite_wet_separation",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "createch2:chemica/feedstock/vanadium_magnetite_wet_separation",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "createch2:chemical_age/tfmg/synthetic_rubber",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "createch2:heavy_industry/tfmg/naphtha_cast_iron_vat",
+      "heatLevel": 1
+    }
+  ]
+}

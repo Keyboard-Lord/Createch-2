@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_wetland",
+    "#createch2:tfc_structure_rugged_land"
+  ]
+}

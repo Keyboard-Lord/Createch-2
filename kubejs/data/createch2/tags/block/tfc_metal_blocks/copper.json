@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/copper",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/copper_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/copper_stairs",
+      "required": false
+    }
+  ]
+}

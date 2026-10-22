@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:nether_fungal_ecology",
+  "spawners": {
+    "type": "unique_mobs:infernal_zombie",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

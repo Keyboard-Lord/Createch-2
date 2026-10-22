@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "stellaris:space_suit_chestplate",
+    "stellaris:space_suit_boots",
+    "stellaris:space_suit_helmet",
+    "stellaris:space_suit_leggings"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:unrefined_paper",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:straw",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:jute_fiber",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ceramic/unfired_bowl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/small_native_copper",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/small_malachite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/small_tetrahedrite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:archer_pottery_sherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:miner_pottery_sherd",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

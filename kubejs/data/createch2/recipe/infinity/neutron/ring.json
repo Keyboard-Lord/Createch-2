@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "NNN",
+    "NQN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "Q": {
+      "item": "modern_industrialization:singularity"
+    }
+  },
+  "result": {
+    "id": "avaritia:neutron_ring",
+    "count": 1
+  },
+  "tier": 4
+}

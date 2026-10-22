@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WBW",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "W": {
+      "tag": "c:chests/wooden"
+    },
+    "B": {
+      "item": "cookingforblockheads:recipe_book"
+    }
+  },
+  "result": {
+    "id": "cookingforblockheads:crafting_book",
+    "count": 1
+  }
+}

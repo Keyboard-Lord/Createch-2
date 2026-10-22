@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "CBC",
+    "TMT"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "C": {
+      "tag": "createch2:control/factory/electronic"
+    },
+    "B": {
+      "item": "evilcraft:blood_infuser"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "alchemistry:liquifier",
+    "count": 1
+  }
+}

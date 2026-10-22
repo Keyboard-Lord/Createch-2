@@ -1,0 +1,82 @@
+{
+  "truth": "REVIEWED_NATIVE_GT_CURRENT_OWNER_RESEARCH_GATE",
+  "classes": {
+    "helper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.RecipeHelper",
+      "verbose": false,
+      "sha256": "b5a1b2af6d963f1e985f56665d8fc049f656da5e3bd1f4dfe19e46f926d94c28"
+    },
+    "logic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.RecipeLogic",
+      "verbose": false,
+      "sha256": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04"
+    },
+    "recipe": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.kind.GTRecipe",
+      "verbose": false,
+      "sha256": "f0a2f854138f482c55c0791bffda14ad413a939327b9f961fd1e432ae141c4b8"
+    },
+    "api": {
+      "jar": "researchd-1.2.5.jar",
+      "class": "com.portingdeadmods.researchd.api.ResearchdApi",
+      "verbose": false,
+      "sha256": "8b8df4fc0196e3ddf2498f90faea60046be79023790a72b1fa0a69f1d8a1f6c5"
+    },
+    "gate": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.compat.GtRecipeResearchGate",
+      "verbose": false,
+      "sha256": "f20c8622b1f047a65e07a0e9c5f55691fa3a876cd8d51c34b7cf743df38b1c60"
+    },
+    "mixin": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.mixin.compat.GtRecipeResearchMixin",
+      "verbose": true,
+      "sha256": "09890f160a4b60ed13f0d5d27fdc5ba3271be9bae7a2da390baf10997d249455"
+    },
+    "builder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.GTRecipeBuilder",
+      "verbose": false,
+      "sha256": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3"
+    },
+    "builderV": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.GTRecipeBuilder",
+      "verbose": true,
+      "sha256": "b43d3b24cbd2bde17e4a08ea89eb1aa7745b34dd2e358f0a485e6cb2d0384da9"
+    },
+    "registry": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.core.mixins.RecipeManagerLateMixin",
+      "sha256": "5dc7287385500a7a99641346b646248c60f7e775dea45aa51cd83074ef26c24f"
+    }
+  },
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680",
+    "researchd-1.2.5.jar": "abe2fa53bb7506f70b4ed6592e0d63108fcbb1bb2dfb70b8ebbc29710b90f9b6"
+  },
+  "canonicalLedgerSha256": "91ff01111bea414b9e5a658e0781ee211a48c5f3abfc7c3cacfcdc9211635591",
+  "reviewedCanonicalLedgerAppend": {
+    "previousLedgerSha256": "261d88f68a35025ba7b521b468e44975976c2b58c540fe74e19dfe996f193479",
+    "owner": "FRN-05",
+    "id": "createch2:research_station/greate_uv/research/gtceu/crystal_processor_computer",
+    "existingNodesAndOtherFieldsChanged": false
+  },
+  "subsequentReviewedCanonicalLedgerAppends": [
+    {
+      "previousLedgerSha256": "c6cb9dc41c240145ef87fab62b3246225dea28e5e5a6b990440497d620ffdd67",
+      "afterLedgerSha256": "91ff01111bea414b9e5a658e0781ee211a48c5f3abfc7c3cacfcdc9211635591",
+      "owner": "SPC-07",
+      "ids": [
+        "ae2:network/cells/spatial_components",
+        "ae2:network/cells/spatial_components_0",
+        "ae2:network/cells/spatial_components_1"
+      ],
+      "otherNodeFieldsAndIdentitiesChanged": false
+    }
+  ]
+}

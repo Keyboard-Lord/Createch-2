@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 30,
+  "duration": 60,
+  "item_inputs": [
+    {
+      "tag": "c:glass_blocks",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:oxygen",
+      "amount": 60
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:tempered_glass",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "truth": "NATIVE_DEEP_SPACE_SCOPE_BOUNDARY",
+  "quest": "10E260D3B2D70D21",
+  "task": "6D9753800719F0A6",
+  "dimension": "rocketnautics:deep_space",
+  "classes": {
+    "transition": {
+      "provider": "cosmonautics-26.08.307.jar",
+      "nested": null,
+      "nestedSha256": null,
+      "class": "dev.devce.rocketnautics.content.physics.SpaceTransitionHandler",
+      "sha256": "639d206c4a5e463409895e59edc0c06a53abdfc5acd78d830abc2679b18407f7"
+    },
+    "booster": {
+      "provider": "cosmonautics-26.08.307.jar",
+      "nested": null,
+      "nestedSha256": null,
+      "class": "dev.devce.rocketnautics.content.blocks.BoosterThrusterBlockEntity",
+      "sha256": "07f8b6842f41b233193abab09b9448eacb2511edc860571f4c7790f413f91597"
+    },
+    "assembly": {
+      "provider": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "nested": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+      "nestedSha256": "fdf9d250996a084b52fced3a5b0089e879a5cac05dc7bcf295ac1f4ebe5e2bff",
+      "class": "dev.simulated_team.simulated.content.blocks.physics_assembler.PhysicsAssemblerBlockEntity",
+      "sha256": "eac73a4fe7a15f98a8ab80d09fa1cbe819b291fead71278d263c1ffbf689ae86"
+    },
+    "assemblyHelper": {
+      "provider": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "nested": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+      "nestedSha256": "fdf9d250996a084b52fced3a5b0089e879a5cac05dc7bcf295ac1f4ebe5e2bff",
+      "class": "dev.simulated_team.simulated.util.SimAssemblyHelper",
+      "sha256": "57c6a41710dac608204a78acd1ab4ae9923b1f1ccca92b89d2b34cb1d6b5dd87"
+    },
+    "physics": {
+      "provider": "sable-neoforge-1.21.1-2.0.6.jar",
+      "nested": null,
+      "nestedSha256": null,
+      "class": "dev.ryanhcode.sable.sublevel.system.SubLevelPhysicsSystem",
+      "sha256": "000d227eeaadc5aacc4f054ae6b8572e5b4659b62c35c60713ac1fe61d69b4de"
+    },
+    "rapier": {
+      "provider": "sable-neoforge-1.21.1-2.0.6.jar",
+      "nested": "META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar",
+      "nestedSha256": "0f0ec5f9a0cdbff937fb36542eb568988f27e6eb7f848cb4df35ad202ced53a7",
+      "class": "dev.ryanhcode.sable.physics.impl.rapier.Rapier3D",
+      "sha256": "c2b60cf25158113cfe9e54ebd7c4d7b95d62db99433422e8f73facd6630d46da"
+    },
+    "pipeline": {
+      "provider": "sable-neoforge-1.21.1-2.0.6.jar",
+      "nested": "META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar",
+      "nestedSha256": "0f0ec5f9a0cdbff937fb36542eb568988f27e6eb7f848cb4df35ad202ced53a7",
+      "class": "dev.ryanhcode.sable.physics.impl.rapier.RapierPhysicsPipeline",
+      "sha256": "322f830e47020a0612ef6424ebd5ade86317d2a990a50f9214c6ec7c3702479b"
+    }
+  },
+  "sourceSha256": {
+    "config/rocketnautics-server.toml": "74c9ca512e1eb09198a445746ee7f4a1fe8aef8ddf132c5738fed7b33bdbce94",
+    "config/sable-common.toml": "ef1f56689ff18f41aa9962c36fea285fb5b2812f80062260f40fc12d4c328f62",
+    "config/sable-server.toml": "086c61695c31826b3fbcd4e5f55be8f42c3e4f25d6e1d3ffb680588a7457d2bc",
+    "config/simulated-server.toml": "deeef89a06ac494f5d3afa586a0e39eb5c188df8bc5064215c3f67b3fd8668eb"
+  },
+  "planets": {
+    "overworld": {
+      "entry": "data/rocketnautics/universe_planets/overworld.json",
+      "sha256": "9cdf92c2447f336f5bfa2cf63220e0ee23ea26460c9e7a7693d3b7812fdbb265",
+      "data": {
+        "parent": "sol",
+        "acceleration_at_surface": 11,
+        "dimension_data": {
+          "allowed_transfer": "all",
+          "atmosphere_composition": {
+            "5000": [],
+            "21000": [
+              "low_density",
+              "drowning"
+            ]
+          },
+          "dimension_transfer_height": 20000,
+          "entity_drag_multiplier": [
+            {
+              "altitude": 4000,
+              "slope": 0,
+              "value": 1
+            },
+            {
+              "altitude": 7000,
+              "slope": -0.0006,
+              "value": 0
+            }
+          ],
+          "linked_dimension": "minecraft:overworld",
+          "render_universe_in_dimension": true
+        },
+        "name": "overworld",
+        "planet_extras": {
+          "has_clouds": true,
+          "light_source_name": "sol"
+        },
+        "planet_texture": {
+          "type": "biome_sampler",
+          "colors": [
+            {
+              "blue": 245,
+              "green": 240,
+              "matching_tags": [
+                "c:is_snowy"
+              ],
+              "priority": 10,
+              "red": 240
+            },
+            {
+              "blue": 40,
+              "green": 90,
+              "matching_tags": [
+                "minecraft:is_badlands"
+              ],
+              "priority": 10,
+              "red": 195
+            },
+            {
+              "blue": 25,
+              "green": 85,
+              "matching_tags": [
+                "minecraft:is_jungle"
+              ],
+              "priority": 1,
+              "red": 15
+            },
+            {
+              "blue": 135,
+              "flags": [
+                "ocean"
+              ],
+              "green": 45,
+              "matching_tags": [
+                "minecraft:is_ocean",
+                "minecraft:is_deep_ocean"
+              ],
+              "red": 15
+            },
+            {
+              "blue": 215,
+              "green": 95,
+              "matching_tags": [
+                "minecraft:is_river"
+              ],
+              "red": 25
+            },
+            {
+              "blue": 155,
+              "green": 205,
+              "matching_tags": [
+                "minecraft:is_beach"
+              ],
+              "red": 225
+            },
+            {
+              "blue": 115,
+              "green": 195,
+              "matching_tags": [
+                "c:is_desert"
+              ],
+              "red": 215
+            },
+            {
+              "blue": 55,
+              "green": 145,
+              "matching_tags": [
+                "c:is_plains"
+              ],
+              "red": 45
+            },
+            {
+              "blue": 35,
+              "green": 105,
+              "matching_tags": [
+                "minecraft:is_forest"
+              ],
+              "red": 25
+            },
+            {
+              "blue": 55,
+              "green": 75,
+              "matching_tags": [
+                "minecraft:is_taiga"
+              ],
+              "red": 30
+            },
+            {
+              "blue": 70,
+              "green": 140,
+              "matching_tags": [
+                "minecraft:is_savanna"
+              ],
+              "red": 160
+            },
+            {
+              "blue": 40,
+              "green": 70,
+              "matching_tags": [
+                "c:is_swamp"
+              ],
+              "red": 50
+            },
+            {
+              "blue": 80,
+              "green": 100,
+              "matching_tags": [
+                "c:is_windswept"
+              ],
+              "red": 80
+            },
+            {
+              "blue": 100,
+              "green": 90,
+              "matching_tags": [
+                "c:is_mushroom"
+              ],
+              "red": 100
+            },
+            {
+              "blue": 135,
+              "green": 135,
+              "matching_tags": [
+                "minecraft:is_mountain",
+                "c:is_stony_shores"
+              ],
+              "red": 135
+            }
+          ],
+          "fallback_blue": 40,
+          "fallback_green": 120,
+          "fallback_red": 30
+        },
+        "position": {
+          "type": "circular_orbit_period",
+          "orbit_axis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "period_seconds": 604800
+        },
+        "priority": 0,
+        "radius": 3000000,
+        "rotation": {
+          "type": "period",
+          "period_seconds": 1200,
+          "rotation_axis": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        }
+      }
+    },
+    "moon": {
+      "entry": "data/rocketnautics/universe_planets/moon.json",
+      "sha256": "81857255664f5375672c7f2bb468077bc25b7d6e211a9d9b5e9e5746fc033123",
+      "data": {
+        "parent": "overworld",
+        "acceleration_at_surface": 2,
+        "dimension_data": {
+          "allowed_transfer": "all",
+          "apply_gravity_correction_to_entities_in_dimension": true,
+          "atmosphere_composition": {
+            "21000": [
+              "low_density",
+              "drowning"
+            ]
+          },
+          "dimension_day_time_controller_name": "sol",
+          "dimension_transfer_height": 20000,
+          "entity_drag_multiplier": [
+            {
+              "altitude": 4000,
+              "slope": 0,
+              "value": 1
+            },
+            {
+              "altitude": 7000,
+              "slope": -0.0006,
+              "value": 0
+            }
+          ],
+          "linked_dimension": "rocketnautics:moon",
+          "render_universe_in_dimension": true
+        },
+        "name": "moon",
+        "planet_extras": {
+          "light_source_name": "sol"
+        },
+        "planet_texture": {
+          "type": "biome_sampler",
+          "colors": [
+            {
+              "blue": 70,
+              "green": 150,
+              "matching_tags": [
+                "rocketnautics:lunar_chasm"
+              ],
+              "priority": 10,
+              "red": 220
+            },
+            {
+              "blue": 190,
+              "green": 190,
+              "matching_tags": [
+                "rocketnautics:lunar_highlands"
+              ],
+              "red": 190
+            },
+            {
+              "blue": 90,
+              "flags": [
+                "ocean"
+              ],
+              "green": 90,
+              "matching_tags": [
+                "rocketnautics:lunar_maria"
+              ],
+              "red": 90
+            }
+          ],
+          "fallback_blue": 160,
+          "fallback_green": 160,
+          "fallback_red": 160
+        },
+        "position": {
+          "type": "circular_orbit_period",
+          "orbit_axis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "period_seconds": 28800
+        },
+        "priority": 0,
+        "radius": 750000,
+        "rotation": {
+          "type": "tidal_lock",
+          "rotations_per_orbit": -1
+        }
+      }
+    }
+  },
+  "requiredHardware": [
+    "simulated:physics_assembler",
+    "rocketnautics:booster_thruster",
+    "rocketnautics:rocket_thruster",
+    "rocketnautics:vector_thruster",
+    "minecraft:coal_block",
+    "create:super_glue"
+  ]
+}

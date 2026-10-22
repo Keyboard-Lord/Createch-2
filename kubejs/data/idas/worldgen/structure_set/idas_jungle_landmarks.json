@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "idas:ancient_statue/ancient_statue_jungle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480682,
+    "spacing": 68,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 5,
+      "other_set": "#idas:small_avoid"
+    }
+  }
+}

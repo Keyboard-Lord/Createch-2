@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:venus_inferno",
+    "createch2:venus_scorching_caves",
+    "createch2:venus_volcanic_crater"
+  ],
+  "spawners": {
+    "type": "stellaris:mogler",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

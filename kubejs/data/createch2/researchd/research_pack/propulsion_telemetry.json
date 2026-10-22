@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 221,
+    "g": 91,
+    "b": 75
+  },
+  "sorting_value": 70,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.propulsion_telemetry.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.propulsion_telemetry.description"
+    }
+  }
+}

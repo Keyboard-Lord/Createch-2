@@ -1,0 +1,1 @@
+{"type":"tfc:anvil","apply_bonus":true,"ingredient":{"tag":"c:sheets/black_steel"},"result":{"count":1,"id":"tfc:metal/fish_hook/black_steel"},"rules":["hit_any","bend_any","draw_not_last"],"tier":5}

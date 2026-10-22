@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/antimony"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:antimony_dust"
+    }
+  ],
+  "processing_time": 100
+}

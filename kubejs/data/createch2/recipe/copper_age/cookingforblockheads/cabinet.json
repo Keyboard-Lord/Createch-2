@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "TBT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:brick"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "B": {
+      "tag": "c:chests/wooden"
+    }
+  },
+  "result": {
+    "id": "cookingforblockheads:cabinet",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/uranium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/uranium",
+    "amount": 200
+  },
+  "temperature": 1100,
+  "use_durability": false
+}

@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/berries"
+  },
+  "edible": true,
+  "fruit": 0.9,
+  "decay_modifier": 4.9,
+  "hunger": 4,
+  "water": 5,
+  "saturation": 0.5
+}

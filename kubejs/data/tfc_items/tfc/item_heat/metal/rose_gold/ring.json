@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/rose_gold"
+    },
+    {
+      "tag": "c:physical_rings/rose_gold"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 576,
+  "welding_temperature": 768
+}

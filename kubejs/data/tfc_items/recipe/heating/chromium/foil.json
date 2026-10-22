@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "firmalife"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_foils/chromium"
+  },
+  "result_fluid": {
+    "id": "firmalife:metal/chromium",
+    "amount": 100
+  },
+  "temperature": 1250
+}

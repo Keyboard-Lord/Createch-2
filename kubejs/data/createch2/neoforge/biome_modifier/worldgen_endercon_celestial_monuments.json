@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:end_celestial_arch_biomes",
+  "features": [
+    "createch2:endercon_celestial_end_pillars",
+    "createch2:endercon_celestial_end_ruins",
+    "createch2:endercon_celestial_end_lamps"
+  ],
+  "step": "local_modifications"
+}

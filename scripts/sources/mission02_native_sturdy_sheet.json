@@ -1,0 +1,381 @@
+{
+  "truth": "REVIEWED_NATIVE_STURDY_SHEET_FIXTURE",
+  "nativeClasses": {
+    "sequence": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipe"
+    ],
+    "sequenceV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipe",
+      true
+    ],
+    "serializer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipeSerializer"
+    ],
+    "serializerV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipeSerializer",
+      true
+    ],
+    "output": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput"
+    ],
+    "outputV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput",
+      true
+    ],
+    "press": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredMechanicalPressBlockEntity"
+    ],
+    "processing": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipe"
+    ],
+    "applier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeApplier"
+    ],
+    "results": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeHelper"
+    ],
+    "filling": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout"
+    ],
+    "network": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FluidNetwork"
+    ],
+    "pump": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pump.PumpBlockEntity"
+    ],
+    "tieredPump": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.fluids.pump.TieredPumpBlockEntity"
+    ],
+    "handlerSource": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FlowSource$FluidHandler"
+    ],
+    "tank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity"
+    ],
+    "fluidTank": [
+      "@neoforge",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank"
+    ],
+    "tankBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour"
+    ],
+    "tankSegment": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour$TankSegment"
+    ],
+    "internalHandler": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour$InternalFluidHandler"
+    ],
+    "combined": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.CombinedTankWrapper"
+    ],
+    "wrenchable": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchable"
+    ],
+    "spout": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.SpoutBlockEntity"
+    ],
+    "spoutBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.SpoutBlock"
+    ],
+    "tankBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlock"
+    ],
+    "depotBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBlock"
+    ],
+    "depotBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBehaviour"
+    ],
+    "sharedDepot": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods"
+    ],
+    "transported": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.belt.transport.TransportedItemStack"
+    ],
+    "itemStack": [
+      "@client",
+      "net.minecraft.world.item.ItemStack"
+    ],
+    "copyHelper": [
+      "gtceu-1.21.1-8.1.0.jar!META-INF/jarjar/ldlib-neoforge-1.21.1-1.0.35.a.jar",
+      "com.lowdragmc.lowdraglib.misc.ItemHandlerHelper"
+    ],
+    "greateRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.GreateRecipeRemoval"
+    ],
+    "createRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.CreateRecipeRemoval"
+    ]
+  },
+  "nativeCodeSha256": {
+    "sequence": "aafa9e0274dc454aa2f14daf5805aa1f07a69cccd772c05ea7955525a8b90177",
+    "sequenceV": "32f1da0403ae8e3ba0453b8f7b1e32df9056ef80550e1c8cbb19eae93a7b8bf8",
+    "serializer": "2764c3a6a6e32faf0189ba1b12d9e55b3eeed95b3ad11183f5f53f4bcca60f50",
+    "serializerV": "456639d4e905c09f0608ca134db3c772106fe60bad292a4b7170a6b5bce2eef7",
+    "output": "44cae193648fc75cd62159eb8edeb5b52bf737fbf604f583b0e7473eb37bb758",
+    "outputV": "19d0bfb461a3208b839bbd0271d2f6f4a087832d850ea02a906bca990e1fd239",
+    "press": "57fb860f87bdae3a4851afac770467f15d1a0d0011b90fdd77e923578d834ec4",
+    "processing": "432fa64c0b18d12fa9247463f4c8a7ab65c2ebfb4e4ed7c86a391cab805c40a3",
+    "applier": "fc08cbccd7b0047b964eea65fe63e8191bd2f9967cce2aa116c0b8529b22d536",
+    "results": "5e1f2ff0e9a5e83dc426ae6faf37b19080081b011a821a3a4fb37fa9ccc56e91",
+    "filling": "a1241eed48a107ef1db927e5c0417f44c384db06525f057f246e4115727d7730",
+    "network": "76561275b938fa5f99cafd1f7b257bfe719db3bc45161fa9da264dc4fe01edcb",
+    "pump": "43bdb8bda845e0e3e735f976c25caab96032055f018c44c20ae2d99d03430620",
+    "tieredPump": "a8adecb850a8095e6772d70f8c3fe5b124c10fe439bb35db7155795e3aec4141",
+    "handlerSource": "dd695c70979e09ff6ad752eac1ae82046c741c24f85579e08fd6fd1daf82eb19",
+    "tank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "fluidTank": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be",
+    "tankBehaviour": "c9222c75089e1799aa1832a84cc13f80f8a68bc356761fcc6baf4fbe8a874f90",
+    "tankSegment": "1e75144601695aae649154582235b3da234c5ba9cd9704a35265a3b1bbd23408",
+    "internalHandler": "0a10f0c84ac835fa5152bc2fa786cfa39fca08ef5b3a6c229b74959669d96a85",
+    "combined": "d9e77beb27d3311c4d3bdd372ae8dbd155448b7f0bb6c474b1506931861cebf0",
+    "wrenchable": "998b6d79b453ecd16b9e7f3af4949f7d0d20c4557a5156a6f0d96bc7848037cc",
+    "spout": "58e301764efe3e47bf055281a08f9c4a830676c85dd0cd34591f0d606912eb72",
+    "spoutBlock": "49b3e4fc61da7e1939e62a42883154c99d3ea80cfb87d88aa235e0f5aa6e5502",
+    "tankBlock": "764867a962b37a966e0a8cb04fa0dc20fe07abecdccab1f18d36a4ce031cb973",
+    "depotBlock": "85530c9c7bb9d9217122a8c21253350850849ab56fcec6038674328be1c98cca",
+    "depotBehaviour": "4743a24fac8ef345f014a6995fec4f817592cd1dd5b7962c630fe5e2c31dc016",
+    "sharedDepot": "55a640af20a79571f13d2abd748a1ff585337ef6a143ab5763db2d32b89ba6e0",
+    "transported": "d2746ce04fbd59f4fa2abcfd3963f767cbaa677f9522936d2672e97f2af7ea93",
+    "itemStack": "ab101a54f0fbd1d270ca8fa86227d7b924d60576c2e4f71813dc674d15c632fc",
+    "copyHelper": "6b1b17a87fab34dcce46598349ef4408e7153357aaffc171151dc43d4a372393",
+    "greateRemoval": "4ef712145db17bed6bf7fb3bdf687038d69550ccc7a7f6b0e6cdd3813b3e689c",
+    "createRemoval": "d2fdbd4de9297398d4572a3ea6bd3d18281b34d4a755596d239bc67bf5c076dc"
+  },
+  "id": "create:sequenced_assembly/sturdy_sheet",
+  "nativeRows": [
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "data": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "tag": "c:dusts/obsidian"
+        },
+        "results": [
+          {
+            "id": "create:sturdy_sheet"
+          }
+        ],
+        "sequence": [
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "create:unprocessed_obsidian_sheet"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 500,
+                "fluid": "minecraft:lava"
+              }
+            ],
+            "results": [
+              {
+                "id": "create:unprocessed_obsidian_sheet"
+              }
+            ]
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "create:unprocessed_obsidian_sheet"
+              }
+            ],
+            "results": [
+              {
+                "id": "create:unprocessed_obsidian_sheet"
+              }
+            ]
+          },
+          {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "create:unprocessed_obsidian_sheet"
+              }
+            ],
+            "results": [
+              {
+                "id": "create:unprocessed_obsidian_sheet"
+              }
+            ]
+          }
+        ],
+        "transitional_item": {
+          "id": "create:unprocessed_obsidian_sheet"
+        }
+      }
+    }
+  ],
+  "recipe": {
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "tag": "c:dusts/obsidian"
+    },
+    "results": [
+      {
+        "id": "create:sturdy_sheet"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "create:unprocessed_obsidian_sheet"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "minecraft:lava"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:unprocessed_obsidian_sheet"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "create:unprocessed_obsidian_sheet"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:unprocessed_obsidian_sheet"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "create:unprocessed_obsidian_sheet"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:unprocessed_obsidian_sheet"
+          }
+        ]
+      }
+    ],
+    "transitional_item": {
+      "id": "create:unprocessed_obsidian_sheet"
+    }
+  },
+  "recoveryTables": [
+    {
+      "item": "create:spout",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/spout.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "create:spout"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/spout"
+      }
+    },
+    {
+      "item": "create:depot",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/depot.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "create:depot"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/depot"
+      }
+    },
+    {
+      "item": "create:fluid_tank",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/fluid_tank.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "create:fluid_tank"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/fluid_tank"
+      }
+    }
+  ]
+}

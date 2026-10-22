@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIO",
+    "RCR",
+    "OIP"
+  ],
+  "key": {
+    "P": {
+      "tag": "createch2:chemical_palladium_ingots"
+    },
+    "I": {
+      "tag": "c:plates/iridium"
+    },
+    "O": {
+      "tag": "createch2:chemical_osmium_ingots"
+    },
+    "R": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "C": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    }
+  },
+  "result": {
+    "id": "mekanism:alloy_atomic",
+    "count": 1
+  }
+}

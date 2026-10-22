@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+  "outputs": [
+    {
+      "probability": 1,
+      "result": {
+        "item": "railcraft:stone_railbed"
+      }
+    },
+    {
+      "probability": 0.25,
+      "result": {
+        "item": "minecraft:flint"
+      }
+    }
+  ]
+}

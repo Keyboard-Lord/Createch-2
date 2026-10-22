@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_platinum/tuff",
+      "required": false
+    }
+  ]
+}

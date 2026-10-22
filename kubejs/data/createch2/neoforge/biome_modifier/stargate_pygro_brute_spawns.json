@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:chulak_eucalyptus_forest",
+    "createch2:chulak_arid_mountains",
+    "createch2:chulak_prismachasm"
+  ],
+  "spawners": {
+    "type": "stellaris:pygro_brute",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

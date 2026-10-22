@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#sgjourney:is_abydos",
+  "features": [
+    "sgjourney:ore_naquadah",
+    "sgjourney:ore_naquadah_extra"
+  ],
+  "steps": [
+    "underground_ores"
+  ]
+}

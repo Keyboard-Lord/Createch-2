@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "PHP",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "C": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "H": {
+      "tag": "createch2:agriculture/incubator_bedding"
+    }
+  },
+  "result": {
+    "id": "productivebees:incubator",
+    "count": 1
+  }
+}

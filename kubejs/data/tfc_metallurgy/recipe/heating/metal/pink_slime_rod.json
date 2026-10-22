@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/pink_slime"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/pink_slime",
+    "amount": 50
+  },
+  "temperature": 1000,
+  "use_durability": false
+}

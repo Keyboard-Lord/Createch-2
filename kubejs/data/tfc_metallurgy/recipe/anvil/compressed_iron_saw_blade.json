@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/saw_blade/compressed_iron"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "hit_second_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "apply_bonus": true
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "FCF",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:superconductor_plate"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "F": {
+      "item": "modern_industrialization:fusion_chamber"
+    },
+    "C": {
+      "item": "alchemistry:fission_core"
+    },
+    "P": {
+      "item": "eternal_starlight:starcore"
+    }
+  },
+  "result": {
+    "id": "alchemistry:fusion_core",
+    "count": 1
+  }
+}

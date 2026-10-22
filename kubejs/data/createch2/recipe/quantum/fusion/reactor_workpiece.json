@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 1600,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:quantum_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:fusion_chamber",
+      "amount": 6
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 8
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:cryofluid",
+    "amount": 1000
+  },
+  "item_outputs": [
+    {
+      "item": "tfmg:unfinished_generator",
+      "amount": 1
+    }
+  ]
+}

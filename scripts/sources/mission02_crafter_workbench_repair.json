@@ -1,0 +1,55 @@
+{
+  "scope": "Specific P1 repair of the existing hand-authored native Create override; its one-output yield and all other fields are preserved.",
+  "previousRuntimeCheckpoint": "d2873f3",
+  "id": "create:crafting/kinetics/mechanical_crafter",
+  "runtimePath": "kubejs/data/create/recipe/crafting/kinetics/mechanical_crafter.json",
+  "before": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "B": {
+        "item": "create:electron_tube"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "R": {
+        "item": "minecraft:crafting_table"
+      }
+    },
+    "pattern": [
+      "B",
+      "C",
+      "R"
+    ],
+    "result": {
+      "count": 1,
+      "id": "create:mechanical_crafter"
+    }
+  },
+  "after": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "B": {
+        "item": "create:electron_tube"
+      },
+      "C": {
+        "item": "create:brass_casing"
+      },
+      "R": {
+        "tag": "c:player_workstations/crafting_tables"
+      }
+    },
+    "pattern": [
+      "B",
+      "C",
+      "R"
+    ],
+    "result": {
+      "count": 1,
+      "id": "create:mechanical_crafter"
+    }
+  },
+  "reason": "TFC wooden workbenches are available through the existing common crafting-table tag. The literal vanilla crafting table has conflicting native TFC false/HTM resources and is not a certified supplier."
+}

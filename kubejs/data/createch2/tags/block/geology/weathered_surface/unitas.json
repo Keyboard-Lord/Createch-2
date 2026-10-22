@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:geology/replaceables/unitas",
+    "minecraft:deepslate",
+    "minecraft:tuff"
+  ]
+}

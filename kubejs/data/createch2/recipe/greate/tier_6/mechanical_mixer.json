@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CHC",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/rhodium_plated_palladium"
+    },
+    "G": {
+      "item": "greate:tungsten_steel_mechanical_mixer"
+    },
+    "C": {
+      "item": "greate:rhodium_plated_palladium_cogwheel"
+    },
+    "H": {
+      "item": "gtceu:luv_machine_hull"
+    },
+    "M": {
+      "tag": "gtceu:circuits/luv"
+    }
+  },
+  "result": {
+    "id": "greate:rhodium_plated_palladium_mechanical_mixer",
+    "count": 1
+  }
+}

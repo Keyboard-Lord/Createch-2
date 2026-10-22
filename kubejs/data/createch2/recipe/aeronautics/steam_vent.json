@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "CSC",
+    "IPI"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:plates/gold"
+    },
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "S": {
+      "item": "tfmg:steel_casing"
+    },
+    "I": {
+      "item": "tfmg:industrial_pipe"
+    },
+    "P": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "id": "aeronautics:steam_vent",
+    "count": 1
+  }
+}

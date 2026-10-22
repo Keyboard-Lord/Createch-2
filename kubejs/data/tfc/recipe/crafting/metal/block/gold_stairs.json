@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:plated_blocks/gold"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "count": 8,
+    "id": "tfc:metal/block/gold_stairs"
+  }
+}

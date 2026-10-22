@@ -1,0 +1,211 @@
+[spawning]
+	#Probability (0–1) that an eligible mob becomes a champion on spawn
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	spawnChance = 0.02
+	#Radius around an active beacon where no champions spawn. 0 = disabled
+	# Default: 64
+	# Range: 0 ~ 1000
+	beaconProtectionRange = 96
+	#Allow mobs from vanilla spawner blocks to become champions
+	championSpawners = false
+	#Allow mobs from trial spawner blocks to become champions
+	championTrialSpawners = false
+
+[hud]
+	#Show champion HUD when looking at a champion
+	showHud = true
+	#Show coloured rank particles around champions
+	showParticles = true
+	#Entity IDs whose HUD overlay is suppressed
+	bossBarBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "the_bumblezone:bee_queen", "death_angels:death_angel_queen", "death_angels:realistic_death_angel_queen", "stellaris:cheese_boss"]
+
+[growth]
+	#Bonus XP multiplier per tier level above 1
+	# Default: 1
+	# Range: > 0
+	experienceGrowth = 1
+	#Explosion radius growth multiplier
+	# Default: 2
+	# Range: 0 ~ 100
+	explosionGrowth = 1
+
+[loot]
+	#Loot drop entries: tier;modid:item;amount;enchanted;weight
+	lootDrops = []
+	#Scale number of loot draws to tier level
+	lootScaling = false
+	#Which loot sources are rolled on champion death:
+	#CONFIG - only the lootDrops config entries above
+	#LOOT_TABLE - only the champions:champion_loot datapack loot table
+	#CONFIG_AND_LOOT_TABLE - roll both sources
+	#Allowed Values: CONFIG, LOOT_TABLE, CONFIG_AND_LOOT_TABLE
+	lootSource = "CONFIG_AND_LOOT_TABLE"
+
+[mobSplit]
+	#Allow slime-like mobs to inherit champion status when splitting
+	mobInherit = false
+	#Rank reduction applied to child mobs when splitting
+	# Default: 1
+	# Range: > 0
+	rankReduce = 1
+	#Allow child mobs from splits to have the Infested affix
+	canHaveInfestedAffix = false
+
+	[affixes.adaptable]
+		#Damage reduction gained per consecutive hit of the same damage type (scales with affix strength)
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		reductionIncrement = 0.1
+		#Cap for the adaptable damage reduction
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		maxReduction = 0.6
+
+	[affixes.arctic]
+		#Interval, in seconds, between Arctic ice-shot attacks
+		# Default: 3
+		# Range: 1 ~ 100
+		attackInterval = 4
+
+	[affixes.dampening]
+		#Base fraction of direct melee/projectile damage reduced (scales with strength, hard cap 90%)
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		reduction = 0.2
+
+	[affixes.desecrating]
+		#Interval, in seconds, between harm-cloud drops at the target's position
+		# Default: 3
+		# Range: > 1
+		interval = 5
+		#Currently unused (reserved). Intended: delay, in seconds, before the first cloud
+		# Default: 1
+		# Range: > 0
+		activationTime = 2
+		#Initial radius, in blocks, of the harm cloud
+		# Default: 4.0
+		# Range: 1.0 ~ 32.0
+		radius = 3.0
+		#Currently unused — cloud lifetime is 200 + 40 x strength ticks
+		# Default: 10
+		# Range: > 1
+		duration = 6
+
+	[affixes.enkindling]
+		#Interval, in seconds, between Enkindling fire-shot attacks
+		# Default: 3
+		# Range: 1 ~ 100
+		attackInterval = 4
+
+	[affixes.hasty]
+		#Movement speed bonus applied while the affix is active (scales with strength)
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		speedBonus = 0.15
+
+	[affixes.infested]
+		#Base number of parasites per spawn wave (scales with strength)
+		# Default: 2
+		# Range: 1 ~ 100
+		amount = 1
+		#Currently unused (reserved). Intended: interval, in seconds, between parasite waves
+		# Default: 10
+		# Range: 1 ~ 600
+		interval = 30
+		#The mob to use as a parasite for infestation
+		parasite = "minecraft:silverfish"
+		#The mob to use as a parasite for infestation of ender mob
+		infestedEnderParasite = "minecraft:endermite"
+
+	[affixes.knocking]
+		#Knockback force applied to attackers (scales with strength)
+		# Default: 5.0
+		# Range: 0.0 ~ 100.0
+		knockback = 2.0
+
+	[affixes.lively]
+		#HP healed per second once the cooldown has elapsed (scales with strength)
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		healAmount = 0.5
+		#Bonus multiplier while the champion has been idle/unprovoked for a while
+		# Default: 5.0
+		# Range: 1.0 ~ 100.0
+		passiveMultiplier = 3.0
+		#Seconds without taking damage before regeneration starts (scales inversely with strength)
+		# Default: 3
+		# Range: 1 ~ 600
+		cooldown = 8
+
+	[affixes.magnetic]
+		#Pull force applied to targets (scales with strength)
+		# Default: 0.8
+		# Range: 0.0 ~ 10.0
+		strength = 0.35
+		#Radius, in blocks, in which targets are pulled toward the champion
+		# Default: 16.0
+		# Range: 1.0 ~ 64.0
+		pullRange = 8.0
+
+	[affixes.molten]
+		#Fire duration, in ticks, applied on hits in either direction (scales with strength)
+		# Default: 80
+		# Range: 1 ~ 2000
+		fireTicks = 60
+		#Fire damage dealt by the aura per second and by hit bursts (scales with strength)
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		auraDamage = 1.0
+		#Radius, in blocks, of the fire aura (scales with strength)
+		# Default: 3.0
+		# Range: 0.5 ~ 32.0
+		auraRange = 2.5
+
+	[affixes.paralyzing]
+		#Chance per champion attack to paralyse the victim (scales with strength, capped at 95%)
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		chance = 0.0
+		#Paralysis duration, in ticks
+		# Default: 60
+		# Range: 1 ~ 1200
+		duration = 20
+
+	[affixes.plagued]
+		#Base radius, in blocks, of the debuff aura (scales with strength)
+		# Default: 5.0
+		# Range: 1.0 ~ 32.0
+		range = 4.0
+
+	[affixes.reflective]
+		#Minimum fraction of damage reflected back at the attacker
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		minPercent = 0.08
+		#Maximum fraction of damage reflected (scales with strength)
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		maxPercent = 0.2
+		#Absolute cap on reflected damage
+		# Default: 8.0
+		# Range: 0.0 ~ 10000.0
+		max = 4.0
+		#Whether reflected damage can kill the attacker
+		lethal = false
+
+	[affixes.shielding]
+		#Base chance to fully block an attack (scales with strength)
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		chance = 0.3
+
+	[affixes.wounding]
+		#Chance per champion attack to wound the victim (scales with strength)
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Wound duration, in ticks (scales with strength)
+		# Default: 200
+		# Range: 1 ~ 6000
+		duration = 100

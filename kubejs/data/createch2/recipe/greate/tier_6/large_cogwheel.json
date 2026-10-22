@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:rhodium_plated_palladium_cogwheel"
+    },
+    {
+      "item": "greate:rhodium_plated_palladium_cogwheel"
+    },
+    {
+      "tag": "c:plates/rhodium_plated_palladium"
+    }
+  ],
+  "result": {
+    "id": "greate:large_rhodium_plated_palladium_cogwheel",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 1024,
+  "duration": 6000,
+  "item_inputs": [
+    {
+      "item": "gtceu:iridium_frame",
+      "amount": 1
+    },
+    {
+      "tag": "c:plates/iridium",
+      "amount": 6
+    },
+    {
+      "tag": "gtceu:circuits/luv",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:fine_cobalt_wire",
+      "amount": 32
+    },
+    {
+      "item": "gtceu:fine_copper_wire",
+      "amount": 32
+    },
+    {
+      "item": "modern_industrialization:superconductor_wire",
+      "amount": 2
+    }
+  ],
+  "item_outputs": {
+    "item": "gtceu:computer_casing",
+    "amount": 2
+  }
+}

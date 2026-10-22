@@ -1,0 +1,53 @@
+{
+  "truth": "STATIC_MISSION04_OPTIMIZED_RESEARCH_CORE_ENTRY_PRESERVATION",
+  "before": "78b50e2bdca41c6f4451a3a12e40acf35b1047ad1a9f8c766a710760645ea728",
+  "after": "17b7644bc9e93406ebdcccde0cd4fa5eed770ac8baecbe2effcbfdbf5d19aa31",
+  "added": [
+    "createch2/core/compat/ResearchRecipeSelection.class",
+    "createch2/core/mixin/compat/FastSuiteResearchMixin.class",
+    "createch2/core/mixin/compat/FastWorkbenchResearchMixin.class",
+    "createch2/core/mixin/compat/FastWorkbenchResultResearchMixin.class",
+    "createch2/core/mixin/compat/PolymorphResearchMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 365,
+  "unchangedEntriesSha256": "af7eca4b25d6118ee74c74a18753cdccb72de5744a3c02a93ffc52d0b3a6d895",
+  "sourceCheckpoint": "add299d",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-78b50e2bdca41c6f4451a3a12e40acf35b1047ad1a9f8c766a710760645ea728.jar",
+  "entrySha256": {
+    "createch2/core/compat/ResearchRecipeSelection.class": {
+      "before": null,
+      "after": "4036838110e5d4b9ed75fcef93f8b73d1f261b61e8e4b4e0664b4c05f4c506aa"
+    },
+    "createch2/core/mixin/compat/FastSuiteResearchMixin.class": {
+      "before": null,
+      "after": "d3b7d785babefa3134691a9bb14443b4fa244bc14b8fc6a7c4faa46d16921af0"
+    },
+    "createch2/core/mixin/compat/FastWorkbenchResearchMixin.class": {
+      "before": null,
+      "after": "c26025e2102ba9fee13dfd88889459cf88b84518067e8f1abcc57f098d11f656"
+    },
+    "createch2/core/mixin/compat/FastWorkbenchResultResearchMixin.class": {
+      "before": null,
+      "after": "01fe0837086aff5db48cc61dd8b7e857bc39f32f5765f21132e839f8f4fd36aa"
+    },
+    "createch2/core/mixin/compat/PolymorphResearchMixin.class": {
+      "before": null,
+      "after": "812c6d3cf1f5567f57168de2909829d5f71e210c0ca5122fe8254067e2dba77d"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "283a2bae9b1ba2b024cf7c2ace4289c4a5a1e5ce6ee86c935f2c19c526b0d354",
+      "after": "a1e9b4ca833ea429dd08150b29f96f31e06339928565225f8e8ad9cb88256c29"
+    },
+    "createch2core.mixins.json": {
+      "before": "37e3b49b7364aebfa87a391d18af5d839d1a091bbd84fb6a1554f0904ea49268",
+      "after": "660240e0a88e5cc4ae800ec6cace60bd03fd74318b1b42ce8a881fa79d5abfa8"
+    }
+  },
+  "scope": "Current-team optimized lookup, queued and cached crafting, output pickup and Polymorph selection. Existing helper, content and data entries unchanged. Native binding and before/after crafting retest pending."
+}

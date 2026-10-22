@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 4,
+  "ingredients": [
+    {
+      "tag": "c:plates/tungsten_steel"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:tungsten_steel_shaft",
+      "count": 6
+    }
+  ]
+}

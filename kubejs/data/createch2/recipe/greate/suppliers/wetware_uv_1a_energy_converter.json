@@ -1,0 +1,44 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8192,
+  "duration": 1200,
+  "item_inputs": [
+    {
+      "item": "gtceu:zpm_1a_energy_converter",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:uv_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:uv_field_generator",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:crystal_processor_mainframe",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gtceu:polybenzimidazole",
+      "amount": 288
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:uv_1a_energy_converter",
+      "amount": 1
+    }
+  ]
+}

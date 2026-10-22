@@ -1,0 +1,49 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:mechanical_crafter"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:computational_models",
+      "createch2:propulsion_telemetry",
+      "createch2:kinetic_data"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:pre_03_electronic_metrology",
+    "createch2:mec_05_precision_mechatronics",
+    "createch2:spc_07_orbital_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_06_field_manufacturing.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_06_field_manufacturing.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:cosmonautics/magnetic_stabilizer",
+      "createch2:factory_scaling/aerospace/magnetic_stabilizer_batch",
+      "createch2:factory_scaling/components/hv_electric_motor_batch",
+      "createch2:factory_scaling/components/hv_electric_pump_batch",
+      "createch2:factory_scaling/components/hv_conveyor_module_batch",
+      "createch2:factory_scaling/controls/processing_unit_board_batch"
+    ]
+  }
+}

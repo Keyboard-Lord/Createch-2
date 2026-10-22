@@ -1,0 +1,7 @@
+{
+  "type": "burnt_additions:gated_features",
+  "biomes": "#createch2:petroleum_surface_basin",
+  "features": "burnt_additions:tar_pit",
+  "step": "lakes",
+  "gate": ""
+}

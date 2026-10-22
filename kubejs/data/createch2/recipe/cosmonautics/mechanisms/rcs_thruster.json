@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "DCD",
+    " T "
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:rcs_thruster",
+    "count": 1
+  }
+}

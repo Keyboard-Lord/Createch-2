@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:light_wires/copper"
+    },
+    {
+      "tag": "c:light_wires/copper"
+    }
+  ],
+  "result": {
+    "id": "tfmg:copper_wire",
+    "count": 1
+  }
+}

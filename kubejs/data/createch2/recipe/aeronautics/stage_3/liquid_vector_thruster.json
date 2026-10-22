@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "NGN",
+    "PCP"
+  ],
+  "key": {
+    "S": {
+      "item": "tfmg:heavy_plate"
+    },
+    "T": {
+      "item": "createpropulsion:thruster"
+    },
+    "N": {
+      "item": "create:copper_nugget"
+    },
+    "G": {
+      "item": "aeroworks:gyroscope"
+    },
+    "P": {
+      "item": "electroenergetics:converter"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:liquid_vector_thruster",
+    "count": 1
+  }
+}

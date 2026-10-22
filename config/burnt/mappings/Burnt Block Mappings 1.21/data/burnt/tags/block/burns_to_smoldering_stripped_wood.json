@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:stripped_cedar_wood",
+      "required": false
+    },
+    {
+      "id": "yourmod:stripped_redwood_wood",
+      "required": false
+    }
+  ]
+}

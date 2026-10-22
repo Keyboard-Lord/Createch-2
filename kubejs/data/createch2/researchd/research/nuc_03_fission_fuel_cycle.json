@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanismgenerators:fission_fuel_assembly"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:nuclear_assays",
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:grid_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:nuc_02_isotope_separation",
+    "createch2:mat_06_platinum_group_metals",
+    "createch2:thm_03_high_pressure_thermodynamics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_03_fission_fuel_cycle.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_03_fission_fuel_cycle.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:systems/radiation/control_rod_assembly",
+      "createch2:systems/radiation/fission_fuel_assembly",
+      "createch2:factory_scaling/nuclear/fission_fuel_assembly_batch"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:compacting",
+  "recipe_tier": 8,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "gtceu:polybenzimidazole",
+      "amount": 864
+    }
+  ],
+  "heat_requirement": "heated",
+  "results": [
+    {
+      "id": "greate:polybenzimidazole_belt_connector"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:foils/bismuth_bronze"
+    },
+    {
+      "tag": "c:physical_foils/bismuth_bronze"
+    }
+  ],
+  "heat_capacity": 2.857,
+  "forging_temperature": 591,
+  "welding_temperature": 788
+}

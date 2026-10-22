@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "appflux:part_flux_accessor"
+    }
+  ],
+  "result": {
+    "id": "appflux:flux_accessor",
+    "count": 1
+  }
+}

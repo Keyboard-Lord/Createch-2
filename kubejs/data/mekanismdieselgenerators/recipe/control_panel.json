@@ -1,0 +1,31 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:circuits/advanced"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "GCG",
+    "RFR",
+    "PCP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:control_panel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/zinc"
+    },
+    {
+      "tag": "c:physical_rings/zinc"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 252,
+  "welding_temperature": 336
+}

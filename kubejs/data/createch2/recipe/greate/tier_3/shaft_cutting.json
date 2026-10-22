@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 2,
+  "ingredients": [
+    {
+      "tag": "c:plates/stainless_steel"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:stainless_steel_shaft",
+      "count": 6
+    }
+  ]
+}

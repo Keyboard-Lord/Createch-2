@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/zircaloy"
+    },
+    {
+      "tag": "c:physical_dusts/zircaloy"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 1110,
+  "welding_temperature": 1480
+}

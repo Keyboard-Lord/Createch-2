@@ -1,0 +1,192 @@
+{
+  "truth": "REVIEWED_NATIVE_COPPER_RING_PRESS_SELECTION_REPAIR",
+  "id": "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing",
+  "before": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "tag": "c:ingots/copper"
+      }
+    ],
+    "results": [
+      {
+        "id": "modern_industrialization:copper_ring"
+      }
+    ],
+    "recipe_tier": 0
+  },
+  "after": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "modern_industrialization:copper_curved_plate"
+      }
+    ],
+    "results": [
+      {
+        "id": "modern_industrialization:copper_ring"
+      }
+    ],
+    "recipe_tier": 0
+  },
+  "ids": {
+    "ring": "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing",
+    "plate": "createch2:create/pressing/copper_plate",
+    "curved": "createch2:age_foundation/mi_bronze/copper_curved_plate_from_create_pressing",
+    "nativePlate": "create:pressing/copper_ingot"
+  },
+  "nativeClasses": {
+    "press": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredMechanicalPressBlockEntity"
+    ],
+    "applier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeApplier"
+    ],
+    "results": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeHelper"
+    ],
+    "depotBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBlock"
+    ],
+    "depotBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBehaviour"
+    ],
+    "sharedDepot": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods"
+    ],
+    "aucreate": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.compat.unification.CreateRecipeUnifier"
+    ],
+    "augeneric": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.api.unification.bundled.GenericRecipeUnifier"
+    ],
+    "auHelper": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.unification.recipe.UnificationHelperImpl"
+    ],
+    "auLookup": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.unification.UnificationLookupImpl"
+    ],
+    "finder": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeFinder"
+    ],
+    "conditions": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.TieredRecipeConditions"
+    ],
+    "conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ]
+  },
+  "nativeCodeSha256": {
+    "press": "57fb860f87bdae3a4851afac770467f15d1a0d0011b90fdd77e923578d834ec4",
+    "applier": "fc08cbccd7b0047b964eea65fe63e8191bd2f9967cce2aa116c0b8529b22d536",
+    "results": "5e1f2ff0e9a5e83dc426ae6faf37b19080081b011a821a3a4fb37fa9ccc56e91",
+    "depotBlock": "85530c9c7bb9d9217122a8c21253350850849ab56fcec6038674328be1c98cca",
+    "depotBehaviour": "4743a24fac8ef345f014a6995fec4f817592cd1dd5b7962c630fe5e2c31dc016",
+    "sharedDepot": "55a640af20a79571f13d2abd748a1ff585337ef6a143ab5763db2d32b89ba6e0",
+    "aucreate": "38d505ed696116c5621083ce560a544d7784cc64665570ff450e6a32d508f600",
+    "augeneric": "746000b90deb0c69b054696b9467558dfc4ff7f3711b570db805611a0e972dd5",
+    "auHelper": "b348660b4e991c4be6536fdae5d5d0557eb47a0535b6893b80cbada792b96721",
+    "auLookup": "4bee3957db3e238da8f17f694c21e5feb6073fe2d311600abf692a69acfa1703",
+    "finder": "96975963ee827d74f18068b4d81d08181fb86370a749eea762c18177e86b498b",
+    "conditions": "d19111bdd6524f12a0c54e1f2d876435741e0738c82076d37e3729d144dda246",
+    "conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f"
+  },
+  "recipes": {
+    "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "modern_industrialization:copper_curved_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:copper_ring"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:create/pressing/copper_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:copper_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:age_foundation/mi_bronze/copper_curved_plate_from_create_pressing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "modern_industrialization:copper_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:copper_curved_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "create:pressing/copper_ingot": {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:copper_sheet"
+        }
+      ]
+    }
+  },
+  "nativeRows": {
+    "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing": [],
+    "createch2:create/pressing/copper_plate": [],
+    "createch2:age_foundation/mi_bronze/copper_curved_plate_from_create_pressing": [],
+    "create:pressing/copper_ingot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:copper_sheet"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

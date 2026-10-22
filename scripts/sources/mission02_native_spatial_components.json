@@ -1,0 +1,120 @@
+{
+  "truth": "RETAIN_EXACT_NATIVE_SPATIAL_COMPONENT_CHAIN",
+  "jar": "appliedenergistics2-19.2.18.jar",
+  "jarSha256": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39",
+  "recipes": [
+    {
+      "id": "ae2:network/cells/spatial_components",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "a": {
+            "tag": "c:dusts/glowstone"
+          },
+          "b": {
+            "item": "ae2:fluix_pearl"
+          },
+          "c": {
+            "item": "ae2:engineering_processor"
+          }
+        },
+        "pattern": [
+          "aba",
+          "bcb",
+          "aba"
+        ],
+        "result": {
+          "count": 1,
+          "id": "ae2:spatial_cell_component_2"
+        }
+      }
+    },
+    {
+      "id": "ae2:network/cells/spatial_components_0",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "a": {
+            "tag": "c:dusts/glowstone"
+          },
+          "b": {
+            "item": "ae2:spatial_cell_component_2"
+          },
+          "c": {
+            "item": "ae2:engineering_processor"
+          }
+        },
+        "pattern": [
+          "aba",
+          "bcb",
+          "aba"
+        ],
+        "result": {
+          "count": 1,
+          "id": "ae2:spatial_cell_component_16"
+        }
+      }
+    },
+    {
+      "id": "ae2:network/cells/spatial_components_1",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "a": {
+            "tag": "c:dusts/glowstone"
+          },
+          "b": {
+            "item": "ae2:spatial_cell_component_16"
+          },
+          "c": {
+            "item": "ae2:engineering_processor"
+          }
+        },
+        "pattern": [
+          "aba",
+          "bcb",
+          "aba"
+        ],
+        "result": {
+          "count": 1,
+          "id": "ae2:spatial_cell_component_128"
+        }
+      }
+    }
+  ],
+  "node": "createch2:spc_07_orbital_control",
+  "code": "SPC-07",
+  "age": 11,
+  "quest": "66197D8CF37A3640",
+  "task": "43D2509B200CC610",
+  "questFile": "config/ftbquests/quests/chapters/createch2_12_age_11_high_pressure.snbt",
+  "questFileSha256": "c69fb7c60f01565fc0d91f449a5bc1726789980310efbb59693074335f8a8d8a",
+  "beforeRecipePolicySha256": "fe28705c1eb201ea121933ee22b8478ac86da79a2e7c8a0921d31598989b1c52",
+  "beforeCanonicalLedgerSha256": "c6cb9dc41c240145ef87fab62b3246225dea28e5e5a6b990440497d620ffdd67",
+  "canonicalLedgerSha256": "91ff01111bea414b9e5a658e0781ee211a48c5f3abfc7c3cacfcdc9211635591",
+  "exactThreeNativeRecipesRetiredBeforeAndRetainedAfter": true,
+  "allOtherNodeFieldsAndIdentitiesPreserved": true,
+  "nativeGateClasses": {
+    "crafting": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.CraftingMenuMixin"
+    ],
+    "craftingV": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.CraftingMenuMixin",
+      true
+    ],
+    "recipeManager": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.RecipeManagerMixin"
+    ]
+  },
+  "nativeGateCodeSha256": {
+    "crafting": "b0a340ad68913cc24d53af64cea42acd0b6d73ccfb1933753084aeb72026fa6c",
+    "craftingV": "a4b4d531ba9381333318e3d2a8bd39f6305682eb092a4216e675232dcd7bd9b7",
+    "recipeManager": "3f94c36d9cf8835b4b32da8b4f7cf649cd591bed822dca48e083a9a3345a8c9a"
+  }
+}

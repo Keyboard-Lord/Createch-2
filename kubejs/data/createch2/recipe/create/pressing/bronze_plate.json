@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "createch2:materials/bronze/machine_grade"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:bronze_plate"
+    }
+  ],
+  "recipe_tier": 0
+}

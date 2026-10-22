@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "CDC",
+    "EPE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "C": {
+      "tag": "createch2:mekanism_ultimate_control"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "P": {
+      "item": "simulated:physics_assembler"
+    }
+  },
+  "result": {
+    "id": "mekanism:teleportation_core",
+    "count": 1
+  }
+}

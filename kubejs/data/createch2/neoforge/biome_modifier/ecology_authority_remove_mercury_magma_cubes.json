@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#stellaris:mercury_biomes",
+  "entity_types": [
+    "minecraft:magma_cube"
+  ]
+}

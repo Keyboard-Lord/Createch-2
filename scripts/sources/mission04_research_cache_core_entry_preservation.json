@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_RESEARCH_CACHE_CORE_ENTRY_PRESERVATION",
+  "before": "17b7644bc9e93406ebdcccde0cd4fa5eed770ac8baecbe2effcbfdbf5d19aa31",
+  "after": "07731514e3a64f50f55555a38a5f954f4b2a6c4e3c38a1ddef70d02e735e515d",
+  "added": [
+    "createch2/core/mixin/compat/PolymorphResearchCacheMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 370,
+  "unchangedEntriesSha256": "f1011233483adfc98a7e90d691e42196860b48bf2c1fbeccd4a356fb97bcff15",
+  "sourceCheckpoint": "06c00c7",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-17b7644bc9e93406ebdcccde0cd4fa5eed770ac8baecbe2effcbfdbf5d19aa31.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/PolymorphResearchCacheMixin.class": {
+      "before": null,
+      "after": "1c0dbed27345b7257933b354f9d2384c505e3092885e4cfbb32d93c64468521b"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "a1e9b4ca833ea429dd08150b29f96f31e06339928565225f8e8ad9cb88256c29",
+      "after": "efa66d98c0cb884f01e96ddf14fc45b45804d70853e36f968553135b7bd0df42"
+    },
+    "createch2core.mixins.json": {
+      "before": "660240e0a88e5cc4ae800ec6cace60bd03fd74318b1b42ce8a881fa79d5abfa8",
+      "after": "1554cbe88f0bd1bc5b555e2469c0d8b03f128fa52b8ac809fce82b2288c2b120"
+    }
+  },
+  "scope": "Bypass only Polymorph input-only match caching in an active Researchd frame. FastSuite matching and native Polymorph choices retained. Native unlock/revocation retest pending."
+}

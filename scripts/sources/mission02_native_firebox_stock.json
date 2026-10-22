@@ -1,0 +1,828 @@
+{
+  "truth": "REVIEWED_NATIVE_CONDITIONAL_LOCOMOTIVE_FIREBOX",
+  "loader": "21.1.256",
+  "nativeClasses": {
+    "worldTracker": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.tracker.WorldTracker",
+      false
+    ],
+    "worldTrackerV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.tracker.WorldTracker",
+      true
+    ],
+    "forgeEvents": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler",
+      false
+    ],
+    "helpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Helpers",
+      false
+    ],
+    "isolated": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.loot.IsIsolatedCondition",
+      false
+    ],
+    "quern": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.QuernBlockEntity",
+      false
+    ],
+    "items": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      false
+    ],
+    "itemsV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      true
+    ],
+    "quernBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.QuernBlock",
+      false
+    ],
+    "firestarter": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.FirestarterItem",
+      false
+    ],
+    "recipe": [
+      "@minecraft",
+      "net.minecraft.world.item.crafting.Recipe",
+      false
+    ],
+    "shapeless": [
+      "@minecraft",
+      "net.minecraft.world.item.crafting.ShapelessRecipe",
+      false
+    ],
+    "item": [
+      "@minecraft",
+      "net.minecraft.world.item.Item",
+      false
+    ],
+    "itemProperties": [
+      "@minecraft",
+      "net.minecraft.world.item.Item$Properties",
+      false
+    ],
+    "stack": [
+      "@minecraft",
+      "net.neoforged.neoforge.common.extensions.IItemStackExtension",
+      false
+    ],
+    "furnace": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity",
+      false
+    ],
+    "itemExtension": [
+      "@minecraft",
+      "net.neoforged.neoforge.common.extensions.IItemExtension",
+      false
+    ],
+    "serverpacks": [
+      "@minecraft",
+      "net.minecraft.server.packs.repository.ServerPacksSource",
+      false
+    ],
+    "modpacks": [
+      "@minecraft",
+      "net.neoforged.neoforge.resource.ResourcePackLoader",
+      false
+    ],
+    "fallback": [
+      "@minecraft",
+      "net.minecraft.server.packs.resources.FallbackResourceManager",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "worldTracker": "1999f8d92c4a71ebb353a68e7d1ed57db53e67bd5d29711dafb4212d289c590c",
+    "worldTrackerV": "dec1941a9dd9d0533c767ff71730e5f2c2218bda3cfb17cb4f7823e94eb52b34",
+    "forgeEvents": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "isolated": "659c94a3935ba4dec98f0020bddd48868a3d2c68bcc763467691d0aca4dd7c3a",
+    "quern": "c6da981f5694383a63703be86569dc952161b57a12934efea069109ec4749d1c",
+    "items": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "itemsV": "f08da74a18eebfd6bb9be7fca644a2dfb4fbf061dec298709790c5890e97fb21",
+    "quernBlock": "952ce21cc858bbd5924e18b8a11b6fbd9b2c55239b0e9feea660fe5c95bf4a62",
+    "firestarter": "950fadbf93ba47431a892af4a594606a2e007a01ebe0d1eaf63cc822a9a700ab",
+    "recipe": "2c993715c5f215e3b749271bc7f1de99c3b63566c6bbbdd2370b2c452641a619",
+    "shapeless": "1064ab3c3bf4908ef42d00abcbc0e1b33823c3443ea8fbeefb258564d047a7a1",
+    "item": "c8ff2f95c5a75610d5622a4a073db0d974265914584d82cf37f0f3d52f50169c",
+    "itemProperties": "50088ca5c9394cf11821226ba825bd3e5a60c2c7d1732794b9c52f84bbc0770f",
+    "stack": "d2be39c83676bc3801a2a618ced256b17841e452dc8501ca41358a5aaae76223",
+    "furnace": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f",
+    "itemExtension": "d937efaed3c1e741d59ce3b6aaddf21e1bcb4e8f919d90694322d09ffc9cc29f",
+    "serverpacks": "05d8496e2fb892a956b7714dd04dd517d346b9283d61b205192c13fa6d36c996",
+    "modpacks": "d6b11f304750c5f21e7f73083a87ffd92317a25a5d9ea94e8f748a3435997b94",
+    "fallback": "17f53037e13d78f694b0d563c6baf384d871a0ac6c1c74534628a29d721388dd"
+  },
+  "ids": {
+    "furnace": "createch2:age_foundation/stone/furnace_from_tfc_raw_rock",
+    "handstone": "tfc:crafting/handstone",
+    "firestarter": "tfc:crafting/firestarter",
+    "saltpeter": "tfc:quern/powder/saltpeter",
+    "sulfur": "tfc:quern/powder/sulfur",
+    "charcoal": "tfc:quern/powder/charcoal",
+    "gunpowder": "tfc:crafting/gunpowder",
+    "charge": "minecraft:fire_charge",
+    "brick": "minecraft:nether_brick",
+    "firebox": "railcraft:solid_fueled_firebox"
+  },
+  "nativeRecipes": {
+    "createch2:age_foundation/stone/furnace_from_tfc_raw_rock": [],
+    "tfc:crafting/handstone": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:stones"
+            },
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            "S  ",
+            "BBB"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:handstone"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/firestarter": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            " S",
+            "S "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:firestarter"
+          }
+        }
+      }
+    ],
+    "tfc:quern/powder/saltpeter": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:quern",
+          "ingredient": {
+            "item": "tfc:ore/saltpeter"
+          },
+          "result": {
+            "count": 4,
+            "id": "tfc:powder/saltpeter"
+          }
+        }
+      }
+    ],
+    "tfc:quern/powder/sulfur": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:quern",
+          "ingredient": {
+            "item": "tfc:ore/sulfur"
+          },
+          "result": {
+            "count": 4,
+            "id": "tfc:powder/sulfur"
+          }
+        }
+      },
+      {
+        "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:false"
+            }
+          ]
+        }
+      }
+    ],
+    "tfc:quern/powder/charcoal": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:quern",
+          "ingredient": {
+            "item": "minecraft:charcoal"
+          },
+          "result": {
+            "count": 4,
+            "id": "tfc:powder/charcoal"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/gunpowder": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "tfc:powder/saltpeter"
+            },
+            {
+              "item": "tfc:powder/saltpeter"
+            },
+            {
+              "item": "tfc:powder/sulfur"
+            },
+            {
+              "item": "tfc:powder/charcoal"
+            }
+          ],
+          "result": {
+            "count": 4,
+            "id": "minecraft:gunpowder"
+          }
+        }
+      }
+    ],
+    "minecraft:fire_charge": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "minecraft:gunpowder"
+            },
+            {
+              "tag": "minecraft:coals"
+            },
+            {
+              "item": "tfc:firestarter"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:fire_charge"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "minecraft:gunpowder"
+            },
+            {
+              "item": "minecraft:blaze_powder"
+            },
+            [
+              {
+                "item": "minecraft:coal"
+              },
+              {
+                "item": "minecraft:charcoal"
+              }
+            ]
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:fire_charge"
+          }
+        }
+      }
+    ],
+    "minecraft:nether_brick": [
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:smelting",
+          "category": "misc",
+          "cookingtime": 200,
+          "experience": 0.1,
+          "ingredient": {
+            "item": "minecraft:netherrack"
+          },
+          "result": {
+            "id": "minecraft:nether_brick"
+          }
+        }
+      }
+    ],
+    "railcraft:solid_fueled_firebox": [
+      {
+        "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "a": {
+              "item": "minecraft:nether_brick"
+            },
+            "b": {
+              "item": "minecraft:fire_charge"
+            },
+            "c": {
+              "item": "minecraft:furnace"
+            }
+          },
+          "pattern": [
+            "aaa",
+            "aba",
+            "aca"
+          ],
+          "result": {
+            "count": 1,
+            "id": "railcraft:solid_fueled_firebox"
+          }
+        }
+      }
+    ]
+  },
+  "recipes": {
+    "createch2:age_foundation/stone/furnace_from_tfc_raw_rock": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SSS",
+        "S S",
+        "SSS"
+      ],
+      "key": {
+        "S": {
+          "tag": "c:stones/raw"
+        }
+      },
+      "result": {
+        "id": "minecraft:furnace",
+        "count": 1
+      }
+    },
+    "tfc:crafting/handstone": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:stones"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        "S  ",
+        "BBB"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:handstone"
+      }
+    },
+    "tfc:crafting/firestarter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        " S",
+        "S "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:firestarter"
+      }
+    },
+    "tfc:quern/powder/saltpeter": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfc:ore/saltpeter"
+      },
+      "result": {
+        "count": 4,
+        "id": "tfc:powder/saltpeter"
+      }
+    },
+    "tfc:quern/powder/sulfur": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfc:ore/sulfur"
+      },
+      "result": {
+        "count": 4,
+        "id": "tfc:powder/sulfur"
+      }
+    },
+    "tfc:quern/powder/charcoal": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "minecraft:charcoal"
+      },
+      "result": {
+        "count": 4,
+        "id": "tfc:powder/charcoal"
+      }
+    },
+    "tfc:crafting/gunpowder": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "tfc:powder/saltpeter"
+        },
+        {
+          "item": "tfc:powder/saltpeter"
+        },
+        {
+          "item": "tfc:powder/sulfur"
+        },
+        {
+          "item": "tfc:powder/charcoal"
+        }
+      ],
+      "result": {
+        "count": 4,
+        "id": "minecraft:gunpowder"
+      }
+    },
+    "minecraft:fire_charge": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "minecraft:gunpowder"
+        },
+        {
+          "tag": "minecraft:coals"
+        },
+        {
+          "item": "tfc:firestarter"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:fire_charge"
+      }
+    },
+    "minecraft:nether_brick": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.1,
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      },
+      "result": {
+        "id": "minecraft:nether_brick"
+      }
+    },
+    "railcraft:solid_fueled_firebox": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "a": {
+          "item": "minecraft:nether_brick"
+        },
+        "b": {
+          "item": "minecraft:fire_charge"
+        },
+        "c": {
+          "item": "minecraft:furnace"
+        }
+      },
+      "pattern": [
+        "aaa",
+        "aba",
+        "aca"
+      ],
+      "result": {
+        "count": 1,
+        "id": "railcraft:solid_fueled_firebox"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:age_foundation/stone/furnace_from_tfc_raw_rock": "authored",
+    "tfc:crafting/handstone": "native",
+    "tfc:crafting/firestarter": "native",
+    "tfc:quern/powder/saltpeter": "native",
+    "tfc:quern/powder/sulfur": "captured",
+    "tfc:quern/powder/charcoal": "native",
+    "tfc:crafting/gunpowder": "native",
+    "minecraft:fire_charge": "native",
+    "minecraft:nether_brick": "native",
+    "railcraft:solid_fueled_firebox": "native"
+  },
+  "worldResources": {
+    "worldgen/configured_feature|tfc:vein/saltpeter": {
+      "type": "tfc:disc_vein",
+      "config": {
+        "rarity": 110,
+        "density": 0.4,
+        "min_y": 40,
+        "max_y": 100,
+        "size": 35,
+        "height": 5,
+        "random_name": "saltpeter",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/shale"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/shale"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/claystone"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/claystone"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/limestone"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/limestone"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/conglomerate"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/conglomerate"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/dolomite"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/dolomite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/chert"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/chert"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/chalk"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/chalk"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/tuff"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/saltpeter/tuff"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldgen/configured_feature|tfc:vein/tuff_sulfur": {
+      "type": "tfc:disc_vein",
+      "config": {
+        "rarity": 2,
+        "density": 0.45,
+        "min_y": 40,
+        "max_y": 200,
+        "size": 18,
+        "height": 4,
+        "random_name": "tuff_sulfur",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/tuff"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/sulfur/tuff"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldgen/placed_feature|tfc:vein/saltpeter": {
+      "feature": "tfc:vein/saltpeter",
+      "placement": []
+    },
+    "worldgen/placed_feature|tfc:vein/tuff_sulfur": {
+      "feature": "tfc:vein/tuff_sulfur",
+      "placement": []
+    },
+    "loot_table|tfc:blocks/ore/saltpeter/chalk": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/saltpeter"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfc:blocks/ore/sulfur/tuff": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/sulfur"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfc:blocks/rock/raw/granite": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:rock/raw/granite",
+                  "conditions": [
+                    {
+                      "condition": "tfc:is_isolated"
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:rock/loose/granite",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 4,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|minecraft:blocks/netherrack": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "tfc:is_isolated"
+                    }
+                  ],
+                  "name": "minecraft:netherrack"
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "max": 4,
+                        "min": 2
+                      },
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ],
+                  "name": "beneath:nether_pebble"
+                }
+              ]
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "minecraft:blocks/netherrack"
+    }
+  },
+  "scriptedSulfur": {
+    "file": "kubejs/server_scripts/recipes/recipe_restorations.js",
+    "id": "tfc:quern/powder/sulfur",
+    "custom": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfc:ore/sulfur"
+      },
+      "result": {
+        "count": 4,
+        "id": "tfc:powder/sulfur"
+      }
+    },
+    "kind": "custom",
+    "args": [
+      {
+        "type": "tfc:quern",
+        "ingredient": {
+          "item": "tfc:ore/sulfur"
+        },
+        "result": {
+          "count": 4,
+          "id": "tfc:powder/sulfur"
+        }
+      }
+    ]
+  }
+}

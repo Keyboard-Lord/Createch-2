@@ -1,0 +1,655 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "multis": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMultiMachines",
+      "sha256": "ed9f8ddcf25a670073067fef2fabbd37c6f12755dd7e983d726b9969a14380cf"
+    },
+    "blocks": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.block.GTBlocks",
+      "sha256": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868"
+    },
+    "predicates": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.multiblock.Predicates",
+      "sha256": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0"
+    },
+    "factory": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.multiblock.FactoryBlockPattern",
+      "sha256": "614e0e9f939af642b41d8d71d76e83ea907f343dbf7b662bb50bbfbc627b5f86"
+    },
+    "electricMultiblock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine",
+      "sha256": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5"
+    },
+    "fluidHatch": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine",
+      "sha256": "b4d4da70e9f380eacdf689ebdd6a8bed37940614a7099f91f8af94609630e632"
+    },
+    "machineUtils": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachineUtils",
+      "sha256": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581"
+    },
+    "machines": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5"
+    },
+    "modifier": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeModifiers",
+      "sha256": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e"
+    },
+    "overclock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.OverclockingLogic",
+      "sha256": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc"
+    },
+    "parallel": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.modifier.ParallelLogic",
+      "sha256": "2262c487cc7bda9aa5eadf9897491baed69068954e5e027788ec6e821f948bf4"
+    },
+    "coil": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.block.CoilBlock$CoilType",
+      "sha256": "cf1d1577f38f5a2e995bf417ce3e526956e90a9010e5351f066210335bd21852"
+    },
+    "fluidCapability": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.capability.recipe.FluidRecipeCapability",
+      "sha256": "84e1fe8e6d71863e7264ba9f410fea7da471b1e4a47610219d3cd1872f0f4585"
+    },
+    "itemCapability": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability",
+      "sha256": "b66419276dd6313c14dabd5f74ae374fa31c5d6d2c52c51e8ba3e5eb5c79caad"
+    }
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/chromium_trioxide",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            60
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:chromium_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:oxygen",
+              "amount": 3000
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:chromium_trioxide_dust"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/potassium_dichromate",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "itemInputs",
+          "args": [
+            "10x tfmg:nitrate_dust",
+            "8x gtceu:chromium_trioxide_dust"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "11x gtceu:potassium_dichromate_dust"
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "chemica:nitrogen_dioxide",
+              "amount": 2000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/dimethylbenzene",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            120
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            4000
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:methane",
+              "amount": 2000
+            },
+            {
+              "fluid": "modern_industrialization:benzene",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dimethylbenzene",
+              "amount": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/phthalic_acid",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            1920
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            900
+          ]
+        },
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:potassium_dichromate_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dimethylbenzene",
+              "amount": 9000
+            },
+            {
+              "fluid": "modern_industrialization:oxygen",
+              "amount": 18000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:phthalic_acid",
+              "amount": 9000
+            },
+            {
+              "fluid": "minecraft:water",
+              "amount": 18000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/chlorobenzene",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            30
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:chlorine",
+              "amount": 2000
+            },
+            {
+              "fluid": "modern_industrialization:benzene",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:chlorobenzene",
+              "amount": 1000
+            },
+            {
+              "fluid": "modern_industrialization:hydrochloric_acid",
+              "amount": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/nitrochlorobenzene",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:nitration_mixture",
+              "amount": 2000
+            },
+            {
+              "fluid": "gtceu:chlorobenzene",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:nitrochlorobenzene",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:diluted_sulfuric_acid",
+              "amount": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/dichlorobenzidine",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            1920
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1800
+          ]
+        },
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:copper_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:nitrochlorobenzene",
+              "amount": 18000
+            },
+            {
+              "fluid": "modern_industrialization:hydrogen",
+              "amount": 18000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dichlorobenzidine",
+              "amount": 9000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/diaminobenzidine",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "notConsumableItem",
+          "args": [
+            "#c:dusts/zinc"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dichlorobenzidine",
+              "amount": 1000
+            },
+            {
+              "fluid": "chemica:ammonia",
+              "amount": 2000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:diaminobenzidine",
+              "amount": 1000
+            },
+            {
+              "fluid": "modern_industrialization:hydrochloric_acid",
+              "amount": 2000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/diphenyl_isophtalate",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "chemica:phenol",
+              "amount": 2000
+            },
+            {
+              "fluid": "modern_industrialization:sulfuric_acid",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:phthalic_acid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:diphenyl_isophthalate",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:diluted_sulfuric_acid",
+              "amount": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_polymers.js",
+      "id": "createch2:large_chemical_reactor/greate_polymers/polybenzimidazole",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:diaminobenzidine",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:diphenyl_isophthalate",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "chemica:phenol",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:polybenzimidazole",
+              "amount": 1008
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sharedNativeCodeSha256": {
+    "gtPower": {
+      "cube": "ac29566fdf661f1eec9398f3341a9023cfc29c8e4737f762542055c55230eeb1",
+      "cubeContainer": "5c98e131d397734e42318643c87e93996bb1eb176dae5b5a2d67456112b9c323",
+      "cubeTier": "2b874116b9b1e476351b9392a2d1a4c1c6d7937e6e880c7a9d5fcec90ef5a5e5",
+      "ejector": "1418c96aa9197c17d2449edc8a88d5875cf9a62c45c597e32daef846a2ee03f5",
+      "cable": "e9c30488838dada97f967a3ccfdc3e8318797c68472280a643e0fa767c7d8e01",
+      "feHandler": "573678779da1226051d06755aab64fc9f65eca6d913f62468a3bb6924a482ef5",
+      "gpHandler": "da5d1cc1277c756d4e368779b06eb6b797cdcb911780833ba464cf2480cb2674",
+      "energyCompat": "29f685968a7d13b9217cfdc1d8255e67d7d73b3eecfb8942fcdae21420a46f55",
+      "unit": "9c7261c7be2c79d602fc8ce06e4f4a4fc2b790487eb425c6430429918cfc138b",
+      "converter": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb",
+      "fe": "73bd49a015948e7cca2ea4ddd3c7f9b2cd04c82add345376afd19285e5683dd2",
+      "converterMachine": "92d8aefdc2d0e2231130081b3bae54e6d2841d08656ad0fdbb88354d911a432e",
+      "container": "b54138d2b7dee8fcc1e6d9addd974ae38b71c68b8ebbc30fa1aad2cf89333dad",
+      "workable": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10",
+      "block": "c9c8d475b19703f0c700c38493e985be8901e6b6adacb3b646ee130886f78d2c",
+      "trait": "48898103ad4be28f63fddbc99a773ef0a360f3fb7b1533d058609befa8053e8d",
+      "values": "e9011966cd21d9d2af6c579e28336d3df9fd918d4c9ed78b679c940715f36379",
+      "tools": "4de83f2dbac43168563bc6c9b068cd8a3c089c2ee5cb7de632fca99ea8e82493",
+      "toolHandler": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77",
+      "toolHelper": "f1e949312213fabde1370b786c0858625419b149a3d865492438ba0f7253b0d5",
+      "toolType": "2d385c2f38adacdb7fa6a00d24c2c5449772c4ee0e7bda930fd0ecf17f11e44f",
+      "common": "25cc09a0a58f945c85a46d605967d4b32370f6029b975c035df8330687e141ed",
+      "materialItems": "052fa048d860d0db1189a62bdd49e9e1ff0f6664bc127f5261f6bc3d21705e78",
+      "abilities": "e013370a03a4284d3acc605dbe2962f619501c8b1b7e0754772382185e758059",
+      "woodMaterial": "074187f33bb50c873362a06b6af1ddbe56f80dbfcb3e47cc1f1d6ff29faee13c",
+      "vanillaHelper": "9bc951e7fdafae15bb81fe1b85ed2f939a092d5356e1554064abb5c38e70ee24",
+      "shapedBuilder": "dc77fed18b499d5d0b5dfb204edfd60f131d58b6ac82485c57780ee2c49e507a"
+    },
+    "cleanroom": {
+      "chemicalHelper": "7a1d0342d9c0b804bee9560e0c2d6f1c4a19f238e13a9f6c4b9a0f7b1a960604",
+      "materialData": "df9acaba7a0ed8713d09a58b6d75d9137b0390385e232b71f9995c51e2b8ad29",
+      "prefix": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b",
+      "blocks": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868",
+      "predicates": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0",
+      "room": "2072b7511b2b0cea17b3f6426cf875f74c648f6a36fe91b112a45acd49c6e5b2",
+      "logic": "afd8e8da0b84fd35631061580c5325e582db2914d9ff7a98cd7548867eb16511",
+      "maintenance": "f452175b38f9c14f62307bae05733cdf22b717c926be9912e42fd5918ee9bbb2",
+      "maintenanceInterface": "62feba6f7fd82ba015a37c4abca72961452ae39eee89185c8e7c082f86ec9178",
+      "hatch": "4e1dea2d2c9e938e27e27d10fbbb40b75d9c0c69fdf31b051336f36aecd3dc47",
+      "registry": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5",
+      "registryV": "a66ab0bd952f7eba669fd69a9ee9c0131e1ec5ea5cee88ca8bdd0e134d6cd62a",
+      "workable": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5",
+      "parts": "401b53a266d15470bfad6c303097deef1542ad57bca214f5154949bf157b9c4a",
+      "filters": "bbc4eae64fb19a9b39d848c4a8eee22cfcd0657eb53ae35b9131b9f94cdbf80c",
+      "hazards": "46a1e64265d0c05ae0716dd65a3b95fa76f74ca533631dea9fab2dd6505db97c",
+      "tools": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77",
+      "baseLogic": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04",
+      "energyList": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee"
+    },
+    "researchCampus": {
+      "electricMultiblock": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5",
+      "modifier": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e",
+      "overclock": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc",
+      "ocResult": "4d09f64c34e4f8a8256ebde9abc53680849e25a6a6bb912cb5bf4eafb5046eba",
+      "machineBuilder": "a2ffd886c9c93def3ca52e580ab63fe1ae65304f8451a828bd0837307425af8f",
+      "component": "d2c5a67abaa466844763c6a71f670b5719ba0b1601ae70f81e093835c28ef3a4",
+      "opticalPipe": "9eb32fb713fbfc75041e4d4ebfd3ea6165373a9cd1ebd6511ce51b1137c08ccc",
+      "hpca": "34c39b420c1a053736fa8997a323075d5c49486b75df371748e787021e17faa6",
+      "grid": "ac6b1fdb3aa04df979090cdec2933a0419589502cd1cd3346723115a04f604b4",
+      "compute": "3bf43d33cbe1cf70a238531d2837c79f6b7fcf3d59b37799a633c1f9f908e7c0",
+      "cooler": "21b249671f67ce976b6f61349e7bf5e073a54827d3d54a7bbd9dfaeb669fd431",
+      "station": "a82fab436e55b07b4da4531fdda28046c3e24b7901cd527430ac39e4ce800ce4",
+      "stationLogic": "d9d6ce2326332d77be98dccef4ee0ad2a3e45023dbca98474cafcd9f340aa311",
+      "computation": "b176e86999a27b3c357991789032b330cb0279f33f2d988fe8906f7f3f9fb094",
+      "opticalHatch": "9c68370057d95900958272d3615110536006d491e0e2c9c3a27148af95b76612",
+      "opticalNet": "96918c710668b19d1c587fdaefe2027a03be8294a219bf99f4d8813d11144ef6",
+      "opticalWalker": "419cb91856d4218e2b596517c04b267446e4515daa54d7634ad7d64fea2415cd",
+      "objectHolder": "f6156f7df48aecf75b8a5d09a97595491b30575c259476f8910f1284a33d6475",
+      "registry": "312e4bc1d3bb5ccfaf9b023f1c04c7172116fc3a924692f10ffd35b4d2fca246",
+      "builder": "45f4b0c19f4cdd272bd513a6edc4841bf92115d556b3e4167a43fa9e5abb3183",
+      "logic": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04",
+      "helper": "b5a1b2af6d963f1e985f56665d8fc049f656da5e3bd1f4dfe19e46f926d94c28",
+      "manager": "5bf16add087599fdc570e22a185bf35170afc4880bf03e7d5046f10f3cd058a5",
+      "stationBuilder": "a7992165ab3b1d1b243ab1595e5656af1a87f72715b25c06fa5de0182b263d9d",
+      "researchBuilder": "8fc9f887f4de95b749d8e03e871491fdc3341f1b9e456006d83a4972452364ce",
+      "kjs": "a558b350202308ce3967382be9ec7b6478e04369f6c729ee0f668485d5e5c720",
+      "recipeBuilder": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3",
+      "energyList": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee",
+      "machines": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5",
+      "blocks": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868",
+      "computers": "cb59537d9f70b9632dce9acbe9380288a874a3c33ba9da7f3b216ac0eef7b19a",
+      "prefix": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b",
+      "converter": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb",
+      "workable": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10"
+    },
+    "assemblyLine": {
+      "multis": "ed9f8ddcf25a670073067fef2fabbd37c6f12755dd7e983d726b9969a14380cf",
+      "blocks": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868",
+      "machines": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5",
+      "energyList": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee",
+      "electricMultiblock": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5",
+      "overclock": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc",
+      "modifier": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e",
+      "converter": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb",
+      "logic": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04",
+      "builder": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3",
+      "manager": "5bf16add087599fdc570e22a185bf35170afc4880bf03e7d5046f10f3cd058a5",
+      "assembly": "fbdb432ffada0aa13037ddf5180953bdbed69a61702d2dc87206ff8b710a6eb7",
+      "assLogic": "ebfabefacb9a64d647ec40ade277b0866da44be9d330d6492293945cbe8b7c6e",
+      "multiblock": "9a7d46200fca752534e9affdadec360b4ba2d80e97127b37caf6338071808562",
+      "controller": "749c1d9c8a32fbb0f30f937a61a5e42617c4230c6245c504c0a4f417e5d283a2",
+      "dataHatch": "7e882e46cf652bf971b81be98b56d1ca2d485e21e0d2850590c7645370cfa191",
+      "dataHandler": "b65f65718caabad8e048bd47971d67faae0f6517f2b2815516f9f07f0d6f400a",
+      "dataInterface": "21a89693fa4090f91b3ac406f674d3da754b3319fba6bf5fe78a11e832d715af",
+      "dataItem": "a8fa6e257f504594c65aa9b878f9d3233039593c29873b85147a829639accc41",
+      "items": "46ce10959cce688b05376406a0018d87214f3f82f14545f52bca1727af9b1bfc",
+      "itemsV": "d7f634d4abe17993d19e375a2db5dcc0c2b9b5069a2692b9f870fed5f828a629",
+      "recipe": "f0a2f854138f482c55c0791bffda14ad413a939327b9f961fd1e432ae141c4b8",
+      "late": "5dc7287385500a7a99641346b646248c60f7e775dea45aa51cd83074ef26c24f",
+      "predicates": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0",
+      "bus": "cfb500a6d9755578891d481db49107b83b6f94ca173df77eaa8ea777d6bf8b42",
+      "fluidHatch": "b4d4da70e9f380eacdf689ebdd6a8bed37940614a7099f91f8af94609630e632",
+      "dataPolicy": "0859f1e2ac6671cf8fdee3a54b549ccf7ca0e13277a2ef314d36d7797ee58d0e",
+      "dataMixin": "eafce9124eb8e97c1cb751d34ee4ddbe52672da3929bd6fd22eac7b26ba8f30c",
+      "prefix": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b",
+      "pattern": "854a8e83c05cf3f16a50c81ee029abada933d1df1fed59bf07a3c09dd7a7fdc4",
+      "factory": "614e0e9f939af642b41d8d71d76e83ea907f343dbf7b662bb50bbfbc627b5f86"
+    }
+  }
+}

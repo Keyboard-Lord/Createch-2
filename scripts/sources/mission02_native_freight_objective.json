@@ -1,0 +1,1141 @@
+{
+  "truth": "BOUNDED_CONDITIONAL_NONCONSUMING_COMBINED_FREIGHT_OBJECTIVE",
+  "nativeClasses": {
+    "registry": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.RailcraftBlocks"
+    ],
+    "registryV": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.RailcraftBlocks",
+      true
+    ],
+    "block": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.level.block.ManualRollingMachineBlock"
+    ],
+    "menu": [
+      "railcraft-reborn-1.21.1-1.2.13.jar",
+      "mods.railcraft.world.inventory.ManualRollingMachineMenu"
+    ],
+    "properties": [
+      "@client",
+      "net.minecraft.world.level.block.state.BlockBehaviour$Properties"
+    ],
+    "stateBase": [
+      "@client",
+      "net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase"
+    ],
+    "player": [
+      "@client",
+      "net.minecraft.world.entity.player.Player"
+    ],
+    "gameMode": [
+      "@client",
+      "net.minecraft.server.level.ServerPlayerGameMode"
+    ],
+    "blockBase": [
+      "@client",
+      "net.minecraft.world.level.block.Block"
+    ],
+    "blockItem": [
+      "@client",
+      "net.minecraft.world.item.BlockItem"
+    ],
+    "itemStack": [
+      "@client",
+      "net.minecraft.world.item.ItemStack"
+    ],
+    "item": [
+      "@client",
+      "net.minecraft.world.item.Item"
+    ],
+    "stateExtension": [
+      "@loader",
+      "net.neoforged.neoforge.common.extensions.IBlockStateExtension"
+    ],
+    "blockExtension": [
+      "@loader",
+      "net.neoforged.neoforge.common.extensions.IBlockExtension"
+    ],
+    "hooks": [
+      "@loader",
+      "net.neoforged.neoforge.event.EventHooks"
+    ],
+    "itemTask": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.ItemTask"
+    ],
+    "chapter": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.Chapter"
+    ],
+    "questFile": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.BaseQuestFile"
+    ],
+    "tristate": [
+      "ftb-library-neoforge-2101.1.37.jar",
+      "dev.ftb.mods.ftblibrary.config.Tristate"
+    ],
+    "summary": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.util.PlayerInventorySummary"
+    ],
+    "matching": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.integration.item_filtering.ItemMatchingSystem"
+    ],
+    "auShaped": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.api.unification.bundled.ShapedRecipeUnifier"
+    ]
+  },
+  "nativeCodeSha256": {
+    "registry": "5d8d674d1ea763e7fd82dabeed6985cd53f407025b75d28f5c92dd0cc56a4e0e",
+    "registryV": "c78c98c74da60451a572350a5d3fad160c79b7f7aefbe9339e7a2cadbe76ee30",
+    "block": "773eeeb435455fca3d67baca1bd6d39d7ec28c100e795dbc9ca7f927b2e255c2",
+    "menu": "4fa9e8327e910769b56d98e22462ec304f0c0ab00cc6288b90327e2a5506a4cc",
+    "properties": "7a566101173661c6ce0e235b4ff0343cc029f8bcd82c9b1afa4741af07df9c98",
+    "stateBase": "1ea2cdc265f05a8dc0ebb956f30d756528a0bc786e9ee3b073afebe51f44dbc1",
+    "player": "50f3db2ee1c6c6dca3fee6dcdc6085b0c926dfa30cc373e147a04474a6915bd3",
+    "gameMode": "c65997636a3d9a3ecb550539212b2276e1e0fca2212397abdadf7f69225c930f",
+    "blockBase": "a0638610e3f3d3bb2987006862386c6fbdb67a94e1118c50accbeaae90ce9ea8",
+    "blockItem": "d1bc75db013eddd3c446840bf3ca2b6d9490806afae5bb375deb79a54093db26",
+    "itemStack": "ab101a54f0fbd1d270ca8fa86227d7b924d60576c2e4f71813dc674d15c632fc",
+    "item": "c8ff2f95c5a75610d5622a4a073db0d974265914584d82cf37f0f3d52f50169c",
+    "stateExtension": "59036f0b164ae70092bb48326a3169249d525cf4949f88883a7e8f475a81a87d",
+    "blockExtension": "3491abd4c8dece66f152a2303a2c3fa1d3a5a3cb303de7e929918e044dc13d59",
+    "hooks": "498214b430f26e0d6f77c679455a2e42d17c57f4ea827374b4251b484942ef16",
+    "itemTask": "7736e7195ba81dad3f92b0769182f932306e5e5347ff177474250a5c31fcd7fb",
+    "chapter": "653da93ae2b9f1951a083b00e34670c69b4cfa9d33778f4e3b79f51e00dc7f7d",
+    "questFile": "83ddaa13cbfa3c9fd06ccedda238e5980a3e86c72e2843e4bdd97fbbf68fa78c",
+    "tristate": "c2c8f11e87d2e35eccb086cdcf74d0376f9bda683d1797748905acbdc8d9ae69",
+    "summary": "dc00e166ca561ffc75348dd299f9cfe957afecfaca55f1d1726ac289fb8bcbf9",
+    "matching": "d180258fb5a329231f7a2be411d83b0950f37299f5f0c03ad93e30c4c995cc8b",
+    "auShaped": "2188edaeab20205dceaf513801b7e0a97fb2ad0cf956270a3e0341d22e3e6177"
+  },
+  "archiveSha256": {
+    "railcraft-reborn-1.21.1-1.2.13.jar": "7d207865831d928246d52f338957535682a42b45278a60b185b839c549f42fcd",
+    "@client": "aff67d0c3bbd015ecd881bb37416b740ada2e1e854433501ec5bb9381dbdd1c2",
+    "@loader": "e0a08bae5cea95be96c09770530f5643bb183af8af59c64694eb346cb4c93fa4",
+    "ftb-quests-neoforge-2101.1.36.jar": "6a39982c4b3afc00b1e788041a4f0d394e1659e3b3a6e5d078cd790bc36d0018",
+    "ftb-library-neoforge-2101.1.37.jar": "624c2d2d1cbadb946d967e17757bd5b2d129d4d3ed71f2da0c70607d04476ac2",
+    "almostunified-neoforge-1.21.1-1.4.2.jar": "65202adf4dccf7b3033537e539e23eccc541c6a15ad88d87fa1c5a09ceb3359f"
+  },
+  "chapterPath": "config/ftbquests/quests/chapters/createch2_06_age_05_steel_steam.snbt",
+  "dataPath": "config/ftbquests/quests/data.snbt",
+  "quests": [
+    {
+      "dependencies": [
+        "757A5A9D2DD7BA36",
+        "41F95A6E5A884B05"
+      ],
+      "icon": {
+        "id": "railcraft:steam_locomotive"
+      },
+      "id": "2F33DA300848472E",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "50B60F69916C0336",
+          "type": "xp",
+          "xp": "40"
+        }
+      ],
+      "shape": "square",
+      "size": "1.22d",
+      "tags": [
+        "theme_steel_steam_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "id": "0C2E9E32C7836107",
+          "item": {
+            "count": "1",
+            "id": "railcraft:manual_rolling_machine"
+          },
+          "type": "item"
+        },
+        {
+          "count": "4L",
+          "id": "239190145EE9E85F",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "tfc:metal/ingot/steel"
+          },
+          "type": "item"
+        },
+        {
+          "id": "641798F24649E134",
+          "item": {
+            "count": "1",
+            "id": "railcraft:steam_locomotive"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "-7.15d",
+      "y": "-3.95d"
+    },
+    {
+      "dependencies": [
+        "047549F249559E07"
+      ],
+      "icon": {
+        "components": {
+          "tfc:heat": {}
+        },
+        "id": "modern_industrialization:steel_plate"
+      },
+      "icon_scale": "0.95d",
+      "id": "757A5A9D2DD7BA36",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "2549345A1DECA2F5",
+          "type": "xp",
+          "xp": "5"
+        }
+      ],
+      "shape": "square",
+      "size": "1.42d",
+      "tags": [
+        "theme_steel_steam_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "count": "16L",
+          "id": "20F3D1CBFFCF6183",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "modern_industrialization:steel_plate"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "20.224d",
+      "y": "-0.043d"
+    },
+    {
+      "dependencies": [
+        "0EAC06C57F45B1AD"
+      ],
+      "icon": {
+        "id": "tfmg:steel_mechanism"
+      },
+      "id": "41F95A6E5A884B05",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "6CF14363540630C0",
+          "type": "xp",
+          "xp": "5"
+        }
+      ],
+      "shape": "square",
+      "size": "1.22d",
+      "tags": [
+        "theme_steel_steam_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "count": "8L",
+          "id": "6868ED2251D9DEBB",
+          "item": {
+            "count": "1",
+            "id": "tfmg:steel_mechanism"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "-14.353d",
+      "y": "-2.485d"
+    },
+    {
+      "dependencies": [
+        "2FB54C1F480EB542"
+      ],
+      "icon": {
+        "id": "modern_industrialization:steel_machine_casing"
+      },
+      "icon_scale": "0.94d",
+      "id": "55B8AEEB7ACA1E4E",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "4FD1419105094760",
+          "type": "xp",
+          "xp": "15"
+        },
+        {
+          "id": "5A960621E61587CF",
+          "item": {
+            "count": "1",
+            "id": "modern_industrialization:wrench"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "createch_recovery",
+      "size": "1.04d",
+      "tags": [
+        "theme_steel_steam_recovery",
+        "role_recovery"
+      ],
+      "tasks": [
+        {
+          "id": "5F638DB1D4297C5D",
+          "item": {
+            "count": "1",
+            "id": "modern_industrialization:steel_machine_casing"
+          },
+          "type": "item"
+        },
+        {
+          "count": "16L",
+          "id": "028D60995487DF0B",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "tfc:metal/ingot/steel"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "3.344d",
+      "y": "9.078d"
+    }
+  ],
+  "rollingMachineLoot": [
+    {
+      "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+      "path": "data/railcraft/loot_table/blocks/manual_rolling_machine.json",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "railcraft:manual_rolling_machine"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "railcraft:blocks/manual_rolling_machine"
+      }
+    }
+  ],
+  "authoredLootOverrideAbsent": true,
+  "managedItems": {
+    "railcraft:manual_rolling_machine": [],
+    "railcraft:steam_locomotive": [],
+    "modern_industrialization:steel_machine_casing": []
+  },
+  "plate": {
+    "id": "createch2:railway/rolling/steel_plate",
+    "recipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:rolling",
+      "key": {
+        "A": {
+          "item": "railcraft:steel_ingot"
+        }
+      },
+      "pattern": [
+        "AA",
+        "AA"
+      ],
+      "result": {
+        "count": 4,
+        "id": "railcraft:steel_plate"
+      }
+    },
+    "event": {
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "railcraft:rolling",
+        "key": {
+          "A": {
+            "item": "railcraft:steel_ingot"
+          }
+        },
+        "pattern": [
+          "AA",
+          "AA"
+        ],
+        "result": {
+          "count": 4,
+          "id": "railcraft:steel_plate"
+        }
+      },
+      "applied": [],
+      "removed": false
+    },
+    "tag": "c:plates/steel",
+    "members": [
+      "modern_industrialization:steel_plate",
+      "railcraft:steel_plate"
+    ],
+    "target": "modern_industrialization:steel_plate",
+    "priority": "modern_industrialization"
+  },
+  "semanticDescriptionChanges": [
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "This nonconsuming freight task counts four of the sixteen reserved canonical TFC steel ingots. Keep all sixteen; no additional four-ingot batch is needed."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Build a 3×4×3 Railcraft blast furnace from 34 furnace-brick blocks, leaving air in the center of each of the two middle layers. Nine brick crafts make 36 blocks, leaving two spare. Feed newly produced TFMG steel and ordinary charcoal, and keep both output slots free: one TFC steel ingot yields one TFC steel ingot and one slag. This rail-grade stock does not replace the four TFC steel ingots required by this quest.",
+      "after": "Build a 3×4×3 Railcraft blast furnace from 34 furnace-brick blocks, leaving air in the center of each of the two middle layers. Nine brick crafts make 36 blocks, leaving two spare. Feed newly produced TFMG steel and ordinary charcoal, and keep both output slots free: one TFC steel ingot yields one TFC steel ingot and one slag. This nonconsuming freight task counts four of the sixteen reserved canonical TFC steel ingots. Keep all sixteen; no additional four-ingot batch is needed."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "The pump bill keeps five precision mechanisms, eight steel mechanisms, sixteen objective TFC steel ingots and the additional MI casing. Controls still need one precision mechanism, a lever and a railway casing. That casing uses a brass casing and a sturdy sheet; fund the obsidian powder, lava and pressing sequence for the sheet. The firebox, boiler, tank, cast-iron pipe and 250 mB oil delivery also need their own inputs. A prepared pump alone is not a finished locomotive or the four separate TFC steel ingots.",
+      "after": "The pump bill keeps five precision mechanisms, eight steel mechanisms, sixteen objective TFC steel ingots and the additional MI casing. Controls still need one precision mechanism, a lever and a railway casing. That casing uses a brass casing and a sturdy sheet; fund the obsidian powder, lava and pressing sequence for the sheet. The firebox, boiler, tank, cast-iron pipe and 250 mB oil delivery also need their own inputs. This nonconsuming freight task counts four of the sixteen reserved canonical TFC steel ingots. Keep all sixteen; no additional four-ingot batch is needed."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "After all eleven deployments, put that marked frame under the isolated oil spout for one 250 mB fill. Its 1,000 mB falls to 750 mB. Then perform one tier-one pressing on the existing steel press. This completes the single thirteen-action loop and gives one finished steam locomotive with no unfinished-sequence marker. Keep it in inventory for detection. The bill consumes the five named rail reservations, the additional boiler and other deployed parts, one of eight mechanisms, one of four cast-iron pipes and 250 mB oil. Retain seven mechanisms, three cast-iron pipes, ten MI pipes, one filled oil bucket, three empty buckets, 167 charcoal before other open uses and sixteen separate objective TFC steel ingots. Keep the working steam plant placed. No new fuel, steam or hardware is needed for this assembly. The manual rolling machine and four separate canonical TFC steel ingots are still part of the freight objective.",
+      "after": "After all eleven deployments, put that marked frame under the isolated oil spout for one 250 mB fill. Its 1,000 mB falls to 750 mB. Then perform one tier-one pressing on the existing steel press. This completes the single thirteen-action loop and gives one finished steam locomotive with no unfinished-sequence marker. Keep it in inventory for detection. The bill consumes the five named rail reservations, the additional boiler and other deployed parts, one of eight mechanisms, one of four cast-iron pipes and 250 mB oil. Retain seven mechanisms, three cast-iron pipes, ten MI pipes, one filled oil bucket, three empty buckets, 167 charcoal before other open uses and sixteen separate objective TFC steel ingots. Keep the working steam plant placed. No new fuel, steam or hardware is needed for this assembly. This nonconsuming freight task counts four of the sixteen reserved canonical TFC steel ingots. Keep all sixteen; no additional four-ingot batch is needed."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "The TFMG casting line and the Railcraft furnace both deliver the canonical TFC steel ingot. Use it for the steel objectives and steel crafts. Keep the sixteen objective ingots separate and produce four additional ingots for freight.",
+      "after": "The TFMG casting line and the Railcraft furnace deliver canonical TFC steel. Independent nonconsuming objectives may count the same sixteen held ingots, including the four-ingot freight task; detection spends none."
+    },
+    {
+      "lang": "en_us",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Keep an MI steel machine casing and sixteen TFC steel ingots available. The casing is a separate requirement; four TFC steel ingots belong to a different objective.",
+      "after": "Keep the MI steel machine casing and all sixteen canonical TFC steel ingots available. The nonconsuming four-ingot freight task may count the same held ingots."
+    },
+    {
+      "lang": "en_us",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "The TFMG casting line and the Railcraft furnace both deliver the canonical TFC steel ingot. Use it for the steel objectives and steel crafts. Keep the sixteen objective ingots separate and produce four additional ingots for freight.",
+      "after": "The TFMG casting line and the Railcraft furnace deliver canonical TFC steel. Independent nonconsuming objectives may count the same sixteen held ingots, including the four-ingot freight task; detection spends none."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "For the selected locomotive and terminal parts, plan four plate batches (16 Railcraft steel plates), one standard-rail batch (16 rails) and one track-part batch (three parts: two for the rails, one for the locomotive). The plate and rail rolls use 22 rail-grade steel ingots. The underframe takes two coke-oven bricks, two plates, two standard rails and a minecart. Pack that cart in the MI steam packer from one large steel plate (four new canonical steel plates) and one ordinary Minecraft rail, using 200 mB steam. Use TFMG nuggets for track parts. The crowbar takes three more TFC steel ingots and four red dyes; process one extra normal hematite with the hammer, sluice, quern and sluice again for enough clean pigment.",
+      "after": "For the selected locomotive and terminal parts, plan four plate batches (16 MI steel plates), one standard-rail batch (16 rails) and one track-part batch (three parts: two for the rails, one for the locomotive). The plate and rail rolls use 22 rail-grade steel ingots. The underframe takes two coke-oven bricks, two plates, two standard rails and a minecart. Pack that cart in the MI steam packer from one large steel plate (four new canonical steel plates) and one ordinary Minecraft rail, using 200 mB steam. Use TFMG nuggets for track parts. The crowbar takes three more TFC steel ingots and four red dyes; process one extra normal hematite with the hammer, sluice, quern and sluice again for enough clean pigment."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Before registering freight, confirm both parent milestones: sixteen canonical MI steel plates were held before spending them on rail parts, and eight steel mechanisms were detected before one entered the locomotive. The seven remaining mechanisms cannot complete the eight-item parent retroactively."
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Close the manual rolling-machine menu while alive with room for its returned inputs and real output. Preserve those leftovers, then recover the empty machine with an ordinary empty-hand survival break where breaking and drops are allowed. Hold that one machine, the finished unmarked locomotive and all sixteen TFC ingots in main inventory, with an empty cursor. Wait for actual quest detection, then place the same machine back to restore rolling service. Recovery and replacement create no extra machine and spend no steel, fuel, steam or mining-tool durability."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "Diese nicht verbrauchende Frachtaufgabe zählt vier der sechzehn reservierten kanonischen TFC-Stahlbarren. Behalte alle sechzehn; eine zusätzliche Charge mit vier Barren ist nicht nötig."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Einen 3×4×3 großen Railcraft-Hochofen aus 34 Hochofensteinblöcken bauen; die Mitte jeder der beiden mittleren Schichten bleibt Luft. Neun Steinrezepte ergeben 36 Blöcke und lassen zwei übrig. Neu erzeugten TFMG-Stahl und gewöhnliche Holzkohle zuführen und beide Ausgabefelder freihalten: Ein TFC-Stahlbarren ergibt einen TFC-Stahlbarren und eine Schlacke. Dieser Schienenstahl ersetzt nicht die vier von dieser Quest geforderten TFC-Stahlbarren.",
+      "after": "Einen 3×4×3 großen Railcraft-Hochofen aus 34 Hochofensteinblöcken bauen; die Mitte jeder der beiden mittleren Schichten bleibt Luft. Neun Steinrezepte ergeben 36 Blöcke und lassen zwei übrig. Neu erzeugten TFMG-Stahl und gewöhnliche Holzkohle zuführen und beide Ausgabefelder freihalten: Ein TFC-Stahlbarren ergibt einen TFC-Stahlbarren und eine Schlacke. Diese nicht verbrauchende Frachtaufgabe zählt vier der sechzehn reservierten kanonischen TFC-Stahlbarren. Behalte alle sechzehn; eine zusätzliche Charge mit vier Barren ist nicht nötig."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "Die Pumpenrechnung erhält fünf Präzisionsmechanismen, acht Stahlmechanismen, sechzehn Ziel-TFC-Stahlbarren und das zusätzliche MI-Gehäuse. Die Steuerung braucht noch einen Präzisionsmechanismus, einen Hebel und ein Eisenbahngehäuse. Dieses benötigt ein Messinggehäuse und eine robuste Platte; stelle Obsidianpulver, Lava und die Pressfolge für die Platte bereit. Feuerbüchse, Kessel, Tank, Gusseisenrohr und die Zufuhr von 250 mB Öl brauchen ebenfalls eigene Eingaben. Eine fertige Pumpe allein ist weder eine fertige Lokomotive noch die vier getrennten TFC-Stahlbarren.",
+      "after": "Die Pumpenrechnung erhält fünf Präzisionsmechanismen, acht Stahlmechanismen, sechzehn Ziel-TFC-Stahlbarren und das zusätzliche MI-Gehäuse. Die Steuerung braucht noch einen Präzisionsmechanismus, einen Hebel und ein Eisenbahngehäuse. Dieses benötigt ein Messinggehäuse und eine robuste Platte; stelle Obsidianpulver, Lava und die Pressfolge für die Platte bereit. Feuerbüchse, Kessel, Tank, Gusseisenrohr und die Zufuhr von 250 mB Öl brauchen ebenfalls eigene Eingaben. Diese nicht verbrauchende Frachtaufgabe zählt vier der sechzehn reservierten kanonischen TFC-Stahlbarren. Behalte alle sechzehn; eine zusätzliche Charge mit vier Barren ist nicht nötig."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "Fülle den markierten Rahmen nach allen elf Aufsetzschritten einmal mit 250 mB unter dem isolierten Ölausguss. Dessen 1.000 mB sinken auf 750 mB. Führe danach eine Pressung der Stufe eins auf der vorhandenen Stahlpresse aus. Der einzelne Durchlauf mit dreizehn Aktionen ergibt eine fertige Dampflokomotive ohne unfertige Sequenzmarkierung. Behalte sie zur Erkennung im Inventar. Die Bilanz verbraucht die fünf reservierten Bahnteile, den zusätzlichen Kessel und die anderen aufgesetzten Teile, einen von acht Mechanismen, eines von vier Gusseisenrohren und 250 mB Öl. Behalte sieben Mechanismen, drei Gusseisenrohre, zehn MI-Rohre, einen gefüllten Öleimer, drei leere Eimer, 167 Holzkohle vor weiteren offenen Verwendungen und sechzehn separate TFC-Stahlbarren für das Ziel. Die arbeitende Dampfanlage bleibt stehen. Für diese Montage werden keine neuen Brennstoffe, Dampf oder Maschinen benötigt. Die manuelle Walzmaschine und vier separate kanonische TFC-Stahlbarren gehören weiterhin zum Gütertransportziel.",
+      "after": "Fülle den markierten Rahmen nach allen elf Aufsetzschritten einmal mit 250 mB unter dem isolierten Ölausguss. Dessen 1.000 mB sinken auf 750 mB. Führe danach eine Pressung der Stufe eins auf der vorhandenen Stahlpresse aus. Der einzelne Durchlauf mit dreizehn Aktionen ergibt eine fertige Dampflokomotive ohne unfertige Sequenzmarkierung. Behalte sie zur Erkennung im Inventar. Die Bilanz verbraucht die fünf reservierten Bahnteile, den zusätzlichen Kessel und die anderen aufgesetzten Teile, einen von acht Mechanismen, eines von vier Gusseisenrohren und 250 mB Öl. Behalte sieben Mechanismen, drei Gusseisenrohre, zehn MI-Rohre, einen gefüllten Öleimer, drei leere Eimer, 167 Holzkohle vor weiteren offenen Verwendungen und sechzehn separate TFC-Stahlbarren für das Ziel. Die arbeitende Dampfanlage bleibt stehen. Für diese Montage werden keine neuen Brennstoffe, Dampf oder Maschinen benötigt. Diese nicht verbrauchende Frachtaufgabe zählt vier der sechzehn reservierten kanonischen TFC-Stahlbarren. Behalte alle sechzehn; eine zusätzliche Charge mit vier Barren ist nicht nötig."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "Die TFMG-Gießlinie und der Railcraft-Hochofen liefern beide den kanonischen TFC-Stahlbarren. Verwende ihn für Stahlaufgaben und Stahlrezepte. Halte die sechzehn Zielbarren getrennt und erzeuge vier zusätzliche Barren für den Güterverkehr.",
+      "after": "Die TFMG-Gießlinie und der Railcraft-Hochofen liefern kanonischen TFC-Stahl. Unabhängige, nicht verbrauchende Aufgaben dürfen dieselben sechzehn gehaltenen Barren zählen, auch die Frachtaufgabe mit vier Barren. Die Erkennung verbraucht keinen Barren."
+    },
+    {
+      "lang": "de_de",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Halte ein MI-Stahlmaschinengehäuse und sechzehn TFC-Stahlbarren bereit. Das Gehäuse ist eine eigene Anforderung; vier TFC-Stahlbarren gehören zu einem anderen Ziel.",
+      "after": "Halte das MI-Stahlmaschinengehäuse und alle sechzehn kanonischen TFC-Stahlbarren bereit. Die nicht verbrauchende Frachtaufgabe mit vier Barren darf dieselben gehaltenen Barren zählen."
+    },
+    {
+      "lang": "de_de",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "Die TFMG-Gießlinie und der Railcraft-Hochofen liefern beide den kanonischen TFC-Stahlbarren. Verwende ihn für Stahlaufgaben und Stahlrezepte. Halte die sechzehn Zielbarren getrennt und erzeuge vier zusätzliche Barren für den Güterverkehr.",
+      "after": "Die TFMG-Gießlinie und der Railcraft-Hochofen liefern kanonischen TFC-Stahl. Unabhängige, nicht verbrauchende Aufgaben dürfen dieselben sechzehn gehaltenen Barren zählen, auch die Frachtaufgabe mit vier Barren. Die Erkennung verbraucht keinen Barren."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "Für die gewählten Lokomotiv- und Terminalteile vier Plattenchargen (16 Railcraft-Stahlplatten), eine Standardschienencharge (16 Schienen) und eine Gleisteilcharge einplanen (drei Teile: zwei für die Schienen, eines für die Lok). Die Platten- und Schienenwalzgänge benötigen 22 Schienenstahlbarren. Der Unterrahmen braucht zwei Koksofensteine, zwei Platten, zwei Standardschienen und eine Lore. Die Lore im MI-Dampfpacker aus einer großen Stahlplatte (vier neuen kanonischen Stahlplatten) und einer gewöhnlichen Minecraft-Schiene mit 200 mB Dampf packen. Für Gleisteile TFMG-Nuggets verwenden. Die Brechstange braucht drei weitere TFC-Stahlbarren und vier rote Farbstoffe; ein zusätzliches normales Hämatiterz mit Hammer, Waschrinnen, Mahlstein und erneutem Waschen zu sauberem Pigment verarbeiten.",
+      "after": "Für die gewählten Lokomotiv- und Terminalteile vier Plattenchargen (16 MI-Stahlplatten), eine Standardschienencharge (16 Schienen) und eine Gleisteilcharge einplanen (drei Teile: zwei für die Schienen, eines für die Lok). Die Platten- und Schienenwalzgänge benötigen 22 Schienenstahlbarren. Der Unterrahmen braucht zwei Koksofensteine, zwei Platten, zwei Standardschienen und eine Lore. Die Lore im MI-Dampfpacker aus einer großen Stahlplatte (vier neuen kanonischen Stahlplatten) und einer gewöhnlichen Minecraft-Schiene mit 200 mB Dampf packen. Für Gleisteile TFMG-Nuggets verwenden. Die Brechstange braucht drei weitere TFC-Stahlbarren und vier rote Farbstoffe; ein zusätzliches normales Hämatiterz mit Hammer, Waschrinnen, Mahlstein und erneutem Waschen zu sauberem Pigment verarbeiten."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Bestätige vor der Frachterkennung beide Voraussetzungen: Sechzehn kanonische MI-Stahlplatten wurden vor ihrer Verwendung für Bahnteile gehalten, und acht Stahlmechanismen wurden erkannt, bevor einer in die Lokomotive eingebaut wurde. Sieben verbliebene Mechanismen erfüllen die Acht-Stück-Aufgabe nicht nachträglich."
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Schließe das Menü der manuellen Walzmaschine als lebender Spieler mit Platz für zurückgegebene Eingaben und die echte Ausgabe. Behalte diese Reste und baue die leere Maschine im Überlebensmodus mit leerer Hand ab, wo Abbau und Drops erlaubt sind. Halte diese eine Maschine, die fertige Lokomotive ohne Sequenzmarkierung und alle sechzehn TFC-Barren im Hauptinventar; der Cursor bleibt leer. Warte auf die tatsächliche Aufgabenerkennung und stelle dieselbe Maschine wieder auf. Abbau und Aufstellen erzeugen keine zusätzliche Maschine und verbrauchen weder Stahl, Brennstoff, Dampf noch Werkzeughaltbarkeit."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "Esta tarea de carga no consume objetos y cuenta cuatro de los dieciséis lingotes canónicos TFC reservados. Conserva los dieciséis; no hace falta producir otro lote de cuatro."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Construye un alto horno Railcraft de 3×4×3 con 34 bloques de ladrillos de alto horno, dejando aire en el centro de cada una de las dos capas intermedias. Nueve fabricaciones producen 36 bloques y sobran dos. Introduce acero TFMG recién producido y carbón vegetal normal; deja libres ambas salidas: un lingote de acero TFC produce un lingote de acero TFC y una escoria. Este acero ferroviario no sustituye los cuatro lingotes de acero TFC que exige esta misión.",
+      "after": "Construye un alto horno Railcraft de 3×4×3 con 34 bloques de ladrillos de alto horno, dejando aire en el centro de cada una de las dos capas intermedias. Nueve fabricaciones producen 36 bloques y sobran dos. Introduce acero TFMG recién producido y carbón vegetal normal; deja libres ambas salidas: un lingote de acero TFC produce un lingote de acero TFC y una escoria. Esta tarea de carga no consume objetos y cuenta cuatro de los dieciséis lingotes canónicos TFC reservados. Conserva los dieciséis; no hace falta producir otro lote de cuatro."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "Esta bomba conserva cinco mecanismos de precisión, ocho mecanismos de acero, dieciséis lingotes de acero TFC del objetivo y la carcasa MI adicional. Los controles aún necesitan un mecanismo de precisión, una palanca y una carcasa ferroviaria. Esta usa una carcasa de latón y una placa resistente; prepara polvo de obsidiana, lava y la secuencia de prensado de la placa. La caja de fuego, caldera, tanque, tubería de hierro fundido y entrega de 250 mB de aceite también necesitan materiales propios. Una bomba preparada no es una locomotora terminada ni los cuatro lingotes de acero TFC separados.",
+      "after": "Esta bomba conserva cinco mecanismos de precisión, ocho mecanismos de acero, dieciséis lingotes de acero TFC del objetivo y la carcasa MI adicional. Los controles aún necesitan un mecanismo de precisión, una palanca y una carcasa ferroviaria. Esta usa una carcasa de latón y una placa resistente; prepara polvo de obsidiana, lava y la secuencia de prensado de la placa. La caja de fuego, caldera, tanque, tubería de hierro fundido y entrega de 250 mB de aceite también necesitan materiales propios. Esta tarea de carga no consume objetos y cuenta cuatro de los dieciséis lingotes canónicos TFC reservados. Conserva los dieciséis; no hace falta producir otro lote de cuatro."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "Tras las once aplicaciones, coloca ese bastidor marcado bajo el vertedor de aceite aislado para un llenado de 250 mB. Sus 1.000 mB bajan a 750 mB. Después realiza un prensado de nivel uno en la prensa de acero existente. El único ciclo de trece acciones produce una locomotora de vapor terminada y sin marcador de secuencia incompleta. Consérvala en el inventario para su detección. El lote consume las cinco reservas ferroviarias, la caldera adicional y demás componentes aplicados, uno de ocho mecanismos, una de cuatro tuberías de hierro fundido y 250 mB de aceite. Conserva siete mecanismos, tres tuberías de hierro fundido, diez de MI, un cubo lleno de aceite, tres cubos vacíos, 167 de carbón vegetal antes de otros usos pendientes y dieciséis lingotes separados de acero de TFC para el objetivo. Mantén colocada la planta de vapor operativa. Este montaje no necesita combustible, vapor ni máquinas nuevos. La laminadora manual y cuatro lingotes separados de acero canónico de TFC siguen siendo parte del objetivo de transporte.",
+      "after": "Tras las once aplicaciones, coloca ese bastidor marcado bajo el vertedor de aceite aislado para un llenado de 250 mB. Sus 1.000 mB bajan a 750 mB. Después realiza un prensado de nivel uno en la prensa de acero existente. El único ciclo de trece acciones produce una locomotora de vapor terminada y sin marcador de secuencia incompleta. Consérvala en el inventario para su detección. El lote consume las cinco reservas ferroviarias, la caldera adicional y demás componentes aplicados, uno de ocho mecanismos, una de cuatro tuberías de hierro fundido y 250 mB de aceite. Conserva siete mecanismos, tres tuberías de hierro fundido, diez de MI, un cubo lleno de aceite, tres cubos vacíos, 167 de carbón vegetal antes de otros usos pendientes y dieciséis lingotes separados de acero de TFC para el objetivo. Mantén colocada la planta de vapor operativa. Este montaje no necesita combustible, vapor ni máquinas nuevos. Esta tarea de carga no consume objetos y cuenta cuatro de los dieciséis lingotes canónicos TFC reservados. Conserva los dieciséis; no hace falta producir otro lote de cuatro."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "La línea de colada TFMG y el horno Railcraft entregan el lingote de acero canónico de TFC. Úsalo para los objetivos y recetas de acero. Conserva separados los dieciséis lingotes del objetivo y produce cuatro adicionales para el transporte de carga.",
+      "after": "La línea de colada TFMG y el horno Railcraft entregan acero canónico TFC. Los objetivos independientes que no consumen objetos pueden contar los mismos dieciséis lingotes, incluido el de cuatro lingotes para carga. La detección no gasta ninguno."
+    },
+    {
+      "lang": "es_es",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Mantén disponibles una carcasa de máquina de acero de MI y dieciséis lingotes de acero de TFC. La carcasa es un requisito aparte; los cuatro lingotes de acero de TFC pertenecen a otro objetivo.",
+      "after": "Conserva la carcasa de máquina de acero MI y los dieciséis lingotes de acero canónicos TFC. La tarea de carga de cuatro lingotes no los consume y puede contar los mismos objetos."
+    },
+    {
+      "lang": "es_es",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "La línea de colada TFMG y el horno Railcraft entregan el lingote de acero canónico de TFC. Úsalo para los objetivos y recetas de acero. Conserva separados los dieciséis lingotes del objetivo y produce cuatro adicionales para el transporte de carga.",
+      "after": "La línea de colada TFMG y el horno Railcraft entregan acero canónico TFC. Los objetivos independientes que no consumen objetos pueden contar los mismos dieciséis lingotes, incluido el de cuatro lingotes para carga. La detección no gasta ninguno."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "Para las piezas seleccionadas de locomotora y terminal, prepara cuatro lotes de placas (16 placas de acero Railcraft), un lote de raíles estándar (16 raíles) y un lote de piezas de vía (tres piezas: dos para los raíles y una para la locomotora). El laminado de placas y raíles usa 22 lingotes de acero ferroviario. El bastidor requiere dos ladrillos de horno de coque, dos placas, dos raíles estándar y una vagoneta. Fabrica la vagoneta en la empaquetadora de vapor MI con una placa grande de acero (cuatro placas canónicas nuevas) y un raíl normal de Minecraft, usando 200 mB de vapor. Usa pepitas TFMG para las piezas de vía. La palanca requiere otros tres lingotes de acero TFC y cuatro tintes rojos; procesa un mineral de hematita normal adicional con el martillo, el canal de lavado, el molino y otro lavado para obtener suficiente pigmento limpio.",
+      "after": "Para las piezas seleccionadas de locomotora y terminal, prepara cuatro lotes de placas (16 placas de acero MI), un lote de raíles estándar (16 raíles) y un lote de piezas de vía (tres piezas: dos para los raíles y una para la locomotora). El laminado de placas y raíles usa 22 lingotes de acero ferroviario. El bastidor requiere dos ladrillos de horno de coque, dos placas, dos raíles estándar y una vagoneta. Fabrica la vagoneta en la empaquetadora de vapor MI con una placa grande de acero (cuatro placas canónicas nuevas) y un raíl normal de Minecraft, usando 200 mB de vapor. Usa pepitas TFMG para las piezas de vía. La palanca requiere otros tres lingotes de acero TFC y cuatro tintes rojos; procesa un mineral de hematita normal adicional con el martillo, el canal de lavado, el molino y otro lavado para obtener suficiente pigmento limpio."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Antes de registrar la carga, confirma ambos hitos previos: se detectaron dieciséis placas canónicas de acero MI antes de gastarlas en piezas ferroviarias, y ocho mecanismos de acero antes de incorporar uno a la locomotora. Los siete restantes no completan retroactivamente el objetivo de ocho."
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Cierra el menú de la laminadora manual mientras estás vivo y tienes espacio para recuperar sus entradas y su salida real. Conserva esos sobrantes y recoge la máquina vacía rompiéndola normalmente con la mano vacía en supervivencia donde se permita romper y obtener objetos. Ten esa única máquina, la locomotora terminada sin marcador de secuencia y los dieciséis lingotes TFC en el inventario principal, con el cursor vacío. Espera la detección real de la misión y vuelve a colocar la misma máquina. Esto no crea otra máquina ni consume acero, combustible, vapor o durabilidad de herramientas."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "Cette tâche de fret ne consomme rien et compte quatre des seize lingots canoniques TFC réservés. Gardez les seize ; aucun lot supplémentaire de quatre lingots n’est nécessaire."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Construisez un haut-fourneau Railcraft de 3×4×3 avec 34 blocs de briques de haut-fourneau, en laissant de l'air au centre de chacune des deux couches intermédiaires. Neuf fabrications donnent 36 blocs, dont deux en réserve. Alimentez-le en acier TFMG nouvellement produit et en charbon de bois ordinaire ; gardez les deux sorties libres : un lingot d'acier TFC donne un lingot d'acier TFC et une scorie. Cet acier ferroviaire ne remplace pas les quatre lingots d'acier TFC exigés par cette quête.",
+      "after": "Construisez un haut-fourneau Railcraft de 3×4×3 avec 34 blocs de briques de haut-fourneau, en laissant de l'air au centre de chacune des deux couches intermédiaires. Neuf fabrications donnent 36 blocs, dont deux en réserve. Alimentez-le en acier TFMG nouvellement produit et en charbon de bois ordinaire ; gardez les deux sorties libres : un lingot d'acier TFC donne un lingot d'acier TFC et une scorie. Cette tâche de fret ne consomme rien et compte quatre des seize lingots canoniques TFC réservés. Gardez les seize ; aucun lot supplémentaire de quatre lingots n’est nécessaire."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "Ce lot conserve cinq mécanismes de précision, huit mécanismes en acier, seize lingots d’acier TFC de l’objectif et le châssis MI supplémentaire. Les commandes demandent encore un mécanisme de précision, un levier et un châssis ferroviaire. Celui-ci utilise un châssis en laiton et une plaque robuste ; fournis poudre d’obsidienne, lave et séquence de pressage pour la plaque. Foyer, chaudière, réservoir, tuyau en fonte et livraison de 250 mB d’huile exigent aussi leurs propres entrées. Une pompe prête ne constitue ni une locomotive terminée ni les quatre lingots d’acier TFC distincts.",
+      "after": "Ce lot conserve cinq mécanismes de précision, huit mécanismes en acier, seize lingots d’acier TFC de l’objectif et le châssis MI supplémentaire. Les commandes demandent encore un mécanisme de précision, un levier et un châssis ferroviaire. Celui-ci utilise un châssis en laiton et une plaque robuste ; fournis poudre d’obsidienne, lave et séquence de pressage pour la plaque. Foyer, chaudière, réservoir, tuyau en fonte et livraison de 250 mB d’huile exigent aussi leurs propres entrées. Cette tâche de fret ne consomme rien et compte quatre des seize lingots canoniques TFC réservés. Gardez les seize ; aucun lot supplémentaire de quatre lingots n’est nécessaire."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "Après les onze applications, place ce châssis marqué sous le bec d’huile isolé pour un remplissage de 250 mB. Ses 1 000 mB passent à 750 mB. Effectue ensuite un pressage de niveau un sur la presse en acier existante. Cet unique cycle de treize actions donne une locomotive à vapeur terminée, sans marqueur de séquence inachevée. Garde-la dans l’inventaire pour sa détection. Le lot consomme les cinq réserves ferroviaires, la chaudière supplémentaire et les autres composants appliqués, un des huit mécanismes, un des quatre tuyaux en fonte et 250 mB d’huile. Conserve sept mécanismes, trois tuyaux en fonte, dix tuyaux MI, un seau plein d’huile, trois seaux vides, 167 charbons de bois avant les autres usages en attente et seize lingots TFC séparés pour l’objectif. La centrale à vapeur opérationnelle reste en place. Aucun nouveau combustible, vapeur ou matériel n’est nécessaire à cet assemblage. La machine à laminer manuelle et quatre lingots distincts d’acier TFC canonique restent nécessaires à l’objectif de fret.",
+      "after": "Après les onze applications, place ce châssis marqué sous le bec d’huile isolé pour un remplissage de 250 mB. Ses 1 000 mB passent à 750 mB. Effectue ensuite un pressage de niveau un sur la presse en acier existante. Cet unique cycle de treize actions donne une locomotive à vapeur terminée, sans marqueur de séquence inachevée. Garde-la dans l’inventaire pour sa détection. Le lot consomme les cinq réserves ferroviaires, la chaudière supplémentaire et les autres composants appliqués, un des huit mécanismes, un des quatre tuyaux en fonte et 250 mB d’huile. Conserve sept mécanismes, trois tuyaux en fonte, dix tuyaux MI, un seau plein d’huile, trois seaux vides, 167 charbons de bois avant les autres usages en attente et seize lingots TFC séparés pour l’objectif. La centrale à vapeur opérationnelle reste en place. Aucun nouveau combustible, vapeur ou matériel n’est nécessaire à cet assemblage. Cette tâche de fret ne consomme rien et compte quatre des seize lingots canoniques TFC réservés. Gardez les seize ; aucun lot supplémentaire de quatre lingots n’est nécessaire."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "La ligne de coulée TFMG et le haut fourneau Railcraft fournissent tous deux le lingot d’acier canonique TFC. Utilisez-le pour les objectifs et les recettes d’acier. Gardez les seize lingots de l’objectif à part et produisez quatre lingots supplémentaires pour le fret.",
+      "after": "La ligne de coulée TFMG et le haut fourneau Railcraft fournissent de l’acier canonique TFC. Des objectifs indépendants qui ne consomment rien peuvent compter les mêmes seize lingots, y compris la tâche de fret à quatre lingots. La détection n’en dépense aucun."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Garde disponibles un châssis de machine en acier MI et seize lingots d’acier TFC. Le châssis est une exigence distincte ; les quatre lingots d’acier TFC appartiennent à un autre objectif.",
+      "after": "Gardez le châssis de machine en acier MI et les seize lingots d’acier canoniques TFC. La tâche de fret à quatre lingots ne les consomme pas et peut compter ces mêmes objets."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "La ligne de coulée TFMG et le haut fourneau Railcraft fournissent tous deux le lingot d’acier canonique TFC. Utilisez-le pour les objectifs et les recettes d’acier. Gardez les seize lingots de l’objectif à part et produisez quatre lingots supplémentaires pour le fret.",
+      "after": "La ligne de coulée TFMG et le haut fourneau Railcraft fournissent de l’acier canonique TFC. Des objectifs indépendants qui ne consomment rien peuvent compter les mêmes seize lingots, y compris la tâche de fret à quatre lingots. La détection n’en dépense aucun."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "Pour les pièces choisies de locomotive et de terminaux, prévoyez quatre lots de plaques (16 plaques d'acier Railcraft), un lot de rails standard (16 rails) et un lot de pièces de voie (trois pièces : deux pour les rails, une pour la locomotive). Les plaques et rails consomment 22 lingots d'acier ferroviaire. Le châssis demande deux briques de four à coke, deux plaques, deux rails standard et un wagonnet. Fabriquez ce wagonnet dans l'emballeuse à vapeur MI avec une grande plaque d'acier (quatre nouvelles plaques canoniques) et un rail Minecraft ordinaire, pour 200 mB de vapeur. Utilisez des pépites TFMG pour les pièces de voie. Le pied-de-biche demande trois lingots d'acier TFC supplémentaires et quatre colorants rouges ; traitez un minerai d'hématite normale supplémentaire au marteau, au canal de lavage, à la meule puis à nouveau au canal pour obtenir assez de pigment propre.",
+      "after": "Pour les pièces choisies de locomotive et de terminaux, prévoyez quatre lots de plaques (16 plaques d'acier MI), un lot de rails standard (16 rails) et un lot de pièces de voie (trois pièces : deux pour les rails, une pour la locomotive). Les plaques et rails consomment 22 lingots d'acier ferroviaire. Le châssis demande deux briques de four à coke, deux plaques, deux rails standard et un wagonnet. Fabriquez ce wagonnet dans l'emballeuse à vapeur MI avec une grande plaque d'acier (quatre nouvelles plaques canoniques) et un rail Minecraft ordinaire, pour 200 mB de vapeur. Utilisez des pépites TFMG pour les pièces de voie. Le pied-de-biche demande trois lingots d'acier TFC supplémentaires et quatre colorants rouges ; traitez un minerai d'hématite normale supplémentaire au marteau, au canal de lavage, à la meule puis à nouveau au canal pour obtenir assez de pigment propre."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Avant de valider le fret, confirme les deux étapes préalables : seize plaques d’acier canoniques MI ont été détenues avant leur utilisation dans les pièces ferroviaires, et huit mécanismes en acier ont été détectés avant d’en incorporer un à la locomotive. Les sept mécanismes restants ne complètent pas rétroactivement l’objectif de huit."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Ferme le menu de la machine à laminer manuelle en étant vivant, avec de la place pour récupérer ses ingrédients et sa vraie sortie. Conserve ces restes, puis récupère la machine vide par une destruction normale à main vide en survie, là où la destruction et les objets lâchés sont autorisés. Garde cette unique machine, la locomotive terminée sans marqueur de séquence et les seize lingots TFC dans l’inventaire principal, avec le curseur vide. Attends la détection réelle de la quête, puis replace la même machine. Cela ne crée aucune machine supplémentaire et ne consomme ni acier, ni combustible, ni vapeur, ni durabilité d’outil."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "Esta tarefa de carga não consome itens e conta quatro dos dezesseis lingotes canônicos TFC reservados. Mantenha os dezesseis; não é necessário produzir outro lote de quatro."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Construa um alto-forno Railcraft de 3×4×3 com 34 blocos de tijolos de alto-forno, deixando ar no centro de cada uma das duas camadas intermediárias. Nove fabricações produzem 36 blocos, com dois de sobra. Forneça aço TFMG recém-produzido e carvão vegetal comum; mantenha ambas as saídas livres: um lingote de aço TFC produz um lingote de aço TFC e uma escória. Esse aço ferroviário não substitui os quatro lingotes de aço TFC exigidos por esta missão.",
+      "after": "Construa um alto-forno Railcraft de 3×4×3 com 34 blocos de tijolos de alto-forno, deixando ar no centro de cada uma das duas camadas intermediárias. Nove fabricações produzem 36 blocos, com dois de sobra. Forneça aço TFMG recém-produzido e carvão vegetal comum; mantenha ambas as saídas livres: um lingote de aço TFC produz um lingote de aço TFC e uma escória. Esta tarefa de carga não consome itens e conta quatro dos dezesseis lingotes canônicos TFC reservados. Mantenha os dezesseis; não é necessário produzir outro lote de quatro."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "O lote da bomba preserva cinco mecanismos de precisão, oito mecanismos de aço, dezesseis lingotes de aço TFC do objetivo e a carcaça MI adicional. Os controles ainda precisam de um mecanismo de precisão, uma alavanca e uma carcaça ferroviária. Ela usa uma carcaça de latão e uma placa resistente; forneça pó de obsidiana, lava e a sequência de prensagem da placa. Fornalha, caldeira, tanque, cano de ferro fundido e entrega de 250 mB de óleo também exigem materiais próprios. Uma bomba pronta não é uma locomotiva terminada nem os quatro lingotes de aço TFC separados.",
+      "after": "O lote da bomba preserva cinco mecanismos de precisão, oito mecanismos de aço, dezesseis lingotes de aço TFC do objetivo e a carcaça MI adicional. Os controles ainda precisam de um mecanismo de precisão, uma alavanca e uma carcaça ferroviária. Ela usa uma carcaça de latão e uma placa resistente; forneça pó de obsidiana, lava e a sequência de prensagem da placa. Fornalha, caldeira, tanque, cano de ferro fundido e entrega de 250 mB de óleo também exigem materiais próprios. Esta tarefa de carga não consome itens e conta quatro dos dezesseis lingotes canônicos TFC reservados. Mantenha os dezesseis; não é necessário produzir outro lote de quatro."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "Após as onze aplicações, coloque essa estrutura marcada sob o bico de óleo isolado para um enchimento de 250 mB. Os 1.000 mB caem para 750 mB. Depois faça uma prensagem de nível um na prensa de aço existente. O único ciclo de treze ações produz uma locomotiva a vapor terminada, sem marcador de sequência incompleta. Mantenha-a no inventário para detecção. O lote consome as cinco reservas ferroviárias, a caldeira adicional e os outros componentes aplicados, um dos oito mecanismos, um dos quatro tubos de ferro fundido e 250 mB de óleo. Guarde sete mecanismos, três tubos de ferro fundido, dez de MI, um balde cheio de óleo, três baldes vazios, 167 carvões vegetais antes dos outros usos pendentes e dezesseis lingotes separados de aço TFC para o objetivo. Mantenha a estação de vapor em funcionamento colocada. Esta montagem não precisa de combustível, vapor ou máquinas novos. A laminadora manual e quatro lingotes separados de aço canônico do TFC ainda fazem parte do objetivo de transporte.",
+      "after": "Após as onze aplicações, coloque essa estrutura marcada sob o bico de óleo isolado para um enchimento de 250 mB. Os 1.000 mB caem para 750 mB. Depois faça uma prensagem de nível um na prensa de aço existente. O único ciclo de treze ações produz uma locomotiva a vapor terminada, sem marcador de sequência incompleta. Mantenha-a no inventário para detecção. O lote consome as cinco reservas ferroviárias, a caldeira adicional e os outros componentes aplicados, um dos oito mecanismos, um dos quatro tubos de ferro fundido e 250 mB de óleo. Guarde sete mecanismos, três tubos de ferro fundido, dez de MI, um balde cheio de óleo, três baldes vazios, 167 carvões vegetais antes dos outros usos pendentes e dezesseis lingotes separados de aço TFC para o objetivo. Mantenha a estação de vapor em funcionamento colocada. Esta montagem não precisa de combustível, vapor ou máquinas novos. Esta tarefa de carga não consome itens e conta quatro dos dezesseis lingotes canônicos TFC reservados. Mantenha os dezesseis; não é necessário produzir outro lote de quatro."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "A linha de fundição TFMG e o alto-forno Railcraft entregam o lingote de aço canônico TFC. Use-o nos objetivos e receitas de aço. Mantenha separados os dezesseis lingotes do objetivo e produza mais quatro para o transporte de carga.",
+      "after": "A linha de fundição TFMG e o alto-forno Railcraft entregam aço canônico TFC. Objetivos independentes que não consomem itens podem contar os mesmos dezesseis lingotes, inclusive a tarefa de quatro lingotes para carga. A detecção não gasta nenhum."
+    },
+    {
+      "lang": "pt_br",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Mantenha disponíveis uma carcaça de máquina de aço da MI e dezesseis lingotes de aço TFC. A carcaça é um requisito separado; os quatro lingotes de aço da TFC pertencem a outro objetivo.",
+      "after": "Mantenha a carcaça de máquina de aço MI e os dezesseis lingotes de aço canônicos TFC. A tarefa de carga de quatro lingotes não os consome e pode contar os mesmos itens."
+    },
+    {
+      "lang": "pt_br",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "A linha de fundição TFMG e o alto-forno Railcraft entregam o lingote de aço canônico TFC. Use-o nos objetivos e receitas de aço. Mantenha separados os dezesseis lingotes do objetivo e produza mais quatro para o transporte de carga.",
+      "after": "A linha de fundição TFMG e o alto-forno Railcraft entregam aço canônico TFC. Objetivos independentes que não consomem itens podem contar os mesmos dezesseis lingotes, inclusive a tarefa de quatro lingotes para carga. A detecção não gasta nenhum."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "Para as peças selecionadas da locomotiva e dos terminais, planeje quatro lotes de placas (16 placas de aço Railcraft), um lote de trilhos padrão (16 trilhos) e um lote de peças de via (três peças: duas para os trilhos e uma para a locomotiva). A laminação das placas e dos trilhos usa 22 lingotes de aço ferroviário. A estrutura inferior exige dois tijolos de forno de coque, duas placas, dois trilhos padrão e um carrinho. Faça o carrinho na empacotadora a vapor MI com uma placa grande de aço (quatro novas placas canônicas) e um trilho comum de Minecraft, usando 200 mB de vapor. Use pepitas TFMG nas peças de via. O pé de cabra exige mais três lingotes de aço TFC e quatro corantes vermelhos; processe um minério de hematita normal adicional com o martelo, a calha de lavagem, o moinho e outra lavagem para obter pigmento limpo suficiente.",
+      "after": "Para as peças selecionadas da locomotiva e dos terminais, planeje quatro lotes de placas (16 placas de aço MI), um lote de trilhos padrão (16 trilhos) e um lote de peças de via (três peças: duas para os trilhos e uma para a locomotiva). A laminação das placas e dos trilhos usa 22 lingotes de aço ferroviário. A estrutura inferior exige dois tijolos de forno de coque, duas placas, dois trilhos padrão e um carrinho. Faça o carrinho na empacotadora a vapor MI com uma placa grande de aço (quatro novas placas canônicas) e um trilho comum de Minecraft, usando 200 mB de vapor. Use pepitas TFMG nas peças de via. O pé de cabra exige mais três lingotes de aço TFC e quatro corantes vermelhos; processe um minério de hematita normal adicional com o martelo, a calha de lavagem, o moinho e outra lavagem para obter pigmento limpo suficiente."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Antes de registrar a carga, confirme os dois marcos anteriores: dezesseis placas de aço canônicas MI foram detectadas antes de gastá-las em peças ferroviárias, e oito mecanismos de aço foram detectados antes de colocar um na locomotiva. Os sete restantes não completam retroativamente o objetivo de oito."
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Feche o menu da laminadora manual enquanto estiver vivo e com espaço para receber as entradas e a saída real. Preserve essas sobras e recolha a máquina vazia quebrando-a normalmente com a mão vazia em sobrevivência, onde a quebra e os itens soltos sejam permitidos. Mantenha essa única máquina, a locomotiva pronta sem marcador de sequência e os dezesseis lingotes TFC no inventário principal, com o cursor vazio. Aguarde a detecção real da missão e recoloque a mesma máquina. Isso não cria outra máquina nem consome aço, combustível, vapor ou durabilidade de ferramentas."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "Эта грузовая задача не расходует предметы и учитывает четыре из шестнадцати зарезервированных канонических слитков TFC. Сохраните все шестнадцать; дополнительная партия из четырёх слитков не нужна."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "Постройте доменную печь Railcraft размером 3×4×3 из 34 блоков доменного кирпича, оставив воздух в центре каждого из двух средних слоёв. Девять крафтов дают 36 блоков, два останутся в запасе. Подавайте вновь произведённую сталь TFMG и обычный древесный уголь; держите обе выходные ячейки свободными: один слиток стали TFC даёт один слиток стали TFC и одну единицу шлака. Эта железнодорожная сталь не заменяет четыре слитка стали TFC, требуемые заданием.",
+      "after": "Постройте доменную печь Railcraft размером 3×4×3 из 34 блоков доменного кирпича, оставив воздух в центре каждого из двух средних слоёв. Девять крафтов дают 36 блоков, два останутся в запасе. Подавайте вновь произведённую сталь TFMG и обычный древесный уголь; держите обе выходные ячейки свободными: один слиток стали TFC даёт один слиток стали TFC и одну единицу шлака. Эта грузовая задача не расходует предметы и учитывает четыре из шестнадцати зарезервированных канонических слитков TFC. Сохраните все шестнадцать; дополнительная партия из четырёх слитков не нужна."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "Эта партия сохраняет пять точных механизмов, восемь стальных механизмов, шестнадцать целевых стальных слитков TFC и дополнительный корпус MI. Для управления ещё нужны точный механизм, рычаг и железнодорожный корпус. Последний требует латунный корпус и прочную пластину: обеспечь обсидиановый порошок, лаву и последовательность прессования пластины. Топка, котёл, резервуар, чугунная труба и подача 250 мБ масла тоже требуют собственных материалов. Готовый насос сам по себе не означает готовый локомотив или четыре отдельных стальных слитка TFC.",
+      "after": "Эта партия сохраняет пять точных механизмов, восемь стальных механизмов, шестнадцать целевых стальных слитков TFC и дополнительный корпус MI. Для управления ещё нужны точный механизм, рычаг и железнодорожный корпус. Последний требует латунный корпус и прочную пластину: обеспечь обсидиановый порошок, лаву и последовательность прессования пластины. Топка, котёл, резервуар, чугунная труба и подача 250 мБ масла тоже требуют собственных материалов. Эта грузовая задача не расходует предметы и учитывает четыре из шестнадцати зарезервированных канонических слитков TFC. Сохраните все шестнадцать; дополнительная партия из четырёх слитков не нужна."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "После одиннадцати применений помести эту помеченную раму под изолированный масляный наполнитель для одного наполнения на 250 mB. Его 1 000 mB уменьшатся до 750 mB. Затем выполни одно прессование первого уровня на имеющемся стальном прессе. Единственный цикл из тринадцати действий даёт готовый паровоз без метки незавершённой последовательности. Сохрани его в инвентаре для обнаружения. Партия расходует пять железнодорожных резервов, дополнительный котёл и остальные применённые детали, один из восьми механизмов, одну из четырёх чугунных труб и 250 mB масла. Сохрани семь механизмов, три чугунные трубы, десять труб MI, одно полное ведро масла, три пустых ведра, 167 единиц древесного угля до других незавершённых расходов и шестнадцать отдельных слитков стали TFC для задачи. Работающая паровая установка остаётся на месте. Для сборки не нужны новые топливо, пар или машины. Ручной прокатный стан и четыре отдельных канонических слитка стали TFC всё ещё нужны для грузовой задачи.",
+      "after": "После одиннадцати применений помести эту помеченную раму под изолированный масляный наполнитель для одного наполнения на 250 mB. Его 1 000 mB уменьшатся до 750 mB. Затем выполни одно прессование первого уровня на имеющемся стальном прессе. Единственный цикл из тринадцати действий даёт готовый паровоз без метки незавершённой последовательности. Сохрани его в инвентаре для обнаружения. Партия расходует пять железнодорожных резервов, дополнительный котёл и остальные применённые детали, один из восьми механизмов, одну из четырёх чугунных труб и 250 mB масла. Сохрани семь механизмов, три чугунные трубы, десять труб MI, одно полное ведро масла, три пустых ведра, 167 единиц древесного угля до других незавершённых расходов и шестнадцать отдельных слитков стали TFC для задачи. Работающая паровая установка остаётся на месте. Для сборки не нужны новые топливо, пар или машины. Эта грузовая задача не расходует предметы и учитывает четыре из шестнадцати зарезервированных канонических слитков TFC. Сохраните все шестнадцать; дополнительная партия из четырёх слитков не нужна."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "Литейная линия TFMG и доменная печь Railcraft выдают канонический стальной слиток TFC. Используйте его для стальных заданий и рецептов. Сохраните шестнадцать слитков для цели отдельно и произведите ещё четыре для грузоперевозок.",
+      "after": "Литейная линия TFMG и доменная печь Railcraft выдают каноническую сталь TFC. Независимые задачи без расхода предметов могут учитывать одни и те же шестнадцать слитков, включая грузовую задачу на четыре слитка. Проверка ничего не расходует."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "Держи наготове корпус стальной машины MI и шестнадцать стальных слитков TFC. Корпус — отдельное требование; четыре стальных слитка TFC относятся к другой цели.",
+      "after": "Сохраните корпус стальной машины MI и все шестнадцать канонических стальных слитков TFC. Грузовая задача на четыре слитка не расходует их и может учитывать те же предметы."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "Литейная линия TFMG и доменная печь Railcraft выдают канонический стальной слиток TFC. Используйте его для стальных заданий и рецептов. Сохраните шестнадцать слитков для цели отдельно и произведите ещё четыре для грузоперевозок.",
+      "after": "Литейная линия TFMG и доменная печь Railcraft выдают каноническую сталь TFC. Независимые задачи без расхода предметов могут учитывать одни и те же шестнадцать слитков, включая грузовую задачу на четыре слитка. Проверка ничего не расходует."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "Для выбранных деталей локомотива и терминалов запланируйте четыре партии пластин (16 стальных пластин Railcraft), одну партию стандартных рельсов (16 рельсов) и одну партию деталей пути (три детали: две для рельсов, одна для локомотива). На прокатку пластин и рельсов нужны 22 слитка железнодорожной стали. Нижняя рама требует два коксовых кирпича, две пластины, два стандартных рельса и вагонетку. Сделайте вагонетку в паровом упаковщике MI из одной большой стальной пластины (четыре новые канонические пластины) и одного обычного рельса Minecraft за 200 мБ пара. Для деталей пути используйте самородки TFMG. Лом требует ещё три слитка стали TFC и четыре красных красителя; обработайте одну дополнительную обычную гематитовую руду молотом, промойте в желобе, измельчите в жернове и снова промойте для получения чистого пигмента.",
+      "after": "Для выбранных деталей локомотива и терминалов запланируйте четыре партии пластин (16 стальных пластин MI), одну партию стандартных рельсов (16 рельсов) и одну партию деталей пути (три детали: две для рельсов, одна для локомотива). На прокатку пластин и рельсов нужны 22 слитка железнодорожной стали. Нижняя рама требует два коксовых кирпича, две пластины, два стандартных рельса и вагонетку. Сделайте вагонетку в паровом упаковщике MI из одной большой стальной пластины (четыре новые канонические пластины) и одного обычного рельса Minecraft за 200 мБ пара. Для деталей пути используйте самородки TFMG. Лом требует ещё три слитка стали TFC и четыре красных красителя; обработайте одну дополнительную обычную гематитовую руду молотом, промойте в желобе, измельчите в жернове и снова промойте для получения чистого пигмента."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "Перед регистрацией грузовой задачи проверьте оба предыдущих этапа: шестнадцать канонических стальных пластин MI были обнаружены до расходования на железнодорожные детали, а восемь стальных механизмов — до установки одного в локомотив. Семь оставшихся механизмов не завершают задачу на восемь задним числом."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "Закройте меню ручного прокатного стана, будучи живым и имея место для возврата входных предметов и настоящего результата. Сохраните эти остатки, затем подберите пустую машину после обычного разрушения пустой рукой в выживании там, где разрешены разрушение и выпадение предметов. Держите эту единственную машину, готовый локомотив без метки последовательности и все шестнадцать слитков TFC в основном инвентаре; курсор должен быть пустым. Дождитесь фактического распознавания задания и поставьте ту же машину обратно. Это не создаёт дополнительную машину и не расходует сталь, топливо, пар или прочность инструмента."
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 2,
+      "before": "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line.",
+      "after": "这个货运任务不消耗物品，可检测已预留十六个统一 TFC 钢锭中的四个。保留全部十六个钢锭，无须另生产四个。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 5,
+      "before": "用34个高炉砖方块搭建3×4×3的Railcraft高炉，两个中间层的中心各留一个空气格。合成9次可获得36个砖块，剩余2个备用。投入新生产的TFC钢锭和普通木炭，并保持两个输出槽畅通：每块TFC钢锭产出1块TFC钢锭和1份炉渣。这种铁路级钢材不能代替本任务要求的4块TFC钢锭。",
+      "after": "用34个高炉砖方块搭建3×4×3的Railcraft高炉，两个中间层的中心各留一个空气格。合成9次可获得36个砖块，剩余2个备用。投入新生产的TFC钢锭和普通木炭，并保持两个输出槽畅通：每块TFC钢锭产出1块TFC钢锭和1份炉渣。 这个货运任务不消耗物品，可检测已预留十六个统一 TFC 钢锭中的四个。保留全部十六个钢锭，无须另生产四个。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 9,
+      "before": "此泵清单保留五个精密构件、八个钢构件、目标要求的十六个 TFC 钢锭和额外的 MI 外壳。控制器还需要一个精密构件、拉杆和列车机壳。列车机壳使用黄铜机壳与坚固板；须另备黑曜石粉、熔岩及坚固板的冲压流程。火箱、锅炉、储罐、铸铁管和 250 mB 润滑油输送也需要各自的材料。备好泵并不等于已完成机车或另需的四个 TFC 钢锭。",
+      "after": "此泵清单保留五个精密构件、八个钢构件、目标要求的十六个 TFC 钢锭和额外的 MI 外壳。控制器还需要一个精密构件、拉杆和列车机壳。列车机壳使用黄铜机壳与坚固板；须另备黑曜石粉、熔岩及坚固板的冲压流程。火箱、锅炉、储罐、铸铁管和 250 mB 润滑油输送也需要各自的材料。 这个货运任务不消耗物品，可检测已预留十六个统一 TFC 钢锭中的四个。保留全部十六个钢锭，无须另生产四个。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 33,
+      "before": "完成十一道装配后，将这个带有正确标记的框架放到隔离的油注液器下，只注入一次 250 mB。注液器中的油由 1,000 mB 减少至 750 mB。随后在现有钢压床上进行一次一级压制。单次十三步循环完成后，得到一个不带未完成序列标记的蒸汽机车。将其保留在背包中以供任务检测。整套流程消耗五项铁路预留材料、额外锅炉及其他装配部件、八个钢机构中的一个、四根铸铁管中的一根和 250 mB 油。保留七个钢机构、三根铸铁管、十根 MI 管、一桶满油、三个空桶、在其他未结算用途之前的 167 个木炭，以及十六个单独用于目标检测的 TFC 钢锭。现有运行中的蒸汽工厂继续留在原位。本次装配无需新的燃料、蒸汽或机器。货运目标仍包含手动轧机和另外四个规范的 TFC 钢锭。",
+      "after": "完成十一道装配后，将这个带有正确标记的框架放到隔离的油注液器下，只注入一次 250 mB。注液器中的油由 1,000 mB 减少至 750 mB。随后在现有钢压床上进行一次一级压制。单次十三步循环完成后，得到一个不带未完成序列标记的蒸汽机车。将其保留在背包中以供任务检测。整套流程消耗五项铁路预留材料、额外锅炉及其他装配部件、八个钢机构中的一个、四根铸铁管中的一根和 250 mB 油。保留七个钢机构、三根铸铁管、十根 MI 管、一桶满油、三个空桶、在其他未结算用途之前的 167 个木炭，以及十六个单独用于目标检测的 TFC 钢锭。现有运行中的蒸汽工厂继续留在原位。本次装配无需新的燃料、蒸汽或机器。 这个货运任务不消耗物品，可检测已预留十六个统一 TFC 钢锭中的四个。保留全部十六个钢锭，无须另生产四个。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 34,
+      "before": "TFMG 铸造线与 Railcraft 高炉都会产出统一的 TFC 钢锭。钢材任务和后续钢材配方均使用这种钢锭。将十六个任务钢锭单独保留，并为货运另外生产四个钢锭。",
+      "after": "TFMG 铸造线和 Railcraft 高炉都产出统一的 TFC 钢锭。互相独立且不消耗物品的目标可以检测同一批十六个钢锭，包括要求四个钢锭的货运任务；检测不会消耗钢锭。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0,
+      "before": "备好一个 MI 钢制机器外壳和十六个 TFC 钢锭。外壳是独立要求；四个 TFC 钢锭属于另一项目标。",
+      "after": "保留 MI 钢制机器外壳和全部十六个统一 TFC 钢锭。要求四个钢锭的货运任务不消耗物品，可检测同一批钢锭。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7,
+      "before": "TFMG 铸造线与 Railcraft 高炉都会产出统一的 TFC 钢锭。钢材任务和后续钢材配方均使用这种钢锭。将十六个任务钢锭单独保留，并为货运另外生产四个钢锭。",
+      "after": "TFMG 铸造线和 Railcraft 高炉都产出统一的 TFC 钢锭。互相独立且不消耗物品的目标可以检测同一批十六个钢锭，包括要求四个钢锭的货运任务；检测不会消耗钢锭。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 6,
+      "before": "为选定的机车和终端部件准备4批钢板（16块Railcraft钢板）、1批标准铁轨（16根），以及1批轨道部件（3个：2个用于铁轨，1个用于机车）。钢板和铁轨的轧制共需22块铁路级钢锭。底架消耗2块焦炉砖、2块钢板、2根标准铁轨和1辆矿车。用MI蒸汽打包机，以1块大型钢板（由4块新制的统一钢板合成）和1根普通Minecraft铁轨制造矿车，消耗200 mB蒸汽。轨道部件使用TFMG钢粒。撬棍另需3块TFC钢锭和4份红色染料；将额外1块普通赤铁矿依次敲碎、溜槽清洗、磨盘研磨并再次溜槽清洗，即可获得足够的干净颜料。",
+      "after": "为选定的机车和终端部件准备4批钢板（16块MI钢板）、1批标准铁轨（16根），以及1批轨道部件（3个：2个用于铁轨，1个用于机车）。钢板和铁轨的轧制共需22块铁路级钢锭。底架消耗2块焦炉砖、2块钢板、2根标准铁轨和1辆矿车。用MI蒸汽打包机，以1块大型钢板（由4块新制的统一钢板合成）和1根普通Minecraft铁轨制造矿车，消耗200 mB蒸汽。轨道部件使用TFMG钢粒。撬棍另需3块TFC钢锭和4份红色染料；将额外1块普通赤铁矿依次敲碎、溜槽清洗、磨盘研磨并再次溜槽清洗，即可获得足够的干净颜料。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 35,
+      "before": null,
+      "after": "登记货运目标前，确认两项前置里程碑已经记录：先检测十六块统一的 MI 钢板，再将其用于铁路零件；先检测八个钢机构，再将其中一个装入机车。剩余七个机构不能补记要求八个的目标。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 36,
+      "before": null,
+      "after": "在角色存活且背包有空间接收输入材料与实际产物时，关闭手动轧机菜单。保留返还的余料，然后在允许破坏方块和物品掉落的地点，以生存模式空手正常拆下空轧机并拾取。将这一台轧机、没有未完成序列标记的成品机车和全部十六个 TFC 钢锭放在主背包中，保持鼠标光标为空。等待任务实际检测成功，再放回同一台轧机。这个过程不会额外生成机器，也不消耗钢材、燃料、蒸汽或采矿工具耐久。"
+    }
+  ],
+  "refreshedCanonicalDescriptionReferences": [
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "en_us",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "en_us",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "en_us",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "de_de",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "de_de",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "de_de",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "es_es",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "es_es",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "es_es",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "fr_fr",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "fr_fr",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "fr_fr",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "pt_br",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "pt_br",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "pt_br",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "ru_ru",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "ru_ru",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "ru_ru",
+      "id": "2F33DA300848472E",
+      "index": 6
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 5
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 9
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 33
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 34
+    },
+    {
+      "lang": "zh_cn",
+      "id": "55B8AEEB7ACA1E4E",
+      "index": 0
+    },
+    {
+      "lang": "zh_cn",
+      "id": "4C6FD6ECD0FC4D50",
+      "index": 7
+    },
+    {
+      "lang": "zh_cn",
+      "id": "2F33DA300848472E",
+      "index": 6
+    }
+  ]
+}

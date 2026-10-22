@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:venus_volcanic_crater",
+    "createch2:venus_caldera",
+    "createch2:mars_gravel_desert",
+    "createch2:mars_desert_canyon",
+    "createch2:venus_yellowstone",
+    "createch2:venus_ashen_plains",
+    "createch2:venus_warped_mesa"
+  ]
+}

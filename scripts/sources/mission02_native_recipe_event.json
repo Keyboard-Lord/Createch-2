@@ -1,0 +1,18 @@
+{
+  "nativeClasses": {
+    "event": [
+      "kubejs-neoforge-2101.7.2-build.377.jar",
+      "dev.latvian.mods.kubejs.recipe.RecipesKubeEvent",
+      false
+    ],
+    "sentinel": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.KubeJsRecipeDeletionSentinelMixin",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "event": "382eca1122d86542be1342401a94b988cc4060b30a42963624c237961754d2a5",
+    "sentinel": "482fd13cab7cbe2dccfa6f5e68fbf719fd986648cdeb980e7d4ac3aa62bb22a6"
+  }
+}

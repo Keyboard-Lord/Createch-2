@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "SCS",
+    "ABA"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "A": {
+      "item": "greate:andesite_alloy_shaft"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "aeronautics:propeller_bearing",
+    "count": 1
+  }
+}

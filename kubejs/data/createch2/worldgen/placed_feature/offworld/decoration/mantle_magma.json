@@ -1,0 +1,76 @@
+{
+  "feature": {
+    "type": "minecraft:disk",
+    "config": {
+      "half_height": 2,
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      },
+      "target": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "createch2:geology/replaceables/cavum"
+      },
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:noise_provider",
+          "seed": 8521,
+          "noise": {
+            "firstOctave": -4,
+            "amplitudes": [
+              1
+            ]
+          },
+          "scale": 1,
+          "states": [
+            {
+              "Name": "minecraft:blackstone"
+            },
+            {
+              "Name": "minecraft:magma_block"
+            }
+          ]
+        },
+        "rules": []
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 24
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "below_top": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 12,
+      "allowed_search_condition": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
+      },
+      "target_condition": {
+        "type": "minecraft:has_sturdy_face",
+        "direction": "up"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

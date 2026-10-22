@@ -1,0 +1,40 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:sandstone_hieroglyphs"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:martian_records"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:frn_04a_offworld_anomaly",
+    "createch2:spc_08_heavy_rocket_propulsion"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04b_extraterrestrial_archaeology.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04b_extraterrestrial_archaeology.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:offworld_archaeology/memory_crystal",
+      "createch2:research/pack/venusian_field_data"
+    ]
+  }
+}

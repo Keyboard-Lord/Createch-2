@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:dyed_wool",
+      "required": false
+    },
+    {
+      "id": "yourmod:felt_block",
+      "required": false
+    }
+  ]
+}

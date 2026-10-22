@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "recipe_tier": 8,
+  "ingredients": [
+    {
+      "item": "gtceu:polybenzimidazole_plate"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:polybenzimidazole_foil",
+      "count": 4
+    }
+  ]
+}

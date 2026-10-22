@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "PCP",
+    " E "
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "P": {
+      "item": "tfmg:steel_pipe"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "E": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:cannon_drill",
+    "count": 1
+  }
+}

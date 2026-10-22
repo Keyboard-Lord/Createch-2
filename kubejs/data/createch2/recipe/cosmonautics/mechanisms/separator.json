@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H",
+    "P",
+    "Z"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "Z": {
+      "tag": "c:ingots/zinc"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:separator",
+    "count": 1
+  }
+}

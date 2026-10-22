@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "nativeArtifact": {
+    "file": "mods/occultism-1.21.1-neoforge-1.224.5.jar",
+    "sha256": "d08b1c776221a32190ec09878b10fac9c19582d4173a8c0b3f25e8f6bccbd44d"
+  },
+  "gradedTagProvider": {
+    "file": "mods/TFC Metallurgy 1.21.1-1.1.1.jar",
+    "sha256": "4cae406f00d57f7180e496043480b6bb8d4cce0a2dcb41bd82bf075a26bda68e"
+  },
+  "metals": [
+    "aluminum",
+    "antimony",
+    "cobalt",
+    "iridium",
+    "lead",
+    "osmium",
+    "platinum",
+    "titanium",
+    "tungsten",
+    "uranium"
+  ],
+  "reason": "Native generic ore/raw crushing erases TFC grades and skips the established refinery handoff. Keep native one-ingot to one-dust spirit processing and all unrelated rituals, storage, gems and construction processing."
+}

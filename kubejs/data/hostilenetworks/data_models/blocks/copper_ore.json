@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:copper_ore",
+  "variants": [
+    "minecraft:deepslate_copper_ore"
+  ],
+  "name_color": "#B87333",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "minecraft:cobblestone"
+  },
+  "trivia": "hostilenetworks.trivia.copper_ore",
+  "fabricator_drops": [],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

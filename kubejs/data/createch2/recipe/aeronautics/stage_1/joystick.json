@@ -1,0 +1,31 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    " L ",
+    " P ",
+    " S ",
+    " B ",
+    "BBB"
+  ],
+  "key": {
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "aeroworks:mechanical_servo"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "aeroworks:joystick"
+  }
+}

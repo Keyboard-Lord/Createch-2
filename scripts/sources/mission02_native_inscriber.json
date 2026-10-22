@@ -1,0 +1,777 @@
+{
+  "scope": "Installed native AE2 inscriber codec, manufacturing bill, MI/GrandPower FE bridge and independent finite energy/slot ledgers. No game/server/world is instantiated.",
+  "nativeClasses": {
+    "inscriber": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.blockentity.misc.InscriberBlockEntity"
+    ],
+    "recipe": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.recipes.handlers.InscriberRecipe"
+    ],
+    "recipeMode": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.recipes.handlers.InscriberProcessType"
+    ],
+    "ingredients": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.recipes.handlers.InscriberRecipe$Ingredients"
+    ],
+    "finder": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.blockentity.misc.InscriberRecipes"
+    ],
+    "registration": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.init.InitCapabilityProviders"
+    ],
+    "adapter": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.helpers.ForgeEnergyAdapter"
+    ],
+    "sink": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.blockentity.powersink.AEBasePoweredBlockEntity"
+    ],
+    "networked": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.blockentity.grid.AENetworkedPoweredBlockEntity"
+    ],
+    "powerUnit": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.api.config.PowerUnit"
+    ],
+    "powerMultiplier": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.api.config.PowerMultiplier"
+    ],
+    "config": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.core.AEConfig"
+    ],
+    "common": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.core.AEConfig$CommonConfig"
+    ],
+    "stored": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.me.energy.StoredEnergyAmount"
+    ],
+    "blockentities": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.core.definitions.AEBlockEntities"
+    ],
+    "managed": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.me.ManagedGridNode"
+    ],
+    "gridnode": [
+      "appliedenergistics2-19.2.18.jar",
+      "appeng.me.GridNode"
+    ],
+    "energyApi": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.api.energy.EnergyApi"
+    ],
+    "external": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.api.energy.EnergyApi$WrappedExternalStorage"
+    ],
+    "capabilities": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.MICapabilities"
+    ],
+    "cableNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.electricity.ElectricityNetwork"
+    ],
+    "cableNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.electricity.ElectricityNetworkNode"
+    ],
+    "grandPower": [
+      "Modern-Industrialization-2.5.10.jar!/META-INF/jarjar/GrandPower-3.0.0.jar",
+      "dev.technici4n.grandpower.impl.GrandPowerImpl"
+    ],
+    "long": [
+      "Modern-Industrialization-2.5.10.jar!/META-INF/jarjar/GrandPower-3.0.0.jar",
+      "dev.technici4n.grandpower.api.ILongEnergyStorage"
+    ],
+    "nonLong": [
+      "Modern-Industrialization-2.5.10.jar!/META-INF/jarjar/GrandPower-3.0.0.jar",
+      "dev.technici4n.grandpower.impl.NonLongWrapper"
+    ],
+    "furnace": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.FurnaceBlockEntity"
+    ],
+    "furnaceBase": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "inscriber": "e4c749b6bc59e56ec3d9d265df0ed4173032db896bd137364ca5bafc211c80da",
+    "recipe": "4f9eef9daf2f4ddc3b3ebabe5ce52d087c416f1f5b4cb9ec152aa1ecaeb724cd",
+    "recipeMode": "ff543bb96b2e69abbbab3d4559d72e004c808f5e8cd753ba12e306aca88adfe2",
+    "ingredients": "abc1cb9265d041eef2cb155e21365b1fbd981f9ffa692e6b7dd921338c2c5471",
+    "finder": "00e5d447af32487d965fe98a67e0920d0e8f4e8b770489fd91eeca34d1cf16cb",
+    "registration": "d39420ae7f18e0a279691d7ace710df0a606b4298c1162bc0031556a73807e8f",
+    "adapter": "f82733a56a383baacae356d34f6e91e615cd604bf422b0f5d3247efb2b4a91f2",
+    "sink": "72f36dbf70c81b5ce6fa6df33eb9617da53c82e7b063df4888abddc0d6cd20c4",
+    "networked": "827d883a68859653a7a12072cf33b93a682076a60ed3c8b1b1dc739a65492f56",
+    "powerUnit": "2abff11d52ca8bf254c87f300793efb296cd90f9ae58f0106cbcadbef769c012",
+    "powerMultiplier": "b8e1fd279af7982e2d98069252d36207e20e3b84c636b266e0f856dbea53dede",
+    "config": "35e2b1df801e9ffa9d5fb6c5fdf6933732754d2955bda2d0c5ed39cb6dc79cd8",
+    "common": "6e5f2f6398c2382197012674548ba29c084c669ef066d1d5326c631868020f99",
+    "stored": "8a29e079cf1ed3295a6b7f5bbedd2f9abff6ed51a38ec455ca3bfc59de922448",
+    "blockentities": "91aba743cdb26769949f27c3aec17553fabfa9a61ab5ecc31c6de10a8042fa75",
+    "managed": "eb9927534d15a943edddbf55bd8d135632d16767f3ff4081d8593d50bf42af78",
+    "gridnode": "513ac0f79e1ceafb79c95fcbda2be356f9a2f7f512585735045ae28a9e5ff575",
+    "energyApi": "fb185cddb35e1c387c44982d801108855d42ac3d8c59df2c32b1b7d3a99caf22",
+    "external": "2a89c2e8c6ca806b7cf0d5e62e3d195fa03f95c23d4876062a9aba79cbe8b2f0",
+    "capabilities": "feab40ff5322b41445faef3b11a741e10fb32a7adbc8d2bd0f6fd430ce36f657",
+    "cableNetwork": "a71252c150a211892fc4beaea32e7907fb696c4dddb24ad1538134b85edd7e44",
+    "cableNode": "ebec8b8e26bfc8489b538844a4eaeb6fb39bd86de06c1322cef7b19963943e61",
+    "grandPower": "ee36bad81f83ec1ea023e1165288648d3f914f5f45277d0fe2d7d0855410eb78",
+    "long": "f1a8e8b3dec429fdea727cd10edfcd9ad42cd0635c08e231ee5b31ed1c7722e5",
+    "nonLong": "711e43b92bde4439d1437e449521a9bd2d082212d5deaa00cdf4038cee1dd840",
+    "furnace": "a2bcafcbd2ed84235042e1dc88f6f5bc72d06295820abe9c09d43ee76bbbed6b",
+    "furnaceBase": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f"
+  },
+  "bundledGrandPowerSha256": "f0db91e29124a8119c3a511831a52b058f339f9d3af7c06bba96cca3b04d1db1",
+  "manufacturerId": "createch2:stainless_digital/ae2/inscriber",
+  "manufacturer": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SPS",
+      "PMP",
+      "SDS"
+    ],
+    "key": {
+      "S": {
+        "item": "modern_industrialization:stainless_steel_plate"
+      },
+      "P": {
+        "item": "modern_industrialization:advanced_pump"
+      },
+      "M": {
+        "item": "modern_industrialization:advanced_machine_hull"
+      },
+      "D": {
+        "item": "modern_industrialization:digital_circuit"
+      }
+    },
+    "result": {
+      "id": "ae2:inscriber",
+      "count": 1
+    }
+  },
+  "recipes": {
+    "appflux:inscriber/crush_diamond": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/diamond"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "appflux:diamond_dust"
+      }
+    },
+    "appflux:inscriber/crush_emerald": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/emerald"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "appflux:emerald_dust"
+      }
+    },
+    "appflux:inscriber/energy": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "appflux:printed_energy_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "appflux:energy_processor"
+      }
+    },
+    "appflux:inscriber/energy_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "appflux:energy_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "appflux:energy_processor_press"
+      }
+    },
+    "appflux:inscriber/energy_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "appflux:charged_redstone"
+        },
+        "top": {
+          "item": "appflux:energy_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "appflux:printed_energy_processor"
+      }
+    },
+    "extendedae:inscriber/concurrent_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/entro"
+        },
+        "top": {
+          "item": "extendedae:concurrent_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "extendedae:concurrent_processor_print"
+      }
+    },
+    "extendedae:inscriber/concurrent_process": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "tag": "c:dusts/redstone"
+        },
+        "top": {
+          "item": "extendedae:concurrent_processor_print"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "extendedae:concurrent_processor"
+      }
+    },
+    "extendedae:inscriber/crush_entro": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/entro"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "extendedae:entro_dust"
+      }
+    },
+    "ae2:inscriber/calculation_processor": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_calculation_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:calculation_processor"
+      }
+    },
+    "ae2:inscriber/calculation_processor_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "ae2:calculation_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:calculation_processor_press"
+      }
+    },
+    "ae2:inscriber/calculation_processor_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "ae2:certus_quartz_crystal"
+        },
+        "top": {
+          "item": "ae2:calculation_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_calculation_processor"
+      }
+    },
+    "ae2:inscriber/certus_quartz_dust": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/certus_quartz"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:certus_quartz_dust"
+      }
+    },
+    "ae2:inscriber/ender_dust": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:ender_pearl"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:ender_dust"
+      }
+    },
+    "ae2:inscriber/engineering_processor": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_engineering_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:engineering_processor"
+      }
+    },
+    "ae2:inscriber/engineering_processor_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "ae2:engineering_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:engineering_processor_press"
+      }
+    },
+    "ae2:inscriber/engineering_processor_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/diamond"
+        },
+        "top": {
+          "item": "ae2:engineering_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_engineering_processor"
+      }
+    },
+    "ae2:inscriber/fluix_dust": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/fluix"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:fluix_dust"
+      }
+    },
+    "ae2:inscriber/logic_processor": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_logic_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:logic_processor"
+      }
+    },
+    "ae2:inscriber/logic_processor_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "ae2:logic_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:logic_processor_press"
+      }
+    },
+    "ae2:inscriber/logic_processor_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:ingots/gold"
+        },
+        "top": {
+          "item": "ae2:logic_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_logic_processor"
+      }
+    },
+    "ae2:inscriber/silicon_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "ae2:silicon_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:silicon_press"
+      }
+    },
+    "ae2:inscriber/silicon_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:silicon"
+        },
+        "top": {
+          "item": "ae2:silicon_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_silicon"
+      }
+    },
+    "ae2:inscriber/sky_stone_dust": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "ae2:sky_stone_block"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:sky_dust"
+      }
+    },
+    "megacells:inscriber/accumulation_processor": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "tag": "c:dusts/fluix"
+        },
+        "top": {
+          "item": "megacells:printed_accumulation_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "megacells:accumulation_processor"
+      }
+    },
+    "megacells:inscriber/accumulation_processor_press": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:engineering_processor_press"
+        },
+        "middle": {
+          "item": "ae2:singularity"
+        },
+        "top": {
+          "item": "ae2:calculation_processor_press"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "megacells:accumulation_processor_press"
+      }
+    },
+    "megacells:inscriber/accumulation_processor_press_extra": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "minecraft:iron_block"
+        },
+        "top": {
+          "item": "megacells:accumulation_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "megacells:accumulation_processor_press"
+      }
+    },
+    "megacells:inscriber/accumulation_processor_print": {
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:ingots/sky_steel"
+        },
+        "top": {
+          "item": "megacells:accumulation_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "megacells:printed_accumulation_processor"
+      }
+    }
+  },
+  "authoredRecipes": {
+    "createch2:stainless_digital/ae2/inscriber/printed_silicon": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "createch2:processed_ae2_silicon"
+        },
+        "top": {
+          "item": "ae2:silicon_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_silicon"
+      }
+    },
+    "createch2:stainless_digital/ae2/inscriber/printed_logic_processor": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:ingots/gold"
+        },
+        "top": {
+          "item": "ae2:logic_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_logic_processor"
+      }
+    },
+    "createch2:stainless_digital/ae2/inscriber/printed_calculation_processor": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "item": "ae2:certus_quartz_crystal"
+        },
+        "top": {
+          "item": "ae2:calculation_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_calculation_processor"
+      }
+    },
+    "createch2:stainless_digital/ae2/inscriber/printed_engineering_processor": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/diamond"
+        },
+        "top": {
+          "item": "ae2:engineering_processor_press"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:printed_engineering_processor"
+      }
+    },
+    "createch2:stainless_digital/ae2/inscriber/certus_quartz_dust": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/certus_quartz"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:certus_quartz_dust"
+      }
+    },
+    "createch2:stainless_digital/ae2/inscriber/fluix_dust": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "middle": {
+          "tag": "c:gems/fluix"
+        }
+      },
+      "mode": "inscribe",
+      "result": {
+        "count": 1,
+        "id": "ae2:fluix_dust"
+      }
+    },
+    "createch2:stainless_digital/ae2/processor/logic": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_logic_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:logic_processor"
+      }
+    },
+    "createch2:stainless_digital/ae2/processor/calculation": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_calculation_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:calculation_processor"
+      }
+    },
+    "createch2:stainless_digital/ae2/processor/engineering": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "ae2:inscriber",
+      "ingredients": {
+        "bottom": {
+          "item": "ae2:printed_silicon"
+        },
+        "middle": {
+          "item": "minecraft:redstone"
+        },
+        "top": {
+          "item": "ae2:printed_engineering_processor"
+        }
+      },
+      "mode": "press",
+      "result": {
+        "count": 1,
+        "id": "ae2:engineering_processor"
+      }
+    }
+  },
+  "siliconSupplierId": "ae2:smelting/silicon_from_certus_quartz_dust",
+  "siliconSupplier": {
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredient": {
+      "tag": "c:dusts/certus_quartz"
+    },
+    "result": {
+      "count": 1,
+      "id": "ae2:silicon"
+    }
+  }
+}

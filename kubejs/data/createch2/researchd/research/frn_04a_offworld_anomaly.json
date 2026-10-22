@@ -1,0 +1,40 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:stone_symbol"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:lunar_artifacts"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:frn_01_remote_observation",
+    "createch2:spc_05_planetary_operations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04a_offworld_anomaly.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04a_offworld_anomaly.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:offworld_archaeology/archeologist_notebook",
+      "createch2:research/pack/martian_records"
+    ]
+  }
+}

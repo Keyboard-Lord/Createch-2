@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"building","pattern":["RRR","CCC","GGG"],"key":{"R":{"item":"minecraft:redstone"},"C":{"item":"minecraft:copper_ingot"},"G":{"item":"minecraft:glass_pane"}},"result":{"id":"rgbcraft:rgb_string_lights","count":8}}

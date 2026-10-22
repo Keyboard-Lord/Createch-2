@@ -1,0 +1,57 @@
+{
+  "feature": "gtceu:rubber_tree",
+  "placement": [
+    {
+      "type": "gtceu:rubber_tree_chance"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": 18.0,
+      "max_temperature": 32.0,
+      "min_groundwater": 250,
+      "max_groundwater": 500,
+      "min_rain_variance": -0.35,
+      "max_rain_variance": 0.65,
+      "rain_variance_absolute": false,
+      "min_forest": 1,
+      "max_forest": 3,
+      "min_elevation": -20,
+      "max_elevation": 180,
+      "fuzzy": true
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "gtceu:rubber_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

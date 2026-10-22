@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oritech:accelerator_controller",
+    "oritech:reactor_controller",
+    "oritech:deep_drill_block",
+    "projecte:dm_pedestal"
+  ]
+}

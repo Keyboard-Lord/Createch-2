@@ -1,0 +1,180 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "stellaris:heavy_metal_casing"
+  },
+  "transitional_item": {
+    "id": "stellaris:heavy_metal_casing"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "stellaris:battery"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "stellaris:rocket_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "stellaris:oxygen_tank"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "stellaris:cable"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "modern_industrialization:pump"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "modern_industrialization:analog_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "item": "electroenergetics:converter"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "tfmg:lubrication_oil"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "stellaris:fuel"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "stellaris:heavy_metal_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "stellaris:heavy_metal_casing"
+        }
+      ],
+      "recipe_tier": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "stellaris:rocket"
+    }
+  ]
+}

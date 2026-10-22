@@ -1,0 +1,29 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "tfc:any_fresh_water"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 500,
+      "id": "chemica:steam"
+    },
+    {
+      "amount": 500,
+      "id": "minecraft:water"
+    }
+  ],
+  "processing_time": 350,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 2
+}

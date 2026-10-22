@@ -1,0 +1,409 @@
+{
+  "jar": "Modern-Industrialization-2.5.10.jar",
+  "classes": {
+    "machines": "aztech.modern_industrialization.machines.init.MultiblockMachines",
+    "controller": "aztech.modern_industrialization.machines.multiblocks.MultiblockMachineBlockEntity",
+    "matcher": "aztech.modern_industrialization.machines.multiblocks.ShapeMatcher",
+    "trigger": "aztech.modern_industrialization.advancement.multiblock.BuiltMultiblockTrigger",
+    "predicate": "aztech.modern_industrialization.advancement.multiblock.BuiltMultiblockTrigger$MultiblockPredicate",
+    "instance": "aztech.modern_industrialization.advancement.multiblock.BuiltMultiblockTrigger$TriggerInstance",
+    "triggers": "aztech.modern_industrialization.MIAdvancementTriggers",
+    "generator": "aztech.modern_industrialization.machines.blockentities.multiblocks.GeneratorMultiblockBlockEntity",
+    "craftingController": "aztech.modern_industrialization.machines.blockentities.multiblocks.AbstractCraftingMultiblockBlockEntity",
+    "placedBy": "aztech.modern_industrialization.machines.components.PlacedByComponent",
+    "block": "aztech.modern_industrialization.machines.MachineBlock",
+    "machineEntity": "aztech.modern_industrialization.machines.MachineBlockEntity"
+  },
+  "nativeCodeSha256": {
+    "machines": "ec63cf6433b7d1e6539b1fced6e1dec6fc01d17dd2bcab8ec383d8f441fcbfff",
+    "controller": "575d04fecdcfd230df0203029ca08ef39cff1d78916fb6419fdec0d7fb5302f0",
+    "matcher": "c17a422dbcd3e2520eb59ec2f4b0bd43a389cc0159c5a89822555a53388eed39",
+    "trigger": "62cb8e10babc68d5872cdaded6efea3f1e5e961193a0a78c06fdb4e47337909e",
+    "predicate": "fcbcae141c4b82bbfd2a171744e397cbf6085ec29a0be1cbb60289df19ef6366",
+    "instance": "515ee207e3d517c05ca1841eeb8b2f66cdbe1abb200caee2714a9372435ee391",
+    "triggers": "0c87e6cccf3a246ce817b47cd9c22a5f629a3a1d716196bd0201e7a3100646d6",
+    "generator": "16ef3e3a55a9dc8571e14f2937d8d5489a1515672a080f283b75f0a73166b099",
+    "craftingController": "448d9ce2ed2a3ec41ee2fb9eb6aae2025b4a0e2c75db227c943607361e15e78c",
+    "placedBy": "8a7863ffc1bcc1a51b0f69cd0b8a41cf53a65e05ac0f1bc62877370554ceaaf4",
+    "block": "143747e916dc09d101989e9fba0da2536a4f0601bd16e4097bd0047bd44cce04",
+    "machineEntity": "258c86f3bb1a8e6ee9e2838aec85e9e31d9663dd230199baaa105b4aaa36293f"
+  },
+  "chapter": "config/ftbquests/quests/chapters/createch2_12_age_11_high_pressure.snbt",
+  "chapterBeforeSha256": "025806ac7bfa73eab511a13208b5b3900eb475250bd6c90eae1b35054949665d",
+  "questChanges": [
+    {
+      "id": "197EA43E280550A0",
+      "before": {
+        "dependencies": [
+          "4E2D0A85974DA997"
+        ],
+        "icon": {
+          "id": "rocketnautics:engine_nozzle"
+        },
+        "icon_scale": "0.94d",
+        "id": "197EA43E280550A0",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "77FCA407C65CFDFA",
+            "type": "xp",
+            "xp": "40"
+          },
+          {
+            "id": "233C972448AC44EF",
+            "item": {
+              "count": "1",
+              "id": "modern_industrialization:wrench"
+            },
+            "type": "item"
+          }
+        ],
+        "shape": "createch_recovery",
+        "size": "1.04d",
+        "tags": [
+          "theme_high_pressure_recovery",
+          "role_recovery"
+        ],
+        "tasks": [
+          {
+            "count": "2L",
+            "id": "3832038FE1DA156F",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:engine_nozzle"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "37.091d",
+        "y": "9.538d"
+      },
+      "after": {
+        "dependencies": [
+          "4E2D0A85974DA997"
+        ],
+        "icon": {
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "icon_scale": "0.94d",
+        "id": "197EA43E280550A0",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "77FCA407C65CFDFA",
+            "type": "xp",
+            "xp": "40"
+          },
+          {
+            "id": "233C972448AC44EF",
+            "item": {
+              "count": "1",
+              "id": "modern_industrialization:wrench"
+            },
+            "type": "item"
+          }
+        ],
+        "shape": "createch_recovery",
+        "size": "1.04d",
+        "tags": [
+          "theme_high_pressure_recovery",
+          "role_recovery"
+        ],
+        "tasks": [
+          {
+            "count": "2L",
+            "id": "3832038FE1DA156F",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:titanium_nozzle"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "37.091d",
+        "y": "9.538d"
+      }
+    },
+    {
+      "id": "6E96CB6D2CAE323D",
+      "before": {
+        "dependencies": [
+          "09953DB83DB1F565"
+        ],
+        "icon": {
+          "id": "rocketnautics:engine_nozzle"
+        },
+        "id": "6E96CB6D2CAE323D",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "7700CA6CD800319E",
+            "type": "xp",
+            "xp": "40"
+          }
+        ],
+        "shape": "square",
+        "size": "1.22d",
+        "tags": [
+          "theme_high_pressure_required",
+          "role_required"
+        ],
+        "tasks": [
+          {
+            "count": "2L",
+            "id": "7713F9340F6BF66E",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:engine_nozzle"
+            },
+            "type": "item"
+          },
+          {
+            "count": "8L",
+            "id": "0AAD5F8E60C48E9C",
+            "item": {
+              "components": {
+                "tfc:heat": {}
+              },
+              "count": "1",
+              "id": "modern_industrialization:titanium_ingot"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "-0.431d",
+        "y": "-17.748d"
+      },
+      "after": {
+        "dependencies": [
+          "09953DB83DB1F565"
+        ],
+        "icon": {
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "id": "6E96CB6D2CAE323D",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "7700CA6CD800319E",
+            "type": "xp",
+            "xp": "40"
+          }
+        ],
+        "shape": "square",
+        "size": "1.22d",
+        "tags": [
+          "theme_high_pressure_required",
+          "role_required"
+        ],
+        "tasks": [
+          {
+            "count": "2L",
+            "id": "7713F9340F6BF66E",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:titanium_nozzle"
+            },
+            "type": "item"
+          },
+          {
+            "count": "8L",
+            "id": "0AAD5F8E60C48E9C",
+            "item": {
+              "components": {
+                "tfc:heat": {}
+              },
+              "count": "1",
+              "id": "modern_industrialization:titanium_ingot"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "-0.431d",
+        "y": "-17.748d"
+      }
+    },
+    {
+      "id": "42181B18A078F951",
+      "before": {
+        "dependencies": [
+          "7BDD03AD021299B3"
+        ],
+        "icon": {
+          "id": "rocketnautics:engine_nozzle"
+        },
+        "icon_scale": "0.96d",
+        "id": "42181B18A078F951",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "60621D91AC984B72",
+            "type": "xp",
+            "xp": "15"
+          }
+        ],
+        "shape": "createch_optional",
+        "size": "0.94d",
+        "tags": [
+          "theme_high_pressure_optional",
+          "role_optional"
+        ],
+        "tasks": [
+          {
+            "biome": "stellaris:mercury_fire_land",
+            "id": "6B713047A84BA2DB",
+            "type": "biome"
+          },
+          {
+            "id": "533773A5FEECC396",
+            "item": {
+              "count": "1",
+              "id": "burnt:extinguisher"
+            },
+            "type": "item"
+          },
+          {
+            "id": "24FB414C618EA528",
+            "item": {
+              "count": "1",
+              "id": "burnt:smoke_detector"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "48.438d",
+        "y": "-4.665d"
+      },
+      "after": {
+        "dependencies": [
+          "7BDD03AD021299B3"
+        ],
+        "icon": {
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "icon_scale": "0.96d",
+        "id": "42181B18A078F951",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "60621D91AC984B72",
+            "type": "xp",
+            "xp": "15"
+          }
+        ],
+        "shape": "createch_optional",
+        "size": "0.94d",
+        "tags": [
+          "theme_high_pressure_optional",
+          "role_optional"
+        ],
+        "tasks": [
+          {
+            "biome": "stellaris:mercury_fire_land",
+            "id": "6B713047A84BA2DB",
+            "type": "biome"
+          },
+          {
+            "id": "533773A5FEECC396",
+            "item": {
+              "count": "1",
+              "id": "burnt:extinguisher"
+            },
+            "type": "item"
+          },
+          {
+            "id": "24FB414C618EA528",
+            "item": {
+              "count": "1",
+              "id": "burnt:smoke_detector"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "48.438d",
+        "y": "-4.665d"
+      }
+    },
+    {
+      "id": "18EE5CEF26DFC976",
+      "before": {
+        "dependencies": [
+          "240FA442D139566C"
+        ],
+        "icon": {
+          "id": "rocketnautics:engine_nozzle"
+        },
+        "icon_scale": "0.98d",
+        "id": "18EE5CEF26DFC976",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "0E2E3779481F711D",
+            "type": "xp",
+            "xp": "40"
+          }
+        ],
+        "shape": "createch_target",
+        "size": "1.14d",
+        "tags": [
+          "theme_high_pressure_production",
+          "role_production"
+        ],
+        "tasks": [
+          {
+            "count": "8L",
+            "id": "46340687303E7F99",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:engine_nozzle"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "-20.475d",
+        "y": "21.29d"
+      },
+      "after": {
+        "dependencies": [
+          "240FA442D139566C"
+        ],
+        "icon": {
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "icon_scale": "0.98d",
+        "id": "18EE5CEF26DFC976",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "0E2E3779481F711D",
+            "type": "xp",
+            "xp": "40"
+          }
+        ],
+        "shape": "createch_target",
+        "size": "1.14d",
+        "tags": [
+          "theme_high_pressure_production",
+          "role_production"
+        ],
+        "tasks": [
+          {
+            "count": "8L",
+            "id": "46340687303E7F99",
+            "item": {
+              "count": "1",
+              "id": "rocketnautics:titanium_nozzle"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "-20.475d",
+        "y": "21.29d"
+      }
+    }
+  ],
+  "oldNozzle": "rocketnautics:engine_nozzle",
+  "nozzle": "rocketnautics:titanium_nozzle",
+  "producer": "createch2:cosmonautics/components/titanium_nozzle",
+  "gate": "SPC-08"
+}

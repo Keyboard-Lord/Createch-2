@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:firepit",
+    "tfc:grill",
+    "tfc:pot",
+    "tfc:stove",
+    "tfc:stove_pot",
+    "tfc:log_pile",
+    "tfc:burning_log_pile",
+    "tfc:pit_kiln",
+    "tfc:charcoal_pile",
+    "tfc:charcoal_forge",
+    "tfc:bloomery",
+    "tfc:blast_furnace",
+    "tfc:firebox"
+  ]
+}

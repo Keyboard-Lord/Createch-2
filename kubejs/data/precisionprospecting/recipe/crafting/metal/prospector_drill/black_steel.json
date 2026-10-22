@@ -1,0 +1,46 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "precisionprospecting"
+    }
+  ],
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " NX",
+    "GHR",
+    "RLH"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:rivets/black_steel"
+    },
+    "R": {
+      "tag": "c:physical_rings/black_steel"
+    },
+    "X": {
+      "item": "precisionprospecting:metal/prospector_drill_head/black_steel"
+    },
+    "G": {
+      "tag": "c:glue"
+    },
+    "H": {
+      "tag": "c:handle/medium"
+    },
+    "L": {
+      "tag": "c:leather/string"
+    }
+  },
+  "result": {
+    "stack": {
+      "count": 1,
+      "id": "precisionprospecting:metal/prospector_drill/black_steel"
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  }
+}

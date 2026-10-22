@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "modern_industrialization:compressor",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": {
+    "item": "mekanism:hdpe_pellet",
+    "amount": 3
+  },
+  "item_outputs": {
+    "item": "mekanism:hdpe_sheet",
+    "amount": 1
+  }
+}

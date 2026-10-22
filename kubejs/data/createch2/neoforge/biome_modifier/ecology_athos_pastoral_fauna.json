@@ -1,0 +1,31 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:athos_clover_plains",
+    "createch2:athos_flower_fields",
+    "createch2:athos_magnolia_woodland",
+    "createch2:athos_orchard",
+    "createch2:athos_temperate_grove",
+    "createch2:athos_wisteria_grove"
+  ],
+  "spawners": [
+    {
+      "type": "tfc:deer",
+      "weight": 12,
+      "minCount": 2,
+      "maxCount": 5
+    },
+    {
+      "type": "tfc:gazelle",
+      "weight": 9,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "tfc:rabbit",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

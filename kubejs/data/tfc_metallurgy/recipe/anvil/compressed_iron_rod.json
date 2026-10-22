@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "count": 2,
+    "id": "tfc_metallurgy:metal/rod/compressed_iron"
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "apply_bonus": false
+}

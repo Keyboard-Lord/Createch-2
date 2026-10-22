@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "authority": "Observed loader selection in the frozen same-profile baseline; retain every physical artifact.",
+  "evidence": {
+    "file": "createch-dev/runtime-state/086a/baseline-startup/latest.log",
+    "sha256": "379bbb11a76e08a1006174091162bf2d60f586a6fb7aff5997b21c3de20e6725"
+  },
+  "duplicates": {
+    "tfmg": {
+      "selected": "tfmg-1.21.1-1.3.2a-community.jar",
+      "observedLine": "Create: The Factory Must Grow 1.3.2a-community (tfmg)",
+      "artifacts": {
+        "tfmg-1.2.0.jar": { "version": "1.2.0", "sha256": "fc824a91cfe22e137c9014ed608ee9bf35f16490d2162b687666332c6eb3a555" },
+        "tfmg-1.21.1-1.3.2a-community.jar": { "version": "1.3.2a-community", "sha256": "e9e84f7507b0b482d176c7f04eb924ed1396637f480d596a8b2d266fa51640d0" }
+      }
+    },
+    "computercraft": {
+      "selected": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "observedLine": "CC: Tweaked 1.120.0 (computercraft)",
+      "artifacts": {
+        "cc-tweaked-1.21.1-forge-1.113.1.jar": { "version": "1.113.1", "sha256": "f001e5fb2064d9007bb1e5a8177860fa15d9d92b75724871b0e0ae2177ca2f3f" },
+        "cc-tweaked-1.21.1-forge-1.120.0.jar": { "version": "1.120.0", "sha256": "81a903710d109d129c249c105695a96f4bad5e0acf7068920fb191ba791c14ce" }
+      }
+    }
+  },
+  "limits": "This pins the observed selection for known duplicate top-level mod IDs. Other providers, bundled-library selection, registry existence, conditions, codecs and effective recipe availability still require Minecraft. Reconcile after provider bytes change."
+}

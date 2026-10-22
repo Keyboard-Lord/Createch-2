@@ -1,0 +1,96 @@
+{
+  "type": "sgjourney:chulak",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:milky_way_planet",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:chulak_eucalyptus_forest",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.5,
+            "continentalness": 0.3,
+            "erosion": -0.4,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_baobab_savanna",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -0.4,
+            "continentalness": -0.1,
+            "erosion": 0.5,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_dry_bushland",
+          "parameters": {
+            "temperature": 0.9,
+            "humidity": -0.7,
+            "continentalness": 0.1,
+            "erosion": 0.8,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_arid_mountains",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -0.5,
+            "continentalness": 0.8,
+            "erosion": -0.8,
+            "weirdness": 0.9,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_bioshroom_caves",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0.4,
+            "weirdness": -0.3,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:chulak_redstone_caves",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": -0.4,
+            "weirdness": 0.2,
+            "depth": 1,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

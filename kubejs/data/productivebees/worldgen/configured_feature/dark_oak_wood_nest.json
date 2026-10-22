@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:dark_oak_wood_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:hickory_logs"
+        },
+        "state": {
+          "Name": "productivebees:dark_oak_wood_nest"
+        }
+      }
+    ]
+  }
+}

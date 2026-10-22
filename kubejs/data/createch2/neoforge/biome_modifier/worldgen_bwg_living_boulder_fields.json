@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:bwg_living_boulder_fields",
+  "features": [
+    "createch2:offworld/formations/mossy_boulders",
+    "createch2:offworld/formations/lush_boulders"
+  ],
+  "step": "local_modifications"
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "GBG",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "modern_industrialization:bronze_curved_plate"
+    },
+    "G": {
+      "tag": "c:heavy_gears/copper"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:item_pipe",
+    "count": 12
+  }
+}

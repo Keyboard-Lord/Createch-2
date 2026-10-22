@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:neutronium_gearbox"
+    }
+  ],
+  "result": {
+    "id": "greate:neutronium_vertical_gearbox",
+    "count": 1
+  }
+}

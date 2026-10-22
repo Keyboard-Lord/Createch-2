@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:seeds"
+    },
+    {
+      "tag": "c:seeds"
+    },
+    {
+      "item": "tfc:food/barley_grain"
+    },
+    {
+      "item": "tfc:food/oat_grain"
+    }
+  ],
+  "result": {
+    "id": "animaltrap:small_animals_bait",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "createch2:offworld_archaeology/mercurian_relay",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sgjourney:cartouche/red_sandstone_cartouche_monument",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 512,
+  "duration": 1800,
+  "item_inputs": [
+    {
+      "item": "sgjourney:crystal_base",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "amount": 16
+    },
+    {
+      "item": "modern_industrialization:superconductor_wire",
+      "amount": 16
+    },
+    {
+      "item": "sgjourney:naquadah_alloy",
+      "amount": 4
+    },
+    {
+      "tag": "createch2:malum_reality_engineering",
+      "amount": 4
+    },
+    {
+      "item": "eternal_starlight:malarite",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:uu_matter",
+    "amount": 250
+  },
+  "item_outputs": [
+    {
+      "item": "sgjourney:crystal_base",
+      "amount": 4
+    }
+  ]
+}

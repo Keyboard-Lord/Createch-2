@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "GHC",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "tag": "createch2:natural_rubber_sheet_precursors"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "greate:andesite_alloy_mechanical_pump"
+    },
+    "H": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "greate:steel_cogwheel"
+    }
+  },
+  "result": {
+    "id": "greate:steel_mechanical_pump",
+    "count": 1
+  }
+}

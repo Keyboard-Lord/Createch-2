@@ -1,0 +1,16 @@
+{
+  "type": "burnt_additions:sunken",
+  "template": "burnt_additions:volcano_deltas",
+  "y_offset": 2,
+  "flatness": 16,
+  "footprint": 20,
+  "flat_footprint": 1,
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "biomes": "#createch2:nether_volcanic_ecology",
+  "blend": false,
+  "fill_below": "minecraft:basalt",
+  "nether_floor": true,
+  "gate": "nether_volcano"
+}

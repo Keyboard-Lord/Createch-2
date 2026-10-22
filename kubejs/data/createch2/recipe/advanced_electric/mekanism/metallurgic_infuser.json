@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "PHP",
+    "AWA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/aluminum"
+    },
+    "C": {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "W": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    }
+  },
+  "result": {
+    "id": "mekanism:metallurgic_infuser",
+    "count": 1
+  }
+}

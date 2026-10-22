@@ -1,0 +1,28 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:abydos_ancient_sands",
+    "createch2:abydos_desert_oasis",
+    "createch2:abydos_ancient_delta"
+  ],
+  "spawners": [
+    {
+      "type": "tfc:dromedary_camel",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "tfc:gazelle",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "tfc:jerboa",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

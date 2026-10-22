@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SJS",
+    "PHP",
+    "TET"
+  ],
+  "key": {
+    "S": {
+      "item": "computercraft:cable"
+    },
+    "J": {
+      "item": "computercraft:computer_advanced"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "result": {
+    "id": "gtceu:iv_scanner",
+    "count": 1
+  }
+}

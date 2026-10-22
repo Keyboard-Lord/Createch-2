@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "ICI",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "mekanism:geiger_counter",
+    "count": 1
+  }
+}

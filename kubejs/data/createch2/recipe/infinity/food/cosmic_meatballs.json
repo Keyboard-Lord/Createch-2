@@ -1,0 +1,53 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shapeless_table",
+  "ingredients": [
+    {
+      "item": "tfc:food/beef"
+    },
+    {
+      "item": "tfc:food/pork"
+    },
+    {
+      "item": "tfc:food/mutton"
+    },
+    {
+      "item": "tfc:food/chicken"
+    },
+    {
+      "item": "tfc:food/rabbit"
+    },
+    {
+      "item": "tfc:food/cod"
+    },
+    {
+      "item": "tfc:food/salmon"
+    },
+    {
+      "item": "tfc:food/tropical_fish"
+    },
+    {
+      "item": "tfc:food/calamari"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "avaritia:neutron_nugget"
+    },
+    {
+      "item": "modern_industrialization:uu_matter_bucket"
+    }
+  ],
+  "result": {
+    "id": "avaritia:cosmic_meatballs",
+    "count": 1
+  },
+  "tier": 4
+}

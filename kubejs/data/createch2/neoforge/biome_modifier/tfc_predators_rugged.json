@@ -1,0 +1,42 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:tfc_structure_rugged_land",
+  "spawners": [
+    {
+      "type": "tfc:cougar",
+      "weight": 28,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:wolf",
+      "weight": 16,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "tfc:black_bear",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:grizzly_bear",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:sabertooth",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:direwolf",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

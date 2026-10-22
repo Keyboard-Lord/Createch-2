@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_dusts/refined_obsidian"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/refined_obsidian",
+    "amount": 5
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

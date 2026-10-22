@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "L",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "result": {
+    "id": "greate:andesite_alloy_shaft",
+    "count": 8
+  }
+}

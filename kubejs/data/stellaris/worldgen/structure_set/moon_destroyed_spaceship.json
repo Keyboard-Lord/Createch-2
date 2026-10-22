@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "stellaris:moon_destroyed_spaceship",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 810251829,
+    "frequency": 0.7,
+    "spacing": 52,
+    "separation": 32
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/enderium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/enderium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/enderium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/enderium",
+      "required": false
+    }
+  ]
+}

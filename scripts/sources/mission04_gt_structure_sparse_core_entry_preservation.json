@@ -1,0 +1,27 @@
+{
+  "truth": "STATIC_MISSION04_GT_STRUCTURE_SPARSE_CORE_ENTRY_PRESERVATION",
+  "before": "5053338d26af7422643b95283d81166fadac5443e3d714c4a111d89fa2ee3864",
+  "after": "bfbe4ed7145d0aa856da609838cd3567c4d0d7c0458e2fd78cbc178e0f661d53",
+  "added": [],
+  "changed": [
+    "createch2/core/compat/GtStructureDataFixPolicy.class",
+    "createch2/core/mixin/compat/GtStructureDataFixMixin.class"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 374,
+  "unchangedEntriesSha256": "b73887838a833a2c71765658a3555ae558f27c58fa198d2907a133871e732a2d",
+  "sourceCheckpoint": "5266145",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-5053338d26af7422643b95283d81166fadac5443e3d714c4a111d89fa2ee3864.jar",
+  "entrySha256": {
+    "createch2/core/compat/GtStructureDataFixPolicy.class": {
+      "before": "82abc6d960323c35b4f3b387a9ff7f2c1c46f03afe36c8fe8d47ebe8e01d7a6a",
+      "after": "28f86470337d972fd6521e0f33b9c2bb03e6d47b65918995a2508f3b736e8a48"
+    },
+    "createch2/core/mixin/compat/GtStructureDataFixMixin.class": {
+      "before": "585f66b6056f0025f86c720f7d4ebf1bb7081fc0374ad1185b2d131366616596",
+      "after": "72002e3e333db8dfe1d56a655c6da5e36f794aa8c895415e26d000b2430d088c"
+    }
+  },
+  "scope": "Only sparse native GT STRUCTURE traversal: retain all palette/entity/blockentity migration,restore plain remainders in order,fail back on unknown/future/malformed/unexpected results. Native candidate acceptance pending."
+}

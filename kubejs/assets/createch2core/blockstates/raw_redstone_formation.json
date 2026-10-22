@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createch2core:block/raw_redstone_formation"
+    }
+  }
+}

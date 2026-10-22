@@ -1,0 +1,2531 @@
+{
+  "nativeClasses": {
+    "master": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity",
+      false
+    ],
+    "hatch": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlockEntity",
+      false
+    ],
+    "shape": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceMultiblock",
+      false
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "fluidExtract": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$2"
+    ],
+    "chute": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.chute.ChuteBlockEntity",
+      false
+    ],
+    "outputBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlock"
+    ],
+    "outputBlockV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlock",
+      true
+    ],
+    "hatchBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlock"
+    ],
+    "blockTypes": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceMultiblock$BlockType"
+    ],
+    "params": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.IndustrialBlastingRecipeParams"
+    ],
+    "recipe": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.IndustrialBlastingRecipe"
+    ],
+    "combinedTank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.CombinedTankWrapper"
+    ],
+    "basin": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.casting_basin.CastingBasinBlockEntity"
+    ],
+    "castingRecipe": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.CastingRecipe"
+    ],
+    "coreCasting": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.TfmgCastingBatchMixin"
+    ],
+    "coreTank": [
+      "createch2core.jar",
+      "createch2.core.compat.RecipeSizedCastingTank"
+    ]
+  },
+  "nativeCodeSha256": {
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "hatch": "e255850fcd09e066e7c44d42fb7b956ef966ddef92459e0562bd9fafaa701e74",
+    "shape": "fb8a19ba562b062a52bdc73ee241176ab1d9cc35e7737226cdf9bb3e0a8bc0ce",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidExtract": "3088821e79a1b5f18928d6775a4c0ca48c4ebad3107df050ed56b13f09012872",
+    "chute": "d3c7769630f557229ff6dc7c0ca6f0bff5f7d27a53238402ac7f17943f3f288f",
+    "outputBlock": "72c5ad08e31c3a08ecca62a3eb80ad76e6ba3f73dcb72bb4fffcdd062207fcd1",
+    "outputBlockV": "8ad3dce5021c0173e8f3ac6091ec4529ea5138d5a920c947b1ca694aa334f63f",
+    "hatchBlock": "9c8b5a314ea7239bbdd91d25d4db46b3b8e191dc84dc70e186519e3f18eea422",
+    "blockTypes": "b665cae22bf2576fc7514181141191766798c2cc5657dae3e71a022d4a103195",
+    "params": "1a2a4621faa65d9ed1e523ceb926c9a024d395ebf7fb007052721828b0d698f5",
+    "recipe": "b9026f43c0584257b3d548eb23201f12d10d3c9405453710788a50affc38319c",
+    "combinedTank": "d9e77beb27d3311c4d3bdd372ae8dbd155448b7f0bb6c474b1506931861cebf0",
+    "basin": "edac4549bddcf8e8b5b6da8d8d20fc631fbb14b492f0fcb355cc43e575bfd971",
+    "castingRecipe": "119f8a89a12e70aadae3631014d32b6fedb8a52778926b8f12125ef055811ae1",
+    "coreCasting": "0e8adbdd1ef9ce2a97faf8396b06612cf94abba4717722922551de257bb51f84",
+    "coreTank": "56d91069f1992bbcac8ada08336c450d46ecf2294183113b24a79c0100e7bfd8"
+  },
+  "ids": {
+    "reaction": "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust",
+    "casting": "createch2:steel_steam/tfmg/casting/steel_ingot",
+    "hatch": "tfmg:crafting/materials/blast_furnace_hatch",
+    "output": "tfmg:crafting/materials/blast_furnace_output",
+    "wall": "tfmg:crafting/materials/fireproof_bricks",
+    "support": "tfmg:crafting/materials/fireproof_brick_reinforcement",
+    "basin": "tfmg:crafting/materials/casting_basin",
+    "ironTank": "tfmg:crafting/materials/cast_iron_fluid_tank",
+    "ironPipe": "tfmg:crafting/materials/cast_iron_pipe",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "bufferCraft": "create:crafting/kinetics/fluid_tank",
+    "chute": "create:crafting/kinetics/chute"
+  },
+  "recipes": {
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:industrial_blasting",
+      "hot_air_usage": 40,
+      "ingredients": [
+        {
+          "tag": "c:dusts/iron"
+        },
+        {
+          "item": "tfc:powder/flux"
+        }
+      ],
+      "processing_time": 80,
+      "results": [
+        {
+          "amount": 144,
+          "id": "tfmg:molten_steel"
+        },
+        {
+          "amount": 144,
+          "id": "tfmg:molten_slag"
+        },
+        {
+          "amount": 100,
+          "id": "tfmg:furnace_gas"
+        }
+      ]
+    },
+    "createch2:steel_steam/tfmg/casting/steel_ingot": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:casting",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 144,
+          "fluid": "tfmg:molten_steel"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "id": "tfmg:steel_ingot"
+        }
+      ]
+    },
+    "tfmg:crafting/materials/blast_furnace_hatch": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": {
+          "item": "tfmg:fireproof_bricks"
+        },
+        "I": {
+          "tag": "c:plates/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        },
+        "T": {
+          "item": "tfmg:cast_iron_fluid_tank"
+        }
+      },
+      "pattern": [
+        "FIF",
+        "PTP",
+        "FIF"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:blast_furnace_hatch"
+      }
+    },
+    "tfmg:crafting/materials/blast_furnace_output": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_bricks"
+        },
+        "C": {
+          "item": "tfmg:cast_iron_pipe"
+        },
+        "Q": {
+          "tag": "c:storage_blocks/cast_iron"
+        }
+      },
+      "pattern": [
+        "BCB",
+        "CQC",
+        "BCB"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:blast_furnace_output"
+      }
+    },
+    "tfmg:crafting/materials/fireproof_bricks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_brick"
+        }
+      },
+      "pattern": [
+        "BB ",
+        "BB ",
+        "   "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:fireproof_bricks"
+      }
+    },
+    "tfmg:crafting/materials/fireproof_brick_reinforcement": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "W": {
+          "item": "tfmg:fireproof_bricks"
+        }
+      },
+      "pattern": [
+        "   ",
+        "WWW",
+        "WWW"
+      ],
+      "result": {
+        "count": 6,
+        "id": "tfmg:fireproof_brick_reinforcement"
+      }
+    },
+    "tfmg:crafting/materials/casting_basin": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_brick"
+        },
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "BPB",
+        "CBC",
+        "CCC"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:casting_basin"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": [
+          {
+            "item": "minecraft:barrel"
+          },
+          {
+            "tag": "c:barrels/wooden"
+          }
+        ],
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        " P ",
+        " B ",
+        " P "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:cast_iron_fluid_tank"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        "   ",
+        "PIP",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfmg:cast_iron_pipe"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "create:crafting/kinetics/chute": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:plates/iron"
+        },
+        "I": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "A",
+        "I",
+        "A"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create:chute"
+      }
+    }
+  },
+  "effectiveRecipes": {
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:industrial_blasting",
+      "hot_air_usage": 40,
+      "ingredients": [
+        {
+          "tag": "c:dusts/iron"
+        },
+        {
+          "item": "tfc:powder/flux"
+        }
+      ],
+      "processing_time": 80,
+      "results": [
+        {
+          "amount": 144,
+          "id": "tfmg:molten_steel"
+        },
+        {
+          "amount": 144,
+          "id": "tfmg:molten_slag"
+        },
+        {
+          "amount": 100,
+          "id": "tfmg:furnace_gas"
+        }
+      ]
+    },
+    "createch2:steel_steam/tfmg/casting/steel_ingot": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:casting",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 144,
+          "fluid": "tfmg:molten_steel"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "id": "tfmg:steel_ingot"
+        }
+      ]
+    },
+    "tfmg:crafting/materials/blast_furnace_hatch": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": {
+          "item": "tfmg:fireproof_bricks"
+        },
+        "I": {
+          "tag": "c:plates/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        },
+        "T": {
+          "item": "tfmg:cast_iron_fluid_tank"
+        }
+      },
+      "pattern": [
+        "FIF",
+        "PTP",
+        "FIF"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:blast_furnace_hatch"
+      }
+    },
+    "tfmg:crafting/materials/blast_furnace_output": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_bricks"
+        },
+        "C": {
+          "item": "tfmg:cast_iron_pipe"
+        },
+        "Q": {
+          "tag": "c:storage_blocks/cast_iron"
+        }
+      },
+      "pattern": [
+        "BCB",
+        "CQC",
+        "BCB"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:blast_furnace_output"
+      }
+    },
+    "tfmg:crafting/materials/fireproof_bricks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_brick"
+        }
+      },
+      "pattern": [
+        "BB ",
+        "BB ",
+        "   "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:fireproof_bricks"
+      }
+    },
+    "tfmg:crafting/materials/fireproof_brick_reinforcement": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "W": {
+          "item": "tfmg:fireproof_bricks"
+        }
+      },
+      "pattern": [
+        "   ",
+        "WWW",
+        "WWW"
+      ],
+      "result": {
+        "count": 6,
+        "id": "tfmg:fireproof_brick_reinforcement"
+      }
+    },
+    "tfmg:crafting/materials/casting_basin": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_brick"
+        },
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "BPB",
+        "CBC",
+        "CCC"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:casting_basin"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": [
+          {
+            "item": "minecraft:barrel"
+          },
+          {
+            "tag": "c:barrels/wooden"
+          }
+        ],
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        " P ",
+        " B ",
+        " P "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:cast_iron_fluid_tank"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        "   ",
+        "PIP",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfmg:cast_iron_pipe"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "create:crafting/kinetics/chute": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:plates/iron"
+        },
+        "I": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "A",
+        "I",
+        "A"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create:chute"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust": "authored",
+    "createch2:steel_steam/tfmg/casting/steel_ingot": "authored",
+    "tfmg:crafting/materials/blast_furnace_hatch": "native",
+    "tfmg:crafting/materials/blast_furnace_output": "native",
+    "tfmg:crafting/materials/fireproof_bricks": "native",
+    "tfmg:crafting/materials/fireproof_brick_reinforcement": "native",
+    "tfmg:crafting/materials/casting_basin": "native",
+    "tfmg:crafting/materials/cast_iron_fluid_tank": "authored",
+    "tfmg:crafting/materials/cast_iron_pipe": "native",
+    "createch2:age_foundation/mi_bronze/fluid_pipe": "authored",
+    "create:crafting/kinetics/fluid_tank": "native",
+    "create:crafting/kinetics/chute": "native"
+  },
+  "nativeRows": {
+    "tfmg:crafting/materials/blast_furnace_hatch": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "F": {
+              "item": "tfmg:fireproof_bricks"
+            },
+            "I": {
+              "tag": "c:plates/cast_iron"
+            },
+            "P": {
+              "item": "tfmg:cast_iron_pipe"
+            },
+            "T": {
+              "item": "tfmg:cast_iron_fluid_tank"
+            }
+          },
+          "pattern": [
+            "FIF",
+            "PTP",
+            "FIF"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:blast_furnace_hatch"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/blast_furnace_output": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "tfmg:fireproof_bricks"
+            },
+            "C": {
+              "item": "tfmg:cast_iron_pipe"
+            },
+            "Q": {
+              "tag": "c:storage_blocks/cast_iron"
+            }
+          },
+          "pattern": [
+            "BCB",
+            "CQC",
+            "BCB"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:blast_furnace_output"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/fireproof_bricks": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "tfmg:fireproof_brick"
+            }
+          },
+          "pattern": [
+            "BB ",
+            "BB ",
+            "   "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:fireproof_bricks"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/fireproof_brick_reinforcement": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "W": {
+              "item": "tfmg:fireproof_bricks"
+            }
+          },
+          "pattern": [
+            "   ",
+            "WWW",
+            "WWW"
+          ],
+          "result": {
+            "count": 6,
+            "id": "tfmg:fireproof_brick_reinforcement"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/casting_basin": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "tfmg:fireproof_brick"
+            },
+            "C": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          },
+          "pattern": [
+            "BPB",
+            "CBC",
+            "CCC"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:casting_basin"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/cast_iron_pipe": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "tag": "c:plates/cast_iron"
+            }
+          },
+          "pattern": [
+            "   ",
+            "PIP",
+            "   "
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:cast_iron_pipe"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/fluid_tank": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:plates/copper"
+            },
+            "C": {
+              "tag": "c:barrels/wooden"
+            }
+          },
+          "pattern": [
+            "B",
+            "C",
+            "B"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:fluid_tank"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/chute": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "A": {
+              "tag": "c:plates/iron"
+            },
+            "I": {
+              "tag": "c:ingots/iron"
+            }
+          },
+          "pattern": [
+            "A",
+            "I",
+            "A"
+          ],
+          "result": {
+            "count": 4,
+            "id": "create:chute"
+          }
+        }
+      }
+    ]
+  },
+  "normalizations": {
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust": [],
+    "createch2:steel_steam/tfmg/casting/steel_ingot": [],
+    "tfmg:crafting/materials/blast_furnace_hatch": [],
+    "tfmg:crafting/materials/blast_furnace_output": [],
+    "tfmg:crafting/materials/fireproof_bricks": [],
+    "tfmg:crafting/materials/fireproof_brick_reinforcement": [],
+    "tfmg:crafting/materials/casting_basin": [],
+    "tfmg:crafting/materials/cast_iron_fluid_tank": [],
+    "tfmg:crafting/materials/cast_iron_pipe": [],
+    "createch2:age_foundation/mi_bronze/fluid_pipe": [],
+    "create:crafting/kinetics/fluid_tank": [],
+    "create:crafting/kinetics/chute": []
+  },
+  "furnace": {
+    "origin": [
+      40,
+      0,
+      3
+    ],
+    "height": 3,
+    "facing": "NORTH",
+    "master": [
+      40,
+      0,
+      2
+    ],
+    "topHatch": [
+      40,
+      3,
+      3
+    ],
+    "tuyere": [
+      39,
+      1,
+      3
+    ],
+    "wallBlocks": 11,
+    "supports": 12,
+    "hatches": 2,
+    "primaryTankMb": 4000,
+    "slagTankMb": 4000,
+    "topGasTankMb": 4000,
+    "tuyereTankMb": 4000
+  },
+  "caster": {
+    "basin": [
+      40,
+      0,
+      -2
+    ],
+    "chute": [
+      40,
+      -1,
+      -2
+    ],
+    "clearOutput": [
+      40,
+      -2,
+      -2
+    ],
+    "networkRule": "Initially empty isolated steel pipe network selects the first (primary molten-steel) fluid. Preserve its cached fluid identity; do not reset or merge it with a different fluid. Slag stays in the secondary furnace tank."
+  },
+  "banks": {
+    "hotAir": [
+      [
+        16,
+        -2,
+        3
+      ],
+      [
+        18,
+        -2,
+        3
+      ],
+      [
+        20,
+        -2,
+        3
+      ]
+    ],
+    "co2": [
+      [
+        8,
+        0,
+        10
+      ],
+      [
+        10,
+        0,
+        10
+      ],
+      [
+        12,
+        0,
+        10
+      ]
+    ],
+    "furnaceGas": [
+      [
+        44,
+        6,
+        3
+      ],
+      [
+        46,
+        6,
+        3
+      ],
+      [
+        48,
+        6,
+        3
+      ],
+      [
+        50,
+        6,
+        3
+      ],
+      [
+        52,
+        6,
+        3
+      ],
+      [
+        54,
+        6,
+        3
+      ],
+      [
+        56,
+        6,
+        3
+      ],
+      [
+        58,
+        6,
+        3
+      ],
+      [
+        60,
+        6,
+        3
+      ],
+      [
+        62,
+        6,
+        3
+      ],
+      [
+        64,
+        6,
+        3
+      ],
+      [
+        66,
+        6,
+        3
+      ],
+      [
+        68,
+        6,
+        3
+      ],
+      [
+        70,
+        6,
+        3
+      ],
+      [
+        72,
+        6,
+        3
+      ],
+      [
+        74,
+        6,
+        3
+      ],
+      [
+        76,
+        6,
+        3
+      ],
+      [
+        78,
+        6,
+        3
+      ]
+    ]
+  },
+  "networks": {
+    "air": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        6,
+        3
+      ],
+      [
+        1,
+        6,
+        3
+      ],
+      [
+        2,
+        6,
+        3
+      ],
+      [
+        3,
+        6,
+        3
+      ],
+      [
+        4,
+        6,
+        3
+      ],
+      [
+        5,
+        6,
+        3
+      ],
+      [
+        6,
+        2,
+        3
+      ],
+      [
+        6,
+        3,
+        3
+      ],
+      [
+        6,
+        4,
+        3
+      ],
+      [
+        6,
+        5,
+        3
+      ],
+      [
+        6,
+        6,
+        3
+      ],
+      [
+        7,
+        0,
+        3
+      ],
+      [
+        7,
+        1,
+        3
+      ],
+      [
+        7,
+        2,
+        3
+      ]
+    ],
+    "creosote": [
+      [
+        -13,
+        1,
+        4
+      ],
+      [
+        -13,
+        2,
+        4
+      ],
+      [
+        -13,
+        3,
+        4
+      ],
+      [
+        -13,
+        4,
+        4
+      ],
+      [
+        -13,
+        5,
+        4
+      ],
+      [
+        -13,
+        6,
+        4
+      ],
+      [
+        -13,
+        7,
+        4
+      ],
+      [
+        -13,
+        8,
+        4
+      ],
+      [
+        -13,
+        9,
+        4
+      ],
+      [
+        -13,
+        10,
+        4
+      ],
+      [
+        -12,
+        10,
+        4
+      ],
+      [
+        -11,
+        10,
+        4
+      ],
+      [
+        -10,
+        10,
+        4
+      ],
+      [
+        -9,
+        10,
+        4
+      ],
+      [
+        -8,
+        10,
+        4
+      ],
+      [
+        -7,
+        10,
+        4
+      ],
+      [
+        -6,
+        10,
+        4
+      ],
+      [
+        -5,
+        10,
+        4
+      ],
+      [
+        -4,
+        10,
+        4
+      ],
+      [
+        -3,
+        10,
+        4
+      ],
+      [
+        -2,
+        10,
+        4
+      ],
+      [
+        -1,
+        10,
+        4
+      ],
+      [
+        0,
+        10,
+        4
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        2,
+        10,
+        4
+      ],
+      [
+        3,
+        10,
+        4
+      ],
+      [
+        4,
+        10,
+        4
+      ],
+      [
+        5,
+        10,
+        4
+      ],
+      [
+        6,
+        10,
+        4
+      ],
+      [
+        7,
+        10,
+        4
+      ],
+      [
+        8,
+        4,
+        3
+      ],
+      [
+        8,
+        5,
+        3
+      ],
+      [
+        8,
+        6,
+        3
+      ],
+      [
+        8,
+        7,
+        3
+      ],
+      [
+        8,
+        8,
+        3
+      ],
+      [
+        8,
+        9,
+        3
+      ],
+      [
+        8,
+        10,
+        3
+      ],
+      [
+        8,
+        10,
+        4
+      ]
+    ],
+    "hotAir": [
+      [
+        8,
+        -4,
+        3
+      ],
+      [
+        8,
+        -3,
+        3
+      ],
+      [
+        8,
+        -2,
+        3
+      ],
+      [
+        8,
+        -1,
+        3
+      ],
+      [
+        9,
+        -4,
+        3
+      ],
+      [
+        10,
+        -4,
+        3
+      ],
+      [
+        11,
+        -4,
+        3
+      ],
+      [
+        12,
+        -4,
+        3
+      ],
+      [
+        13,
+        -4,
+        3
+      ],
+      [
+        14,
+        -4,
+        3
+      ],
+      [
+        15,
+        -4,
+        3
+      ],
+      [
+        16,
+        -4,
+        3
+      ],
+      [
+        16,
+        -3,
+        3
+      ],
+      [
+        17,
+        -4,
+        3
+      ],
+      [
+        18,
+        -4,
+        3
+      ],
+      [
+        18,
+        -3,
+        3
+      ],
+      [
+        19,
+        -4,
+        3
+      ],
+      [
+        20,
+        -4,
+        3
+      ],
+      [
+        20,
+        -3,
+        3
+      ],
+      [
+        21,
+        -4,
+        3
+      ],
+      [
+        22,
+        -4,
+        3
+      ],
+      [
+        23,
+        -4,
+        3
+      ],
+      [
+        24,
+        -4,
+        3
+      ],
+      [
+        25,
+        -4,
+        3
+      ],
+      [
+        26,
+        -4,
+        3
+      ],
+      [
+        27,
+        -4,
+        3
+      ],
+      [
+        28,
+        -4,
+        3
+      ],
+      [
+        29,
+        -4,
+        3
+      ],
+      [
+        30,
+        -4,
+        3
+      ],
+      [
+        31,
+        -4,
+        3
+      ],
+      [
+        32,
+        -4,
+        3
+      ],
+      [
+        33,
+        -4,
+        3
+      ],
+      [
+        34,
+        -4,
+        3
+      ],
+      [
+        35,
+        -4,
+        3
+      ],
+      [
+        36,
+        -4,
+        3
+      ],
+      [
+        37,
+        -4,
+        3
+      ],
+      [
+        38,
+        -4,
+        3
+      ],
+      [
+        38,
+        -3,
+        3
+      ],
+      [
+        38,
+        -2,
+        3
+      ],
+      [
+        38,
+        -1,
+        3
+      ],
+      [
+        38,
+        0,
+        3
+      ],
+      [
+        38,
+        1,
+        3
+      ]
+    ],
+    "co2": [
+      [
+        8,
+        -1,
+        8
+      ],
+      [
+        8,
+        -1,
+        9
+      ],
+      [
+        8,
+        -1,
+        10
+      ],
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        8,
+        0,
+        5
+      ],
+      [
+        8,
+        0,
+        6
+      ],
+      [
+        8,
+        0,
+        7
+      ],
+      [
+        8,
+        0,
+        8
+      ],
+      [
+        9,
+        -1,
+        10
+      ],
+      [
+        10,
+        -1,
+        10
+      ],
+      [
+        11,
+        -1,
+        10
+      ],
+      [
+        12,
+        -1,
+        10
+      ]
+    ],
+    "furnaceGas": [
+      [
+        44,
+        7,
+        3
+      ],
+      [
+        44,
+        8,
+        3
+      ],
+      [
+        45,
+        8,
+        3
+      ],
+      [
+        46,
+        7,
+        3
+      ],
+      [
+        46,
+        8,
+        3
+      ],
+      [
+        47,
+        8,
+        3
+      ],
+      [
+        48,
+        7,
+        3
+      ],
+      [
+        48,
+        8,
+        3
+      ],
+      [
+        49,
+        8,
+        3
+      ],
+      [
+        50,
+        7,
+        3
+      ],
+      [
+        50,
+        8,
+        3
+      ],
+      [
+        51,
+        8,
+        3
+      ],
+      [
+        52,
+        7,
+        3
+      ],
+      [
+        52,
+        8,
+        3
+      ],
+      [
+        53,
+        8,
+        3
+      ],
+      [
+        54,
+        7,
+        3
+      ],
+      [
+        54,
+        8,
+        3
+      ],
+      [
+        55,
+        8,
+        3
+      ],
+      [
+        56,
+        7,
+        3
+      ],
+      [
+        56,
+        8,
+        3
+      ],
+      [
+        57,
+        8,
+        3
+      ],
+      [
+        58,
+        7,
+        3
+      ],
+      [
+        58,
+        8,
+        3
+      ],
+      [
+        59,
+        8,
+        3
+      ],
+      [
+        60,
+        7,
+        3
+      ],
+      [
+        60,
+        8,
+        3
+      ],
+      [
+        61,
+        8,
+        3
+      ],
+      [
+        62,
+        7,
+        3
+      ],
+      [
+        62,
+        8,
+        3
+      ],
+      [
+        63,
+        8,
+        3
+      ],
+      [
+        64,
+        7,
+        3
+      ],
+      [
+        64,
+        8,
+        3
+      ],
+      [
+        65,
+        8,
+        3
+      ],
+      [
+        66,
+        7,
+        3
+      ],
+      [
+        66,
+        8,
+        3
+      ],
+      [
+        67,
+        8,
+        3
+      ],
+      [
+        68,
+        7,
+        3
+      ],
+      [
+        68,
+        8,
+        3
+      ],
+      [
+        69,
+        8,
+        3
+      ],
+      [
+        70,
+        7,
+        3
+      ],
+      [
+        70,
+        8,
+        3
+      ],
+      [
+        71,
+        8,
+        3
+      ],
+      [
+        72,
+        7,
+        3
+      ],
+      [
+        72,
+        8,
+        3
+      ],
+      [
+        73,
+        8,
+        3
+      ],
+      [
+        74,
+        7,
+        3
+      ],
+      [
+        74,
+        8,
+        3
+      ],
+      [
+        75,
+        8,
+        3
+      ],
+      [
+        76,
+        7,
+        3
+      ],
+      [
+        76,
+        8,
+        3
+      ],
+      [
+        77,
+        8,
+        3
+      ],
+      [
+        78,
+        7,
+        3
+      ],
+      [
+        78,
+        8,
+        3
+      ],
+      [
+        40,
+        3,
+        4
+      ],
+      [
+        40,
+        4,
+        4
+      ],
+      [
+        40,
+        5,
+        4
+      ],
+      [
+        40,
+        6,
+        4
+      ],
+      [
+        40,
+        7,
+        4
+      ],
+      [
+        40,
+        8,
+        4
+      ],
+      [
+        41,
+        8,
+        4
+      ],
+      [
+        42,
+        8,
+        4
+      ],
+      [
+        43,
+        8,
+        4
+      ],
+      [
+        44,
+        8,
+        4
+      ]
+    ],
+    "steel": [
+      [
+        40,
+        0,
+        -1
+      ],
+      [
+        40,
+        0,
+        0
+      ],
+      [
+        40,
+        0,
+        1
+      ]
+    ]
+  },
+  "ports": [
+    {
+      "network": "air",
+      "node": [
+        0,
+        4,
+        3
+      ],
+      "block": [
+        0,
+        3,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:air"
+    },
+    {
+      "network": "air",
+      "node": [
+        7,
+        0,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:air",
+      "enabled": false
+    },
+    {
+      "network": "creosote",
+      "node": [
+        -13,
+        1,
+        4
+      ],
+      "block": [
+        -14,
+        1,
+        4
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "railcraft:creosote"
+    },
+    {
+      "network": "creosote",
+      "node": [
+        8,
+        4,
+        3
+      ],
+      "block": [
+        8,
+        3,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "railcraft:creosote",
+      "enabled": false
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        8,
+        -1,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        0,
+        4
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        16,
+        -3,
+        3
+      ],
+      "block": [
+        16,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        18,
+        -3,
+        3
+      ],
+      "block": [
+        18,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        20,
+        -3,
+        3
+      ],
+      "block": [
+        20,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        -1,
+        10
+      ],
+      "block": [
+        8,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        10,
+        -1,
+        10
+      ],
+      "block": [
+        10,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        12,
+        -1,
+        10
+      ],
+      "block": [
+        12,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        38,
+        1,
+        3
+      ],
+      "block": [
+        39,
+        1,
+        3
+      ],
+      "fluid": "tfmg:hot_air",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        40,
+        3,
+        4
+      ],
+      "block": [
+        40,
+        3,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_OUT"
+    },
+    {
+      "network": "steel",
+      "node": [
+        40,
+        0,
+        1
+      ],
+      "block": [
+        40,
+        0,
+        2
+      ],
+      "fluid": "tfmg:molten_steel",
+      "mode": "BLOCK_OUT"
+    },
+    {
+      "network": "steel",
+      "node": [
+        40,
+        0,
+        -1
+      ],
+      "block": [
+        40,
+        0,
+        -2
+      ],
+      "fluid": "tfmg:molten_steel",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        44,
+        7,
+        3
+      ],
+      "block": [
+        44,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        46,
+        7,
+        3
+      ],
+      "block": [
+        46,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        48,
+        7,
+        3
+      ],
+      "block": [
+        48,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        50,
+        7,
+        3
+      ],
+      "block": [
+        50,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        52,
+        7,
+        3
+      ],
+      "block": [
+        52,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        54,
+        7,
+        3
+      ],
+      "block": [
+        54,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        56,
+        7,
+        3
+      ],
+      "block": [
+        56,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        58,
+        7,
+        3
+      ],
+      "block": [
+        58,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        60,
+        7,
+        3
+      ],
+      "block": [
+        60,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        62,
+        7,
+        3
+      ],
+      "block": [
+        62,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        64,
+        7,
+        3
+      ],
+      "block": [
+        64,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        66,
+        7,
+        3
+      ],
+      "block": [
+        66,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        68,
+        7,
+        3
+      ],
+      "block": [
+        68,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        70,
+        7,
+        3
+      ],
+      "block": [
+        70,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        72,
+        7,
+        3
+      ],
+      "block": [
+        72,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        74,
+        7,
+        3
+      ],
+      "block": [
+        74,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        76,
+        7,
+        3
+      ],
+      "block": [
+        76,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        78,
+        7,
+        3
+      ],
+      "block": [
+        78,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    }
+  ],
+  "feed": {
+    "chute": [
+      40,
+      4,
+      3
+    ],
+    "clear": [
+      40,
+      5,
+      3
+    ],
+    "gasExtraction": "SOUTH",
+    "strategy": "Drop one iron dust, one TFCflux and three fresh coke dust onto the top open gravity chute before work. Native top-hatch filters and lazy transfer route the three kinds to the master. No item occupies the gas pipe."
+  },
+  "quantityPlan": {
+    "initialHotAirMb": 55000,
+    "nativeDuration": 1360,
+    "paidWorkCalls": 1360,
+    "completionCalls": 1,
+    "workAndCompletionCallsExcludingGaps": 1361,
+    "hotAirPerWorkMb": 40,
+    "hotAirConsumedMb": 54400,
+    "hotAirRetainedMb": 600,
+    "freshCokeDust": 3,
+    "initialFuelConsumeTimer": 0,
+    "fuelWorkCallsPerDust": 600,
+    "furnaceGasPerWorkMb": 100,
+    "furnaceGasProducedMb": 136000,
+    "gasTankBlocks": 18,
+    "gasTankMbEach": 8000,
+    "gasStorageMb": 144000,
+    "moltenSteelMb": 144,
+    "moltenSlagMb": 144,
+    "castingInputMb": 144,
+    "castSteelIngots": 1,
+    "pipeBlocksMainPlant": 174,
+    "pipeBlocksCokingVent": 2,
+    "totalPipeBlocks": 176,
+    "pipeCrafts": 15,
+    "pipesProduced": 180,
+    "sparePipes": 4,
+    "gasNetworkPipes": 63,
+    "chutesForCoking": 1,
+    "chutesForCrushing": 2,
+    "chutesForFurnace": 1,
+    "chutesForCasting": 1,
+    "chutesUsed": 5,
+    "chuteCrafts": 2,
+    "chutesProduced": 8,
+    "spareChutes": 3,
+    "oakBarrelsForStoveBanksAndHatches": 30,
+    "oakLumberForThoseBarrels": 210,
+    "containerBillExcludesIntakeAndEarlierFactories": true
+  },
+  "phase": "After the paid55Lprecharge: stop intake and stove air/fuel inputs, switch all three hot-air bank endpoints to extraction, then enable tuyere input and gas/steel handling. Precharge endpoint states remain in the shared hot-air contract."
+}

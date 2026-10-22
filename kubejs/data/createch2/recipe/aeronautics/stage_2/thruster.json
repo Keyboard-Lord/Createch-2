@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HCH",
+    "PBP",
+    "SES"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "P": {
+      "item": "greate:steel_mechanical_pump"
+    },
+    "B": {
+      "item": "createpropulsion:liquid_burner"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "E": {
+      "item": "simulated:engine_assembly"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:thruster",
+    "count": 1
+  }
+}

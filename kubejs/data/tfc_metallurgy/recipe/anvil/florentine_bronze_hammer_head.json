@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/hammer_head/florentine_bronze"
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "shrink_not_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/florentine_bronze"
+  },
+  "apply_bonus": true
+}

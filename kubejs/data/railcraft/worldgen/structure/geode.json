@@ -1,0 +1,6 @@
+{
+  "type": "railcraft:geode",
+  "biomes": "#createch2:tfc_structure_ocean",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/electrum"
+    },
+    {
+      "tag": "c:rivets/electrum"
+    },
+    {
+      "tag": "c:screws/electrum"
+    },
+    {
+      "tag": "c:physical_screws/electrum"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 540,
+  "welding_temperature": 720
+}

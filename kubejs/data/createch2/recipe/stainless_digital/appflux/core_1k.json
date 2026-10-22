@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "RER",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:dusts/certus_quartz"
+    },
+    "R": {
+      "item": "appflux:redstone_crystal"
+    },
+    "E": {
+      "item": "appflux:energy_processor"
+    }
+  },
+  "result": {
+    "id": "appflux:core_1k",
+    "count": 1
+  }
+}

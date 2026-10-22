@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:death_angel_frontier",
+  "spawners": {
+    "type": "death_angels:realistic_death_angel",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

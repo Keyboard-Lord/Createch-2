@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_venusian_field_station": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "createch2:offworld_archaeology/venusian_field_station"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_venusian_field_station"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

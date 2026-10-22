@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:cooked_salmon"
+  },
+  "edible": true,
+  "protein": 2,
+  "decay_modifier": 2.25,
+  "hunger": 4,
+  "saturation": 1
+}

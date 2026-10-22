@@ -1,0 +1,225 @@
+{
+  "truth": "REVIEWED_NATIVE_STEEL_FLUID_PIPE_RESTORATION",
+  "ids": [
+    "tfmg:crafting/materials/steel_pipe",
+    "tfmg:crafting/materials/steel_pipe_vertical"
+  ],
+  "output": "tfmg:steel_pipe",
+  "gate": "CHE-01",
+  "priorNode": {
+    "code": "CHE-01",
+    "id": "createch2:che_01_process_control",
+    "page": "createch2:process_resources",
+    "name": "Process Control",
+    "description": "Establish controlled fluid separation and petroleum handling.",
+    "icon": "tfmg:steel_distillation_controller",
+    "parents": [
+      "createch2:sci_01_empirical_method"
+    ],
+    "cost": {
+      "class": "A",
+      "packs": [
+        "process_samples",
+        "material_specimens"
+      ]
+    },
+    "recipes_unlocked": [
+      "createch2:heavy_industry/tfmg/distillation_controller",
+      "createch2:heavy_industry/tfmg/distillation_output",
+      "createch2:research/pack/process_samples_heated",
+      "createch2:process_facilities/transport/large_tank",
+      "createch2:process_facilities/transport/large_tank_hatch",
+      "createch2:heavy_industry/tfmg/steel_fluid_tank",
+      "createch2:heavy_industry/tfmg/process_gas_coking",
+      "createch2:heavy_industry/tfmg/steel_chemical_vat",
+      "createch2:heavy_industry/tfmg/sulfuric_acid_tfc_minerals",
+      "createch2:chemical_age/mi/coal_dust_from_geological_coal"
+    ],
+    "items_covered": [
+      "tfmg:steel_distillation_controller",
+      "tfmg:distillation_output"
+    ],
+    "earliest_age": "Age 04 Heavy Industry",
+    "authority": "TFMG process authority",
+    "notes": "Process-science root.",
+    "audit": {
+      "classification": "Production capability and same-output observation separated",
+      "earliest_required_consumer": "No reviewed quest requires this specific locked production capability.",
+      "consumer_quests": [],
+      "same_output_consumer_quests": [
+        "024F0B82259320A0",
+        "0B43C7371D48D3E1",
+        "0B5A5B1254EE88FF",
+        "17C7A7DBFE59857A",
+        "1AC7A9885837340A",
+        "2B18EDAD1B191FEB",
+        "31FAB95D65AA76CD",
+        "38665588DCF9F600",
+        "5773684BCF80CF2C",
+        "7E2F37A4005BB466",
+        "0732478B0B0442D2",
+        "0D281B4106EB3A2B",
+        "22A53D2C69F4DB3A",
+        "58D79D41B9F95039",
+        "6BF0E7D18F1E27C4",
+        "6D8EE28E14590C42",
+        "0D3CCAB136834E0D",
+        "4836B24A128CD260"
+      ],
+      "earliest_same_output_consumer": "Age 04 Heavy Industry: Coke Reserve (024F0B82259320A0)",
+      "main_or_capstone_path": false,
+      "same_output_on_main_or_capstone_path": true,
+      "reviewed_for_campaign_unity": "2026-10-08",
+      "semantics_version": 2,
+      "capability_review_status": "NO_REQUIRED_RELATIONSHIP_ASSERTED",
+      "scope": "Item-output equality does not prove dependence on an alternative or batch recipe. Only explicit reviewed capability consumers enter required-consumer fields. Knowledge unlock age is unchanged; native dynamic alternatives and loaded acquisition remain runtime qualification."
+    },
+    "localization": {
+      "title": "research.createch2.che_01_process_control.title",
+      "description": "research.createch2.che_01_process_control.description"
+    }
+  },
+  "priorNativeResearch": {
+    "type": "researchd:simple",
+    "icon": {
+      "type": "researchd:item_research_icon",
+      "items": [
+        {
+          "id": "tfmg:steel_distillation_controller"
+        }
+      ]
+    },
+    "method": {
+      "type": "researchd:consume_research_pack",
+      "packs": [
+        "createch2:process_samples",
+        "createch2:material_specimens"
+      ],
+      "count": 3,
+      "duration": 200
+    },
+    "parents": [
+      "createch2:sci_01_empirical_method"
+    ],
+    "requires_parent": true,
+    "research_page": "createch2:process_resources",
+    "display": {
+      "name": {
+        "translate": "research.createch2.che_01_process_control.title"
+      },
+      "desc": {
+        "translate": "research.createch2.che_01_process_control.description"
+      }
+    },
+    "effect": {
+      "type": "researchd:unlock_recipe",
+      "recipes": [
+        "createch2:heavy_industry/tfmg/distillation_controller",
+        "createch2:heavy_industry/tfmg/distillation_output",
+        "createch2:research/pack/process_samples_heated",
+        "createch2:process_facilities/transport/large_tank",
+        "createch2:process_facilities/transport/large_tank_hatch",
+        "createch2:heavy_industry/tfmg/steel_fluid_tank",
+        "createch2:heavy_industry/tfmg/process_gas_coking",
+        "createch2:heavy_industry/tfmg/steel_chemical_vat",
+        "createch2:heavy_industry/tfmg/sulfuric_acid_tfc_minerals",
+        "createch2:chemical_age/mi/coal_dust_from_geological_coal",
+        "greate:integration/createch2/research/pack/process_samples_heated"
+      ]
+    }
+  },
+  "recipes": {
+    "tfmg:crafting/materials/steel_pipe": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/steel"
+            },
+            "P": {
+              "tag": "c:plates/steel"
+            }
+          },
+          "pattern": [
+            "   ",
+            "PIP",
+            "   "
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:steel_pipe"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/steel_pipe_vertical": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/steel"
+            },
+            "P": {
+              "tag": "c:plates/steel"
+            }
+          },
+          "pattern": [
+            "P",
+            "I",
+            "P"
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:steel_pipe"
+          }
+        }
+      }
+    ]
+  },
+  "sourceBeforeSha256": "d4b3ab500c43fee115091f6d4ec0273e02c7bf608f6d27aa07e5c6547f7456e1",
+  "selectedUnitBill": {
+    "canonicalSteelIngots": 1,
+    "canonical100UnitSteelPlates": 2,
+    "inputMetalUnits": 300,
+    "outputPipes": 4,
+    "derivedUnitsPerPipe": 75,
+    "commonMaterialTagAdded": false,
+    "recoveryAdded": false
+  },
+  "nativeRegistration": {
+    "jar": "tfmg-1.21.1-1.3.2a-community.jar",
+    "classes": {
+      "main": {
+        "class": "com.drmangotea.tfmg.TFMG",
+        "verbose": false,
+        "sha256": "c62863bd80cee0eaa20018abf5a4388b46024fca0d1ef50b6ad0fbe5849767ae"
+      },
+      "pipes": {
+        "class": "com.drmangotea.tfmg.content.decoration.pipes.TFMGPipes",
+        "verbose": false,
+        "sha256": "7a7ca2e0bda5bed166b51689ec4ba309fc3c782e77a1a8fb8b453e1d06c9af95"
+      },
+      "material": {
+        "class": "com.drmangotea.tfmg.content.decoration.pipes.TFMGPipes$PipeMaterial",
+        "verbose": false,
+        "sha256": "2663445377838bf8030f49f9f0b7c3a56a335a426a47750320db25cdfdc72dc1"
+      },
+      "entry": {
+        "class": "com.drmangotea.tfmg.content.decoration.pipes.TFMGPipeEntry",
+        "verbose": false,
+        "sha256": "5c8fbab8fb89df8a5d6fd76192269969b2a14667085109f2790790fb91825770"
+      },
+      "entryV": {
+        "class": "com.drmangotea.tfmg.content.decoration.pipes.TFMGPipeEntry",
+        "verbose": true,
+        "sha256": "ed46148d5a490e9e740fd76f56fee2e37356f9a3dd47edfb629248001cee60b6"
+      }
+    }
+  }
+}

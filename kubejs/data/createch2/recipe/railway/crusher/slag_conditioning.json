@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "railcraft:slag"
+  },
+  "outputs": [
+    {
+      "probability": 1,
+      "result": {
+        "item": "minecraft:gravel"
+      }
+    },
+    {
+      "probability": 0.25,
+      "result": {
+        "item": "minecraft:sand"
+      }
+    }
+  ]
+}

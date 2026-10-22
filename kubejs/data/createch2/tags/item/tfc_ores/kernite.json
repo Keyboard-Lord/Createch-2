@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/kernite/small",
+    "#createch2:tfc_ores/kernite/poor",
+    "#createch2:tfc_ores/kernite/normal",
+    "#createch2:tfc_ores/kernite/rich"
+  ]
+}

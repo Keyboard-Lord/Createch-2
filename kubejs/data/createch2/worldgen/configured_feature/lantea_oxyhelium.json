@@ -1,0 +1,15 @@
+{
+  "type": "aquamirae:oxyhelium",
+  "config": {
+    "growable_on": "createch2:geology/replaceables/lantea",
+    "max_depth": 256,
+    "max_length": 8,
+    "spread_radius": 6,
+    "length_penalty_per_block": 1,
+    "count": {
+      "type": "uniform",
+      "min_inclusive": 4,
+      "max_inclusive": 16
+    }
+  }
+}

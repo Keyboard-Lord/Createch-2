@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 48,
+    "min_y": -32,
+    "max_y": 48,
+    "size": 20,
+    "density": 0.25,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mars_stone"
+        ],
+        "with": [
+          {
+            "weight": 70,
+            "block": "tfc:ore/poor_native_copper/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc:ore/normal_native_copper/basalt"
+          },
+          {
+            "weight": 5,
+            "block": "tfc:ore/rich_native_copper/basalt"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_mars_copper_tfc_vein",
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_native_copper"
+        }
+      ]
+    }
+  }
+}

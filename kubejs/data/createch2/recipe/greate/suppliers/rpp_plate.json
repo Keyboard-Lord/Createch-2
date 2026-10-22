@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "recipe_tier": 5,
+  "ingredients": [
+    {
+      "item": "gtceu:rhodium_plated_palladium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:rhodium_plated_palladium_plate"
+    }
+  ]
+}

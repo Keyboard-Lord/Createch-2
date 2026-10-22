@@ -1,0 +1,702 @@
+{
+  "schema": 1,
+  "jar": "Modern-Industrialization-2.5.10.jar",
+  "jarSha256": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca",
+  "sharedNativeCodeSha256": {
+    "crafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+    "behavior": "9b0a42685f6dacff29e1334a99b6de9bea8ebf94c57f7021f1ba390e4c9f5683",
+    "electric": "76ead9b8226a84b654965e8903c12552beec781509394d37313f9c263bb66fd4",
+    "energy": "d01eec6de0554f8cf8b9256a5593953678ffdc618ff605b24fcd8b3725d8d763",
+    "upgrades": "b2c87532986646b1aaf86cbc393fe457ae8c113c99098f44d37895f19cc9cbd6",
+    "registration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+    "tier": "98a53961ea2565fe2626c3608172fdcdc76f01493a29880ddc417d4cce93775f",
+    "casing": "8f9be7e4e85d13721d59aa64c840ccf71b839dd569f6e15c761a72c7ee413de0",
+    "cable": "b7419bba67a7433663f3fd67ae458195e3306c32ede9c885bb08d68467e38111",
+    "cablePart": "43f0a956c3047267b1dc87deb682eb91f4b615f3fecce321323c5c1e4f4f9205",
+    "materials": "ff014b008a867f19d7935c3d02ed2cf7b4293df5b0eb84c5cb761b8b64f9be8d",
+    "network": "a71252c150a211892fc4beaea32e7907fb696c4dddb24ad1538134b85edd7e44",
+    "networkBootstrap": "0bef5ebaf991804da0117710efe6f20aac1d2db097b7ca8e1b06be30c28a48a3",
+    "networkNode": "ebec8b8e26bfc8489b538844a4eaeb6fb39bd86de06c1322cef7b19963943e61",
+    "recipe": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0"
+  },
+  "upgradeMap": {
+    "values": {
+      "modern_industrialization:advanced_upgrade": {
+        "extraMaxEu": 16
+      },
+      "modern_industrialization:basic_upgrade": {
+        "extraMaxEu": 2
+      },
+      "modern_industrialization:highly_advanced_upgrade": {
+        "extraMaxEu": 512
+      },
+      "modern_industrialization:quantum_upgrade": {
+        "extraMaxEu": 999999999
+      },
+      "modern_industrialization:turbo_upgrade": {
+        "extraMaxEu": 64
+      }
+    }
+  },
+  "quantumRecipe": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "modern_industrialization:assembler",
+    "eu": 128,
+    "duration": 1600,
+    "item_inputs": [
+      {
+        "item": "modern_industrialization:quantum_machine_hull",
+        "amount": 1
+      },
+      {
+        "item": "modern_industrialization:singularity",
+        "amount": 1
+      },
+      {
+        "item": "modern_industrialization:quantum_circuit_board",
+        "amount": 1
+      },
+      {
+        "item": "modern_industrialization:highly_advanced_upgrade",
+        "amount": 32
+      }
+    ],
+    "fluid_inputs": {
+      "fluid": "modern_industrialization:uu_matter",
+      "amount": 50
+    },
+    "item_outputs": [
+      {
+        "item": "modern_industrialization:quantum_upgrade",
+        "amount": 1
+      }
+    ]
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_electric_motor",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_electric_motor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 2
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_electric_motor",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_electric_motor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 2
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_electric_motor",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_electric_pump",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_electric_pump",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_electric_motor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_electric_pump",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_electric_pump",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_electric_motor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_electric_pump",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_electric_piston",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_electric_piston",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_electric_motor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_electric_piston",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_electric_piston",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_electric_motor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_electric_piston",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_conveyor_module",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_conveyor_module",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_electric_motor",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_conveyor_module",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_conveyor_module",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_electric_motor",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_conveyor_module",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_robot_arm",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_robot_arm",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_conveyor_module",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_electric_motor",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_electric_piston",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_robot_arm",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_robot_arm",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_conveyor_module",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_electric_motor",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_electric_piston",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_robot_arm",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_sensor",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_sensor",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_sensor",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_sensor",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_sensor",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_emitter",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_emitter",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:neutron_ingot",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_emitter",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_emitter",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:neutron_ingot",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_emitter",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16c/uxv_field_generator",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 65536,
+        "duration": 1720,
+        "item_inputs": [
+          {
+            "item": "gtceu:uiv_field_generator",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:uxv_emitter",
+            "amount": 2
+          },
+          {
+            "item": "gtceu:uxv_sensor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:star_fuel",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 936
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:uxv_field_generator",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 65536,
+          "duration": 1720,
+          "item_inputs": [
+            {
+              "item": "gtceu:uiv_field_generator",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:uxv_emitter",
+              "amount": 2
+            },
+            {
+              "item": "gtceu:uxv_sensor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:star_fuel",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 936
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:uxv_field_generator",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "retiredNativeQuantumRecipe": {
+    "type": "modern_industrialization:assembler",
+    "eu": 32,
+    "duration": 1000,
+    "item_inputs": [
+      {
+        "item": "modern_industrialization:highly_advanced_upgrade",
+        "amount": 32
+      },
+      {
+        "item": "modern_industrialization:quantum_circuit",
+        "amount": 8
+      },
+      {
+        "item": "modern_industrialization:singularity",
+        "amount": 1
+      },
+      {
+        "item": "modern_industrialization:quantum_circuit_board",
+        "amount": 1
+      }
+    ],
+    "fluid_inputs": {
+      "fluid": "modern_industrialization:uu_matter",
+      "amount": 50
+    },
+    "item_outputs": [
+      {
+        "item": "modern_industrialization:quantum_upgrade",
+        "amount": 1
+      }
+    ]
+  }
+}

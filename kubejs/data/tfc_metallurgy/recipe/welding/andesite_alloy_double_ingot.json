@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/andesite_alloy"
+  },
+  "second_input": {
+    "tag": "c:ingots/andesite_alloy"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/andesite_alloy"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "TBT",
+    "PTP"
+  ],
+  "key": {
+    "P": {
+      "item": "tfmg:cast_iron_pipe"
+    },
+    "T": {
+      "item": "tfmg:cast_iron_fluid_tank"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "tfmg:steel_distillation_output",
+    "count": 1
+  }
+}

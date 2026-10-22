@@ -1,0 +1,39 @@
+{
+  "truth": "REVIEWED_NATIVE_MI_CURRENT_OWNER_RESEARCH_GATE",
+  "classes": {
+    "crafter": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.components.CrafterComponent",
+      "verbose": false,
+      "sha256": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6"
+    },
+    "index": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.recipe.MachineRecipeType",
+      "verbose": false,
+      "sha256": "ed418c835a8f9e75230bc470844c214734ae0a6548fd6adae335fc54954dec81"
+    },
+    "frame": {
+      "jar": "researchd-1.2.5.jar",
+      "class": "com.portingdeadmods.researchd.api.RecipeFilterContext",
+      "verbose": false,
+      "sha256": "704fa7331cbc6945c4890ecebd50f69534b1f36358ed7ee657edac674840a7e7"
+    },
+    "gate": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.compat.MiRecipeResearchGate",
+      "verbose": false,
+      "sha256": "39bd27445d26fe818b43fa0927760358a219d8ea2df04bba062670896857a5d4"
+    },
+    "mixin": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.mixin.compat.MiRecipeResearchMixin",
+      "verbose": true,
+      "sha256": "65ec175a78b9d3eb0b2d7c277b90e482c129e5066a9cd868287f9409fc06fe36"
+    }
+  },
+  "nativeJars": {
+    "Modern-Industrialization-2.5.10.jar": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca",
+    "researchd-1.2.5.jar": "abe2fa53bb7506f70b4ed6592e0d63108fcbb1bb2dfb70b8ebbc29710b90f9b6"
+  }
+}

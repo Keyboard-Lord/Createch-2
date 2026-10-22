@@ -1,0 +1,73 @@
+{
+  "jar": "malum-1.21.1-1.8.2.jar",
+  "classes": {
+    "harvest": {
+      "class": "com.sammy.malum.core.handlers.SoulHarvestHandler",
+      "sha256": "5e4b9dae1e08d2f5d0019af037ad39fd8cf539918c65ffc0254623d4c675042f"
+    },
+    "soulData": {
+      "class": "com.sammy.malum.core.handlers.SoulDataHandler",
+      "sha256": "7e54c1415857216eedd526437928558af85da1ab14dff567a0b43d82ba0af451"
+    },
+    "soul": {
+      "class": "com.sammy.malum.common.data.attachment.soul_data.LivingSoulData",
+      "sha256": "f804ae5b62e544ad44bdf3b3d101b957517e3da394e567af20c05b95db7435ad"
+    },
+    "spawner": {
+      "class": "com.sammy.malum.core.handlers.SoulHarvestHandler$SpiritSpawner",
+      "sha256": "aceb343ec8e8ea2b335ef372d425e788a5e4c4fd2f1fe3181720276fe2e41bb6"
+    },
+    "spiritEntity": {
+      "class": "com.sammy.malum.common.entity.spirit.SpiritItemEntity",
+      "sha256": "eb81dd03bc1061fa63858a91a6d0a39045af4fc55e29e947bc63b2330ee3ee11"
+    },
+    "altar": {
+      "class": "com.sammy.malum.common.block.curiosities.spirit_altar.SpiritAltarBlockEntity",
+      "sha256": "1a610139e6d96724a4096e8bf703090227ae9d646ca40bee1a5314bc8aeaeab0"
+    },
+    "altarHelper": {
+      "class": "com.sammy.malum.common.block.curiosities.spirit_altar.AltarCraftingHelper",
+      "sha256": "c5b13a569cba58e6787cc2f9cf9da15606998af59d1054efca34fdad4b00fbb1"
+    },
+    "infusion": {
+      "class": "com.sammy.malum.common.recipe.SpiritInfusionRecipe",
+      "sha256": "9f79289266799db5dd1b237460c7158c01fac12ff4e75c970c7ec25ee63fd847"
+    },
+    "runeTree": {
+      "class": "com.sammy.malum.common.worldgen.tree.RunewoodTreeFeature",
+      "sha256": "e6b0fa97eb2b3c684f1870a0dd46dfa81a34845e8647876bb2c130a7be643ab8"
+    },
+    "sapling": {
+      "class": "com.sammy.malum.common.block.nature.MalumSaplingBlock",
+      "sha256": "48a2015b60d06420d6b30ff623b35d04bc5e1bf1a2b8c5031546ede2686a6aec"
+    },
+    "pedestal": {
+      "class": "com.sammy.malum.common.block.storage.pedestal.ItemPedestalBlockEntity",
+      "sha256": "4fec0f775597e978ccec40036319da7f643e928c739915b00c7a01c1427310f6"
+    },
+    "events": {
+      "class": "com.sammy.malum.events.RuntimeEvents",
+      "sha256": "cb3fe2c9bbd75b3b72d8603bfc4767b46a959503c7e097009e9886c54573ce8a"
+    },
+    "dropData": {
+      "class": "com.sammy.malum.core.systems.spirit.EntitySpiritDropData",
+      "sha256": "01444be625f393145d25bc7b82d698c691c46263a5bb022b2bc5a8c605050d4d"
+    },
+    "features": {
+      "class": "com.sammy.malum.registry.common.worldgen.MalumFeatures",
+      "sha256": "c3ff8110f7f89419bee8baee596abf8ef85bb1afd34dd2293632e0006caf8aae"
+    },
+    "spiritTypes": {
+      "class": "com.sammy.malum.registry.common.magic.MalumSpiritTypes",
+      "sha256": "99a7a1c5f1a4749415f3dd770c537ec90fa67d72911bb020fd3d7ca4c6771ee8"
+    },
+    "spiritLoader": {
+      "class": "com.sammy.malum.core.listeners.SpiritDataReloadListener",
+      "sha256": "d7a58e0d3de82c5f43b14521ef31b644393764aaa296fafc64cfeca8f1f075b9"
+    }
+  },
+  "nativeJars": {
+    "malum-1.21.1-1.8.2.jar": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8",
+    "evilcraft-1.21.1-neoforge-1.2.99.jar": "85e81fb08f3cf77fafa788a2e5f041cd41a1dd710ce4bc49cb6dc7974f258ab0"
+  }
+}

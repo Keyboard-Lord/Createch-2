@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_rugged_land",
+    "#createch2:tfc_structure_dry_land",
+    "createch2:chulak_eucalyptus_forest",
+    "createch2:chulak_baobab_savanna",
+    "createch2:chulak_dry_bushland",
+    "createch2:chulak_arid_mountains",
+    "createch2:chulak_bioshroom_caves",
+    "createch2:chulak_prismachasm",
+    "createch2:chulak_redstone_caves"
+  ]
+}

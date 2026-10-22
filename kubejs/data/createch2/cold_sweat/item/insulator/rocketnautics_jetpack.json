@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 24,
+    "heat": 24
+  },
+  "item": {
+    "items": [
+      "rocketnautics:jetpack"
+    ]
+  }
+}

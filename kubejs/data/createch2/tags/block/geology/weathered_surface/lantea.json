@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:geology/replaceables/lantea",
+    "minecraft:calcite",
+    "minecraft:deepslate",
+    "minecraft:diorite",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:sand",
+    "minecraft:sandstone"
+  ]
+}

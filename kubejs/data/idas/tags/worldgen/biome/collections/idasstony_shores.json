@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:rocky_shores",
+    "tfc:sea_stacks",
+    "tfc:shield_volcano_shore",
+    "tfc:old_shield_volcano_shore"
+  ]
+}

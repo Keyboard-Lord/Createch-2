@@ -1,0 +1,1 @@
+{"type":"tfc:welding","bonus":"copy_best","first_input":{"item":"tfc:metal/unfinished_boots/wrought_iron"},"result":{"count":1,"id":"tfc:metal/boots/wrought_iron"},"second_input":{"tag":"c:sheets/wrought_iron"},"tier":2}

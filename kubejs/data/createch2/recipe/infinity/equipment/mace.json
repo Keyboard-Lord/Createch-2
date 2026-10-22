@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    " III ",
+    "IXGXI",
+    " III ",
+    "  N  ",
+    "  N  "
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "G": {
+      "item": "avaritia:neutron_gear"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_mace",
+    "count": 1
+  },
+  "tier": 4
+}

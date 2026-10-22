@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "ICI",
+    " D "
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_tiny_dust"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "D": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "mekanism:dosimeter",
+    "count": 1
+  }
+}

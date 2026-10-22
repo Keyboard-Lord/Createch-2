@@ -1,0 +1,47 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 1200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:processing_unit_board",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:random_access_memory",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:memory_management_unit",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:arithmetic_logic_unit",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:silicon_wafer",
+      "amount": 16
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 4000
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 2
+    }
+  ]
+}

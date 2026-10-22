@@ -1,0 +1,30 @@
+{
+  "truth": "REVIEWED_EXISTING_NATIVE_NETHER_BLAZING_QUARTZ",
+  "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+  "classes": {
+    "VeinFeature": {
+      "class": "net.dries007.tfc.world.feature.vein.VeinFeature",
+      "sha256": "705c212986bd303acd9531c0f97cd8e4ee81daf30b02407f78a47edcaa2b2498"
+    },
+    "ClusterVeinFeature": {
+      "class": "net.dries007.tfc.world.feature.vein.ClusterVeinFeature",
+      "sha256": "d0fbcf1a77244a97d968d877699b07befd3e978b57ab3962c55a08557f6ba687"
+    },
+    "VeinConfig": {
+      "class": "net.dries007.tfc.world.feature.vein.VeinConfig",
+      "sha256": "ca6304ff8d5e667ac159ba7a34baa48cf2bd9789b0915cdcf547323fcc2e103b"
+    },
+    "ClusterVeinConfig": {
+      "class": "net.dries007.tfc.world.feature.vein.ClusterVeinConfig",
+      "sha256": "ce7b41a52e02ebf05156a91dcd0d807568468ec47ed8e053584556ede1dfec08"
+    },
+    "IVeinConfig": {
+      "class": "net.dries007.tfc.world.feature.vein.IVeinConfig",
+      "sha256": "1df63defb575f1f7847255657a5d3dfb4735d8b5ce70f0cc36e3bb482d6c3f37"
+    }
+  },
+  "nativeJars": {
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440",
+    "malum-1.21.1-1.8.2.jar": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8"
+  }
+}

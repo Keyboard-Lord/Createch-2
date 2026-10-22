@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:no_biomes",
+  "spawners": {
+    "type": "sgjourney:mastadge",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

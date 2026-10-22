@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 18,
+    "heat": 18
+  },
+  "item": {
+    "items": [
+      "stellaris:space_suit_chestplate"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CBC",
+    "TTT"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:stones"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "B": {
+      "item": "cookingforblockheads:crafting_book"
+    },
+    "T": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "id": "cookingforblockheads:cooking_table",
+    "count": 1
+  }
+}

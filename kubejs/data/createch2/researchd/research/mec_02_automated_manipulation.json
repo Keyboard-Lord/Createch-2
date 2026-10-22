@@ -1,0 +1,58 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:deployer"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:mec_01_rotary_mechanics",
+    "createch2:mat_01_bronze_metallurgy"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mec_02_automated_manipulation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mec_02_automated_manipulation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "create:crafting/kinetics/deployer",
+      "create:crafting/kinetics/mechanical_arm",
+      "createch2:greate/tier_0/mechanical_saw",
+      "create:crafting/kinetics/mechanical_harvester",
+      "createch2:create/crafting/kinetics/hose_pulley",
+      "createch2:age_foundation/create/mechanical_press",
+      "createch2:mobility/fallphysics/reserve_parachute",
+      "createch2:mobility/fallphysics/flare_red",
+      "createch2:mobility/fallphysics/flare_green",
+      "createch2:mobility/fallphysics/flare_blue",
+      "createch2:mobility/fallphysics/flare_white",
+      "createch2:greate/tier_0/crushing_wheel",
+      "createch2:greate/tier_0/encased_fan",
+      "createch2:greate/tier_0/mechanical_mixer",
+      "createch2:greate/tier_0/mechanical_pump",
+      "createch2:greate/tier_0/millstone",
+      "createch2:tfc_geology/mechanical/iron_nuggets_from_wrought_iron",
+      "createch2:age_foundation/create/wrench",
+      "createch2:greate/suppliers/zinc_plate"
+    ]
+  }
+}

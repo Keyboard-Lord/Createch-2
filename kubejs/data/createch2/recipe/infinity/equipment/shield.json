@@ -1,0 +1,32 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "CIXIC",
+    "INNNI",
+    "INGNI",
+    " INI "
+  ],
+  "key": {
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "G": {
+      "item": "avaritia:neutron_gear"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_shield",
+    "count": 1
+  },
+  "tier": 4
+}

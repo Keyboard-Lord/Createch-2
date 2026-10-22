@@ -1,0 +1,30 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "tag": "c:dusts/fluorite"
+    },
+    {
+      "tag": "c:dusts/fluorite"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "tfmg:sulfuric_acid"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:hydrofluoric_acid"
+    }
+  ],
+  "processing_time": 200,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

@@ -1,0 +1,51 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 64,
+  "duration": 650,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "electroenergetics:hanging_glass_insulator",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_wire",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:electrum_wire",
+      "amount": 4
+    },
+    {
+      "item": "tfmg:magnetic_alloy_sheet",
+      "amount": 2
+    },
+    {
+      "tag": "c:rods/aluminum",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:motor",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 500
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 2
+    }
+  ]
+}

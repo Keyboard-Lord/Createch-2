@@ -1,0 +1,29 @@
+{
+  "type": "tfchotornot:advanced_damage_inputs_shaped_crafting",
+  "pattern": [
+    "XX",
+    "YZ"
+  ],
+  "key": {
+    "X": {
+      "item": "tfchotornot:tong_part/copper"
+    },
+    "Y": {
+      "tag": "c:rods"
+    },
+    "Z": {
+      "tag": "c:tools/hammer"
+    }
+  },
+  "result": {
+    "stack": {
+      "count": 1,
+      "id": "tfchotornot:tongs/copper"
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  }
+}

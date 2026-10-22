@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:hollow_cedar_log",
+      "required": false
+    },
+    {
+      "id": "yourmod:hollow_redwood_log",
+      "required": false
+    }
+  ]
+}

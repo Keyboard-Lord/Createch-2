@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "PBP",
+    "HAH"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "S": {
+      "item": "tfmg:steel_casing"
+    },
+    "P": {
+      "item": "tfmg:industrial_pipe"
+    },
+    "B": {
+      "item": "railcraft:solid_fueled_firebox"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "A": {
+      "item": "simulated:physics_assembler"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:solid_burner",
+    "count": 1
+  }
+}

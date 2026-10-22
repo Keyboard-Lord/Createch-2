@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/mithril"
+    },
+    {
+      "tag": "c:physical_dusts/mithril"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 564,
+  "welding_temperature": 752
+}

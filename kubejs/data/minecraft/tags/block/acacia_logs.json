@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/acacia",
+      "required": false
+    }
+  ]
+}

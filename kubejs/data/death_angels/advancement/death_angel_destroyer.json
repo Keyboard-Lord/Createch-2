@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "death_angels:big_atomic_bomb"
+    },
+    "title": {
+      "translate": "advancements.death_angel_destroyer.title"
+    },
+    "description": {
+      "translate": "advancements.death_angel_destroyer.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "death_angel_destroyer_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "death_angels:big_atomic_bomb"
+            ],
+            "count": {
+              "min": 1,
+              "max": 38
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "loot": [
+      "death_angels:blocks/plutonium_ore"
+    ]
+  },
+  "parent": "minecraft:adventure/root"
+}

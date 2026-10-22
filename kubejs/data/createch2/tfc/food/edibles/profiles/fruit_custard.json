@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/fruit_custard"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 1,
+  "fruit": 0.8,
+  "dairy": 0.8,
+  "decay_modifier": 3
+}

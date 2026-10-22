@@ -1,0 +1,95 @@
+[fog]
+	#Scale underwater view distance with depth, so the ocean gets murkier the
+	#further down you go. Only applies while the camera is actually submerged --
+	#Minecraft has no water fog when you are looking down from a boat, and faking
+	#that needs a shaderpack. Never increases visibility above vanilla.
+	fogEnabled = true
+	#Every this many blocks below sea level, view distance halves. Real seawater
+	#attenuates light exponentially, which is why this is a halving depth rather
+	#than a linear slope. Vanilla underwater fog is 96 blocks, so at the default
+	#200: 48 blocks at 200 down, 24 at 400, 12 at 600, then the floor takes over.
+	#Lower = murkier faster.
+	# Default: 200
+	# Range: 10 ~ 10000
+	halvingDepth = 200
+	#Floor on view distance in unlit water, in blocks, no matter how deep you are.
+	#This is what makes the abyss survivable: light pushes it back up (see
+	#lightBoostPerLevel), so a lantern is the difference between fighting and
+	#flailing. 8 is genuinely blinding, 16 is tense, 32 is merely atmospheric.
+	# Default: 16
+	# Range: 1 ~ 1000
+	minVisibility = 16
+	#How fast the effect chases its target value, per frame. The forward light
+	#scan means looking around changes the answer, and without smoothing the fog
+	#would visibly snap as you turn your head. Lower = slower, dreamier; 1.0
+	#disables smoothing entirely.
+	# Default: 0.08
+	# Range: 0.001 ~ 1.0
+	smoothing = 0.08
+
+	[fog.light]
+		#View distance gained per level of light, as a fraction of the depth-adjusted
+		#distance. At the default 0.2 a light level of 15 gives 4x. This is what makes
+		#carrying a lantern into the deep worth doing.
+		# Default: 0.2
+		# Range: 0.0 ~ 10.0
+		lightBoostPerLevel = 0.2
+		#How far ahead of the camera to look for light, in blocks. Block light only
+		#travels 15 blocks, so without this a lantern would not affect anything until
+		#you were nearly on top of it. Sampling ahead means the fog starts opening as
+		#you swim toward a glow, which turns light sources into navigation beacons.
+		#Set 0 to only use light at the camera itself.
+		# Default: 32
+		# Range: 0 ~ 128
+		lightScanDistance = 32
+		#Number of samples taken along that forward ray. Cost is this many block-light
+		#lookups per frame, which is nothing; more steps just means a light is less
+		#likely to be missed between samples.
+		# Default: 6
+		# Range: 1 ~ 32
+		lightScanSteps = 6
+		#View distance multiplier while Night Vision is active. Conduit Power is
+		#already handled by vanilla, which widens water fog on its own, and this model
+		#multiplies whatever vanilla decided -- so conduits keep working untouched.
+		# Default: 3.0
+		# Range: 1.0 ~ 100.0
+		nightVisionMultiplier = 3.0
+		#View distance multiplier at the highest level of Abyssal Adaptation, scaling
+		#linearly from 1.0 at no enchantment. Eyes that tolerate the pressure may as
+		#well have adjusted to the dark too. Set 1.0 to decouple the two.
+		# Default: 1.5
+		# Range: 1.0 ~ 100.0
+		adaptationMultiplier = 1.5
+
+	[fog.color]
+		#Fade the water's fog colour toward black with depth. Without this the abyss
+		#is a close blue wall; with it, the blue drains out on the way down and the
+		#deep reads as actual darkness rather than thick water.
+		darkenFogColor = true
+		#Every this many blocks below sea level, the fog colour halves in brightness.
+		#Deliberately faster than halvingDepth by default: colour should drain before
+		#distance closes in, which is the order it happens in real water.
+		# Default: 150
+		# Range: 10 ~ 10000
+		colorHalvingDepth = 150
+		#Darkest the fog colour may get, as a fraction of the biome's water colour.
+		#0 is pure black. Light pushes this back up the same way it does distance.
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		minColorFactor = 0.03
+
+[currents]
+	#Draw the drifting motes that make a thermocline visible. Turning this off
+	#does not change how the water moves you -- the push is simulated from the
+	#same numbers either way, so you lose the warning, not the current.
+	particles = true
+	#Points sampled around the camera each tick. This is the mod's only
+	#per-tick visual cost; halve it before turning particles off entirely.
+	# Default: 48
+	# Range: 0 ~ 512
+	particleSamples = 48
+	#How far ahead of the camera to seed them, in blocks. Larger means more
+	#warning that a current is coming, spread over the same sample count.
+	# Default: 24.0
+	# Range: 4.0 ~ 128.0
+	particleReach = 24.0

@@ -1,0 +1,31 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 49,
+    "min_y": -48,
+    "max_y": 32,
+    "size": 20,
+    "density": 0.4,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:orange_terracotta",
+          "minecraft:purple_terracotta",
+          "minecraft:red_terracotta",
+          "minecraft:yellow_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "tfc:ore/graphite/quartzite"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_rima_graphite_tfc_vein"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "HPH",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "greate:titanium_shaft"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "aeronautics_utility_objects:brass_universal_joint",
+    "count": 1
+  }
+}

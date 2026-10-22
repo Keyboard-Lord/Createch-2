@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "BB"
+  ],
+  "key": {
+    "A": {
+      "item": "tfc:burlap_cloth"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "cold_sweat:sewing_table",
+    "count": 1
+  }
+}

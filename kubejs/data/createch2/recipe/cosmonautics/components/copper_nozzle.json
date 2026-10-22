@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "D D"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/gold"
+    },
+    "B": {
+      "tag": "c:plates/copper"
+    },
+    "C": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "D": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:copper_nozzle",
+    "count": 1
+  }
+}

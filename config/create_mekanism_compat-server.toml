@@ -1,0 +1,33 @@
+[mounted_mekanism]
+	#Allow Digital Miners inside Sable sub-levels to scan and mine from the ship's projected world position.
+	enableMountedDigitalMiner = true
+	#Project mounted Teleporter destination positions out of the Sable sub-level into global world coordinates.
+	enableMountedTeleporterTargets = true
+	#Project Dimensional Stabilizer chunk tickets from sub-level plot coordinates into the moving global chunk grid.
+	enableMountedDimensionalStabilizer = true
+	#Use the projected world position for Wind Generator sky and height checks inside Sable sub-levels.
+	enableMountedWindGenerator = true
+	#Maximum world positions a mounted Digital Miner inspects each scan pass before yielding.
+	# Default: 16384
+	# Range: 32 ~ 262144
+	digitalMinerScanBudget = 16384
+	#Soft wall-clock time budget, in microseconds, for one mounted Digital Miner scan pass.
+	# Default: 12000
+	# Range: 1000 ~ 50000
+	digitalMinerScanTimeBudgetMicros = 12000
+	#Maximum accepted world targets a mounted Digital Miner keeps queued for mining and the visible To Mine count.
+	# Default: 32768
+	# Range: 1 ~ 262144
+	digitalMinerMaxTargetQueue = 32768
+	#Maximum interpolation samples added when a mounted Digital Miner moves between mining attempts.
+	# Default: 8
+	# Range: 1 ~ 64
+	digitalMinerTrailSamples = 8
+	#Maximum global chunks the mounted Digital Miner asks Mekanism's chunk loader to keep loaded. The default covers a radius-30 miner's horizontal scan footprint.
+	# Default: 25
+	# Range: 1 ~ 81
+	digitalMinerMaxTicketChunks = 25
+	#Keep Mekanism Laser ray hits and beam particles in the correct coordinate space when crossing Sable sub-level boundaries.
+	enableMountedLasers = true
+	#Use Sable-aware distance checks for Mekanism machine sounds inside mounted sub-levels.
+	enableMountedMachineSounds = true

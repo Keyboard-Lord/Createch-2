@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "CBC",
+    "IFI"
+  ],
+  "key": {
+    "K": {
+      "tag": "createch2:containers/metal_bucket"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "B": {
+      "tag": "minecraft:boats"
+    },
+    "F": {
+      "tag": "createch2:wooden_barrels"
+    }
+  },
+  "result": {
+    "id": "cargoboats:fluid_motorboat",
+    "count": 1
+  }
+}

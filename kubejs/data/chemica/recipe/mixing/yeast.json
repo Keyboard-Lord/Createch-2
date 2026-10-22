@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "tfc:any_fresh_water"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "create:dough"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "chemica:yeast"
+    },
+    {
+      "chance": 0.4,
+      "id": "chemica:yeast"
+    }
+  ]
+}

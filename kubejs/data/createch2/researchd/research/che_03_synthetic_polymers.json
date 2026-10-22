@@ -1,0 +1,80 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "chemica:cured_epoxy_sheet"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:geological_surveys"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:che_02_electrolysis"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_03_synthetic_polymers.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_03_synthetic_polymers.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "chemica:hot_blast/naphtha",
+      "chemica:distillation/reformate",
+      "chemica:distillation/aromatic_mix",
+      "chemica:vat_machine_recipe/vat_reaction/acetone",
+      "chemica:vat_machine_recipe/mixing/epoxy_precursor",
+      "chemica:vat_machine_recipe/mixing/epoxy_resin",
+      "chemica:casting/epoxy_resin",
+      "chemica:vat_machine_recipe/mixing/vinyl_chloride_monomer",
+      "chemica:vat_machine_recipe/vat_reaction/polyvinyl_chloride",
+      "chemica:casting/polyvinyl_chloride",
+      "chemica:vat_machine_recipe/vat_reaction/polyethylene_oxygen",
+      "chemica:casting/polyethylene_sheet",
+      "chemica:vat_machine_recipe/mixing/pan_precursor",
+      "chemica:compacting/pan_fibers",
+      "chemica:compacting/stabilized_fibers",
+      "chemica:compacting/carbon_fiber_strands",
+      "chemica:vat_machine_recipe/mixing/carbon_fiber_composite_sheet",
+      "chemica:vat_machine_recipe/vat_reaction/polytetrafluoroethylene",
+      "createch2:research/pack/process_samples_chemical",
+      "createch2:chemical_age/mi/polydimethylsiloxane",
+      "createch2:chemical_age/mi/silicone_rubber",
+      "createch2:greate/belts/silicone_rubber",
+      "createch2:greate/polymers/pvc_plate",
+      "createch2:greate/polymers/pvc_foil",
+      "createch2:large_chemical_reactor/greate_polymers/chromium_trioxide",
+      "createch2:large_chemical_reactor/greate_polymers/potassium_dichromate",
+      "createch2:large_chemical_reactor/greate_polymers/dimethylbenzene",
+      "createch2:large_chemical_reactor/greate_polymers/phthalic_acid",
+      "createch2:large_chemical_reactor/greate_polymers/chlorobenzene",
+      "createch2:large_chemical_reactor/greate_polymers/nitrochlorobenzene",
+      "createch2:large_chemical_reactor/greate_polymers/dichlorobenzidine",
+      "createch2:large_chemical_reactor/greate_polymers/diaminobenzidine",
+      "createch2:large_chemical_reactor/greate_polymers/diphenyl_isophtalate",
+      "createch2:large_chemical_reactor/greate_polymers/polybenzimidazole",
+      "createch2:greate/polymers/nitration_mixture",
+      "createch2:greate/polymers/sulfuric_acid_recovery",
+      "createch2:greate/polymers/chloroform",
+      "createch2:greate/polymers/tetrafluoroethylene",
+      "createch2:greate/polymers/polytetrafluoroethylene",
+      "greate:integration/chemica/compacting/pan_fibers",
+      "greate:integration/chemica/compacting/stabilized_fibers",
+      "greate:integration/chemica/compacting/carbon_fiber_strands"
+    ]
+  }
+}

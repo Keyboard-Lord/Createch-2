@@ -1,0 +1,22 @@
+#Engine sound volume (heard up to 32 blocks)
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+soundVolume = 1.0
+#Also play a quiet copy of the engine loop at the exhaust stack
+stackSound = true
+#Play <machine>.starter while cranking (4-stroke engines). The start sounds of the pack already contain the starter, so this is off unless a separate starter sound is added
+starterSound = false
+#Sound of the three-phase motors: "mixed" (the A / B slider of each motor's panel), "drive" (always A: dense chord and the drive's carrier whistle) or "bundle" (always B: tight high whine of a big motor)
+motorSound = "mixed"
+#Exhaust plume at the stacks, as a share of the full amount (performance): 1 = full, 0.25 = a light plume, 0 = no plume
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+smokeAmount = 1.0
+#A Create train with a locomotive engine block loses Create's rolling / steam chuffing sounds
+muteTrainSounds = true
+#Stacks farther than this (blocks) make no plume
+# Default: 128
+# Range: 16 ~ 256
+smokeDistance = 128
+#When joining a world, say in the chat if a newer version of the mod is on CurseForge (reads the public file list of the project once per game start)
+updateCheck = true

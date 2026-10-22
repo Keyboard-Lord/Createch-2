@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_indicators": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#createch2:quest/tin_indicators",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_indicators"
+    ]
+  ]
+}

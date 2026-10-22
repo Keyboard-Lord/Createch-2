@@ -1,0 +1,149 @@
+{
+  "truth": "NATIVE_MASTERED_SPIRIT_FIRE_AND_PROJECTE_INPUT_PROJECTION",
+  "sharedNativeCodeSha256": {
+    "quantum": {
+      "mi": "ac6ff98a756f0d61200d28b9a7a602b0898fb05cd968b352cc69a62d6b4ce36f",
+      "plugin": "163e223ed0e46c6bd1d5b821fe914949a3cf96d4b7a0f868b79c27ddfca4d8e2",
+      "registry": "1cbe09dcfaf670f4ce6f094d079fa0a13d2333d2d7a474cdfe3ff8c4ecc56bd9",
+      "helper": "b348660b4e991c4be6536fdae5d5d0557eb47a0535b6893b80cbada792b96721",
+      "common": "bf2fa63ebe3c862f5e003b291c1d7dd1f4174306147dadce68a905a78869b808",
+      "runtime": "7d1e5fc97ce74ace9724b8e7124deadae9df984aab8467a5e33e98e841df6eaf",
+      "kjsEvent": "382eca1122d86542be1342401a94b988cc4060b30a42963624c237961754d2a5",
+      "kjsManager": "b3841f824ae2fff200a185d265be1d66a0871164336af43c187dec08b90ab617",
+      "auManager": "2538524a73c43027b05e944c4b0a361e7e8ec8af2c9806a4efce07c0c7abdb1a",
+      "oritechAssembler": "b81792c96acdc8861d70ffad2f508b23cd70c95a835bc85972a60d9a3e6bc191",
+      "oritechBase": "df89d9bce27d4ab6e909b8acf81e993e72eeb4b6f9740c8de661845293b0fe09"
+    },
+    "occultismFirst": {
+      "grove": "1b9478f9e6433c1ce870d61d0b06e9a3100d726747de63bd19b19e6d18694b10",
+      "cave": "17f395b7ba9d3200500134cb6962a269ee61bfcfeb1720587a1d40cc0faff074",
+      "sphere": "7e24531d9826aace729d68479f9f1eee9e160f4eec5668cb5a57da5d3d6bfcb6",
+      "multi": "8c4fcf284f4534c1011fe4a6594c39cb4b3eeec3b675eed6d2ae11a2fe0568de",
+      "features": "51e2d179c47375d7802baa25f2f509323d16e4d2b970506b7b6dbd2922fec708",
+      "lootAdd": "d459f1c78a4a076b685414f18df5207c26be55c45a8244e7a4bb56975e553547",
+      "crop": "2ec1fb93f1f62dcb06e9c71ecd63e22a544a83b7b9f2643c9bacc5a3b05482f6",
+      "playerEvents": "5db5883337ba2d9687001ab9153049420c22a47a2a791a0acbba1eede049e821",
+      "spiritFire": "25b361e48f8d753cc10ead7dc03b451c8177cd88ee371f7059ea35b015caf891",
+      "binding": "52a6d54e6fc6c196f20e02dcf00601d7394f50274012fdd050554cdfb2a1cc72",
+      "tfcHoe": "392e2bd367f3e535ed960a08733dcc1f1b2611b48b462eba2d8dc5af05e65386",
+      "stoneTypes": "56f19aa61c0743def6b4096e28cf82cfe631d166bdff981cb2830b93083bac23",
+      "mcCrop": "ccb7e1fc9effd1dceca95f49084f5f359fbd814eb7cfc328529dc7bd47685613",
+      "mcHoe": "99c556574ce48f2e0b7d5a677c18e4b48a30449cf840a51f4e01a4a0cf2b8749",
+      "blockExtension": "3491abd4c8dece66f152a2303a2c3fa1d3a5a3cb303de7e929918e044dc13d59",
+      "cuttingBoard": "58bcd52b0a81c380de0aee436375eb44d6c8e1bfe4859fffe30f32c6e2f477ac",
+      "cuttingEntity": "8c550da5a84f887a8285b9bb5da25ef5fbafa6659ad4c51534534af3bc76501f",
+      "cuttingRecipe": "7bde343d20aff31b9e2dd3e28be59cc37749479013e7bdb01017ce11b29b7e1e",
+      "chanceResult": "3505c3241ba5eff34e260257ae7512c9aaba38b6fdc4a4896ae9c60c0f431b37",
+      "notRotten": "744576807ade8b1f3dd854de2e260a9c5a3ef9cf253950f20220c5f8613ec19c"
+    }
+  },
+  "classes": {
+    "generic": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.api.unification.bundled.GenericRecipeUnifier",
+      "sha256": "746000b90deb0c69b054696b9467558dfc4ff7f3711b570db805611a0e972dd5"
+    },
+    "constants": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.api.constant.RecipeConstants",
+      "sha256": "c9c0812dc315bf303409dcb47f434df8c19cb02fa906f6642caacf17257c6832"
+    },
+    "spiritRecipe": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.crafting.recipe.SpiritFireRecipe",
+      "sha256": "1d085365ec7c0112535c429165a8ddd4759c43ab8b0fdd22c5d9f520a4cf6ef3"
+    },
+    "registry": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.unification.recipe.RecipeUnifierRegistryImpl",
+      "sha256": "1cbe09dcfaf670f4ce6f094d079fa0a13d2333d2d7a474cdfe3ff8c4ecc56bd9"
+    }
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/resources/projecte_authority.js",
+      "id": "createch2:projecte/age_06/low_covalence_dust",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "projecte:low_covalence_dust",
+          "count": 8
+        },
+        [
+          "minecraft:charcoal",
+          "tfc:powder/flux",
+          "tfc:metal/ingot/copper",
+          "minecraft:cobblestone"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/resources/projecte_authority.js",
+      "id": "createch2:projecte/age_08/medium_covalence_dust",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "projecte:medium_covalence_dust",
+          "count": 8
+        },
+        [
+          "projecte:low_covalence_dust",
+          "modern_industrialization:steel_ingot",
+          "create:precision_mechanism",
+          "electroenergetics:inductor"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/resources/projecte_authority.js",
+      "id": "createch2:projecte/age_09/high_covalence_dust",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "projecte:high_covalence_dust",
+          "count": 8
+        },
+        [
+          "projecte:medium_covalence_dust",
+          "minecraft:diamond",
+          "modern_industrialization:electronic_circuit",
+          "mekanism:alloy_infused"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/resources/projecte_authority.js",
+      "id": "createch2:projecte/age_09/philosophers_stone",
+      "kind": "shaped",
+      "args": [
+        "projecte:philosophers_stone",
+        [
+          "LHL",
+          "MEM",
+          "LHL"
+        ],
+        {
+          "L": "projecte:low_covalence_dust",
+          "M": "projecte:medium_covalence_dust",
+          "H": "projecte:high_covalence_dust",
+          "E": "evilcraft:dark_power_gem"
+        }
+      ]
+    }
+  ],
+  "spiritGem": [
+    {
+      "provider": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "data": {
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "tag": "c:gems/diamond"
+        },
+        "result": {
+          "count": 1,
+          "id": "occultism:spirit_attuned_gem"
+        }
+      }
+    }
+  ]
+}

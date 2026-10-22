@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/wood/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_wood/spruce",
+      "required": false
+    }
+  ]
+}

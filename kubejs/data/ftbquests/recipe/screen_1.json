@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbquests:screen",
+  "result": {
+    "id": "ftbquests:screen_1"
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "tag": "c:stones"
+    }
+  }
+}

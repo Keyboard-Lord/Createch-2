@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "createch2:processed_ae2_silicon"
+    },
+    "top": {
+      "item": "ae2:silicon_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2:printed_silicon"
+  }
+}

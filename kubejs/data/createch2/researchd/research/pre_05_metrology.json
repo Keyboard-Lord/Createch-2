@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:clock"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:material_specimens",
+      "createch2:frontier_observations"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:pre_04_nanoscale_fabrication",
+    "createch2:com_05_distributed_computation",
+    "createch2:frn_03_frontier_observation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_05_metrology.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_05_metrology.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:greg_components/age_14/mi_quantum_processor_qualification"
+    ]
+  }
+}

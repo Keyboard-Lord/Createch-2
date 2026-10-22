@@ -1,0 +1,6 @@
+[radar]
+	#Detection radius of the anti-aircraft radar in blocks.
+	#This is a server-side setting and is stored separately for each world.
+	# Default: 300
+	# Range: 16 ~ 2048
+	detection_range = 300

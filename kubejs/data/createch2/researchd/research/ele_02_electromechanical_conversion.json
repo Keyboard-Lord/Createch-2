@@ -1,0 +1,129 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "electroenergetics:white_electric_motor"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:grid_telemetry",
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:ele_01_practical_electrics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.ele_02_electromechanical_conversion.title"
+    },
+    "desc": {
+      "translate": "research.createch2.ele_02_electromechanical_conversion.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:and",
+    "effects": [
+      {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:deep_seas/life_support/oxygen_diffuser",
+          "createch2:deep_seas/life_support/electrolyzer",
+          "electroenergetics:crafting/accumulator",
+          "electroenergetics:crafting/black_electric_motor",
+          "electroenergetics:crafting/black_electric_motor_dye",
+          "electroenergetics:crafting/blue_electric_motor",
+          "electroenergetics:crafting/blue_electric_motor_dye",
+          "electroenergetics:crafting/brown_electric_motor",
+          "electroenergetics:crafting/brown_electric_motor_dye",
+          "electroenergetics:crafting/cyan_electric_motor",
+          "electroenergetics:crafting/cyan_electric_motor_dye",
+          "electroenergetics:crafting/gray_electric_motor",
+          "electroenergetics:crafting/gray_electric_motor_dye",
+          "electroenergetics:crafting/green_electric_motor",
+          "electroenergetics:crafting/green_electric_motor_dye",
+          "electroenergetics:crafting/light_blue_electric_motor",
+          "electroenergetics:crafting/light_blue_electric_motor_dye",
+          "electroenergetics:crafting/light_gray_electric_motor",
+          "electroenergetics:crafting/light_gray_electric_motor_dye",
+          "electroenergetics:crafting/lime_electric_motor",
+          "electroenergetics:crafting/lime_electric_motor_dye",
+          "electroenergetics:crafting/magenta_electric_motor",
+          "electroenergetics:crafting/magenta_electric_motor_dye",
+          "electroenergetics:crafting/magnet_block",
+          "electroenergetics:crafting/orange_electric_motor",
+          "electroenergetics:crafting/orange_electric_motor_dye",
+          "electroenergetics:crafting/pink_electric_motor",
+          "electroenergetics:crafting/pink_electric_motor_dye",
+          "electroenergetics:crafting/purple_electric_motor",
+          "electroenergetics:crafting/purple_electric_motor_dye",
+          "electroenergetics:crafting/radiator_panel",
+          "electroenergetics:crafting/red_electric_motor",
+          "electroenergetics:crafting/red_electric_motor_dye",
+          "electroenergetics:crafting/resistive_heater",
+          "electroenergetics:crafting/yellow_electric_motor",
+          "electroenergetics:crafting/yellow_electric_motor_dye",
+          "createch2:mobility/coasters_engineered/linear_motor",
+          "createch2:mobility/coasters_engineered/linear_motor_controller",
+          "createch2:electrical/alternator/commutator",
+          "createch2:electrical/alternator/rotor",
+          "createch2:electrical/alternator/stator",
+          "createch2:electrical/alternator/brushes",
+          "createch2:electrical/conversion/electric_motor",
+          "createch2:electrical/conversion/electric_pump",
+          "createch2:low_voltage/mi/basic_motor_prototype",
+          "createch2:low_voltage/mi/basic_motor_standard_assembly",
+          "createch2:electrical/conversion/fe_boundary",
+          "electroenergetics:crafting/high_voltage_capacitor",
+          "electroenergetics:crafting/heavily_insulated_wire",
+          "electroenergetics:crafting/heavily_insulated_wire_spool",
+          "electroenergetics:sequenced_assembly/transformer_core",
+          "electroenergetics:stonecutting/transformer_core_lamination",
+          "createch2:material_recycling/mi_motion/motor",
+          "createch2:material_recycling/mi_motion/pump",
+          "createch2:material_recycling/mi_electric/assembler",
+          "createch2:material_recycling/mi_electric/electric_macerator",
+          "createch2:material_recycling/mi_electric/electric_compressor",
+          "createch2:material_recycling/mi_electric/electric_mixer",
+          "createch2:material_recycling/mi_process/conveyor",
+          "createch2:material_recycling/mi_process/electric_cutting_machine",
+          "createch2:material_recycling/tfmg_pumpjack/base",
+          "createch2:material_recycling/tfmg_pumpjack/crank",
+          "createch2:material_recycling/tfmg_pumpjack/hammer",
+          "createch2:material_recycling/tfmg_pumpjack/hammer_connector",
+          "createch2:material_recycling/tfmg_pumpjack/hammer_head",
+          "createch2:material_recycling/tfmg_electric/electric_pump",
+          "createch2:material_recycling/tfmg_electric/copper_spool",
+          "createch2:material_recycling/mi_process/electric_wiremill",
+          "createch2:material_recycling/mi_process/electric_packer",
+          "createch2:material_recycling/mi_process/piston",
+          "createch2:material_recycling/mi_process/robot_arm",
+          "createch2:material_recycling/mi_process/electric_furnace",
+          "createch2:material_recycling/mi_process/electric_unpacker",
+          "createch2:material_recycling/mi_process/electric_blast_furnace",
+          "createch2:material_recycling/mi_process/polarizer",
+          "createch2:material_recycling/tfmg_electric/capacitor",
+          "createch2:material_recycling/mi_thermal/heatproof_machine_casing",
+          "modern_industrialization:electric_age/battery/lv_battery_asbl",
+          "modern_industrialization:assembler_generated/electric_age/battery/lv_battery",
+          "createch2:bees/low_voltage/incubator"
+        ]
+      },
+      {
+        "type": "researchd:multiply_value",
+        "value": "researchd:research_lab_productivity",
+        "amount": 1.1
+      }
+    ]
+  }
+}

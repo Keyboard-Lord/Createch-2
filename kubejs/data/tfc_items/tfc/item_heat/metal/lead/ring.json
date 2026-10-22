@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/lead"
+    },
+    {
+      "tag": "c:physical_rings/lead"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 300,
+  "welding_temperature": 400
+}

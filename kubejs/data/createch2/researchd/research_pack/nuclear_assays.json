@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 112,
+    "g": 211,
+    "b": 82
+  },
+  "sorting_value": 90,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.nuclear_assays.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.nuclear_assays.description"
+    }
+  }
+}

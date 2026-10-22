@@ -1,0 +1,762 @@
+{
+  "schema": 1,
+  "scope": "Additional locomotive cast-iron pipe batch after the existing factory frontier. No first-factory or aggregate procurement credit.",
+  "ids": {
+    "plate": "tfmg:pressing/cast_iron_ingot",
+    "pipe": "tfmg:crafting/materials/cast_iron_pipe",
+    "verticalPipe": "tfmg:crafting/materials/cast_iron_pipe_vertical",
+    "assembly": "createch2:railway/locomotive/steam_assembly"
+  },
+  "rows": {
+    "tfmg:pressing/cast_iron_ingot": {
+      "kind": "native",
+      "data": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/cast_iron"
+          }
+        ],
+        "results": [
+          {
+            "id": "tfmg:cast_iron_sheet"
+          }
+        ]
+      },
+      "nativeRows": [
+        {
+          "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+          "data": {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "tag": "c:ingots/cast_iron"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:cast_iron_sheet"
+              }
+            ]
+          }
+        }
+      ],
+      "owners": [],
+      "event": {
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/cast_iron"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:cast_iron_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "c:ingots/cast_iron"
+          },
+          "P": {
+            "tag": "c:plates/cast_iron"
+          }
+        },
+        "pattern": [
+          "   ",
+          "PIP",
+          "   "
+        ],
+        "result": {
+          "count": 4,
+          "id": "tfmg:cast_iron_pipe"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "I": {
+                "tag": "c:ingots/cast_iron"
+              },
+              "P": {
+                "tag": "c:plates/cast_iron"
+              }
+            },
+            "pattern": [
+              "   ",
+              "PIP",
+              "   "
+            ],
+            "result": {
+              "count": 4,
+              "id": "tfmg:cast_iron_pipe"
+            }
+          }
+        }
+      ],
+      "owners": [],
+      "event": {
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "tag": "c:plates/cast_iron"
+            }
+          },
+          "pattern": [
+            "   ",
+            "PIP",
+            "   "
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:cast_iron_pipe"
+          }
+        },
+        "applied": [],
+        "removed": false
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe_vertical": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "c:ingots/cast_iron"
+          },
+          "P": {
+            "tag": "c:plates/cast_iron"
+          }
+        },
+        "pattern": [
+          "P",
+          "I",
+          "P"
+        ],
+        "result": {
+          "count": 4,
+          "id": "tfmg:cast_iron_pipe"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "I": {
+                "tag": "c:ingots/cast_iron"
+              },
+              "P": {
+                "tag": "c:plates/cast_iron"
+              }
+            },
+            "pattern": [
+              "P",
+              "I",
+              "P"
+            ],
+            "result": {
+              "count": 4,
+              "id": "tfmg:cast_iron_pipe"
+            }
+          }
+        }
+      ],
+      "owners": [],
+      "event": {
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "tag": "c:plates/cast_iron"
+            }
+          },
+          "pattern": [
+            "P",
+            "I",
+            "P"
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:cast_iron_pipe"
+          }
+        },
+        "applied": [],
+        "removed": false
+      }
+    },
+    "createch2:railway/locomotive/steam_assembly": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "railcraft:frame"
+        },
+        "transitional_item": {
+          "id": "railcraft:frame"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "railcraft:solid_fueled_firebox"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "modern_industrialization:bronze_boiler"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "tfmg:steel_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "railcraft:standard_rail"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "railcraft:controller_circuit"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "railcraft:steel_plate"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "railcraft:track_parts"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "create:fluid_tank"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "create:mechanical_pump"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "create:controls"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "item": "tfmg:cast_iron_pipe"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "tfmg:lubrication_oil"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ]
+          },
+          {
+            "type": "greate:pressing",
+            "ingredients": [
+              {
+                "item": "railcraft:frame"
+              }
+            ],
+            "results": [
+              {
+                "id": "railcraft:frame"
+              }
+            ],
+            "recipe_tier": 1
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:steam_locomotive"
+          }
+        ]
+      },
+      "nativeRows": [],
+      "owners": [
+        "research:createch2:log_03_locomotive_systems"
+      ],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "railcraft:frame"
+          },
+          "transitional_item": {
+            "id": "railcraft:frame"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:solid_fueled_firebox"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "modern_industrialization:bronze_boiler"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "tfmg:steel_mechanism"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:standard_rail"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:controller_circuit"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:steel_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:track_parts"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:fluid_tank"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:mechanical_pump"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:controls"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "tfmg:cast_iron_pipe"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 250,
+                  "fluid": "tfmg:lubrication_oil"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ],
+              "recipe_tier": 1
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:steam_locomotive"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      }
+    }
+  },
+  "ingotTagMembers": [
+    "createbigcannons:cast_iron_ingot",
+    "tfc:metal/ingot/cast_iron",
+    "tfmg:cast_iron_ingot"
+  ],
+  "plateTagMembers": [
+    "tfmg:cast_iron_sheet"
+  ],
+  "census": [
+    {
+      "item": "createbigcannons:cast_iron_ingot",
+      "id": "tfmg:pressing/cast_iron_ingot",
+      "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+      "event": {
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/cast_iron"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:cast_iron_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/cast_iron",
+      "id": "tfmg:pressing/cast_iron_ingot",
+      "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+      "event": {
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/cast_iron"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:cast_iron_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfmg:cast_iron_ingot",
+      "id": "tfmg:pressing/cast_iron_ingot",
+      "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+      "event": {
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/cast_iron"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:cast_iron_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    }
+  ],
+  "unification": {
+    "tagManaged": true,
+    "priorityOverride": "tfmg"
+  }
+}

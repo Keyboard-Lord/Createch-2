@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "MCM",
+    "GHG"
+  ],
+  "key": {
+    "P": {
+      "item": "create:iron_sheet"
+    },
+    "S": {
+      "item": "greate:andesite_alloy_shaft"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "G": {
+      "tag": "createbigcannons:gunpowder"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:cannon_mount",
+    "count": 1
+  }
+}

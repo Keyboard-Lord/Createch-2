@@ -1,0 +1,39 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 520,
+  "item_inputs": [
+    {
+      "item": "gtceu:lv_electric_pump",
+      "amount": 4
+    },
+    {
+      "item": "gtceu:mv_electric_motor",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:aluminum_plate",
+      "amount": 4
+    },
+    {
+      "item": "mekanism:alloy_infused",
+      "amount": 4
+    },
+    {
+      "item": "gtceu:mv_electric_pump",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 864
+  },
+  "item_outputs": [
+    {
+      "item": "gtceu:mv_electric_pump",
+      "amount": 4
+    }
+  ]
+}

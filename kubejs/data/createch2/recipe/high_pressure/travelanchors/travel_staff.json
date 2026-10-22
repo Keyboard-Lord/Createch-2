@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " C ",
+    "T  "
+  ],
+  "key": {
+    "S": {
+      "item": "stellaris:solerium"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_rod"
+    }
+  },
+  "result": {
+    "id": "travelanchors:travel_staff",
+    "count": 1
+  }
+}

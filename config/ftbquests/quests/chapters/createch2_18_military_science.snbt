@@ -1,0 +1,302 @@
+{
+	autofocus_id: "076D010000000001"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_18_military_science"
+	group: "0A85000000000007"
+	id: "076D000000000001"
+	images: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "0822000000000014"
+		linked_quest: "6E4E3EDB1D124E1D"
+		shape: "rsquare"
+		size: 1.15d
+		x: -4.2d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6E4E3EDB1D124E1D"]
+			icon: {
+				id: "tfc:stone/javelin/sedimentary"
+			}
+			id: "076D010000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0100000000F1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "076D010000000011"
+				item: { count: 1, id: "tfc:stone/javelin/sedimentary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D010000000001"]
+			icon: {
+				id: "tacz:gun_smith_table"
+			}
+			id: "076D020000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0200000000F1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "076D020000000011"
+				item: { count: 1, id: "tacz:gun_smith_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D020000000001"]
+			icon: {
+				id: "createbigcannons:cannon_builder"
+			}
+			id: "076D030000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0300000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "076D030000000011"
+					item: { count: 1, id: "createbigcannons:cannon_builder" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "076D030000000012"
+					item: { count: 1, id: "createbigcannons:solid_shot" }
+					type: "item"
+				}
+				{
+					id: "076D030000000013"
+					item: { components: { "minecraft:custom_data": { BlockId: "tacz:ammo_workbench" } }, count: 1, id: "tacz:workbench_a" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "076D030000000014"
+					item: { count: 1, id: "tacz_c:casefull_55645" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D030000000001"]
+			icon: {
+				id: "cbc_ballistics:ballistic_calculator"
+			}
+			id: "076D040000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0400000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "076D040000000011"
+					item: { count: 1, id: "cbc_ballistics:ballistic_calculator" }
+					type: "item"
+				}
+				{
+					id: "076D040000000012"
+					item: { count: 1, id: "create_radar:fire_controller" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D040000000001"]
+			icon: {
+				id: "create_radar:auto_yaw_controller"
+			}
+			id: "076D050000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0500000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "076D050000000011"
+					item: { count: 1, id: "create_radar:auto_yaw_controller" }
+					type: "item"
+				}
+				{
+					id: "076D050000000012"
+					item: { count: 1, id: "create_radar:auto_pitch_controller" }
+					type: "item"
+				}
+				{
+					id: "076D050000000013"
+					item: { count: 1, id: "create_the_air_wars:anti_aircraft_launcher" }
+					type: "item"
+				}
+				{
+					id: "076D050000000014"
+					item: { count: 1, id: "shield_generators:shield_generator" }
+					type: "item"
+				}
+				{
+					id: "0E077C8224FB0562"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D050000000001"]
+			icon: {
+				id: "cbc_enhanced_shells:nuke_shell"
+			}
+			id: "076D060000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0600000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "076D060000000011"
+					item: { count: 1, id: "cbc_enhanced_shells:nuke_shell" }
+					type: "item"
+				}
+				{
+					id: "02DEAB1F8B7C14FC"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+				{
+					id: "09B8DF2784534C2B"
+					item: { count: 1, id: "electroenergetics:cut_off_switch" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D060000000001"]
+			icon: {
+				id: "cbc_enhanced_shells:singularity_shell_mk1"
+			}
+			id: "076D070000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0700000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "076D070000000011"
+				item: { count: 1, id: "cbc_enhanced_shells:singularity_shell_mk1" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076D030000000001"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "076D080000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076D0800000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_military_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "076D080000000011"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "076D080000000012"
+					item: { count: 1, id: "create:item_vault" }
+					type: "item"
+				}
+				{
+					id: "076D080000000013"
+					item: { components: { "minecraft:custom_data": { Level: 0 } }, count: 1, id: "tacz:ammo_box" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	tags: ["theme_military_chapter"]
+}

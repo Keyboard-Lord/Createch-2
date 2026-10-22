@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 128,
+  "duration": 1000,
+  "item_inputs": [
+    {
+      "item": "mekanism:yellow_cake_uranium",
+      "amount": 2
+    },
+    {
+      "item": "chemlib:fluorine",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:iridium_tiny_dust",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:chlorine",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "mekanism:uranium_oxide_bucket",
+      "amount": 1
+    }
+  ]
+}

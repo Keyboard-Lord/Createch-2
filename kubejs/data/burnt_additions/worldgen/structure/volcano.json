@@ -1,0 +1,15 @@
+{
+  "type": "burnt_additions:sunken",
+  "template": "burnt_additions:volcano",
+  "y_offset": 2,
+  "flatness": 4,
+  "footprint": 20,
+  "flat_footprint": 10,
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "biomes": "#createch2:burnt_volcano_planets",
+  "blend": true,
+  "fill_below": "minecraft:basalt",
+  "gate": "overworld_volcano"
+}

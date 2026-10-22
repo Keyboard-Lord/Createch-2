@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "edible": true,
+  "protein": 2,
+  "decay_modifier": 2,
+  "hunger": 4
+}

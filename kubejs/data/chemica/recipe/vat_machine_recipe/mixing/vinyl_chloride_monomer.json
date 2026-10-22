@@ -1,0 +1,31 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "tfmg:ethylene"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 750,
+      "tag": "c:chlorine"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:vinyl_chloride_monomer"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

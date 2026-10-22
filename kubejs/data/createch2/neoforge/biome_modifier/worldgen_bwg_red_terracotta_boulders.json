@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:bwg_red_terracotta_boulders",
+  "features": [
+    "createch2:offworld/formations/terracotta_boulders"
+  ],
+  "step": "local_modifications"
+}

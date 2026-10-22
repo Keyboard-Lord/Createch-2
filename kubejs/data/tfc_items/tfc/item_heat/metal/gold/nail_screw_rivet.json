@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/gold"
+    },
+    {
+      "tag": "c:rivets/gold"
+    },
+    {
+      "tag": "c:screws/gold"
+    },
+    {
+      "tag": "c:physical_screws/gold"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 636,
+  "welding_temperature": 848
+}

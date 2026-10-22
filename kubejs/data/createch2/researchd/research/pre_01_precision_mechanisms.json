@@ -1,0 +1,72 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:precision_mechanism"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:mec_02_automated_manipulation",
+    "createch2:mat_02_brass_engineering"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_01_precision_mechanisms.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_01_precision_mechanisms.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "greate:sequenced_assembly/precision_mechanism",
+      "greate:shaped/mechanical_crafter",
+      "createch2:research/pack/kinetic_data_instrumented",
+      "createch2:greate/tier_1/cogwheel",
+      "createch2:greate/tier_1/crushing_wheel",
+      "createch2:greate/tier_1/encased_fan",
+      "createch2:greate/tier_1/gearbox",
+      "createch2:greate/tier_1/horizontal_gearbox",
+      "createch2:greate/tier_1/large_cogwheel",
+      "createch2:greate/tier_1/mechanical_mixer",
+      "createch2:greate/tier_1/mechanical_press",
+      "createch2:greate/tier_1/mechanical_pump",
+      "createch2:greate/tier_1/mechanical_saw",
+      "createch2:greate/tier_1/millstone",
+      "createch2:greate/tier_1/shaft_cutting",
+      "createch2:greate/tier_1/vertical_gearbox",
+      "createch2:process_facilities/thermal/large_steam_furnace",
+      "createch2:factory_scaling/components/precision_mechanism_batch",
+      "createch2:material_recycling/mi_steel/machine_casing",
+      "createch2:material_recycling/mi_steel/basic_machine_hull",
+      "createch2:material_recycling/greate_steel/steel_cogwheel",
+      "createch2:material_recycling/greate_steel/steel_crushing_wheel",
+      "createch2:material_recycling/greate_steel/steel_encased_fan",
+      "createch2:material_recycling/greate_steel/steel_gearbox",
+      "createch2:material_recycling/greate_steel/large_steel_cogwheel",
+      "createch2:material_recycling/greate_steel/steel_mechanical_mixer",
+      "createch2:material_recycling/greate_steel/steel_mechanical_press",
+      "createch2:material_recycling/greate_steel/steel_mechanical_pump",
+      "createch2:material_recycling/greate_steel/steel_mechanical_saw",
+      "createch2:material_recycling/greate_steel/steel_millstone",
+      "createch2:material_recycling/greate_steel/steel_shaft",
+      "createch2:material_recycling/greate_steel/steel_vertical_gearbox",
+      "createch2:greate/suppliers/steel_reprocessing"
+    ]
+  }
+}

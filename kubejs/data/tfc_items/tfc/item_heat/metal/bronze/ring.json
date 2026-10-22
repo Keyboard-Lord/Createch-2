@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/bronze"
+    },
+    {
+      "tag": "c:physical_rings/bronze"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 570,
+  "welding_temperature": 760
+}

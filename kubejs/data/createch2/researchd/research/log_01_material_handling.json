@@ -1,0 +1,39 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:belt_connector"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:logistics_reports",
+      "createch2:kinetic_data"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.log_01_material_handling.title"
+    },
+    "desc": {
+      "translate": "research.createch2.log_01_material_handling.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "create:crafting/kinetics/schedule"
+    ]
+  }
+}

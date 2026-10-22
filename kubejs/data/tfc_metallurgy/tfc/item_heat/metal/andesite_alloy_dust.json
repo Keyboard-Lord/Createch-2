@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/andesite_alloy"
+    },
+    {
+      "tag": "c:physical_dusts/andesite_alloy"
+    }
+  ],
+  "heat_capacity": 0.2,
+  "forging_temperature": 312,
+  "welding_temperature": 416
+}

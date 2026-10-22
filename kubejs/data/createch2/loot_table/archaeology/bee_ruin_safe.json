@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/amethyst",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/small_native_copper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:glow_arrow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

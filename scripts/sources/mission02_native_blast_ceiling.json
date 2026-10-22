@@ -1,0 +1,367 @@
+{
+  "truth": "NATIVE_EBF_BASE_RECIPE_CEILING_REPAIR",
+  "maximumNativeBaseEu": 128,
+  "runtimeRecipes": [
+    {
+      "id": "createch2:factory_scaling/materials/titanium_hot_ingot_batch",
+      "path": "kubejs/data/createch2/recipe/factory_scaling/materials/titanium_hot_ingot_batch.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 192,
+        "duration": 1800,
+        "item_inputs": [
+          {
+            "item": "modern_industrialization:titanium_dust",
+            "amount": 8
+          },
+          {
+            "tag": "c:dusts/carbon",
+            "amount": 8
+          },
+          {
+            "item": "modern_industrialization:titanium_plate",
+            "amount": 1,
+            "probability": 0
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:manganese_sulfuric_solution",
+          "amount": 4000
+        },
+        "item_outputs": [
+          {
+            "item": "modern_industrialization:titanium_hot_ingot",
+            "amount": 8
+          }
+        ],
+        "fluid_outputs": {
+          "fluid": "modern_industrialization:manganese_sulfuric_solution",
+          "amount": 3500
+        }
+      },
+      "researchOwners": [
+        "MAT-04"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/tungsten_steel_reprocessing",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/tungsten_steel_reprocessing.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 512,
+        "duration": 1600,
+        "item_inputs": [
+          {
+            "item": "gtceu:tungsten_steel_dust",
+            "amount": 4
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 1000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:tungsten_steel_ingot",
+            "amount": 4
+          }
+        ]
+      },
+      "researchOwners": [
+        "COM-06"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/darmstadtium_reduction",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/darmstadtium_reduction.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 2048,
+        "duration": 6400,
+        "item_inputs": [
+          {
+            "item": "gtceu:darmstadtium_dust",
+            "amount": 4
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 4000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:darmstadtium_ingot",
+            "amount": 4
+          }
+        ]
+      },
+      "researchOwners": [
+        "FRN-05"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/rpp_reduction",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/rpp_reduction.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 512,
+        "duration": 1600,
+        "item_inputs": [
+          {
+            "item": "gtceu:rhodium_plated_palladium_dust",
+            "amount": 4
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 1000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:rhodium_plated_palladium_ingot",
+            "amount": 4
+          }
+        ]
+      },
+      "researchOwners": [
+        "NUC-06"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/tungsten_steel_refining",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/tungsten_steel_refining.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 512,
+        "duration": 1600,
+        "item_inputs": [
+          {
+            "item": "tfc_metallurgy:metal/ingot/high_carbon_tungsten_steel",
+            "amount": 4
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 1000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:tungsten_steel_ingot",
+            "amount": 4
+          }
+        ]
+      },
+      "researchOwners": [
+        "COM-06"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/naquadah_alloy_reprocessing",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/naquadah_alloy_reprocessing.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 1024,
+        "duration": 800,
+        "item_inputs": [
+          {
+            "item": "gtceu:naquadah_alloy_dust",
+            "amount": 4
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 1000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:naquadah_alloy_ingot",
+            "amount": 4
+          }
+        ]
+      },
+      "researchOwners": [
+        "FRN-04E"
+      ]
+    },
+    {
+      "id": "createch2:greate/suppliers/naquadah_alloy",
+      "path": "kubejs/data/createch2/recipe/greate/suppliers/naquadah_alloy.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 1024,
+        "duration": 3200,
+        "item_inputs": [
+          {
+            "item": "sgjourney:naquadah_ingot",
+            "amount": 8
+          },
+          {
+            "item": "sgjourney:trinium_ingot",
+            "amount": 4
+          },
+          {
+            "item": "chemlib:osmium_dust",
+            "amount": 1
+          },
+          {
+            "item": "modern_industrialization:iridium_dust",
+            "amount": 3
+          }
+        ],
+        "fluid_inputs": [
+          {
+            "fluid": "modern_industrialization:nitrogen",
+            "amount": 4000
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "gtceu:naquadah_alloy_ingot",
+            "amount": 16
+          }
+        ]
+      },
+      "researchOwners": [
+        "FRN-04E"
+      ]
+    },
+    {
+      "id": "createch2:quantum/superconductor/hot_ingot",
+      "path": "kubejs/data/createch2/recipe/quantum/superconductor/hot_ingot.json",
+      "before": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 256,
+        "duration": 1200,
+        "item_inputs": [
+          {
+            "item": "modern_industrialization:superconductor_dust",
+            "amount": 1
+          },
+          {
+            "item": "modern_industrialization:nuclear_alloy_plate",
+            "amount": 1
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "modern_industrialization:superconductor_hot_ingot",
+            "amount": 1
+          }
+        ]
+      },
+      "researchOwners": [
+        "MAT-07"
+      ]
+    }
+  ],
+  "classes": {
+    "ebf": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.machines.blockentities.multiblocks.ElectricBlastFurnaceBlockEntity",
+      "sha256": "c3637fabf07dcf2cb10e9bddcfed39961c60c6f4c256f896fbeb47a97b3b6133"
+    },
+    "eiMachines": {
+      "jar": "extended-industrialization-1.16.4-1.21.1.jar",
+      "class": "net.swedz.extended_industrialization.EIMachines",
+      "sha256": "3c3a176d64fd7a0504f3a6736190371258ae46779fa8a01f9746c2fe41b6ec6a"
+    },
+    "eiHook": {
+      "jar": "extended-industrialization-1.16.4-1.21.1.jar",
+      "class": "net.swedz.extended_industrialization.compat.mi.EIMIHookListener",
+      "sha256": "147ed1aa76ac7b1e8dc959a559efcef99dbd76e39c9b4e95062b90a67c75a89c"
+    },
+    "hook": {
+      "jar": "tesseract-api-neoforge-1.12.18-1.21.1.jar",
+      "class": "net.swedz.tesseract.neoforge.compat.mi.mixin.hook.listener.BlastFurnaceTierHookMixin",
+      "sha256": "69797203f627e6ff335bb0e8141be737e9a619f9ea64523e079f506cb4546e7e"
+    },
+    "context": {
+      "jar": "tesseract-api-neoforge-1.12.18-1.21.1.jar",
+      "class": "net.swedz.tesseract.neoforge.compat.mi.hook.context.listener.BlastFurnaceTiersMIHookContext",
+      "sha256": "d8cb6d8e7ee97c4b33fa5ab6730681d7775ffd2adea7de4a647b12db2e202092"
+    },
+    "hookInterface": {
+      "jar": "tesseract-api-neoforge-1.12.18-1.21.1.jar",
+      "class": "net.swedz.tesseract.neoforge.compat.mi.hook.MIHookListener",
+      "sha256": "85b45861de5b29f66b75033b823fa437f324f703d07b0addbae2578027bea5ae"
+    },
+    "miTweaks": {
+      "jar": "mi-tweaks-1.9.6-1.21.1.jar",
+      "class": "net.swedz.mi_tweaks.compat.mi.MITweaksMIHookListener",
+      "sha256": "f6ff909d039603793b6077a62d002e153367758ea09eb3abc58d4668ddd3c9ea"
+    },
+    "loaded": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.compat.kubejs.LoadedKubeJSProxy",
+      "sha256": "02529d0666c9b8fe7df04f90121693f0fc6a0f09b7542ca8deafefe6d2ebd458"
+    }
+  },
+  "originalProviderCensus": {
+    "direct": {
+      "Modern-Industrialization-2.5.10.jar": [
+        "aztech/modern_industrialization/MITooltips.class",
+        "aztech/modern_industrialization/compat/kubejs/KubeJSProxy.class",
+        "aztech/modern_industrialization/compat/kubejs/LoadedKubeJSProxy.class",
+        "aztech/modern_industrialization/compat/kubejs/machine/AddEbfTiersEventJS.class",
+        "aztech/modern_industrialization/datagen/translation/TranslationProvider.class",
+        "aztech/modern_industrialization/machines/blockentities/multiblocks/ElectricBlastFurnaceBlockEntity$1.class",
+        "aztech/modern_industrialization/machines/blockentities/multiblocks/ElectricBlastFurnaceBlockEntity$Tier.class",
+        "aztech/modern_industrialization/machines/blockentities/multiblocks/ElectricBlastFurnaceBlockEntity.class",
+        "aztech/modern_industrialization/machines/init/MultiblockMachines.class"
+      ],
+      "mi-tweaks-1.9.6-1.21.1.jar": [
+        "net/swedz/mi_tweaks/MITweaks.class",
+        "net/swedz/mi_tweaks/machine/processcondition/EBFCoilProcessCondition.class",
+        "net/swedz/mi_tweaks/machine/processcondition/EBFCoilProcessCondition$WrappedEBFCoilTier.class",
+        "net/swedz/mi_tweaks/MITweaksText.class",
+        "net/swedz/mi_tweaks/mixin/EBFReiCategoriesIncludeCoilProcessConditionMixin.class"
+      ],
+      "tesseract-api-neoforge-1.12.18-1.21.1.jar": [
+        "net/swedz/tesseract/neoforge/compat/mi/hook/context/listener/BlastFurnaceTiersMIHookContext.class",
+        "net/swedz/tesseract/neoforge/compat/mi/mixin/hook/efficiency/EBFEfficiencyHookMixin.class",
+        "net/swedz/tesseract/neoforge/compat/mi/mixin/hook/listener/BlastFurnaceTierHookMixin.class"
+      ]
+    },
+    "hook": {
+      "Modern-Industrialization-2.5.10.jar": [
+        "aztech/modern_industrialization/compat/kubejs/LoadedKubeJSProxy.class",
+        "aztech/modern_industrialization/compat/kubejs/machine/AddEbfTiersEventJS.class",
+        "aztech/modern_industrialization/compat/kubejs/machine/MIMachineKubeJSEvents.class"
+      ],
+      "extended-industrialization-1.16.4-1.21.1.jar": [
+        "net/swedz/extended_industrialization/EIMachines.class",
+        "net/swedz/extended_industrialization/compat/mi/EIMIHookListener.class"
+      ],
+      "mi-tweaks-1.9.6-1.21.1.jar": [
+        "net/swedz/mi_tweaks/machine/processcondition/EBFCoilProcessCondition.class",
+        "net/swedz/mi_tweaks/machine/processcondition/EBFCoilProcessCondition$WrappedEBFCoilTier.class",
+        "net/swedz/mi_tweaks/mixin/EBFReiCategoriesIncludeCoilProcessConditionMixin.class",
+        "net/swedz/mi_tweaks/compat/mi/MITweaksMIHookListener.class"
+      ],
+      "tesseract-api-neoforge-1.12.18-1.21.1.jar": [
+        "net/swedz/tesseract/neoforge/compat/mi/hook/MIHookListener.class",
+        "net/swedz/tesseract/neoforge/compat/mi/hook/context/listener/BlastFurnaceTiersMIHookContext.class",
+        "net/swedz/tesseract/neoforge/compat/mi/mixin/hook/efficiency/EBFEfficiencyHookMixin.class",
+        "net/swedz/tesseract/neoforge/compat/mi/mixin/hook/listener/BlastFurnaceTierHookMixin.class"
+      ]
+    }
+  }
+}

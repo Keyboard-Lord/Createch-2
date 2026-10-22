@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:woven_carpet",
+      "required": false
+    },
+    {
+      "id": "yourmod:woolen_rug",
+      "required": false
+    }
+  ]
+}

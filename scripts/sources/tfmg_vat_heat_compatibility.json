@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "selectedTFMGSha256": "e9e84f7507b0b482d176c7f04eb924ed1396637f480d596a8b2d266fa51640d0",
+  "baselineRuntimeCommit": "0744146",
+  "heatMapping": {
+    "heated": 1,
+    "superheated": 2
+  },
+  "mappingEvidence": "Installed Create 6.0.10 BoilerHeaters.blazeBurner returns 1 for fueled/fading and 2 for SEETHING; CE VatRecipeParams reads heat_level and VatBlockEntity tests recipe.heatLevel. Legacy heat_requirement alone leaves CE heatLevel at zero.",
+  "staticRoutes": [
+    {
+      "recipe": "chemica:vat_machine_recipe/centrifuge/reformate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/centrifuge/reformate.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "666b792c22bc38d90a99b2e9a67a10eb96713706268bf5ef56dfafec363b673d"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/brine",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/brine.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "1b1208f4bf39a237b91f096d88d628f3ff22e8134ee88e61645d3d9004086c3e"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/charcoal_dust",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/charcoal_dust.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "8a86026fddf92d3f1140073ed1293897f36991726279042a8622a4427cd8de68"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/electrochemically_exfoliated_graphene",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/electrochemically_exfoliated_graphene.json",
+      "previousHeat": "superheated",
+      "heatLevel": 2,
+      "previousCanonicalSha256": "af397e84bb6251ff54aae16a33e5ba7abfc8d11f254f14171cf5b09d3a9a712f"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/hydrofluoric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/hydrofluoric_acid.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "fd526de4dd236d335ab3a0faad090e233e8ae0f1cdf446f92a25e2b5f78663db"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/powdered_obsidian",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/powdered_obsidian.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "8917f76a8c565bb3fdfac87f00fc69597d4f8d93e3518e23c48a9291ca353dab"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/salt",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/salt.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "09577d848f1f585b84901b3c82ed3d977b630d2715bd40fe0bf81160666d4e27"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_bisulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/sodium_bisulfate.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "c02de5b13bddef18d3624867ecb8d66c9dfaecedb048c9f11fa21bf73d045195"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_persulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/sodium_persulfate.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "ed0e03c0c27dce62f5f150df4c1849531fe5d01853f4f3c3744179c4fe4455a1"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/amine_catalyst",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/amine_catalyst.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "672ccdd88d0ee0ab79b11c7e02d59539c35748aca9d50a0cc113ff93ff977cac"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hexamethylenediamine_solution",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/hexamethylenediamine_solution.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "39974878e7d38e169abc406c72b898338c0426e74e4fbb6a93aecedd525e82f2"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/hydrochloric_acid.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "e2b99239a37c15d85830be7332650a00eb8db74c7792dc9149d064a07e59d34a"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nylon_salt_crystals",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/nylon_salt_crystals.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "74111403f33c495bb7e0deb6d7d464376af684f9d943d965e440026599fac9b6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/tungsten_hexafluoride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/tungsten_hexafluoride.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "29f53aaebfcf4714a0d34ab99b0c4e1fc67e9648196ee3312be9aa333493f0ee"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/carbon_monoxide",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/carbon_monoxide.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "b7f3f62ded5c1e3a4cfcb29006776966fe39a17c383b04d157cfc711b7e02bfb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_air",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polyethylene_air.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "c2de3ffabd74abf24012983b71a1df0ee1ad64c0f2080566c2f4827e60ced1e6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_oxygen",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polyethylene_oxygen.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "9a27cee7db3d7639348a42c7120742c0bc4f93b8b8c41ab22141a5137e38a2fe"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/steam",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/steam.json",
+      "previousHeat": "superheated",
+      "heatLevel": 2,
+      "previousCanonicalSha256": "d81eea85a09693c4b1880869d8a5f6cf0c65e3b4f109f842df87b6458c6570a6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "4170c1b9cf9c470a15aa59d52cd4e2478cfa17928c4ccf99cd97538265739230"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_dust",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_dust.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "0fd323327e1dab1b39be61e57a6d44dcc23edff326d3adf6c8d4100f6c277699"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_hg",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_hg.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "bbcef2af0900469a1ecab11502b752f82729bdd98e8e688426c75ed98676c813"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_mg",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_mg.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "5416245ddd3be142ab2858af7b578f9cbb7b442fa9a73316e61d6330d54245c3"
+    },
+    {
+      "recipe": "createch2:chemical_age/tfmg/synthetic_rubber",
+      "file": "kubejs/data/createch2/recipe/chemical_age/tfmg/synthetic_rubber.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "f80c70854d8d46dd018dba53754e2e01d0129f4ee713d762a8a036043385ee93"
+    },
+    {
+      "recipe": "createch2:heavy_industry/tfmg/naphtha_cast_iron_vat",
+      "file": "kubejs/data/createch2/recipe/heavy_industry/tfmg/naphtha_cast_iron_vat.json",
+      "previousHeat": "heated",
+      "heatLevel": 1,
+      "previousCanonicalSha256": "203a2961b6b975f3221f07269a2b4e56d1d346d420a9f7d724101b6460aa1a74"
+    }
+  ],
+  "runtimeRoutes": [
+    {
+      "recipe": "createch2:chemica/feedstock/molybdenite_wet_separation",
+      "heatLevel": 1
+    },
+    {
+      "recipe": "createch2:chemica/feedstock/vanadium_magnetite_wet_separation",
+      "heatLevel": 1
+    }
+  ],
+  "limits": [
+    "Numeric CE heat adds across the vat footprint and admits Create fading heat at level 1; it is not an exact per-burner HeatCondition predicate.",
+    "No native codec, heated/unheated machine operation or throughput proof from binary inspection alone."
+  ]
+}

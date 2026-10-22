@@ -1,0 +1,35 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:spyglass"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:logistics_reports",
+      "createch2:propulsion_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:frn_01_remote_observation",
+    "createch2:spc_05_planetary_operations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_02_expeditionary_science.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_02_expeditionary_science.description"
+    }
+  }
+}

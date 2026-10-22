@@ -1,0 +1,165 @@
+{
+  "nativeClasses": {
+    "spring": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.SpringFeature"
+    ],
+    "registry": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.TFCFeatures"
+    ],
+    "registryV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.TFCFeatures",
+      true
+    ],
+    "lava": [
+      "@client",
+      "net.minecraft.world.level.material.LavaFluid"
+    ],
+    "source": [
+      "@client",
+      "net.minecraft.world.level.material.LavaFluid$Source"
+    ],
+    "flowing": [
+      "@client",
+      "net.minecraft.world.level.material.FlowingFluid"
+    ],
+    "openEnd": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.OpenEndedPipe"
+    ],
+    "handler": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.OpenEndedPipe$OpenEndFluidHandler"
+    ]
+  },
+  "nativeCodeSha256": {
+    "spring": "f3f0d29341c3bebe0e43e981818ebfa32593ba4905554b719c48402a55a2c6ec",
+    "registry": "e552e67e4c958fb7502cb9ddf3b67e3fd3902944a564fb79900494e6ccda2605",
+    "registryV": "a121795b876712a141dd599051af821b951148f3e9a6a6a1ca5de1b63dd16c72",
+    "lava": "2fa57051bc8cb6dcc31ba16b0f98efff79a41d84085024bae75fb434fb18df83",
+    "source": "5bcb510d829e32a985ad8ff5e4344305d8693a81cc84117f9759d6e0da9607e4",
+    "flowing": "ace04d6a69f6c5c335ddd2c0b439b92c7d09491b7e996931fa0b38d0a87907ef",
+    "openEnd": "953437865987ad2571d7f7d728be8f1e0abe408b32acf60d82b707e0ac1eb90d",
+    "handler": "382267f60868fd647381c252f141d07f657da9ce6e2c6e4567d0d5a44781e2bc"
+  },
+  "worldResources": {
+    "worldgen/configured_feature|tfc:lava_spring": {
+      "type": "tfc:spring",
+      "config": {
+        "state": {
+          "Name": "minecraft:lava",
+          "Properties": {
+            "falling": "true"
+          }
+        },
+        "valid_blocks": [
+          "tfc:rock/raw/granite",
+          "tfc:rock/raw/diorite",
+          "tfc:rock/raw/gabbro",
+          "tfc:rock/raw/shale",
+          "tfc:rock/raw/claystone",
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/conglomerate",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/chert",
+          "tfc:rock/raw/chalk",
+          "tfc:rock/raw/tuff",
+          "tfc:rock/raw/rhyolite",
+          "tfc:rock/raw/basalt",
+          "tfc:rock/raw/andesite",
+          "tfc:rock/raw/dacite",
+          "tfc:rock/raw/quartzite",
+          "tfc:rock/raw/slate",
+          "tfc:rock/raw/phyllite",
+          "tfc:rock/raw/schist",
+          "tfc:rock/raw/gneiss",
+          "tfc:rock/raw/marble"
+        ]
+      }
+    },
+    "worldgen/configured_feature|tfc:lava_surface_spring": {
+      "type": "tfc:spring",
+      "config": {
+        "state": {
+          "Name": "minecraft:lava",
+          "Properties": {
+            "falling": "true"
+          }
+        },
+        "valid_blocks": [
+          "tfc:rock/raw/granite",
+          "tfc:rock/raw/diorite",
+          "tfc:rock/raw/gabbro",
+          "tfc:rock/raw/shale",
+          "tfc:rock/raw/claystone",
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/conglomerate",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/chert",
+          "tfc:rock/raw/chalk",
+          "tfc:rock/raw/tuff",
+          "tfc:rock/raw/rhyolite",
+          "tfc:rock/raw/basalt",
+          "tfc:rock/raw/andesite",
+          "tfc:rock/raw/dacite",
+          "tfc:rock/raw/quartzite",
+          "tfc:rock/raw/slate",
+          "tfc:rock/raw/phyllite",
+          "tfc:rock/raw/schist",
+          "tfc:rock/raw/gneiss",
+          "tfc:rock/raw/marble"
+        ]
+      }
+    },
+    "worldgen/placed_feature|tfc:lava_spring": {
+      "feature": "tfc:lava_spring",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 50
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "uniform",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 63
+            }
+          }
+        }
+      ]
+    },
+    "worldgen/placed_feature|tfc:lava_surface_spring": {
+      "feature": "tfc:lava_surface_spring",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 70
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "uniform",
+            "min_inclusive": {
+              "absolute": 64
+            },
+            "max_inclusive": {
+              "absolute": 220
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/protein_sandwich"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 3,
+  "grain": 1.2,
+  "protein": 1.5,
+  "vegetables": 0.4,
+  "decay_modifier": 2.5
+}

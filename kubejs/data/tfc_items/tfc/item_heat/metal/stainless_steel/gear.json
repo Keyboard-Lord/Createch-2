@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:gears/stainless_steel"
+    },
+    {
+      "tag": "c:heavy_gears/stainless_steel"
+    }
+  ],
+  "heat_capacity": 11.428,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

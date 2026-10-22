@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "crowns:heat_exchanger",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "modern_industrialization:nuclear_alloy_plate",
+      "amount": 4
+    },
+    {
+      "tag": "c:ingots/lead",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "item_outputs": [
+    {
+      "item": "crowns:heat_exchanger",
+      "amount": 8
+    }
+  ]
+}

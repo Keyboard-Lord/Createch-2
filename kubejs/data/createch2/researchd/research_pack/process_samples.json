@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 91,
+    "g": 170,
+    "b": 126
+  },
+  "sorting_value": 30,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.process_samples.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.process_samples.description"
+    }
+  }
+}

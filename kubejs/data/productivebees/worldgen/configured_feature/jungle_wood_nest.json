@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:jungle_wood_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:kapok_logs"
+        },
+        "state": {
+          "Name": "productivebees:jungle_wood_nest"
+        }
+      }
+    ]
+  }
+}

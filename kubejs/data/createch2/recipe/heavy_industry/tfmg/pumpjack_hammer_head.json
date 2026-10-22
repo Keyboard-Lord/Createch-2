@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "B",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:storage_blocks/cast_iron"
+    },
+    "B": {
+      "tag": "createch2:materials/bronze/machine_grade"
+    }
+  },
+  "result": {
+    "id": "tfmg:pumpjack_hammer_head",
+    "count": 1
+  }
+}

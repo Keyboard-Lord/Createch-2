@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "PSP",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "minecraft:shears"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    }
+  },
+  "result": {
+    "id": "buildinggadgets2:gadget_cut_paste",
+    "count": 1
+  }
+}

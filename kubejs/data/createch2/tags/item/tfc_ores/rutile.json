@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/rutile/small",
+    "#createch2:tfc_ores/rutile/poor",
+    "#createch2:tfc_ores/rutile/normal",
+    "#createch2:tfc_ores/rutile/rich"
+  ]
+}

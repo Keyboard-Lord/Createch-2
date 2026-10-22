@@ -1,0 +1,215 @@
+{
+  "nativeJars": {
+    "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43"
+  },
+  "classes": {
+    "provider": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tier.InductionProviderTier",
+      "sha256": "953fc12a563b4a2b111396ec1139e653c1fd6ca19a9740a61baa55dce40aba6a"
+    },
+    "cell": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tier.InductionCellTier",
+      "sha256": "46ff210edf8e5a84e512ac53a193b7d36f7905ca9f31c5cb19e9ccbd0685d712"
+    },
+    "port": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.multiblock.TileEntityInductionPort",
+      "sha256": "e84089536b8e5346349e389308155a871be0d70d33c1a94c4e894746699a21d0"
+    },
+    "container": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.content.matrix.MatrixEnergyContainer",
+      "sha256": "4b98e6f7e9af493becb0116319f375b6e6073ea5a2ca326cb7176e4df81544d6"
+    },
+    "matrix": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.content.matrix.MatrixMultiblockData",
+      "sha256": "4220d087188d91c479ea1ead82804170548228bc853d9aede6bdb7c9ac67d485"
+    },
+    "validator": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.content.matrix.MatrixValidator",
+      "sha256": "ac2cf9e2c4884efe94d47080b8844bfc0415ee316208722dca2c8efe978c77cf"
+    },
+    "cuboid": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.lib.multiblock.CuboidStructureValidator",
+      "sha256": "abfb20e2db54accacf92a0bafcc9643a98b48c15b3455cdcdc94ba17eb21dec1"
+    },
+    "cellTile": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.multiblock.TileEntityInductionCell",
+      "sha256": "bee240782cd4cc694ba1f418fdd89ed92adc33197c7ba91957683609679632e3"
+    },
+    "output": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.lib.multiblock.MultiblockData$EnergyOutputTarget",
+      "sha256": "26fe654ef50b52bf253e2360daa5799374e36db5baf052247ae617443ed2595b"
+    },
+    "multiblock": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.lib.multiblock.MultiblockData",
+      "sha256": "97051ad388ad231afd2991f74aa29d504c09dadc0bfd87c577640f6b0d4d7db2"
+    },
+    "configurator": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.item.ItemConfigurator",
+      "sha256": "6870e00cdb6827228126665f3dd13a77384531f060d30558185b81bb64faa728"
+    },
+    "tierConfig": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.config.TierConfig",
+      "sha256": "a35724d0cd3b1de92cecd84d3c19f446063076f494085a5d02e4aa0e36a87e0a"
+    },
+    "types": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registries.MekanismBlockTypes",
+      "sha256": "6351fb732237968ae05248dc9467b5c6f232bb7d27dd05505681f4dd53d77929"
+    },
+    "machineEnergy": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.energy.MachineEnergyContainer",
+      "sha256": "a7a992d0dd4e2c0f4f3eb782b081dddf2827d8130401d90ff4266c2bdd1cbe20"
+    },
+    "cache": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.integration.energy.BlockEnergyCapabilityCache",
+      "sha256": "739f7f95abe1ed57138ce8911ec700603654c24c44e2529ce8069c8c9e79d250"
+    }
+  },
+  "sharedNativeCodeSha256": {
+    "mekCubes": {
+      "wrapped": "468088621addb26c8d15b13705375268659f9d451513f45465f56cf212f29a0e",
+      "recipe": "4b7705b9b83cce07c0dd8661b6bbe210822196432a5b99b310bcdb4f2c29b60d",
+      "serializer": "1c24186a42da04cf315a3b59ac1bd8086566290a6fcc6ad56b4af066ca8bde47",
+      "registry": "eab9f9af12513c9c99b3b9e3c73b5c3bfeaed071d3c46c41e8d06a37543ecebf",
+      "energyData": "f32d3605c8ec3b0604d34c6e0925be121600adb79d3f7016fb358caf0bedd0a1",
+      "basicEnergy": "616f55dff92974586878eba3eb52501d0626c2671b4148b6004c6f89e1692b11",
+      "registryV": "f99634e8ac0e6af93c253209d0f6d525ef419061105fe9532e5f1dabf2705481"
+    },
+    "gtPower": {
+      "cube": "ac29566fdf661f1eec9398f3341a9023cfc29c8e4737f762542055c55230eeb1",
+      "cubeContainer": "5c98e131d397734e42318643c87e93996bb1eb176dae5b5a2d67456112b9c323",
+      "cubeTier": "2b874116b9b1e476351b9392a2d1a4c1c6d7937e6e880c7a9d5fcec90ef5a5e5",
+      "ejector": "1418c96aa9197c17d2449edc8a88d5875cf9a62c45c597e32daef846a2ee03f5",
+      "cable": "e9c30488838dada97f967a3ccfdc3e8318797c68472280a643e0fa767c7d8e01",
+      "feHandler": "573678779da1226051d06755aab64fc9f65eca6d913f62468a3bb6924a482ef5",
+      "gpHandler": "da5d1cc1277c756d4e368779b06eb6b797cdcb911780833ba464cf2480cb2674",
+      "energyCompat": "29f685968a7d13b9217cfdc1d8255e67d7d73b3eecfb8942fcdae21420a46f55",
+      "unit": "9c7261c7be2c79d602fc8ce06e4f4a4fc2b790487eb425c6430429918cfc138b",
+      "converter": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb",
+      "fe": "73bd49a015948e7cca2ea4ddd3c7f9b2cd04c82add345376afd19285e5683dd2",
+      "converterMachine": "92d8aefdc2d0e2231130081b3bae54e6d2841d08656ad0fdbb88354d911a432e",
+      "container": "b54138d2b7dee8fcc1e6d9addd974ae38b71c68b8ebbc30fa1aad2cf89333dad",
+      "workable": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10",
+      "block": "c9c8d475b19703f0c700c38493e985be8901e6b6adacb3b646ee130886f78d2c",
+      "trait": "48898103ad4be28f63fddbc99a773ef0a360f3fb7b1533d058609befa8053e8d",
+      "values": "e9011966cd21d9d2af6c579e28336d3df9fd918d4c9ed78b679c940715f36379",
+      "tools": "4de83f2dbac43168563bc6c9b068cd8a3c089c2ee5cb7de632fca99ea8e82493",
+      "toolHandler": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77",
+      "toolHelper": "f1e949312213fabde1370b786c0858625419b149a3d865492438ba0f7253b0d5",
+      "toolType": "2d385c2f38adacdb7fa6a00d24c2c5449772c4ee0e7bda930fd0ecf17f11e44f",
+      "common": "25cc09a0a58f945c85a46d605967d4b32370f6029b975c035df8330687e141ed",
+      "materialItems": "052fa048d860d0db1189a62bdd49e9e1ff0f6664bc127f5261f6bc3d21705e78",
+      "abilities": "e013370a03a4284d3acc605dbe2962f619501c8b1b7e0754772382185e758059",
+      "woodMaterial": "074187f33bb50c873362a06b6af1ddbe56f80dbfcb3e47cc1f1d6ff29faee13c",
+      "vanillaHelper": "9bc951e7fdafae15bb81fe1b85ed2f939a092d5356e1554064abb5c38e70ee24",
+      "shapedBuilder": "dc77fed18b499d5d0b5dfb204edfd60f131d58b6ac82485c57780ee2c49e507a"
+    },
+    "feService": {
+      "rotor": "c945ba75f939d44ffe6714e0551cd4117d5b0021a85a76d1241dcf4e0494bd34",
+      "rotorBlock": "87647d708829b432fcffe41f27813b072eee8ce9475394817b14d4593b508468",
+      "stator": "37998e9474a97252412a1a285a44a676eeb511302853b8d75d2e8579603a62ea",
+      "brushBE": "00164eeabccebd789084c503da0c43c06884a3382c66b1206a28606a32466ec6",
+      "brushBlock": "19bfb1cbbda04dc699958d971d1710ab1db96c1256e663ba2e8eb73429633d02",
+      "brushDevice": "050b03598b44d5704daf111a05e0f55cf40a7c4271b0dbb3c5f9849bea6f80c2",
+      "generator": "1cb3d66f06774af8d6d3b6fcbe857367c6d9e8314d91c034b2cf6958b08275df",
+      "builder": "3b07c247ffff83f53d092397e249dea81b9f6d08bf9a389c635741dcb9e0bae0",
+      "converter": "ad9cb0c2fdcead53fd1df8297f225faca21b019279ec36139663bc79f314db98",
+      "converterBlock": "86e60fb70d44325f73c6abc5a15e2b632db1862a2f9075896968386e00b86213",
+      "spool": "5f88dd37c2360b943011101719e937af12385757c7d95c6238e270f3e4228446",
+      "wireData": "ce354a9a6cce10af8101140034905ba9b411a99631aa271469577bda4192c856",
+      "wireLife": "8f693a8f9e83c36b8c4ee7bde7f29b7c392b45db190f3511e18f40c06fe51f81",
+      "largeWheel": "48c6b368522eab247c3db071a547748d7aea57c37fabc75b7c4e0a651c6529b1",
+      "wheel": "b379148a257a22a8c33c0231d07f359ef0229ffd6543d4d1974835bad1a21032",
+      "stressValues": "e8bc2790af3253c3df22b0434568600dd3f56a6253deb6b2cb6e685e3921f691",
+      "eeBlocks": "fb3b99ea2aeb2a5a3dcb557fb43c2766656b3f47ad2f92e2f76ba8f475fb02bc"
+    }
+  },
+  "recipes": {
+    "mekanism:induction/cell/basic": {
+      "type": "mekanism:mek_data",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "mekanism:basic_energy_cube"
+        },
+        "E": {
+          "item": "mekanism:energy_tablet"
+        },
+        "L": {
+          "tag": "c:dusts/lithium"
+        }
+      },
+      "pattern": [
+        "LEL",
+        "E#E",
+        "LEL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "mekanism:basic_induction_cell"
+      }
+    },
+    "mekanism:induction/cell/advanced": {
+      "type": "mekanism:mek_data",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "mekanism:advanced_energy_cube"
+        },
+        "E": {
+          "item": "mekanism:energy_tablet"
+        },
+        "P": {
+          "item": "mekanism:basic_induction_cell"
+        }
+      },
+      "pattern": [
+        "EPE",
+        "P#P",
+        "EPE"
+      ],
+      "result": {
+        "count": 1,
+        "id": "mekanism:advanced_induction_cell"
+      }
+    },
+    "mekanism:induction/cell/elite": {
+      "type": "mekanism:mek_data",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "mekanism:elite_energy_cube"
+        },
+        "E": {
+          "item": "mekanism:energy_tablet"
+        },
+        "P": {
+          "item": "mekanism:advanced_induction_cell"
+        }
+      },
+      "pattern": [
+        "EPE",
+        "P#P",
+        "EPE"
+      ],
+      "result": {
+        "count": 1,
+        "id": "mekanism:elite_induction_cell"
+      }
+    }
+  }
+}

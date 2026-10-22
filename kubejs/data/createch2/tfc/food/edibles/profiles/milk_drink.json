@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/milk_drink"
+  },
+  "edible": true,
+  "hunger": 1,
+  "saturation": 0.5,
+  "dairy": 1.5,
+  "water": 10,
+  "decay_modifier": 4.5
+}

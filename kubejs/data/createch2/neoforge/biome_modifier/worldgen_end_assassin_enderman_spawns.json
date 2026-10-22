@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:end_cosmic_ecology",
+  "spawners": {
+    "type": "unique_mobs:assassin_enderman",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

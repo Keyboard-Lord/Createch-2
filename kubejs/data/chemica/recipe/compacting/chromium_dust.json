@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:dusts/chromium"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:chromium_ingot"
+    }
+  ]
+}

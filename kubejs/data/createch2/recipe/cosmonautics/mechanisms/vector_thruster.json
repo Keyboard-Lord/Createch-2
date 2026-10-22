@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rocketnautics:rocket_thruster"
+    },
+    {
+      "item": "rocketnautics:rcs_thruster"
+    },
+    {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "tag": "createch2:iridium_sensors"
+    }
+  ],
+  "result": {
+    "id": "rocketnautics:vector_thruster",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "tfmg:hot_blast",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "tfmg:naphtha"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 5,
+      "fluid": "chemica:platinum_catalyst_carrier"
+    }
+  ],
+  "results": [
+    {
+      "amount": 70,
+      "id": "chemica:reformate"
+    },
+    {
+      "amount": 30,
+      "id": "tfmg:hydrogen"
+    }
+  ],
+  "processing_time": 200
+}

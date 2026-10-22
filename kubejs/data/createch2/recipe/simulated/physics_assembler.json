@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HCH",
+    "SMS",
+    "HGH"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "M": {
+      "tag": "createch2:control/factory/processing"
+    },
+    "G": {
+      "item": "tfmg:steel_casing"
+    }
+  },
+  "result": {
+    "id": "simulated:physics_assembler",
+    "count": 1
+  }
+}

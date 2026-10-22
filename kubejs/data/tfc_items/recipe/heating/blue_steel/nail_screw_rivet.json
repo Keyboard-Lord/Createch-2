@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": [
+    {
+      "tag": "c:nails/blue_steel"
+    },
+    {
+      "tag": "c:rivets/blue_steel"
+    },
+    {
+      "tag": "c:physical_screws/blue_steel"
+    }
+  ],
+  "result_fluid": {
+    "id": "tfc:metal/blue_steel",
+    "amount": 5
+  },
+  "temperature": 1540
+}

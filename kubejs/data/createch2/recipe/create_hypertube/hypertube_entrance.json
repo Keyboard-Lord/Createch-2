@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KPK",
+    "SCS",
+    "GEG"
+  ],
+  "key": {
+    "K": {
+      "item": "rubberworks:rubber_sheet"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "C": {
+      "item": "create:smart_chute"
+    },
+    "G": {
+      "item": "greate:andesite_alloy_cogwheel"
+    },
+    "E": {
+      "item": "tfmg:cable_connector"
+    }
+  },
+  "result": {
+    "id": "create_hypertube:hypertube_entrance",
+    "count": 1
+  }
+}

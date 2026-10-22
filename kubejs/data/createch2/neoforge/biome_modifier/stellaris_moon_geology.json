@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:moon_biomes",
+  "features": [
+    "createch2:geology_moon_desh",
+    "createch2:geology_moon_lunar_ice"
+  ],
+  "step": "underground_ores"
+}

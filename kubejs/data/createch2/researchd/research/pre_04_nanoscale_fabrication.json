@@ -1,0 +1,41 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "gtceu:nano_processor"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:computational_models",
+      "createch2:process_samples"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:pre_03_electronic_metrology",
+    "createch2:com_04_digital_fabrication"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_04_nanoscale_fabrication.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_04_nanoscale_fabrication.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:greg_components/age_13/mi_nano_processor_qualification"
+    ]
+  }
+}

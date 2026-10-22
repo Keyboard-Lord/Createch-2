@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCN",
+    "QFQ",
+    "NPN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "C": {
+      "item": "ae2:calculation_processor"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "F": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "P": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    }
+  },
+  "result": {
+    "id": "ae2:wireless_access_point",
+    "count": 1
+  }
+}

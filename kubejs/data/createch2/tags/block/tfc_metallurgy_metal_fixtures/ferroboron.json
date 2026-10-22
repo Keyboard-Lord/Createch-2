@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/ferroboron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/ferroboron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/ferroboron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/ferroboron",
+      "required": false
+    }
+  ]
+}

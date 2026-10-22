@@ -1,0 +1,36 @@
+{
+  "truth": "REVIEWED_MISSION04_RECIPE_AUTHORITY_SOURCE_REPAIRS",
+  "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+  "beforeRuntimeCommit": "9cb61d5c7ba3d67921b08af3c0ee38ffb9f67615",
+  "afterRuntimeCommit": "0bd9de8",
+  "beforeSha256": "b367e69872a67716a954f66b0640738789e6932860e99ee9c153eacd617ef7eb",
+  "afterSha256": "1de1cffc73bfa76367b6b8f46c382b00fd15e9ce5aa219d8b2bf7eeabd4aba16",
+  "edits": [
+    {
+      "before": "    if (performanceSettings.coalesceExactRecipeIds === true) {\n      // Require the paired Core before emitting its supported custom filter key.\n      Java.loadClass('createch2.core.compat.ExactRecipeIdFilter')\n",
+      "after": "    if (performanceSettings.coalesceExactRecipeIds === true) {\n      Java.loadClass('createch2.core.compat.ExactRecipeIdFilter')\n",
+      "appliesToPremigrationBasis": true
+    },
+    {
+      "before": "    }\n    var escaped = ids.map(id => id.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&'))\n    return { id: new RegExp('^(?:' + escaped.join('|') + ')$') }\n  }\n",
+      "after": "    }\n    var alternatives = []\n    for (var offset = 0; offset < ids.length; offset += 64) {\n      var escaped = ids.slice(offset, offset + 64).map(id => id.replace(/[.*+?^$()|[\\]\\\\{}]/g, '\\\\$&'))\n      alternatives.push({ id: new RegExp('^(?:' + escaped.join('|') + ')$') })\n    }\n    return { or: alternatives }\n  }\n",
+      "appliesToPremigrationBasis": true
+    },
+    {
+      "before": "    components.forEach(item => {\n      event.remove({ input: item, type: /^gtceu:(?:macerator|arc_furnace|extractor)$/ })\n    })\n",
+      "after": "    components.forEach(item => {\n      event.remove({ input: item, or: [{\"type\":\"gtceu:macerator\"},{\"type\":\"gtceu:arc_furnace\"},{\"type\":\"gtceu:extractor\"}] })\n    })\n",
+      "appliesToPremigrationBasis": false
+    },
+    {
+      "before": "      var station = StationResearchRecipes.stationRecipe(Item.of(stack), cwu, ResearchRecipeId.parse(deliveryId))\n      if (station != null) event.custom(station).id(deliveryId)\n      return recipe.stationResearch(builder => builder\n",
+      "after": "      var station = StationResearchRecipes.stationRecipe(Item.of(stack), cwu, ResearchRecipeId.parse(deliveryId))\n      if (station != null) StationResearchRecipes.assignStationId(event.custom(station), ResearchRecipeId.parse(deliveryId))\n      return recipe.stationResearch(builder => builder\n",
+      "appliesToPremigrationBasis": false
+    }
+  ],
+  "evidence": [
+    "mission04/recipe-type-filter-validation.json",
+    "mission04/world-repair-05.json",
+    "createch-dev/scripts/sources/mission04_core_entry_preservation.json"
+  ],
+  "scope": "Four exact context-bound source edits only: remove obsolete comment,bound exact-ID regex branches,select loaded literal serializers,use reviewed native station ID assignment. Reverse reconstruction must recover the frozen Mission03 file hash; no unrelated owner changes accepted."
+}

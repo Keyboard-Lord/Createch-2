@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_CROWNS_STEAM_SIDE_CORE_ENTRY_PRESERVATION",
+  "before": "6e4ba1c372419758b229a8813730bd7bbddf3a09445f19a45eb785f9497b568b",
+  "after": "2f0aa7076c5f0979d66a0b4839e7e59eb5b3e6729aaf2d03715c0e444d21674a",
+  "added": [
+    "createch2/core/mixin/compat/CrownsSteamFlowSideMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 375,
+  "unchangedEntriesSha256": "62a7a2ac87b655031ed861d0d119f7b60548f51948bc29707a758297553dc273",
+  "sourceCheckpoint": "cabc999",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-6e4ba1c372419758b229a8813730bd7bbddf3a09445f19a45eb785f9497b568b.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/CrownsSteamFlowSideMixin.class": {
+      "before": null,
+      "after": "5d396dbe7c4ec4794baf5618e8fa31a539a38541ccc7733d803687708caa6524"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "11fb7f8d0aefa19db31c79e295e43f7f242d65bc2488f8ccb1c9488d3283a774",
+      "after": "488c19e91d64947a5dd4d1bea686e2de5743f9124a3f636226828c7cd0f4727a"
+    },
+    "createch2core.mixins.json": {
+      "before": "7bbb3f3dc2f3c8aa1f9e5054d1d55483a2bd5b15d4121555c0aebe568f739a50",
+      "after": "abc84945bdc4ea7e307129130dfdb1e4fcd37400ec1bb402aa525de1cfef31b1"
+    }
+  },
+  "scope": "Separate native Crowns client packet/tick data from server saved data. Native algorithms and format retained. Native acceptance pending."
+}

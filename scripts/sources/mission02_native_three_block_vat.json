@@ -1,0 +1,129 @@
+{
+  "classes": {
+    "vat": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.base.VatBlockEntity"
+    ],
+    "switch": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.base.VatBlockEntity$1"
+    ],
+    "connectivity": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.TFMGBlockConnectivityHandler"
+    ],
+    "mixer": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.industrial_mixer.IndustrialMixerBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "vat": "71df7962c4e7653bbb7e018024e5df1be0ebb8b1e6249e55843860bc76220706",
+    "switch": "a8115b1954bfa51b98d0a4522f2103af55c489dbb8df44b2a0cc7970b77a78a6",
+    "connectivity": "e559487fd28d3ca958241c295f6476c041cfd6127a823a229950e1b39acad9b1",
+    "mixer": "184c665bb0d072b22b3d206c29f22ebf790b0769ebd51925fffd314512f5cdda"
+  },
+  "recipes": {
+    "chemica:vat_machine_recipe/mixing/epoxy_precursor": {
+      "type": "tfmg:vat_machine_recipe",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 400,
+          "fluid": "chemica:aromatic_mix"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 100,
+          "tag": "c:chlorine"
+        }
+      ],
+      "machines": [
+        "tfmg:mixing"
+      ],
+      "results": [
+        {
+          "amount": 500,
+          "id": "chemica:epoxy_precursor"
+        }
+      ],
+      "processing_time": 300,
+      "allowed_vat_types": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "min_size": 3
+    },
+    "chemica:vat_machine_recipe/mixing/epoxy_resin": {
+      "type": "tfmg:vat_machine_recipe",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "chemica:epichlorohydrin"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "chemica:caustic_soda"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "chemica:phenol"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "chemica:acetone"
+        }
+      ],
+      "machines": [
+        "tfmg:mixing"
+      ],
+      "results": [
+        {
+          "amount": 1000,
+          "id": "chemica:epoxy_resin"
+        },
+        {
+          "amount": 150,
+          "id": "chemica:brine"
+        }
+      ],
+      "processing_time": 300,
+      "allowed_vat_types": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "min_size": 3
+    }
+  },
+  "layout": {
+    "blocks": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ]
+    ],
+    "mixer": [
+      0,
+      3,
+      0
+    ],
+    "width": 1,
+    "height": 3,
+    "volume": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/ferroboron"
+    },
+    {
+      "tag": "c:physical_dusts/ferroboron"
+    }
+  ],
+  "heat_capacity": 0.167,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

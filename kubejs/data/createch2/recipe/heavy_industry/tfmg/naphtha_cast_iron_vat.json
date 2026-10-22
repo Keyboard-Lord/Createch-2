@@ -1,0 +1,31 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "heat_level": 1,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "tfmg:naphtha"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "min_size": 1,
+  "results": [
+    {
+      "amount": 250,
+      "id": "tfmg:ethylene"
+    },
+    {
+      "amount": 250,
+      "id": "tfmg:propylene"
+    }
+  ]
+}

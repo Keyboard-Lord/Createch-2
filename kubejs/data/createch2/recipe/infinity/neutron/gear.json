@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    " N ",
+    "NCN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:neutron_gear",
+    "count": 1
+  },
+  "tier": 4
+}

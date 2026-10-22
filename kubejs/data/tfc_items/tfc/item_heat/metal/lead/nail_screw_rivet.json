@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/lead"
+    },
+    {
+      "tag": "c:rivets/lead"
+    },
+    {
+      "tag": "c:screws/lead"
+    },
+    {
+      "tag": "c:physical_screws/lead"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 300,
+  "welding_temperature": 400
+}

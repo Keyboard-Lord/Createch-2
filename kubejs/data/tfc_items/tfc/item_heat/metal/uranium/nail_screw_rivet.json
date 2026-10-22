@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/uranium"
+    },
+    {
+      "tag": "c:rivets/uranium"
+    },
+    {
+      "tag": "c:screws/uranium"
+    },
+    {
+      "tag": "c:physical_screws/uranium"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 750,
+  "welding_temperature": 1000
+}

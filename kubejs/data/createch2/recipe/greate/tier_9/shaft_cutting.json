@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 8,
+  "ingredients": [
+    {
+      "tag": "c:plates/neutronium"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:neutronium_shaft",
+      "count": 6
+    }
+  ]
+}

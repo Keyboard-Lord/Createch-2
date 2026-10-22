@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:wires/tin"
+    },
+    {
+      "tag": "c:light_wires/tin"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 138,
+  "welding_temperature": 184
+}

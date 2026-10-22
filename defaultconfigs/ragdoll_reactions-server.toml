@@ -1,0 +1,108 @@
+#Createch 2: real impacts, not ordinary walking/turning. Core requires physical
+#horizontal collision for the movement-only trigger; native protections remain.
+enabled = true
+
+[general.launch]
+maxSpeed = 128.0
+cooldownTicks = 60
+
+[general.targeting]
+affectCreative = true
+
+[general.sound]
+enabled = true
+volume = 1.0
+
+[general.debug]
+logging = false
+
+[suppressions.riptide]
+enabled = true
+graceTicks = 15
+
+[suppressions.bounce]
+enabled = true
+graceTicks = 10
+
+[suppressions.elytraFlight]
+enabled = true
+graceTicks = 10
+
+[suppressions.creativeFlight]
+enabled = true
+graceTicks = 10
+
+[suppressions.ropeClimbing]
+enabled = true
+graceTicks = 10
+
+[suppressions.chainConveyor]
+enabled = true
+graceTicks = 10
+
+[suppressions.windCharge]
+suppressAll = false
+suppressSelf = true
+graceTicks = 10
+
+[triggers.impact]
+enabled = true
+minVelocityDelta = 20.0
+maxVelocityDelta = 120.0
+
+[triggers.cannonExplosions]
+enabled = true
+minPower = 1.0
+radiusPadding = 2.0
+launchMultiplier = 15.0
+
+[triggers.vanillaExplosions]
+enabled = true
+minPower = 1.0
+radiusPadding = 2.0
+launchMultiplier = 15.0
+
+[triggers.fall]
+enabled = true
+#Three hearts after protection. FallPhysics already charges landing damage;
+#do not drive the new ragdoll back into the ground with a synthetic second slam.
+minDamage = 6.0
+slamMultiplier = 0.0
+
+[triggers.crash]
+enabled = true
+minDamage = 6.0
+launchMultiplier = 3.0
+
+[triggers.hit]
+enabled = true
+minDamage = 8.0
+launchMultiplier = 1.5
+
+[triggers.lightning]
+enabled = true
+launchSpeed = 12.0
+
+[mobs]
+enabled = true
+
+[mobs.fall]
+enabled = true
+minDamage = 4.0
+slamMultiplier = 0.5
+
+[mobs.damage]
+enabled = true
+healthFraction = 0.3333333333333333
+launchMultiplier = 1.5
+
+[mobs.explosion]
+enabled = true
+minPower = 1.0
+radiusPadding = 2.0
+launchMultiplier = 15.0
+
+[mobs.impact]
+enabled = true
+minSpeed = 4.0
+launchMultiplier = 1.0

@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 240,
+  "item_inputs": [
+    {
+      "item": "gtceu:lv_emitter",
+      "amount": 2
+    },
+    {
+      "item": "gtceu:lv_sensor",
+      "amount": 1
+    },
+    {
+      "item": "mekanism:energy_tablet",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:electrum_fine_wire",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 432
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:lv_field_generator",
+      "amount": 1
+    }
+  ]
+}

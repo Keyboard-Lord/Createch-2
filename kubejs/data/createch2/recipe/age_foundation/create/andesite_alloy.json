@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "TZT",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "createch2:stone/andesite_feedstock"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "T": {
+      "tag": "c:ingots/tin"
+    },
+    "Z": {
+      "tag": "c:ingots/zinc"
+    }
+  },
+  "result": {
+    "id": "create:andesite_alloy",
+    "count": 4
+  }
+}

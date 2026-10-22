@@ -1,0 +1,936 @@
+{
+  "loader": "21.1.256",
+  "tfcJar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+  "nativeClasses": {
+    "registry": [
+      "loader",
+      "net.neoforged.neoforge.common.NeoForgeMod"
+    ],
+    "addTable": [
+      "loader",
+      "net.neoforged.neoforge.common.loot.AddTableLootModifier"
+    ],
+    "manager": [
+      "loader",
+      "net.neoforged.neoforge.common.loot.LootModifierManager"
+    ],
+    "condition": [
+      "loader",
+      "net.neoforged.neoforge.common.loot.LootTableIdCondition"
+    ],
+    "modifier": [
+      "loader",
+      "net.neoforged.neoforge.common.loot.LootModifier"
+    ],
+    "hooks": [
+      "loader",
+      "net.neoforged.neoforge.common.CommonHooks"
+    ],
+    "table": [
+      "client",
+      "net.minecraft.world.level.storage.loot.LootTable"
+    ],
+    "knappingType": [
+      "tfc",
+      "net.dries007.tfc.util.data.KnappingType"
+    ],
+    "knappingRecipe": [
+      "tfc",
+      "net.dries007.tfc.common.recipes.KnappingRecipe"
+    ],
+    "knappingContainer": [
+      "tfc",
+      "net.dries007.tfc.common.container.KnappingContainer"
+    ],
+    "noisyMultiple": [
+      "tfc",
+      "net.dries007.tfc.world.feature.NoisyMultipleFeature"
+    ],
+    "features": [
+      "tfc",
+      "net.dries007.tfc.world.feature.TFCFeatures"
+    ]
+  },
+  "nativeCodeSha256": {
+    "registry": "c8e8a07890ff7823bbec7554820a3972808d8c665735dd6027ee51db596a19b4",
+    "addTable": "0104490c8375bc72733775ca58c012d4533d0d3a6f9f2427986170dc7730d337",
+    "manager": "be5c2ee6c01e3292d629b111a0ec4f5afddeb0801eae98f11d9390f9e3249441",
+    "condition": "3f89008371ec81bda26e60e7a0a99b7461b0088dc723f55afea0501a6501adac",
+    "modifier": "acfbbf55a04842423cbc76c862652c71b410872395362204927045596b105d72",
+    "hooks": "fddb9d3b7e90e2b491d2e14ba3751af12cfc1a54a166fceb09347d2ad41dd5ad",
+    "table": "da95df9bf55d141c81ad36b06f09686a7159ed5c2f9b2b4b6130350ee67988a3",
+    "knappingType": "2e276c7ab5a09cf162adcb9f1aa20f5159883c4bdedfc8cc07d430187255ef9b",
+    "knappingRecipe": "d7c4e5d02edd8375ff8427e3c041e87a2f41203a3e2ddc1f0fb791946a7c06e0",
+    "knappingContainer": "533a887841a3937e2eefe36980355f18e206a58afc610e430c117b844b5f6e18",
+    "noisyMultiple": "22ce03ff8f8692e73deaf7471ef7905adef664c8486e84309c75b541f666f1a6",
+    "features": "e552e67e4c958fb7502cb9ddf3b67e3fd3902944a564fb79900494e6ccda2605"
+  },
+  "grasses": {
+    "bluegrass": {
+      "native": {
+        "worldgen/configured_feature|tfc:plant/bluegrass_patch": {
+          "type": "tfc:dynamic_random_patch",
+          "config": {
+            "tries": 6,
+            "xz_spread": 15,
+            "y_spread": 1,
+            "feature": "tfc:plant/bluegrass"
+          }
+        },
+        "worldgen/configured_feature|tfc:plant/bluegrass": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "tfc:random_property",
+              "state": {
+                "Name": "tfc:plant/bluegrass",
+                "Properties": {
+                  "age": "1",
+                  "stage": "1"
+                }
+              },
+              "property": "age"
+            }
+          }
+        },
+        "worldgen/placed_feature|tfc:plant/bluegrass_patch": {
+          "feature": "tfc:plant/bluegrass_patch",
+          "placement": [
+            {
+              "type": "minecraft:in_square"
+            },
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "tfc:climate",
+              "min_temperature": -0.4,
+              "max_temperature": 14,
+              "min_groundwater": 110,
+              "max_groundwater": 280
+            }
+          ]
+        },
+        "worldgen/placed_feature|tfc:plant/bluegrass": {
+          "feature": "tfc:plant/bluegrass",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "tfc:air_or_empty_fluid"
+              }
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "would_survive",
+                "state": {
+                  "Name": "tfc:plant/bluegrass",
+                  "Properties": {
+                    "age": "1",
+                    "stage": "1"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "loot_table|tfc:blocks/plant/bluegrass": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:plant/bluegrass",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:straw",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#tfc:tools/sharp"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "modifier": {
+        "type": "neoforge:add_table",
+        "conditions": [
+          {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "tfc:blocks/plant/bluegrass"
+          }
+        ],
+        "table": "createch2:blocks/witch_herbs_bluegrass"
+      },
+      "extraLoot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.025
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:belladonna_seeds"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:mandrake_seeds"
+              }
+            ],
+            "rolls": 1
+          }
+        ]
+      }
+    },
+    "orchard_grass": {
+      "native": {
+        "worldgen/configured_feature|tfc:plant/orchard_grass_patch": {
+          "type": "tfc:dynamic_random_patch",
+          "config": {
+            "tries": 6,
+            "xz_spread": 15,
+            "y_spread": 1,
+            "feature": "tfc:plant/orchard_grass"
+          }
+        },
+        "worldgen/configured_feature|tfc:plant/orchard_grass": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "tfc:random_property",
+              "state": {
+                "Name": "tfc:plant/orchard_grass",
+                "Properties": {
+                  "age": "1",
+                  "stage": "1"
+                }
+              },
+              "property": "age"
+            }
+          }
+        },
+        "worldgen/placed_feature|tfc:plant/orchard_grass_patch": {
+          "feature": "tfc:plant/orchard_grass_patch",
+          "placement": [
+            {
+              "type": "minecraft:in_square"
+            },
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "tfc:climate",
+              "min_temperature": -14.8,
+              "max_temperature": 12.2,
+              "min_groundwater": 75,
+              "max_groundwater": 300
+            }
+          ]
+        },
+        "worldgen/placed_feature|tfc:plant/orchard_grass": {
+          "feature": "tfc:plant/orchard_grass",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "tfc:air_or_empty_fluid"
+              }
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "would_survive",
+                "state": {
+                  "Name": "tfc:plant/orchard_grass",
+                  "Properties": {
+                    "age": "1",
+                    "stage": "1"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "loot_table|tfc:blocks/plant/orchard_grass": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:plant/orchard_grass",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:straw",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#tfc:tools/sharp"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "modifier": {
+        "type": "neoforge:add_table",
+        "conditions": [
+          {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "tfc:blocks/plant/orchard_grass"
+          }
+        ],
+        "table": "createch2:blocks/witch_herbs_orchard_grass"
+      },
+      "extraLoot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.02
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:wolfsbane_seeds"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:garlic"
+              }
+            ],
+            "rolls": 1
+          }
+        ]
+      }
+    },
+    "timothy_grass": {
+      "native": {
+        "worldgen/configured_feature|tfc:plant/timothy_grass_patch": {
+          "type": "tfc:dynamic_random_patch",
+          "config": {
+            "tries": 6,
+            "xz_spread": 15,
+            "y_spread": 1,
+            "feature": "tfc:plant/timothy_grass"
+          }
+        },
+        "worldgen/configured_feature|tfc:plant/timothy_grass": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "tfc:random_property",
+              "state": {
+                "Name": "tfc:plant/timothy_grass",
+                "Properties": {
+                  "age": "1",
+                  "stage": "1"
+                }
+              },
+              "property": "age"
+            }
+          }
+        },
+        "worldgen/placed_feature|tfc:plant/timothy_grass_patch": {
+          "feature": "tfc:plant/timothy_grass_patch",
+          "placement": [
+            {
+              "type": "minecraft:in_square"
+            },
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "tfc:climate",
+              "min_temperature": -9.4,
+              "max_temperature": 17.6,
+              "min_groundwater": 289,
+              "max_groundwater": 500
+            }
+          ]
+        },
+        "worldgen/placed_feature|tfc:plant/timothy_grass": {
+          "feature": "tfc:plant/timothy_grass",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "tfc:air_or_empty_fluid"
+              }
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "would_survive",
+                "state": {
+                  "Name": "tfc:plant/timothy_grass",
+                  "Properties": {
+                    "age": "1",
+                    "stage": "1"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "loot_table|tfc:blocks/plant/timothy_grass": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:plant/timothy_grass",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfc:straw",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#tfc:tools/sharp"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "modifier": {
+        "type": "neoforge:add_table",
+        "conditions": [
+          {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "tfc:blocks/plant/timothy_grass"
+          }
+        ],
+        "table": "createch2:blocks/witch_herbs_timothy_grass"
+      },
+      "extraLoot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.02
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:snowbell_seeds"
+              }
+            ],
+            "rolls": 1
+          }
+        ]
+      }
+    },
+    "cordgrass": {
+      "native": {
+        "worldgen/configured_feature|tfc:plant/cordgrass_patch": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "tries": 100,
+            "xz_spread": 7,
+            "y_spread": 1,
+            "feature": "tfc:plant/cordgrass"
+          }
+        },
+        "worldgen/configured_feature|tfc:plant/cordgrass": {
+          "type": "tfc:emergent_plant",
+          "config": {
+            "block": "tfc:plant/cordgrass"
+          }
+        },
+        "worldgen/placed_feature|tfc:plant/cordgrass_patch": {
+          "feature": "tfc:plant/cordgrass_patch",
+          "placement": [
+            {
+              "type": "minecraft:rarity_filter",
+              "chance": 2
+            },
+            {
+              "type": "minecraft:in_square"
+            },
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "OCEAN_FLOOR_WG"
+            },
+            {
+              "type": "tfc:climate",
+              "min_temperature": -15.7,
+              "max_temperature": 2.5,
+              "min_groundwater": 150,
+              "max_groundwater": 500,
+              "min_rain_variance": -1,
+              "max_rain_variance": 1,
+              "rain_variance_absolute": false,
+              "min_forest": 0,
+              "max_forest": 3,
+              "min_elevation": -64,
+              "max_elevation": 320
+            }
+          ]
+        },
+        "worldgen/placed_feature|tfc:plant/cordgrass": {
+          "feature": "tfc:plant/cordgrass",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "OCEAN_FLOOR_WG"
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "tfc:air_or_empty_fluid"
+              }
+            },
+            {
+              "type": "block_predicate_filter",
+              "predicate": {
+                "type": "tfc:would_survive_with_fluid",
+                "state": {
+                  "Name": "tfc:plant/cordgrass",
+                  "Properties": {
+                    "age": "1",
+                    "stage": "1",
+                    "fluid": "empty",
+                    "part": "lower"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "loot_table|tfc:blocks/plant/cordgrass": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:plant/cordgrass",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:any_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#tfc:tools/sharp"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "modifier": {
+        "type": "neoforge:add_table",
+        "conditions": [
+          {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "tfc:blocks/plant/cordgrass"
+          }
+        ],
+        "table": "createch2:blocks/witch_herbs_cordgrass"
+      },
+      "extraLoot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.025
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "enchanted:water_artichoke_seeds"
+              }
+            ],
+            "rolls": 1
+          }
+        ]
+      }
+    }
+  },
+  "knife": {
+    "knapId": "tfc:knapping/stone/knife_head/sedimentary",
+    "craftId": "tfc:crafting/stone/knife/sedimentary",
+    "rawItem": "tfc:rock/loose/limestone",
+    "item": "tfc:stone/knife/sedimentary",
+    "head": "tfc:stone/knife_head/sedimentary",
+    "knappingType": {
+      "amount_to_consume": 1,
+      "click_sound": "tfc:item.knapping.stone",
+      "consume_after_complete": false,
+      "has_off_texture": false,
+      "icon": {
+        "count": 1,
+        "id": "tfc:rock/loose/granite"
+      },
+      "input": {
+        "count": 2,
+        "tag": "tfc:rock_knapping"
+      },
+      "spawns_particles": true
+    },
+    "knap": {
+      "type": "tfc:knapping",
+      "default_on": false,
+      "ingredient": {
+        "tag": "tfc:stones/loose/sedimentary"
+      },
+      "knapping_type": "tfc:rock",
+      "pattern": [
+        "# ",
+        "##",
+        "##",
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/knife_head/sedimentary"
+      }
+    },
+    "craft": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": [
+          {
+            "tag": "c:rods/wooden"
+          },
+          {
+            "item": "minecraft:bone"
+          }
+        ],
+        "X": {
+          "item": "tfc:stone/knife_head/sedimentary"
+        }
+      },
+      "pattern": [
+        "X",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/knife/sedimentary"
+      }
+    }
+  },
+  "lootPolicyScriptSha256": "963661ead5a870632ebec035612ff347c3359136cd9cb8d42fae9f05bbd94387",
+  "renewalRecipes": [
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/belladonna_seeds",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:belladonna_seeds",
+          "count": 2
+        },
+        [
+          "enchanted:belladonna_flower",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/belladonna_flower",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:belladonna_flower",
+          "count": 2
+        },
+        [
+          "enchanted:belladonna_seeds",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/mandrake_seeds",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:mandrake_seeds",
+          "count": 2
+        },
+        [
+          "enchanted:mandrake_root",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/mandrake_root",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:mandrake_root",
+          "count": 2
+        },
+        [
+          "enchanted:mandrake_seeds",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/wolfsbane_seeds",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:wolfsbane_seeds",
+          "count": 2
+        },
+        [
+          "enchanted:wolfsbane_flower",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/wolfsbane_flower",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:wolfsbane_flower",
+          "count": 2
+        },
+        [
+          "enchanted:wolfsbane_seeds",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/water_artichoke_seeds",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:water_artichoke_seeds",
+          "count": 2
+        },
+        [
+          "enchanted:water_artichoke",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/water_artichoke",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:water_artichoke",
+          "count": 2
+        },
+        [
+          "enchanted:water_artichoke_seeds",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/snowbell",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:snowbell_seeds",
+          "count": 2
+        },
+        [
+          "enchanted:snowbell_seeds",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/garlic",
+      "kind": "shapeless",
+      "args": [
+        {
+          "id": "enchanted:garlic",
+          "count": 2
+        },
+        [
+          "enchanted:garlic",
+          "minecraft:bone_meal"
+        ]
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/research/magic_research.js",
+      "id": "createch2:magic_research/plants/vampirism_garlic",
+      "kind": "shapeless",
+      "args": [
+        "vampirism:garlic",
+        [
+          "enchanted:garlic",
+          "minecraft:bone_meal"
+        ]
+      ]
+    }
+  ],
+  "surfaceGrassSelector": {
+    "worldgen/placed_feature/surface_grasses": {
+      "feature": "tfc:surface_grasses",
+      "placement": []
+    },
+    "worldgen/configured_feature/surface_grasses": {
+      "type": "tfc:noisy_multiple",
+      "config": {
+        "features": "#tfc:feature/surface_grasses"
+      }
+    },
+    "tags/worldgen/placed_feature/feature/surface_grasses": {
+      "replace": false,
+      "values": [
+        "tfc:plant/bluegrass_patch",
+        "tfc:plant/bromegrass_patch",
+        "tfc:plant/fountain_grass_patch",
+        "tfc:plant/orchard_grass_patch",
+        "tfc:plant/ryegrass_patch",
+        "tfc:plant/scutch_grass_patch",
+        "tfc:plant/timothy_grass_patch",
+        "tfc:plant/raddia_grass_patch",
+        "tfc:plant/red_oat_grass_patch"
+      ]
+    }
+  }
+}

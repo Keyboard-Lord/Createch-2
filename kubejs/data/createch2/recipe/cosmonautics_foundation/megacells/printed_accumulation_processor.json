@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "top": {
+      "item": "megacells:accumulation_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "megacells:printed_accumulation_processor"
+  }
+}

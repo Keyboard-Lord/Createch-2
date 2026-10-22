@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_unitas",
+  "features": [
+    "createch2:planetary_unitas_galena_tfc_vein",
+    "createch2:planetary_unitas_garnierite_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

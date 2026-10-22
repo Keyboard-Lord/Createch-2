@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "MAM",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "tfmg:heavy_plate"
+    },
+    "C": {
+      "tag": "createch2:control/factory/electronic"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "A": {
+      "item": "alchemistry:combiner"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    }
+  },
+  "result": {
+    "id": "alchemistry:compactor",
+    "count": 1
+  }
+}

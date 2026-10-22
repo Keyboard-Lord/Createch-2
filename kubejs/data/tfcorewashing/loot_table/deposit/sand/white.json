@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfcorewashing:pile_white_sand"
+        }
+      ]
+    },
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:powder/sphalerite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.015
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:powder/native_silver",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:quartz",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bone",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.025
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/opal",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.0005
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

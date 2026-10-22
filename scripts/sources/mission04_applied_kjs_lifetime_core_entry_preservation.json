@@ -1,0 +1,43 @@
+{
+  "truth": "STATIC_MISSION04_APPLIED_KJS_LIFETIME_CORE_ENTRY_PRESERVATION",
+  "before": "2f0aa7076c5f0979d66a0b4839e7e59eb5b3e6729aaf2d03715c0e444d21674a",
+  "after": "b924b403f262e2e6fd74626ddfa78ab4aa4ea783eba28fce3d1f1266758c76ec",
+  "added": [
+    "createch2/core/compat/AppliedKjsServerStateLifecycle.class",
+    "createch2/core/mixin/compat/AppliedKjsServerStatesAccess.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2/core/Createch2Core.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 375,
+  "unchangedEntriesSha256": "ca7d1e5c1d0f6c923df5ea1087c9bf179738fb9d9315a67927597477d051eac9",
+  "sourceCheckpoint": "2107066",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-2f0aa7076c5f0979d66a0b4839e7e59eb5b3e6729aaf2d03715c0e444d21674a.jar",
+  "entrySha256": {
+    "createch2/core/compat/AppliedKjsServerStateLifecycle.class": {
+      "before": null,
+      "after": "637bb4604a9ee0f21f2cd7d0730086b41ee309aaee8296f1b7f342afad8051b8"
+    },
+    "createch2/core/mixin/compat/AppliedKjsServerStatesAccess.class": {
+      "before": null,
+      "after": "09aff7f4a17cdf5e0b76f00c025b143fc091f246b7fd075d6e5382a69963a232"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "488c19e91d64947a5dd4d1bea686e2de5743f9124a3f636226828c7cd0f4727a",
+      "after": "17c77269107ae7ce7ab325f2498d907941b6fd4a813018128d3d187f5802500e"
+    },
+    "createch2/core/Createch2Core.class": {
+      "before": "aacd95498659ec6cb4a34697df3d3ee57d99f8c0b25cd6e4e16c352c9b6ce44d",
+      "after": "9def5742d349d3e2a64420ff07377b8565d5e674b89ee074b2d3fd7b14bc47c2"
+    },
+    "createch2core.mixins.json": {
+      "before": "abc84945bdc4ea7e307129130dfdb1e4fcd37400ec1bb402aa525de1cfef31b1",
+      "after": "1733a0d5f08922b407c78e0a46e60f10bd227ded2a9ddc4e91bf18b8f479a7fe"
+    }
+  },
+  "scope": "Remove only a fully stopped server from the native Applied KJS registry under its class monitor. Native AE2 state behavior and live server entries retained. Native acceptance pending."
+}

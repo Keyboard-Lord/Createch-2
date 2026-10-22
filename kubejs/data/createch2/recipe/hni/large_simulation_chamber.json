@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "DMD",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "C": {
+      "item": "hostile_neural_industrialization:prediction_machine_casing"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "M": {
+      "item": "hostile_neural_industrialization:electric_simulation_chamber"
+    }
+  },
+  "result": {
+    "id": "hostile_neural_industrialization:large_simulation_chamber",
+    "count": 1
+  }
+}

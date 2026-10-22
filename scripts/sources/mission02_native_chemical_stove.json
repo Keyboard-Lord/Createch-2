@@ -1,0 +1,157 @@
+{
+  "classes": {
+    "stove": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_stove.BlastStoveBlockEntity"
+    ],
+    "forceTank": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.fluid.ForceableFluidTank"
+    ],
+    "hotRecipe": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.HotBlastRecipe"
+    ],
+    "params": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipeParams"
+    ],
+    "fluidTank": [
+      "neoforge-21.1.256-universal.jar",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank"
+    ],
+    "sized": [
+      "neoforge-21.1.256-universal.jar",
+      "net.neoforged.neoforge.fluids.crafting.SizedFluidIngredient"
+    ],
+    "core": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.TfmgChemicalStoveInputMixin",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "stove": "dab9a598aec748579b1727c5a0e1f7e7797e28a542eac282a7aed087073e63c1",
+    "forceTank": "2787c7d14fba88beeff390cac8e937869a00abc75a152a1c4555a1e0f69adade",
+    "hotRecipe": "67cde18644570590bb0573481ea00e1a900ef50d9db13de04e556879ecb04a8f",
+    "params": "ffcc3404e4b7f824d7eae8b1038920af73cbf3870e9902ee2c5c773a433e839c",
+    "fluidTank": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be",
+    "sized": "639de0e68f0221bc537c8b6529520df3f63058d5bbd285fefd88026cac7205f7",
+    "core": "eb929c6bb1ae893f37c6c6120aee78def3640f82cb9f5ddfe327176957544a5d"
+  },
+  "recipes": {
+    "chemica:hot_blast/nitrogen": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:tag",
+          "amount": 100,
+          "tag": "c:nitrogen"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "tfmg:hydrogen"
+        }
+      ],
+      "results": [
+        {
+          "amount": 180,
+          "id": "chemica:ammonia"
+        },
+        {
+          "amount": 20,
+          "id": "tfmg:hot_air"
+        }
+      ],
+      "processing_time": 200
+    },
+    "chemica:hot_blast/naphtha": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "tfmg:naphtha"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 5,
+          "fluid": "chemica:platinum_catalyst_carrier"
+        }
+      ],
+      "results": [
+        {
+          "amount": 70,
+          "id": "chemica:reformate"
+        },
+        {
+          "amount": 30,
+          "id": "tfmg:hydrogen"
+        }
+      ],
+      "processing_time": 200
+    }
+  },
+  "fuelMembers": [
+    "tfmg:flowing_furnace_gas",
+    "tfmg:furnace_gas",
+    "tfmg:flowing_creosote",
+    "tfmg:creosote",
+    "railcraft:creosote"
+  ],
+  "nativeOrigins": {
+    "chemica:hot_blast/nitrogen": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "chemica:nitrogen"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "tfmg:hydrogen"
+        }
+      ],
+      "processingTime": 200,
+      "results": [
+        {
+          "amount": 180,
+          "id": "chemica:ammonia"
+        },
+        {
+          "amount": 20,
+          "id": "tfmg:hot_air"
+        }
+      ]
+    },
+    "chemica:hot_blast/naphtha": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "tfmg:naphtha"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 5,
+          "fluid": "chemica:platinum_catalyst_carrier"
+        }
+      ],
+      "processingTime": 200,
+      "results": [
+        {
+          "amount": 70,
+          "id": "chemica:reformate"
+        },
+        {
+          "amount": 30,
+          "id": "tfmg:hydrogen"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "THT",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_tiny_dust"
+    },
+    "T": {
+      "item": "mekanism:elite_thermodynamic_conductor"
+    },
+    "H": {
+      "item": "modern_industrialization:heat_exchanger"
+    },
+    "W": {
+      "item": "crowns:heat_exchanger"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:saturating_condenser",
+    "count": 1
+  }
+}

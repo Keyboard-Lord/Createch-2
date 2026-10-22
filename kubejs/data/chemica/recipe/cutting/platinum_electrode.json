@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:plates/platinum"
+    }
+  ],
+  "results": [
+    {
+      "id": "chemica:platinum_electrode"
+    }
+  ],
+  "processing_time": 400
+}

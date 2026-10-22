@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HWH",
+    "SRS",
+    "HWH"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "W": {
+      "item": "createpropulsion:wing"
+    },
+    "S": {
+      "item": "railcraft:steel_plate"
+    },
+    "R": {
+      "item": "railcraft:manual_rolling_machine"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:tempered_wing",
+    "count": 2
+  }
+}

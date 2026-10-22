@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/florentine_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/florentine_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/florentine_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/florentine_bronze",
+      "required": false
+    }
+  ]
+}

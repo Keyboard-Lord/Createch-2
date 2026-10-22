@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/anvil/bismuth_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/bars/bismuth_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/chain/bismuth_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/lamp/bismuth_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/trapdoor/bismuth_bronze",
+      "required": false
+    }
+  ]
+}

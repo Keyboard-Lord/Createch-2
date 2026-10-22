@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NIN",
+    "RCR",
+    "NIN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "R": {
+      "item": "mekanismgenerators:turbine_rotor"
+    },
+    "C": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:rotational_complex",
+    "count": 1
+  }
+}

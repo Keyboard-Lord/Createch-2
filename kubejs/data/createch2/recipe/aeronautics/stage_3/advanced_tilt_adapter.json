@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "MAM",
+    "PEP"
+  ],
+  "key": {
+    "S": {
+      "item": "tfmg:heavy_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "M": {
+      "item": "aeroworks:stepper_servo"
+    },
+    "A": {
+      "item": "createpropulsion:tilt_adapter"
+    },
+    "P": {
+      "item": "electroenergetics:converter"
+    },
+    "E": {
+      "item": "gtceu:lv_emitter"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:advanced_tilt_adapter",
+    "count": 1
+  }
+}

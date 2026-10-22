@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/iridium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/iridium",
+    "amount": 100
+  },
+  "temperature": 1535,
+  "use_durability": false,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/iridium"
+      }
+    }
+  ]
+}

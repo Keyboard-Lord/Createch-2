@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/poor_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/granite",
+      "required": false
+    }
+  ]
+}

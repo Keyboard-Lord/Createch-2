@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "ingredients": [
+    {
+      "tag": "c:plates/copper"
+    }
+  ],
+  "processing_time": 80,
+  "results": [
+    {
+      "count": 2,
+      "id": "modern_industrialization:copper_wire"
+    }
+  ],
+  "recipe_tier": 1
+}

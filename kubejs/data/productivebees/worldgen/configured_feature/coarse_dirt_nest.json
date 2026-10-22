@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:coarse_dirt_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:coarse_dirt"
+        },
+        "state": {
+          "Name": "productivebees:coarse_dirt_nest"
+        }
+      }
+    ]
+  }
+}

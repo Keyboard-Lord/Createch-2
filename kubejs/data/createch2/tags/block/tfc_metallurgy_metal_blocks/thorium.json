@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/thorium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/thorium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/thorium",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "structures": [
+    {
+      "structure": "idas:abandonedhouse",
+      "weight": 3
+    },
+    {
+      "structure": "idas:abandoned_vineyard",
+      "weight": 2
+    },
+    {
+      "structure": "idas:desert_ruins",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ruined_church",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ruined_fort",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ruined_well",
+      "weight": 1
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 2
+    },
+    {
+      "structure": "idas:haunted_manor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480670,
+    "spacing": 72,
+    "separation": 44,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "#idas:common_avoid"
+    }
+  }
+}

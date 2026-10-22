@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 181,
+    "g": 76,
+    "b": 151
+  },
+  "sorting_value": 110,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.esoteric_records.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.esoteric_records.description"
+    }
+  }
+}

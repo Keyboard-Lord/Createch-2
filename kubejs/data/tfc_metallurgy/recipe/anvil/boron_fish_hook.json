@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/fish_hook/boron"
+  },
+  "tier": 3,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "ingredient": {
+    "tag": "c:sheets/boron"
+  },
+  "apply_bonus": true
+}

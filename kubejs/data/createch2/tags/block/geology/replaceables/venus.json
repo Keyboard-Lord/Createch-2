@@ -1,0 +1,9 @@
+{
+
+  "replace": true,
+  "values": [
+    "stellaris:venus_stone",
+    "minecraft:basalt",
+    "minecraft:blackstone"
+  ]
+}

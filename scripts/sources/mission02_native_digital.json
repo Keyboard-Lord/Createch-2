@@ -1,0 +1,134 @@
+{
+  "providers": {
+    "ee": "electroenergetics-1.21.1-1.1.4.jar",
+    "create": "create-1.21.1-6.0.10.jar"
+  },
+  "registratePath": "META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar",
+  "registrateJarSha256": "510f4041c41739f1d8ea8850ab8364d3e3a5fada8529beed5d9f479e2523db52",
+  "classes": {
+    "fluids": [
+      "ee",
+      "com.george_vi.electroenergetics.CEEFluids",
+      false
+    ],
+    "fluidsV": [
+      "ee",
+      "com.george_vi.electroenergetics.CEEFluids",
+      true
+    ],
+    "createRegistrate": [
+      "create",
+      "com.simibubi.create.foundation.data.CreateRegistrate",
+      false
+    ],
+    "abstractRegistrate": [
+      "registrate",
+      "com.tterrag.registrate.AbstractRegistrate",
+      false
+    ],
+    "abstractRegistrateV": [
+      "registrate",
+      "com.tterrag.registrate.AbstractRegistrate",
+      true
+    ],
+    "defaultType": [
+      "registrate",
+      "com.tterrag.registrate.builders.FluidBuilder$1",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "fluids": "ccbc2f377893f50ed38bba2eb98b96bcbc69bf5aed449c54933a08e127a0000f",
+    "fluidsV": "66d38fba86c4dfb58749246ce759bfd82f867dd3b8cb4e78b87fd2e430d8ced4",
+    "createRegistrate": "f871e46ca13d315e92a04eb987cec97c84fd254b5650ae4d1c29cc9bd4b21c64",
+    "abstractRegistrate": "b0f95a210dfe801a0c73b3e4a781d17dd84d2f36b8108fabed1949d8315e319f",
+    "abstractRegistrateV": "9f60e665a15b515fcaa1c7edf4ce4259d413d0b7ad746f4b2c90933da67385f4",
+    "defaultType": "6d8fdc2bc9d1c94c5e7331f7d62d2588277f3a78bb3dc445ebcab4101dfc5474"
+  },
+  "workbenchRepair": {
+    "id": "createch2:stainless_digital/ae2/pattern_provider",
+    "before": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SCS",
+        "AIF",
+        "PMR"
+      ],
+      "key": {
+        "S": {
+          "item": "modern_industrialization:stainless_steel_plate"
+        },
+        "C": {
+          "item": "minecraft:crafting_table"
+        },
+        "A": {
+          "item": "ae2:annihilation_core"
+        },
+        "I": {
+          "item": "ae2:interface"
+        },
+        "F": {
+          "item": "ae2:formation_core"
+        },
+        "P": {
+          "tag": "createch2:control/factory/processing"
+        },
+        "M": {
+          "item": "modern_industrialization:advanced_motor"
+        },
+        "R": {
+          "item": "extended_industrialization:machine_chainer_relay"
+        }
+      },
+      "result": {
+        "id": "ae2:pattern_provider",
+        "count": 1
+      }
+    },
+    "after": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SCS",
+        "AIF",
+        "PMR"
+      ],
+      "key": {
+        "S": {
+          "item": "modern_industrialization:stainless_steel_plate"
+        },
+        "C": {
+          "tag": "c:player_workstations/crafting_tables"
+        },
+        "A": {
+          "item": "ae2:annihilation_core"
+        },
+        "I": {
+          "item": "ae2:interface"
+        },
+        "F": {
+          "item": "ae2:formation_core"
+        },
+        "P": {
+          "tag": "createch2:control/factory/processing"
+        },
+        "M": {
+          "item": "modern_industrialization:advanced_motor"
+        },
+        "R": {
+          "item": "extended_industrialization:machine_chainer_relay"
+        }
+      },
+      "result": {
+        "id": "ae2:pattern_provider",
+        "count": 1
+      }
+    },
+    "gateCodes": []
+  },
+  "fluid": "electroenergetics:transformer_oil",
+  "empty": "minecraft:bucket",
+  "filled": "electroenergetics:transformer_oil_bucket",
+  "amount": 1000
+}

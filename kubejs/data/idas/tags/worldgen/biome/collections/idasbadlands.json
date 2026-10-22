@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:badlands",
+    "tfc:mesas",
+    "tfc:buttes",
+    "tfc:hoodoos"
+  ]
+}

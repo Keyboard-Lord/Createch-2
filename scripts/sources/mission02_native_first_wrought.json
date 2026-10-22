@@ -1,0 +1,816 @@
+{
+  "tfcJar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+  "washingJar": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+  "loader": "21.1.256",
+  "recipes": {
+    "tfcorewashing:ores/hematite/hematite_normal_hammer": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "tfc:advanced_shapeless_crafting",
+        "primary_ingredient": {
+          "tag": "c:tools/hammer"
+        },
+        "remainder": {
+          "modifiers": [
+            {
+              "type": "tfc:damage_crafting_remainder"
+            }
+          ]
+        },
+        "ingredients": [
+          {
+            "item": "tfc:ore/normal_hematite"
+          },
+          {
+            "tag": "c:tools/hammer"
+          }
+        ],
+        "result": {
+          "id": "tfcorewashing:rocky_chunks_hematite",
+          "count": 5
+        }
+      }
+    },
+    "tfcorewashing:chunks/quern/chunks_hematite_quern": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "tfc:quern",
+        "ingredient": {
+          "item": "tfcorewashing:chunks_hematite"
+        },
+        "result": {
+          "id": "tfcorewashing:dirty_dust_hematite",
+          "count": 1
+        }
+      }
+    },
+    "tfcorewashing:crafting/pellet/hematite": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "tfc:powder/hematite"
+          },
+          {
+            "item": "tfc:powder/hematite"
+          },
+          {
+            "item": "tfc:powder/hematite"
+          },
+          {
+            "item": "tfc:powder/hematite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfcorewashing:pellet_hematite"
+        }
+      }
+    },
+    "tfcorewashing:crafting/briquet/hematite": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "tfcorewashing:pellet_hematite"
+          },
+          {
+            "item": "tfcorewashing:pellet_hematite"
+          },
+          {
+            "item": "tfcorewashing:pellet_hematite"
+          },
+          {
+            "item": "tfcorewashing:pellet_hematite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfcorewashing:briquet_hematite"
+        }
+      }
+    },
+    "tfcorewashing:tfc/heating/powder/iron": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "tfc:heating",
+        "ingredient": {
+          "tag": "c:ores/clean_dusts/iron"
+        },
+        "result_fluid": {
+          "id": "tfc:metal/cast_iron",
+          "amount": 5
+        },
+        "temperature": 1535
+      }
+    },
+    "tfcorewashing:tfc/heating/pellet/iron": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "tfc:heating",
+        "ingredient": [
+          {
+            "item": "tfcorewashing:pellet_hematite"
+          },
+          {
+            "item": "tfcorewashing:pellet_limonite"
+          },
+          {
+            "item": "tfcorewashing:pellet_magnetite"
+          }
+        ],
+        "result_fluid": {
+          "id": "tfc:metal/cast_iron",
+          "amount": 20
+        },
+        "temperature": 1535
+      }
+    },
+    "tfcorewashing:tfc/heating/briquet/iron": {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "type": "tfc:heating",
+        "ingredient": [
+          {
+            "item": "tfcorewashing:briquet_hematite"
+          },
+          {
+            "item": "tfcorewashing:briquet_limonite"
+          },
+          {
+            "item": "tfcorewashing:briquet_magnetite"
+          }
+        ],
+        "result_fluid": {
+          "id": "tfc:metal/cast_iron",
+          "amount": 80
+        },
+        "temperature": 1535
+      }
+    },
+    "tfc:crafting/bloomery": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "tag": "tfc:double_sheets/any_bronze"
+          }
+        },
+        "pattern": [
+          "BBB",
+          "B B",
+          "BBB"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:bloomery"
+        }
+      }
+    },
+    "tfc:bloomery/raw_iron_bloom": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:bloomery",
+        "catalyst": {
+          "count": 2,
+          "item": "minecraft:charcoal"
+        },
+        "duration": 14400,
+        "fluid": {
+          "amount": 100,
+          "fluid": "tfc:metal/cast_iron"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:raw_iron_bloom"
+        }
+      }
+    },
+    "tfc:anvil/refined_iron_bloom": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:anvil",
+        "ingredient": {
+          "item": "tfc:raw_iron_bloom"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:refined_iron_bloom"
+        },
+        "rules": [
+          "hit_last",
+          "hit_second_last",
+          "hit_third_last"
+        ],
+        "tier": 2
+      }
+    },
+    "tfc:anvil/metal/ingot/wrought_iron": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:anvil",
+        "ingredient": {
+          "item": "tfc:refined_iron_bloom"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:metal/ingot/wrought_iron"
+        },
+        "rules": [
+          "hit_last",
+          "hit_second_last",
+          "hit_third_last"
+        ],
+        "tier": 2
+      }
+    },
+    "tfc:crafting/metal/anvil/bronze": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "#": {
+            "tag": "c:double_ingots/bronze"
+          }
+        },
+        "pattern": [
+          "###",
+          " # ",
+          "###"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:metal/anvil/bronze"
+        }
+      }
+    },
+    "tfc:welding/metal/double_ingot/bronze": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:welding",
+        "first_input": {
+          "tag": "c:ingots/bronze"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:metal/double_ingot/bronze"
+        },
+        "second_input": {
+          "tag": "c:ingots/bronze"
+        },
+        "tier": 1
+      }
+    },
+    "tfc:anvil/metal/sheet/bronze": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:anvil",
+        "ingredient": {
+          "tag": "c:double_ingots/bronze"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:metal/sheet/bronze"
+        },
+        "rules": [
+          "hit_last",
+          "hit_second_last",
+          "hit_third_last"
+        ],
+        "tier": 2
+      }
+    },
+    "tfc:welding/metal/double_sheet/bronze": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:welding",
+        "first_input": {
+          "tag": "c:sheets/bronze"
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:metal/double_sheet/bronze"
+        },
+        "second_input": {
+          "tag": "c:sheets/bronze"
+        },
+        "tier": 1
+      }
+    },
+    "tfc:crafting/wood/sluice/oak": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "L": {
+            "item": "tfc:wood/lumber/oak"
+          },
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          "  S",
+          " SL",
+          "SLL"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:wood/sluice/oak"
+        }
+      }
+    },
+    "tfc:heating/raw_iron_bloom": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:heating",
+        "ingredient": {
+          "item": "tfc:raw_iron_bloom"
+        },
+        "result_fluid": {
+          "amount": 100,
+          "id": "tfc:metal/cast_iron"
+        },
+        "temperature": 1535.0
+      }
+    }
+  },
+  "resources": {
+    "tfc/deposit|tfcorewashing:dirty_dust/hematite": {
+      "ingredient": {
+        "item": "tfcorewashing:dirty_dust_hematite"
+      },
+      "loot_table": "tfcorewashing:deposit/dirty_dust/hematite"
+    },
+    "tfc/deposit|tfcorewashing:rocky_chunk/hematite": {
+      "ingredient": {
+        "item": "tfcorewashing:rocky_chunks_hematite"
+      },
+      "loot_table": "tfcorewashing:deposit/rocky_chunk/hematite"
+    },
+    "loot_table|tfcorewashing:deposit/dirty_dust/hematite": {
+      "type": "minecraft:fishing",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:powder/hematite",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:pile_pink_sand",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_hematite",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ],
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfcorewashing:deposit/rocky_chunk/hematite": {
+      "type": "minecraft:empty",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:chunks_hematite"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/andesite"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/dolomite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/opal",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.001
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_hematite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "worldgen/placed_feature|tfc:water_surface_spring": {
+      "feature": "tfc:water_surface_spring",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 60
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "biased_to_bottom",
+            "min_inclusive": {
+              "absolute": 64
+            },
+            "max_inclusive": {
+              "absolute": 180
+            }
+          }
+        },
+        {
+          "type": "tfc:climate",
+          "min_temperature": -16,
+          "min_groundwater": 65
+        }
+      ]
+    },
+    "worldgen/configured_feature|tfc:water_surface_spring": {
+      "type": "tfc:spring",
+      "config": {
+        "state": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "falling": "true"
+          }
+        },
+        "valid_blocks": [
+          "tfc:rock/raw/granite",
+          "tfc:rock/raw/diorite",
+          "tfc:rock/raw/gabbro",
+          "tfc:rock/raw/shale",
+          "tfc:rock/raw/claystone",
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/conglomerate",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/chert",
+          "tfc:rock/raw/chalk",
+          "tfc:rock/raw/tuff",
+          "tfc:rock/raw/rhyolite",
+          "tfc:rock/raw/basalt",
+          "tfc:rock/raw/andesite",
+          "tfc:rock/raw/dacite",
+          "tfc:rock/raw/quartzite",
+          "tfc:rock/raw/slate",
+          "tfc:rock/raw/phyllite",
+          "tfc:rock/raw/schist",
+          "tfc:rock/raw/gneiss",
+          "tfc:rock/raw/marble"
+        ]
+      }
+    },
+    "loot_table|tfc:blocks/ore/normal_hematite/rhyolite": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/normal_hematite"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nativeClasses": {
+    "sluice": [
+      "tfc",
+      "net.dries007.tfc.common.blockentities.SluiceBlockEntity"
+    ],
+    "sluiceBlock": [
+      "tfc",
+      "net.dries007.tfc.common.blocks.devices.SluiceBlock"
+    ],
+    "deposit": [
+      "tfc",
+      "net.dries007.tfc.util.data.Deposit"
+    ],
+    "bloomery": [
+      "tfc",
+      "net.dries007.tfc.common.blockentities.BloomeryBlockEntity"
+    ],
+    "bloomeryBlock": [
+      "tfc",
+      "net.dries007.tfc.common.blocks.devices.BloomeryBlock"
+    ],
+    "bloomeryRecipe": [
+      "tfc",
+      "net.dries007.tfc.common.recipes.BloomeryRecipe"
+    ],
+    "bloomBlock": [
+      "tfc",
+      "net.dries007.tfc.common.blocks.BloomBlock"
+    ],
+    "bloomBlockEntity": [
+      "tfc",
+      "net.dries007.tfc.common.blockentities.BloomBlockEntity"
+    ],
+    "helpers": [
+      "tfc",
+      "net.dries007.tfc.util.Helpers"
+    ],
+    "firestarter": [
+      "tfc",
+      "net.dries007.tfc.common.items.FirestarterItem"
+    ],
+    "startFire": [
+      "tfc",
+      "net.dries007.tfc.util.events.StartFireEvent"
+    ],
+    "events": [
+      "tfc",
+      "net.dries007.tfc.ForgeEventHandler"
+    ],
+    "anvil": [
+      "tfc",
+      "net.dries007.tfc.common.blockentities.AnvilBlockEntity"
+    ],
+    "anvilRecipe": [
+      "tfc",
+      "net.dries007.tfc.common.recipes.AnvilRecipe"
+    ],
+    "tiers": [
+      "tfc",
+      "net.dries007.tfc.common.TFCTiers"
+    ],
+    "spring": [
+      "tfc",
+      "net.dries007.tfc.world.feature.SpringFeature"
+    ],
+    "lootParams": [
+      "client",
+      "net.minecraft.world.level.storage.loot.LootParams$Builder"
+    ],
+    "water": [
+      "minecraft",
+      "net.minecraft.world.level.material.WaterFluid"
+    ],
+    "waterSource": [
+      "minecraft",
+      "net.minecraft.world.level.material.WaterFluid$Source"
+    ],
+    "flowingFluid": [
+      "minecraft",
+      "net.minecraft.world.level.material.FlowingFluid"
+    ],
+    "metal": [
+      "tfc",
+      "net.dries007.tfc.util.Metal"
+    ],
+    "metalBlockType": [
+      "tfc",
+      "net.dries007.tfc.util.Metal$BlockType"
+    ],
+    "anvilBlock": [
+      "tfc",
+      "net.dries007.tfc.common.blocks.devices.AnvilBlock"
+    ]
+  },
+  "nativeCodeSha256": {
+    "sluice": "5a668cfc5fa910d7877b23664625927906a8375928fb25b6f1f7e0142eda9adb",
+    "sluiceBlock": "53afb13db6d7a2ac92aa72ee97ad19c145af8837a4470fd95a178272a7352278",
+    "deposit": "9f0ec03ae2be04fe1fb8bea5aa8bcdad3002610c81441aff67d9635a8fdbb41c",
+    "bloomery": "8abe4b4ab5e39886409b0ad3a203a9272c7d07ee34efc26ec3c501770c6cb7e0",
+    "bloomeryBlock": "ebfe0017e34b2850af7d372eacf25aee1a447a4a23693c20d3b36405de63a810",
+    "bloomeryRecipe": "4b60b4fbec4974cfebc0c6a193de1a50039123eeefa998681fd7e891e1a3a774",
+    "bloomBlock": "0c76e77f3aedd4c4f8b5265823804f14e87844e7d7324038a3b9562a55336432",
+    "bloomBlockEntity": "0f6e9e9ff27c9c56c2f1dd4d3c47e674523cf39f0b33cab1579447de482c335f",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "firestarter": "950fadbf93ba47431a892af4a594606a2e007a01ebe0d1eaf63cc822a9a700ab",
+    "startFire": "ffdbce1d8184126e8c75291ece3b8f86531f4e73e8762d8114b81289633a6e1b",
+    "events": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "anvil": "57bced1600033241dd3f7d202cab2f1269112f79ed025a56ffaa206eaf80ae6c",
+    "anvilRecipe": "d789dc9510e730c753e1dd3ec6554b8b27162de703131bfe2e468fe6c11baeae",
+    "tiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "spring": "f3f0d29341c3bebe0e43e981818ebfa32593ba4905554b719c48402a55a2c6ec",
+    "lootParams": "7481318f240e05ea51ef36aac1c14df74f88c13be12d55b7c17cfc2739d12c37",
+    "water": "92ccfcdda6267f54ff1aa215eded817718f669b353f054a7416639e5a8810058",
+    "waterSource": "4387dc906a7a154579bd0fc34f8733a734855132334eb85dd7929d1714de479b",
+    "flowingFluid": "186160851929d13aec7382fe7da7c31578b96ee4d42564cdc6950e92224d39d5",
+    "metal": "79b6265feb7303074ccd44cfad7cd219673468a10a904f975f19751b243b907f",
+    "metalBlockType": "bb1f60ed79dad123eac3a117afbcb950e93d1feb3f84b73b78d6f2ce13fc022e",
+    "anvilBlock": "ed5191edae77aec9afa505bc7a5f946db348e476cafd808b7aad61278edb884b"
+  },
+  "bloomery": {
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "gate": [
+      0,
+      0,
+      -1
+    ],
+    "gateFacing": "north",
+    "insulation": "tfc:rock/raw/rhyolite",
+    "insulationPositions": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1
+      ],
+      [
+        0,
+        -1,
+        -1
+      ],
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "chimneyLevels": 1,
+    "capacityPerLevel": 16,
+    "batchItemCount": 4,
+    "charcoalStack": 2,
+    "durationCalendarTicks": 14400,
+    "solidFeeds": {
+      "tfcorewashing:briquet_hematite": 80,
+      "tfcorewashing:pellet_hematite": 20
+    },
+    "output": "tfc:raw_iron_bloom",
+    "outputMetalUnits": 100
+  },
+  "sluice": {
+    "upper": [
+      0,
+      0,
+      0
+    ],
+    "facing": "south",
+    "lower": [
+      0,
+      0,
+      1
+    ],
+    "input": [
+      0,
+      1,
+      -1
+    ],
+    "output": [
+      0,
+      -1,
+      2
+    ],
+    "springSource": [
+      0,
+      1,
+      -8
+    ],
+    "horizontalFlowSteps": 7,
+    "inputFluidAmount": 1,
+    "flowDropOff": 1,
+    "fluid": "minecraft:water",
+    "ticksPerInput": 100,
+    "item": "tfc:wood/sluice/oak"
+  },
+  "world": {
+    "oreFeature": "tfc:vein/surface_hematite",
+    "oreBlock": "tfc:ore/normal_hematite/rhyolite",
+    "oreItem": "tfc:ore/normal_hematite",
+    "pickaxe": "tfc:metal/pickaxe/bronze",
+    "spring": "tfc:water_surface_spring"
+  },
+  "lootPolicySha256": "963661ead5a870632ebec035612ff347c3359136cd9cb8d42fae9f05bbd94387"
+}

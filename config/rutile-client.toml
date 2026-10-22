@@ -1,0 +1,12 @@
+#.
+#Chemical Compositions
+[chemicalCompositions]
+	#.
+	#Color of the tooltip text for chemical compositions
+	# Default: 16777215
+	# Range: > -2147483648
+	tooltipColor = 16777215
+	#.
+	#Should each element in the tooltip use the colour of the element.
+	#Overrides tooltipColor
+	elementColorForTooltip = true

@@ -1,0 +1,40 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 512,
+  "duration": 1800,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:superconductor_coil",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 32
+    },
+    {
+      "item": "modern_industrialization:iridium_plate",
+      "amount": 8
+    },
+    {
+      "item": "eternal_starlight:malarite",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:cryofluid",
+    "amount": 2000
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:superconductor_coil",
+      "amount": 4
+    }
+  ]
+}

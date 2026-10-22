@@ -1,0 +1,1055 @@
+{
+  "truth": "NATIVE_EXISTING_STRANGE_MATTER_PARTICLE_COLLISION",
+  "nativeClasses": {
+    "controller": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.entity.accelerator.AcceleratorControllerBlockEntity",
+      false
+    ],
+    "particle": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.entity.accelerator.AcceleratorParticleLogic",
+      false
+    ],
+    "active": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.entity.accelerator.AcceleratorParticleLogic$ActiveParticle",
+      false
+    ],
+    "motor": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.entity.accelerator.AcceleratorMotorBlockEntity",
+      false
+    ],
+    "controllerBlock": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.blocks.accelerator.AcceleratorControllerBlock",
+      false
+    ],
+    "ring": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.blocks.accelerator.AcceleratorRingBlock",
+      false
+    ],
+    "passthrough": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.block.blocks.accelerator.AcceleratorPassthroughBlock",
+      false
+    ],
+    "geometry": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.util.Geometry",
+      false
+    ],
+    "directions": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.util.Geometry$BlockDirection",
+      false
+    ],
+    "directionSwitch": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.util.Geometry$1",
+      false
+    ],
+    "be": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.BlockEntitiesContent",
+      false
+    ],
+    "beV": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.BlockEntitiesContent",
+      true
+    ],
+    "energy": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.neoforge.NeoforgeEnergyApiImpl",
+      false
+    ],
+    "energyBridge": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.neoforge.NeoforgeEnergyApiImpl$ContainerStorageWrapper",
+      false
+    ],
+    "energyEvent": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.neoforge.OritechModNeoForge$EventHandler",
+      false
+    ],
+    "storage": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.api.energy.containers.SimpleEnergyStorage",
+      false
+    ],
+    "recipe": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.recipes.OritechRecipe",
+      false
+    ],
+    "recipeType": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.recipes.OritechRecipeType",
+      false
+    ],
+    "recipeContent": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.recipes.RecipeContent",
+      false
+    ],
+    "inventory": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.api.item.containers.InOutInventoryStorage",
+      false
+    ],
+    "main": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.Oritech",
+      false
+    ],
+    "screen": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.client.ui.AcceleratorScreen",
+      false
+    ],
+    "research_tick": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.BoundTickingBlockEntityMixin"
+    ],
+    "research_context": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.api.RecipeFilterContext"
+    ],
+    "research_recipeManager": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.RecipeManagerMixin"
+    ],
+    "fluidContent": [
+      "oritech-neoforge-1.21.1-1.2.13.jar",
+      "rearth.oritech.init.FluidContent"
+    ]
+  },
+  "nativeCodeSha256": {
+    "controller": "46ccc2b5b2f4b27545d4265d274075db11c8eac27fafcf80f82d1422490fcc55",
+    "particle": "167a9cc04186f2ba640805c7411333c2048134099d1c95cecfde7a7587fd7f1d",
+    "active": "c954d04436e9ed9efb86c45269e2a2eaddc6f393ecab486284c22e841a623b4d",
+    "motor": "86b7d72144ce5af4d770dfc047507ac77ddf0b455ce07cfd21767d9a45aacca5",
+    "controllerBlock": "6b0f1fc562ae96517bf7685baf4a80b975de3de51318c7542aec680dc9993883",
+    "ring": "9a577b03f4de2b6393721723a50079896e98d9eb83448e2b67cd8d9c6d6c9db8",
+    "passthrough": "e9606b2f0960e96fb725a10d2fbd2f6d54613682334448ce2eb0460fd62e069c",
+    "geometry": "14f156a8ef49cc68bba99508ea3ea8ca0de0c34ab0ae738cb4439d0df2f93238",
+    "directions": "e236e8f2204ec2f7e1bdfe12cbdf31e2b240a93d956a3dd04b77e7e6a69762d8",
+    "directionSwitch": "e74200cd871be62752b35f98a93b67210373c0579d8487d81b6018df301eb71c",
+    "be": "3f8c93f535a1155a53f9c6cc1d4bbff00cbc4c2f30d6794718d8aabf979f7390",
+    "beV": "8a7b6cdd9d6e1521f236046effe0b50c64dc4ec518b864112fdd537a6691046e",
+    "energy": "9220bba90e78a80cf48838d130f48c9a9359b7698f4129c3780d7f642ecf8b8e",
+    "energyBridge": "adaf7507516777f68eea82c17997088e46f0a07cf49e0e6490398c8d48f3922c",
+    "energyEvent": "4b06137d750b5b52566e0e7d077d5f0494995b2418a88c2249d6dd450bfdacfe",
+    "storage": "2dce415cfa97cbbb8a3df29c4880f7a01217046504c230e9af7d42d8969f5e51",
+    "recipe": "12f751a76d1eadb117635bb2c16808acef560fc62d75e54dadaf392de40a13d1",
+    "recipeType": "99a8024fe3f1c52cc61a46f130563d0ef214527d8f46c19c8af2ed98c0ede796",
+    "recipeContent": "1610e6fe779fd22b938aab731efcce7def590f038632f0f539aaf55d858187e4",
+    "inventory": "c2c0542f37e43fdfe3977bc28cc8010b206df94b7c5379b0ae4a2120fddf3f25",
+    "main": "d47f11fd9c96e62ff6a82fc6ce0bdc860bb6a27959ba8ce60adbb5bcea503fc5",
+    "screen": "78bd88e009f3f42dba31f1ef87a036ff4576a1741a5fe9285b530f43e891eb63",
+    "research_tick": "c5b48a6dcfba0fa3ac0145d79c8012435626b9b6f315e7b75ebfbbca23d12e67",
+    "research_context": "704fa7331cbc6945c4890ecebd50f69534b1f36358ed7ee657edac674840a7e7",
+    "research_recipeManager": "3f94c36d9cf8835b4b32da8b4f7cf649cd591bed822dca48e083a9a3345a8c9a",
+    "fluidContent": "45118cd4515c23c52b6eef8bd8529bcbfc07d41ce245dd2e17081e3e3ca8bb4f"
+  },
+  "nativeJar": "oritech-neoforge-1.21.1-1.2.13.jar",
+  "nativeJarSha256": "32600bf5b08fcf6d4a49e557f90ee45b238098170777872c8919d9fdb0a1b828",
+  "recipe": {
+    "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+    "id": "createch2:oritech_jdt/age_15/oritech/accelerator/strange_matter",
+    "custom": {
+      "type": "oritech:particle_collision",
+      "ingredients": [
+        {
+          "item": "gtceu:zpm_field_generator"
+        },
+        {
+          "item": "justdirethings:eclipsealloy_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "oritech:still_strange_matter_bucket",
+          "count": 1
+        }
+      ],
+      "time": 12000
+    },
+    "kind": "custom",
+    "args": [
+      {
+        "type": "oritech:particle_collision",
+        "ingredients": [
+          {
+            "item": "gtceu:zpm_field_generator"
+          },
+          {
+            "item": "justdirethings:eclipsealloy_ingot"
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:still_strange_matter_bucket",
+            "count": 1
+          }
+        ],
+        "time": 12000
+      }
+    ]
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_controller",
+      "custom": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "gtceu:zpm_robot_arm"
+        },
+        "transitional_item": {
+          "id": "gtceu:zpm_robot_arm"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "item": "justdirethings:eclipsealloy_ingot"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "item": "eternal_starlight:starcore"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "item": "oritech:machine_core_6"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "item": "modern_industrialization:nuclear_alloy_plate"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "item": "ae2:quantum_link"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 50,
+                "fluid": "modern_industrialization:uu_matter"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          },
+          {
+            "type": "greate:pressing",
+            "recipe_tier": 7,
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_robot_arm"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_robot_arm"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:accelerator_controller"
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "gtceu:zpm_robot_arm"
+          },
+          "transitional_item": {
+            "id": "gtceu:zpm_robot_arm"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "item": "justdirethings:eclipsealloy_ingot"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "item": "eternal_starlight:starcore"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "item": "oritech:machine_core_6"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "item": "modern_industrialization:nuclear_alloy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "item": "ae2:quantum_link"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 50,
+                  "fluid": "modern_industrialization:uu_matter"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "recipe_tier": 7,
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_robot_arm"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_robot_arm"
+                }
+              ]
+            }
+          ],
+          "results": [
+            {
+              "id": "oritech:accelerator_controller"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_motor",
+      "custom": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "gtceu:zpm_electric_motor"
+        },
+        "transitional_item": {
+          "id": "gtceu:zpm_electric_motor"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "item": "justdirethings:eclipsealloy_ingot"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "item": "eternal_starlight:starcore"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "item": "oritech:machine_core_6"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "item": "modern_industrialization:nuclear_alloy_plate"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "item": "ae2:quantum_link"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 50,
+                "fluid": "modern_industrialization:uu_matter"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          },
+          {
+            "type": "greate:pressing",
+            "recipe_tier": 7,
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_electric_motor"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_electric_motor"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:accelerator_motor"
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "gtceu:zpm_electric_motor"
+          },
+          "transitional_item": {
+            "id": "gtceu:zpm_electric_motor"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "item": "justdirethings:eclipsealloy_ingot"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "item": "eternal_starlight:starcore"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "item": "oritech:machine_core_6"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "item": "modern_industrialization:nuclear_alloy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "item": "ae2:quantum_link"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 50,
+                  "fluid": "modern_industrialization:uu_matter"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "recipe_tier": 7,
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_electric_motor"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_electric_motor"
+                }
+              ]
+            }
+          ],
+          "results": [
+            {
+              "id": "oritech:accelerator_motor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_ring",
+      "custom": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "gtceu:zpm_field_generator"
+        },
+        "transitional_item": {
+          "id": "gtceu:zpm_field_generator"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "item": "justdirethings:eclipsealloy_ingot"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "item": "eternal_starlight:starcore"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "item": "oritech:machine_core_6"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "item": "modern_industrialization:nuclear_alloy_plate"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "item": "ae2:quantum_link"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 50,
+                "fluid": "modern_industrialization:uu_matter"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          },
+          {
+            "type": "greate:pressing",
+            "recipe_tier": 7,
+            "ingredients": [
+              {
+                "item": "gtceu:zpm_field_generator"
+              }
+            ],
+            "results": [
+              {
+                "id": "gtceu:zpm_field_generator"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:accelerator_ring"
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "gtceu:zpm_field_generator"
+          },
+          "transitional_item": {
+            "id": "gtceu:zpm_field_generator"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "item": "justdirethings:eclipsealloy_ingot"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "item": "eternal_starlight:starcore"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "item": "oritech:machine_core_6"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "item": "modern_industrialization:nuclear_alloy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "item": "ae2:quantum_link"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 50,
+                  "fluid": "modern_industrialization:uu_matter"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "recipe_tier": 7,
+              "ingredients": [
+                {
+                  "item": "gtceu:zpm_field_generator"
+                }
+              ],
+              "results": [
+                {
+                  "id": "gtceu:zpm_field_generator"
+                }
+              ]
+            }
+          ],
+          "results": [
+            {
+              "id": "oritech:accelerator_ring"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sharedFeCodeSha256": {
+    "rotor": "c945ba75f939d44ffe6714e0551cd4117d5b0021a85a76d1241dcf4e0494bd34",
+    "rotorBlock": "87647d708829b432fcffe41f27813b072eee8ce9475394817b14d4593b508468",
+    "stator": "37998e9474a97252412a1a285a44a676eeb511302853b8d75d2e8579603a62ea",
+    "brushBE": "00164eeabccebd789084c503da0c43c06884a3382c66b1206a28606a32466ec6",
+    "brushBlock": "19bfb1cbbda04dc699958d971d1710ab1db96c1256e663ba2e8eb73429633d02",
+    "brushDevice": "050b03598b44d5704daf111a05e0f55cf40a7c4271b0dbb3c5f9849bea6f80c2",
+    "generator": "1cb3d66f06774af8d6d3b6fcbe857367c6d9e8314d91c034b2cf6958b08275df",
+    "builder": "3b07c247ffff83f53d092397e249dea81b9f6d08bf9a389c635741dcb9e0bae0",
+    "converter": "ad9cb0c2fdcead53fd1df8297f225faca21b019279ec36139663bc79f314db98",
+    "converterBlock": "86e60fb70d44325f73c6abc5a15e2b632db1862a2f9075896968386e00b86213",
+    "spool": "5f88dd37c2360b943011101719e937af12385757c7d95c6238e270f3e4228446",
+    "wireData": "ce354a9a6cce10af8101140034905ba9b411a99631aa271469577bda4192c856",
+    "wireLife": "8f693a8f9e83c36b8c4ee7bde7f29b7c392b45db190f3511e18f40c06fe51f81",
+    "largeWheel": "48c6b368522eab247c3db071a547748d7aea57c37fabc75b7c4e0a651c6529b1",
+    "wheel": "b379148a257a22a8c33c0231d07f359ef0229ffd6543d4d1974835bad1a21032",
+    "stressValues": "e8bc2790af3253c3df22b0434568600dd3f56a6253deb6b2cb6e685e3921f691",
+    "eeBlocks": "fb3b99ea2aeb2a5a3dcb557fb43c2766656b3f47ad2f92e2f76ba8f475fb02bc"
+  },
+  "sourceSha256": {
+    "config/oritech-common.toml": "ccab8483a800205887b22076287d672fb40ad4c20e6d34739d359a5a48ec10d3",
+    "kubejs/server_scripts/compatibility/oritech_jdt_authority.js": "52eb4e3ea18f67c8afc9f930c01b9b1e17d54c6b3501480c074d7cd3e35441d4",
+    "kubejs/config/createch2_research_tree.json": "91ff01111bea414b9e5a658e0781ee211a48c5f3abfc7c3cacfcdc9211635591"
+  },
+  "node": "createch2:frn_05_exotic_particle_physics",
+  "nominalCollisionThreshold": 12000,
+  "newMotorRf": 720000000,
+  "motorCapacity": 5000000,
+  "accelerationRfFactor": 10,
+  "newHardware": {
+    "oritech:accelerator_controller": 2,
+    "oritech:accelerator_motor": 1,
+    "oritech:accelerator_ring": 195
+  },
+  "newCollisionInputs": {
+    "gtceu:zpm_field_generator": 1,
+    "justdirethings:eclipsealloy_ingot": 1
+  },
+  "grandPowerCandidates": [
+    {
+      "provider": "oritech-neoforge-1.21.1-1.2.13.jar",
+      "nested": "META-INF/jarjar/GrandPower-3.0.2.jar",
+      "version": "3.0.2",
+      "sha256": "65bca4f4962f0ba9720fa8cdf8aec0d2d1b13b2b4f3885a289a1591839a69396",
+      "longEnergyCodeSha256": "f1a8e8b3dec429fdea727cd10edfcd9ad42cd0635c08e231ee5b31ed1c7722e5"
+    },
+    {
+      "provider": "Modern-Industrialization-2.5.10.jar",
+      "nested": "META-INF/jarjar/GrandPower-3.0.0.jar",
+      "version": "3.0.0",
+      "sha256": "f0db91e29124a8119c3a511831a52b058f339f9d3af7c06bba96cca3b04d1db1",
+      "longEnergyCodeSha256": "f1a8e8b3dec429fdea727cd10edfcd9ad42cd0635c08e231ee5b31ed1c7722e5"
+    }
+  ]
+}

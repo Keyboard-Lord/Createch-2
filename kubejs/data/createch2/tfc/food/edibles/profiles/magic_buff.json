@@ -1,0 +1,7 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/magic_buff"
+  },
+  "edible": true,
+  "decay_modifier": 0
+}

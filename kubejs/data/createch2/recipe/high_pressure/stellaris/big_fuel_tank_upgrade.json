@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "CFC",
+    "TST"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "F": {
+      "item": "stellaris:t4_tank"
+    },
+    "S": {
+      "item": "stellaris:solerium"
+    }
+  },
+  "result": {
+    "id": "stellaris:big_fuel_tank_upgrade",
+    "count": 1
+  }
+}

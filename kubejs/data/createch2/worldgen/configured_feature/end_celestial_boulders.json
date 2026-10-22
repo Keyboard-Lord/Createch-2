@@ -1,0 +1,66 @@
+{
+  "type": "createch2core:landform",
+  "config": {
+    "pillar": false,
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:purpur_block"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:amethyst_block"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:calcite"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:crying_obsidian"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:cave_air"
+      ]
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 10,
+      "max_inclusive": 30
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 5,
+      "max_inclusive": 13
+    },
+    "tip_scale": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.15,
+      "max_exclusive": 0.45
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.02,
+      "max_exclusive": 0.12
+    },
+    "euclidean_weight": 1,
+    "manhattan_weight": 0,
+    "chebyshev_weight": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "chemica:sodium_persulfate"
+    }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "results": [
+    {
+      "amount": 150,
+      "id": "chemica:oxygen"
+    },
+    {
+      "id": "modern_industrialization:sodium_dust"
+    },
+    {
+      "id": "tfmg:sulfur_dust"
+    }
+  ],
+  "processing_time": 100,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

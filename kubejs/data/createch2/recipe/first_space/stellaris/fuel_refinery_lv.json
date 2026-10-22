@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "DHC",
+    "PMP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "A": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "D": {
+      "item": "tfmg:steel_distillation_controller"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:pump"
+    }
+  },
+  "result": {
+    "id": "stellaris:fuel_refinery",
+    "count": 1
+  }
+}

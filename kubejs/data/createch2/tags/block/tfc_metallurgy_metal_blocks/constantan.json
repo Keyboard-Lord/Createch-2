@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/constantan",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/constantan",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/constantan",
+      "required": false
+    }
+  ]
+}

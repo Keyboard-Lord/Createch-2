@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 480,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "gtceu:tempered_glass",
+      "amount": 2
+    },
+    {
+      "item": "gtceu:polyvinyl_butyral_plate",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:laminated_glass",
+      "amount": 1
+    }
+  ]
+}

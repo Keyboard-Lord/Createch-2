@@ -1,0 +1,38 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:seed_oil"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:ethanol"
+    },
+    {
+      "item": "chemica:caustic_soda_dust"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:biodiesel"
+    },
+    {
+      "amount": 100,
+      "id": "chemica:glycerin"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

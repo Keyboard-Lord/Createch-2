@@ -1,0 +1,10 @@
+[dyson_data_connector]
+	#Search radius in blocks for auto-detecting nearest Dyson Cube multiblock part.
+	# Default: 5
+	# Range: 1 ~ 64
+	searchRadius = 5
+	#Ticks between searches for a nearer source. Only loaded chunks are searched.
+	#Removed, unloaded or rebound sources are checked on the next query.
+	# Default: 20
+	# Range: 1 ~ 1200
+	sourceRefreshInterval = 20

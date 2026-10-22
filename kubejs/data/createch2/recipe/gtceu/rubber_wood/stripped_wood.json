@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL",
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "gtceu:stripped_rubber_log"
+    }
+  },
+  "result": {
+    "id": "gtceu:stripped_rubber_wood",
+    "count": 3
+  }
+}

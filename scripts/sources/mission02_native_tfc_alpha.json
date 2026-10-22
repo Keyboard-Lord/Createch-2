@@ -1,0 +1,151 @@
+{
+  "truth": "TFC_ALPHA_WEREWOLF_HABITAT_REPAIR",
+  "resources": {
+    "kubejs/data/createch2/tags/worldgen/biome/tfc_alpha_werewolf_habitat.json": {
+      "replace": false,
+      "values": [
+        "#createch2:tfc_structure_wetland",
+        "#createch2:tfc_structure_rugged_land"
+      ]
+    },
+    "kubejs/data/createch2/neoforge/biome_modifier/tfc_alpha_werewolf.json": {
+      "type": "vampirism:extended_add_spawns",
+      "biomes": "#createch2:tfc_alpha_werewolf_habitat",
+      "excludedBiomes": [],
+      "spawners": [
+        {
+          "category": "monster",
+          "super": {
+            "type": "werewolves:alpha_werewolf",
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        }
+      ]
+    }
+  },
+  "nativeJar": "Werewolves-1.21-2.0.3.4.jar",
+  "nativeBiome": "werewolves:werewolf_heaven",
+  "nativeMob": "werewolves:alpha_werewolf",
+  "habitat": "createch2:tfc_alpha_werewolf_habitat",
+  "onlyTfcAdditionalBiomes": true,
+  "nativeFirstBiomePredicatePreserved": true,
+  "nativeDifficultyDarknessAndGroundChecksPreserved": true,
+  "nativeWeight": 10,
+  "nativeMinCount": 1,
+  "nativeMaxCount": 1,
+  "mixinsEntry": "compat.WerewolfTfcAlphaSpawnMixin",
+  "priorCoreSha256": "a674b5e2d23eb85c868fc85aca0aeddc1a18ee132d7fff778c513b4e90e1981f",
+  "classes": {
+    "alpha": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.entities.werewolf.WerewolfAlphaEntity",
+      "sha256": "31f543821f580a33f0100c4f3ac0b3d6f18f49074d5eaba3746fc0b9572f16e0"
+    },
+    "base": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.entities.werewolf.WerewolfBaseEntity",
+      "sha256": "370b263d7cdef06a5af53d56e3938b668bbcac825e19b2fd5d30b6b84725e6b5"
+    },
+    "entities": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.core.ModEntities",
+      "sha256": "2c36fd990de6b907f0ca47abe8493a616267c2732257d230f33bf47238375a82"
+    },
+    "biome": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.world.gen.WerewolfForestBiome",
+      "sha256": "f5e196f315cdfaaac6135474788230048fd50ece633657a811e86464e22b9484"
+    },
+    "vampBase": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.entity.VampirismEntity",
+      "sha256": "54e44f8e4c7121bd3f1b38d3dc6488e209656c605d1490b30624e93c4614ad9d"
+    },
+    "region": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.biome.RegionBiomeSource",
+      "sha256": "444175c584298516fe796b335493c424badc7f6ae2955bd4b6289f5e89fa9f1e"
+    },
+    "tfcEvents": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.ForgeEventHandler",
+      "sha256": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70"
+    },
+    "coreMixin": {
+      "jar": "@core",
+      "class": "createch2.core.mixin.compat.WerewolfTfcAlphaSpawnMixin",
+      "sha256": "ebd57338fa95627dec8f1cc7b0735fbed724216c0ac204ef6da6226a01f09576"
+    },
+    "playerEvents": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.entities.player.ModPlayerEventHandler",
+      "sha256": "072cbc8cb8c8f5659f539eba44e5291fef5bfb0d8ac1415b2814398285490e73"
+    },
+    "vampAlias": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.core.ModItems$V",
+      "sha256": "217da1fdd471f73ff5851396fa40d763e8ce11d2acd008d164bd2c1b038e9fb5"
+    },
+    "resourceLocation": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.api.WResourceLocation",
+      "sha256": "0f6372182804156dbe285e02d9d9d677f771292c26466eff5c79fb093853d1cc"
+    },
+    "mod": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.WerewolvesMod",
+      "sha256": "af6bee5e0037835069ffa5c57945f27ead13964a039672da3545074c619d3692"
+    },
+    "addSpawns": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.world.gen.modifier.ExtendedAddSpawnsBiomeModifier",
+      "sha256": "eab900c1b3acb58016e7534c1346a833527ac9f315d7d034081477294ae1b50d"
+    },
+    "spawnData": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.world.gen.modifier.ExtendedAddSpawnsBiomeModifier$ExtendedSpawnData",
+      "sha256": "4fbf8ed9c0504ed482f81a6d0db41dfeacc379be950c0dd0b6ca51e0d7dfced2"
+    },
+    "cureItem": {
+      "jar": "Werewolves-1.21-2.0.3.4.jar",
+      "class": "de.teamlapen.werewolves.items.UnWerewolfInjectionItem",
+      "sha256": "47245586a617cff53fe7ce61a90dd785dc24401526ee290fd19f45f0e0d10687"
+    },
+    "mcItem": {
+      "jar": "../../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.item.Item",
+      "sha256": "3cd4fbf6f5798187d24d4411636ab7099d2864c6387befe43e438afcee7a0579"
+    }
+  },
+  "coreJarSha256": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+  "lootTable": "werewolves:entities/alpha_werewolf",
+  "tooth": "werewolves:werewolf_tooth",
+  "coreEntryPreservation": {
+    "truth": "STATIC_TFC_ALPHA_CORE_ENTRY_PRESERVATION",
+    "before": "a674b5e2d23eb85c868fc85aca0aeddc1a18ee132d7fff778c513b4e90e1981f",
+    "after": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+    "added": [
+      "createch2/core/mixin/compat/WerewolfTfcAlphaSpawnMixin.class"
+    ],
+    "changed": [
+      "createch2core.mixins.json"
+    ],
+    "removed": [],
+    "allOtherEntriesByteIdentical": true,
+    "unchangedEntries": 359,
+    "unchangedEntriesSha256": "33923602a4f981801e117a56106546f8dfbb68003587e55d99190501d05e73bd"
+  },
+  "nativeCure": {
+    "input": "vampirism:injection_empty",
+    "output": "werewolves:injection_un_werewolf",
+    "inputCount": 1,
+    "outputCount": 1,
+    "requiresLiveWerewolfBaseEntity": true,
+    "requiresFreeInventorySlot": true,
+    "consumesTarget": false,
+    "recipeOrFactionGateRequired": false
+  },
+  "nativeSpawnCategory": "monster"
+}

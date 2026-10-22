@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/constantan"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/constantan",
+    "amount": 200
+  },
+  "temperature": 1200,
+  "use_durability": false
+}

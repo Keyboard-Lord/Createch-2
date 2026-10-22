@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:light_wires/tin"
+    },
+    {
+      "tag": "c:light_wires/tin"
+    }
+  ],
+  "result": {
+    "id": "modern_industrialization:tin_wire",
+    "count": 1
+  }
+}

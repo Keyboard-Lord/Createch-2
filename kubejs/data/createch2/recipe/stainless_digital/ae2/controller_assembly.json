@@ -1,0 +1,210 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_connected:incomplete_control_chip"
+  },
+  "transitional_item": {
+    "id": "create_connected:incomplete_control_chip"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:logic_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:formation_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:annihilation_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "modern_industrialization:digital_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:energy_acceptor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "create_connected:control_chip"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "ae2:fluix_glass_cable"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "item": "electroenergetics:converter"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 144,
+          "fluid": "modern_industrialization:soldering_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "create_connected:incomplete_control_chip"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_connected:incomplete_control_chip"
+        }
+      ],
+      "recipe_tier": 3
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:controller"
+    }
+  ]
+}

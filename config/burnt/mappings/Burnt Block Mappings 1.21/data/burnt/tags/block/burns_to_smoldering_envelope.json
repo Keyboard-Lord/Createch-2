@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:airship_envelope",
+      "required": false
+    },
+    {
+      "id": "yourmod:balloon_fabric",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "C": {
+      "tag": "c:gems/certus_quartz"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "ae2:calculation_processor_press",
+    "count": 1
+  }
+}

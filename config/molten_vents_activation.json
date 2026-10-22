@@ -1,0 +1,29 @@
+{
+  "activationTicks": 200,
+  "ventPairs": [
+    {
+      "dormant": "molten_vents:dormant_molten_asurine",
+      "active": "molten_vents:active_molten_asurine"
+    },
+    {
+      "dormant": "molten_vents:dormant_molten_crimsite",
+      "active": "molten_vents:active_molten_crimsite"
+    },
+    {
+      "dormant": "molten_vents:dormant_molten_ochrum",
+      "active": "molten_vents:active_molten_ochrum"
+    },
+    {
+      "dormant": "molten_vents:dormant_molten_scorchia",
+      "active": "molten_vents:active_molten_scorchia"
+    },
+    {
+      "dormant": "molten_vents:dormant_molten_scoria",
+      "active": "molten_vents:active_molten_scoria"
+    },
+    {
+      "dormant": "molten_vents:dormant_molten_veridium",
+      "active": "molten_vents:active_molten_veridium"
+    }
+  ]
+}

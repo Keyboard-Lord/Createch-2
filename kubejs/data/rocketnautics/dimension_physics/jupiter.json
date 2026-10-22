@@ -1,0 +1,16 @@
+{
+  "dimension": "stellaris:jupiter",
+  "priority": 0,
+  "universal_drag": 0.05,
+  "base_gravity": [
+    0,
+    -0.7,
+    0
+  ],
+  "base_pressure": 10,
+  "magnetic_north": [
+    0,
+    0,
+    0
+  ]
+}

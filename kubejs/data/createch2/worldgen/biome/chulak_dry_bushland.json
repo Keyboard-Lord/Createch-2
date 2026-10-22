@@ -1,0 +1,83 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": -5060484,
+    "grass_color": -3552115,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.badlands"
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "tfc:plant/wild_crop/pumpkin_patch",
+      "tfc:plant/wild_crop/sugarcane_patch",
+      "createch2:offworld/flora/desert_shrub",
+      "createch2:offworld/flora/mallow",
+      "createch2:offworld/flora/grass_dense",
+      "createch2:offworld/flora/tall_grass",
+      "createch2:offworld/flora/shrubs_dry_bushland",
+      "createch2:offworld/flora/trees_dry_bushland"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "tfc:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
+      },
+      {
+        "type": "tfc:armadillo",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 10
+      },
+      {
+        "type": "tfc:wolf",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 8
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 1.5
+}

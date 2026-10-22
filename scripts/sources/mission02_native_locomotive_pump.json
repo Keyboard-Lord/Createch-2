@@ -1,0 +1,453 @@
+{
+  "ids": {
+    "assembly": "createch2:railway/locomotive/steam_assembly",
+    "pump": "createch2:greate/tier_0/mechanical_pump",
+    "pipe": "createch2:age_foundation/create/fluid_pipe",
+    "copperPlate": "createch2:create/pressing/copper_plate",
+    "casing": "createch2:age_foundation/create/andesite_casing",
+    "cog": "createch2:greate/tier_0/cogwheel",
+    "planks": "tfc:crafting/wood/planks/oak"
+  },
+  "recipes": {
+    "createch2:railway/locomotive/steam_assembly": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "railcraft:frame"
+      },
+      "transitional_item": {
+        "id": "railcraft:frame"
+      },
+      "loops": 1,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:solid_fueled_firebox"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "modern_industrialization:bronze_boiler"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:steel_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:standard_rail"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:controller_circuit"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:steel_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:track_parts"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:fluid_tank"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:mechanical_pump"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:controls"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "tfmg:lubrication_oil"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ],
+          "recipe_tier": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:steam_locomotive"
+        }
+      ]
+    },
+    "createch2:greate/tier_0/mechanical_pump": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        "SCS",
+        " W "
+      ],
+      "key": {
+        "G": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "W": {
+          "item": "create:fluid_pipe"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_pump",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SCS",
+        " L "
+      ],
+      "key": {
+        "S": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:fluid_pipe",
+        "count": 4
+      }
+    },
+    "createch2:create/pressing/copper_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:copper_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:age_foundation/create/andesite_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "AAA",
+        "ALA",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "tag": "minecraft:logs"
+        }
+      },
+      "result": {
+        "id": "create:andesite_casing",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/planks/oak"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:railway/locomotive/steam_assembly": "authored",
+    "createch2:greate/tier_0/mechanical_pump": "authored",
+    "createch2:age_foundation/create/fluid_pipe": "authored",
+    "createch2:create/pressing/copper_plate": "authored",
+    "createch2:age_foundation/create/andesite_casing": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored",
+    "tfc:crafting/wood/planks/oak": "native"
+  },
+  "nativeRows": {
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "bootstrap": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.AlmostUnifiedNeoForge",
+      true
+    ],
+    "commonV": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.core.CommonPlugin",
+      true
+    ],
+    "common": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.core.CommonPlugin"
+    ],
+    "registry": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.unification.recipe.RecipeUnifierRegistryImpl"
+    ],
+    "create": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.compat.unification.CreateRecipeUnifier"
+    ],
+    "generic": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.api.unification.bundled.GenericRecipeUnifier"
+    ],
+    "constants": [
+      "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "com.almostreliable.unified.api.constant.RecipeConstants"
+    ],
+    "removal": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.CreateRecipeRemoval"
+    ]
+  },
+  "nativeCodeSha256": {
+    "bootstrap": "6eea5b3fc010413944ba8fe9ba37f42ed11ad96ba648d766b3d68d4bcb45baac",
+    "commonV": "6fd146362f37734b6e29761831fa3bf762df980ded95d1e2fa42d34b4f35bdda",
+    "common": "f2c8851d58804da56977ae5614ca1717dda0d0decf18cfa583f9a05e659ab07a",
+    "registry": "1cbe09dcfaf670f4ce6f094d079fa0a13d2333d2d7a474cdfe3ff8c4ecc56bd9",
+    "create": "38d505ed696116c5621083ce560a544d7784cc64665570ff450e6a32d508f600",
+    "generic": "746000b90deb0c69b054696b9467558dfc4ff7f3711b570db805611a0e972dd5",
+    "constants": "c9c0812dc315bf303409dcb47f434df8c19cb02fa906f6642caacf17257c6832",
+    "removal": "d2fdbd4de9297398d4572a3ea6bd3d18281b34d4a755596d239bc67bf5c076dc"
+  },
+  "researchOwners": {
+    "createch2:railway/locomotive/steam_assembly": [
+      "LOG-03"
+    ],
+    "createch2:greate/tier_0/mechanical_pump": [
+      "MEC-02"
+    ],
+    "createch2:age_foundation/create/fluid_pipe": [],
+    "createch2:create/pressing/copper_plate": [],
+    "createch2:age_foundation/create/andesite_casing": [],
+    "createch2:greate/tier_0/cogwheel": [],
+    "tfc:crafting/wood/planks/oak": []
+  }
+}

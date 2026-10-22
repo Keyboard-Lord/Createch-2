@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:silver_dust"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "truth": "NATIVE_STARGATE_EARNED_KNOWLEDGE_PROVIDERS",
+  "resources": {
+    "kubejs/data/createch2/advancement/offworld_archaeology/unitas_extraction_records.json": {
+      "criteria": {
+        "unitas_survey": {
+          "trigger": "minecraft:changed_dimension",
+          "conditions": {
+            "to": "sgjourney:unitas"
+          }
+        }
+      },
+      "requirements": [
+        [
+          "unitas_survey"
+        ]
+      ],
+      "rewards": {
+        "loot": [
+          "createch2:offworld_archaeology/cavum_address"
+        ]
+      }
+    },
+    "kubejs/data/createch2/advancement/offworld_archaeology/milky_way_branch_convergence.json": {
+      "criteria": {
+        "rima_survey": {
+          "trigger": "minecraft:changed_dimension",
+          "conditions": {
+            "to": "sgjourney:rima"
+          }
+        },
+        "cavum_survey": {
+          "trigger": "minecraft:changed_dimension",
+          "conditions": {
+            "to": "sgjourney:cavum_tenebrae"
+          }
+        }
+      },
+      "requirements": [
+        [
+          "rima_survey"
+        ],
+        [
+          "cavum_survey"
+        ]
+      ],
+      "rewards": {
+        "loot": [
+          "createch2:offworld_archaeology/tollan_address"
+        ]
+      }
+    },
+    "kubejs/data/createch2/loot_table/offworld_archaeology/cavum_address.json": {
+      "type": "minecraft:advancement_reward",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "sgjourney:stone_cartouche",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:block_entity_data": "{id:\"sgjourney:stone_cartouche\",generation_step:0b,address:{dimension:\"sgjourney:cavum_tenebrae\",galaxy:\"sgjourney:milky_way\"},symbols:\"sgjourney:galaxy_milky_way\"}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kubejs/data/createch2/loot_table/offworld_archaeology/tollan_address.json": {
+      "type": "minecraft:advancement_reward",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "sgjourney:stone_cartouche",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:block_entity_data": "{id:\"sgjourney:stone_cartouche\",generation_step:0b,address:{dimension:\"sgjourney:tollan\",galaxy:\"sgjourney:milky_way\"},symbols:\"sgjourney:galaxy_milky_way\"}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "newAdvancementIds": [
+    "createch2:offworld_archaeology/unitas_extraction_records",
+    "createch2:offworld_archaeology/milky_way_branch_convergence"
+  ],
+  "newItemIds": [],
+  "existingIdsChanged": [],
+  "classes": {
+    "PlayerAdvancements": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.server.PlayerAdvancements",
+      "sha256": "30f45ade743ae55eadf76075035b839102767a2a5e61ce49607b0832771ceea0",
+      "terms": [
+        "AdvancementProgress.grantProgress:",
+        "AdvancementProgress.isDone:",
+        "AdvancementRewards.grant:"
+      ]
+    },
+    "AdvancementRequirements": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.advancements.AdvancementRequirements",
+      "sha256": "4adfe2e1fd358a53ee1cc53e56532b06ea473edc8da95fd518770cbd494cd1dc",
+      "terms": [
+        "public boolean test(",
+        "Method anyMatch:",
+        "iconst_0",
+        "iconst_1"
+      ]
+    },
+    "AdvancementProgress": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.advancements.AdvancementProgress",
+      "sha256": "c18ad77a7bb5df4f6b70478d2eb743770fec484a766794a9a0d6ce0f01407ea4",
+      "terms": [
+        "public boolean isDone();",
+        "AdvancementRequirements.test:"
+      ]
+    },
+    "AdvancementRewards": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.advancements.AdvancementRewards",
+      "sha256": "62952ed4c9f7dcaab1bd751ca2e04b157c8228d6559139f661286ac7ec46600f",
+      "terms": [
+        "LootContextParamSets.ADVANCEMENT_REWARD:",
+        "ReloadableServerRegistries$Holder.getLootTable:",
+        "LootTable.getRandomItems:",
+        "ServerPlayer.drop:"
+      ]
+    },
+    "ChangeDimensionTrigger$TriggerInstance": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance",
+      "sha256": "61751ce5b80f89184894d61884443208c506786fcbb1e3e18c996b4a5fbcf643",
+      "terms": [
+        "String to",
+        "public boolean matches(",
+        "java/util/Optional.isPresent:"
+      ]
+    },
+    "SetComponentsFunction": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.level.storage.loot.functions.SetComponentsFunction",
+      "sha256": "f62785583c2468b9deda2998b37263b4f5a9a6b11fddded6631cb7f0f80c3848",
+      "terms": [
+        "DataComponentPatch.CODEC:",
+        "String components",
+        "ItemStack.applyComponentsAndValidate:"
+      ]
+    },
+    "CustomData": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.item.component.CustomData",
+      "sha256": "ba08d24c19467b02b7d1babd0d4da01aac990057faac9d6a8d7c869c0e268931",
+      "terms": [
+        "TagParser.AS_CODEC:",
+        "Codec.withAlternative:",
+        "Field CODEC_WITH_ID:"
+      ]
+    },
+    "DataComponents": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.core.component.DataComponents",
+      "sha256": "e7905f46e1501b231fc857515fe1c2cf6add3fcdb2bfb8d434f63ef7763da540",
+      "terms": [
+        "String block_entity_data",
+        "CustomData.CODEC_WITH_ID:",
+        "Field BLOCK_ENTITY_DATA:"
+      ]
+    },
+    "LootItem": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.level.storage.loot.entries.LootItem",
+      "sha256": "e0d1b7228a1af7bd27c7f24dcb7ec68b2b70d0f150cb3028e4b8c76fa52f4877",
+      "terms": [
+        "public void createItemStack(",
+        "class net/minecraft/world/item/ItemStack"
+      ]
+    },
+    "BlockEntity": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.level.block.entity.BlockEntity",
+      "sha256": "a718e3a3eaf31ef46e46f3f32c0f3e037e98f236d89e8bab327eca845253b174",
+      "terms": [
+        "public boolean onlyOpCanSetNbt();"
+      ]
+    },
+    "CartoucheBlockItem": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.items.blocks.CartoucheBlockItem",
+      "sha256": "11e95dead0e4c928f6cb08c02d5eb34ff347d60c579b70b93e1b10b52eec09ef",
+      "terms": [
+        "DataComponents.BLOCK_ENTITY_DATA:",
+        "Method setupBlockEntity:",
+        "Address$Dimension.loadFromCompoundTag:",
+        "CartoucheBlockEntity.tryGenerateAddress:",
+        "CartoucheBlockEntity.setSymbols:"
+      ]
+    },
+    "CartoucheBlockEntity": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.block_entities.CartoucheBlockEntity",
+      "sha256": "054134be134e093d0a62389c1558c8fdfdb408c87bbe33a17930bdbd11b31cf6",
+      "terms": [
+        "Address$Dimension.generate:",
+        "public boolean tryGenerateAddress();",
+        "Method updateUpperHalf:"
+      ]
+    },
+    "CartoucheBlock": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.blocks.CartoucheBlock",
+      "sha256": "22dfe4e92e0bab217a7c5a40f661066873204646cc87d91a83c1d50e4d2ebc8a",
+      "terms": [
+        "Player.hasCorrectToolForDrops:",
+        "BlockEntity.saveToItem:",
+        "Level.addFreshEntity:"
+      ]
+    },
+    "Address$Dimension": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.sgjourney.Address$Dimension",
+      "sha256": "bf954fb3c6f5aa45a5627329907955df7f303a2115948bfa16953f726bf528d8",
+      "terms": [
+        "String dimension",
+        "String galaxy",
+        "ADDRESS_7_CHEVRON:",
+        "public boolean generate(",
+        "Method generateAddress:"
+      ]
+    },
+    "StructureGenEntity$Step": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.block_entities.StructureGenEntity$Step",
+      "sha256": "522378e345b22f254a40ae6e9c52e2bfe34d70bdff3077b8ea638398f76740f0",
+      "terms": [
+        "String GENERATED",
+        "String READY",
+        "String SETUP"
+      ]
+    },
+    "SpaceLocation": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.sgjourney.SpaceLocation",
+      "sha256": "bc6815af97982bf00dd7fc37b1745945f78070f0b4002c7bdf93291b716ca020",
+      "terms": [
+        "String generate_in_address_tables",
+        "Codec.optionalFieldOf:"
+      ]
+    },
+    "AddressTable": {
+      "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+      "class": "net.povstalec.sgjourney.common.sgjourney.AddressTable",
+      "sha256": "9970a3547afb767b2d5b50de9291385722bafb65c6a2196aceaba8c8d5b12043",
+      "terms": [
+        "Universe.getDimensionsAddedToAddressTables:",
+        "Method includeGeneratedAddresses:"
+      ]
+    }
+  },
+  "nativeJar": "Stargate.Journey-1.21.1-0.6.52.jar",
+  "providerReview": {
+    "previousJar": "Stargate.Journey-1.21.1-0.6.51.jar",
+    "currentJar": "Stargate.Journey-1.21.1-0.6.52.jar",
+    "sixCartoucheAddressBindingsBytecodeIdentical": true,
+    "spaceLocationPreviousCodeSha256": "3a29bd0b57deabc878d1aeb1923ef603731af5fbb8d98c8b5482f4316d585c78",
+    "spaceLocationChange": "defaultSpaceLocation for unconfigured dimensions now enables address tables. The registered resource CODEC default remains false, and the four campaign destinations use registered resources.",
+    "noLootAdvancementOrCartoucheDataChangeRequired": true
+  }
+}

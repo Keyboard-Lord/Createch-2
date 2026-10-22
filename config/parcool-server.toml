@@ -1,0 +1,480 @@
+		[action.parcool.grapple]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			learn_cost = 0
+
+		[action.parcool.wall_jump]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 5
+			need_learning = true
+
+		[action.parcool.ride_zipline]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			cost_working = 2
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			learn_cost = 5
+
+		[action.parcool.wall_run]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 5
+			need_learning = true
+
+		[action.parcool.fast_run]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			cost_working = 2
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 1
+			# Range: 0 ~ 32767
+			learn_cost = 1
+			need_learning = true
+
+		[action.parcool.vault]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 5
+			need_learning = true
+
+		[action.parcool.horizontal_wall_run]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			cost_working = 3
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 5
+			# Range: 0 ~ 32767
+			learn_cost = 7
+			need_learning = true
+
+		[action.parcool.fast_swim]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			cost_working = 2
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			learn_cost = 3
+			need_learning = true
+
+		[action.parcool.long_jump]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 5
+			need_learning = true
+
+		[action.parcool.dive]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			learn_cost = 3
+			need_learning = true
+
+		[action.parcool.skydive]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 5
+			need_learning = true
+
+		[action.parcool.trick_jump]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 2
+			# Range: 0 ~ 32767
+			learn_cost = 3
+			need_learning = true
+
+		[action.parcool.hide_in_block]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 4
+			# Range: 0 ~ 32767
+			learn_cost = 8
+			need_learning = true
+
+		[action.parcool.crawl]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 1
+			# Range: 0 ~ 32767
+			learn_cost = 1
+			need_learning = true
+
+		[action.parcool.slide]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 5
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+		[action.parcool.hang_on]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			cost_working = 3
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 1
+			# Range: 0 ~ 32767
+			learn_cost = 1
+			need_learning = true
+
+		[action.parcool.climb_up]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 5
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+		[action.parcool.castaway]
+			available = true
+			# Default: 20
+			# Range: 0 ~ 32767
+			cost_start = 20
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 3
+			need_learning = true
+
+		[action.parcool.hang_down]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 4
+			# Range: 0 ~ 32767
+			learn_cost = 8
+			need_learning = true
+
+		[action.parcool.pole_climb]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 1
+			# Range: 0 ~ 32767
+			cost_working = 1
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+		[action.parcool.slide_down]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 1
+			# Range: 0 ~ 32767
+			cost_working = 1
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+		[action.parcool.dodge]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 6
+			# Range: 0 ~ 32767
+			learn_cost = 12
+			need_learning = true
+
+		[action.parcool.breakfall]
+			available = true
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_start = 50
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_finish = 0
+			# Default: 4
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+		[action.parcool.charge_jump]
+			available = true
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_start = 0
+			# Default: 0
+			# Range: 0 ~ 32767
+			cost_working = 0
+			# Default: 50
+			# Range: 0 ~ 32767
+			cost_finish = 50
+			# Default: 3
+			# Range: 0 ~ 32767
+			learn_cost = 10
+			need_learning = true
+
+[game]
+	#Enable Skilltree, if disabled all actions are available without learning
+	enable_skill_tree = true
+	#Enable Skilltree Gui, if disabled the skilltree ui is redirected into other ui
+	enable_skill_tree_ui = true
+	#Whether you take damage when you use some actions like WallSlide without traceur's gloves
+	damage_without_glove = true
+
+[grappling_hook]
+	#max reach in blocks
+	# Default: 48.0
+	# Range: 8.0 ~ 128.0
+	max_range = 48.0
+	#how fast the thrown hook flies
+	# Default: 4.0
+	# Range: 1.0 ~ 24.0
+	hook_travel_speed = 4.0
+	#shortest the rope can get
+	# Default: 1.5
+	# Range: 0.5 ~ 8.0
+	min_rope_length = 1.5
+	#rope let out per tick while sneaking
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	reel_out_speed = 0.35
+	#steering force while swinging. gravity is 0.08
+	# Default: 0.012
+	# Range: 0.0 ~ 0.16
+	swing_control_force = 0.012
+	#how much steering pumps the swing. 0 for a plain pendulum
+	# Default: 0.35
+	# Range: 0.0 ~ 2.0
+	swing_assist = 0.35
+	#raise this if a swing wobbles for too long
+	# Default: 0.015
+	# Range: 0.0 ~ 0.3
+	swing_damping = 0.015
+	#drag at speed. raise for a heavier swing
+	# Default: 0.013
+	# Range: 0.0 ~ 0.1
+	air_resistance = 0.013
+	#speed limit while swinging
+	# Default: 1.6
+	# Range: 0.5 ~ 5.0
+	max_speed = 1.6
+	#flat speed kept per tick
+	# Default: 0.997
+	# Range: 0.9 ~ 1.0
+	rope_drag = 0.997
+	#how much the rope stretches. 0 for none
+	# Default: 5.0E-4
+	# Range: 0.0 ~ 0.05
+	rope_compliance = 5.0E-4
+	#upward boost when letting go with jump. a jump is 0.42
+	# Default: 0.36
+	# Range: 0.0 ~ 1.5
+	release_boost = 0.36
+	#ticks of momentum kept after letting go. 0 disables
+	# Default: 30
+	# Range: 0 ~ 200
+	momentum_keep_ticks = 30
+	#speed kept per tick during that. vanilla air is 0.91
+	# Default: 0.98
+	# Range: 0.9 ~ 1.0
+	momentum_drag = 0.98
+	#aim assist cone in degrees. 0 disables
+	# Default: 14
+	# Range: 0 ~ 45
+	aim_assist_angle = 14
+	#physics steps per tick
+	# Default: 6
+	# Range: 1 ~ 12
+	physics_substeps = 6
+	#let the rope bend around corners
+	allow_rope_wrapping = true
+	#max corners one rope can wrap around
+	# Default: 40
+	# Range: 0 ~ 64
+	max_rope_bends = 40
+	#load before the hook tears off. 0 never breaks
+	# Default: 26.0
+	# Range: 0.0 ~ 200.0
+	max_tension = 26.0
+	#pull force while holding use. gravity is 0.08
+	# Default: 0.12
+	# Range: 0.0 ~ 2.0
+	pull_strength = 0.12
+	#fastest the rope reels you in, in blocks per tick
+	# Default: 0.75
+	# Range: 0.05 ~ 4.0
+	pull_speed_limit = 0.75
+
+[stamina]
+	#Available Types :
+	#- [parcool:hunger]
+	#- [parcool:none]
+	#- [parcool:parcool]
+	stamina_type = "parcool:parcool"

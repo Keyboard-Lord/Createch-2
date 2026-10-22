@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/thorium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/thorium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/thorium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/thorium",
+      "required": false
+    }
+  ]
+}

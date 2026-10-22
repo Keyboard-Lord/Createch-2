@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:physical_screws/bronze"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_items:handful_bronze_screws"
+  }
+}

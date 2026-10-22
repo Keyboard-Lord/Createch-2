@@ -1,0 +1,30 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:vinyl_chloride_monomer"
+    },
+    {
+      "item": "chemica:copper_catalyst"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:polyvinyl_chloride"
+    },
+    {
+      "id": "chemica:copper_catalyst"
+    }
+  ],
+  "processing_time": 400,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

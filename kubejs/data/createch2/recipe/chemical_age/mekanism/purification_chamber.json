@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APA",
+    "CHC",
+    "ATA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/aluminum"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  },
+  "result": {
+    "id": "mekanism:purification_chamber",
+    "count": 1
+  }
+}

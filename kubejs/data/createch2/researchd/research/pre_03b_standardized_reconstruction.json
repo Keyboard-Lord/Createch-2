@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mbtool:mbtool"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:computational_models",
+      "createch2:logistics_reports",
+      "createch2:process_samples"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:che_05b_precision_beneficiation",
+    "createch2:ele_04_high_energy_grid",
+    "createch2:com_04_digital_fabrication",
+    "createch2:log_03_locomotive_systems"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_03b_standardized_reconstruction.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_03b_standardized_reconstruction.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:construction/age_10/multibuilder_tool"
+    ]
+  }
+}

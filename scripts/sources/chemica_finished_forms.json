@@ -1,0 +1,1293 @@
+{
+  "schema": 1,
+  "canonical": {
+    "chemica:antimony_dust": "modern_industrialization:antimony_dust",
+    "chemica:antimony_ingot": "modern_industrialization:antimony_ingot",
+    "chemica:antimony_nugget": "modern_industrialization:antimony_nugget",
+    "chemica:chromium_dust": "modern_industrialization:chromium_dust",
+    "chemica:chromium_ingot": "modern_industrialization:chromium_ingot",
+    "chemica:chromium_nugget": "modern_industrialization:chromium_nugget",
+    "chemica:cobalt_dust": "gtceu:cobalt_dust",
+    "chemica:cobalt_ingot": "gtceu:cobalt_ingot",
+    "chemica:cobalt_nugget": "gtceu:cobalt_nugget",
+    "chemica:iridium_dust": "modern_industrialization:iridium_dust",
+    "chemica:iridium_ingot": "modern_industrialization:iridium_ingot",
+    "chemica:iridium_nugget": "modern_industrialization:iridium_nugget",
+    "chemica:iridium_sheet": "modern_industrialization:iridium_plate",
+    "chemica:platinum_dust": "modern_industrialization:platinum_dust",
+    "chemica:platinum_ingot": "modern_industrialization:platinum_ingot",
+    "chemica:platinum_nugget": "modern_industrialization:platinum_nugget",
+    "chemica:silver_dust": "modern_industrialization:silver_dust",
+    "chemica:silver_ingot": "tfc:metal/ingot/silver",
+    "chemica:silver_nugget": "modern_industrialization:silver_nugget",
+    "chemica:silver_sheet": "modern_industrialization:silver_plate",
+    "chemica:sodium_dust": "modern_industrialization:sodium_dust",
+    "chemica:tin_dust": "modern_industrialization:tin_dust",
+    "chemica:tin_ingot": "tfc:metal/ingot/tin",
+    "chemica:tin_nugget": "modern_industrialization:tin_nugget",
+    "chemica:tin_sheet": "modern_industrialization:tin_plate",
+    "chemica:titanium_dust": "modern_industrialization:titanium_dust",
+    "chemica:titanium_ingot": "modern_industrialization:titanium_ingot",
+    "chemica:titanium_nugget": "modern_industrialization:titanium_nugget",
+    "chemica:titanium_sheet": "modern_industrialization:titanium_plate",
+    "chemica:tungsten_dust": "modern_industrialization:tungsten_dust",
+    "chemica:tungsten_ingot": "modern_industrialization:tungsten_ingot",
+    "chemica:tungsten_nugget": "modern_industrialization:tungsten_nugget",
+    "chemica:vanadium_dust": "gtceu:vanadium_dust",
+    "chemica:vanadium_ingot": "gtceu:vanadium_ingot",
+    "chemica:vanadium_nugget": "gtceu:vanadium_nugget",
+    "chemica:molybdenum_ingot": "gtceu:molybdenum_ingot"
+  },
+  "routes": [
+    {
+      "recipe": "chemica:blasting/chromium_dust",
+      "original": {
+        "type": "minecraft:blasting",
+        "category": "misc",
+        "experience": 0,
+        "cookingtime": 100,
+        "ingredient": {
+          "tag": "c:dusts/chromium"
+        },
+        "result": {
+          "id": "chemica:chromium_ingot"
+        }
+      },
+      "edits": [
+        {
+          "path": "/result/id",
+          "from": "chemica:chromium_ingot",
+          "to": "modern_industrialization:chromium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:blasting/crushed_raw_cobalt",
+      "original": {
+        "type": "minecraft:blasting",
+        "category": "misc",
+        "experience": 0,
+        "cookingtime": 100,
+        "ingredient": {
+          "item": "chemica:crushed_raw_cobalt"
+        },
+        "result": {
+          "id": "chemica:cobalt_ingot"
+        }
+      },
+      "edits": [
+        {
+          "path": "/result/id",
+          "from": "chemica:cobalt_ingot",
+          "to": "gtceu:cobalt_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:blasting/iridium_dust",
+      "original": {
+        "type": "minecraft:blasting",
+        "category": "misc",
+        "experience": 0,
+        "cookingtime": 100,
+        "ingredient": {
+          "tag": "c:dusts/iridium"
+        },
+        "result": {
+          "id": "chemica:iridium_ingot"
+        }
+      },
+      "edits": [
+        {
+          "path": "/result/id",
+          "from": "chemica:iridium_ingot",
+          "to": "modern_industrialization:iridium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:casting/molten_titanium",
+      "original": {
+        "type": "tfmg:casting",
+        "ingredients": [
+          {
+            "type": "neoforge:single",
+            "amount": 144,
+            "fluid": "chemica:molten_titanium"
+          }
+        ],
+        "processing_time": 100,
+        "results": [
+          {
+            "id": "chemica:titanium_ingot"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:titanium_ingot",
+          "to": "modern_industrialization:titanium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:compacting/chromium_dust",
+      "original": {
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [
+          {
+            "tag": "c:dusts/chromium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:chromium_ingot"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:chromium_ingot",
+          "to": "modern_industrialization:chromium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/antimony_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/antimony"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:antimony_dust"
+          }
+        ],
+        "processing_time": 100
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:antimony_dust",
+          "to": "modern_industrialization:antimony_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/chromium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/chromium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:chromium_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:chromium_dust",
+          "to": "modern_industrialization:chromium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/cobalt_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/cobalt"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:cobalt_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:cobalt_dust",
+          "to": "gtceu:cobalt_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/iridium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/iridium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:iridium_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:iridium_dust",
+          "to": "modern_industrialization:iridium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/platinum_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/platinum"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:platinum_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:platinum_dust",
+          "to": "modern_industrialization:platinum_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/silver_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/silver"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:silver_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:silver_dust",
+          "to": "modern_industrialization:silver_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/sodium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "item": "chemica:sodium_ingot"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:sodium_dust"
+          }
+        ],
+        "processing_time": 100
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:sodium_dust",
+          "to": "modern_industrialization:sodium_dust"
+        },
+        {
+          "path": "/ingredients/0",
+          "from": {
+            "item": "chemica:sodium_ingot"
+          },
+          "to": {
+            "tag": "c:ingots/sodium"
+          }
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/tin_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/tin"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:tin_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tin_dust",
+          "to": "modern_industrialization:tin_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/titanium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/titanium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:titanium_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:titanium_dust",
+          "to": "modern_industrialization:titanium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/vanadium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/vanadium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:vanadium_dust"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:vanadium_dust",
+          "to": "gtceu:vanadium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/zelosite",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "item": "chemica:zelosite"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:tantalum_nugget",
+            "count": 3,
+            "chance": 0.21
+          },
+          {
+            "id": "chemica:iridium_dust",
+            "chance": 0.17
+          },
+          {
+            "id": "minecraft:netherite_scrap",
+            "chance": 0.02
+          }
+        ],
+        "processing_time": 400
+      },
+      "edits": [
+        {
+          "path": "/results/1/id",
+          "from": "chemica:iridium_dust",
+          "to": "modern_industrialization:iridium_dust"
+        },
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tantalum_nugget",
+          "to": "gtceu:tantalum_nugget"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:pressing/iridium_sheet",
+      "original": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/iridium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:iridium_sheet"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:iridium_sheet",
+          "to": "modern_industrialization:iridium_plate"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:pressing/silver_sheet",
+      "original": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/silver"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:silver_sheet"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:silver_sheet",
+          "to": "modern_industrialization:silver_plate"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:pressing/tin_sheet",
+      "original": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/tin"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:tin_sheet"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tin_sheet",
+          "to": "modern_industrialization:tin_plate"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:pressing/titanium_sheet",
+      "original": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/titanium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:titanium_sheet"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:titanium_sheet",
+          "to": "modern_industrialization:titanium_plate"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:smelting/chromium_dust",
+      "original": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "experience": 1,
+        "cookingtime": 200,
+        "ingredient": {
+          "tag": "c:dusts/chromium"
+        },
+        "result": {
+          "id": "chemica:chromium_ingot"
+        }
+      },
+      "edits": [
+        {
+          "path": "/result/id",
+          "from": "chemica:chromium_ingot",
+          "to": "modern_industrialization:chromium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_tungsten",
+      "original": {
+        "type": "tfmg:vat_machine_recipe",
+        "allowed_vat_types": [
+          "tfmg:fireproof"
+        ],
+        "ingredients": [
+          {
+            "item": "chemica:raw_tungsten"
+          },
+          {
+            "item": "tfmg:coal_coke_dust"
+          }
+        ],
+        "machines": [
+          "tfmg:graphite_electrode",
+          "tfmg:graphite_electrode",
+          "tfmg:graphite_electrode"
+        ],
+        "min_size": 6,
+        "processing_time": 20,
+        "results": [
+          {
+            "chance": 0.9,
+            "id": "tfmg:coal_coke_dust"
+          },
+          {
+            "id": "chemica:tungsten_dust"
+          },
+          {
+            "amount": 64,
+            "id": "tfmg:molten_slag"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/1/id",
+          "from": "chemica:tungsten_dust",
+          "to": "modern_industrialization:tungsten_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_tungsten_hexafluoride",
+      "original": {
+        "type": "tfmg:vat_machine_recipe",
+        "ingredients": [
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "chemica:tungsten_hexafluoride"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "tfmg:hydrogen"
+          }
+        ],
+        "machines": [
+          "tfmg:graphite_electrode",
+          "tfmg:graphite_electrode",
+          "tfmg:graphite_electrode"
+        ],
+        "results": [
+          {
+            "id": "chemica:tungsten_ingot"
+          },
+          {
+            "amount": 100,
+            "id": "chemica:hydrofluoric_acid"
+          }
+        ],
+        "processing_time": 20,
+        "allowed_vat_types": [
+          "tfmg:fireproof"
+        ],
+        "min_size": 6
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tungsten_ingot",
+          "to": "modern_industrialization:tungsten_ingot"
+        },
+        {
+          "path": "/ingredients/0/amount",
+          "from": 250,
+          "to": 1000,
+          "reason": "One 100-unit tungsten dust produces 1000 mB of this intermediate. Returning one 100-unit ingot from 250 mB creates a fourfold material-positive loop."
+        }
+      ],
+      "materialUnitReview": {
+        "material": "tungsten",
+        "metalUnitsPerDust": 100,
+        "metalUnitsPerIngot": 100,
+        "fluid": "chemica:tungsten_hexafluoride",
+        "fluidAmountPerDust": 1000,
+        "producer": "chemica:vat_machine_recipe/mixing/tungsten_hexafluoride",
+        "maximumMetalRecovery": 1
+      }
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/salt",
+      "original": {
+        "type": "tfmg:vat_machine_recipe",
+        "ingredients": [
+          {
+            "type": "neoforge:tag",
+            "amount": 1000,
+            "tag": "tfc:any_fresh_water"
+          },
+          {
+            "tag": "createch2:chemical_salt"
+          },
+          {
+            "tag": "createch2:chemical_salt"
+          },
+          {
+            "tag": "createch2:chemical_salt"
+          },
+          {
+            "tag": "createch2:chemical_salt"
+          }
+        ],
+        "machines": [
+          "tfmg:electrode",
+          "tfmg:electrode"
+        ],
+        "results": [
+          {
+            "id": "chemica:sodium_ingot"
+          },
+          {
+            "chance": 0.3,
+            "id": "chemica:sodium_dust"
+          },
+          {
+            "amount": 100,
+            "id": "minecraft:water"
+          },
+          {
+            "amount": 350,
+            "id": "chemica:chlorine"
+          }
+        ],
+        "processing_time": 100,
+        "allowed_vat_types": [
+          "tfmg:cast_iron",
+          "tfmg:steel",
+          "tfmg:fireproof"
+        ],
+        "min_size": 1,
+        "heat_level": 1
+      },
+      "edits": [
+        {
+          "path": "/results/1/id",
+          "from": "chemica:sodium_dust",
+          "to": "modern_industrialization:sodium_dust"
+        },
+        {
+          "path": "/results/0/id",
+          "from": "chemica:sodium_ingot",
+          "to": "chemlib:sodium_ingot"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_persulfate",
+      "original": {
+        "type": "tfmg:vat_machine_recipe",
+        "ingredients": [
+          {
+            "item": "chemica:sodium_persulfate"
+          }
+        ],
+        "machines": [
+          "tfmg:electrode",
+          "tfmg:electrode"
+        ],
+        "results": [
+          {
+            "amount": 150,
+            "id": "chemica:oxygen"
+          },
+          {
+            "id": "chemica:sodium_dust"
+          },
+          {
+            "id": "tfmg:sulfur_dust"
+          }
+        ],
+        "processing_time": 100,
+        "allowed_vat_types": [
+          "tfmg:steel",
+          "tfmg:fireproof"
+        ],
+        "min_size": 1,
+        "heat_level": 1
+      },
+      "edits": [
+        {
+          "path": "/results/1/id",
+          "from": "chemica:sodium_dust",
+          "to": "modern_industrialization:sodium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_dust",
+      "original": {
+        "type": "tfmg:vat_machine_recipe",
+        "ingredients": [
+          {
+            "type": "neoforge:single",
+            "amount": 500,
+            "fluid": "chemica:titanium_tetrachloride"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 150,
+            "fluid": "chemica:argon"
+          },
+          {
+            "tag": "c:ingots/magnesium"
+          }
+        ],
+        "machines": [],
+        "results": [
+          {
+            "count": 4,
+            "id": "chemica:titanium_dust"
+          },
+          {
+            "id": "chemica:magnesium_dust"
+          }
+        ],
+        "processing_time": 400,
+        "allowed_vat_types": [
+          "tfmg:steel",
+          "tfmg:fireproof"
+        ],
+        "min_size": 1
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:titanium_dust",
+          "to": "modern_industrialization:titanium_dust"
+        },
+        {
+          "path": "/results/1/id",
+          "from": "chemica:magnesium_dust",
+          "to": "gtceu:magnesium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:blasting/magnesium_dust",
+      "original": {
+        "type": "minecraft:blasting",
+        "category": "misc",
+        "experience": 0,
+        "cookingtime": 100,
+        "ingredient": {
+          "tag": "c:dusts/magnesium"
+        },
+        "result": {
+          "id": "chemica:magnesium_ingot"
+        }
+      },
+      "edits": [
+        {
+          "path": "/result/id",
+          "from": "chemica:magnesium_ingot",
+          "to": "tfc_metallurgy:metal/ingot/magnesium"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/ferosite",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "item": "chemica:fervorite"
+          }
+        ],
+        "results": [
+          {
+            "chance": 0.3,
+            "count": 2,
+            "id": "chemica:magnesium_dust"
+          },
+          {
+            "id": "tfmg:sulfur_dust",
+            "chance": 0.2
+          }
+        ],
+        "processing_time": 250
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:magnesium_dust",
+          "to": "gtceu:magnesium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/magnesium_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "tag": "c:ingots/magnesium"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:magnesium_dust"
+          }
+        ],
+        "processing_time": 100
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:magnesium_dust",
+          "to": "gtceu:magnesium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:crushing/tantalum_ingot",
+      "original": {
+        "type": "create:crushing",
+        "ingredients": [
+          {
+            "item": "chemica:tantalum_ingot"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:tantalum_dust"
+          }
+        ],
+        "processing_time": 100
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tantalum_dust",
+          "to": "gtceu:tantalum_dust"
+        },
+        {
+          "path": "/ingredients/0",
+          "from": {
+            "item": "chemica:tantalum_ingot"
+          },
+          "to": {
+            "tag": "c:ingots/tantalum"
+          }
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:pressing/tantalum_sheet",
+      "original": {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "chemica:tantalum_ingot"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:tantalum_sheet"
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:tantalum_sheet",
+          "to": "gtceu:tantalum_plate"
+        },
+        {
+          "path": "/ingredients/0",
+          "from": {
+            "item": "chemica:tantalum_ingot"
+          },
+          "to": {
+            "tag": "c:ingots/tantalum"
+          }
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:mixing/graphite_flake",
+      "original": {
+        "type": "create:mixing",
+        "ingredients": [
+          {
+            "item": "chemica:purified_graphite_flakes"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "chemica:sucrose_solution"
+          }
+        ],
+        "results": [
+          {
+            "id": "chemica:graphite_ingot"
+          },
+          {
+            "id": "chemica:graphite_ingot",
+            "chance": 0.15
+          }
+        ]
+      },
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:graphite_ingot",
+          "to": "tfc_metallurgy:metal/ingot/graphite"
+        },
+        {
+          "path": "/results/1/id",
+          "from": "chemica:graphite_ingot",
+          "to": "tfc_metallurgy:metal/ingot/graphite"
+        }
+      ]
+    },
+    {
+      "recipe": "chemica:sequenced_assembly/unfinished_tantalum_capacitor",
+      "original": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "chemica:tantalum_sheet"
+        },
+        "loops": 1,
+        "results": [
+          {
+            "id": "chemica:tantalum_capacitor_item",
+            "count": 4
+          }
+        ],
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "chemica:unfinished_tantalum_capacitor"
+              },
+              {
+                "tag": "c:plates/copper"
+              }
+            ],
+            "results": [
+              {
+                "id": "chemica:unfinished_tantalum_capacitor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "chemica:unfinished_tantalum_capacitor"
+              },
+              {
+                "item": "chemica:conductive_paste"
+              }
+            ],
+            "results": [
+              {
+                "id": "chemica:unfinished_tantalum_capacitor"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "chemica:unfinished_tantalum_capacitor"
+              },
+              {
+                "tag": "c:plates/copper"
+              }
+            ],
+            "results": [
+              {
+                "id": "chemica:unfinished_tantalum_capacitor"
+              }
+            ]
+          }
+        ],
+        "transitional_item": {
+          "id": "chemica:unfinished_tantalum_capacitor"
+        }
+      },
+      "edits": [
+        {
+          "path": "/ingredient",
+          "from": {
+            "item": "chemica:tantalum_sheet"
+          },
+          "to": {
+            "tag": "c:plates/tantalum"
+          }
+        }
+      ]
+    }
+  ],
+  "scriptChanges": [
+    {
+      "from": "chemica:vanadium_dust",
+      "to": "gtceu:vanadium_dust"
+    },
+    {
+      "from": "chemica:molybdenum_ingot",
+      "to": "gtceu:molybdenum_ingot"
+    }
+  ],
+  "sourceFollowUp": "Historical upstream generator remains absent. The existing reviewed route originals/edits now drive a checked local artifact generator; future upstream regeneration must import this output and material-unit policy.",
+  "runtimeRoutes": [
+    {
+      "recipe": "createch2:chemica/feedstock/vanadium_magnetite_wet_separation",
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:vanadium_dust",
+          "to": "gtceu:vanadium_dust"
+        }
+      ]
+    },
+    {
+      "recipe": "createch2:chemica/feedstock/molybdenite_wet_separation",
+      "edits": [
+        {
+          "path": "/results/0/id",
+          "from": "chemica:molybdenum_ingot",
+          "to": "gtceu:molybdenum_ingot"
+        }
+      ]
+    }
+  ],
+  "generator": "createch-dev/scripts/generate_chemica_finished_forms.mjs",
+  "presentation": {
+    "original": {
+      "hidden_items": [
+        "chemica:antimony_dust",
+        "chemica:antimony_ingot",
+        "chemica:antimony_nugget",
+        "chemica:chromium_dust",
+        "chemica:chromium_ingot",
+        "chemica:chromium_nugget",
+        "chemica:cobalt_dust",
+        "chemica:cobalt_ingot",
+        "chemica:cobalt_nugget",
+        "chemica:crushed_raw_antimony",
+        "chemica:crushed_raw_chromium",
+        "chemica:crushed_raw_cobalt",
+        "chemica:crushed_raw_vanadium",
+        "chemica:deepslate_antimony_ore",
+        "chemica:deepslate_chromite_ore",
+        "chemica:deepslate_cobalt_ore",
+        "chemica:deepslate_fluorite_ore",
+        "chemica:deepslate_graphite_ore",
+        "chemica:deepslate_molybdenum_ore",
+        "chemica:deepslate_phosphorus_ore",
+        "chemica:deepslate_platinum_ore",
+        "chemica:deepslate_rutile_ore",
+        "chemica:deepslate_silver_ore",
+        "chemica:deepslate_tin_ore",
+        "chemica:deepslate_vanadium_ore",
+        "chemica:deepslate_wolframite_ore",
+        "chemica:graphite_ingot",
+        "chemica:graphite_nugget",
+        "chemica:graphite_sheet",
+        "chemica:iridium_dust",
+        "chemica:iridium_ingot",
+        "chemica:iridium_nugget",
+        "chemica:iridium_sheet",
+        "chemica:magnesium_dust",
+        "chemica:magnesium_ingot",
+        "chemica:magnesium_nugget",
+        "chemica:magnesium_sheet",
+        "chemica:molybdenum_ingot",
+        "chemica:molybdenum_nugget",
+        "chemica:phosphorus_ore",
+        "chemica:platinum_dust",
+        "chemica:platinum_ingot",
+        "chemica:platinum_nugget",
+        "chemica:raw_antimony",
+        "chemica:raw_chromite",
+        "chemica:raw_cobalt",
+        "chemica:raw_molybdenum",
+        "chemica:raw_platinum",
+        "chemica:raw_platinum_block",
+        "chemica:raw_silver",
+        "chemica:raw_tin",
+        "chemica:raw_tungsten",
+        "chemica:raw_vanadium",
+        "chemica:silver_dust",
+        "chemica:silver_ingot",
+        "chemica:silver_nugget",
+        "chemica:silver_sheet",
+        "chemica:sodium_dust",
+        "chemica:sodium_ingot",
+        "chemica:tantalum_dust",
+        "chemica:tantalum_ingot",
+        "chemica:tantalum_nugget",
+        "chemica:tantalum_sheet",
+        "chemica:tin_dust",
+        "chemica:tin_ingot",
+        "chemica:tin_nugget",
+        "chemica:tin_ore",
+        "chemica:tin_sheet",
+        "chemica:titanium_dust",
+        "chemica:titanium_ingot",
+        "chemica:titanium_nugget",
+        "chemica:titanium_sheet",
+        "chemica:tungsten_dust",
+        "chemica:tungsten_ingot",
+        "chemica:tungsten_nugget",
+        "chemica:vanadium_dust",
+        "chemica:vanadium_ingot",
+        "chemica:vanadium_nugget"
+      ],
+      "hidden_fluids": [
+        "chemica:steam"
+      ],
+      "runtime_only_items": [
+        "chemica:biodiesel_engine_cylinder",
+        "chemica:ethanol_engine_cylinder",
+        "chemica:high_cetane_engine_cylinder",
+        "chemica:high_octane_engine_cylinder",
+        "chemica:hydrogen_turbine_blade"
+      ]
+    },
+    "data": {
+      "hidden_items": [
+        "chemica:antimony_dust",
+        "chemica:antimony_ingot",
+        "chemica:antimony_nugget",
+        "chemica:chromium_dust",
+        "chemica:chromium_ingot",
+        "chemica:chromium_nugget",
+        "chemica:cobalt_dust",
+        "chemica:cobalt_ingot",
+        "chemica:cobalt_nugget",
+        "chemica:crushed_raw_antimony",
+        "chemica:crushed_raw_chromium",
+        "chemica:crushed_raw_cobalt",
+        "chemica:crushed_raw_vanadium",
+        "chemica:deepslate_antimony_ore",
+        "chemica:deepslate_chromite_ore",
+        "chemica:deepslate_cobalt_ore",
+        "chemica:deepslate_fluorite_ore",
+        "chemica:deepslate_graphite_ore",
+        "chemica:deepslate_molybdenum_ore",
+        "chemica:deepslate_phosphorus_ore",
+        "chemica:deepslate_platinum_ore",
+        "chemica:deepslate_rutile_ore",
+        "chemica:deepslate_silver_ore",
+        "chemica:deepslate_tin_ore",
+        "chemica:deepslate_vanadium_ore",
+        "chemica:deepslate_wolframite_ore",
+        "chemica:graphite_ingot",
+        "chemica:graphite_nugget",
+        "chemica:iridium_dust",
+        "chemica:iridium_ingot",
+        "chemica:iridium_nugget",
+        "chemica:iridium_sheet",
+        "chemica:magnesium_dust",
+        "chemica:magnesium_ingot",
+        "chemica:magnesium_nugget",
+        "chemica:molybdenum_ingot",
+        "chemica:molybdenum_nugget",
+        "chemica:phosphorus_ore",
+        "chemica:platinum_dust",
+        "chemica:platinum_ingot",
+        "chemica:platinum_nugget",
+        "chemica:raw_antimony",
+        "chemica:raw_chromite",
+        "chemica:raw_cobalt",
+        "chemica:raw_molybdenum",
+        "chemica:raw_platinum",
+        "chemica:raw_platinum_block",
+        "chemica:raw_silver",
+        "chemica:raw_tin",
+        "chemica:raw_tungsten",
+        "chemica:raw_vanadium",
+        "chemica:silver_dust",
+        "chemica:silver_ingot",
+        "chemica:silver_nugget",
+        "chemica:silver_sheet",
+        "chemica:sodium_dust",
+        "chemica:sodium_ingot",
+        "chemica:tantalum_dust",
+        "chemica:tantalum_ingot",
+        "chemica:tantalum_nugget",
+        "chemica:tantalum_sheet",
+        "chemica:tin_dust",
+        "chemica:tin_ingot",
+        "chemica:tin_nugget",
+        "chemica:tin_ore",
+        "chemica:tin_sheet",
+        "chemica:titanium_dust",
+        "chemica:titanium_ingot",
+        "chemica:titanium_nugget",
+        "chemica:titanium_sheet",
+        "chemica:tungsten_dust",
+        "chemica:tungsten_ingot",
+        "chemica:tungsten_nugget",
+        "chemica:vanadium_dust",
+        "chemica:vanadium_ingot",
+        "chemica:vanadium_nugget"
+      ],
+      "hidden_fluids": [
+        "chemica:steam"
+      ],
+      "runtime_only_items": [
+        "chemica:biodiesel_engine_cylinder",
+        "chemica:ethanol_engine_cylinder",
+        "chemica:high_cetane_engine_cylinder",
+        "chemica:high_octane_engine_cylinder",
+        "chemica:hydrogen_turbine_blade"
+      ]
+    },
+    "unhiddenCanonicalItems": [
+      "chemica:graphite_sheet",
+      "chemica:magnesium_sheet"
+    ],
+    "sourceFollowUp": "The snapshot contains no presentation generator source. The existing reviewed Chemica finished-form generator will own this frozen policy and preserve all other visibility decisions."
+  }
+}

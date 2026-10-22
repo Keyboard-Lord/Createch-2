@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mixing",
+  "recipe_tier": 0,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "chemica:methane",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:methane",
+      "amount": 500
+    }
+  ]
+}

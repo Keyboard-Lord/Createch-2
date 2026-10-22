@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "EHE",
+    "MAM"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "E": {
+      "tag": "c:ender_pearls"
+    },
+    "H": {
+      "tag": "createch2:machines/casings/industrial"
+    },
+    "M": {
+      "item": "hostilenetworks:prediction_matrix"
+    },
+    "A": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "result": {
+    "id": "hostilenetworks:sim_chamber",
+    "count": 1
+  }
+}

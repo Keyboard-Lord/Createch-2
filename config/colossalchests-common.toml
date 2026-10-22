@@ -1,0 +1,39 @@
+	[machine.colossal_chest]
+		#The maximum size a colossal chest can have.
+		maxSize = 4
+
+	[general.general]
+		#If items should be ejected from the chests if one of the structure blocks are removed.
+		ejectItemsOnDestroy = false
+		#If the higher tier metal variants (including diamond, obsidian and netherite) can be crafted.
+		metalVariants = true
+		#Always create full creative-mode chests when formed. Should not be used in survival worlds!
+		creativeChests = false
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorWood = 0.25
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorCopper = 0.4165
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorIron = 0.5
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorSilver = 0.6665
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorGold = 0.75
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorDiamond = 1.0
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorObsidian = 1.0
+		#If the lid should open when accessing the chest GUI.
+		visuallyOpen = true
+		#If the interface input overlay should always be rendered on chests.
+		alwaysShowInterfaceOverlay = true
+		#Multiplier for the number of inventory slots for this chest material.
+		chestInventoryMaterialFactorNetherite = 5.0
+
+	[general.colossal_chest]
+		#If the chest should visually open when someone uses it.
+		chestAnimation = true
+
+	[core.general]
+		#Maximum buffer byte size for adaptive inventory slots fragmentation.
+		maxPacketBufferSize = 20000

@@ -1,0 +1,2004 @@
+{
+	autofocus_id: "0764F8C5D0DAC768"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_09_age_08_advanced_electric"
+	group: "0A85000000000003"
+	id: "0D87E40C49866C23"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "67CA9E16F072BF55"
+		image: "createch2:textures/quests/chapter_icons/advanced_electric.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.552d
+		y: 0.325d
+	}]
+	order_index: 1
+	quest_links: [{
+		id: "082200000000000A"
+		linked_quest: "0D3CCAB136834E0D"
+		shape: "rsquare"
+		size: 1.35d
+		x: -38.808d
+		y: -5.193d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"05E487281942D4A6"
+				"09B0371253FF1CA0"
+				"48BC476A8330C289"
+			]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfmg:aluminum_ingot"
+			}
+			id: "0764F8C5D0DAC768"
+			rewards: [{
+				auto: "enabled"
+				id: "40BF41F387C769EE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 3.25d
+			tags: [
+				"theme_advanced_electric_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0B3CB7EFF371F119"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfmg:aluminum_ingot" }
+				type: "item"
+			}]
+			x: -43.008d
+			y: -5.193d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			id: "08EFE63BC1D6AFF3"
+			rewards: [{
+				auto: "enabled"
+				id: "1FA2794FB8826ED6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_advanced_electric_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "029281A897692BBB"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 26.02d
+			y: -15.166d
+		}
+		{
+			dependencies: ["08EFE63BC1D6AFF3"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			id: "0F3775755728B764"
+			rewards: [{
+				auto: "enabled"
+				id: "2C86EC0F254F6055"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0B480465872FA392"
+				item: { count: 1, id: "modern_industrialization:advanced_motor" }
+				type: "item"
+			}]
+			x: 24.632d
+			y: -12.739d
+		}
+		{
+			dependencies: ["0F3775755728B764"]
+			icon: {
+				id: "modern_industrialization:advanced_pump"
+			}
+			id: "01FDBF9D1AE9A4C1"
+			rewards: [{
+				auto: "enabled"
+				id: "658425D1D482B9EE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "00E6A4F95391D5A7"
+				item: { count: 1, id: "modern_industrialization:advanced_pump" }
+				type: "item"
+			}]
+			x: 25.042d
+			y: -10.867d
+		}
+		{
+			dependencies: ["0D7A4DBF1F2D963A"]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			id: "05F1C6028E36F345"
+			rewards: [{
+				auto: "enabled"
+				id: "5D9A62537936B647"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_advanced_electric_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0599813C60160F11"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -9.257d
+			y: 4.476d
+		}
+		{
+			dependencies: ["01FDBF9D1AE9A4C1"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			icon_scale: 1.05d
+			id: "0D7A4DBF1F2D963A"
+			rewards: [{
+				auto: "enabled"
+				id: "48621E436FD842DF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_advanced_electric_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "096B2B0215774F00"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 6.932d
+			y: -2.893d
+		}
+		{
+			dependencies: ["08EFE63BC1D6AFF3"]
+			icon: {
+				id: "modern_industrialization:aluminum_plate"
+			}
+			icon_scale: 0.95d
+			id: "6BC6A5F6DDF1390C"
+			rewards: [{
+				auto: "enabled"
+				id: "30106CD72A665664"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "306A9D8A004A84C1"
+				item: { count: 1, id: "modern_industrialization:aluminum_plate" }
+				type: "item"
+			}]
+			x: 34.334d
+			y: 32.833d
+		}
+		{
+			dependencies: ["6BC6A5F6DDF1390C"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.95d
+			id: "37D714556899CBFF"
+			rewards: [{
+				auto: "enabled"
+				id: "7CC6BCC4BBB71D46"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "324646570D87AF0A"
+				item: { count: 1, id: "electroenergetics:connector" }
+				type: "item"
+			}]
+			x: 32.845d
+			y: 25.703d
+		}
+		{
+			dependencies: ["01FDBF9D1AE9A4C1"]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			icon_scale: 0.95d
+			id: "534F09A28C8C26BE"
+			rewards: [{
+				auto: "enabled"
+				id: "2B41400515CF6B03"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4708B8E0A4995341"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46CA326C37C152AF"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: 30.507d
+			y: 14.053d
+		}
+		{
+			dependencies: ["534F09A28C8C26BE"]
+			icon: {
+				id: "electroenergetics:converter"
+			}
+			icon_scale: 0.95d
+			id: "7955D4D0EE64FB75"
+			rewards: [{
+				auto: "enabled"
+				id: "653E81346E3BF73B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5D66C8652B694747"
+				item: { count: 1, id: "electroenergetics:converter" }
+				type: "item"
+			}]
+			x: 28.3d
+			y: 12.829d
+		}
+		{
+			dependencies: ["0D7A4DBF1F2D963A"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			icon_scale: 0.98d
+			id: "707309F2FD43021B"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "770F44CDC93939CC"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "49E7C581C9B2CBF1"
+					item: {
+						count: 1
+						id: "create:blue_table_cloth"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "12E171C02AE547D4"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 7.801d
+			y: 0.962d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			icon_scale: 0.95d
+			id: "3D86B0A7989A8F2F"
+			rewards: [{
+				auto: "enabled"
+				id: "1ED4BA19F6DD67FF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "7C1533D72729861A"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 3.911d
+			y: 22.773d
+		}
+		{
+			dependencies: ["01FDBF9D1AE9A4C1"]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			icon_scale: 0.95d
+			id: "6E47499369D61F86"
+			rewards: [{
+				auto: "enabled"
+				id: "51E5A20BC1A314B5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4A179CC336F75AF2"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 18.836d
+			y: 5.737d
+		}
+		{
+			dependencies: ["6BC6A5F6DDF1390C"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			icon_scale: 0.95d
+			id: "1ADEC4166C3A7F2D"
+			rewards: [{
+				auto: "enabled"
+				id: "172969A1D5CFCD15"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6BFA2D10988B9B4E"
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "29D2A56169EF1819"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: 26.787d
+			y: 29.325d
+		}
+		{
+			dependencies: ["6E47499369D61F86"]
+			icon: {
+				id: "modern_industrialization:advanced_pump"
+			}
+			icon_scale: 0.95d
+			id: "5F536BC6E2BC2F1B"
+			rewards: [{
+				auto: "enabled"
+				id: "5EAC9FB1D8C57A4A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "6686DFB880A21B79"
+					item: { count: 1, id: "modern_industrialization:advanced_pump" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "142698878F5979AB"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: 20.199d
+			y: 7.375d
+		}
+		{
+			dependencies: ["7955D4D0EE64FB75"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.95d
+			id: "01013F6B2E344E41"
+			rewards: [{
+				auto: "enabled"
+				id: "609A338C242FC4F8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2F5DD72671398B05"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4065AE57F58F2357"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 26.07d
+			y: 11.577d
+		}
+		{
+			dependencies: ["01013F6B2E344E41"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			icon_scale: 0.95d
+			id: "41581E9BAEBECB0A"
+			rewards: [{
+				auto: "enabled"
+				id: "0505A3046DA27235"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "696DF807AED812BC"
+				max_input: 250000L
+				type: "forge_energy"
+				value: 250000L
+			}]
+			x: 23.819d
+			y: 10.299d
+		}
+		{
+			dependencies: [
+				"5F536BC6E2BC2F1B"
+				"41581E9BAEBECB0A"
+			]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			id: "3EDAD3C9A686C7AF"
+			rewards: [{
+				auto: "enabled"
+				id: "231F82D5550E00E4"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "604A8B6C4649D2E7"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 21.551d
+			y: 8.999d
+		}
+		{
+			dependencies: ["3EDAD3C9A686C7AF"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.92d
+			id: "6ADE5EF256DECCE9"
+			rewards: [{
+				auto: "enabled"
+				id: "3C10DF21BEDF06B4"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0C018D1854074608"
+				max_input: 500000L
+				type: "forge_energy"
+				value: 500000L
+			}]
+			x: 23.397d
+			y: 18.293d
+		}
+		{
+			dependencies: ["6ADE5EF256DECCE9"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			icon_scale: 0.92d
+			id: "4E7AE214EA025873"
+			rewards: [{
+				auto: "enabled"
+				id: "267225AAFCD53C2E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "10167ECF3BAD769E"
+				item: { count: 1, id: "modern_industrialization:advanced_motor" }
+				type: "item"
+			}]
+			x: 14.611d
+			y: 13.319d
+		}
+		{
+			dependencies: ["4E7AE214EA025873"]
+			icon: {
+				id: "modern_industrialization:bauxite_dust"
+			}
+			icon_scale: 0.92d
+			id: "1CE701199DF997EE"
+			rewards: [{
+				auto: "enabled"
+				id: "2BD5BAE4061A2AC9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "35E104B12FE80E0E"
+					item: { count: 1, id: "modern_industrialization:bauxite_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55F9CB966DDB5E05"
+					item: { count: 1, id: "stellaris:desh_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E4433BE239B24F4"
+					item: { count: 1, id: "stellaris:tharsite_ingot" }
+					type: "item"
+				}
+			]
+			x: 15.027d
+			y: 15.198d
+		}
+		{
+			dependencies: [
+				"05F1C6028E36F345"
+				"1ADEC4166C3A7F2D"
+				"4E7AE214EA025873"
+				"479F3961D01126A2"
+				"459D569656BBDD64"
+			]
+			icon: {
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+			icon_scale: 1.1d
+			id: "40B9F21964564F18"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "42AC0DE6423CF496"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "245273EA6B245970"
+					item: {
+						count: 1
+						id: "create:rose_quartz_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "7BBF9EAC79EFCC91"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_advanced_electric_capstone"
+				"role_capstone"
+				"canonical_age_08"
+			]
+			tasks: [
+				{
+					id: "6B2BFBA010D0092A"
+					item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+					type: "item"
+				}
+				{
+					id: "0DA4580B09A6A911"
+					item: { count: 1, id: "greate:aluminium_mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 1.958d
+			y: 14.924d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "modern_industrialization:aluminum_plate"
+			}
+			icon_scale: 0.98d
+			id: "62195E9FD974083C"
+			rewards: [{
+				auto: "enabled"
+				id: "2CBC5A411F039EAF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7935AC08421CAD48"
+					item: { count: 1, id: "modern_industrialization:aluminum_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "26320B6783743A5B"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: 25.273d
+			y: -18.753d
+		}
+		{
+			dependencies: ["62195E9FD974083C"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			icon_scale: 0.94d
+			id: "5964B1E0F47261AB"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "45228DBBC3B78CC8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "6293B2AD6BE52BEF"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 4L
+				id: "63CB699D70A2AF1E"
+				item: { count: 1, id: "modern_industrialization:advanced_motor" }
+				type: "item"
+			}]
+			x: 25.636d
+			y: -16.976d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "electroenergetics:converter"
+			}
+			icon_scale: 0.94d
+			id: "33940FD2E5E96A41"
+			rewards: [{
+				auto: "enabled"
+				id: "40E5844C1251D2BB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "788757C80D859347"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+				{
+					id: "2C36E1E412AD5F4F"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+			]
+			x: 24.318d
+			y: -23.87d
+		}
+		{
+			dependencies: ["3D86B0A7989A8F2F"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			id: "68E88A51AECA2FD8"
+			rewards: [{
+				auto: "enabled"
+				id: "3F5CF3E9C1FD59E0"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0443C69AF5A64840"
+				max_input: 100000L
+				type: "forge_energy"
+				value: 100000L
+			}]
+			x: 3.446d
+			y: 20.979d
+		}
+		{
+			dependencies: ["68E88A51AECA2FD8"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			id: "479F3961D01126A2"
+			rewards: [{
+				auto: "enabled"
+				id: "5493DCB1E958B559"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "7FA8C8B516525FD8"
+					max_input: 250000L
+					type: "forge_energy"
+					value: 250000L
+				}
+				{
+					id: "38D5DB334A3B92F2"
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
+					type: "item"
+				}
+			]
+			x: 2.963d
+			y: 19.154d
+		}
+		{
+			dependencies: ["479F3961D01126A2"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.98d
+			id: "571B539C77835381"
+			rewards: [{
+				auto: "enabled"
+				id: "550E4D69223F2B92"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "26192F723890A74B"
+					max_input: 500000L
+					type: "forge_energy"
+					value: 500000L
+				}
+				{
+					id: "7893F67364335CC9"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: 1.645d
+			y: 17.57d
+		}
+		{
+			dependencies: ["1ADEC4166C3A7F2D"]
+			icon: {
+				id: "modern_industrialization:advanced_upgrade"
+			}
+			icon_scale: 0.94d
+			id: "7C6331DB01CBB2D3"
+			rewards: [{
+				auto: "enabled"
+				id: "0C499C3B540C9784"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:advanced_upgrade"
+				criterion: ""
+				id: "5F777E573F00A8CA"
+				type: "advancement"
+			}]
+			x: 30.526d
+			y: 29.657d
+		}
+		{
+			dependencies: ["7C6331DB01CBB2D3"]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			icon_scale: 0.96d
+			id: "48C597FF52069314"
+			rewards: [{
+				auto: "enabled"
+				id: "14BA04715E7706CC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_advanced_electric_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "mekanism:basic_control_circuit"
+				criterion: ""
+				id: "773F804DBA0EBD7D"
+				type: "advancement"
+			}]
+			x: 32.432d
+			y: 30.548d
+		}
+		{
+			dependencies: ["48C597FF52069314"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			icon_scale: 0.98d
+			id: "164E950854259C1C"
+			rewards: [{
+				auto: "enabled"
+				id: "516B13AAF5F89276"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "mekanism:metallurgic_infuser"
+				criterion: ""
+				id: "745925DD60BCFBDD"
+				type: "advancement"
+			}]
+			x: 33.396d
+			y: 31.706d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "modern_industrialization:aluminum_plate"
+			}
+			icon_scale: 0.98d
+			id: "3080D7B57660A29D"
+			rewards: [{
+				auto: "enabled"
+				id: "76B0562EEC68FBF6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "309596D95F194E45"
+				item: { count: 1, id: "modern_industrialization:aluminum_plate" }
+				type: "item"
+			}]
+			x: 24.932d
+			y: -20.495d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "modern_industrialization:advanced_motor"
+			}
+			id: "459D569656BBDD64"
+			rewards: [{
+				auto: "enabled"
+				id: "200E702A66AFD5ED"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0CBF3C7E2604FC60"
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A988D522ACE86BF"
+					item: { count: 1, id: "modern_industrialization:aluminum_wire" }
+					type: "item"
+				}
+			]
+			x: -8.149d
+			y: 8.286d
+		}
+		{
+			dependencies: ["459D569656BBDD64"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.94d
+			id: "5BEBDB186267F183"
+			rewards: [{
+				auto: "enabled"
+				id: "4D9852493825C11B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "47B4497FEF782399"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2ACBC1D23BABB0B2"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfmg:aluminum_ingot" }
+					type: "item"
+				}
+			]
+			x: -8.711d
+			y: 6.377d
+		}
+		{
+			dependencies: [
+				"5EEBD2C60D7D028F"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.95d
+			id: "74C303EF74DB3A84"
+			rewards: [{
+				auto: "enabled"
+				id: "27AD22D5B482408E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "030E5DB864E39081"
+					item: { count: 1, id: "stellaris:big_oxygen_tank" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 16000
+						id: "stellaris:fuel"
+					}
+					id: "719E889E32874423"
+					type: "fluid"
+				}
+			]
+			x: 24.046d
+			y: -25.503d
+		}
+		{
+			dependencies: [
+				"4D515BC3F0AB3A28"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:fuel_module"
+			}
+			icon_scale: 0.94d
+			id: "3E99264967FB729F"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "43333133FD71B6CA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "47A0FAAA7744ED7A"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "428947B716C5C97C"
+					item: { count: 1, id: "stellaris:fuel_module" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D4E1D32F19E5508"
+					item: { count: 1, id: "stellaris:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 34.133d
+			y: -19.762d
+		}
+		{
+			dependencies: ["3E99264967FB729F"]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.94d
+			id: "4F413A45A85355A2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5FA32F4EBEB5F186"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "17BAB197DA59ECC9"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 2L
+				id: "5412689F6AA8F5F6"
+				item: { count: 1, id: "stellaris:big_oxygen_tank" }
+				type: "item"
+			}]
+			x: 32.073d
+			y: -20.982d
+		}
+		{
+			dependencies: [
+				"4D515BC3F0AB3A28"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			icon_scale: 0.92d
+			id: "5F29DDC0BCB7DDB7"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0813C5F7E9A3ECE2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "749A8093A77F5BE6"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "00C0B3B48987C379"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "05B103F8C3AEC1F3"
+					item: { count: 1, id: "stellaris:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 44.113d
+			y: -15.084d
+		}
+		{
+			dependencies: [
+				"5EEBD2C60D7D028F"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:fuel_module"
+			}
+			icon_scale: 0.92d
+			id: "657F39DC958873DC"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "427E581B968B4D3F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "7A1F5458B9BB100C"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "58BACE84EB4D9A70"
+					item: { count: 1, id: "stellaris:fuel_module" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 16000
+						id: "stellaris:fuel"
+					}
+					id: "1E1F4674B530FF67"
+					type: "fluid"
+				}
+			]
+			x: 26.019d
+			y: -24.428d
+		}
+		{
+			dependencies: [
+				"75ED4F2F7CFFA8A2"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			id: "2D2B6CD394892470"
+			rewards: [{
+				auto: "enabled"
+				id: "294B23F9F64C0E8B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "24D2F7899159A1B2"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 8000
+						id: "stellaris:fuel"
+					}
+					id: "1945A85755AFB2DE"
+					type: "fluid"
+				}
+			]
+			x: 36.213d
+			y: -18.509d
+		}
+		{
+			dependencies: [
+				"05E487281942D4A6"
+				"52378D06A8137FFF"
+			]
+			icon: {
+				id: "stellaris:desh_plating_block"
+			}
+			icon_scale: 0.96d
+			id: "364BD12BAA4FB37C"
+			rewards: [{
+				auto: "enabled"
+				id: "409BD5D12698884C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "stellaris:mars_rocky_plains"
+				id: "567078576B443F97"
+				type: "biome"
+			}]
+			x: 42.002d
+			y: -16.428d
+		}
+		{
+			dependencies: ["364BD12BAA4FB37C"]
+			icon: {
+				id: "stellaris:fuel_module"
+			}
+			icon_scale: 0.96d
+			id: "4DB5E6AA7AD016ED"
+			rewards: [{
+				auto: "enabled"
+				id: "3A180685F9465529"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "7BE412A828480ACF"
+				structure: "stellaris:mercury_factory"
+				type: "structure"
+			}]
+			x: 42.547d
+			y: -14.571d
+		}
+		{
+			dependencies: ["4DB5E6AA7AD016ED"]
+			icon: {
+				id: "rocketnautics:rocket_thruster"
+			}
+			icon_scale: 0.94d
+			id: "55D3554604CCB0B8"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6C96F70D7AE356C6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "691B01316C9C48D6"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "6807E29F4F3525E5"
+				structure: "stellaris:venus_crash_site"
+				type: "structure"
+			}]
+			x: 38.31d
+			y: -17.224d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			icon: {
+				id: "minecraft:leather_boots"
+			}
+			icon_scale: 0.98d
+			id: "52378D06A8137FFF"
+			rewards: [{
+				auto: "enabled"
+				id: "2216051EFD201216"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 2.52d
+			tags: [
+				"theme_space_race_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "214F2EA31623BF0A"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 200000
+				}
+				{
+					id: "7AF26F2322BFB9F2"
+					item: { count: 1, id: "crush_depth:fathometer" }
+					type: "item"
+				}
+				{
+					id: "7E300180916A1DCC"
+					item: { count: 1, id: "create_submarine:barometer" }
+					type: "item"
+				}
+			]
+			x: 39.306d
+			y: -32.183d
+		}
+		{
+			dependencies: ["52378D06A8137FFF"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			icon_scale: 0.96d
+			id: "39888D8269DA0427"
+			rewards: [{
+				auto: "enabled"
+				id: "232EAACBB506AECC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "355F419A352A58FE"
+					stat: "minecraft:swim_one_cm"
+					type: "stat"
+					value: 50000
+				}
+				{
+					id: "0818BB22FF02D22F"
+					item: { count: 1, id: "create_submarine:copper_pressurizer" }
+					type: "item"
+				}
+				{
+					id: "5945E4B8B8620936"
+					item: { count: 1, id: "create_submarine:ballast_tank" }
+					type: "item"
+				}
+				{
+					id: "63788152F4890A0C"
+					item: { count: 1, id: "create_submarine:ballast_vent" }
+					type: "item"
+				}
+			]
+			x: 30.033d
+			y: -22.167d
+		}
+		{
+			dependencies: ["39888D8269DA0427"]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.94d
+			id: "179693A0395D3D8D"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5D9E6BACBF3FAD29"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "692182F3EB573F51"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "1608EE2C5643645F"
+				stat: "minecraft:climb_one_cm"
+				type: "stat"
+				value: 20000
+			}]
+			x: 28.014d
+			y: -23.316d
+		}
+		{
+			dependencies: [
+				"7D6499EC8771BC3C"
+				"46338255C3AFC8B8"
+				"428B1174FE95E4BA"
+			]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			icon_scale: 0.94d
+			id: "650A9FC066A0DFF2"
+			rewards: [{
+				auto: "enabled"
+				id: "1D45835FD2AA0C1F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "2D9449C8B8339333"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 11.489d
+			y: -0.247d
+		}
+		{
+			dependencies: [
+				"016857EA9D59D58A"
+				"0D7A4DBF1F2D963A"
+			]
+			icon: {
+				id: "electroenergetics:cut_off_switch"
+			}
+			icon_scale: 0.92d
+			id: "428B1174FE95E4BA"
+			rewards: [{
+				auto: "enabled"
+				id: "4B95A699D8510C8D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "2D21848A9FD1D340"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					id: "0E8E654FD30A350A"
+					item: { count: 1, id: "electroenergetics:cut_off_switch" }
+					type: "item"
+				}
+			]
+			x: 9.203d
+			y: -1.577d
+		}
+		{
+			dependencies: [
+				"7EC1123AD1DDC707"
+				"09B0371253FF1CA0"
+				"0764F8C5D0DAC768"
+			]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			icon_scale: 0.98d
+			id: "78470B17585DF4D0"
+			rewards: [{
+				auto: "enabled"
+				id: "45555846B494980C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "5FE5B32493E41DEB"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 4.359d
+			y: 24.535d
+		}
+		{
+			dependencies: [
+				"09B0371253FF1CA0"
+				"78470B17585DF4D0"
+			]
+			icon: {
+				id: "simulated:red_portable_engine"
+			}
+			icon_scale: 0.98d
+			id: "037824F4D286C61E"
+			rewards: [{
+				auto: "enabled"
+				id: "686FEDF4DDB134C6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "278F05CC553B060F"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 4.786d
+			y: 26.262d
+		}
+		{
+			dependencies: ["428B1174FE95E4BA"]
+			icon: {
+				id: "electroenergetics:energy_meter"
+			}
+			icon_scale: 0.98d
+			id: "3B6F943E44931767"
+			rewards: [{
+				auto: "enabled"
+				id: "4BEAF139E0128880"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "2D62AB05D0320E61"
+				item: { count: 1, id: "electroenergetics:energy_meter" }
+				type: "item"
+			}]
+			x: 13.757d
+			y: 5.306d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			hide_dependency_lines: true
+			icon: {
+				id: "adfinders:mineral_finder"
+			}
+			id: "154F82F34DD72648"
+			rewards: [{
+				auto: "enabled"
+				id: "712F5A81A6285E04"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_advanced_electric_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "4FFF30C9413602A2"
+				item: { components: { "minecraft:max_damage": 32 }, count: 1, id: "adfinders:mineral_finder" }
+				type: "item"
+			}]
+			x: 110.0d
+			y: -44.0d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfmg:aluminum_ingot"
+			}
+			id: "614EAE44EB28E3D1"
+			rewards: [{
+				auto: "enabled"
+				id: "2F8591932652E79D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "782B982DE348E2E8"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfmg:aluminum_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "76AE5CE5E32BB795"
+					item: { count: 1, id: "modern_industrialization:aluminum_plate" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -66.25d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"179043EF25421123"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "simulated:red_portable_engine"
+			}
+			id: "1E51162C2FA371F5"
+			rewards: [{
+				auto: "enabled"
+				id: "2F6C21A62B038AFF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "56CF0E40B5F9D5C9"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05879E481467825F"
+					item: { count: 1, id: "createpropulsion:tempered_wing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "125330D06B0D57DD"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -59.75d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"78BBCB68691334D9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "modern_industrialization:electric_quarry"
+			}
+			id: "041F4B5AC4F14916"
+			rewards: [{
+				auto: "enabled"
+				id: "0EC10AD23209B348"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "2046D7AF8ADA8BDA"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
+			x: 226.0d
+			y: -72.75d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"65BF748E23159DE8"
+			]
+			icon: {
+				id: "oritech:machine_frame_block"
+			}
+			id: "74FA21F67BB06A5D"
+			rewards: [{
+				auto: "enabled"
+				id: "0A9B6D3443E60F0C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_advanced_electric_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "51E848B902B88007"
+					item: { count: 1, id: "oritech:machine_frame_block" }
+					type: "item"
+				}
+				{
+					id: "77974E4E307E7B45"
+					item: { count: 1, id: "oritech:machine_core_1" }
+					type: "item"
+				}
+				{
+					id: "30B23AA9DED678B7"
+					item: { count: 1, id: "oritech:machine_acceptor_addon" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2BE30A92BF7F9DF7"
+					item: { count: 1, id: "oritech:machine_extender" }
+					type: "item"
+				}
+				{
+					id: "623CF6A64E3D8259"
+					item: { count: 1, id: "oritech:machine_processing_addon" }
+					type: "item"
+				}
+				{
+					id: "10D88AF1150187A3"
+					item: { count: 1, id: "oritech:assembler_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "147AD8E495ABB86A"
+					item: { count: 1, id: "oritech:processing_unit" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -66.25d
+		}
+		{
+			dependencies: ["0764F8C5D0DAC768"]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:machine_frame_block"
+			}
+			id: "384364A3675AB271"
+			rewards: [{
+				auto: "enabled"
+				id: "5C6D24B178A4A6A2"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "58811E544EA824B8"
+					item: { count: 1, id: "oritech:machine_frame_block" }
+					type: "item"
+				}
+				{
+					id: "7A7614BDF063CB83"
+					item: { count: 1, id: "oritech:machine_acceptor_addon" }
+					type: "item"
+				}
+				{
+					id: "72606D7D5896669B"
+					item: { count: 1, id: "oritech:machine_core_1" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4BEF4BAD63B38C40"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -63.0d
+		}
+	]
+	tags: ["theme_advanced_electric_chapter"]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:nitrogen_dioxide"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "tfc:any_fresh_water"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:nitric_acid"
+    }
+  ],
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

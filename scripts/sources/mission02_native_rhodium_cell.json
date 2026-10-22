@@ -1,0 +1,185 @@
+{
+  "truth": "REVIEWED_EXISTING_BLOOD_CORE_TO_POWERED_RHODIUM_CELL",
+  "classes": {
+    "bloodStain": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.block.BlockBloodStain",
+      "sha256": "17ee01bdaeba086fba612107c04a7afbc5474e25ff9d8f8d1b89c1a29adb24f2"
+    },
+    "stainBE": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.blockentity.BlockEntityBloodStain",
+      "sha256": "2ae8e59eae37e2812587a8269137d7c3e4c1e0b57cd7d2a46fda46b6aeeadc77"
+    },
+    "stainFluid": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.blockentity.BlockEntityBloodStain$FluidHandler",
+      "sha256": "48e53a520472e733f8bb574613d557b9238e268141936bc67b9631ace81d941c"
+    },
+    "stainCaps": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.blockentity.BlockEntityBloodStain$CapabilityRegistrar",
+      "sha256": "86b719a51eec7ef842bc40f3faa89681bcfa2f6d3996e177553d9c46c07280ad"
+    },
+    "bloodConfig": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.fluid.BloodConfig",
+      "sha256": "ca81faaf01e0295e4e7e2ec501dbc69c39fd02f553bd23bbd562370037bc0038"
+    },
+    "bucketConfig": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.item.ItemBucketBloodConfig",
+      "sha256": "a8ec66bb2f1a8bf80aa42d79855e93f7203bf3f98dd10f34423b17e31594bfda"
+    },
+    "bloodBlock": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.block.BlockFluidBlood",
+      "sha256": "b7b75e943d59927614607f1454fa6efe6a8dc7a3ded153cc7f3f1db75221e16c"
+    },
+    "hardBlood": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.block.BlockHardenedBlood",
+      "sha256": "ebcb8e66ef1b26c9e8184976334d4b2b79166e8cc231ee72a7d70465e1e97209"
+    },
+    "hardConfig": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.block.BlockHardenedBloodConfig",
+      "sha256": "21bbc4105111927ac9d94057881a46a37c12655da0edaf34a5a9bf1c84f690bf"
+    },
+    "darkGem": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.item.ItemDarkGem",
+      "sha256": "6ee6849dd27b334e7b36f7496e6b815244ec4cc75afbb4c4dc1ab57c1c4ccf1c"
+    },
+    "darkGemFold": {
+      "jar": "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "class": "org.cyclops.evilcraft.item.ItemDarkGem$1",
+      "sha256": "6c7a125ec56e82503d8d45654402ea8c3c175e56e7575b5a2dd3d0155e059e63"
+    },
+    "fluidConfig": {
+      "jar": "cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "class": "org.cyclops.cyclopscore.config.extendedconfig.FluidConfig",
+      "sha256": "4b21954b98ffdd2b4f6b042270d91447a125af303d250ca49eae8e159c68333b"
+    },
+    "fluidType": {
+      "jar": "cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "class": "org.cyclops.cyclopscore.config.extendedconfig.FluidConfig$1",
+      "sha256": "1bc0870e78626fcac6a9f53c60868d89fcf718a2523b07b3905bdd1d1c4d54ec"
+    },
+    "fold": {
+      "jar": "cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "class": "org.cyclops.cyclopscore.helper.WorldHelpers",
+      "sha256": "8a401c3e1cc4c9e8e723433814d13553542eb37f26e68c52957b2a6a34fad1db"
+    },
+    "dissolver": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.dissolver.DissolverBlockEntity",
+      "sha256": "ff6046c912897f23bf443b938fc73aeb12392bde8232d83f074264a1da42a168"
+    },
+    "probability": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.recipe.dissolver.ProbabilitySet",
+      "sha256": "1c69e3173dacfe8fe2bf678368ff09d4292b5e4d10f5a9ad58924313ae8b8454"
+    },
+    "fusion": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.fusion.FusionControllerBlockEntity",
+      "sha256": "9aca5be172140d5ace1f2e021f0ef5efc6fc74169f15ddc53389f19f06ac3a3d"
+    },
+    "compactor": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.compactor.CompactorBlockEntity",
+      "sha256": "66debbbeb8e0d432a0c2498f6b91984c7cbb3117e9badc8b81c0383684353777"
+    },
+    "reactor": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.reactor.AbstractReactorBlockEntity",
+      "sha256": "7a08bc8f772f17b232d19f26b215e8d7bcc33601a1a33dc1d50bdd6fe304a024"
+    },
+    "shape": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.reactor.ReactorShape",
+      "sha256": "a911c371f6d9380b4a47c10617500b8661811a1253938ef2a12d2903b9ec8af3"
+    },
+    "shapeSwitch": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.reactor.ReactorShape$1",
+      "sha256": "442aa15ad379518cfd2a230083aa6794851b012811d068f0a17f50368ea34e06"
+    },
+    "reactorAPI": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.reactor.ReactorBlockEntity",
+      "sha256": "37b766a3cd269435b43254f8727b020b57af7e17eca70b81068620317df2c9ae"
+    },
+    "mod": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.Alchemistry",
+      "sha256": "eaa5651b80b7fabd18b2e87386a7418120d116dcbc22d3342b93b5bfcb465597"
+    },
+    "recipeRegistry": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.registry.RecipeRegistry",
+      "sha256": "06294b7546f2df7fb58dd8cea6f03043a0ab39a276c94306c4221422effc3a03"
+    },
+    "blockRegistry": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.registry.BlockRegistry",
+      "sha256": "922b91264ad268d1024137c2722192efc1bb436dceab52ff42d4d56e6fd93390"
+    },
+    "processing": {
+      "jar": "alchemylib-1.21.1-1.1.6.jar",
+      "class": "com.smashingmods.alchemylib.api.blockentity.processing.AbstractProcessingBlockEntity",
+      "sha256": "6d93f1740dfa7ba4e7d45b5d64f780254d38b4c7ed721406d57f1e2683ed7952"
+    },
+    "energyStore": {
+      "jar": "alchemylib-1.21.1-1.1.6.jar",
+      "class": "com.smashingmods.alchemylib.api.storage.EnergyStorageHandler",
+      "sha256": "23473188221b43352472af01c3ea740c908420ec6f5d303034f14a51ff1f78ec"
+    },
+    "bucketPlacement": {
+      "classpath": [
+        "../../Install/libraries/net/neoforged/neoforge/21.1.256/neoforge-21.1.256-client.jar",
+        "../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+        "../../Install/libraries/net/neoforged/neoforge/21.1.256/neoforge-21.1.256-universal.jar"
+      ],
+      "class": "net.minecraft.world.item.BucketItem",
+      "sha256": "b934b6ac5bf4710499e0365208a304b8d71d241d24288f56b5e5e0ca0dac220d"
+    },
+    "coreGate": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.compat.AlchemistryResearchGate",
+      "verbose": false,
+      "sha256": "aa5a4d8a963c987ce42b8296aaa84c56fe332d75dd66607df37af1d609b19049"
+    },
+    "coreMixin": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.mixin.compat.AlchemistryResearchMixin",
+      "verbose": true,
+      "sha256": "b8719dc6eaaa6b039c530a73eae444ff3e98bac6857cda62e359d4e591e6d265"
+    },
+    "coreReactorMixin": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.mixin.compat.AlchemistryReactorResearchMixin",
+      "verbose": true,
+      "sha256": "b130a45431b7a4a53b828110756687c9a61b1d34daf47fc3a754034ab2dad9f8"
+    },
+    "processingV": {
+      "jar": "alchemylib-1.21.1-1.1.6.jar",
+      "class": "com.smashingmods.alchemylib.api.blockentity.processing.AbstractProcessingBlockEntity",
+      "verbose": true,
+      "sha256": "3d703a5afe926af455eaaed8f6f08239678a9a4974dc4d96ea8308bd77b25d2e"
+    },
+    "reactorV": {
+      "jar": "alchemistry-1.21.1-2.4.5.jar",
+      "class": "com.smashingmods.alchemistry.common.block.reactor.AbstractReactorBlockEntity",
+      "verbose": true,
+      "sha256": "f34cc041df8714450c91823d17db03ccd6e7bad96e4bdf3f4893f3451adb1e1c"
+    }
+  },
+  "jars": {
+    "evilcraft-1.21.1-neoforge-1.2.99.jar": "85e81fb08f3cf77fafa788a2e5f041cd41a1dd710ce4bc49cb6dc7974f258ab0",
+    "cyclopscore-1.21.1-neoforge-1.30.0.jar": "6328e41c0e26979a9c56ec42c02321b139914c4711424ab53727a109a312f6a1",
+    "alchemistry-1.21.1-2.4.5.jar": "63c8c4257521ece15a73c2825fedb0bb1f2855fb16853061a48374d335bf1c60",
+    "alchemylib-1.21.1-1.1.6.jar": "628efed7e4c9306ffe2403208e219b4403e11e653f55896fe25c8cc4dd4e1d0b"
+  }
+}

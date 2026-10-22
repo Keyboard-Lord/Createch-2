@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/brass",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/brass_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/brass_stairs",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "PDP",
+    "BMB"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "C": {
+      "tag": "createch2:control/factory/electronic"
+    },
+    "P": {
+      "item": "mekanism:pressurized_reaction_chamber"
+    },
+    "D": {
+      "item": "alchemistry:dissolver"
+    },
+    "B": {
+      "item": "evilcraft:blood_infusion_core"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "alchemistry:combiner",
+    "count": 1
+  }
+}

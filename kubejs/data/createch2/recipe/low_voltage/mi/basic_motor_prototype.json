@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CWC",
+    "RMR",
+    "WPW"
+  ],
+  "key": {
+    "C": {
+      "item": "modern_industrialization:tin_cable"
+    },
+    "W": {
+      "item": "modern_industrialization:copper_wire"
+    },
+    "R": {
+      "tag": "c:rods/steel"
+    },
+    "M": {
+      "item": "modern_industrialization:steel_rod_magnetic"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:motor",
+    "count": 1
+  }
+}

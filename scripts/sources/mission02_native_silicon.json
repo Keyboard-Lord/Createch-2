@@ -1,0 +1,74 @@
+{
+  "scope": "Exact installed native silicon furnace recipe and independently inspected native class snapshots; no gameplay override.",
+  "sourceId": "tfmg:industrial_blasting/silicon",
+  "source": {
+    "type": "tfmg:industrial_blasting",
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      }
+    ],
+    "processing_time": 5,
+    "results": [
+      {
+        "amount": 40,
+        "id": "tfmg:liquid_silicon"
+      }
+    ]
+  },
+  "nativeCodeSha256": {
+    "shape": "fb8a19ba562b062a52bdc73ee241176ab1d9cc35e7737226cdf9bb3e0a8bc0ce",
+    "blockTypes": "b665cae22bf2576fc7514181141191766798c2cc5657dae3e71a022d4a103195",
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "hatch": "e255850fcd09e066e7c44d42fb7b956ef966ddef92459e0562bd9fafaa701e74",
+    "params": "1a2a4621faa65d9ed1e523ceb926c9a024d395ebf7fb007052721828b0d698f5",
+    "recipe": "b9026f43c0584257b3d548eb23201f12d10d3c9405453710788a50affc38319c"
+  },
+  "nativeClasses": {
+    "shape": "content.machinery.metallurgy.blast_furnace.BlastFurnaceMultiblock",
+    "blockTypes": "content.machinery.metallurgy.blast_furnace.BlastFurnaceMultiblock$BlockType",
+    "master": "content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity",
+    "hatch": "content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlockEntity",
+    "params": "recipes.IndustrialBlastingRecipeParams",
+    "recipe": "recipes.IndustrialBlastingRecipe"
+  },
+  "shape": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "master": [
+      0,
+      0,
+      -1
+    ],
+    "masterFacing": "NORTH",
+    "height": 3,
+    "topHatch": [
+      0,
+      3,
+      0
+    ],
+    "wallBlock": "tfmg:fireproof_bricks",
+    "supportBlock": "tfmg:fireproof_brick_reinforcement",
+    "wallCountIncludingFloorCenter": 12,
+    "supportCount": 12,
+    "masterCount": 1,
+    "hatchCount": 1,
+    "airCenters": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ]
+    ],
+    "hotAirTuyere": null,
+    "reinforced": false
+  }
+}

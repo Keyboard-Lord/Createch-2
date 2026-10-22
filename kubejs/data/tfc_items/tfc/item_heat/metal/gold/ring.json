@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/gold"
+    },
+    {
+      "tag": "c:physical_rings/gold"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 636,
+  "welding_temperature": 848
+}

@@ -1,0 +1,57 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "fog_color": 13416173,
+    "foliage_color": 4492260,
+    "grass_color": 12496861,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.badlands"
+    },
+    "sky_color": 12626175,
+    "water_color": 9995221,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+      "createch2:offworld/decoration/warped_valley_blue",
+      "createch2:offworld/decoration/warped_valley_cyan",
+      "createch2:offworld/decoration/warped_valley_green",
+      "createch2:offworld/decoration/warped_valley_light_blue",
+      "createch2:offworld/decoration/warped_valley_lime",
+      "createch2:offworld/decoration/warped_valley_purple"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

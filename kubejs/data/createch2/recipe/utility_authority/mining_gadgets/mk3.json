@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IHI",
+    "QGQ",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "H": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "G": {
+      "item": "mininggadgets:mininggadget_fancy"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "id": "mininggadgets:mininggadget",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/silver"
+    },
+    {
+      "tag": "c:rivets/silver"
+    },
+    {
+      "tag": "c:screws/silver"
+    },
+    {
+      "tag": "c:physical_screws/silver"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 577,
+  "welding_temperature": 769
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "CMC",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "C": {
+      "item": "hostile_neural_industrialization:prediction_machine_casing"
+    },
+    "M": {
+      "item": "hostilenetworks:loot_fabricator"
+    }
+  },
+  "result": {
+    "id": "hostile_neural_industrialization:mono_loot_fabricator",
+    "count": 1
+  }
+}

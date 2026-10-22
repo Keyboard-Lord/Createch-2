@@ -1,0 +1,205 @@
+{
+  "truth": "NATIVE_FRESH_BLOOD_SOURCE_TO_SILK_HARDENED_BLOCK",
+  "nativeClasses": {
+    "extractor": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.item.ItemBloodExtractor"
+    ],
+    "extractorConfig": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.item.ItemBloodExtractorConfig"
+    ],
+    "container": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.core.item.ItemBloodContainer"
+    ],
+    "bloodBlock": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.block.BlockFluidBlood"
+    ],
+    "bloodBlockConfig": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.block.BlockFluidBloodConfig"
+    ],
+    "hardened": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.block.BlockHardenedBlood"
+    ],
+    "hardenedConfig": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.block.BlockHardenedBloodConfig"
+    ],
+    "fluidConfig": [
+      "evilcraft-1.21.1-neoforge-1.2.99.jar",
+      "org.cyclops.evilcraft.fluid.BloodConfig"
+    ],
+    "itemCapacity": [
+      "cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "org.cyclops.cyclopscore.item.DamageIndicatedItemFluidContainer"
+    ],
+    "capacity": [
+      "cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "org.cyclops.cyclopscore.capability.fluid.FluidHandlerItemCapacity"
+    ],
+    "pickaxe": [
+      "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "committee.nova.mods.avaritia.common.item.tools.infinity.InfinityPickaxeItem"
+    ],
+    "switchable": [
+      "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "committee.nova.mods.avaritia.api.iface.item.ISwitchable"
+    ],
+    "alpha": [
+      "Werewolves-1.21-2.0.3.4.jar",
+      "de.teamlapen.werewolves.entities.werewolf.WerewolfAlphaEntity"
+    ],
+    "itemStack": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.item.ItemStack"
+    ],
+    "enchantments": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.advancements.critereon.ItemEnchantmentsPredicate$Enchantments"
+    ],
+    "enchantmentPredicate": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.advancements.critereon.EnchantmentPredicate"
+    ]
+  },
+  "nativeCodeSha256": {
+    "extractor": "68885e426a0fdcc009829c1c231f728ae7935b86dd50d7ee3c64ea5ddf492bd5",
+    "extractorConfig": "4c56c436ed2f1fb1faecb3c1be729fa78589131a25a53333056fc06f84e1dc2b",
+    "container": "38d0c0460b7ce15475642d32331796abdf05b95446cfd3b5fa4a021f8949c669",
+    "bloodBlock": "b7b75e943d59927614607f1454fa6efe6a8dc7a3ded153cc7f3f1db75221e16c",
+    "bloodBlockConfig": "228af26789bce1703995eac182a767e49685753923bd6a68c172853bb6f97afa",
+    "hardened": "ebcb8e66ef1b26c9e8184976334d4b2b79166e8cc231ee72a7d70465e1e97209",
+    "hardenedConfig": "21bbc4105111927ac9d94057881a46a37c12655da0edaf34a5a9bf1c84f690bf",
+    "fluidConfig": "ca81faaf01e0295e4e7e2ec501dbc69c39fd02f553bd23bbd562370037bc0038",
+    "itemCapacity": "c7ae075b33d3c0663a97896ac66233428b7bba793e6f439ec927c995511c22e9",
+    "capacity": "e9620743e2deba539e76166cd69fcf57607fc3e2ed93df0d712589bd6806f900",
+    "pickaxe": "8c0a9a9fb08856ed7741064b1c3e93fca356869235913c4dc5f2728cd28e85fc",
+    "switchable": "5934c45bcfac98271dc99c7acc684937cdba105fbdbfdac8f988d738743228d1",
+    "alpha": "31f543821f580a33f0100c4f3ac0b3d6f18f49074d5eaba3746fc0b9572f16e0",
+    "itemStack": "f76c3ce764203ea5f2d389ab1b302cd8d93972e945550c768292205cd5757f97",
+    "enchantments": "80b1fd19d986e25d9bcb63bd84b800e6c1520156963876f8b003c57630cdf0e4",
+    "enchantmentPredicate": "c2352da0b36b6b51fa414889e2b9c997e2c503a1fee593bc4ddfb3dfad9b64c9"
+  },
+  "nativeJars": {
+    "evilcraft-1.21.1-neoforge-1.2.99.jar": "85e81fb08f3cf77fafa788a2e5f041cd41a1dd710ce4bc49cb6dc7974f258ab0",
+    "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
+    "cyclopscore-1.21.1-neoforge-1.30.0.jar": "6328e41c0e26979a9c56ec42c02321b139914c4711424ab53727a109a312f6a1",
+    "Werewolves-1.21-2.0.3.4.jar": "2e2d32b0767aa07d7345d6f832357844c48c75496ed83a4678d93676a4784130"
+  },
+  "minecraftJar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+  "minecraftJarSha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4",
+  "resources": {
+    "loot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "predicates": {
+                          "minecraft:enchantments": [
+                            {
+                              "enchantments": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "name": "evilcraft:hardened_blood"
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 5,
+                        "max": 9,
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": [
+                          "minecraft:flint_and_steel"
+                        ]
+                      }
+                    }
+                  ],
+                  "name": "evilcraft:hardened_blood_shard"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pickaxeRecipe": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "avaritia:shaped_table",
+    "pattern": [
+      "IIIIIIIII",
+      "ICCCXCCCI",
+      "    G    ",
+      "    N    ",
+      "    N    "
+    ],
+    "key": {
+      "I": {
+        "item": "avaritia:infinity_ingot"
+      },
+      "C": {
+        "item": "avaritia:crystal_matrix"
+      },
+      "X": {
+        "item": "avaritia:infinity_catalyst"
+      },
+      "G": {
+        "item": "avaritia:neutron_gear"
+      },
+      "N": {
+        "item": "avaritia:neutron_ingot"
+      }
+    },
+    "result": {
+      "id": "avaritia:infinity_pickaxe",
+      "count": 1
+    },
+    "tier": 4
+  },
+  "sourceSha256": {
+    "config/evilcraft-common.toml": "ac08c18a06993ab2568bad69f29e35eba16c49020c7d6304bd5b4cc27e2c350f",
+    "kubejs/data/createch2/recipe/infinity/equipment/pickaxe.json": "18f26dc7278276e071d305f109e0914f224ec83f34aeefd042ac445f3c019827",
+    "config/ftbquests/quests/chapters/createch2_10_age_09_chemical_arcane.snbt": "2b70740e511c137c0cbe2087e3d2ed16d24a68c7fb02459d1f4e22f627e24bb6"
+  },
+  "quest": "0B86C31CB0DC04C0",
+  "task": "5A2291CAD839097D",
+  "newBlocks": 5,
+  "newAlphaKills": 8,
+  "minimumAlphaHealth": 140,
+  "minimumBloodPerHealth": 5,
+  "containerCapacity": 5000
+}

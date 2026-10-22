@@ -1,0 +1,98 @@
+{
+  "name": "Aço",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O TFMG substitui o alto-forno do TFC. O forno elétrico posterior do MI mantém sua função.$(br2)Para obter ferro-gusa do TFC, use um lingote de ferro fundido do TFC e um fundente do TFC. O forno produz 100 mB de ferro-gusa, suficientes para um lingote. A qualidade do minério continua determinando o ferro obtido pelo aquecimento do TFC."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:anvil/metal/ingot/high_carbon_steel",
+      "text": "A instalação do TFMG fornece ferro-gusa às receitas de bigorna e soldagem do TFC. Os aços de alto carbono, negro, vermelho e azul mantêm seus requisitos de forja e liga."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "black_steel",
+      "text": "O $(thing)aço negro$() é uma forma avançada de aço criada a partir de uma liga de aço e outros metais. Para produzi-lo, você precisa criar uma liga chamada $(thing)aço fraco$() em um $(l:metalworking/crucible)cadinho$().",
+      "title": "Aço negro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_steel",
+      "title": "Aço fraco",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 70 %: $(thing)Aço$()$(li)15 - 25 %: $(thing)Níquel$()$(li)15 - 25 %: $(thing)Bronze negro$()$(br2)O $(thing)aço fraco$() fundido pode ser moldado em lingotes."
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_black_steel",
+      "text": "Os $(thing)lingotes de aço fraco$() podem ser soldados com $(thing)lingotes de ferro-gusa$() para criar $(thing)lingotes de aço negro de alto carbono$(). Por fim, eles podem ser trabalhados em uma $(l:metalworking/anvils)bigorna$() para criar $(thing)lingotes de aço negro$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)aço negro$() pode ser usado para fabricar ferramentas e $(l:mechanics/armor)armaduras$(), além de ser um ingrediente essencial para criar $(l:metalworking/steel#blue_steel)aço azul$() e $(l:metalworking/steel#red_steel)aço vermelho$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blue_steel",
+      "text": "O $(thing)aço azul$() é um dos dois metais de nível mais alto, junto com o $(l:metalworking/steel#red_steel)aço vermelho$(). Assim como com o $(l:metalworking/steel#black_steel)aço negro$(), o primeiro passo é criar uma liga de $(thing)aço azul fraco$() em um $(l:metalworking/crucible)cadinho$().",
+      "title": "Aço azul"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_blue_steel",
+      "title": "Aço azul fraco",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 55 %: $(thing)Aço negro$()$(li)20 - 25 %: $(thing)Aço$()$(li)10 - 15 %: $(thing)Bronze de bismuto$()$(li)10 - 15 %: $(thing)Prata de lei$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_blue_steel",
+      "text": "Os $(thing)lingotes de aço azul fraco$() podem ser soldados com $(l:metalworking/steel#black_steel)lingotes de aço negro$() para criar $(thing)lingotes de aço azul de alto carbono$(). Por fim, eles podem ser trabalhados em uma $(l:metalworking/anvils)bigorna$() para criar $(thing)lingotes de aço azul$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)aço azul$() pode ser usado para criar ferramentas e $(l:mechanics/armor)armaduras$(), além de um $(thing)balde de aço azul$(), que pode transportar $(cfg:metalBucketCapacity) de líquidos, inclusive $(6)lava$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_steel",
+      "text": "O $(thing)aço vermelho$() é um dos dois metais de nível mais alto, junto com o $(l:metalworking/steel#blue_steel)aço azul$(). Assim como com o $(l:metalworking/steel#black_steel)aço negro$(), o primeiro passo é criar uma liga de $(thing)aço vermelho fraco$() em um $(l:metalworking/crucible)cadinho$().",
+      "title": "Aço vermelho"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_red_steel",
+      "title": "Aço vermelho fraco",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requisitos:$()$(br)$(li)50 - 55 %: $(thing)Aço negro$()$(li)20 - 25 %: $(thing)Aço$()$(li)10 - 15 %: $(thing)Latão$()$(li)10 - 15 %: $(thing)Ouro rosa$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_red_steel",
+      "text": "Os $(thing)lingotes de aço vermelho fraco$() podem ser soldados com $(l:metalworking/steel#black_steel)lingotes de aço negro$() para criar $(thing)lingotes de aço vermelho de alto carbono$(). Por fim, eles podem ser trabalhados em uma $(l:metalworking/anvils)bigorna$() para criar $(thing)lingotes de aço vermelho$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)aço vermelho$() pode ser usado para criar ferramentas e $(l:mechanics/armor)armaduras$(), além de um $(thing)balde de aço vermelho$(), que pode transportar $(cfg:metalBucketCapacity) de líquidos, inclusive $(6)lava$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:metal/ingot/pig_iron": 1,
+    "tfc:metal/ingot/high_carbon_steel": 1,
+    "tfc:metal/ingot/steel": 1,
+    "tfc:metal/ingot/weak_steel": 3,
+    "tfc:metal/ingot/high_carbon_black_steel": 4,
+    "tfc:metal/ingot/black_steel": 4,
+    "tfc:metal/ingot/weak_blue_steel": 7,
+    "tfc:metal/ingot/high_carbon_blue_steel": 8,
+    "tfc:metal/ingot/blue_steel": 8,
+    "tfc:metal/ingot/weak_red_steel": 11,
+    "tfc:metal/ingot/high_carbon_red_steel": 12,
+    "tfc:metal/ingot/red_steel": 12
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "nativeJar": "gtceu-1.21.1-8.1.0.jar",
+  "nativeSha256": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680",
+  "routes": [
+    {
+      "nativeName": "bacteria",
+      "type": "brewery",
+      "eu": 480,
+      "duration": 300,
+      "itemInputs": [
+        "4x gtceu:bio_chaff"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:distilled_water",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:bacteria",
+          "amount": 1000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "bacterial_sludge",
+      "type": "large_chemical_reactor",
+      "eu": 1920,
+      "duration": 600,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:biomass",
+          "amount": 1000
+        },
+        {
+          "fluid": "gtceu:bacteria",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:bacterial_sludge",
+          "amount": 1000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "enriched_bacterial_sludge_from_u238",
+      "type": "brewery",
+      "eu": 4,
+      "duration": 128,
+      "itemInputs": [
+        "modern_industrialization:uranium_238_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:bacterial_sludge",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:enriched_bacterial_sludge",
+          "amount": 1000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "mutagen",
+      "type": "distillery",
+      "eu": 7680,
+      "duration": 100,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:enriched_bacterial_sludge",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:mutagen",
+          "amount": 100
+        }
+      ],
+      "circuit": 1,
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "collagen_from_bone",
+      "type": "large_chemical_reactor",
+      "eu": 480,
+      "duration": 1600,
+      "itemInputs": [
+        "2x gtceu:meat_dust",
+        "minecraft:bone"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:sulfuric_acid",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "2x gtceu:collagen_dust"
+      ],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:diluted_sulfuric_acid",
+          "amount": 1000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "gelatin_mixture",
+      "type": "mixer",
+      "eu": 480,
+      "duration": 1600,
+      "itemInputs": [
+        "4x gtceu:collagen_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "chemica:phosphoric_acid",
+          "amount": 1000
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 3000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:gelatin_mixture",
+          "amount": 4000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "gelatin",
+      "type": "centrifuge",
+      "eu": 480,
+      "duration": 2400,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:gelatin_mixture",
+          "amount": 6000
+        }
+      ],
+      "itemOutputs": [
+        "chemica:phosphorus_dust",
+        "4x gtceu:gelatin_dust"
+      ],
+      "outputFluids": [],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "agar",
+      "type": "autoclave",
+      "eu": 480,
+      "duration": 600,
+      "itemInputs": [
+        "gtceu:gelatin_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:distilled_water",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:agar_dust"
+      ],
+      "outputFluids": [],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "raw_growth_medium",
+      "type": "mixer",
+      "eu": 7680,
+      "duration": 1200,
+      "itemInputs": [
+        "4x gtceu:meat_dust",
+        "4x tfc:powder/salt",
+        "4x chemlib:calcium_dust",
+        "4x gtceu:agar_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:mutagen",
+          "amount": 4000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:raw_growth_medium",
+          "amount": 4000
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "sterile_growth_medium",
+      "type": "fluid_heater",
+      "eu": 7680,
+      "duration": 20,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:raw_growth_medium",
+          "amount": 100
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:sterilized_growth_medium",
+          "amount": 100
+        }
+      ],
+      "circuit": 1,
+      "cleanroom": "STERILE_CLEANROOM"
+    },
+    {
+      "nativeName": "stem_cells",
+      "type": "large_chemical_reactor",
+      "eu": 30720,
+      "duration": 300,
+      "itemInputs": [
+        "gtceu:osmiridium_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:bacteria",
+          "amount": 500
+        },
+        {
+          "fluid": "gtceu:sterilized_growth_medium",
+          "amount": 500
+        }
+      ],
+      "itemOutputs": [
+        "32x gtceu:stem_cells"
+      ],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:bacterial_sludge",
+          "amount": 500
+        }
+      ],
+      "cleanroom": "STERILE_CLEANROOM"
+    }
+  ],
+  "authoredMappings": {
+    "salt": "The unchanged four-NaCl growth-medium ingredient uses the existing TFC halite salt powder. MI salt dust has no first supplier in the selected campaign;its remaining recipes depend on absent foreign ore or on MI salt itself. This is one recipe-specific NaCl source binding,with no salt tag/conversion added."
+  }
+}

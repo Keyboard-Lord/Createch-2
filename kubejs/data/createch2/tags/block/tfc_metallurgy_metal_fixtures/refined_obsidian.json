@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/refined_obsidian",
+      "required": false
+    }
+  ]
+}

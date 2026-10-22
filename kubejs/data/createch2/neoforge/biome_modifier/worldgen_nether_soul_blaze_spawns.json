@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:nether_soul_ecology",
+  "spawners": {
+    "type": "unique_mobs:soul_blaze",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

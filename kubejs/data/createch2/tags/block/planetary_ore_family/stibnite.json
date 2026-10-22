@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_stibnite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_stibnite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_stibnite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_stibnite/granite",
+      "required": false
+    }
+  ]
+}

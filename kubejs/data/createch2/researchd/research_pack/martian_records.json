@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 184,
+    "g": 87,
+    "b": 56
+  },
+  "sorting_value": 102,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.martian_records.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.martian_records.description"
+    }
+  }
+}

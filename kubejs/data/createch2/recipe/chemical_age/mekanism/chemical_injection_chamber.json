@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "PHP",
+    "ACA"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "H": {
+      "item": "mekanism:purification_chamber"
+    },
+    "A": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    }
+  },
+  "result": {
+    "id": "mekanism:chemical_injection_chamber",
+    "count": 1
+  }
+}

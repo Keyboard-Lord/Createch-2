@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 480,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "gtceu:tiny_pipe_casting_mold",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "tag": "c:plates/stainless_steel",
+      "amount": 3
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:stainless_steel_tiny_fluid_pipe",
+      "amount": 6
+    }
+  ]
+}

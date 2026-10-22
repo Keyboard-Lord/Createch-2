@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/solder"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/solder",
+    "amount": 100
+  },
+  "temperature": 400,
+  "use_durability": false
+}

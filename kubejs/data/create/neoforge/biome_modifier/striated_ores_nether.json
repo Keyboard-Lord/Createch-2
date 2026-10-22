@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": "create:striated_ores_nether",
+  "step": "underground_ores"
+}

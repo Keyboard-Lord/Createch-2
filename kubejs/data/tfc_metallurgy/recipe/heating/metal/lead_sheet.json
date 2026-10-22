@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/lead"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/lead",
+    "amount": 200
+  },
+  "temperature": 328,
+  "use_durability": false
+}

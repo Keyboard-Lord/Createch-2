@@ -1,0 +1,42 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "IHI",
+    "LAL",
+    "PCP",
+    "BEB"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "L": {
+      "item": "tfmg:cable_connector"
+    },
+    "A": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "tag": "createch2:control/electromechanical"
+    }
+  },
+  "result": {
+    "id": "simulated:docking_connector",
+    "count": 2
+  }
+}

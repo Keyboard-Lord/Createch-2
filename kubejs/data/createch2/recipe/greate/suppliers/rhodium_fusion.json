@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "alchemistry:fusion",
+  "group": "fusion",
+  "input1": {
+    "item": "chemlib:sulfur"
+  },
+  "input2": {
+    "item": "chemlib:copper"
+  },
+  "output": {
+    "item": "chemlib:rhodium"
+  }
+}

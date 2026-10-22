@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_stargate_compatibility.mjs",
+  "type": "sgjourney:crystallizing",
+  "crystal_base": {
+    "ingredient": {
+      "item": "sgjourney:crystal_base"
+    },
+    "amount": 1
+  },
+  "primary_ingredient": {
+    "ingredient": {
+      "item": "sgjourney:naquadah_copper_alloy"
+    },
+    "amount": 16,
+    "deplete": true
+  },
+  "secondary_ingredient": {
+    "ingredient": {
+      "item": "minecraft:emerald"
+    },
+    "amount": 9,
+    "deplete": true
+  },
+  "output": {
+    "id": "sgjourney:stargate_upgrade_crystal",
+    "components": {
+      "sgjourney:stargate_upgrade": "sgjourney:andromeda_stargate"
+    }
+  },
+  "progress": 100,
+  "input_fluid": {
+    "id": "sgjourney:liquid_naquadah",
+    "amount": 100
+  }
+}

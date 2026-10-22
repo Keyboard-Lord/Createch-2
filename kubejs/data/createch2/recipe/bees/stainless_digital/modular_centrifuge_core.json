@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SFS",
+    "CPC",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "C": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "P": {
+      "item": "productivebees:powered_centrifuge"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "modularbees:modular_centrifuge_core",
+    "count": 1
+  }
+}

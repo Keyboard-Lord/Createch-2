@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:rima_yellowstone",
+    "createch2:rima_mauve_hills",
+    "createch2:rima_amethyst_canyon",
+    "createch2:rima_painted_mountains",
+    "createch2:rima_bioshroom_caves",
+    "createch2:rima_prismachasm"
+  ]
+}

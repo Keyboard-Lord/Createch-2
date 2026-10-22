@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "authority": "Ordinary food inputs use TFC semantic families; newly fabricated ordinary food uses TFC items. Processing-age preservation is a separate required bridge.",
+  "normalizations": [
+    { "source": "minecraft:apple", "output": "tfc:food/red_apple", "tag": "createch2:food/apples", "values": ["tfc:food/red_apple", "tfc:food/green_apple"] },
+    { "source": "minecraft:bread", "output": "tfc:food/wheat_bread", "tag": "createch2:food/breads", "values": ["tfc:food/barley_bread", "tfc:food/maize_bread", "tfc:food/oat_bread", "tfc:food/rye_bread", "tfc:food/rice_bread", "tfc:food/wheat_bread"] },
+    { "source": "minecraft:beef", "output": "tfc:food/beef", "tag": "createch2:food/raw_beef", "values": ["tfc:food/beef"] },
+    { "source": "minecraft:cooked_beef", "output": "tfc:food/cooked_beef", "tag": "createch2:food/cooked_beef", "values": ["tfc:food/cooked_beef"] },
+    { "source": "minecraft:porkchop", "output": "tfc:food/pork", "tag": "createch2:food/raw_pork", "values": ["tfc:food/pork"] },
+    { "source": "minecraft:cooked_porkchop", "output": "tfc:food/cooked_pork", "tag": "createch2:food/cooked_pork", "values": ["tfc:food/cooked_pork"] },
+    { "source": "minecraft:chicken", "output": "tfc:food/chicken", "tag": "createch2:food/raw_poultry", "values": ["tfc:food/chicken", "tfc:food/quail", "tfc:food/pheasant", "tfc:food/grouse", "tfc:food/turkey", "tfc:food/peafowl", "tfc:food/duck"] },
+    { "source": "minecraft:cooked_chicken", "output": "tfc:food/cooked_chicken", "tag": "createch2:food/cooked_poultry", "values": ["tfc:food/cooked_chicken", "tfc:food/cooked_quail", "tfc:food/cooked_pheasant", "tfc:food/cooked_grouse", "tfc:food/cooked_turkey", "tfc:food/cooked_peafowl", "tfc:food/cooked_duck"] },
+    { "source": "minecraft:mutton", "output": "tfc:food/mutton", "tag": "createch2:food/raw_mutton", "values": ["tfc:food/mutton"] },
+    { "source": "minecraft:cooked_mutton", "output": "tfc:food/cooked_mutton", "tag": "createch2:food/cooked_mutton", "values": ["tfc:food/cooked_mutton"] },
+    { "source": "minecraft:rabbit", "output": "tfc:food/rabbit", "tag": "createch2:food/raw_rabbit", "values": ["tfc:food/rabbit"] },
+    { "source": "minecraft:cooked_rabbit", "output": "tfc:food/cooked_rabbit", "tag": "createch2:food/cooked_rabbit", "values": ["tfc:food/cooked_rabbit"] },
+    { "source": "minecraft:cod", "output": "tfc:food/cod", "tag": "createch2:food/raw_cod", "values": ["tfc:food/cod"] },
+    { "source": "minecraft:cooked_cod", "output": "tfc:food/cooked_cod", "tag": "createch2:food/cooked_cod", "values": ["tfc:food/cooked_cod"] },
+    { "source": "minecraft:salmon", "output": "tfc:food/salmon", "tag": "createch2:food/raw_salmon", "values": ["tfc:food/salmon"] },
+    { "source": "minecraft:cooked_salmon", "output": "tfc:food/cooked_salmon", "tag": "createch2:food/cooked_salmon", "values": ["tfc:food/cooked_salmon"] },
+    { "source": "minecraft:tropical_fish", "output": "tfc:food/tropical_fish", "tag": "createch2:food/raw_tropical_fish", "values": ["tfc:food/tropical_fish"] },
+    { "source": "minecraft:carrot", "output": "tfc:food/carrot", "tag": "createch2:food/carrots", "values": ["tfc:food/carrot"] },
+    { "source": "minecraft:potato", "output": "tfc:food/potato", "tag": "createch2:food/potatoes", "values": ["tfc:food/potato"] },
+    { "source": "minecraft:beetroot", "output": "tfc:food/beet", "tag": "createch2:food/beetroots", "values": ["tfc:food/beet"] },
+    { "source": "minecraft:melon_slice", "output": "tfc:food/melon_slice", "tag": "createch2:food/melon_slices", "values": ["tfc:food/melon_slice"] },
+    { "source": "minecraft:dried_kelp", "output": "tfc:food/dried_kelp", "tag": "createch2:food/dried_kelp", "values": ["tfc:food/dried_kelp"] },
+    { "source": "minecraft:baked_potato", "output": "tfc:food/baked_potato", "tag": "createch2:food/baked_potatoes", "values": ["tfc:food/baked_potato"] }
+  ],
+  "recipe_only_families": [
+    { "source": "minecraft:rabbit_stew", "tag": "createch2:food/protein_soups", "values": ["tfc:food/protein_soup"], "reason": "Prepared soup is an input family only; dynamic nutrition cannot be invented by a generic output replacement." }
+  ],
+  "bedding": { "tag": "createch2:agriculture/incubator_bedding", "values": ["tfc:thatch"], "meaning": "Insulating straw bedding, not an edible grain or animal-feed equivalence." },
+  "implemented_contracts": [
+    "Every captured ordinary edible and magic-consumable exception has a recorded decision in sources/authority/edible_decisions.json.",
+    "Core and KubeJS preserve food age, traits, nutrition and returned containers through the classified processing/storage paths.",
+    "Village and imported-structure farms, livestock, hay and food outputs use the authored physical palette and loot authority."
+  ],
+  "runtime_status": "RUNTIME_UNVERIFIED"
+}

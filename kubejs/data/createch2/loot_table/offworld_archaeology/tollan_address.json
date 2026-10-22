@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sgjourney:stone_cartouche",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": "{id:\"sgjourney:stone_cartouche\",generation_step:0b,address:{dimension:\"sgjourney:tollan\",galaxy:\"sgjourney:milky_way\"},symbols:\"sgjourney:galaxy_milky_way\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

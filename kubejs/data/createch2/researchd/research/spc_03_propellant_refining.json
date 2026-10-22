@@ -1,0 +1,41 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "stellaris:fuel_refinery"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:process_samples",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:spc_01_propulsion_instrumentation",
+    "createch2:thm_02_industrial_heat"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_03_propellant_refining.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_03_propellant_refining.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:first_space/stellaris/fuel_refinery_lv"
+    ]
+  }
+}

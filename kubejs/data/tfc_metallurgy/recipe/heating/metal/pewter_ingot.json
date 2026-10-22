@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/pewter"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/pewter",
+    "amount": 100
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

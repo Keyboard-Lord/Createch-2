@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:dusts/invar"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/invar",
+    "amount": 100
+  },
+  "temperature": 1450,
+  "use_durability": false,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/invar"
+      }
+    }
+  ]
+}

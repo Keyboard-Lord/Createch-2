@@ -1,0 +1,12 @@
+{
+
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:tuff",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:terracotta"
+  ]
+}

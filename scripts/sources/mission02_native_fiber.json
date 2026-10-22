@@ -1,0 +1,1177 @@
+{
+  "classes": {
+    "potInventory": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PotBlockEntity$PotInventory",
+      [
+        "sipush        1000",
+        "inputStart();",
+        "inputEnd();"
+      ]
+    ],
+    "pot": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PotBlockEntity",
+      [
+        "PotRecipe.getDuration:",
+        "preBoilingTicks:",
+        "PotRecipe.isHotEnough:",
+        "PotOutput.onFinish:",
+        "setStackInSlot:"
+      ]
+    ],
+    "potRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.PotRecipe",
+      [
+        "SizedFluidIngredient.test:",
+        "Helpers.perfectMatchExists:",
+        "Field temperature:",
+        "ifle"
+      ]
+    ],
+    "simplePot": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.SimplePotRecipe",
+      [
+        "String item_output",
+        "SimplePotRecipe$SimpleOutput",
+        "IPotInventory"
+      ]
+    ],
+    "potOutput": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.SimplePotRecipe$SimpleOutput",
+      [
+        "IPotInventory.setStackInSlot:",
+        "IPotInventory.clearFluid:"
+      ]
+    ],
+    "fresh": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.ingredients.NotRottenIngredient",
+      [
+        "FoodCapability.isRotten:"
+      ]
+    ],
+    "firepit": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.FirepitBlock",
+      [
+        "TFCBlocks.POT:",
+        "TFCItems.POT:",
+        "AbstractFirepitBlockEntity.convertTo:"
+      ]
+    ],
+    "firepitBase": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.AbstractFirepitBlockEntity",
+      [
+        "Method consumeFuel:",
+        "HeatCapability.adjustDeviceTemp:",
+        "Field burnTemperature:"
+      ]
+    ],
+    "heat": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.HeatCapability",
+      [
+        "ServerConfig.deviceHeatingModifier:",
+        "targetDeviceTemp:",
+        "adjustTempTowards:"
+      ]
+    ],
+    "bird": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.livestock.OviparousAnimal",
+      [
+        "Method isFemale:",
+        "Age.ADULT:",
+        "Method getProductsCooldown:",
+        "Items.EGG:"
+      ]
+    ],
+    "producing": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.livestock.ProducingAnimal",
+      [
+        "Field produceFamiliarity:",
+        "Method hasProduct:",
+        "Calendars.get:"
+      ]
+    ],
+    "animalProps": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.livestock.TFCAnimalProperties",
+      [
+        "float 0.06f",
+        "InterfaceMethod setFamiliarity:",
+        "InterfaceMethod getAdultFamiliarityCap:",
+        "ItemStack.shrink:"
+      ]
+    ],
+    "quail": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.TFCEntities$10",
+      [
+        "extends net.dries007.tfc.common.entities.livestock.OviparousAnimal",
+        "TFCTags$Items.QUAIL_FOOD:"
+      ]
+    ],
+    "entities": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.TFCEntities",
+      [
+        "makeQuail(",
+        "ServerConfig.quailConfig:",
+        "TFCEntities$10"
+      ]
+    ],
+    "layEgg": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.ai.livestock.LayEggBehavior",
+      [
+        "OviparousAnimal.isReadyForAnimalProduct:",
+        "Seat.sit:",
+        "TFCBrain.NEST_BOX_MEMORY:"
+      ]
+    ],
+    "sensor": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.ai.livestock.NearestNestBoxSensor",
+      [
+        "OviparousAnimal.isReadyForAnimalProduct:",
+        "TFCBrain.NEST_BOX_MEMORY:",
+        "PoiManager"
+      ]
+    ],
+    "nest": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.NestBoxBlockEntity",
+      [
+        "Seat.getSittingEntity:",
+        "bipush        7",
+        "OviparousAnimal.makeEgg:",
+        "Helpers.insertOne:",
+        "OviparousAnimal.setProductsCooldown:"
+      ]
+    ],
+    "birdAI": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.entities.ai.livestock.OviparousAi",
+      [
+        "LayEggBehavior",
+        "TFCBrain.NEST_BOX_SENSOR:",
+        "TFCBrain.NEST_BOX_MEMORY:"
+      ]
+    ],
+    "burner": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity",
+      [
+        "CreateDataMaps.SUPERHEATED_BLAZE_BURNER_FUELS:",
+        "BlazeBurnerFuel.burnTime:",
+        "FuelType.SPECIAL:",
+        "HeatLevel.SEETHING:"
+      ]
+    ],
+    "press": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.press.PressingBehaviour",
+      [
+        "getRunningTickSpeed();",
+        "Math.abs:",
+        "float 512.0f",
+        "float 60.0f",
+        "tryProcessInBasin:"
+      ]
+    ],
+    "basin": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinRecipe",
+      [
+        "HeatCondition.testBlazeBurner:",
+        "BasinBlockEntity.getHeatLevel:"
+      ]
+    ]
+  },
+  "nativeCodeSha256": {
+    "potInventory": "72ca3d6c255c154658b17c4bfd81737e3299d743c3a9fc42c586fc0ae9f4334d",
+    "pot": "bbf5d2c2cf83b6639562354057999b976033a6328c29906cc7f680e9bb442630",
+    "potRecipe": "18b9bb93895a60d2db384423ac356be0fcef34e82ababa5dafc23e9729e5cc16",
+    "simplePot": "ab2ab9cf9a5ad469f5c9552142bd2cb87cfec3cebd479c91163ce4bf4423bc95",
+    "potOutput": "0036f8dde63657e41c49649b78a28c3910dcb3210ee651bbf7cfb7a0a8927649",
+    "fresh": "744576807ade8b1f3dd854de2e260a9c5a3ef9cf253950f20220c5f8613ec19c",
+    "firepit": "934b4518d7e1709fe3bf8ac048915192bc29a3f6ef41fbb66d3b506b81be1c70",
+    "firepitBase": "31507995fb817110edd60e1c4469382e212cd407976fe01dc5f07041f6aec696",
+    "heat": "d703fba7b9c8ca2e4e8c9efc5387cc2ab443064080a512a4445f1c229d6a965a",
+    "bird": "b789c8182f57a6c3fd1e5f5d64047b6c4e6478510582500c1f7bd558319e083d",
+    "producing": "2cbc413960e1717b08e670cb1a88f320823c8cce3bfd9f89407b23deb501f6e2",
+    "animalProps": "17415e3ab3284f5545aa9bf2a2136589b00bd9655780ee5d84d4b1b5e7370de5",
+    "quail": "d733647515dfbc1b7ab34aca14339f2160a2e2ba8cfad4fc5c6a71e981a880da",
+    "entities": "4369760b236e299f6696fba55b5377865eb633969bc677c2f96f4d4174b83992",
+    "layEgg": "dc4104afda6e237875b778364e4c58b83ee62d9fa3dc6f5e07f72a7459a3a884",
+    "sensor": "d0efd0dec42566ff4402dc9fb49e68baf2e8c24b0f54ccbd5f1afba01a795a2a",
+    "nest": "28210b89092156c4398194d9be27d98856c7bdc94790f9b0ffb31c095b273358",
+    "birdAI": "06a670744d1baf4d07c6052746cf02ed386ecde241aab7a23f0f610c3e6999e0",
+    "burner": "91abba0cca6ba6fc4d0b449b221d767ffe8f4f12418ccaec6755800d3d73e038",
+    "press": "f5cfcb84e4433ba7ca49a719de0bdd3a42d1a89345f9651820ca0723661c7069",
+    "basin": "f07880adcc5878526e705f0f1f2d7e755f8d35e637e19db968f1654cde450164"
+  },
+  "recipes": {
+    "chemica:mixing/cobalt_catalyst": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:mixing",
+          "heat_requirement": "heated",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 500,
+              "fluid": "tfmg:sulfuric_acid"
+            },
+            {
+              "tag": "c:dusts/cobalt"
+            },
+            {
+              "item": "chemica:caustic_soda_dust"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:cobalt_catalyst"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:mixing/vanadium_catalyst": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:mixing",
+          "heat_requirement": "heated",
+          "ingredients": [
+            {
+              "type": "neoforge:tag",
+              "amount": 500,
+              "tag": "tfc:any_fresh_water"
+            },
+            {
+              "tag": "createch2:chemical_salt"
+            },
+            {
+              "tag": "createch2:chemical_salt"
+            },
+            {
+              "tag": "createch2:chemical_salt"
+            },
+            {
+              "tag": "createch2:chemical_salt"
+            },
+            {
+              "tag": "c:dusts/vanadium"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:vanadium_catalyst"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:compacting/caustic_soda_dust": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:compacting",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 100,
+              "fluid": "chemica:caustic_soda"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:caustic_soda_dust"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:vat_machine_recipe/mixing/acrylonitrile": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "tfmg:vat_machine_recipe",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 1000,
+              "fluid": "tfmg:ethylene"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 500,
+              "fluid": "chemica:ammonia"
+            },
+            {
+              "item": "chemica:vanadium_catalyst"
+            }
+          ],
+          "machines": [
+            "tfmg:mixing"
+          ],
+          "results": [
+            {
+              "amount": 500,
+              "id": "chemica:acrylonitrile"
+            },
+            {
+              "id": "chemica:vanadium_catalyst"
+            }
+          ],
+          "processing_time": 200,
+          "allowed_vat_types": [
+            "tfmg:cast_iron",
+            "tfmg:steel",
+            "tfmg:fireproof"
+          ],
+          "min_size": 1
+        }
+      }
+    ],
+    "firmalife:pot/sugar_2": [
+      {
+        "provider": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
+        "data": {
+          "type": "tfc:pot",
+          "duration": 2000,
+          "fluid_ingredient": {
+            "amount": 100,
+            "fluid": "minecraft:water"
+          },
+          "ingredients": [
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "tfc:food/beet"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            },
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "tfc:food/beet"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            },
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "tfc:food/beet"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            },
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "tfc:food/beet"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            },
+            {
+              "item": "tfc:powder/salt"
+            }
+          ],
+          "item_output": [
+            {
+              "count": 1,
+              "id": "minecraft:sugar"
+            },
+            {
+              "count": 1,
+              "id": "minecraft:sugar"
+            }
+          ],
+          "temperature": 300,
+          "uses_all_fluid": false
+        }
+      }
+    ],
+    "tfc:crafting/nest_box": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "L": {
+              "tag": "tfc:lumber"
+            },
+            "S": {
+              "item": "tfc:straw"
+            }
+          },
+          "pattern": [
+            "S S",
+            "LSL",
+            "LLL"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:nest_box"
+          }
+        }
+      }
+    ],
+    "create:compacting/blaze_cake": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "create:compacting",
+          "ingredients": [
+            {
+              "tag": "c:eggs"
+            },
+            {
+              "item": "minecraft:sugar"
+            },
+            {
+              "item": "create:cinder_flour"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:blaze_cake_base"
+            }
+          ]
+        }
+      }
+    ],
+    "create:filling/blaze_cake": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "create:blaze_cake_base"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:blaze_cake"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:mixing/pan_precursor": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:mixing",
+          "ingredients": [
+            {
+              "item": "chemica:cobalt_catalyst"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 1000,
+              "fluid": "chemica:acrylonitrile"
+            }
+          ],
+          "results": [
+            {
+              "amount": 1000,
+              "id": "chemica:pan_precursor"
+            },
+            {
+              "id": "chemica:cobalt_catalyst"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:compacting/pan_fibers": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:compacting",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "chemica:pan_precursor"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:pan_fibers"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:compacting/stabilized_fibers": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:compacting",
+          "heat_requirement": "superheated",
+          "ingredients": [
+            {
+              "type": "neoforge:tag",
+              "amount": 250,
+              "tag": "c:oxygen"
+            },
+            {
+              "item": "chemica:pan_fibers"
+            },
+            {
+              "item": "chemica:pan_fibers"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:stabilized_fibers"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:compacting/carbon_fiber_strands": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:compacting",
+          "heat_requirement": "superheated",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "chemica:argon"
+            },
+            {
+              "item": "chemica:stabilized_fibers"
+            },
+            {
+              "item": "chemica:stabilized_fibers"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:carbon_fiber_strands"
+            }
+          ]
+        }
+      }
+    ],
+    "chemica:mixing/carbon_fiber_composite_sheet": [
+      {
+        "provider": "authored",
+        "data": {
+          "type": "create:mixing",
+          "ingredients": [
+            {
+              "item": "chemica:carbon_fiber_strands"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "chemica:epoxy_resin"
+            }
+          ],
+          "results": [
+            {
+              "id": "chemica:carbon_fiber_composite_sheet"
+            }
+          ],
+          "processing_time": 300
+        }
+      }
+    ]
+  },
+  "world": {
+    "truth": "STATIC_EXISTING_CARBON_FIBER_MINERALS_AND_FARM_SOURCES",
+    "magnetite": {
+      "feature": "tfc:vein/surface_magnetite",
+      "source": {
+        "placement": "tfc:vein/surface_magnetite",
+        "feature": "tfc:vein/surface_magnetite",
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "minY": 10,
+        "maxY": 90,
+        "hosts": [
+          "tfc:rock/raw/chalk",
+          "tfc:rock/raw/chert",
+          "tfc:rock/raw/claystone",
+          "tfc:rock/raw/conglomerate",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/shale",
+          "tfc:rock/raw/tuff"
+        ],
+        "indicators": [
+          "tfc:ore/small_magnetite"
+        ],
+        "drops": {
+          "tfc:ore/normal_magnetite/chalk": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/chert": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/claystone": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/conglomerate": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/dolomite": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/limestone": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/shale": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/normal_magnetite/tuff": [
+            "tfc:ore/normal_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/chalk": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/chert": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/claystone": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/conglomerate": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/dolomite": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/limestone": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/shale": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/poor_magnetite/tuff": [
+            "tfc:ore/poor_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/chalk": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/chert": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/claystone": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/conglomerate": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/dolomite": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/limestone": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/shale": [
+            "tfc:ore/rich_magnetite"
+          ],
+          "tfc:ore/rich_magnetite/tuff": [
+            "tfc:ore/rich_magnetite"
+          ]
+        }
+      },
+      "block": "tfc:ore/normal_magnetite/limestone",
+      "output": "tfc:ore/normal_magnetite",
+      "loot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:ore/normal_magnetite"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "pickaxe": "tfc:metal/pickaxe/bronze",
+      "dimension": "minecraft:overworld"
+    },
+    "cobaltite": {
+      "feature": "createch2:planetary_mars_cobaltite_tfc_vein",
+      "source": {
+        "feature": "createch2:planetary_mars_cobaltite_tfc_vein",
+        "placements": [
+          "createch2:planetary_mars_cobaltite_tfc_vein"
+        ],
+        "dimensions": [
+          {
+            "dimension": "stellaris:mars",
+            "biomes": [
+              "createch2:mars_ancient_delta",
+              "createch2:mars_desert_canyon",
+              "createch2:mars_gravel_desert",
+              "createch2:mars_painted_mountains",
+              "createch2:mars_prismachasm",
+              "createch2:mars_redstone_caves",
+              "createch2:mars_rocky_mountains",
+              "createch2:mars_stony_spires"
+            ],
+            "matchingHosts": [
+              "stellaris:mars_stone"
+            ]
+          }
+        ],
+        "minY": 0,
+        "maxY": 32,
+        "drops": {
+          "tfc_metallurgy:ore/normal_cobaltite/basalt": [
+            "tfc_metallurgy:ore/normal_cobaltite"
+          ],
+          "tfc_metallurgy:ore/poor_cobaltite/basalt": [
+            "tfc_metallurgy:ore/poor_cobaltite"
+          ],
+          "tfc_metallurgy:ore/rich_cobaltite/basalt": [
+            "tfc_metallurgy:ore/rich_cobaltite"
+          ]
+        }
+      },
+      "block": "tfc_metallurgy:ore/normal_cobaltite/basalt",
+      "output": "tfc_metallurgy:ore/normal_cobaltite",
+      "loot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc_metallurgy:ore/normal_cobaltite"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "pickaxe": "tfc:metal/pickaxe/bronze",
+      "dimension": "stellaris:mars"
+    },
+    "beet": {
+      "placement": "tfc:plant/wild_crop/beet_patch",
+      "biomes": [
+        "tfc:active_shield_volcano",
+        "tfc:ancient_shield_volcano",
+        "tfc:badlands",
+        "tfc:burren_badlands",
+        "tfc:burren_badlands_tall",
+        "tfc:burren_plains",
+        "tfc:burren_plateau",
+        "tfc:burren_roche_moutonee",
+        "tfc:buttes",
+        "tfc:canyons",
+        "tfc:cenote_canyons",
+        "tfc:cenote_highlands",
+        "tfc:cenote_hills",
+        "tfc:cenote_plains",
+        "tfc:cenote_plateau",
+        "tfc:cenote_rolling_hills",
+        "tfc:collisional_mountains",
+        "tfc:doline_canyons",
+        "tfc:doline_highlands",
+        "tfc:doline_hills",
+        "tfc:doline_plains",
+        "tfc:doline_plateau",
+        "tfc:doline_rolling_hills",
+        "tfc:dormant_shield_volcano",
+        "tfc:drumlins",
+        "tfc:embayments",
+        "tfc:extinct_shield_volcano",
+        "tfc:extreme_doline_mountains",
+        "tfc:extreme_doline_plateau",
+        "tfc:glacially_carved_mountains",
+        "tfc:glacially_carved_oceanic_mountains",
+        "tfc:glacially_carved_volcanic_mountains",
+        "tfc:glacially_carved_volcanic_oceanic_mountains",
+        "tfc:glaciated_mountains",
+        "tfc:glaciated_oceanic_mountains",
+        "tfc:glaciated_shield_volcano",
+        "tfc:glaciated_volcanic_mountains",
+        "tfc:glaciated_volcanic_oceanic_mountains",
+        "tfc:grassy_dunes",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:hoodoos",
+        "tfc:ice_sheet_edge",
+        "tfc:ice_sheet_mountains_edge",
+        "tfc:ice_sheet_oceanic_mountains_edge",
+        "tfc:ice_sheet_shore",
+        "tfc:ice_sheet_tuyas_edge",
+        "tfc:inverted_patterned_ground",
+        "tfc:knob_and_kettle",
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:meltwater_lake",
+        "tfc:mesas",
+        "tfc:mountain_lake",
+        "tfc:mountains",
+        "tfc:oceanic_mountain_lake",
+        "tfc:oceanic_mountains",
+        "tfc:oceanic_volcanic_arc",
+        "tfc:old_mountain_lake",
+        "tfc:old_mountains",
+        "tfc:patterned_ground",
+        "tfc:plains",
+        "tfc:plateau",
+        "tfc:plateau_lake",
+        "tfc:plateau_wide",
+        "tfc:rift_lake",
+        "tfc:rift_valley",
+        "tfc:river",
+        "tfc:river_valley",
+        "tfc:rocky_plateau",
+        "tfc:rolling_hills",
+        "tfc:salt_marsh",
+        "tfc:sea_stacks",
+        "tfc:setback_cliffs",
+        "tfc:shilin_canyons",
+        "tfc:shilin_highlands",
+        "tfc:shilin_hills",
+        "tfc:shilin_plains",
+        "tfc:shilin_plateau",
+        "tfc:stair_step_canyons",
+        "tfc:stone_circles",
+        "tfc:sunken_shield_volcano",
+        "tfc:terrace_lower",
+        "tfc:terrace_upper",
+        "tfc:tower_karst_bay",
+        "tfc:tower_karst_canyons",
+        "tfc:tower_karst_highlands",
+        "tfc:tower_karst_hills",
+        "tfc:tower_karst_lake",
+        "tfc:tower_karst_plains",
+        "tfc:tuyas",
+        "tfc:volcanic_island",
+        "tfc:volcanic_mountain_islands",
+        "tfc:volcanic_mountain_lake",
+        "tfc:volcanic_mountains",
+        "tfc:volcanic_oceanic_mountain_lake",
+        "tfc:volcanic_oceanic_mountains",
+        "tfc:whorled_canyons"
+      ],
+      "climate": {
+        "type": "tfc:climate",
+        "min_temperature": -13,
+        "max_temperature": 23,
+        "min_groundwater": 70,
+        "max_groundwater": 300
+      },
+      "output": "tfc:food/beet",
+      "loot": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/beet",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/beet",
+                    "properties": {
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:seeds/beet"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "quail": {
+      "biome": "tfc:plains",
+      "spawn": {
+        "type": "tfc:quail",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      "fauna": {
+        "max_temperature": 10,
+        "min_groundwater": 200,
+        "min_temperature": -15
+      },
+      "foodTag": "tfc:quail_food",
+      "familiarityCap": 0.35,
+      "minimumProduceFamiliarity": 0.15,
+      "produceTicks": 33600,
+      "adulthoodDays": 22
+    },
+    "worldResourcesChanged": false,
+    "limits": [
+      "Native ordinary mining with a manufactured bronze pickaxe, existing selected TFC terrain and a separately supplied Mars return expedition are required; no ore is seeded.",
+      "Locate mature fresh beets and an adult female quail in eligible TFC climate. Feed supplied grain beyond the native familiarity threshold, provide an accessible nest box, wait the native calendar cooldown and collect the egg. Abundance, sex, season, animal AI and collection remain runtime qualification."
+    ]
+  },
+  "geo03Before": {
+    "code": "GEO-03",
+    "id": "createch2:geo_03_deep_extraction",
+    "page": "createch2:process_resources",
+    "name": "Deep Extraction",
+    "description": "Model and operate deep crustal extraction systems.",
+    "icon": "oritech:deep_drill_block",
+    "parents": [
+      "createch2:geo_02_mechanized_extraction",
+      "createch2:ele_03_industrial_power"
+    ],
+    "cost": {
+      "class": "C",
+      "packs": [
+        "geological_surveys",
+        "grid_telemetry",
+        "material_specimens"
+      ]
+    },
+    "recipes_unlocked": [
+      "createch2:oritech_jdt/age_11/oritech/deep_drill",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_coal",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_copper",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_iron",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_nickel",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_platinum",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_uranium",
+      "createch2:oritech_jdt/age_11/deep_drill/route_coal",
+      "createch2:oritech_jdt/age_11/deep_drill/route_copper",
+      "createch2:oritech_jdt/age_11/deep_drill/route_iron",
+      "createch2:oritech_jdt/age_11/deep_drill/route_nickel",
+      "createch2:oritech_jdt/age_11/deep_drill/route_platinum",
+      "createch2:oritech_jdt/age_11/deep_drill/route_uranium",
+      "createch2:utility_authority/mining_gadgets/mk1",
+      "createch2:utility_authority/mining_gadgets/mk2",
+      "createch2:utility_authority/mining_gadgets/modification_table",
+      "createch2:identity/quarryplus/quarry",
+      "createch2:research/pack/geological_surveys_deep",
+      "createch2:materials/vanadium/tfc_magnetite_poor",
+      "createch2:materials/vanadium/tfc_magnetite_normal",
+      "createch2:materials/vanadium/tfc_magnetite_rich",
+      "createch2:materials/molybdenum/tfc_molybdenite_poor",
+      "createch2:materials/molybdenum/tfc_molybdenite_normal",
+      "createch2:materials/molybdenum/tfc_molybdenite_rich",
+      "createch2:greate/suppliers/lithium_crushed_stock",
+      "createch2:greate/suppliers/uraninite_recovery_poor",
+      "createch2:greate/suppliers/uraninite_recovery_normal",
+      "createch2:greate/suppliers/uraninite_recovery_rich",
+      "createch2:greate/suppliers/vanadium_mineral_consolidation",
+      "mekanism:crystallizing/lithium",
+      "mekanism_tfmg_compat:lithium/lithium_ore_enriching",
+      "mekanism_tfmg_compat:lithium/lithium_deepslate_ore_enriching",
+      "mekanism_tfmg_compat:lithium/lithium_raw_ore_enriching"
+    ],
+    "items_covered": [
+      "oritech:deep_drill_block",
+      "oritech:resource_node_coal",
+      "oritech:resource_node_copper",
+      "oritech:resource_node_iron",
+      "oritech:resource_node_nickel",
+      "oritech:resource_node_platinum",
+      "oritech:resource_node_uranium",
+      "mininggadgets:mininggadget_simple",
+      "mininggadgets:mininggadget_fancy",
+      "mininggadgets:modificationtable",
+      "quarryplus:quarry"
+    ],
+    "earliest_age": "Age 11 High Pressure Aerospace",
+    "authority": "Logistics/mining and Oritech authority",
+    "notes": "Authorizes sample-proven virtual drilling and late physical excavation. It does not create first discovery or disable TFC collapse events.",
+    "audit": {
+      "classification": "Production capability and same-output observation separated",
+      "earliest_required_consumer": "No reviewed quest requires this specific locked production capability.",
+      "consumer_quests": [],
+      "same_output_consumer_quests": [
+        "19A1AC76720FD9EC",
+        "13AD566A7B53B4A9",
+        "3E92AD8940B7C89D",
+        "4E0AF8B19BBD94C4",
+        "7FE0327AF90FC126"
+      ],
+      "earliest_same_output_consumer": "Age 10 Stainless and Digital: Quarry Pit Contract (19A1AC76720FD9EC)",
+      "main_or_capstone_path": false,
+      "same_output_on_main_or_capstone_path": true,
+      "reviewed_for_campaign_unity": "2026-10-08",
+      "semantics_version": 2,
+      "capability_review_status": "NO_REQUIRED_RELATIONSHIP_ASSERTED",
+      "scope": "Item-output equality does not prove dependence on an alternative or batch recipe. Only explicit reviewed capability consumers enter required-consumer fields. Knowledge unlock age is unchanged; native dynamic alternatives and loaded acquisition remain runtime qualification."
+    },
+    "localization": {
+      "title": "research.createch2.geo_03_deep_extraction.title",
+      "description": "research.createch2.geo_03_deep_extraction.description"
+    }
+  },
+  "geo03Native": {
+    "type": "researchd:simple",
+    "icon": {
+      "type": "researchd:item_research_icon",
+      "items": [
+        {
+          "id": "oritech:deep_drill_block"
+        }
+      ]
+    },
+    "method": {
+      "type": "researchd:consume_research_pack",
+      "packs": [
+        "createch2:geological_surveys",
+        "createch2:grid_telemetry",
+        "createch2:material_specimens"
+      ],
+      "count": 8,
+      "duration": 225
+    },
+    "parents": [
+      "createch2:geo_02_mechanized_extraction",
+      "createch2:ele_03_industrial_power"
+    ],
+    "requires_parent": true,
+    "research_page": "createch2:process_resources",
+    "display": {
+      "name": {
+        "translate": "research.createch2.geo_03_deep_extraction.title"
+      },
+      "desc": {
+        "translate": "research.createch2.geo_03_deep_extraction.description"
+      }
+    },
+    "effect": {
+      "type": "researchd:unlock_recipe",
+      "recipes": [
+        "createch2:oritech_jdt/age_11/oritech/deep_drill",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_coal",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_copper",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_iron",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_nickel",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_platinum",
+        "createch2:oritech_jdt/age_11/deep_drill/cartridge_uranium",
+        "createch2:oritech_jdt/age_11/deep_drill/route_coal",
+        "createch2:oritech_jdt/age_11/deep_drill/route_copper",
+        "createch2:oritech_jdt/age_11/deep_drill/route_iron",
+        "createch2:oritech_jdt/age_11/deep_drill/route_nickel",
+        "createch2:oritech_jdt/age_11/deep_drill/route_platinum",
+        "createch2:oritech_jdt/age_11/deep_drill/route_uranium",
+        "createch2:utility_authority/mining_gadgets/mk1",
+        "createch2:utility_authority/mining_gadgets/mk2",
+        "createch2:utility_authority/mining_gadgets/modification_table",
+        "createch2:identity/quarryplus/quarry",
+        "createch2:research/pack/geological_surveys_deep",
+        "createch2:materials/vanadium/tfc_magnetite_poor",
+        "createch2:materials/vanadium/tfc_magnetite_normal",
+        "createch2:materials/vanadium/tfc_magnetite_rich",
+        "createch2:materials/molybdenum/tfc_molybdenite_poor",
+        "createch2:materials/molybdenum/tfc_molybdenite_normal",
+        "createch2:materials/molybdenum/tfc_molybdenite_rich",
+        "createch2:greate/suppliers/lithium_crushed_stock",
+        "createch2:greate/suppliers/uraninite_recovery_poor",
+        "createch2:greate/suppliers/uraninite_recovery_normal",
+        "createch2:greate/suppliers/uraninite_recovery_rich",
+        "createch2:greate/suppliers/vanadium_mineral_consolidation",
+        "mekanism:crystallizing/lithium",
+        "mekanism_tfmg_compat:lithium/lithium_ore_enriching",
+        "mekanism_tfmg_compat:lithium/lithium_deepslate_ore_enriching",
+        "mekanism_tfmg_compat:lithium/lithium_raw_ore_enriching"
+      ]
+    }
+  },
+  "fuelLayers": [
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "data": {
+        "values": {
+          "create:blaze_cake": {
+            "burn_time": 3200
+          }
+        }
+      }
+    }
+  ]
+}

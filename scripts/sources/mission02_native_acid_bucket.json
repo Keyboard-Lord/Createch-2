@@ -1,0 +1,27 @@
+{
+  "truth": "REVIEWED_CHEMICA_HCL_REGISTERED_BUCKET",
+  "classes": {
+    "fluids": [
+      "chemica-1.21.1-0.7.1.jar",
+      "com.cosmads.chemica.registry.ChemicaFluids"
+    ],
+    "acidType": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.fluid.AcidFluidType"
+    ],
+    "fluidsV": [
+      "chemica-1.21.1-0.7.1.jar",
+      "com.cosmads.chemica.registry.ChemicaFluids",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "fluids": "2ed91f8f087de8dd0102d428ee645e05a089e2fd9190041fc3902119bbb564d0",
+    "acidType": "effda35d1fb633276146bb20517890cd1e65ba205f6fe726469f7d8c7f10c819",
+    "fluidsV": "e3cd2dfe6c500c95f3351236301c450923c77ef777a5a414b731b187f09937bb"
+  },
+  "fluid": "chemica:hydrochloric_acid",
+  "empty": "minecraft:bucket",
+  "filled": "chemica:hydrochloric_acid_bucket",
+  "amount": 1000
+}

@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:pegasus_dhd"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:tollan_records",
+      "createch2:frontier_observations",
+      "createch2:computational_models",
+      "createch2:grid_telemetry"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:frn_04_spacetime_engineering",
+    "createch2:spc_12_interstellar_engineering",
+    "createch2:ele_05_extreme_power_systems",
+    "createch2:com_06_quantum_computation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04f_eighth_chevron.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04f_eighth_chevron.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:offworld_archaeology/advanced_control_crystal",
+      "createch2:offworld_archaeology/pegasus_dhd"
+    ]
+  }
+}

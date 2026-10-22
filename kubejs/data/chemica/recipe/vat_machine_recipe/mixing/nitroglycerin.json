@@ -1,0 +1,40 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:nitric_acid"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:glycerin"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "tfmg:sulfuric_acid"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 900,
+      "id": "chemica:nitroglycerin"
+    },
+    {
+      "amount": 100,
+      "id": "tfmg:sulfuric_acid"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RTR",
+    "COC",
+    "RSR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "tfmg:copper_spool"
+    },
+    "O": {
+      "tag": "c:ingots/tin"
+    },
+    "S": {
+      "tag": "createch2:industrial_rubber_sheet"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:analog_circuit",
+    "count": 1
+  }
+}

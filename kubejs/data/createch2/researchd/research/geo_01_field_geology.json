@@ -1,0 +1,33 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:compass"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:geological_surveys",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.geo_01_field_geology.title"
+    },
+    "desc": {
+      "translate": "research.createch2.geo_01_field_geology.description"
+    }
+  }
+}

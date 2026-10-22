@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FMF",
+    "PSP",
+    "HBH"
+  ],
+  "key": {
+    "F": {
+      "item": "stellaris:engine_fan"
+    },
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "P": {
+      "item": "modern_industrialization:pump"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    }
+  },
+  "result": {
+    "id": "stellaris:rocket_engine",
+    "count": 1
+  }
+}

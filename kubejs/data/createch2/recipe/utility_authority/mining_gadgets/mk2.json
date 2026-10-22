@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "DGD",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "T": {
+      "item": "electroenergetics:transformer_core"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "G": {
+      "item": "mininggadgets:mininggadget_simple"
+    },
+    "B": {
+      "item": "electroenergetics:accumulator"
+    }
+  },
+  "result": {
+    "id": "mininggadgets:mininggadget_fancy",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    " C ",
+    " A "
+  ],
+  "key": {
+    "T": {
+      "item": "create:transmitter"
+    },
+    "C": {
+      "item": "create:clipboard"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "cbc_ballistics:network_manager_item",
+    "count": 1
+  }
+}

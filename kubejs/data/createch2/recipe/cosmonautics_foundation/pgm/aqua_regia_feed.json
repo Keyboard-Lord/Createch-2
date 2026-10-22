@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 96,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:raw_platinum",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:platinum_tiny_dust",
+      "amount": 4
+    },
+    {
+      "tag": "c:dusts/sodium",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:chlorine",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:mixed_ingot_iridium",
+      "amount": 1
+    }
+  ]
+}

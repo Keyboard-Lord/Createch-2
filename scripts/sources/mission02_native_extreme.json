@@ -1,0 +1,127 @@
+{
+  "truth": "REVIEWED_EXISTING_EXTREME_STARLIGHT_AND_LAVA_PROVIDERS",
+  "starlightJar": "eternalstarlight-0.9.1+1.21.1+neoforge.jar",
+  "starlightJarSha256": "e77369ad1a779036b243ef0f7b24776640a3ff84968e6f3be1931bc953e92b09",
+  "classes": {
+    "thirst": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.monster.ThirstWalker",
+      "verbose": false,
+      "sha256": "9edff5c0e5f53b3f27e0c3176465c5e68f99b1cdf85334bc0c99f96d79fb4bfd"
+    },
+    "setup": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.handler.ESCommonSetupHandler",
+      "verbose": false,
+      "sha256": "7fba78f5475c74eee5589f0122e5dd32f7252b131c8cd7303b18714cb5af924d"
+    },
+    "setupV": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.handler.ESCommonSetupHandler",
+      "verbose": true,
+      "sha256": "b6d40dd115e5ad60538024d7bbc0e9ae4372b126cf40713c330c7f0ef31b06bf"
+    },
+    "events": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.neoforge.event.CommonSetupEvents",
+      "verbose": false,
+      "sha256": "e21164455d8860d5988d62a0a063b484c8d28bdfdd3654c0cc9271f9c1d37d73"
+    },
+    "eventsV": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.neoforge.event.CommonSetupEvents",
+      "verbose": true,
+      "sha256": "bcd4067ccf13585f42c71df9dc0083e9db17776c4c7c4c971e4fd6ae26dde54a"
+    },
+    "source": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.world.gen.biomesource.ESBiomeSource",
+      "verbose": false,
+      "sha256": "07ce2ab33a4d1324cdcbc485ef82da09f08ac24e093ead1fb45a45c48654e47d"
+    },
+    "blocks": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.registry.ESBlocks",
+      "verbose": false,
+      "sha256": "c2eb3e441348776e39207afe0a720f4e8d62e51fcd0f16d2e28e747ad640bf4f"
+    },
+    "blocksV": {
+      "provider": "starlight",
+      "class": "cn.leolezury.eternalstarlight.common.registry.ESBlocks",
+      "verbose": true,
+      "sha256": "8970c4111cbd17e75d3ab5b1eb50c6282fa82f379d79e81ea79b34cc9b8b9a05"
+    },
+    "geode": {
+      "provider": "loader",
+      "class": "net.minecraft.world.level.levelgen.feature.GeodeFeature",
+      "verbose": false,
+      "sha256": "ebebd23084a2fbd9017c1f4cbb8c43c1955187b9da866f29f59fcae420aab034"
+    },
+    "lava": {
+      "provider": "loader",
+      "class": "net.minecraft.world.level.material.LavaFluid",
+      "verbose": false,
+      "sha256": "2fa57051bc8cb6dcc31ba16b0f98efff79a41d84085024bae75fb434fb18df83"
+    },
+    "lavaType": {
+      "provider": "loader",
+      "class": "net.neoforged.neoforge.common.NeoForgeMod$3",
+      "verbose": false,
+      "sha256": "b9c24d7874c41d00299146dc4cd703559a30d84392490df8e66899f42206ceee"
+    },
+    "forge": {
+      "provider": "loader",
+      "class": "net.neoforged.neoforge.common.NeoForgeMod",
+      "verbose": false,
+      "sha256": "c8e8a07890ff7823bbec7554820a3972808d8c665735dd6027ee51db596a19b4"
+    },
+    "forgeV": {
+      "provider": "loader",
+      "class": "net.neoforged.neoforge.common.NeoForgeMod",
+      "verbose": true,
+      "sha256": "ba33066f95a59c44134ade4fbef7084c2fa2e8bcd79baed5673b8d24946a1a94"
+    },
+    "hooks": {
+      "provider": "loader",
+      "class": "net.neoforged.neoforge.common.CommonHooks",
+      "verbose": false,
+      "sha256": "fddb9d3b7e90e2b491d2e14ba3751af12cfc1a54a166fceb09347d2ad41dd5ad"
+    }
+  },
+  "collector": {
+    "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+    "sha256": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
+    "classes": {
+      "tile": {
+        "class": "committee.nova.mods.avaritia.common.tile.NeutronCollectorTile",
+        "verbose": false,
+        "sha256": "0df2a518ea5057a882bff379d11890291f29776f595ca0bc5d6efdee11a62e5f"
+      },
+      "block": {
+        "class": "committee.nova.mods.avaritia.common.block.collector.NeutronCollectorBlock",
+        "verbose": false,
+        "sha256": "5e04d5d1efe29df6d6ebc6cc64462bfdf4465e1a4af4eb8213189b0e8b24f254"
+      },
+      "blockV": {
+        "class": "committee.nova.mods.avaritia.common.block.collector.NeutronCollectorBlock",
+        "verbose": true,
+        "sha256": "d7b232021d0a6ac01b69bf9d405fb9d0d7c0d62c2599fe5416be3ecf2c5613be"
+      },
+      "base": {
+        "class": "committee.nova.mods.avaritia.api.common.block.BaseTileEntityBlock",
+        "verbose": false,
+        "sha256": "eb41ec5ee460240a25dede909e545ec230ef586160788b43cda2a9655677680c"
+      },
+      "tier": {
+        "class": "committee.nova.mods.avaritia.init.registry.enums.CollectorTier",
+        "verbose": false,
+        "sha256": "47a2b46767e1dc69b633e5f7937ec4ac7f9fb86208ed8c9afa50de33298507d2"
+      },
+      "tags": {
+        "class": "committee.nova.mods.avaritia.init.registry.ModTags",
+        "verbose": false,
+        "sha256": "4cd94e51c250139e339cdeb4001ff06e073af23add78c7f043fcbd8cd16d4bb8"
+      }
+    }
+  }
+}

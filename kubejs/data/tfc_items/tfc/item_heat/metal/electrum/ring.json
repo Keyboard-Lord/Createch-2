@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/electrum"
+    },
+    {
+      "tag": "c:physical_rings/electrum"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 540,
+  "welding_temperature": 720
+}

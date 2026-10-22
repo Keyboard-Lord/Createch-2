@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/knife_blade/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "draw_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "apply_bonus": true
+}

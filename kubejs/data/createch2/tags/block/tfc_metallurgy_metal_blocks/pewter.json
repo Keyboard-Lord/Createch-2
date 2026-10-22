@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/pewter",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/pewter",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/pewter",
+      "required": false
+    }
+  ]
+}

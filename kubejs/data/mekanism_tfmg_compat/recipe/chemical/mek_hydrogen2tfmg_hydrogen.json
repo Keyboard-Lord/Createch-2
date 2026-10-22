@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "mekanism:hydrogen"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "tfmg:hydrogen"
+    }
+  ]
+}

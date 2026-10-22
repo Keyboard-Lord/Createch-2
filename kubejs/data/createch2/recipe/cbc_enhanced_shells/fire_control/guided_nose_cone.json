@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "PCR",
+    "SNS"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "R": {
+      "item": "create_radar:radar_receiver_block"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "N": {
+      "item": "cbc_enhanced_shells:nose_cone_steel"
+    }
+  },
+  "result": {
+    "id": "cbc_enhanced_shells:guided_nose_cone",
+    "count": 1
+  }
+}

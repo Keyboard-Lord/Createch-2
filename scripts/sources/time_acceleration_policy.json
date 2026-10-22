@@ -1,0 +1,9 @@
+{
+  "authority": "Share the three existing Oritech exclusions and ProjectE's native pedestal self-acceleration exclusion across the Watch and JDT/JustDyna wands. Preserve earned multipliers and fake-player settings; this is not a blanket ban on EMC, nuclear or spatial technology.",
+  "targets": [
+    { "block": "oritech:accelerator_controller", "blockEntity": "oritech:accelerator_controller_block_entity" },
+    { "block": "oritech:reactor_controller", "blockEntity": "oritech:reactor_controller_block_entity" },
+    { "block": "oritech:deep_drill_block", "blockEntity": "oritech:deep_drill_entity" },
+    { "block": "projecte:dm_pedestal", "blockEntity": "projecte:dm_pedestal" }
+  ]
+}

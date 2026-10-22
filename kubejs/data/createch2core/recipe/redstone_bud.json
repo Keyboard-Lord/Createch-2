@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "createch2core:redstone_bud",
+    "count": 2
+  }
+}

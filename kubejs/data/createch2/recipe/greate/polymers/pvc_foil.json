@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 2,
+  "ingredients": [
+    {
+      "item": "gtceu:polyvinyl_chloride_plate"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "gtceu:polyvinyl_chloride_foil",
+      "count": 4
+    }
+  ]
+}

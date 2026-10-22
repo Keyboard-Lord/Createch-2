@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 222,
+    "g": 158,
+    "b": 65
+  },
+  "sorting_value": 103,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.venusian_field_data.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.venusian_field_data.description"
+    }
+  }
+}

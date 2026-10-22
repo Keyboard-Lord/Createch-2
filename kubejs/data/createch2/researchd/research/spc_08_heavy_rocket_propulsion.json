@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "rocketnautics:rocket_thruster"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:grid_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:spc_07_orbital_control",
+    "createch2:mat_05_vacuum_titanium",
+    "createch2:thm_03_high_pressure_thermodynamics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_08_heavy_rocket_propulsion.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_08_heavy_rocket_propulsion.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:cosmonautics/components/titanium_nozzle",
+      "createch2:cosmonautics/mechanical_crafting/rocket_thruster",
+      "createch2:factory_scaling/aerospace/rocket_thruster_batch",
+      "createch2:factory_scaling/aerospace/titanium_nozzle_batch"
+    ]
+  }
+}

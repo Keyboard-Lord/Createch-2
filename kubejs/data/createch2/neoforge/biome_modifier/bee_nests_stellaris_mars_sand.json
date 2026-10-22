@@ -1,0 +1,7 @@
+{
+  "type": "productivebees:nest",
+  "biomes": "#createch2:no_biomes",
+  "generation_stage": "TOP_LAYER_MODIFICATION",
+  "features": "createch2:mars_sand_nest",
+  "maxTemperature": 100
+}

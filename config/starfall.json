@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "frequency": 2,
+  "showers": true,
+  "bolides": true,
+  "colorful": true,
+  "sparkles": true,
+  "brightness": 90
+}

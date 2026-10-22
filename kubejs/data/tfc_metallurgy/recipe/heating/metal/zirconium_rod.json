@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/zirconium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/zirconium",
+    "amount": 50
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

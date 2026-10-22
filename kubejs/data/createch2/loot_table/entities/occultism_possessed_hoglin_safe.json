@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_brick",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_items:leather_sheet",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/pork",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

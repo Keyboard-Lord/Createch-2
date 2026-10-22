@@ -1,0 +1,255 @@
+{
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "template_prefixes": [
+    "minecraft:ancient_city/"
+  ],
+  "imported_soil_fallback": "ENTISOL",
+  "native_civic_cat_spawns": false,
+  "entity_rules": [],
+  "rules": [
+    {
+      "kind": "FIXED",
+      "target": "tfc:torch",
+      "sources": [
+        "minecraft:torch"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:firepit",
+      "sources": [
+        "minecraft:campfire"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "retain_below_average_temperature": -2,
+      "sources": [
+        "minecraft:packed_ice",
+        "minecraft:blue_ice"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "minecraft:air",
+      "retain_below_instant_temperature": 2,
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:snow"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "DIRT",
+      "sources": [
+        "minecraft:dirt"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "GRASS",
+      "sources": [
+        "minecraft:grass_block"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "GRAVEL",
+      "sources": [
+        "minecraft:soul_sand"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/log/blackwood",
+      "sources": [
+        "minecraft:dark_oak_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/blackwood",
+      "sources": [
+        "minecraft:dark_oak_planks"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence/blackwood",
+      "sources": [
+        "minecraft:dark_oak_fence"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "RAW",
+      "sources": [
+        "minecraft:deepslate"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "CHISELED",
+      "sources": [
+        "minecraft:chiseled_deepslate"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "sources": [
+        "minecraft:cobbled_deepslate"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:cobbled_deepslate_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:cobbled_deepslate_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:cobbled_deepslate_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "sources": [
+        "minecraft:deepslate_bricks"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:deepslate_brick_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:deepslate_brick_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:deepslate_brick_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "CRACKED_BRICKS",
+      "sources": [
+        "minecraft:cracked_deepslate_bricks",
+        "minecraft:cracked_deepslate_tiles"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "sources": [
+        "minecraft:deepslate_tiles",
+        "minecraft:polished_deepslate",
+        "minecraft:polished_basalt",
+        "minecraft:smooth_basalt"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:deepslate_tile_slab",
+        "minecraft:polished_deepslate_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:deepslate_tile_stairs",
+        "minecraft:polished_deepslate_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:deepslate_tile_wall",
+        "minecraft:polished_deepslate_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "PRESSURE_PLATE",
+      "sources": [
+        "minecraft:stone_pressure_plate"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "retain_below_average_temperature": -2,
+      "sources": [
+        "minecraft:ice"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:candle",
+      "sources": [
+        "minecraft:candle"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:candle/white",
+      "sources": [
+        "minecraft:white_candle"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:metal/lamp/wrought_iron",
+      "sources": [
+        "minecraft:soul_lantern"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "minecraft:air",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:soul_fire"
+      ]
+    }
+  ],
+  "piece_types": [],
+  "geology_at_placement_depth": true,
+  "native_ecology_only": true
+}

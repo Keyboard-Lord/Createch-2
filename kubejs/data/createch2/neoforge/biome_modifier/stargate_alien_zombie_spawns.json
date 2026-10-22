@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:chulak_prismachasm",
+    "createch2:chulak_redstone_caves",
+    "createch2:mars_redstone_caves",
+    "createch2:mercury_redstone_caves"
+  ],
+  "spawners": {
+    "type": "stellaris:alien_zombie",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:rods/copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:copper_bolt",
+      "count": 2
+    }
+  ],
+  "processing_time": 80,
+  "recipe_tier": 0
+}

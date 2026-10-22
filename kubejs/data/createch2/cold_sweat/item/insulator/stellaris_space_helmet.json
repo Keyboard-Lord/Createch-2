@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 12,
+    "heat": 12
+  },
+  "item": {
+    "items": [
+      "stellaris:space_suit_helmet"
+    ]
+  }
+}

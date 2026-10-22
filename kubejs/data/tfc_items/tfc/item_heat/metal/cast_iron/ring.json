@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/cast_iron"
+    },
+    {
+      "tag": "c:physical_rings/cast_iron"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

@@ -1,0 +1,1014 @@
+{
+  "schema": 1,
+  "baselineCommit": "203e76f",
+  "selectedTFMGSha256": "e9e84f7507b0b482d176c7f04eb924ed1396637f480d596a8b2d266fa51640d0",
+  "typeMapping": {
+    "tfmg:cast_iron_vat": "tfmg:cast_iron",
+    "tfmg:steel_vat": "tfmg:steel",
+    "tfmg:firebrick_lined_vat": "tfmg:fireproof"
+  },
+  "staticRoutes": [
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_titanium",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/arc_furnace_titanium.json",
+      "previousTypes": [
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "362631dddccf570089d17ae4b19f56352436d96f7028f3f27d6f14cd50885a7e"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_tungsten",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/arc_furnace_tungsten.json",
+      "previousTypes": [
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "8b14892a21435b3570b672982cf0ae717dc4c4b6ce307f1239605a1b4f2bd366"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_tungsten_carbide",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/arc_furnace_tungsten_carbide.json",
+      "previousTypes": [
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "a560974a7fa858ebc3d362e1ac7bfba5243c1b89d946ed147589361de2e50511"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/arc_furnace_tungsten_hexafluoride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/arc_furnace_tungsten_hexafluoride.json",
+      "previousTypes": [
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "d9c9c2c5073f4eb4cbaed9b408929c6016c1940f3b31d4af368f8e9e9f603d1f"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/centrifuge/ash",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/centrifuge/ash.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "d3d937e470254bb7a23561b6f39616b9a278df3b1ca9b7cc4b6e22ac47117d54"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/centrifuge/nylon_salt_crystals",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/centrifuge/nylon_salt_crystals.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "29f11602b96bca62182654d89c7a3bb689a40c9a0957a2e2fd5d8226920fa8a6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/centrifuge/reformate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/centrifuge/reformate.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "d2965c60919e887d7e3aebcc6978da036c063e539d3b592b9f4a78291d0c301e"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/brine",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/brine.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c5dd340b15e112db5e4e81e9ea0245c05e2bd44477fad17c09e41a8cc7c38b83"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/charcoal_dust",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/charcoal_dust.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "3bcc7e242d685751aea48b7db5be3455882d34e2c3e6223748a1976b27101abb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/electrochemically_exfoliated_graphene",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/electrochemically_exfoliated_graphene.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "9129ab588a9e11d578b2795d550e0e5fd192933c9b99edec0df05330c85bd5b9"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/hydrofluoric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/hydrofluoric_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c7d17316a32b59c5fe508aaf7ee29cce9d5d43a421ad2c68ba6dcb687b9412a6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/powdered_obsidian",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/powdered_obsidian.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "0d83d8cf2b2c02aa3ad6cdfd3eabbd8d0c5ef98cea5a296490d23db59e6db9e3"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/salt",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/salt.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "74959356e683216c512f6e2c3bee38a7b2088a80d9b3758e361513e5abe24689"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_bisulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/sodium_bisulfate.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "203c2e757c26acab1542cf04d30a0b673405dc5156bcb1167ad9208f0998df0a"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/electrolysis/sodium_persulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/electrolysis/sodium_persulfate.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c818f3e3cc12c9af416e65f2a3f166048bff4f7fb3b94db2c4556f53bcebe629"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/acrylonitrile",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/acrylonitrile.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "09cb4e0024163abb509e0e050c6dff90ddf39111d0493168fbc9283df0f3d3aa"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/adipic_acid_solution",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/adipic_acid_solution.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "484e969babd2e3defc21693e20d3c1e84e9e9ec9d6acbdef5c443b67a51614a7"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/amine_catalyst",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/amine_catalyst.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "5d92b8f5da804bc855d63d526c3f86e62898bd20066b716a0f720811d986eb00"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/biodiesel",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/biodiesel.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "e081dbf652f1a7ad6059e33daba63a5e6e3547451637627f7dea32aea8753630"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/carbon_fiber_composite_sheet",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/carbon_fiber_composite_sheet.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7587decc2e6374bc70c5dde8284d510e1f807ac3a34b1acaeb67016421a3283d"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/chromic_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/chromic_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "b707a21ce1d1fcc345d435cce1787cadadd63d7f6ef6252f249dd4088c12b90a"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/epoxy_precursor",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/epoxy_precursor.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "1552b005df75ffc857d94501b0c8651851dfaa59e181a4bb0f30a091540c9f34"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/epoxy_resin",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/epoxy_resin.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "207118f6605a06146fc2a3f5a4e6d979fad1ddbb8ca9bec5180bffc5cc499af0"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/gasoline_additive_mix",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/gasoline_additive_mix.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7440ef8ab292cbc1a0c97390f19c27293c203d0b46b398040b1bf4b0b98f55d8"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hexamethylenediamine_solution",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/hexamethylenediamine_solution.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "39a854d336ca2fb3876d9c3943ab59b2462d8f50d722389e0aa119944d7f057e"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/high_cetane_diesel",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/high_cetane_diesel.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "832214b6575f0b03582ff2fab57d08dc80bca6a1c60e1b4bf211c75e8c09443f"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/high_octane_gasoline_cast_iron_vat",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/high_octane_gasoline_cast_iron_vat.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron"
+      ],
+      "previousCanonicalSha256": "39059bdcc5414c0cbb32af8f0c4585817c7c08112a2e5bea7ace058e3a693c32"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/high_octane_gasoline_steel_vat",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/high_octane_gasoline_steel_vat.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "381bf50c82ba947aad1cfaf244832084de9ac800d8b03e428bca58f43abd128f"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/hydrochloric_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7d929e3f69c9d6f1f434d7ce9d3230c4924958ea357306f492b1d8b2a5b95264"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nitric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/nitric_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "a78d407cab02a3a324c5f04b5c16b151a8af823fcc08ea5fd3e0c120fb327e0f"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nitrogen_dioxide",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/nitrogen_dioxide.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "5c7757c6e385e4fd578f70b9205f0c525c5ed3d906e71bab40a26f136b51ba16"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nitroglycerin",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/nitroglycerin.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "1dd65db1ccc97e850013d33cd54b4cb9ffd2b2adba3ec1c37762bbab915afe17"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/nylon_salt_crystals",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/nylon_salt_crystals.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "110b253216dd087bfea80748aeaabf6e01f1e51a030a01a139d804f92ba2f98d"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/pan_precursor",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/pan_precursor.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "b422e7baa81bedb1c7e4e58a5b019a9eaec0b2d2b3ce4d7e67c5fe9fea5187c0"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/phosphoric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/phosphoric_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "52770fda0349934b495ea91590139047159cf2ea789ce6a45f81dca066091c60"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/tungsten_hexafluoride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/tungsten_hexafluoride.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "dd9ea81a7d018b780a6795eb8853553993cfa0ca25c417f16558d86f32d86958"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/mixing/vinyl_chloride_monomer",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/mixing/vinyl_chloride_monomer.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "8233fabec48095ae00a237950cd79849ce3152a78a34613c1f5818fd1848a4f9"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/acetone",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/acetone.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "fdfdd88bf2e444f3bfcbd9400beb2964e033c569dfeb709fe3a74dc70f4168c1"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/ammonium_persulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/ammonium_persulfate.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "ad0bd2478bdce102efa52ec5c2c9bd432ae45baf14ca9238089116e1a2a610b8"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/benzene_from_phenol",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/benzene_from_phenol.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel"
+      ],
+      "previousCanonicalSha256": "9cdf9135c6e6093a65661c81ba097523ec92b57bfa4b0895c317556c1d58ce8d"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/carbon_monoxide",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/carbon_monoxide.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "f36f20294859e29a958a8210dbb372b9b62107e60921605a8a60f9694a9dbf03"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/cumene",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/cumene.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel"
+      ],
+      "previousCanonicalSha256": "c194c366622d2ffc533f6c84be556d92fcf4cdf0723bf16a0f33a9cb7615d294"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/cyclohexane",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/cyclohexane.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "4d9c3364f40b36c84e90dc1c1adb67460d30606330ed84fb28e6356f46fe310e"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/cyclohexanol",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/cyclohexanol.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "d051c27389822446d4fbc6dfd78f3ae0d537cd989be0a6478363796ee9014f5c"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/epichlorohydrin",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/epichlorohydrin.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "5a668c3768ef2574c02435c659baa3f9b406af0086833c5c69e071b2c493373c"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/etched_epoxy_circuit_board",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/etched_epoxy_circuit_board.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:cast_iron_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:cast_iron",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "62277f199942ef0354b0c4112fe3bb85a2bf6674de8bed9f7a5e1945c5d4d8fb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/etched_pvc_circuit_board",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/etched_pvc_circuit_board.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:cast_iron_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:cast_iron",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c51f4c7e332471069f99848298384ee6ffecae57e7048299e757a9f1ae6fc8f4"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/ethanol",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/ethanol.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "d07feea25a8ed82c267bf0b23a281af7a1c70757c67d538ce3232abbba75e55a"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/ethyl_tert_butyl_ether",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/ethyl_tert_butyl_ether.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "2d814536a4135cf3618d6ea7d8c4cf246d32c183948118c70f3a1dcd9329c1fc"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/hydrofluoric_acid",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/hydrofluoric_acid.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "37619a597c22f0ece3216cd42aff9e30221f9374c3f4e10039d9f8c22d01d7cb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/nitrous_oxide",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/nitrous_oxide.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7c9a773a18f6593745a672e0580e9c9bda7c44e4578c5b3e0b5481bd7a03f560"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/nitrous_oxide_alt",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/nitrous_oxide_alt.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "864123fb02ec967b1a1b01c0060b76e2ac4bca23f50bc25f274e8bb7d8b1fdeb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_air",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polyethylene_air.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "9898fd769a517c8b9560e511b738594ef9c22ffe7ad77081d0499d7a00b29bcf"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyethylene_oxygen",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polyethylene_oxygen.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "cc225cbe3fcc0ebd8e17b92915f31af2092903ccb36dfb37643e2ced995171d3"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polytetrafluoroethylene",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polytetrafluoroethylene.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "a0188b14ac56fea9fd6fb6fd7eb4794b9d711ed1c40d9c1691893988a56c80d6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/polyvinyl_chloride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/polyvinyl_chloride.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "1cd326d5e39d70f6eb58397891ab6ae228767e03f74a0477d756f46230feeb15"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/reformate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/reformate.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "8362a17f4d9f41dbede60ce28778325a9de4ba6b0a4a3096f3fc29db4fab38fb"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/sodium_bisulfate",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/sodium_bisulfate.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "5bfa72caaf5c6fd64bb36ff7bd01f2026d65072b3ce76f1c171dcefa93cac3d6"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/steam",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/steam.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "73b141c9fab7c7182782a5f7eec6b5084125cd02d11b8687d832b5dd12fd7195"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/tetraethyllead",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/tetraethyllead.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "e7fe9c1c96b28977cc2f17e449c790b6452d24dab87484a6cdab98de99a37c5d"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_dust",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_dust.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c10fd8d0eabdceccb7e55b2e9831fb14a9764dc17b512ad26dd3b5e34fe6e953"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "c963ffe57242de360966c93a6d89cc80cad61c80a11176be65535e9f06b8ed87"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_dust",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_dust.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "a4c68ddfda0f3b1fc51cee61f70543fb8390795e153bf505c243eff37cd0efba"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_hg",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_hg.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "44735928749ac19c8269b16eef34f0b52a21b05de0073e11a2811c6ccf7715ad"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/titanium_tetrachloride_mg",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/titanium_tetrachloride_mg.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7d3429dfb9213a4cdea3668c50539e1ff2bd958668fd99aedb45e4ff4c32e20c"
+    },
+    {
+      "recipe": "chemica:vat_machine_recipe/vat_reaction/yeast",
+      "file": "kubejs/data/chemica/recipe/vat_machine_recipe/vat_reaction/yeast.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "ea4f9e93d668f3fedec1e53837c59193428a60c362afe1722b0cc67b6229bdb0"
+    },
+    {
+      "recipe": "createch2:chemical_age/tfmg/synthetic_rubber",
+      "file": "kubejs/data/createch2/recipe/chemical_age/tfmg/synthetic_rubber.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "7f01ff8938a59abaa37a5b0a33954fe54152ad1c8d16e5e20e2e299b5cb9474c"
+    },
+    {
+      "recipe": "createch2:heavy_industry/tfmg/naphtha_cast_iron_vat",
+      "file": "kubejs/data/createch2/recipe/heavy_industry/tfmg/naphtha_cast_iron_vat.json",
+      "previousTypes": [
+        "tfmg:cast_iron_vat",
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "27a46d1f160c6db4e2794f845f8bf5eb9a70fb6b4cf5bf97617bdbbfde3fb270"
+    },
+    {
+      "recipe": "tfmg:vat_machine_recipe/sulfuric_acid",
+      "file": "kubejs/data/tfmg/recipe/vat_machine_recipe/sulfuric_acid.json",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "previousCanonicalSha256": "1da9ffbff4aba9bc9b585ba17717e8269729731877d0b498561cf53cca6ece9b",
+      "sourceArtifact": "mekanism_tfmg_compat-0.4-1.21.1.jar",
+      "sourceResource": "data/tfmg/recipe/vat_machine_recipe/sulfuric_acid.json",
+      "sourceArtifactSha256": "352302fa9a80628ae70b3292e7788273ea86ab98ae304c9079c1b4b608bc3f5e"
+    }
+  ],
+  "runtimeRoutes": [
+    {
+      "recipe": "createch2:chemica/feedstock/molybdenite_wet_separation",
+      "file": "kubejs/server_scripts/chemistry/chemica_progression.js",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "previousCanonicalSha256": "d5484301c964d93490c9481e0da1524e8ded7957a9ff17c2764e83c7a68081e4",
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ]
+    },
+    {
+      "recipe": "createch2:chemica/feedstock/vanadium_magnetite_wet_separation",
+      "file": "kubejs/server_scripts/chemistry/chemica_progression.js",
+      "previousTypes": [
+        "tfmg:steel_vat",
+        "tfmg:firebrick_lined_vat"
+      ],
+      "previousCanonicalSha256": "44d7ecf8b461f4e4ff7deefed0bc4052a4361b783dc2783683a179039272deaa",
+      "allowedVatTypes": [
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ]
+    }
+  ],
+  "nativeEvidence": {
+    "steelVat": "2026-10-03 23:57:56.667 native VatType[type=tfmg:steel], recipe allowed=false, fluidMatch=true, size=1, validMachines=true",
+    "registry": "Selected CE TFMGVatTypes registers cast_iron, steel, fireproof; VatType codec accepts arbitrary ResourceLocation without registry validation"
+  },
+  "limits": [
+    "Only vat-type identifiers change; no quantity, heat, duration, ingredient, operation, output or progression change",
+    "Native recipe parsing, actual reaction, reload and save/reopen must qualify the migrated candidate"
+  ]
+}

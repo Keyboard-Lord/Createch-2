@@ -1,0 +1,2372 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "recipeTypes": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeTypes",
+      "sha256": "f3e486dabfcdb015d16f6727ca8dcf69ce1e8add1ad868c5c336403f7c231308"
+    },
+    "machineUtils": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachineUtils",
+      "sha256": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581"
+    },
+    "simple": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.SimpleTieredMachine",
+      "sha256": "01914b7fa41efdf3e9173c8da228e525bb7730713a9e6a6b88c9b1ac42854b63"
+    },
+    "workable": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.WorkableTieredMachine",
+      "sha256": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10"
+    },
+    "modifier": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeModifiers",
+      "sha256": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e"
+    },
+    "overclock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.OverclockingLogic",
+      "sha256": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc"
+    },
+    "condition": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition",
+      "sha256": "33de22c6956de20e3717c2f219b0b9ecc23f3271bb5e18f428c6a2cee42138ac"
+    },
+    "fluidTank": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableFluidTank",
+      "sha256": "53280f634f183dc5c52f359f23d1b0f3673d572b173be988b146f5359a3a9d46"
+    },
+    "itemHandler": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableItemStackHandler",
+      "sha256": "9262fe3d8225412f9473f698e19b17dd388f819081e60337a81624bbc1efdbc7"
+    }
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:laser_engraver/greate_precision/nor_memory_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_wafer",
+            "ae2:printed_logic_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:nor_memory_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:laser_engraver/greate_precision/nor_memory_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:nor_memory_wafer"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:nor_memory_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:circuit_assembler/greate_precision/quantum_processor_assembly",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:fiber_reinforced_printed_circuit_board",
+            "2x gtceu:quantum_processor",
+            "2x gtceu:advanced_smd_inductor",
+            "4x gtceu:advanced_smd_capacitor",
+            "4x gtceu:ram_chip",
+            "16x gtceu:fine_platinum_wire"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:quantum_processor_assembly"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2400
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:circuit_assembler/greate_precision/quantum_processor_computer",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:fiber_reinforced_printed_circuit_board",
+            "2x gtceu:quantum_processor_assembly",
+            "2x gtceu:advanced_smd_diode",
+            "4x gtceu:nor_memory_chip",
+            "16x gtceu:ram_chip",
+            "32x gtceu:fine_platinum_wire"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:quantum_processor_computer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2400
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:circuit_assembler/greate_precision/quantum_processor_mainframe",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:advanced_computer_casing",
+            "2x gtceu:quantum_processor_computer",
+            "6x gtceu:advanced_smd_inductor",
+            "12x gtceu:advanced_smd_capacitor",
+            "24x gtceu:ram_chip",
+            "48x modern_industrialization:copper_wire"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 576
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:quantum_processor_mainframe"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_uv.js",
+      "id": "createch2:laser_engraver/greate_uv/nand_memory_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:phosphorus_wafer",
+            "ae2:printed_logic_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:nand_memory_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            900
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_uv.js",
+      "id": "createch2:laser_engraver/greate_uv/nand_memory_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:nand_memory_wafer"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "32x gtceu:nand_memory_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            900
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/semiconductor/silicon_boule",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "8x modern_industrialization:silicon_wafer",
+            "2x ae2:printed_silicon"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:polyethylene",
+              "amount": 250
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:silicon_boule"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/silicon_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_boule",
+            "ae2:printed_silicon"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "16x gtceu:silicon_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/cpu_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_wafer",
+            "ae2:printed_engineering_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:cpu_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/cpu_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:cpu_wafer"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:cpu_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/ram_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_wafer",
+            "ae2:printed_calculation_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:ram_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/ram_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:ram_wafer"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/simple_soc_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_wafer",
+            "ae2:printed_logic_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:simple_soc_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/semiconductor/simple_soc_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:simple_soc_wafer"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:simple_soc"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/smd/resistor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:resistor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:smd_resistor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/smd/capacitor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:capacitor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:smd_capacitor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/smd/diode",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:diode",
+            "2x modern_industrialization:electrum_fine_wire",
+            "gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:smd_diode"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/smd/transistor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:transistor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:smd_transistor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/smd/inductor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:inductor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "gtceu:ram_chip"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:smd_inductor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/boards/plastic_circuit_board",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:digital_circuit_board",
+            "2x modern_industrialization:titanium_plate"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:polyethylene",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:plastic_circuit_board"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_1024/boards/plastic_printed_circuit_board",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:plastic_circuit_board",
+            "ae2:engineering_processor_press"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:plastic_printed_circuit_board"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            320
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/processors/micro_processor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:plastic_printed_circuit_board",
+            "2x gtceu:cpu_chip",
+            "2x gtceu:ram_chip",
+            "2x gtceu:smd_resistor",
+            "2x gtceu:smd_capacitor",
+            "2x gtceu:smd_transistor"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:micro_processor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_electric_motor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x modern_industrialization:advanced_motor",
+            "4x modern_industrialization:titanium_rod",
+            "4x modern_industrialization:kanthal_wire",
+            "modern_industrialization:digital_circuit"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_electric_motor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            420
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_electric_pump",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:iv_electric_motor",
+            "modern_industrialization:advanced_pump",
+            "2x modern_industrialization:titanium_plate",
+            "2x modern_industrialization:rubber_sheet",
+            "modern_industrialization:digital_circuit"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:polyvinyl_chloride",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_electric_pump"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_conveyor_module",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x modern_industrialization:advanced_motor",
+            "4x modern_industrialization:rubber_sheet",
+            "2x modern_industrialization:titanium_plate"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_conveyor_module"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_robot_arm",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:iv_conveyor_module",
+            "2x modern_industrialization:advanced_motor",
+            "modern_industrialization:digital_circuit",
+            "2x modern_industrialization:titanium_rod"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_robot_arm"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_sensor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:cpu_chip",
+            "gtceu:ram_chip",
+            "ae2:calculation_processor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "modern_industrialization:titanium_plate"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_sensor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            420
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/components/iv_emitter",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:cpu_chip",
+            "gtceu:simple_soc",
+            "ae2:engineering_processor",
+            "2x modern_industrialization:electrum_fine_wire",
+            "modern_industrialization:platinum_plate"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:iv_emitter"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            420
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/convergence/electronic_circuit_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:electronic_circuit",
+            "2x gtceu:smd_resistor",
+            "2x gtceu:smd_capacitor",
+            "gtceu:smd_diode",
+            "modern_industrialization:electronic_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x modern_industrialization:electronic_circuit"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/convergence/digital_circuit_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:digital_circuit",
+            "gtceu:micro_processor",
+            "2x gtceu:cpu_chip",
+            "2x gtceu:ram_chip",
+            "modern_industrialization:digital_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 432
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "6x modern_industrialization:digital_circuit"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_1024/convergence/processing_unit_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:processing_unit",
+            "2x gtceu:micro_processor",
+            "2x gtceu:smd_diode",
+            "2x gtceu:smd_transistor",
+            "modern_industrialization:processing_unit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 576
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x modern_industrialization:processing_unit"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            700
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1024
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/phosphorus_boule",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:silicon_boule",
+            "4x #c:dusts/phosphorus"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:phosphorus_boule"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            700
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/phosphorus_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:phosphorus_boule",
+            "ae2:printed_silicon"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "16x gtceu:phosphorus_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/nano_cpu_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:phosphorus_wafer",
+            "ae2:printed_engineering_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:nano_cpu_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/nano_cpu_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:nano_cpu_wafer",
+            "gtceu:iv_sensor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:nano_cpu_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/advanced_soc_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:phosphorus_wafer",
+            "ae2:printed_logic_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:advanced_soc_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/advanced_soc_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:advanced_soc_wafer",
+            "gtceu:iv_sensor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:advanced_soc"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/qbit_cpu_wafer",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:phosphorus_wafer",
+            "ae2:printed_calculation_processor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:qbit_cpu_wafer"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/semiconductor/qbit_cpu_chip",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:qbit_cpu_wafer",
+            "gtceu:iv_sensor"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x gtceu:qbit_cpu_chip"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/smd/advanced_resistor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:smd_resistor",
+            "gtceu:nano_cpu_chip",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:advanced_smd_resistor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/smd/advanced_capacitor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:smd_capacitor",
+            "gtceu:nano_cpu_chip",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:advanced_smd_capacitor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/smd/advanced_diode",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:smd_diode",
+            "gtceu:nano_cpu_chip",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:advanced_smd_diode"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/smd/advanced_transistor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:smd_transistor",
+            "gtceu:nano_cpu_chip",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:advanced_smd_transistor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/smd/advanced_inductor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:smd_inductor",
+            "gtceu:nano_cpu_chip",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:advanced_smd_inductor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            360
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/boards/fiber_reinforced_circuit_board",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:plastic_circuit_board",
+            "modern_industrialization:iridium_plate",
+            "2x modern_industrialization:superconductor_tiny_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:polyvinyl_chloride",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:fiber_reinforced_circuit_board"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:laser_engraver/greg_2048/boards/fiber_reinforced_printed_circuit_board",
+      "nativeType": "gtceu:laser_engraver",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:fiber_reinforced_circuit_board",
+            "gtceu:iv_emitter"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:fiber_reinforced_printed_circuit_board"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            420
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/processors/nano_processor",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:fiber_reinforced_printed_circuit_board",
+            "2x gtceu:nano_cpu_chip",
+            "2x gtceu:advanced_soc",
+            "2x gtceu:advanced_smd_resistor",
+            "2x gtceu:advanced_smd_capacitor",
+            "2x gtceu:advanced_smd_transistor"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 576
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:nano_processor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            700
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/convergence/digital_circuit_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:digital_circuit",
+            "gtceu:nano_processor",
+            "2x gtceu:advanced_smd_resistor",
+            "2x gtceu:advanced_smd_capacitor",
+            "modern_industrialization:digital_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 432
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "12x modern_industrialization:digital_circuit"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/convergence/processing_unit_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:processing_unit",
+            "2x gtceu:nano_processor",
+            "2x gtceu:advanced_soc",
+            "2x gtceu:advanced_smd_diode",
+            "modern_industrialization:processing_unit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 576
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "8x modern_industrialization:processing_unit"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            720
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/components/iv_sensor_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:iv_sensor",
+            "gtceu:nano_processor",
+            "2x gtceu:advanced_soc",
+            "2x ae2:calculation_processor",
+            "2x modern_industrialization:iridium_plate"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:iv_sensor"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/recipes/recipe_authority.js",
+      "id": "createch2:circuit_assembler/greg_2048/components/iv_emitter_batch",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:iv_emitter",
+            "gtceu:nano_processor",
+            "2x gtceu:qbit_cpu_chip",
+            "2x ae2:engineering_processor",
+            "2x modern_industrialization:iridium_plate"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 288
+            }
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:iv_emitter"
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            2048
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "createch2:circuit_assembler/greate_uv/crystal_processor_assembly",
+      "reason": "outside_paid_iv_envelope",
+      "eu": 9600,
+      "duration": 400
+    },
+    {
+      "id": "createch2:circuit_assembler/greate_uv/crystal_processor_computer",
+      "reason": "outside_paid_iv_envelope",
+      "eu": 9600,
+      "duration": 400
+    },
+    {
+      "id": "createch2:circuit_assembler/greg_2048/processors/quantum_processor",
+      "reason": "additional_native_condition_or_configuration",
+      "eu": 2048,
+      "duration": 900
+    }
+  ]
+}

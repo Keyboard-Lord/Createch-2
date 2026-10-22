@@ -1,0 +1,774 @@
+{
+  "schema": 1,
+  "scope": "One complete conditional locomotive from existing named reservations and paid machines. No earlier aggregate procurement or full-age acceptance credit.",
+  "id": "createch2:railway/locomotive/steam_assembly",
+  "recipe": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "railcraft:frame"
+    },
+    "transitional_item": {
+      "id": "railcraft:frame"
+    },
+    "loops": 1,
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "railcraft:solid_fueled_firebox"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "modern_industrialization:bronze_boiler"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "tfmg:steel_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "railcraft:standard_rail"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "railcraft:controller_circuit"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "railcraft:steel_plate"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "railcraft:track_parts"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "create:fluid_tank"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "create:mechanical_pump"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "create:controls"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "item": "tfmg:cast_iron_pipe"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          },
+          {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "tfmg:lubrication_oil"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ]
+      },
+      {
+        "type": "greate:pressing",
+        "ingredients": [
+          {
+            "item": "railcraft:frame"
+          }
+        ],
+        "results": [
+          {
+            "id": "railcraft:frame"
+          }
+        ],
+        "recipe_tier": 1
+      }
+    ],
+    "results": [
+      {
+        "id": "railcraft:steam_locomotive"
+      }
+    ]
+  },
+  "event": {
+    "data": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "railcraft:frame"
+      },
+      "transitional_item": {
+        "id": "railcraft:frame"
+      },
+      "loops": 1,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:solid_fueled_firebox"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "modern_industrialization:bronze_boiler"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:steel_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:standard_rail"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:controller_circuit"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:steel_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:track_parts"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:fluid_tank"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:mechanical_pump"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:controls"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "tfmg:lubrication_oil"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ],
+          "recipe_tier": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:steam_locomotive"
+        }
+      ]
+    },
+    "applied": [],
+    "removed": false
+  },
+  "owners": [
+    "research:createch2:log_03_locomotive_systems"
+  ],
+  "owner": {
+    "code": "LOG-03",
+    "id": "createch2:log_03_locomotive_systems",
+    "page": "createch2:transportation_space",
+    "name": "Locomotive Systems",
+    "description": "Integrate steam locomotive structures and schedules.",
+    "icon": "railcraft:steam_locomotive",
+    "parents": [
+      "createch2:log_02_railway_engineering",
+      "createch2:mec_03_steel_mechanisms"
+    ],
+    "cost": {
+      "class": "C",
+      "packs": [
+        "logistics_reports",
+        "kinetic_data",
+        "material_specimens"
+      ]
+    },
+    "recipes_unlocked": [
+      "createch2:railway/locomotive/underframe",
+      "createch2:railway/locomotive/steam_assembly",
+      "createch2:research/pack/logistics_reports_freight"
+    ],
+    "items_covered": [
+      "railcraft:steam_locomotive"
+    ],
+    "earliest_age": "Age 05 Steel Steam",
+    "authority": "Railcraft locomotive authority",
+    "notes": "The required steam locomotive is reachable before Low Voltage computation.",
+    "correction_075": "Audit fix: the Age 5 locomotive no longer requires Age 6 Computational Models.",
+    "audit": {
+      "classification": "Production capability and same-output observation separated",
+      "earliest_required_consumer": "No reviewed quest requires this specific locked production capability.",
+      "consumer_quests": [],
+      "same_output_consumer_quests": [
+        "2F33DA300848472E"
+      ],
+      "earliest_same_output_consumer": "Age 05 Steel Steam: Assemble the Steam Locomotive (2F33DA300848472E)",
+      "main_or_capstone_path": false,
+      "same_output_on_main_or_capstone_path": true,
+      "reviewed_for_campaign_unity": "2026-10-08",
+      "semantics_version": 2,
+      "capability_review_status": "NO_REQUIRED_RELATIONSHIP_ASSERTED",
+      "scope": "Item-output equality does not prove dependence on an alternative or batch recipe. Only explicit reviewed capability consumers enter required-consumer fields. Knowledge unlock age is unchanged; native dynamic alternatives and loaded acquisition remain runtime qualification."
+    },
+    "localization": {
+      "title": "research.createch2.log_03_locomotive_systems.title",
+      "description": "research.createch2.log_03_locomotive_systems.description"
+    }
+  },
+  "initialParents": [
+    {
+      "id": "createch2:railway/locomotive/steam_assembly",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "railcraft:frame"
+          },
+          "transitional_item": {
+            "id": "railcraft:frame"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:solid_fueled_firebox"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "modern_industrialization:bronze_boiler"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "tfmg:steel_mechanism"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:standard_rail"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:controller_circuit"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:steel_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "railcraft:track_parts"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:fluid_tank"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:mechanical_pump"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "create:controls"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "item": "tfmg:cast_iron_pipe"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 250,
+                  "fluid": "tfmg:lubrication_oil"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "ingredients": [
+                {
+                  "item": "railcraft:frame"
+                }
+              ],
+              "results": [
+                {
+                  "id": "railcraft:frame"
+                }
+              ],
+              "recipe_tier": 1
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:steam_locomotive"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      }
+    }
+  ],
+  "directFrameCandidates": [],
+  "managedInputs": {
+    "railcraft:steel_plate": {
+      "tag": "c:plates/steel",
+      "members": [
+        "modern_industrialization:steel_plate",
+        "railcraft:steel_plate"
+      ],
+      "priority": "modern_industrialization"
+    },
+    "create:mechanical_pump": {
+      "tag": "c:createch2_kinetics/mechanical_pump/andesite_alloy",
+      "members": [
+        "create:mechanical_pump",
+        "greate:andesite_alloy_mechanical_pump"
+      ],
+      "priority": "greate"
+    }
+  },
+  "declaredPlateVariants": [
+    "modern_industrialization:steel_plate",
+    "railcraft:steel_plate"
+  ]
+}

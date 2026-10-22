@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/small_spodumene",
+      "required": false
+    }
+  ]
+}

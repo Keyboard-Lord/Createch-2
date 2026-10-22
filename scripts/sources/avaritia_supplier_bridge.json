@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "id": "mekanism:processing/refined_obsidian/ingot/from_dust",
+  "recipe": {
+    "type": "modern_industrialization:assembler",
+    "eu": 4,
+    "duration": 200,
+    "item_inputs": [
+      {
+        "item": "mekanism:dust_refined_obsidian",
+        "amount": 1
+      },
+      {
+        "tag": "c:ingots/osmium",
+        "amount": 1
+      }
+    ],
+    "item_outputs": {
+      "item": "mekanism:ingot_refined_obsidian",
+      "amount": 1
+    }
+  },
+  "singularityOverrides": {
+    "kubejs/data/avaritia/singularities/emerald.json": {
+      "displayName": "singularity.avaritia.emerald",
+      "ingredient": {
+        "tag": "c:gems/emerald"
+      },
+      "name": "avaritia:emerald",
+      "overlayColor": 8255660,
+      "underlayColor": 36378
+    },
+    "kubejs/data/avaritia/singularities/lapis_lazuli.json": {
+      "displayName": "singularity.avaritia.lapis_lazuli",
+      "ingredient": {
+        "tag": "c:gems/lapis"
+      },
+      "name": "avaritia:lapis_lazuli",
+      "overlayColor": 6786538,
+      "underlayColor": 1790887
+    }
+  },
+  "nativeBill": {
+    "compressorNoUpgradesTicks": 200,
+    "compressorJPerTick": 100,
+    "nativeGasMbPerTick": 1,
+    "nativeTotalGasMb": 200,
+    "nativeGasMbPerNewOsmiumIngot": 200,
+    "jPerEu": 25,
+    "recipeEu": 800,
+    "MIRecipeTicks": 200,
+    "MIRecipeEuPerTick": 4,
+    "statisticalMechanics": false
+  },
+  "scope": "Keep original refined-obsidian ingot recipe ID/output and complete native base osmium/energy bill on retained MIassembler. Native OsmiumCompressor has no active machine supplier. Retained Infuser already supplies the unmodified refined dust recipe from newobsidian dust,diamond dust andredstone energy. Two native singularities use their existing common gem tags so existing TFC emerald/lapis suppliers can satisfy them;all identity,cost,time,color and27enableddefinitions remain unchanged."
+}

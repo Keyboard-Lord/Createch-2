@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W",
+    "C",
+    "W"
+  ],
+  "key": {
+    "W": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "C": {
+      "item": "alchemistry:reactor_casing"
+    }
+  },
+  "result": {
+    "id": "alchemistry:reactor_energy",
+    "count": 1
+  }
+}

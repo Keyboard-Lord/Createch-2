@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:physical_rings/bismuth_bronze"
+  },
+  "second_input": {
+    "tag": "c:physical_rings/bismuth_bronze"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_metal_tools:bismuth_bronze_pommel"
+  }
+}

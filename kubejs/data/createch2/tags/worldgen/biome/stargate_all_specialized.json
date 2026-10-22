@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#sgjourney:is_unitas",
+    "#sgjourney:is_rima",
+    "#sgjourney:is_cavum_tenebrae",
+    "#sgjourney:is_athos",
+    "#sgjourney:is_chulak",
+    "#sgjourney:is_lantea",
+    "#sgjourney:is_abydos"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_molybdenum_supply.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 64,
+  "duration": 420,
+  "item_inputs": [
+    {
+      "item": "tfc_metallurgy:ore/normal_molybdenite",
+      "amount": 4
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:molybdenite_dust",
+      "amount": 1
+    }
+  ]
+}

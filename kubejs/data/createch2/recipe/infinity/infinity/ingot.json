@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "NNNNNNNNN",
+    "NCXXQXXCN",
+    "NXCCSCCXN",
+    "NCXXQXXCN",
+    "NNNNNNNNN"
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_machine_hull"
+    },
+    "S": {
+      "item": "modern_industrialization:singularity"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_ingot",
+    "count": 1
+  },
+  "tier": 4
+}

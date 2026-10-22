@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "railcraft:powered_rolling_machine"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens",
+      "createch2:logistics_reports"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mec_03_steel_mechanisms",
+    "createch2:log_02_railway_engineering"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mec_04_rolling_systems.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mec_04_rolling_systems.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:railway/rolling/powered_rolling_machine",
+      "createch2:railway/rolling/standard_rail",
+      "createch2:railway/rolling/steel_plate",
+      "compactgearbox:compact_gearbox",
+      "compactgearbox:gearbox_controller",
+      "compactgearbox:sequential_gearbox"
+    ]
+  }
+}

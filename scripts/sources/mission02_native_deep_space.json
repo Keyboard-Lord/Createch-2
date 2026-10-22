@@ -1,0 +1,105 @@
+{
+  "loader": "21.1.256",
+  "nativeFurnaceSha256": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f",
+  "furnace": "minecraft:furnace",
+  "fuel": "minecraft:charcoal",
+  "fuelTicks": 1600,
+  "basalt": "rocketnautics:lunar_aged_basalt",
+  "shattered": "rocketnautics:lunar_shattered_regolith",
+  "regolith": "rocketnautics:lunar_regolith",
+  "crushingRecipe": "rocketnautics:crushing/lunar_aged_basalt",
+  "smeltingRecipe": "rocketnautics:lunar_regolith_from_lunar_shattered_regolith_smelting",
+  "zircon": "tfc_metallurgy:ore/normal_zircon",
+  "zirconRecipe": "createch2:cosmonautics_foundation/nuclear/zircon_concentrate/normal",
+  "nativeBlastFurnaceSha256": "8d0fdc712d014e8da4ba878beacdb5fe648b6dfb15aac5f7e7806d4f47775118",
+  "rawTitaniumQuestRepair": {
+    "chapter": "config/ftbquests/quests/chapters/createch2_13_age_12_cosmonautics.snbt",
+    "quest": "10E260D3B2D70D21",
+    "task": "0C9DC4CF00EBE60C",
+    "before": {
+      "dependencies": [
+        "0013CE219649AEA7"
+      ],
+      "icon": {
+        "id": "rocketnautics:raw_titanium"
+      },
+      "icon_scale": "0.95d",
+      "id": "10E260D3B2D70D21",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "7F88049E857EAB6B",
+          "type": "xp",
+          "xp": "15"
+        }
+      ],
+      "shape": "square",
+      "size": "1.22d",
+      "tags": [
+        "theme_cosmonautics_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "dimension": "rocketnautics:deep_space",
+          "id": "6D9753800719F0A6",
+          "type": "dimension"
+        },
+        {
+          "count": "4L",
+          "id": "0C9DC4CF00EBE60C",
+          "item": {
+            "count": "1",
+            "id": "rocketnautics:raw_titanium"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "-11.822d",
+      "y": "10.075d"
+    },
+    "after": {
+      "dependencies": [
+        "0013CE219649AEA7"
+      ],
+      "icon": {
+        "id": "modern_industrialization:raw_titanium"
+      },
+      "icon_scale": "0.95d",
+      "id": "10E260D3B2D70D21",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "7F88049E857EAB6B",
+          "type": "xp",
+          "xp": "15"
+        }
+      ],
+      "shape": "square",
+      "size": "1.22d",
+      "tags": [
+        "theme_cosmonautics_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "dimension": "rocketnautics:deep_space",
+          "id": "6D9753800719F0A6",
+          "type": "dimension"
+        },
+        {
+          "count": "4L",
+          "id": "0C9DC4CF00EBE60C",
+          "item": {
+            "count": "1",
+            "id": "modern_industrialization:raw_titanium"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "-11.822d",
+      "y": "10.075d"
+    },
+    "canonicalFirstStock": "modern_industrialization:raw_titanium"
+  }
+}

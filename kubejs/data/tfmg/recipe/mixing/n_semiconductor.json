@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tfc:powder/sulfur"
+    },
+    {
+      "item": "tfmg:silicon_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfmg:n_semiconductor"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "nativeClasses": {
+    "master": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity",
+      false,
+      false
+    ],
+    "hatch": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlockEntity",
+      false,
+      false
+    ],
+    "combinedTank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.CombinedTankWrapper",
+      false
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork",
+      false
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode",
+      false
+    ],
+    "fluidExtract": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$2",
+      false
+    ],
+    "bufferTank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity",
+      false
+    ],
+    "quern": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.QuernBlockEntity",
+      false
+    ],
+    "quernBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.QuernBlock",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "hatch": "e255850fcd09e066e7c44d42fb7b956ef966ddef92459e0562bd9fafaa701e74",
+    "combinedTank": "d9e77beb27d3311c4d3bdd372ae8dbd155448b7f0bb6c474b1506931861cebf0",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidExtract": "3088821e79a1b5f18928d6775a4c0ca48c4ebad3107df050ed56b13f09012872",
+    "bufferTank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "quern": "c6da981f5694383a63703be86569dc952161b57a12934efea069109ec4749d1c",
+    "quernBlock": "952ce21cc858bbd5924e18b8a11b6fbd9b2c55239b0e9feea660fe5c95bf4a62"
+  },
+  "ids": {
+    "machine": "createch2:railway/rolling/manual_rolling_machine",
+    "plate": "createch2:railway/rolling/steel_plate",
+    "trackParts": "createch2:railway/rolling/track_parts",
+    "standardRail": "createch2:railway/rolling/standard_rail",
+    "underframe": "createch2:railway/locomotive/underframe",
+    "assembly": "createch2:railway/locomotive/steam_assembly",
+    "loader": "createch2:railway/terminal/item_loader",
+    "unloader": "createch2:railway/terminal/item_unloader",
+    "advancedLoader": "createch2:railway/terminal/advanced_item_loader",
+    "nuggets": "createch2:steel_steam/tfmg/steel_nuggets",
+    "crowbar": "railcraft:steel_crowbar",
+    "largePlate": "modern_industrialization:materials/steel/craft/large_plate",
+    "minecart": "modern_industrialization:vanilla_recipes/packer/minecart",
+    "ordinaryRail": "createch2:minecraft/rail_bulk",
+    "pigment": "tfcorewashing:chunks/quern/chunks_hematite_quern",
+    "redDye": "tfc:crafting/red_dye",
+    "canonicalPlate": "createch2:create/pressing/steel_plate",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "fluidTank": "create:crafting/kinetics/fluid_tank",
+    "barrel": "tfc:crafting/wood/barrel/oak",
+    "pigmentHammer": "tfcorewashing:ores/hematite/hematite_normal_hammer"
+  },
+  "recipes": {
+    "createch2:railway/rolling/manual_rolling_machine": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GPG",
+        "PCP",
+        "GAG"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:heavy_gears/bronze"
+        },
+        "P": {
+          "item": "create:mechanical_press"
+        },
+        "C": {
+          "item": "railcraft:coke_oven_bricks"
+        },
+        "A": {
+          "item": "create:andesite_casing"
+        }
+      },
+      "result": {
+        "id": "railcraft:manual_rolling_machine",
+        "count": 1
+      }
+    },
+    "createch2:railway/rolling/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:rolling",
+      "key": {
+        "A": {
+          "item": "railcraft:steel_ingot"
+        }
+      },
+      "pattern": [
+        "AA",
+        "AA"
+      ],
+      "result": {
+        "count": 4,
+        "id": "railcraft:steel_plate"
+      }
+    },
+    "createch2:railway/rolling/track_parts": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:rolling",
+      "key": {
+        "A": {
+          "tag": "c:nuggets/steel"
+        }
+      },
+      "pattern": [
+        "AA",
+        " A"
+      ],
+      "result": {
+        "count": 3,
+        "id": "railcraft:track_parts"
+      }
+    },
+    "createch2:railway/rolling/standard_rail": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:rolling",
+      "key": {
+        "A": {
+          "item": "railcraft:steel_ingot"
+        },
+        "C": {
+          "item": "railcraft:track_parts"
+        }
+      },
+      "pattern": [
+        "ACA",
+        "A A",
+        "ACA"
+      ],
+      "result": {
+        "count": 16,
+        "id": "railcraft:standard_rail"
+      }
+    },
+    "createch2:railway/locomotive/underframe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "railcraft:rolling",
+      "key": {
+        "C": {
+          "item": "railcraft:coke_oven_bricks"
+        },
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "M": {
+          "item": "minecraft:minecart"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        }
+      },
+      "pattern": [
+        "C C",
+        "SMS",
+        "R R"
+      ],
+      "result": {
+        "count": 1,
+        "id": "railcraft:frame"
+      }
+    },
+    "createch2:railway/locomotive/steam_assembly": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "railcraft:frame"
+      },
+      "transitional_item": {
+        "id": "railcraft:frame"
+      },
+      "loops": 1,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:solid_fueled_firebox"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "modern_industrialization:bronze_boiler"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:steel_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:standard_rail"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:controller_circuit"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:steel_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "railcraft:track_parts"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:fluid_tank"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:mechanical_pump"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "create:controls"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "tfmg:lubrication_oil"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "railcraft:frame"
+            }
+          ],
+          "results": [
+            {
+              "id": "railcraft:frame"
+            }
+          ],
+          "recipe_tier": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:steam_locomotive"
+        }
+      ]
+    },
+    "createch2:railway/terminal/item_loader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SUS",
+        "RCR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "U": {
+          "item": "minecraft:hopper"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "L": {
+          "item": "railcraft:item_detector"
+        }
+      },
+      "result": {
+        "id": "railcraft:item_loader",
+        "count": 1
+      }
+    },
+    "createch2:railway/terminal/item_unloader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SUS",
+        "RCR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "U": {
+          "item": "railcraft:item_detector"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "L": {
+          "item": "minecraft:hopper"
+        }
+      },
+      "result": {
+        "id": "railcraft:item_unloader",
+        "count": 1
+      }
+    },
+    "createch2:railway/terminal/advanced_item_loader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SCS",
+        "RBR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "B": {
+          "item": "railcraft:item_loader"
+        },
+        "L": {
+          "item": "railcraft:steel_crowbar"
+        }
+      },
+      "result": {
+        "id": "railcraft:advanced_item_loader",
+        "count": 1
+      }
+    },
+    "createch2:steel_steam/tfmg/steel_nuggets": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "result": {
+        "id": "tfmg:steel_nugget",
+        "count": 9
+      }
+    },
+    "railcraft:steel_crowbar": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "a": {
+          "tag": "c:ingots/steel"
+        },
+        "b": {
+          "tag": "c:dyes/red"
+        }
+      },
+      "pattern": [
+        " ba",
+        "bab",
+        "ab "
+      ],
+      "result": {
+        "count": 1,
+        "id": "railcraft:steel_crowbar"
+      }
+    },
+    "modern_industrialization:materials/steel/craft/large_plate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "x": {
+          "tag": "c:plates/steel"
+        }
+      },
+      "pattern": [
+        "xx",
+        "xx"
+      ],
+      "result": {
+        "count": 1,
+        "id": "modern_industrialization:steel_large_plate"
+      }
+    },
+    "modern_industrialization:vanilla_recipes/packer/minecart": {
+      "type": "modern_industrialization:packer",
+      "eu": 2,
+      "duration": 100,
+      "item_inputs": [
+        {
+          "item": "modern_industrialization:steel_large_plate",
+          "amount": 1
+        },
+        {
+          "item": "minecraft:rail",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "minecraft:minecart",
+          "amount": 1
+        }
+      ]
+    },
+    "createch2:minecraft/rail_bulk": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "I I",
+        "ISI",
+        "I I"
+      ],
+      "key": {
+        "I": {
+          "tag": "c:ingots/iron"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "id": "minecraft:rail",
+        "count": 32
+      }
+    },
+    "tfc:crafting/red_dye": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "tfc:powder/hematite"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:red_dye"
+      }
+    },
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "tfc:crafting/wood/barrel/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "L L",
+        "L L",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/barrel/oak"
+      }
+    },
+    "tfcorewashing:chunks/quern/chunks_hematite_quern": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfcorewashing:chunks_hematite"
+      },
+      "result": {
+        "id": "tfcorewashing:dirty_dust_hematite",
+        "count": 1
+      }
+    },
+    "tfcorewashing:ores/hematite/hematite_normal_hammer": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "primary_ingredient": {
+        "tag": "c:tools/hammer"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "ingredients": [
+        {
+          "item": "tfc:ore/normal_hematite"
+        },
+        {
+          "tag": "c:tools/hammer"
+        }
+      ],
+      "result": {
+        "id": "tfcorewashing:rocky_chunks_hematite",
+        "count": 5
+      }
+    }
+  },
+  "kinds": {
+    "createch2:railway/rolling/manual_rolling_machine": "authored",
+    "createch2:railway/rolling/steel_plate": "authored",
+    "createch2:railway/rolling/track_parts": "authored",
+    "createch2:railway/rolling/standard_rail": "authored",
+    "createch2:railway/locomotive/underframe": "authored",
+    "createch2:railway/locomotive/steam_assembly": "authored",
+    "createch2:railway/terminal/item_loader": "authored",
+    "createch2:railway/terminal/item_unloader": "authored",
+    "createch2:railway/terminal/advanced_item_loader": "authored",
+    "createch2:steel_steam/tfmg/steel_nuggets": "authored",
+    "railcraft:steel_crowbar": "native",
+    "modern_industrialization:materials/steel/craft/large_plate": "native",
+    "modern_industrialization:vanilla_recipes/packer/minecart": "native",
+    "createch2:minecraft/rail_bulk": "authored",
+    "tfc:crafting/red_dye": "native",
+    "createch2:create/pressing/steel_plate": "authored",
+    "createch2:age_foundation/mi_bronze/fluid_pipe": "authored",
+    "create:crafting/kinetics/fluid_tank": "native",
+    "tfc:crafting/wood/barrel/oak": "native",
+    "tfcorewashing:chunks/quern/chunks_hematite_quern": "native",
+    "tfcorewashing:ores/hematite/hematite_normal_hammer": "native"
+  },
+  "slagLayout": {
+    "master": [
+      40,
+      0,
+      2
+    ],
+    "pipes": [
+      [
+        40,
+        -1,
+        2
+      ],
+      [
+        40,
+        -2,
+        2
+      ]
+    ],
+    "tank": [
+      40,
+      -3,
+      2
+    ],
+    "ports": [
+      {
+        "node": [
+          40,
+          -1,
+          2
+        ],
+        "block": [
+          40,
+          0,
+          2
+        ],
+        "mode": "BLOCK_OUT"
+      },
+      {
+        "node": [
+          40,
+          -2,
+          2
+        ],
+        "block": [
+          40,
+          -3,
+          2
+        ],
+        "mode": "BLOCK_IN"
+      }
+    ]
+  },
+  "scope": "Owned manual rolling stock packet for selected locomotive/frame and loader/unloader/advanced-loader duties;actual final machines/controller/detector/other assembly suppliers remain separate. Retired Railcraftnuggets stay retired;owned TFMGnuggets and native steam packer minecart are selected.",
+  "pigmentPowderSupplier": "native:first_wrought_sluice/dirty_dust",
+  "excludedDirectPigmentRecipe": "tfc:quern/powder/hematite_normal"
+}

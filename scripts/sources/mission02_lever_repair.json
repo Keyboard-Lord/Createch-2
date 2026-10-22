@@ -1,0 +1,65 @@
+{
+  "id": "minecraft:lever",
+  "nativePath": "data/minecraft/recipe/lever.json",
+  "before": {
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+      "#": {
+        "item": "minecraft:cobblestone"
+      },
+      "X": {
+        "item": "minecraft:stick"
+      }
+    },
+    "pattern": [
+      "X",
+      "#"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:lever"
+    }
+  },
+  "after": {
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+      "#": {
+        "tag": "c:cobblestones/normal"
+      },
+      "X": {
+        "tag": "c:rods/wooden"
+      }
+    },
+    "pattern": [
+      "X",
+      "#"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:lever"
+    }
+  },
+  "cobble": {
+    "id": "tfc:crafting/rock/cobble/granite",
+    "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+    "data": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:rock/loose/granite"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:rock/cobble/granite"
+      }
+    }
+  }
+}

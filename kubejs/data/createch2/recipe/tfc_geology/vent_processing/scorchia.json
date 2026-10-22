@@ -1,0 +1,29 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "molten_vents:dormant_molten_scorchia"
+    }
+  ],
+  "processing_time": 450,
+  "results": [
+    {
+      "id": "tfmg:sulfur_dust",
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "chance": 0.25
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "create:scorchia",
+      "chance": 0.25
+    }
+  ],
+  "recipe_tier": 0
+}

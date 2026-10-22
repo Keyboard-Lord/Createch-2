@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:birch_wood_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:birch_logs"
+        },
+        "state": {
+          "Name": "productivebees:birch_wood_nest"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_martian_complex": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "createch2:offworld_archaeology/martian_complex"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_martian_complex"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:foils/zinc"
+    },
+    {
+      "tag": "c:physical_foils/zinc"
+    }
+  ],
+  "heat_capacity": 4.762,
+  "forging_temperature": 252,
+  "welding_temperature": 336
+}

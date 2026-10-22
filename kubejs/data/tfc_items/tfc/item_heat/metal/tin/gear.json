@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:gears/tin"
+    },
+    {
+      "tag": "c:heavy_gears/tin"
+    }
+  ],
+  "heat_capacity": 28.571,
+  "forging_temperature": 138,
+  "welding_temperature": 184
+}

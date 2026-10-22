@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20760332,
+    "separation": 3,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "createch2:celestial_void_arches",
+      "weight": 1
+    }
+  ]
+}

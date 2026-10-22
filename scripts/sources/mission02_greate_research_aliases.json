@@ -1,0 +1,1043 @@
+{
+  "truth": "REVIEWED_EXACT_GREATE_RESEARCH_ALIAS_POLICY",
+  "nativeClasses": {
+    "manager": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager"
+    ],
+    "managerV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager",
+      true
+    ],
+    "conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "conversionV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      true
+    ],
+    "factories": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues"
+    ],
+    "effect": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.impl.research.effect.RecipeUnlockEffect"
+    ],
+    "unlock": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.impl.research.effect.data.RecipeUnlockEffectData"
+    ],
+    "api": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.api.ResearchdApi"
+    ],
+    "context": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.api.RecipeFilterContext"
+    ],
+    "finder": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.create.RecipeFinderMixin"
+    ],
+    "finderV": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.create.RecipeFinderMixin",
+      true
+    ],
+    "recipeManager": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.RecipeManagerMixin"
+    ],
+    "tick": [
+      "researchd-1.2.5.jar",
+      "com.portingdeadmods.researchd.mixins.BoundTickingBlockEntityMixin"
+    ],
+    "tieredMixer": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.mixer.TieredMechanicalMixerBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "manager": "614496013c03cdf2ddeb3256cea91a927627f4fdb544356627ee6256595a9251",
+    "managerV": "ae199a823a935a817a0a2f47c2269a69f89985cfa9a8897ceeee901e049e719e",
+    "conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "conversionV": "b6831e2a5a1ebbe2ea7632c38f006d983e97be3ea608f925a2db78fea5332518",
+    "factories": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "effect": "ae3d77cdc064a2b2b10054b58fa71b76ff41878c85974a9b72ee946a4c9075a6",
+    "unlock": "c98d09894d045a8e06e5ccb0d1aa3c1652f60ec0f74d8e1fdbb58eab342aadb3",
+    "api": "8b8df4fc0196e3ddf2498f90faea60046be79023790a72b1fa0a69f1d8a1f6c5",
+    "context": "704fa7331cbc6945c4890ecebd50f69534b1f36358ed7ee657edac674840a7e7",
+    "finder": "bc2403c6a6566be0bba2c2618cf4adfe95e45f096f753de8f8b5f1b931edfde0",
+    "finderV": "3393892fa4bfc876fb290710ff37a4c17b44e63c6f6201d9dac24b0e524bebf1",
+    "recipeManager": "3f94c36d9cf8835b4b32da8b4f7cf649cd591bed822dca48e083a9a3345a8c9a",
+    "tick": "c5b48a6dcfba0fa3ac0145d79c8012435626b9b6f315e7b75ebfbbca23d12e67",
+    "tieredMixer": "d8eb2de64a7106e1fbec5aef2c40c8735338e77ccd6c79fc4323ad4869a1a4d2"
+  },
+  "config": {
+    "path": "config/greate-recipes.yaml",
+    "sha256": "030f65d37bdb7fde7cc302101bfd34452b585fe8d6ee8cab9ed447a99e94e1b7"
+  },
+  "supportedTypes": [
+    "create:milling",
+    "create:crushing",
+    "create:pressing",
+    "create:mixing",
+    "create:cutting",
+    "create:splashing",
+    "create:haunting",
+    "create:compacting",
+    "gtceu:macerator",
+    "gtceu:bender",
+    "gtceu:mixer",
+    "gtceu:cutter",
+    "gtceu:ore_washer",
+    "gtceu:compressor"
+  ],
+  "aliases": [
+    {
+      "node": "createch2:mat_01_bronze_metallurgy",
+      "code": "MAT-01",
+      "source": "createch2:age_foundation/foundry/cast_bronze_ingot",
+      "type": "create:compacting",
+      "kind": "authored",
+      "alias": "greate:integration/createch2/age_foundation/foundry/cast_bronze_ingot"
+    },
+    {
+      "node": "createch2:mat_01_bronze_metallurgy",
+      "code": "MAT-01",
+      "source": "createch2:research/pack/material_specimens_workshop",
+      "type": "create:pressing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/research/pack/material_specimens_workshop"
+    },
+    {
+      "node": "createch2:mat_02_brass_engineering",
+      "code": "MAT-02",
+      "source": "createch2:age_foundation/foundry/brass_foundry_batch",
+      "type": "create:mixing",
+      "kind": "authored",
+      "alias": "greate:integration/createch2/age_foundation/foundry/brass_foundry_batch"
+    },
+    {
+      "node": "createch2:mat_02_brass_engineering",
+      "code": "MAT-02",
+      "source": "createch2:age_foundation/foundry/brass_sheet_from_foundry_brass",
+      "type": "create:pressing",
+      "kind": "authored",
+      "alias": "greate:integration/createch2/age_foundation/foundry/brass_sheet_from_foundry_brass"
+    },
+    {
+      "node": "createch2:mec_01_rotary_mechanics",
+      "code": "MEC-01",
+      "source": "createch2:research/pack/kinetic_data_workshop",
+      "type": "create:mixing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/research/pack/kinetic_data_workshop"
+    },
+    {
+      "node": "createch2:che_01_process_control",
+      "code": "CHE-01",
+      "source": "createch2:research/pack/process_samples_heated",
+      "type": "create:mixing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/research/pack/process_samples_heated"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "chemica:cutting/glass_vial",
+      "type": "create:cutting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/cutting/glass_vial"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "chemica:cutting/graduated_cylinder",
+      "type": "create:cutting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/cutting/graduated_cylinder"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "chemica:cutting/petri_dish",
+      "type": "create:cutting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/cutting/petri_dish"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "chemica:cutting/platinum_electrode",
+      "type": "create:cutting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/cutting/platinum_electrode"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "chemica:mixing/brine",
+      "type": "create:mixing",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/mixing/brine"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "createch2:chemica/feedstock/tfc_graphite",
+      "type": "create:crushing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/chemica/feedstock/tfc_graphite"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "createch2:chemica/feedstock/tfc_phosphorus",
+      "type": "create:crushing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/chemica/feedstock/tfc_phosphorus"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "createch2:chemica/feedstock/canonical_fluorite",
+      "type": "create:crushing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/chemica/feedstock/canonical_fluorite"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "code": "CHE-02",
+      "source": "createch2:chemica/feedstock/tfc_rutile",
+      "type": "create:crushing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/chemica/feedstock/tfc_rutile"
+    },
+    {
+      "node": "createch2:che_03_synthetic_polymers",
+      "code": "CHE-03",
+      "source": "chemica:compacting/pan_fibers",
+      "type": "create:compacting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/compacting/pan_fibers"
+    },
+    {
+      "node": "createch2:che_03_synthetic_polymers",
+      "code": "CHE-03",
+      "source": "chemica:compacting/stabilized_fibers",
+      "type": "create:compacting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/compacting/stabilized_fibers"
+    },
+    {
+      "node": "createch2:che_03_synthetic_polymers",
+      "code": "CHE-03",
+      "source": "chemica:compacting/carbon_fiber_strands",
+      "type": "create:compacting",
+      "kind": "authored",
+      "alias": "greate:integration/chemica/compacting/carbon_fiber_strands"
+    },
+    {
+      "node": "createch2:geo_02_mechanized_extraction",
+      "code": "GEO-02",
+      "source": "createch2:research/pack/geological_surveys_crushing",
+      "type": "create:crushing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/research/pack/geological_surveys_crushing"
+    },
+    {
+      "node": "createch2:ele_01_practical_electrics",
+      "code": "ELE-01",
+      "source": "createch2:electrical/wire/copper_wire",
+      "type": "create:cutting",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/electrical/wire/copper_wire"
+    },
+    {
+      "node": "createch2:ele_04_high_energy_grid",
+      "code": "ELE-04",
+      "source": "electroenergetics:compacting/plant_oil",
+      "type": "create:compacting",
+      "kind": "native",
+      "alias": "greate:integration/electroenergetics/compacting/plant_oil"
+    },
+    {
+      "node": "createch2:ele_04_high_energy_grid",
+      "code": "ELE-04",
+      "source": "electroenergetics:mixing/transformer_oil",
+      "type": "create:mixing",
+      "kind": "native",
+      "alias": "greate:integration/electroenergetics/mixing/transformer_oil"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "code": "FRN-06",
+      "source": "createch2:mixer/greate_computation/pcb_coolant",
+      "type": "gtceu:mixer",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/mixer/greate_computation/pcb_coolant"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "code": "FRN-06",
+      "source": "createch2:mixer/greate_biology/gelatin_mixture",
+      "type": "gtceu:mixer",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/mixer/greate_biology/gelatin_mixture"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "code": "FRN-06",
+      "source": "createch2:mixer/greate_biology/raw_growth_medium",
+      "type": "gtceu:mixer",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/mixer/greate_biology/raw_growth_medium"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "code": "FRN-06",
+      "source": "createch2:mixer/greate_precision/osmiridium_stock",
+      "type": "gtceu:mixer",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/mixer/greate_precision/osmiridium_stock"
+    },
+    {
+      "node": "createch2:eso_01_botanical_observation",
+      "code": "ESO-01",
+      "source": "createch2:research/pack/esoteric_records_botanical",
+      "type": "create:mixing",
+      "kind": "captured",
+      "alias": "greate:integration/createch2/research/pack/esoteric_records_botanical"
+    }
+  ],
+  "researchBefore": {
+    "createch2:mat_01_bronze_metallurgy": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "tfc:metal/ingot/bronze"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:material_specimens",
+          "createch2:kinetic_data"
+        ],
+        "count": 3,
+        "duration": 200
+      },
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:fabrication_materials",
+      "display": {
+        "name": {
+          "translate": "research.createch2.mat_01_bronze_metallurgy.title"
+        },
+        "desc": {
+          "translate": "research.createch2.mat_01_bronze_metallurgy.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:age_foundation/foundry/molten_bronze_from_copper_tin",
+          "createch2:age_foundation/foundry/cast_bronze_ingot",
+          "createch2:research/pack/material_specimens_workshop"
+        ]
+      }
+    },
+    "createch2:mat_02_brass_engineering": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "create:brass_ingot"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:material_specimens",
+          "createch2:process_samples"
+        ],
+        "count": 5,
+        "duration": 180
+      },
+      "parents": [
+        "createch2:mat_01_bronze_metallurgy",
+        "createch2:thm_01_boiler_science"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:fabrication_materials",
+      "display": {
+        "name": {
+          "translate": "research.createch2.mat_02_brass_engineering.title"
+        },
+        "desc": {
+          "translate": "research.createch2.mat_02_brass_engineering.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:age_foundation/foundry/brass_foundry_batch",
+          "createch2:age_foundation/foundry/brass_sheet_from_foundry_brass",
+          "createch2:age_foundation/foundry/brass_casing_from_foundry_brass"
+        ]
+      }
+    },
+    "createch2:mec_01_rotary_mechanics": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "create:shaft"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:kinetic_data",
+          "createch2:material_specimens"
+        ],
+        "count": 3,
+        "duration": 200
+      },
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:fabrication_materials",
+      "display": {
+        "name": {
+          "translate": "research.createch2.mec_01_rotary_mechanics.title"
+        },
+        "desc": {
+          "translate": "research.createch2.mec_01_rotary_mechanics.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:age_foundation/create/shaft",
+          "createch2:age_foundation/create/hand_crank",
+          "createch2:age_foundation/create/water_wheel",
+          "createch2:age_foundation/create/large_water_wheel",
+          "createch2:research/pack/kinetic_data_workshop",
+          "createch2:mobility/field_glider",
+          "createch2:mobility/field_glider_repair"
+        ]
+      }
+    },
+    "createch2:che_01_process_control": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "tfmg:steel_distillation_controller"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:process_samples",
+          "createch2:material_specimens"
+        ],
+        "count": 3,
+        "duration": 200
+      },
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:process_resources",
+      "display": {
+        "name": {
+          "translate": "research.createch2.che_01_process_control.title"
+        },
+        "desc": {
+          "translate": "research.createch2.che_01_process_control.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:heavy_industry/tfmg/distillation_controller",
+          "createch2:heavy_industry/tfmg/distillation_output",
+          "createch2:research/pack/process_samples_heated",
+          "createch2:process_facilities/transport/large_tank",
+          "createch2:process_facilities/transport/large_tank_hatch",
+          "createch2:heavy_industry/tfmg/steel_fluid_tank",
+          "createch2:heavy_industry/tfmg/process_gas_coking",
+          "createch2:heavy_industry/tfmg/steel_chemical_vat",
+          "createch2:heavy_industry/tfmg/sulfuric_acid_tfc_minerals",
+          "createch2:chemical_age/mi/coal_dust_from_geological_coal"
+        ]
+      }
+    },
+    "createch2:che_02_electrolysis": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "chemica:platinum_electrode"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:process_samples",
+          "createch2:grid_telemetry"
+        ],
+        "count": 5,
+        "duration": 180
+      },
+      "parents": [
+        "createch2:che_01_process_control",
+        "createch2:ele_01_practical_electrics"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:process_resources",
+      "display": {
+        "name": {
+          "translate": "research.createch2.che_02_electrolysis.title"
+        },
+        "desc": {
+          "translate": "research.createch2.che_02_electrolysis.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "chemica:cutting/glass_vial",
+          "chemica:cutting/graduated_cylinder",
+          "chemica:cutting/petri_dish",
+          "chemica:cutting/platinum_electrode",
+          "chemica:mixing/brine",
+          "chemica:vat_machine_recipe/electrolysis/brine",
+          "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+          "createch2:chemica/feedstock/tfc_graphite",
+          "createch2:chemica/feedstock/tfc_phosphorus",
+          "createch2:chemica/feedstock/canonical_fluorite",
+          "createch2:chemica/feedstock/tfc_rutile",
+          "createch2:chemical_age/mi/chlorine_from_geological_salt"
+        ]
+      }
+    },
+    "createch2:che_03_synthetic_polymers": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "chemica:cured_epoxy_sheet"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:process_samples",
+          "createch2:geological_surveys"
+        ],
+        "count": 5,
+        "duration": 180
+      },
+      "parents": [
+        "createch2:che_02_electrolysis"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:process_resources",
+      "display": {
+        "name": {
+          "translate": "research.createch2.che_03_synthetic_polymers.title"
+        },
+        "desc": {
+          "translate": "research.createch2.che_03_synthetic_polymers.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "chemica:hot_blast/naphtha",
+          "chemica:distillation/reformate",
+          "chemica:distillation/aromatic_mix",
+          "chemica:vat_machine_recipe/vat_reaction/acetone",
+          "chemica:vat_machine_recipe/mixing/epoxy_precursor",
+          "chemica:vat_machine_recipe/mixing/epoxy_resin",
+          "chemica:casting/epoxy_resin",
+          "chemica:vat_machine_recipe/mixing/vinyl_chloride_monomer",
+          "chemica:vat_machine_recipe/vat_reaction/polyvinyl_chloride",
+          "chemica:casting/polyvinyl_chloride",
+          "chemica:vat_machine_recipe/vat_reaction/polyethylene_oxygen",
+          "chemica:casting/polyethylene_sheet",
+          "chemica:vat_machine_recipe/mixing/pan_precursor",
+          "chemica:compacting/pan_fibers",
+          "chemica:compacting/stabilized_fibers",
+          "chemica:compacting/carbon_fiber_strands",
+          "chemica:vat_machine_recipe/mixing/carbon_fiber_composite_sheet",
+          "chemica:vat_machine_recipe/vat_reaction/polytetrafluoroethylene",
+          "createch2:research/pack/process_samples_chemical",
+          "createch2:chemical_age/mi/polydimethylsiloxane",
+          "createch2:chemical_age/mi/silicone_rubber",
+          "createch2:greate/belts/silicone_rubber",
+          "createch2:greate/polymers/pvc_plate",
+          "createch2:greate/polymers/pvc_foil",
+          "createch2:large_chemical_reactor/greate_polymers/chromium_trioxide",
+          "createch2:large_chemical_reactor/greate_polymers/potassium_dichromate",
+          "createch2:large_chemical_reactor/greate_polymers/dimethylbenzene",
+          "createch2:large_chemical_reactor/greate_polymers/phthalic_acid",
+          "createch2:large_chemical_reactor/greate_polymers/chlorobenzene",
+          "createch2:large_chemical_reactor/greate_polymers/nitrochlorobenzene",
+          "createch2:large_chemical_reactor/greate_polymers/dichlorobenzidine",
+          "createch2:large_chemical_reactor/greate_polymers/diaminobenzidine",
+          "createch2:large_chemical_reactor/greate_polymers/diphenyl_isophtalate",
+          "createch2:large_chemical_reactor/greate_polymers/polybenzimidazole",
+          "createch2:greate/polymers/nitration_mixture",
+          "createch2:greate/polymers/sulfuric_acid_recovery",
+          "createch2:greate/polymers/chloroform",
+          "createch2:greate/polymers/tetrafluoroethylene",
+          "createch2:greate/polymers/polytetrafluoroethylene"
+        ]
+      }
+    },
+    "createch2:geo_02_mechanized_extraction": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "modern_industrialization:electric_quarry"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:geological_surveys",
+          "createch2:kinetic_data",
+          "createch2:material_specimens"
+        ],
+        "count": 5,
+        "duration": 180
+      },
+      "parents": [
+        "createch2:geo_01_field_geology",
+        "createch2:mec_02_automated_manipulation"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:process_resources",
+      "display": {
+        "name": {
+          "translate": "research.createch2.geo_02_mechanized_extraction.title"
+        },
+        "desc": {
+          "translate": "research.createch2.geo_02_mechanized_extraction.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:logistics_mining/age_08/mi_electric_quarry",
+          "createch2:mining_machine/mi/bulk_terra_strata",
+          "createch2:research/pack/geological_surveys_crushing"
+        ]
+      }
+    },
+    "createch2:ele_01_practical_electrics": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "electroenergetics:connector"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:material_specimens",
+          "createch2:kinetic_data"
+        ],
+        "count": 3,
+        "duration": 200
+      },
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:power_computation",
+      "display": {
+        "name": {
+          "translate": "research.createch2.ele_01_practical_electrics.title"
+        },
+        "desc": {
+          "translate": "research.createch2.ele_01_practical_electrics.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:consequences/fire/smoke_detector",
+          "createch2:research/pack/grid_telemetry",
+          "electroenergetics:crafting/black_electrical_panel",
+          "electroenergetics:crafting/blue_electrical_panel",
+          "electroenergetics:crafting/brown_electrical_panel",
+          "electroenergetics:crafting/bulb",
+          "electroenergetics:crafting/buzzer",
+          "electroenergetics:crafting/capacitor",
+          "electroenergetics:crafting/clamp_meter",
+          "electroenergetics:crafting/cut_off_switch",
+          "electroenergetics:crafting/cyan_electrical_panel",
+          "electroenergetics:crafting/diode",
+          "electroenergetics:crafting/double_connector",
+          "electroenergetics:crafting/double_switch",
+          "electroenergetics:crafting/electrical_panel",
+          "electroenergetics:crafting/electrical_panel_undye",
+          "electroenergetics:crafting/emergency_stop_button",
+          "electroenergetics:crafting/gray_electrical_panel",
+          "electroenergetics:crafting/green_electrical_panel",
+          "electroenergetics:crafting/indicator_bulb",
+          "electroenergetics:crafting/inductor",
+          "electroenergetics:crafting/light_blue_electrical_panel",
+          "electroenergetics:crafting/light_gray_electrical_panel",
+          "electroenergetics:crafting/lime_electrical_panel",
+          "electroenergetics:crafting/magenta_electrical_panel",
+          "electroenergetics:crafting/momentary_switch",
+          "electroenergetics:crafting/orange_electrical_panel",
+          "electroenergetics:crafting/pink_electrical_panel",
+          "electroenergetics:crafting/potentiometer",
+          "electroenergetics:crafting/purple_electrical_panel",
+          "electroenergetics:crafting/quad_connector",
+          "electroenergetics:crafting/quad_connector_from_double",
+          "electroenergetics:crafting/red_electrical_panel",
+          "electroenergetics:crafting/redstone_potentiometer",
+          "electroenergetics:crafting/redstone_relay",
+          "electroenergetics:crafting/relay",
+          "electroenergetics:crafting/resistor",
+          "electroenergetics:crafting/triple_connector",
+          "electroenergetics:crafting/white_electrical_panel",
+          "electroenergetics:crafting/yellow_electrical_panel",
+          "electroenergetics:stonecutting/electric_shock_sign",
+          "electroenergetics:stonecutting/grounding_sign",
+          "createch2:electrical/wire/empty_spool",
+          "createch2:electrical/wire/copper_wire",
+          "createch2:electrical/distribution/connector",
+          "createch2:electrical/wire/insulated_wire",
+          "createch2:electrical/wire/insulated_spool",
+          "createch2:electrical/wire/bare_spool",
+          "createch2:electrical/protection/fuse",
+          "createch2:electrical/protection/fuse_holder",
+          "createch2:electrical/protection/ground_rod",
+          "createch2:electrical/measurement/voltmeter",
+          "createch2:electrical/measurement/ammeter"
+        ]
+      }
+    },
+    "createch2:ele_04_high_energy_grid": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "electroenergetics:sulfur_hexafluoride_breaker"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:grid_telemetry",
+          "createch2:computational_models",
+          "createch2:material_specimens"
+        ],
+        "count": 12,
+        "duration": 250
+      },
+      "parents": [
+        "createch2:ele_03_industrial_power",
+        "createch2:mat_03_space_aluminum"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:power_computation",
+      "display": {
+        "name": {
+          "translate": "research.createch2.ele_04_high_energy_grid.title"
+        },
+        "desc": {
+          "translate": "research.createch2.ele_04_high_energy_grid.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "electroenergetics:compacting/plant_oil",
+          "electroenergetics:crafting/current_transformer",
+          "electroenergetics:crafting/electrum_wire",
+          "electroenergetics:crafting/electrum_wire_spool",
+          "electroenergetics:crafting/glass_insulator_segment",
+          "electroenergetics:crafting/glass_insulator_spool",
+          "electroenergetics:crafting/hanging_glass_insulator",
+          "electroenergetics:crafting/hv_switch",
+          "electroenergetics:crafting/insulator",
+          "electroenergetics:crafting/redstone_variac",
+          "electroenergetics:crafting/transformer",
+          "electroenergetics:crafting/tri_polar_energy_meter",
+          "electroenergetics:crafting/variac",
+          "electroenergetics:crafting/voltage_regulator",
+          "electroenergetics:crafting/wire_damper",
+          "electroenergetics:mechanical_crafting/linemans_stick",
+          "electroenergetics:mechanical_crafting/sulfur_hexafluoride_breaker",
+          "electroenergetics:mixing/transformer_oil",
+          "electroenergetics:stonecutting/high_voltage_sign",
+          "createch2:factory_scaling/components/lv_electric_motor_batch",
+          "createch2:factory_scaling/components/lv_electric_pump_batch",
+          "createch2:factory_scaling/components/lv_conveyor_module_batch",
+          "createch2:factory_scaling/components/mi_piston_batch",
+          "createch2:factory_scaling/components/mi_robot_arm_batch",
+          "createch2:factory_scaling/components/mi_conveyor_batch"
+        ]
+      }
+    },
+    "createch2:frn_06_reality_engineering": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "minecraft:dragon_egg"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:frontier_observations",
+          "createch2:computational_models",
+          "createch2:grid_telemetry",
+          "createch2:esoteric_records"
+        ],
+        "count": 16,
+        "duration": 300
+      },
+      "parents": [
+        "createch2:frn_05_exotic_particle_physics",
+        "createch2:mtr_04_matter_replication",
+        "createch2:eso_04_occult_synthesis"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:nuclear_frontier",
+      "display": {
+        "name": {
+          "translate": "research.createch2.frn_06_reality_engineering.title"
+        },
+        "desc": {
+          "translate": "research.createch2.frn_06_reality_engineering.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:greate/tier_9/cogwheel",
+          "createch2:greate/tier_9/crushing_wheel",
+          "createch2:greate/tier_9/encased_fan",
+          "createch2:greate/tier_9/gearbox",
+          "createch2:greate/tier_9/horizontal_gearbox",
+          "createch2:greate/tier_9/large_cogwheel",
+          "createch2:greate/tier_9/mechanical_mixer",
+          "createch2:greate/tier_9/mechanical_press",
+          "createch2:greate/tier_9/mechanical_pump",
+          "createch2:greate/tier_9/mechanical_saw",
+          "createch2:greate/tier_9/millstone",
+          "createch2:greate/tier_9/shaft_cutting",
+          "createch2:greate/tier_9/vertical_gearbox",
+          "createch2:material_recycling/greate_neutronium/neutronium_cogwheel",
+          "createch2:material_recycling/greate_neutronium/neutronium_crushing_wheel",
+          "createch2:material_recycling/greate_neutronium/neutronium_encased_fan",
+          "createch2:material_recycling/greate_neutronium/neutronium_gearbox",
+          "createch2:material_recycling/greate_neutronium/large_neutronium_cogwheel",
+          "createch2:material_recycling/greate_neutronium/neutronium_mechanical_mixer",
+          "createch2:material_recycling/greate_neutronium/neutronium_mechanical_press",
+          "createch2:material_recycling/greate_neutronium/neutronium_mechanical_pump",
+          "createch2:material_recycling/greate_neutronium/neutronium_mechanical_saw",
+          "createch2:material_recycling/greate_neutronium/neutronium_millstone",
+          "createch2:material_recycling/greate_neutronium/neutronium_shaft",
+          "createch2:material_recycling/greate_neutronium/neutronium_vertical_gearbox",
+          "dysoncubeproject:em_railejector_controller",
+          "dysoncubeproject:ray_receiver_controller",
+          "createch2:large_chemical_reactor/greate_computation/biphenyl_from_oxygen",
+          "createch2:large_chemical_reactor/greate_computation/polychlorinated_biphenyl",
+          "createch2:mixer/greate_computation/pcb_coolant",
+          "createch2:assembler/greate_computation/hpca_active_cooler_component",
+          "createch2:assembler/greate_computation/hpca_advanced_computation_component",
+          "createch2:assembler/greate_computation/optical_pipe",
+          "createch2:assembler/greate_computation/hpca_bridge_component",
+          "createch2:assembly_line/greate_computation/network_switch",
+          "createch2:greate/suppliers/computation_tiny_pipe_mold",
+          "createch2:greate/suppliers/computation_stainless_tiny_pipe",
+          "createch2:greate/suppliers/computation_stainless_screw",
+          "createch2:circuit_assembler/greate_wetware_circuits/wetware_processor_luv",
+          "createch2:circuit_assembler/greate_wetware_circuits/wetware_processor_assembly_zpm",
+          "createch2:assembly_line/greate_wetware_circuits/wetware_super_computer_uv",
+          "createch2:assembly_line/greate_wetware_circuits/wetware_mainframe_uhv",
+          "createch2:greate/suppliers/wetware_pbi_plate",
+          "createch2:greate/suppliers/wetware_pbi_foil",
+          "createch2:large_chemical_reactor/greate_neuro/chloromethane_from_methane",
+          "createch2:large_chemical_reactor/greate_neuro/dimethylchlorosilane_from_chloromethane",
+          "createch2:large_chemical_reactor/greate_neuro/polydimethylsiloxane_from_dimethyldichlorosilane",
+          "createch2:large_chemical_reactor/greate_neuro/silicone_rubber",
+          "createch2:large_chemical_reactor/greate_neuro/neuro_processor",
+          "createch2:greate/suppliers/neuro_pipe_small_mold",
+          "createch2:greate/suppliers/neuro_plate_mold",
+          "createch2:greate/suppliers/neuro_pbi_pipe",
+          "createch2:greate/suppliers/neuro_silicone_plate",
+          "createch2:greate/suppliers/neuro_silicone_foil",
+          "createch2:greate/suppliers/neuro_tungsten_steel_bolt",
+          "createch2:large_chemical_reactor/greate_wetware_boards/multilayer_fiber_board",
+          "createch2:large_chemical_reactor/greate_wetware_boards/wetware_board",
+          "createch2:large_chemical_reactor/greate_wetware_boards/wetware_circuit_board_iron3",
+          "createch2:large_chemical_reactor/greate_wetware_boards/iron_3_chloride",
+          "createch2:greate/suppliers/wetware_cylinder_mold",
+          "createch2:greate/suppliers/wetware_petri_dish",
+          "createch2:brewery/greate_biology/bacteria",
+          "createch2:large_chemical_reactor/greate_biology/bacterial_sludge",
+          "createch2:brewery/greate_biology/enriched_bacterial_sludge_from_u238",
+          "createch2:distillery/greate_biology/mutagen",
+          "createch2:large_chemical_reactor/greate_biology/collagen_from_bone",
+          "createch2:mixer/greate_biology/gelatin_mixture",
+          "createch2:centrifuge/greate_biology/gelatin",
+          "createch2:autoclave/greate_biology/agar",
+          "createch2:mixer/greate_biology/raw_growth_medium",
+          "createch2:fluid_heater/greate_biology/sterile_growth_medium",
+          "createch2:large_chemical_reactor/greate_biology/stem_cells",
+          "createch2:greate/suppliers/biology_plant_ball",
+          "createch2:greate/suppliers/biology_biomass",
+          "createch2:greate/suppliers/biology_distilled_water",
+          "createch2:greate/suppliers/biology_meat",
+          "createch2:greate/suppliers/biology_calcite",
+          "createch2:greate/suppliers/biology_bio_chaff",
+          "createch2:greate/suppliers/biology_calcium",
+          "createch2:mixer/greate_precision/osmiridium_stock",
+          "createch2:greate/suppliers/wetware_zpm_circuit_assembler",
+          "createch2:greate/suppliers/wetware_zpm_1a_energy_converter",
+          "createch2:greate/suppliers/wetware_uv_1a_energy_converter",
+          "createch2:greate/suppliers/wetware_uv_energy_input_hatch",
+          "createch2:greate/suppliers/wetware_sterilizing_filter_casing",
+          "createch2:greate/suppliers/wetware_luv_mixer",
+          "createch2:greate/suppliers/wetware_luv_centrifuge",
+          "createch2:greate/suppliers/wetware_luv_autoclave",
+          "createch2:greate/suppliers/wetware_luv_brewery",
+          "createch2:greate/suppliers/wetware_luv_distillery",
+          "createch2:greate/suppliers/wetware_luv_fluid_heater",
+          "createch2:greate/suppliers/neutronium_conditioning",
+          "createch2:greate/suppliers/neutronium_plate",
+          "createch2:greate/suppliers/uhv_hull",
+          "createch2:material_recycling/wetware_facilities/zpm_circuit_assembler",
+          "createch2:material_recycling/wetware_facilities/zpm_1a_energy_converter",
+          "createch2:material_recycling/wetware_facilities/uv_1a_energy_converter",
+          "createch2:material_recycling/wetware_facilities/uv_energy_input_hatch",
+          "createch2:material_recycling/wetware_facilities/luv_mixer",
+          "createch2:material_recycling/wetware_facilities/luv_centrifuge",
+          "createch2:material_recycling/wetware_facilities/luv_autoclave",
+          "createch2:material_recycling/wetware_facilities/luv_brewery",
+          "createch2:material_recycling/wetware_facilities/luv_distillery",
+          "createch2:material_recycling/wetware_facilities/luv_fluid_heater",
+          "createch2:material_recycling/wetware_facilities/sterilizing_filter_casing",
+          "createch2:material_recycling/computation/hpca_active_cooler_component",
+          "createch2:material_recycling/computation/hpca_advanced_computation_component",
+          "createch2:material_recycling/computation/hpca_bridge_component",
+          "createch2:material_recycling/computation/network_switch",
+          "createch2:material_recycling/computation/optical_pipe",
+          "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_assembly",
+          "createch2:research_station/greate_wetware_circuits/research/gtceu/wetware_processor_computer",
+          "gtceu:circuit_assembler/data_module_soldering_alloy",
+          "gtceu:circuit_assembler/data_module",
+          "gtceu:assembler/high_power_casing",
+          "mekanism:processing/refined_obsidian/ingot/from_dust"
+        ]
+      }
+    },
+    "createch2:eso_01_botanical_observation": {
+      "type": "researchd:simple",
+      "icon": {
+        "type": "researchd:item_research_icon",
+        "items": [
+          {
+            "id": "enchanted:belladonna_flower"
+          }
+        ]
+      },
+      "method": {
+        "type": "researchd:consume_research_pack",
+        "packs": [
+          "createch2:esoteric_records",
+          "createch2:material_specimens"
+        ],
+        "count": 3,
+        "duration": 200
+      },
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "requires_parent": true,
+      "research_page": "createch2:esoteric_studies",
+      "display": {
+        "name": {
+          "translate": "research.createch2.eso_01_botanical_observation.title"
+        },
+        "desc": {
+          "translate": "research.createch2.eso_01_botanical_observation.description"
+        }
+      },
+      "effect": {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "enchanted:soft_clay_jar",
+          "enchanted:clay_jar",
+          "enchanted:witch_oven",
+          "createch2:research/pack/esoteric_records_botanical"
+        ]
+      }
+    }
+  },
+  "canonicalLedgerSha256": "ea55070e4049a312e65365d051b5785490bf28a7206b7dea3853f167ac825492",
+  "reviewedCanonicalLedgerAppend": {
+    "previousLedgerSha256": "261d88f68a35025ba7b521b468e44975976c2b58c540fe74e19dfe996f193479",
+    "owner": "FRN-05",
+    "id": "createch2:research_station/greate_uv/research/gtceu/crystal_processor_computer",
+    "existingNodesAndOtherFieldsChanged": false
+  },
+  "subsequentReviewedCanonicalLedgerAppends": [
+    {
+      "previousLedgerSha256": "c6cb9dc41c240145ef87fab62b3246225dea28e5e5a6b990440497d620ffdd67",
+      "afterLedgerSha256": "91ff01111bea414b9e5a658e0781ee211a48c5f3abfc7c3cacfcdc9211635591",
+      "owner": "SPC-07",
+      "ids": [
+        "ae2:network/cells/spatial_components",
+        "ae2:network/cells/spatial_components_0",
+        "ae2:network/cells/spatial_components_1"
+      ],
+      "otherNodeFieldsAndIdentitiesChanged": false
+    }
+  ]
+}

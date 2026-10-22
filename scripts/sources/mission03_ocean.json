@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "owner": "Lantea hanging oxyhelium, using the installed Aquamirae feature and block mechanics",
+  "nativeArtifact": "aquamirae-neoforge-1.21.1-7.2.13.jar",
+  "biomes": ["createch2:lantea_bioshroom_caves", "createch2:lantea_prismachasm"],
+  "configuredFeature": {
+    "type": "aquamirae:oxyhelium",
+    "config": {
+      "growable_on": "createch2:geology/replaceables/lantea",
+      "max_depth": 256,
+      "max_length": 8,
+      "spread_radius": 6,
+      "length_penalty_per_block": 1,
+      "count": {"type": "uniform", "min_inclusive": 4, "max_inclusive": 16}
+    }
+  },
+  "placedFeature": {
+    "feature": "createch2:lantea_oxyhelium",
+    "placement": [
+      {"type": "minecraft:rarity_filter", "chance": 2},
+      {"type": "minecraft:in_square"},
+      {"type": "minecraft:height_range", "height": {
+        "type": "minecraft:uniform", "min_inclusive": {"absolute": 16}, "max_inclusive": {"absolute": 192}
+      }},
+      {"type": "minecraft:biome"}
+    ]
+  },
+  "questText": {
+    "quest.078B050000000001.quest_desc": [
+      "Extract Lantean certus quartz and abyssal oxyhelium. Both justify repeated industrial voyages and permanent local capacity.",
+      "Survey submerged stone ceilings in Lantea's Bioshroom Caves and Prismachasm. Oxyhelium hangs down into water; harvest its native buds and retain support stems for later collection. New expeditions must reach newly generated terrain for the corrected habitat."
+    ],
+    "quest.078B070000000001.quest_desc": [
+      "Bring recovered abyssal amethyst into the titanium, computation and submarine instrument industries to build sonar, underwater mines, and shielded naval infrastructure.",
+      "Lantea's native eels can drop treasure pouches; those pouches can contain abyssal amethyst. These are chance rewards from the existing ocean fauna, so provision repeated voyages and protect the return cargo."
+    ]
+  },
+  "climateRouter": {
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    },
+    "vegetation": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:vegetation",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    },
+    "continents": "minecraft:overworld/continents",
+    "erosion": "minecraft:overworld/erosion",
+    "depth": "minecraft:overworld/depth",
+    "ridges": "minecraft:overworld/ridges"
+  }
+}

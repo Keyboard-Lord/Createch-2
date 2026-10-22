@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ANA",
+    "CHC",
+    "AWA"
+  ],
+  "key": {
+    "A": {
+      "item": "sgjourney:naquadah_alloy"
+    },
+    "N": {
+      "item": "sgjourney:refined_naquadah"
+    },
+    "C": {
+      "item": "sgjourney:control_crystal"
+    },
+    "H": {
+      "item": "modern_industrialization:quantum_machine_hull"
+    },
+    "W": {
+      "item": "modern_industrialization:superconductor_coil"
+    }
+  },
+  "result": {
+    "id": "sgjourney:crystallizer",
+    "count": 1
+  }
+}

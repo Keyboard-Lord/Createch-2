@@ -1,0 +1,32 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/zinc"
+    },
+    {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:brass_ingot",
+      "count": 4
+    },
+    {
+      "id": "createbigcannons:basin_foundry_lid"
+    }
+  ],
+  "heat_requirement": "heated",
+  "recipe_tier": 0
+}

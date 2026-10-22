@@ -1,0 +1,194 @@
+{
+  "scope": "Native CBCbronze melting/cold TFMGcasting mechanics only; actual captured burner supplier remains required",
+  "nativeClasses": {
+    "foundry": [
+      "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "rbasamoyai.createbigcannons.crafting.foundry.BasinFoundryBlockEntity"
+    ],
+    "lid": [
+      "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "rbasamoyai.createbigcannons.crafting.foundry.BasinFoundryLidBlock"
+    ],
+    "melting": [
+      "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe"
+    ],
+    "types": [
+      "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "rbasamoyai.createbigcannons.index.CBCRecipeTypes",
+      true
+    ],
+    "basinOperating": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinOperatingBlockEntity"
+    ],
+    "basinRecipe": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinRecipe"
+    ],
+    "basin": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlockEntity"
+    ],
+    "heat": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.HeatCondition"
+    ],
+    "params": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipeParams"
+    ],
+    "serializer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.StandardProcessingRecipe$Serializer"
+    ]
+  },
+  "nativeCodeSha256": {
+    "foundry": "569883248853800613755c3e04c93452b5c2ceb76c0c6368f56a4396079d163f",
+    "lid": "87cace128cc0a54a525bc73fa292ba868a5ec1be7622c2fbc3cc8996792d22a4",
+    "melting": "c016c29f3c7bac0fd092bc994d834a85eaa954fd3510ab12f2fbb06624dcc0ef",
+    "types": "80ca2089d3e9f5a3c44835dd364297366f7f82e4578e4ae4ca048b3818906699",
+    "basinOperating": "ca63c8db039a99457cfe1f356fff662b342769ed2d3d0d28122c629a99c19521",
+    "basinRecipe": "f07880adcc5878526e705f0f1f2d7e755f8d35e637e19db968f1654cde450164",
+    "basin": "7e90ced4daec284d3e2bf63c44d4510e918f22bf0381e312a355adfa0f819db8",
+    "heat": "319fc5fe8f5960caa8840bf2dbc550733d2797101b647335108aa6e9d55c625b",
+    "params": "ffcc3404e4b7f824d7eae8b1038920af73cbf3870e9902ee2c5c773a433e839c",
+    "serializer": "c7c95be2c25da145b73edb2627f0e72f9cb64287d2be065a98ae842dae426917"
+  },
+  "ids": {
+    "melting": "createch2:age_foundation/foundry/molten_bronze_from_copper_tin",
+    "casting": "tfmg:casting/bronze",
+    "lid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "basin": "createch2:age_foundation/create/basin"
+  },
+  "recipes": {
+    "createch2:age_foundation/foundry/molten_bronze_from_copper_tin": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "createbigcannons:melting",
+      "heat_requirement": "heated",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/tin"
+        }
+      ],
+      "processing_time": 360,
+      "results": [
+        {
+          "id": "createbigcannons:molten_bronze",
+          "amount": 360
+        }
+      ]
+    },
+    "tfmg:casting/bronze": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "createbigcannons"
+        }
+      ],
+      "type": "tfmg:casting",
+      "ingredients": [
+        {
+          "type": "neoforge:tag",
+          "amount": 90,
+          "tag": "c:molten_bronze"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "id": "createbigcannons:bronze_ingot"
+        }
+      ]
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/basin": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A A",
+        "ALA",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:basin",
+        "count": 1
+      }
+    }
+  },
+  "nativeRows": {
+    "tfmg:casting/bronze": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "createbigcannons"
+            }
+          ],
+          "type": "tfmg:casting",
+          "ingredients": [
+            {
+              "type": "neoforge:tag",
+              "amount": 90,
+              "tag": "c:molten_bronze"
+            }
+          ],
+          "processing_time": 200,
+          "results": [
+            {
+              "id": "createbigcannons:bronze_ingot"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "kinds": {
+    "createch2:age_foundation/foundry/molten_bronze_from_copper_tin": "authored",
+    "tfmg:casting/bronze": "native",
+    "createch2:age_foundation/foundry/basin_foundry_lid": "authored",
+    "createch2:age_foundation/create/basin": "authored"
+  }
+}

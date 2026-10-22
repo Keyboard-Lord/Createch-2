@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "QMQ",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "C": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    }
+  },
+  "result": {
+    "id": "ae2:energy_acceptor",
+    "count": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:track_station"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:logistics_reports",
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:log_01_material_handling",
+    "createch2:mec_02_automated_manipulation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.log_02_railway_engineering.title"
+    },
+    "desc": {
+      "translate": "research.createch2.log_02_railway_engineering.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:create/track_bulk",
+      "create:crafting/kinetics/track_station",
+      "create:crafting/kinetics/track_signal",
+      "createch2:research/pack/logistics_reports_rail",
+      "coastersengineered:coaster_casing",
+      "coastersengineered:coaster_observer",
+      "simulatedcoasters:coaster_anchorpoint",
+      "simulatedcoasters:coaster_cart",
+      "simulatedcoasters:rivet",
+      "simulatedcoasters:sequenced_assembly/coaster_track"
+    ]
+  }
+}

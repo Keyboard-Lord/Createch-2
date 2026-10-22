@@ -1,0 +1,506 @@
+{
+  "nativeClasses": {
+    "tank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity"
+    ],
+    "connect": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.connectivity.ConnectivityHandler",
+      false
+    ],
+    "axis": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.connectivity.ConnectivityHandler$1",
+      false
+    ],
+    "block": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlock"
+    ],
+    "blockV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlock",
+      true
+    ],
+    "smart": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.SmartFluidTank"
+    ],
+    "tankInventory": [
+      "@neoforge",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank"
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "fluidInsert": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$1"
+    ],
+    "fluidConnection": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode$FluidConnection",
+      false
+    ],
+    "cache": [
+      "@neoforge",
+      "net.neoforged.neoforge.capabilities.BlockCapabilityCache"
+    ],
+    "cacheV": [
+      "@neoforge",
+      "net.neoforged.neoforge.capabilities.BlockCapabilityCache",
+      true
+    ],
+    "extension": [
+      "@neoforge",
+      "net.neoforged.neoforge.common.extensions.IBlockEntityExtension"
+    ],
+    "listeners": [
+      "@neoforge",
+      "net.neoforged.neoforge.capabilities.CapabilityListenerHolder"
+    ],
+    "listenersV": [
+      "@neoforge",
+      "net.neoforged.neoforge.capabilities.CapabilityListenerHolder",
+      true
+    ],
+    "serverLevel": [
+      "@loader",
+      "net.minecraft.server.level.ServerLevel"
+    ],
+    "blockEntity": [
+      "@loader",
+      "net.minecraft.world.level.block.entity.BlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "tank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "connect": "44f4afa47ef42105bdff6ec4cd34b75865016d221256340f3a79aec9338e0f52",
+    "axis": "0775f1c237f5f877c4a0782f073cc8919e15bb6801612add27ce695e568770e3",
+    "block": "764867a962b37a966e0a8cb04fa0dc20fe07abecdccab1f18d36a4ce031cb973",
+    "blockV": "543cffa0cce4d0c54451a686f145850bf292b0a9f09b67f4dedca3e454fb66ca",
+    "smart": "8298bda26d0c4e963aad4f82e33fb334cfa93ac0790630d1171b70a2f85d5239",
+    "tankInventory": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "fluidInsert": "cdf676ef40d709d08111f8d626f8515be8c3cf6ea71122fa61d81254d1291091",
+    "fluidConnection": "7a0bfcbf29f7439f0c4b6eff307322e58d80449a62038a32e3c7532c1d72b670",
+    "cache": "92d740ca48f298b5bd87564a742219d2328e257fe31d989f57218d42f768c703",
+    "cacheV": "304b552f5e9513f01cb945f250d4e5415726f0b5f1d795bcf03712ed2fdca5b1",
+    "extension": "173cf5c4255366ee9dacea1331fdc065b984d22197d7d2feb2c523896f724534",
+    "listeners": "59c0f2076286a4597f25969f1dc6d7f4b5d68f18b863667608fcaec4310e7063",
+    "listenersV": "43d50f2c2d6b48985a12e39e5143ac2a5ba1124d189c43ed0e41b7bc808389d7",
+    "serverLevel": "6f30d77ead1a0b0feea5e6df58777d0fce578fefe94cfc5c8a77db503f1e2fac",
+    "blockEntity": "a718e3a3eaf31ef46e46f3f32c0f3e037e98f236d89e8bab327eca845253b174"
+  },
+  "ids": {
+    "tank": "create:crafting/kinetics/fluid_tank",
+    "copperPlate": "modern_industrialization:materials/copper/compressor/main",
+    "barrel": "tfc:crafting/wood/barrel/oak",
+    "planks": "tfc:crafting/wood/planks/oak",
+    "hardened": "tfmg:filling/hardened_planks",
+    "hammerHead": "tfc:knapping/stone/hammer_head/igneous_intrusive",
+    "hammerCraft": "tfc:crafting/stone/hammer/igneous_intrusive",
+    "handstone": "tfc:crafting/handstone"
+  },
+  "recipes": {
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "modern_industrialization:materials/copper/compressor/main": {
+      "type": "modern_industrialization:compressor",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:copper_plate"
+        }
+      ]
+    },
+    "tfc:crafting/wood/barrel/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "L L",
+        "L L",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/barrel/oak"
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/planks/oak"
+      }
+    },
+    "tfmg:filling/hardened_planks": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "tag": "minecraft:planks"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 250,
+          "tag": "c:creosote"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:hardened_planks"
+        }
+      ]
+    },
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": {
+      "type": "tfc:knapping",
+      "default_on": false,
+      "ingredient": {
+        "tag": "tfc:stones/loose/igneous_intrusive"
+      },
+      "knapping_type": "tfc:rock",
+      "pattern": [
+        "#####",
+        "#####",
+        "  #  "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer_head/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/stone/hammer/igneous_intrusive": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": [
+          {
+            "tag": "c:rods/wooden"
+          },
+          {
+            "item": "minecraft:bone"
+          }
+        ],
+        "X": {
+          "item": "tfc:stone/hammer_head/igneous_intrusive"
+        }
+      },
+      "pattern": [
+        "X",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/handstone": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:stones"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        "S  ",
+        "BBB"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:handstone"
+      }
+    }
+  },
+  "kinds": {
+    "create:crafting/kinetics/fluid_tank": "native",
+    "modern_industrialization:materials/copper/compressor/main": "native",
+    "tfc:crafting/wood/barrel/oak": "native",
+    "tfc:crafting/wood/planks/oak": "native",
+    "tfmg:filling/hardened_planks": "authored",
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": "native",
+    "tfc:crafting/stone/hammer/igneous_intrusive": "native",
+    "tfc:crafting/handstone": "native"
+  },
+  "nativeRows": {
+    "create:crafting/kinetics/fluid_tank": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:plates/copper"
+            },
+            "C": {
+              "tag": "c:barrels/wooden"
+            }
+          },
+          "pattern": [
+            "B",
+            "C",
+            "B"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:fluid_tank"
+          }
+        }
+      }
+    ],
+    "modern_industrialization:materials/copper/compressor/main": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:compressor",
+          "duration": 100,
+          "eu": 2,
+          "item_inputs": [
+            {
+              "amount": 1,
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "item_outputs": [
+            {
+              "amount": 1,
+              "item": "modern_industrialization:copper_plate"
+            }
+          ]
+        }
+      }
+    ],
+    "tfc:crafting/wood/barrel/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "L": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "L L",
+            "L L",
+            "LLL"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/barrel/oak"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ],
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "default_on": false,
+          "ingredient": {
+            "tag": "tfc:stones/loose/igneous_intrusive"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            "#####",
+            "#####",
+            "  #  "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer_head/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/hammer/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/hammer_head/igneous_intrusive"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/handstone": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:stones"
+            },
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            "S  ",
+            "BBB"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:handstone"
+          }
+        }
+      }
+    ]
+  },
+  "quest": {
+    "dependencies": [
+      "2FB54C1F480EB542"
+    ],
+    "icon": {
+      "id": "modern_industrialization:steel_machine_casing"
+    },
+    "icon_scale": "0.94d",
+    "id": "55B8AEEB7ACA1E4E",
+    "rewards": [
+      {
+        "auto": "enabled",
+        "id": "4FD1419105094760",
+        "type": "xp",
+        "xp": "15"
+      },
+      {
+        "id": "5A960621E61587CF",
+        "item": {
+          "count": "1",
+          "id": "modern_industrialization:wrench"
+        },
+        "type": "item"
+      }
+    ],
+    "shape": "createch_recovery",
+    "size": "1.04d",
+    "tags": [
+      "theme_steel_steam_recovery",
+      "role_recovery"
+    ],
+    "tasks": [
+      {
+        "id": "5F638DB1D4297C5D",
+        "item": {
+          "count": "1",
+          "id": "modern_industrialization:steel_machine_casing"
+        },
+        "type": "item"
+      },
+      {
+        "count": "16L",
+        "id": "028D60995487DF0B",
+        "item": {
+          "components": {
+            "tfc:heat": {}
+          },
+          "count": "1",
+          "id": "tfc:metal/ingot/steel"
+        },
+        "type": "item"
+      }
+    ],
+    "x": "3.344d",
+    "y": "9.078d"
+  },
+  "questFile": "createch2_06_age_05_steel_steam.snbt"
+}

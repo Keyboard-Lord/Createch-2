@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/lapis_lazuli",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/small_native_gold",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/amethyst",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:unrefined_paper",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

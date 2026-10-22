@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:analog_circuit"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method",
+    "createch2:ele_01_practical_electrics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.com_01_analog_logic.title"
+    },
+    "desc": {
+      "translate": "research.createch2.com_01_analog_logic.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:modern_industrialization/analog_circuit_tfmg_entry",
+      "createch2:research/pack/computational_models",
+      "createch2:factory_scaling/controls/analog_circuit_batch"
+    ]
+  }
+}

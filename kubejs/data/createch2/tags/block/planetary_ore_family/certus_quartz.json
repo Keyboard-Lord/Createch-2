@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/certus_quartz/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/certus_quartz/granite",
+      "required": false
+    }
+  ]
+}

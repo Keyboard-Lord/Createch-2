@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/native_osmium/small",
+    "#createch2:tfc_ores/native_osmium/poor",
+    "#createch2:tfc_ores/native_osmium/normal",
+    "#createch2:tfc_ores/native_osmium/rich"
+  ]
+}

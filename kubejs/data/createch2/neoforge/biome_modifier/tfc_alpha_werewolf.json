@@ -1,0 +1,16 @@
+{
+  "type": "vampirism:extended_add_spawns",
+  "biomes": "#createch2:tfc_alpha_werewolf_habitat",
+  "excludedBiomes": [],
+  "spawners": [
+    {
+      "category": "monster",
+      "super": {
+        "type": "werewolves:alpha_werewolf",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    }
+  ]
+}

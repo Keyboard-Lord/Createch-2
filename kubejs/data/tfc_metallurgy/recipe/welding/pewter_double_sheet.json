@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/pewter"
+  },
+  "second_input": {
+    "tag": "c:sheets/pewter"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/pewter"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "gt": [
+    "gtceu:macerator",
+    "gtceu:arc_furnace",
+    "gtceu:extractor"
+  ],
+  "dismantling": [
+    "gtceu:arc_furnace",
+    "gtceu:extractor",
+    "gtceu:macerator",
+    "modern_industrialization:macerator",
+    "modern_industrialization:unpacker"
+  ],
+  "evidence": {
+    "truth": "LOADED_COMPLETE_SERIALIZER_REGISTRY_AND_RELOAD_CONFIRMED",
+    "censusSha256": "26876c6f7b41a13b6ff67c2678e77adfef6b48e776e13d349f6c5720e54e8d1c",
+    "capturedAtEpochMs": 1792536745841,
+    "loadedRecipes": 83323,
+    "encodedRecipes": 82887,
+    "unencodedRecipes": 436,
+    "serializerRegistryCount": 503,
+    "scope": "Exact type unions verified against the complete registered serializer inventory. Full reload finished with zero KubeJS errors and no invalid type warnings. No manufacturing or conversion-loop pass."
+  }
+}

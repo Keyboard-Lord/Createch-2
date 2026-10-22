@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:energy_crystal"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:venusian_field_data",
+      "createch2:grid_telemetry",
+      "createch2:process_samples"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:frn_04b_extraterrestrial_archaeology",
+    "createch2:thm_03_high_pressure_thermodynamics",
+    "createch2:ele_04_high_energy_grid"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04c_dimensional_field_theory.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04c_dimensional_field_theory.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/sgjourney/energy_crystal",
+      "createch2:research/pack/mercurian_coordinates"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "S": {
+      "tag": "c:shafts/andesite_alloy"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "C": [
+      {
+        "tag": "c:ingots/copper"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ]
+  },
+  "pattern": [
+    "PSP",
+    "BFB",
+    "PCP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:shaft_coupling"
+  }
+}

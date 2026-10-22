@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:wires/silver"
+    },
+    {
+      "tag": "c:light_wires/silver"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 577,
+  "welding_temperature": 769
+}

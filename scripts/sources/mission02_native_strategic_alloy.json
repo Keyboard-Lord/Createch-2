@@ -1,0 +1,84 @@
+{
+  "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+  "classes": {
+    "crucible": {
+      "class": "net.dries007.tfc.common.blockentities.CrucibleBlockEntity",
+      "verbose": false,
+      "sha256": "46e89937f82c1a6d3b3dd18154f7df3a044ef2ecc3a619e1a9ee19f1c0ced6ac"
+    },
+    "inventory": {
+      "class": "net.dries007.tfc.common.blockentities.CrucibleBlockEntity$CrucibleInventory",
+      "verbose": false,
+      "sha256": "c4f0d48064514f48e7f75642c5b558f9a9db3b6d68ce2badc900d95f35ac4c2f"
+    },
+    "info": {
+      "class": "net.dries007.tfc.common.blockentities.CrucibleBlockEntity$CrucibleInventory$1",
+      "verbose": false,
+      "sha256": "d74ac3119ed480a878305f3c025550b57c3053a10ade8a8ec8a0e8b551f4e6fc"
+    },
+    "alloy": {
+      "class": "net.dries007.tfc.util.FluidAlloy",
+      "verbose": false,
+      "sha256": "1080b18ccd2e31d8e922f842354466d3baa17a0165a9f90469b10bb0d35f6311"
+    },
+    "alloyRecipe": {
+      "class": "net.dries007.tfc.common.recipes.AlloyRecipe",
+      "verbose": false,
+      "sha256": "83455a21d708e892a5047b4b01ff9ca2ae527a3026e1c8c188b46ee0a9ff7ff8"
+    },
+    "caps": {
+      "class": "net.dries007.tfc.common.capabilities.BlockCapabilities",
+      "verbose": false,
+      "sha256": "5986a991094ab27930a8a223c764510518bb10e3ed1f73e13068aea1b2655b91"
+    },
+    "capsV": {
+      "class": "net.dries007.tfc.common.capabilities.BlockCapabilities",
+      "verbose": true,
+      "sha256": "abdaa300cc48d05dd2e277de5c327d2326da265c054a3c519a36fb079253163f"
+    },
+    "anvil": {
+      "class": "net.dries007.tfc.common.blockentities.AnvilBlockEntity",
+      "verbose": false,
+      "sha256": "57bced1600033241dd3f7d202cab2f1269112f79ed025a56ffaa206eaf80ae6c"
+    },
+    "metal": {
+      "class": "net.dries007.tfc.util.Metal",
+      "verbose": false,
+      "sha256": "79b6265feb7303074ccd44cfad7cd219673468a10a904f975f19751b243b907f"
+    },
+    "metalBlock": {
+      "class": "net.dries007.tfc.util.Metal$BlockType",
+      "verbose": false,
+      "sha256": "bb1f60ed79dad123eac3a117afbcb950e93d1feb3f84b73b78d6f2ce13fc022e"
+    },
+    "eventsV": {
+      "class": "net.dries007.tfc.TerraFirmaCraft",
+      "verbose": true,
+      "sha256": "3b052fa5ed8b3e6524b2d184bee20e3cf1e60ec74295d6d944ed5eb019146560"
+    },
+    "hotTags": {
+      "jar": "TFCHotOrNot-1.21.1-1.2.jar",
+      "class": "tfchotornot.common.HNTags$Items",
+      "verbose": false,
+      "sha256": "be8b8a149430b29cd95f61ca291b781b585e1ddcdfcfb9f21fe762e8e3c83440"
+    },
+    "hotItems": {
+      "jar": "TFCHotOrNot-1.21.1-1.2.jar",
+      "class": "tfchotornot.common.items.HNItems",
+      "verbose": false,
+      "sha256": "b112cd5187dd267bfd2a6a22eb374dc6482fde6f94bdaf066ee3f2129384113e"
+    },
+    "hotItemsV": {
+      "jar": "TFCHotOrNot-1.21.1-1.2.jar",
+      "class": "tfchotornot.common.items.HNItems",
+      "verbose": true,
+      "sha256": "31a8ab182efb846cbf54f1ea9a6d1f734a7e7e23bdee878772344448444b42b9"
+    },
+    "chest": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blockentities.TFCChestBlockEntity",
+      "verbose": false,
+      "sha256": "aa4d94613a74d432a6269baf098743467b87300848e0122fcf775ff763469a72"
+    }
+  }
+}

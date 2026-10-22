@@ -1,0 +1,40 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:bronze_boiler"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.thm_01_boiler_science.title"
+    },
+    "desc": {
+      "translate": "research.createch2.thm_01_boiler_science.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:age_foundation/mi_bronze/boiler",
+      "createch2:material_recycling/mi_bronze/boiler"
+    ]
+  }
+}

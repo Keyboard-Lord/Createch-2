@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:mangrove_wood_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:mangrove_logs"
+        },
+        "state": {
+          "Name": "productivebees:mangrove_wood_nest"
+        }
+      }
+    ]
+  }
+}

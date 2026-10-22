@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_component_recycling.mjs",
+  "type": "modern_industrialization:unpacker",
+  "eu": 2,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "gtceu:luv_mixer",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:electric_mixer",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:luv_machine_hull",
+      "amount": 1
+    }
+  ]
+}

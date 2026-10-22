@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "CHC",
+    "PMP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "C": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_pump"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:vacuum_freezer",
+    "count": 1
+  }
+}

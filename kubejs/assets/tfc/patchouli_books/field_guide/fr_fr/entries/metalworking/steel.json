@@ -1,0 +1,98 @@
+{
+  "name": "Acier",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG remplace le haut fourneau TFC. Le four électrique ultérieur de MI garde son rôle.$(br2)Un lingot de fonte TFC et un fondant TFC produisent 100 mB de fonte brute TFC, à couler en un lingot. La qualité du minerai détermine toujours la quantité de fonte obtenue par chauffage selon les règles TFC."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:anvil/metal/ingot/high_carbon_steel",
+      "text": "L'installation TFMG fournit la fonte brute aux recettes d'enclume et de soudage TFC. Les aciers à haute teneur en carbone, noir, rouge et bleu conservent leurs exigences de forge et d'alliage."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "black_steel",
+      "text": "L'$(thing)acier noir$() est une forme avancée d'acier constituée d'un alliage d'acier et d'autres métaux. Pour le créer, vous devez produire un alliage appelé $(thing)acier faible$() dans un $(l:metalworking/crucible)creuset$().",
+      "title": "Acier noir"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_steel",
+      "title": "Acier faible",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Prérequis :$()$(br)$(li)50 - 70 % : $(thing)Acier$()$(li)15 - 25 % : $(thing)Nickel$()$(li)15 - 25 % : $(thing)Bronze noir$()$(br2)L'$(thing)acier faible$() fondu peut être coulé en lingots."
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_black_steel",
+      "text": "Les $(thing)lingots d'acier faible$() peuvent être soudés avec des $(thing)lingots de fonte brute$() pour créer des $(thing)lingots d'acier noir à haute teneur en carbone$(). Enfin, ceux-ci peuvent être travaillés sur une $(l:metalworking/anvils)enclume$() pour créer des $(thing)lingots d'acier noir$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "L'$(thing)acier noir$() peut servir à fabriquer des outils et des $(l:mechanics/armor)armures$(). Il est également un ingrédient essentiel à la création de l'$(l:metalworking/steel#blue_steel)acier bleu$() et de l'$(l:metalworking/steel#red_steel)acier rouge$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blue_steel",
+      "text": "L'$(thing)acier bleu$() est l'un des deux métaux du niveau le plus élevé, avec l'$(l:metalworking/steel#red_steel)acier rouge$(). Comme pour l'$(l:metalworking/steel#black_steel)acier noir$(), la première étape consiste à créer un alliage d'$(thing)acier bleu faible$() dans un $(l:metalworking/crucible)creuset$().",
+      "title": "Acier bleu"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_blue_steel",
+      "title": "Acier bleu faible",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Prérequis :$()$(br)$(li)50 - 55 % : $(thing)Acier noir$()$(li)20 - 25 % : $(thing)Acier$()$(li)10 - 15 % : $(thing)Bronze au bismuth$()$(li)10 - 15 % : $(thing)Argent sterling$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_blue_steel",
+      "text": "Les $(thing)lingots d'acier bleu faible$() peuvent être soudés avec des $(l:metalworking/steel#black_steel)lingots d'acier noir$() pour créer des $(thing)lingots d'acier bleu à haute teneur en carbone$(). Enfin, ceux-ci peuvent être travaillés sur une $(l:metalworking/anvils)enclume$() pour créer des $(thing)lingots d'acier bleu$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "L'$(thing)acier bleu$() peut servir à créer des outils et des $(l:mechanics/armor)armures$(), ainsi qu'un $(thing)seau en acier bleu$() capable de transporter $(cfg:metalBucketCapacity) de liquides, y compris de la $(6)lave$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_steel",
+      "text": "L'$(thing)acier rouge$() est l'un des deux métaux du niveau le plus élevé, avec l'$(l:metalworking/steel#blue_steel)acier bleu$(). Comme pour l'$(l:metalworking/steel#black_steel)acier noir$(), la première étape consiste à créer un alliage d'$(thing)acier rouge faible$() dans un $(l:metalworking/crucible)creuset$().",
+      "title": "Acier rouge"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_red_steel",
+      "title": "Acier rouge faible",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Prérequis :$()$(br)$(li)50 - 55 % : $(thing)Acier noir$()$(li)20 - 25 % : $(thing)Acier$()$(li)10 - 15 % : $(thing)Laiton$()$(li)10 - 15 % : $(thing)Or rose$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_red_steel",
+      "text": "Les $(thing)lingots d'acier rouge faible$() peuvent être soudés avec des $(l:metalworking/steel#black_steel)lingots d'acier noir$() pour créer des $(thing)lingots d'acier rouge à haute teneur en carbone$(). Enfin, ceux-ci peuvent être travaillés sur une $(l:metalworking/anvils)enclume$() pour créer des $(thing)lingots d'acier rouge$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "L'$(thing)acier rouge$() peut servir à créer des outils et des $(l:mechanics/armor)armures$(), ainsi qu'un $(thing)seau en acier rouge$() capable de transporter $(cfg:metalBucketCapacity) de liquides, y compris de la $(6)lave$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:metal/ingot/pig_iron": 1,
+    "tfc:metal/ingot/high_carbon_steel": 1,
+    "tfc:metal/ingot/steel": 1,
+    "tfc:metal/ingot/weak_steel": 3,
+    "tfc:metal/ingot/high_carbon_black_steel": 4,
+    "tfc:metal/ingot/black_steel": 4,
+    "tfc:metal/ingot/weak_blue_steel": 7,
+    "tfc:metal/ingot/high_carbon_blue_steel": 8,
+    "tfc:metal/ingot/blue_steel": 8,
+    "tfc:metal/ingot/weak_red_steel": 11,
+    "tfc:metal/ingot/high_carbon_red_steel": 12,
+    "tfc:metal/ingot/red_steel": 12
+  }
+}

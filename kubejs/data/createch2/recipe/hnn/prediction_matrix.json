@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GLG",
+    "DCD",
+    "GMG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "D": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "M": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "result": {
+    "id": "hostilenetworks:prediction_matrix",
+    "count": 1
+  }
+}

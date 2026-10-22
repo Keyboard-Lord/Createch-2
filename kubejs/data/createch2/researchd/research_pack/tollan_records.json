@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 110,
+    "g": 205,
+    "b": 225
+  },
+  "sorting_value": 105,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.tollan_records.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.tollan_records.description"
+    }
+  }
+}

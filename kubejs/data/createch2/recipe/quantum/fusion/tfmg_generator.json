@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "greate:tungsten_steel_shaft",
+      "amount": 1
+    },
+    {
+      "item": "tfmg:capacitor_item",
+      "amount": 2
+    },
+    {
+      "tag": "c:plates/steel",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:copper_spool",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:magnet",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 1
+    },
+    {
+      "item": "tfmg:screwdriver",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "tfmg:generator",
+      "amount": 1
+    }
+  ]
+}

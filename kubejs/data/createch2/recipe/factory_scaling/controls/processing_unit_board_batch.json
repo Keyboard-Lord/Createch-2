@@ -1,0 +1,41 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 64,
+  "duration": 1200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:annealed_copper_cable",
+      "amount": 16
+    },
+    {
+      "item": "modern_industrialization:cadmium_battery",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:digital_circuit_board",
+      "amount": 2
+    },
+    {
+      "tag": "c:plates/platinum",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:processing_unit_board",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 3000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:processing_unit_board",
+      "amount": 2
+    }
+  ]
+}

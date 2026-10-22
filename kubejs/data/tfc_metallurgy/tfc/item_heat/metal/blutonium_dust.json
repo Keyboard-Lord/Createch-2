@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/blutonium"
+    },
+    {
+      "tag": "c:physical_dusts/blutonium"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

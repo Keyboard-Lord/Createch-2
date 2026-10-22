@@ -1,0 +1,105 @@
+{
+  "scope": "One specific P1 first-AE2 stencil ingredient repair; mature wafer line and all P0 data stay unchanged.",
+  "previousRuntimeCheckpoint": "fb3f1c6",
+  "id": "createch2:stainless_digital/ae2/silicon_press",
+  "before": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SWS",
+      "SDS"
+    ],
+    "key": {
+      "S": {
+        "item": "modern_industrialization:stainless_steel_plate"
+      },
+      "W": {
+        "item": "modern_industrialization:silicon_wafer"
+      },
+      "D": {
+        "item": "modern_industrialization:digital_circuit"
+      }
+    },
+    "result": {
+      "id": "ae2:silicon_press",
+      "count": 1
+    }
+  },
+  "after": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SWS",
+      "SDS"
+    ],
+    "key": {
+      "S": {
+        "item": "modern_industrialization:stainless_steel_plate"
+      },
+      "W": {
+        "item": "modern_industrialization:silicon_plate"
+      },
+      "D": {
+        "item": "modern_industrialization:digital_circuit"
+      }
+    },
+    "result": {
+      "id": "ae2:silicon_press",
+      "count": 1
+    }
+  },
+  "nativeDependencies": {
+    "modern_industrialization:electric_age/component/blast_furnace/monocrystalline_silicon": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:blast_furnace",
+          "eu": 64,
+          "duration": 1500,
+          "item_inputs": [
+            {
+              "tag": "c:dusts/silicon",
+              "amount": 32
+            },
+            {
+              "tag": "c:tiny_dusts/iridium",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:argon",
+            "amount": 1250
+          },
+          "item_outputs": {
+            "item": "modern_industrialization:monocrystalline_silicon",
+            "amount": 1
+          }
+        }
+      }
+    ],
+    "modern_industrialization:electric_age/component/cutting_machine/silicon_waffer": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:cutting_machine",
+          "eu": 16,
+          "duration": 600,
+          "item_inputs": {
+            "item": "modern_industrialization:monocrystalline_silicon",
+            "amount": 1
+          },
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:lubricant",
+            "amount": 500
+          },
+          "item_outputs": {
+            "item": "modern_industrialization:silicon_wafer",
+            "amount": 32
+          }
+        }
+      }
+    ]
+  }
+}

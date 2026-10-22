@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:pellet_plutonium"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:nuclear_assays",
+      "createch2:material_specimens",
+      "createch2:computational_models"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:mil_05_automated_defense",
+    "createch2:nuc_04_reactor_instrumentation",
+    "createch2:pre_05_metrology"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_06_strategic_deterrence.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_06_strategic_deterrence.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "cbc_enhanced_shells:nuke_shell",
+      "cbc_enhanced_shells:nuke_shell_mk2",
+      "createch2:research/pack/ordnance_reports_strategic"
+    ]
+  }
+}

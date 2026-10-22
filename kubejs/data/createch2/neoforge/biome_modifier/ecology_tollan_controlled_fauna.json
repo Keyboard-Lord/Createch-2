@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:tollan_ancient_delta",
+    "createch2:tollan_caldera"
+  ],
+  "spawners": [
+    {
+      "type": "tfc:deer",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

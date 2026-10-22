@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "L L",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    }
+  },
+  "result": {
+    "id": "toolbelt:pouch",
+    "count": 1
+  }
+}

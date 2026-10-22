@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FPF",
+    "PHP",
+    "FDF"
+  ],
+  "key": {
+    "F": {
+      "item": "gtceu:filter_casing"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "gtceu:cleanroom",
+    "count": 1
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cedar_stairs",
+      "required": false
+    },
+    {
+      "id": "yourmod:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:acacia_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:acacia_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:bamboo_block_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:birch_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:birch_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:cherry_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:cherry_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:dark_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:dark_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:jungle_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:jungle_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:mangrove_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:mangrove_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:spruce_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:spruce_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_acacia_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_acacia_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_bamboo_block_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_birch_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_birch_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_cherry_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_cherry_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_dark_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_dark_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_jungle_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_jungle_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_mangrove_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_mangrove_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_spruce_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_spruce_wood_stairs",
+      "required": false
+    }
+  ]
+}

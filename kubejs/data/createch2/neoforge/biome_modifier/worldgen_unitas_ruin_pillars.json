@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "createch2:unitas_prismachasm",
+    "createch2:unitas_warped_mesa"
+  ],
+  "features": [
+    "createch2:unitas_ruin_pillars"
+  ],
+  "step": "local_modifications"
+}

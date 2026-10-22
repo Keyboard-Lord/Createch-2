@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 58,
+    "min_y": 8,
+    "max_y": 40,
+    "size": 26,
+    "density": 0.42,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:end_stone"
+        ],
+        "with": [
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/poor_bertrandite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_bertrandite/basalt"
+          },
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/rich_bertrandite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 38,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_bertrandite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_end_bertrandite_tfc_vein"
+  }
+}

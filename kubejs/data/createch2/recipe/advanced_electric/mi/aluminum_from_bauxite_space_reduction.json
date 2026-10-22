@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 32,
+  "duration": 4800,
+  "item_inputs": [
+    {
+      "amount": 8,
+      "tag": "c:dusts/bauxite"
+    },
+    {
+      "amount": 1,
+      "item": "stellaris:desh_ingot"
+    },
+    {
+      "amount": 1,
+      "item": "stellaris:tharsite_ingot"
+    },
+    {
+      "amount": 2,
+      "item": "tfmg:coal_coke"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 2,
+      "item": "tfmg:aluminum_ingot"
+    },
+    {
+      "amount": 4,
+      "item": "modern_industrialization:bauxite_tiny_dust"
+    }
+  ]
+}

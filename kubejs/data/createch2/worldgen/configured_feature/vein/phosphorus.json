@@ -1,0 +1,29 @@
+{
+  "type": "tfc:disc_vein",
+  "config": {
+    "rarity": 100,
+    "density": 0.35,
+    "min_y": -55,
+    "max_y": -12,
+    "project": true,
+    "project_offset": true,
+    "size": 20,
+    "height": 4,
+    "random_name": "createch2_phosphorus",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/chalk"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "chemica:phosphorus_ore"
+          }
+        ]
+      }
+    ]
+  }
+}

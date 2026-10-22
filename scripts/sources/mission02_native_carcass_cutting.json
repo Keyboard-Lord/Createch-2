@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "classes": {
+    "board": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity",
+      "sha256": "8c550da5a84f887a8285b9bb5da25ef5fbafa6659ad4c51534534af3bc76501f"
+    },
+    "recipe": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe",
+      "sha256": "7bde343d20aff31b9e2dd3e28be59cc37749479013e7bdb01017ce11b29b7e1e"
+    },
+    "serializer": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer",
+      "sha256": "c20b38d66fff550449ea41430f53fdf137e3e887b5d601e6ba5c5082db984056"
+    },
+    "chance": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.crafting.ingredient.ChanceResult",
+      "sha256": "3505c3241ba5eff34e260257ae7512c9aaba38b6fdc4a4896ae9c60c0f431b37"
+    },
+    "sdMixin": {
+      "jar": "survivorsdelight-3.3.4-neoforge.jar",
+      "class": "com.vomiter.survivorsdelight.mixin.device.cutting.CuttingBoardBlockEntity_ISPMixin",
+      "sha256": "5829c1945b81d5e31538ad25f6c11deea9e7682c9b167ff4fd10ad85eecee8d2"
+    },
+    "and": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.ingredients.AndIngredient",
+      "sha256": "038c494ff2ced8b88e812c6646a3efb29474b3db9701252e44bd119a19ea13ce"
+    },
+    "fresh": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.ingredients.NotRottenIngredient",
+      "sha256": "744576807ade8b1f3dd854de2e260a9c5a3ef9cf253950f20220c5f8613ec19c"
+    },
+    "number": {
+      "jar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.level.storage.loot.providers.number.NumberProviders",
+      "sha256": "0d5ebcedbd8097e12e5cadf8a9373b7f8dbdb56d076e2ad62b93bf64c1a8d0fd"
+    }
+  },
+  "recipes": {
+    "animaltraptfc:compat/farmersdelight/chicken_carcass": [
+      {
+        "provider": "animaltraptfc-1.21.1-neoforge-1.0.3.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "farmersdelight"
+            }
+          ],
+          "type": "farmersdelight:cutting",
+          "ingredients": [
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "animaltrap:chicken_carcass"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            }
+          ],
+          "tool": {
+            "tag": "c:tools/knife"
+          },
+          "result": [
+            {
+              "modifiers": [
+                "tfc:copy_food"
+              ],
+              "item": {
+                "count": 1,
+                "id": "tfc:food/chicken"
+              }
+            },
+            {
+              "item": {
+                "count": 4,
+                "id": "minecraft:feather"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "animaltraptfc:compat/farmersdelight/rabbit_carcass": [
+      {
+        "provider": "animaltraptfc-1.21.1-neoforge-1.0.3.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "farmersdelight"
+            }
+          ],
+          "type": "farmersdelight:cutting",
+          "ingredients": [
+            {
+              "type": "tfc:and",
+              "children": [
+                {
+                  "item": "animaltrap:rabbit_carcass"
+                },
+                {
+                  "type": "tfc:not_rotten"
+                }
+              ]
+            }
+          ],
+          "tool": {
+            "tag": "c:tools/knife"
+          },
+          "result": [
+            {
+              "modifiers": [
+                "tfc:copy_food"
+              ],
+              "item": {
+                "count": 1,
+                "id": "tfc:food/rabbit"
+              }
+            },
+            {
+              "item": {
+                "count": 3,
+                "id": "minecraft:rabbit_hide"
+              }
+            },
+            {
+              "item": {
+                "count": 1,
+                "id": "minecraft:rabbit_foot"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 78,
+    "min_y": -56,
+    "max_y": 32,
+    "size": 24,
+    "density": 0.36,
+    "blocks": [
+      {
+        "replace": [
+          "eternal_starlight:grimstone",
+          "eternal_starlight:voidstone"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/poor_native_platinum/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_platinum/basalt"
+          },
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/rich_native_platinum/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 44,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_platinum"
+        }
+      ]
+    },
+    "random_name": "createch2_starlight_native_platinum_tfc_vein"
+  }
+}

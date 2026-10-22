@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:rock/raw/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/smooth/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/raw/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/smooth/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/raw/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/smooth/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/raw/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/cobble/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/smooth/marble",
+      "required": false
+    }
+  ]
+}

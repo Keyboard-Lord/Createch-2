@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_rugged_land",
+    "#createch2:tfc_structure_settled_land",
+    "createch2:unitas_warped_mesa",
+    "createch2:unitas_gravel_desert",
+    "createch2:unitas_ashen_woodland",
+    "createch2:unitas_granite_cliffs",
+    "createch2:chulak_eucalyptus_forest",
+    "createch2:chulak_baobab_savanna",
+    "createch2:chulak_dry_bushland",
+    "createch2:chulak_arid_mountains",
+    "createch2:tollan_caldera",
+    "createch2:tollan_volcanic_peaks",
+    "createch2:tollan_basalt_cliffs",
+    "createch2:unitas_ancient_delta",
+    "createch2:unitas_prismachasm",
+    "createch2:unitas_redstone_caves",
+    "createch2:chulak_bioshroom_caves",
+    "createch2:chulak_prismachasm",
+    "createch2:chulak_redstone_caves",
+    "createch2:tollan_ancient_delta",
+    "createch2:tollan_inferno",
+    "createch2:tollan_scorching_caves"
+  ]
+}

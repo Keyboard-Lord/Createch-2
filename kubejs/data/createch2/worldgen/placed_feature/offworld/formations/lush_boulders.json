@@ -1,0 +1,77 @@
+{
+  "feature": {
+    "type": "createch2core:landform",
+    "config": {
+      "pillar": false,
+      "palette": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:stone"
+            },
+            "weight": 6
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:moss_block"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      "replaceable": {
+        "type": "minecraft:true"
+      },
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 33,
+        "max_inclusive": 64
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 11
+      },
+      "tip_scale": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0.15,
+        "max_exclusive": 0.45
+      },
+      "noise_frequency": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0.01,
+        "max_exclusive": 0.1
+      },
+      "euclidean_weight": 20,
+      "manhattan_weight": 0,
+      "chebyshev_weight": 0
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "DBD",
+    "SCS"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "D": {
+      "item": "stellaris:desh_ingot"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    }
+  },
+  "result": {
+    "id": "stellaris:solar_panel",
+    "count": 1
+  }
+}

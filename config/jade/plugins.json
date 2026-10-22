@@ -1,0 +1,303 @@
+{
+  "minecraft": {
+    "item_storage.show_name_amount": 5,
+    "furnace": true,
+    "harvest_tool.show_unbreakable": false,
+    "animal_owner": true,
+    "harvest_tool.effective_tool": true,
+    "energy_storage.style": "PROGRESS_BAR",
+    "item_storage.normal_amount": 9,
+    "item_storage": true,
+    "harvest_tool": true,
+    "armor_stand": true,
+    "fluid_storage.detailed": false,
+    "next_entity_drop": true,
+    "entity_armor.max_for_render": 20,
+    "energy_storage": true,
+    "breaking_progress": true,
+    "tnt_stability": true,
+    "item_storage.items_per_line": 9,
+    "item_frame": true,
+    "crop_progress": true,
+    "command_block": true,
+    "mob_growth": true,
+    "harvest_tool.new_line": false,
+    "waxed": true,
+    "entity_health.max_for_render": 40,
+    "entity_health.show_fractions": false,
+    "mob_spawner": true,
+    "redstone": true,
+    "fluid_storage": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "energy_storage.detailed": false,
+    "note_block": true,
+    "beehive": true,
+    "fluid_storage.style": "PROGRESS_BAR",
+    "item_storage.detailed_amount": 54,
+    "player_head": true,
+    "lectern": true,
+    "entity_armor": true,
+    "harvest_tool.creative": false,
+    "horse_stats": true,
+    "item_tooltip": true,
+    "entity_health": true,
+    "enchantment_power": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "mob_breeding": true,
+    "entity_health.icons_per_line": 10,
+    "total_enchantment_power": true,
+    "potion_effects": true,
+    "painting": true,
+    "chiseled_bookshelf": true
+  },
+  "greate": {
+    "belt_icon": true
+  },
+  "modularbees": {
+    "grid_node_state": true,
+    "power_storage": true
+  },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
+  "create_aeronautics_automated_logistics": {
+    "logistics_identity": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "kubejs_tfc": {
+    "heat_consumer": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "debug": true,
+    "charger": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "coastersengineered": {
+    "run": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "toaster": true,
+    "milk_jar": true
+  },
+  "evilcraft": {
+    "box_of_eternal_closure": true,
+    "broom": true
+  },
+  "mekanismdieselgenerators": {
+    "machine": true
+  },
+  "beneath": {
+    "hellforge_side": true,
+    "ancient_altar": true,
+    "hellforge": true
+  },
+  "champions": {
+    "enable_affix_compact": true
+  },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "oritech": {
+    "machine_core_controller": true
+  },
+  "gtceu": {
+    "primitive_pump": true,
+    "auto_output_info": true,
+    "workable_provider": true,
+    "transformer": true,
+    "energy_converter_provider": true,
+    "controllable_provider": true,
+    "ldp_endpoint": true,
+    "me_pattern_buffer": true,
+    "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
+    "multiblock_structure": true,
+    "recipe_logic_provider": true,
+    "maintenance_info": true,
+    "machine_mode": true,
+    "electric_container_provider": true,
+    "steam_boiler_info": true,
+    "recipe_output_info": true,
+    "stained_color": true,
+    "hazard_cleaner_provider": true,
+    "cable_info": true,
+    "parallel_info": true,
+    "data_bank": true
+  },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
+  "justdynathings": {
+    "paradox_mixer": true,
+    "stabilizer": true,
+    "echoing_budding": true
+  },
+  "firmalife": {
+    "barrel_press": true,
+    "keg_sub": true,
+    "string": true,
+    "vat": true,
+    "drying_mat": true,
+    "tumbler": true,
+    "climate_station": true,
+    "keg": true,
+    "cheese": true,
+    "shelf": true,
+    "oven_top": true,
+    "pumping_station": true,
+    "solar_drier": true,
+    "pot": true,
+    "oven_bottom": true,
+    "jarbnet": true,
+    "hanger": true
+  },
+  "tfc": {
+    "bloomery": true,
+    "nest_box": true,
+    "bellows": true,
+    "hoe_overlay": true,
+    "firebox": true,
+    "charcoal_forge": true,
+    "mud_bricks": true,
+    "loom": true,
+    "bloom": true,
+    "frog": true,
+    "vane": true,
+    "armadillo": true,
+    "camel": true,
+    "rabbit": true,
+    "sapling": true,
+    "composter": true,
+    "decaying": true,
+    "wall_torch": true,
+    "windmill": true,
+    "placed_item": true,
+    "ocelot": true,
+    "candle_cake": true,
+    "horse": true,
+    "scraping": true,
+    "clutch": true,
+    "calendar_clock": true,
+    "animal": true,
+    "fruit_tree_sapling": true,
+    "thermometer": true,
+    "squid": true,
+    "encased_axle": true,
+    "crop": true,
+    "blast_furnace": true,
+    "creative_motor": true,
+    "quern": true,
+    "lobster_trap": true,
+    "buoy": true,
+    "pit_kiln_above": true,
+    "hot_poured_glass": true,
+    "gearbox": true,
+    "axle": true,
+    "chested_horse": true,
+    "power_loom": true,
+    "pack_predator": true,
+    "barrel": true,
+    "mold_table": true,
+    "predator": true,
+    "wild_animal": true,
+    "crucible": true,
+    "torch": true,
+    "lamp": true,
+    "fishing_hook": true,
+    "water_wheel": true,
+    "crankshaft": true,
+    "powder_keg": true,
+    "pit_kiln_internal": true,
+    "fish": true,
+    "candle": true,
+    "jack_o_lantern": true,
+    "firepit": true,
+    "anemometer": true,
+    "trip_hammer": true,
+    "wet_concrete": true,
+    "ingot_pile": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "survivorsdelight": {
+    "feast_decay": true
+  }
+}

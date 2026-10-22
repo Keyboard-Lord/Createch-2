@@ -1,0 +1,32 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:hexamethylenediamine_solution"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:adipic_acid_solution"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "chemica:nylon_salt_crystals"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:machine_casing",
+      "required": false
+    },
+    {
+      "id": "yourmod:reinforced_stone",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 214,
+    "g": 142,
+    "b": 58
+  },
+  "sorting_value": 10,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.kinetic_data.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.kinetic_data.description"
+    }
+  }
+}

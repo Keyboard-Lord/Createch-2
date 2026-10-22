@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:geology/replaceables/abydos",
+    "minecraft:deepslate",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:stone"
+  ]
+}

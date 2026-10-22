@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/osmiridium"
+  },
+  "second_input": {
+    "tag": "c:sheets/osmiridium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/osmiridium"
+  }
+}

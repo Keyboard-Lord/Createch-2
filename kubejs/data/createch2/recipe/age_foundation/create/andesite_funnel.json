@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "K",
+    "L"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "K": {
+      "tag": "createch2:food/dried_kelp"
+    },
+    "L": {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "result": {
+    "id": "create:andesite_funnel",
+    "count": 2
+  }
+}

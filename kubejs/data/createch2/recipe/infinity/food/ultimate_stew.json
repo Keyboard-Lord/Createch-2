@@ -1,0 +1,59 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shapeless_table",
+  "ingredients": [
+    {
+      "item": "tfc:food/red_apple"
+    },
+    {
+      "item": "tfc:food/green_apple"
+    },
+    {
+      "item": "tfc:food/melon_slice"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "tfc:food/carrot"
+    },
+    {
+      "item": "tfc:food/potato"
+    },
+    {
+      "item": "tfc:food/beet"
+    },
+    {
+      "item": "tfc:food/sugarcane"
+    },
+    {
+      "item": "tfc:food/dried_kelp"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "tfc:food/red_bell_pepper"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "tfc:plant/barrel_cactus"
+    },
+    {
+      "item": "tfc:plant/golden_bamboo"
+    },
+    {
+      "item": "avaritia:neutron_nugget"
+    },
+    {
+      "item": "modern_industrialization:uu_matter_bucket"
+    }
+  ],
+  "result": {
+    "id": "avaritia:ultimate_stew",
+    "count": 1
+  },
+  "tier": 4
+}

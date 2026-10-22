@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "aeronautics:propeller_bearing"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens",
+      "createch2:logistics_reports"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:log_02_railway_engineering"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.air_01_lighter_than_air.title"
+    },
+    "desc": {
+      "translate": "research.createch2.air_01_lighter_than_air.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:aeronautics/stage_1/physics_assembler",
+      "createch2:aeronautics/stage_1/propeller_bearing",
+      "createch2:aeronautics/stage_1/joystick",
+      "simulatedcoasters:red_balloon",
+      "createch2:aeronautics/stage_1/mechanical_servo",
+      "createch2:aeronautics/stage_1/control_desk"
+    ]
+  }
+}

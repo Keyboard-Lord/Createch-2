@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "BCB",
+    "PMP"
+  ],
+  "key": {
+    "S": {
+      "item": "greate:steel_shaft"
+    },
+    "B": {
+      "tag": "c:plates/cast_iron"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "rubberworks:compressor",
+    "count": 1
+  }
+}

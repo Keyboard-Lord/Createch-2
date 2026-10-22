@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/enderium"
+    },
+    {
+      "tag": "c:physical_dusts/enderium"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 1020,
+  "welding_temperature": 1360
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/black_steel"
+    },
+    {
+      "tag": "c:rivets/black_steel"
+    },
+    {
+      "tag": "c:screws/black_steel"
+    },
+    {
+      "tag": "c:physical_screws/black_steel"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 891,
+  "welding_temperature": 1188
+}

@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 512,
+  "duration": 2400,
+  "item_inputs": [
+    {
+      "item": "greate:darmstadtium_mechanical_saw",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:darmstadtium_dust",
+      "amount": 6
+    }
+  ]
+}

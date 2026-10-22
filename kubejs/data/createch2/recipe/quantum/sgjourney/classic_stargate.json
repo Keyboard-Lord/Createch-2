@@ -1,0 +1,242 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "sgjourney:classic_stargate_base_block"
+  },
+  "transitional_item": {
+    "id": "sgjourney:classic_stargate_base_block"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_ring_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_ring_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_ring_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_ring_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_chevron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_chevron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:classic_stargate_chevron_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:communication_crystal"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "sgjourney:control_crystal"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "ae2:quantum_link"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "oritech:machine_core_6"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "item": "justdirethings:eclipsealloy_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "fluid": "modern_industrialization:uu_matter"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "sgjourney:classic_stargate_base_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "sgjourney:classic_stargate_base_block"
+        }
+      ],
+      "recipe_tier": 6
+    }
+  ],
+  "results": [
+    {
+      "id": "sgjourney:classic_stargate"
+    }
+  ]
+}

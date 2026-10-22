@@ -1,0 +1,34 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "ingredients": [
+    {
+      "item": "chemica:purified_graphite_flakes"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "tfc:any_fresh_water"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:oxygen"
+    }
+  ],
+  "machines": [
+    "chemica:electrode",
+    "chemica:electrode"
+  ],
+  "min_size": 3,
+  "processing_time": 300,
+  "results": [
+    {
+      "id": "chemica:electrochemically_exfoliated_graphene"
+    }
+  ],
+  "heat_level": 2
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LIL",
+    "PDP",
+    "LIL"
+  ],
+  "key": {
+    "L": {
+      "tag": "c:ingots/lead"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "mekanism:radioactive_waste_barrel",
+    "count": 1
+  }
+}

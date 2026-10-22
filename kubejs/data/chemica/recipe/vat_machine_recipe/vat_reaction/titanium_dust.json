@@ -1,0 +1,34 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:titanium_tetrachloride"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 150,
+      "fluid": "chemica:argon"
+    },
+    {
+      "tag": "c:ingots/magnesium"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "count": 4,
+      "id": "modern_industrialization:titanium_dust"
+    },
+    {
+      "id": "gtceu:magnesium_dust"
+    }
+  ],
+  "processing_time": 400,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

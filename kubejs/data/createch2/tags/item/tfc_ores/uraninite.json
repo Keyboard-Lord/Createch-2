@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/uraninite/small",
+    "#createch2:tfc_ores/uraninite/poor",
+    "#createch2:tfc_ores/uraninite/normal",
+    "#createch2:tfc_ores/uraninite/rich"
+  ]
+}

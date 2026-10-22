@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BPB",
+    "OCO",
+    "SAS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "P": {
+      "tag": "c:ender_pearls"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "C": {
+      "item": "modern_industrialization:solid_titanium_machine_casing"
+    },
+    "S": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "A": {
+      "item": "sgjourney:transfer_crystal"
+    }
+  },
+  "result": {
+    "id": "enderstorage:ender_tank",
+    "count": 1
+  }
+}

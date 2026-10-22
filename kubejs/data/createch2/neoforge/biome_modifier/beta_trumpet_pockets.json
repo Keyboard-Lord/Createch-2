@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [],
+  "features": [
+    "createch2:rare_trumpet_blossom_tree"
+  ],
+  "step": "vegetal_decoration"
+}

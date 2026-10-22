@@ -1,0 +1,37 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "ingredients": [
+    {
+      "item": "tfc:powder/sulfur"
+    },
+    {
+      "item": "tfc:powder/sulfur"
+    },
+    {
+      "item": "tfc:powder/sulfur"
+    },
+    {
+      "item": "tfc:powder/saltpeter"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "min_size": 1,
+  "results": [
+    {
+      "amount": 500,
+      "id": "tfmg:sulfuric_acid"
+    }
+  ]
+}

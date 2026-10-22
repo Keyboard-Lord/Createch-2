@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FIF",
+    "PSP",
+    " D "
+  ],
+  "key": {
+    "F": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "I": {
+      "tag": "ae2:interface"
+    },
+    "P": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "S": {
+      "item": "modularbees:modular_centrifuge_core"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "modularbees:me_centrifuge_export",
+    "count": 1
+  }
+}

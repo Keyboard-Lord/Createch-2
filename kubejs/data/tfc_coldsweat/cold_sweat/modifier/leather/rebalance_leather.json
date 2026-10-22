@@ -1,0 +1,30 @@
+{
+  "registry": "cold_sweat:item/insulator",
+  "config_type": [
+    "toml"
+  ],
+  "matches": [
+    {
+      "item": {
+        "items": {
+          "require": {
+            "cs:contains_any": [
+              "minecraft:leather"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "operations": [
+    {
+      "type": "replace",
+      "data": {
+        "insulation": {
+          "cold": 2,
+          "heat": 2
+        }
+      }
+    }
+  ]
+}

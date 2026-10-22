@@ -1,0 +1,210 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:unfinished_electric_motor"
+  },
+  "transitional_item": {
+    "id": "tfmg:unfinished_electric_motor"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:basic_chemical_tank"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:electrolytic_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:basic_pressurized_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:basic_pressurized_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:basic_chemical_tank"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "modern_industrialization:rubber_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "modern_industrialization:advanced_pump"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "mekanism:advanced_control_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "tfmg:electric_motor"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "item": "electroenergetics:hanging_glass_insulator"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "tfmg:lubrication_oil"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_electric_motor"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_electric_motor"
+        }
+      ],
+      "recipe_tier": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "mekanism:pressurized_reaction_chamber"
+    }
+  ]
+}

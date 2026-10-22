@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "HBH",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "H": {
+      "item": "minecraft:honey_block"
+    },
+    "B": {
+      "item": "minecraft:beehive"
+    },
+    "D": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "productivebees:advanced_oak_beehive",
+    "count": 1
+  }
+}

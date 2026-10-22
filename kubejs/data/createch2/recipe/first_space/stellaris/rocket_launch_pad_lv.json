@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSH",
+    "SCS",
+    "HSH"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "item": "modern_industrialization:steel_machine_casing"
+    }
+  },
+  "result": {
+    "id": "stellaris:rocket_launch_pad",
+    "count": 1
+  }
+}

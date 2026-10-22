@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "MDT",
+    "ABA"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "M": {
+      "item": "cbc_ballistics:network_manager_item"
+    },
+    "D": {
+      "item": "create:display_board"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "cbc_ballistics:artillery_coordinator",
+    "count": 1
+  }
+}

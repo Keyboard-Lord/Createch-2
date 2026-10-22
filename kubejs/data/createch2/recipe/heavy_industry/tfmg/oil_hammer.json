@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CBC",
+    " I "
+  ],
+  "key": {
+    "B": {
+      "tag": "createch2:materials/bronze/machine_grade"
+    },
+    "C": {
+      "tag": "c:plates/cast_iron"
+    },
+    "I": {
+      "tag": "c:rods/iron"
+    }
+  },
+  "result": {
+    "id": "tfmg:oil_hammer",
+    "count": 1
+  }
+}

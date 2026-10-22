@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:mercury_basalt_cliffs",
+    "createch2:mercury_volcanic_peaks",
+    "createch2:mercury_ejecta_basin",
+    "createch2:mercury_white_mesa",
+    "createch2:mercury_bryce_scarps",
+    "createch2:mercury_ancient_delta",
+    "createch2:mercury_inferno",
+    "createch2:mercury_redstone_caves",
+    "createch2:mercury_scorching_caves"
+  ]
+}

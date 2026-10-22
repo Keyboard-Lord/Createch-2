@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/fruit_ice"
+  },
+  "edible": true,
+  "hunger": 2,
+  "saturation": 0.3,
+  "fruit": 0.5,
+  "water": 10,
+  "decay_modifier": 3
+}

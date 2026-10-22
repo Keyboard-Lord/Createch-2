@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "SCS",
+    " E "
+  ],
+  "key": {
+    "P": {
+      "item": "create:iron_sheet"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "S": {
+      "item": "create:piston_extension_pole"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "E": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:cannon_builder",
+    "count": 1
+  }
+}

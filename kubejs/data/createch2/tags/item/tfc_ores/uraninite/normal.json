@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/tuff",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,976 @@
+{
+  "nativeJars": {
+    "occultism-1.21.1-neoforge-1.224.5.jar": "d08b1c776221a32190ec09878b10fac9c19582d4173a8c0b3f25e8f6bccbd44d",
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440",
+    "modonomicon-1.21.1-neoforge-1.120.7.jar": "1166eb113230bbc69a3e9464262195a336b29401ef03bfd47bfe86fd558578da",
+    "malum-1.21.1-1.8.2.jar": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8",
+    "lodestone-1.21.1-1.8.2.jar": "cc961af6a77391628378c1c838e521415fa895062b13def493d27234ca527f3e",
+    "createch2core.jar": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+    "researchd-1.2.5.jar": "abe2fa53bb7506f70b4ed6592e0d63108fcbb1bb2dfb70b8ebbc29710b90f9b6"
+  },
+  "classes": {
+    "food": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.registry.OccultismFoods",
+      "verbose": false,
+      "sha256": "9d2a96a5b58c7c7c7ffd9c21fb06c592b2d735535a6ae232dc05f6d0e555c639",
+      "terms": [
+        "FoodProperties$Builder.alwaysEdible:",
+        "float 0.7f",
+        "OccultismEffects.THIRD_EYE:",
+        "sipush        300"
+      ]
+    },
+    "seedItems": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.registry.OccultismItems",
+      "verbose": false,
+      "sha256": "39b44239cf6fb98d0c78bf92d62acd67f755fd8a94c47b6fcae7d8e9df78780b",
+      "terms": [
+        "OccultismFoods.DATURA:",
+        "Item$Properties.food:"
+      ]
+    },
+    "otherInterface": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.block.otherworld.IOtherworldBlock",
+      "verbose": false,
+      "sha256": "76df6027b41da048adc1c6609d732ad8d5327bbff5581538fcdb438ebb1758d3",
+      "terms": [
+        "OccultismEffects.THIRD_EYE:",
+        "OtherworldBlockTier.ONE:",
+        "Method getPlayerHarvestTier:",
+        "Field UNCOVERED:"
+      ]
+    },
+    "otherLog": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.block.otherworld.OtherworldLogNaturalBlock",
+      "verbose": false,
+      "sha256": "10e5bdf2758390a5d410bef56780d676218e34262a0c773224e0e7af1f2d7756",
+      "terms": [
+        "IOtherworldBlock.getHarvestState:",
+        "OtherworldBlockTier.ONE:"
+      ]
+    },
+    "stackHooks": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.component.ItemStackHooks",
+      "verbose": false,
+      "sha256": "bcaf3a7898a5e5e7cbc76b7b9ac64b1152ca4355514dc2d8e628b58c5323ae19",
+      "terms": [
+        "FoodCapability.getDefinition:",
+        "TFCComponents.FOOD:"
+      ]
+    },
+    "tfcPlayer": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.mixin.PlayerMixin",
+      "verbose": false,
+      "sha256": "0a6d00872f7248b219dec0825e07ad434f15338a4459b46a2910629bf61d2b86",
+      "terms": [
+        "IPlayerInfo.eat:"
+      ]
+    },
+    "chalk": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.item.tool.ChalkItem",
+      "verbose": false,
+      "sha256": "8e1570e79e99ad0ed9dc6b3b6431594141512a9f42836217d06a84e0865dd5eb",
+      "terms": [
+        "ChalkGlyphBlock.canSurvive:",
+        "Level.setBlockAndUpdate:",
+        "ItemStack.hurtAndBreak:"
+      ]
+    },
+    "dense": {
+      "jar": "modonomicon-1.21.1-neoforge-1.120.7.jar",
+      "class": "com.klikli_dev.modonomicon.multiblock.DenseMultiblock",
+      "verbose": false,
+      "sha256": "b226d99ba462a9972b1426733eb45788a6a596374a8503ae4d0944a9abf3e0db",
+      "terms": [
+        "class com.klikli_dev.modonomicon.multiblock.DenseMultiblock",
+        "api/multiblock/StateMatcher"
+      ]
+    },
+    "display": {
+      "jar": "modonomicon-1.21.1-neoforge-1.120.7.jar",
+      "class": "com.klikli_dev.modonomicon.multiblock.matcher.DisplayOnlyMatcher",
+      "verbose": false,
+      "sha256": "7f318d55d45aab52686ad13c7c7e23832648012f1c713c710acb808e56bcae67",
+      "terms": [
+        "private static boolean lambda$new$0",
+        "iconst_1"
+      ]
+    },
+    "ritual": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.ritual.Ritual",
+      "verbose": false,
+      "sha256": "72c228bf8a4cc592941a386138ab42e4d1c2934c36c576fdd776bb1a4bd90c09",
+      "terms": [
+        "Method getSacrificialBowls:",
+        "ItemStackHandler.extractItem:",
+        "RecipeManager.getAllRecipesFor:"
+      ]
+    },
+    "bowl": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.blockentity.GoldenSacrificialBowlBlockEntity",
+      "verbose": false,
+      "sha256": "5e52f72546ed8a29f3c4680d848a58f8b8464920311dc1458f01cc491e6fed8e",
+      "terms": [
+        "public boolean startRitual(",
+        "Ritual.isValid:",
+        "Ritual.finish:"
+      ]
+    },
+    "craft": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.ritual.CraftRitual",
+      "verbose": false,
+      "sha256": "f752dcc4969621fd3833c59f0130bfeb4afeb4f6f5b996920051a76ebf3fd0ed",
+      "terms": [
+        "ItemStack.shrink:",
+        "Method dropResult:"
+      ]
+    },
+    "craftRitual": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.ritual.CraftWithSpiritNameRitual",
+      "verbose": false,
+      "sha256": "de2071ebf99f15fd5408726b21e38cc605c629456e2bb692260425b7f7439dd0",
+      "terms": [
+        "ItemNBTUtil.getBoundSpiritName:",
+        "ItemStack.shrink:",
+        "Method dropResult:"
+      ]
+    },
+    "summon": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.ritual.SummonRitual",
+      "verbose": false,
+      "sha256": "ae61ecc7d27bd468d4ec9093d7a931249a99c946d628c332d203fd9b56f0ed39",
+      "terms": [
+        "ItemStack.shrink:",
+        "Method initSummoned:",
+        "SpiritEntity.setSpiritMaxAge:",
+        "TamableAnimal.tame:"
+      ]
+    },
+    "summonJob": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.ritual.SummonSpiritWithJobRitual",
+      "verbose": false,
+      "sha256": "b5dff422cceb981da6325cfe18ca1789e5d41e7cb892aa96ccbca7b97357a9cc",
+      "terms": [
+        "OccultismSpiritJobs.REGISTRY:",
+        "SpiritJobFactory.create:",
+        "SpiritEntity.setJob:"
+      ]
+    },
+    "ritualSummonSettings": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.crafting.recipe.RitualRecipe$EntityToSummonSettings",
+      "verbose": false,
+      "sha256": "8bec01a5b71260e0a015d28425e5f7ac06e26462fd181612fdd300ab5f17092e",
+      "terms": [
+        "String spirit_max_age",
+        "iconst_m1"
+      ]
+    },
+    "spiritEntity": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.entity.spirit.SpiritEntity",
+      "verbose": false,
+      "sha256": "4aa836e52f9a0a01927ae33bf5783f3cb3f4941f83d82cc8676fe25c3c59e1f6",
+      "terms": [
+        "public boolean canDieFromAge();",
+        "Field SPIRIT_MAX_AGE:",
+        "iconst_m1"
+      ]
+    },
+    "crusher": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.entity.job.CrusherJob",
+      "verbose": false,
+      "sha256": "cb338c5d8b45995083c39e46e74c6b1d487b47ef902fc4f9bc0794d0d32ccd85",
+      "terms": [
+        "CrushingRecipe.getCrushingTime:",
+        "CrushingRecipe.assemble:",
+        "CrushingRecipe.getIgnoreCrushingMultiplier:",
+        "ItemStack.shrink:",
+        "SpiritEntity.spawnAtLocation:"
+      ]
+    },
+    "crushingRecipe": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.crafting.recipe.CrushingRecipe",
+      "verbose": false,
+      "sha256": "c09c289fa0f5622089c6d3f8ae999c9f35cc7eeadf9df8f9c2fbf2865f15fc6f",
+      "terms": [
+        "String min_tier",
+        "String max_tier",
+        "sipush        200",
+        "String ignore_crushing_multiplier"
+      ]
+    },
+    "jobs": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.registry.OccultismSpiritJobs",
+      "verbose": false,
+      "sha256": "c34ba401d3e7209096c6f315f66377634b1a96a1b3d9df257d6f2ba6175b9c0b",
+      "terms": [
+        "String crush_tier1",
+        "CrusherJob"
+      ]
+    },
+    "tagResult": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.crafting.recipe.result.TagRecipeResult",
+      "verbose": false,
+      "sha256": "f816331d58582eca3144955832a16006c61f1fc2b7093a9e3935cf0d1c8ecdd7",
+      "terms": [
+        "TagUtil.getItemStackForTag:",
+        "ItemStack.setCount:"
+      ]
+    },
+    "tagUtil": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.util.TagUtil",
+      "verbose": false,
+      "sha256": "3840d61c3db5a1a029c02195fe390db90b0083b78b0d61e7b563d2b2239444c9",
+      "terms": [
+        "AlmostUnifiedIntegration.getPreferredItemForTag:",
+        "Stream.findFirst:"
+      ]
+    },
+    "creeper": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.entity.monster.Creeper",
+      "verbose": false,
+      "sha256": "3e64d887d93dde6c5b713e4c628b75677c34c9ecf9ab9c12c29d18eb6f81ea12",
+      "terms": [
+        "public void thunderHit(",
+        "Field DATA_IS_POWERED:",
+        "public boolean canDropMobsSkull();",
+        "Field droppedSkulls:",
+        "Method isPowered:"
+      ]
+    },
+    "skeleton": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.entity.monster.Skeleton",
+      "verbose": false,
+      "sha256": "7e107d123438e9a59902fc0c6dd70a6531abc9110c2a172df3b85d4edde91a9f",
+      "terms": [
+        "Creeper.canDropMobsSkull:",
+        "Creeper.increaseDroppedSkulls:",
+        "Items.SKELETON_SKULL:",
+        "Method spawnAtLocation:"
+      ]
+    },
+    "lightning": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.entity.LightningBolt",
+      "verbose": false,
+      "sha256": "bfa8f2c843544d750bb2192b1b6883cc4cfc5e9586797c5e02bd72af49e20e86",
+      "terms": [
+        "Entity.thunderHit:",
+        "Field visualOnly:"
+      ]
+    },
+    "player": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.entity.player.Player",
+      "verbose": false,
+      "sha256": "50f3db2ee1c6c6dca3fee6dcdc6085b0c926dfa30cc373e147a04474a6915bd3",
+      "terms": [
+        "Method resetAttackStrengthTicker:",
+        "Field lastItemInMainHand:",
+        "Method getAttackStrengthScale:",
+        "float 0.2f",
+        "float 0.8f"
+      ]
+    },
+    "chicken": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.entity.animal.Chicken",
+      "verbose": false,
+      "sha256": "c4e01f0795a27ae9c5bf7003d18a1995bcb67c1a0520f511889e202b403e98d0",
+      "terms": [
+        "Attributes.MAX_HEALTH:",
+        "double 4.0d"
+      ]
+    },
+    "oviparous": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.entities.livestock.OviparousAnimal",
+      "verbose": false,
+      "sha256": "b789c8182f57a6c3fd1e5f5d64047b6c4e6478510582500c1f7bd558319e083d",
+      "terms": [
+        "Chicken.createAttributes:"
+      ]
+    },
+    "animal": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.entities.livestock.TFCAnimal",
+      "verbose": false,
+      "sha256": "b3977c8e0553fce9e28021c3b312af966576ce7b467eca86a9f63bc9f11b7183",
+      "terms": [
+        "Animal.hurt:"
+      ]
+    },
+    "tfcEntities": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.entities.TFCEntities",
+      "verbose": false,
+      "sha256": "4369760b236e299f6696fba55b5377865eb633969bc677c2f96f4d4174b83992",
+      "terms": [
+        "Field QUAIL:",
+        "OviparousAnimal.createAttributes:"
+      ]
+    },
+    "malumItemsV": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.item.MalumItems",
+      "verbose": true,
+      "sha256": "1cf9d3bd738f03c8da75e625880bd076f19f06c9618e90ead8d93d024c8f0041",
+      "terms": [
+        "String crude_scythe",
+        "REF_invokeStatic com/sammy/malum/registry/common/item/MalumItems.lambda$static$331:"
+      ]
+    },
+    "malumItems": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.item.MalumItems",
+      "verbose": false,
+      "sha256": "f00567396566ea1dae0f07c0d5708315a57a8ced4572375a1eb35e487f2dee43",
+      "terms": [
+        "private static net.minecraft.world.item.Item lambda$static$331(",
+        "Field net/minecraft/world/item/Tiers.IRON:",
+        "sipush        500"
+      ]
+    },
+    "scythe": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.item.curiosities.weapons.scythe.MalumScytheItem",
+      "verbose": false,
+      "sha256": "e19e254a5a769ee45a03fb0a0ed999e8a4874f88af0bbd539b697f4106bd0762",
+      "terms": [
+        "float 3.0f",
+        "float 3.2f",
+        "LivingDamageEvent$Pre.getNewDamage:"
+      ]
+    },
+    "combatItem": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.item.LodestoneCombatItem",
+      "verbose": false,
+      "sha256": "f033bfa88d9a4e00fce29f6efb4b86803e05e3655e7681ec60c6e04aa435362c",
+      "terms": [
+        "Tier.getAttackDamageBonus:",
+        "EquipmentSlotGroup.MAINHAND:",
+        "ItemStack.hurtAndBreak:"
+      ]
+    },
+    "tiers": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.item.Tiers",
+      "verbose": false,
+      "sha256": "fd4243e16b8940641ef14fa92eda23c92dc60bb49ada78f343a12b2ddb309501",
+      "terms": [
+        "String IRON",
+        "fconst_2"
+      ]
+    },
+    "coreLandform": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.worldgen.LandformFeature",
+      "verbose": false,
+      "sha256": "02b71748dcd624bd42f49a6af539ce527850f84bf208f5b4c08aa34ad38ab11f",
+      "terms": [
+        "LandformGeometry.radiusAt:",
+        "WorldGenLevel.ensureCanWrite:",
+        "BlockStateProvider.getState:",
+        "WorldGenLevel.setBlock:"
+      ]
+    },
+    "coreGeometry": {
+      "jar": "createch2core.jar",
+      "class": "createch2.core.worldgen.LandformGeometry",
+      "verbose": false,
+      "sha256": "c077b40027fbb2800d11792739b6e9b47767e8d7c953484b77cf4289a889f77f",
+      "terms": [
+        "java/lang/Math.sqrt:",
+        "public static boolean contains("
+      ]
+    },
+    "research-manager": {
+      "jar": "researchd-1.2.5.jar",
+      "class": "com.portingdeadmods.researchd.mixins.RecipeManagerMixin",
+      "verbose": false,
+      "sha256": "3f94c36d9cf8835b4b32da8b4f7cf649cd591bed822dca48e083a9a3345a8c9a",
+      "terms": [
+        "RecipeFilterContext.current:",
+        "Method researchd$isBlocked:"
+      ]
+    },
+    "research-tick-frame": {
+      "jar": "researchd-1.2.5.jar",
+      "class": "com.portingdeadmods.researchd.mixins.BoundTickingBlockEntityMixin",
+      "verbose": false,
+      "sha256": "c5b48a6dcfba0fa3ac0145d79c8012435626b9b6f315e7b75ebfbbca23d12e67",
+      "terms": [
+        "RecipeFilterContext.push:",
+        "RecipeFilterContext.pop:"
+      ]
+    },
+    "lodestoneRecipeType": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.recipe.LodestoneRecipeType",
+      "verbose": false,
+      "sha256": "874cfa0b54bcdb2c5a8311cd247ddd5675c36e48e6176dc9af00f112a1454ffe",
+      "terms": [
+        "RecipeManager.getAllRecipesFor:"
+      ]
+    }
+  },
+  "recipes": {
+    "occultism:spirit_fire/otherworld_ashes": {
+      "type": "occultism:spirit_fire",
+      "ingredient": {
+        "tag": "occultism:otherworld_logs"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:otherworld_ashes"
+      }
+    },
+    "occultism:smelting/polished_otherstone": {
+      "type": "minecraft:smelting",
+      "category": "blocks",
+      "cookingtime": 200,
+      "experience": 0.5,
+      "ingredient": {
+        "item": "occultism:otherstone"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:polished_otherstone"
+      }
+    },
+    "occultism:smelting/burnt_otherstone": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.15,
+      "ingredient": {
+        "item": "occultism:polished_otherstone"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:burnt_otherstone"
+      }
+    },
+    "occultism:crafting/chalk_white_impure": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "x": {
+          "tag": "occultism:dusts/chalk_base"
+        },
+        "y": {
+          "tag": "c:dusts/otherworld_wood"
+        }
+      },
+      "pattern": [
+        "xy",
+        "xy",
+        "xy"
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_white_impure"
+      }
+    },
+    "occultism:crafting/chalk_purple_impure": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "occultism:chalk_white_impure"
+        },
+        {
+          "tag": "c:dusts/end_stone"
+        },
+        {
+          "tag": "c:dusts/obsidian"
+        },
+        {
+          "tag": "c:dusts/obsidian"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_purple_impure"
+      }
+    },
+    "occultism:crafting/chalk_lime_impure": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "occultism:chalk_white_impure"
+        },
+        {
+          "tag": "c:dusts/research"
+        },
+        {
+          "tag": "c:dusts/emerald"
+        },
+        {
+          "tag": "c:slime_balls"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_lime_impure"
+      }
+    },
+    "occultism:crafting/chalk_light_gray_impure": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "occultism:chalk_white_impure"
+        },
+        {
+          "tag": "c:dusts/silver"
+        },
+        {
+          "tag": "c:dusts/iron"
+        },
+        {
+          "tag": "c:dusts/calcite"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_light_gray_impure"
+      }
+    },
+    "occultism:spirit_fire/chalk_white": {
+      "type": "occultism:spirit_fire",
+      "ingredient": {
+        "item": "occultism:chalk_white_impure"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_white"
+      }
+    },
+    "occultism:spirit_fire/chalk_purple": {
+      "type": "occultism:spirit_fire",
+      "ingredient": {
+        "item": "occultism:chalk_purple_impure"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_purple"
+      }
+    },
+    "occultism:spirit_fire/chalk_lime": {
+      "type": "occultism:spirit_fire",
+      "ingredient": {
+        "item": "occultism:chalk_lime_impure"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_lime"
+      }
+    },
+    "occultism:spirit_fire/chalk_light_gray": {
+      "type": "occultism:spirit_fire",
+      "ingredient": {
+        "item": "occultism:chalk_light_gray_impure"
+      },
+      "result": {
+        "count": 1,
+        "id": "occultism:chalk_light_gray"
+      }
+    },
+    "occultism:ritual/summon_foliot_crusher": {
+      "type": "occultism:ritual",
+      "activation_item": {
+        "item": "occultism:book_of_binding_bound_foliot"
+      },
+      "duration": 60,
+      "entity_to_summon": "occultism:foliot",
+      "ingredients": [
+        {
+          "tag": "c:ingots/iron"
+        },
+        {
+          "tag": "c:ingots/gold"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/silver"
+        }
+      ],
+      "pentacle_id": "occultism:summon_foliot",
+      "result": {
+        "components": {
+          "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_crusher\"}",
+          "minecraft:lore": [
+            "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_crusher.tooltip\"}"
+          ]
+        },
+        "count": 1,
+        "id": "occultism:spawn_egg/foliot"
+      },
+      "ritual_dummy": {
+        "count": 1,
+        "id": "occultism:ritual_dummy/summon_foliot_crusher"
+      },
+      "ritual_type": "occultism:summon_spirit_with_job",
+      "spirit_job_type": "occultism:crush_tier1"
+    },
+    "occultism:ritual/craft_research_fragment_dust": {
+      "type": "occultism:ritual",
+      "activation_item": {
+        "item": "occultism:book_of_binding_bound_foliot"
+      },
+      "duration": 60,
+      "ingredients": [
+        {
+          "tag": "c:dusts/emerald"
+        },
+        {
+          "item": "minecraft:experience_bottle"
+        },
+        {
+          "item": "minecraft:experience_bottle"
+        }
+      ],
+      "pentacle_id": "occultism:craft_foliot",
+      "result": {
+        "count": 1,
+        "id": "occultism:research_fragment_dust"
+      },
+      "ritual_dummy": {
+        "count": 1,
+        "id": "occultism:ritual_dummy/craft_research_fragment_dust"
+      },
+      "ritual_type": "occultism:craft"
+    },
+    "occultism:ritual/craft_dimensional_matrix": {
+      "type": "occultism:ritual",
+      "activation_item": {
+        "item": "occultism:book_of_binding_bound_djinni"
+      },
+      "duration": 150,
+      "ingredients": [
+        {
+          "item": "minecraft:quartz_block"
+        },
+        {
+          "item": "minecraft:quartz_block"
+        },
+        {
+          "item": "minecraft:quartz_block"
+        },
+        {
+          "tag": "c:ender_pearls"
+        }
+      ],
+      "pentacle_id": "occultism:craft_djinni",
+      "result": {
+        "count": 1,
+        "id": "occultism:dimensional_matrix"
+      },
+      "ritual_dummy": {
+        "count": 1,
+        "id": "occultism:ritual_dummy/craft_dimensional_matrix"
+      },
+      "ritual_type": "occultism:craft_with_spirit_name"
+    },
+    "occultism:crushing/calcite_dust": {
+      "type": "occultism:crushing",
+      "ignore_crushing_multiplier": true,
+      "ingredient": {
+        "item": "minecraft:calcite"
+      },
+      "result": {
+        "type": "occultism:tag",
+        "count": 1,
+        "tag": "c:dusts/calcite"
+      }
+    },
+    "occultism:crushing/end_stone_dust": {
+      "type": "occultism:crushing",
+      "ignore_crushing_multiplier": true,
+      "ingredient": {
+        "tag": "c:end_stones"
+      },
+      "result": {
+        "type": "occultism:tag",
+        "count": 1,
+        "tag": "c:dusts/end_stone"
+      }
+    },
+    "occultism:crafting/sacrificial_bowl": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "key": {
+        "o": {
+          "item": "occultism:otherstone"
+        }
+      },
+      "pattern": [
+        "o o",
+        "ooo"
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:sacrificial_bowl"
+      }
+    },
+    "occultism:crafting/golden_sacrificial_bowl": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "b": {
+          "item": "occultism:sacrificial_bowl"
+        },
+        "g": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "pattern": [
+        "ggg",
+        "gbg",
+        "ggg"
+      ],
+      "result": {
+        "count": 1,
+        "id": "occultism:golden_sacrificial_bowl"
+      }
+    },
+    "malum:brilliance_from_raw_smelting": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 1.0,
+      "ingredient": {
+        "item": "malum:raw_brilliance"
+      },
+      "result": {
+        "count": 2,
+        "id": "malum:refined_brilliance"
+      }
+    },
+    "malum:experience_bottle_from_brilliance": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "malum:refined_brilliance"
+        },
+        {
+          "item": "minecraft:glass_bottle"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:experience_bottle"
+      }
+    }
+  },
+  "patterns": {
+    "summon_foliot": {
+      "type": "modonomicon:dense",
+      "mapping": {
+        "*": {
+          "type": "modonomicon:display",
+          "display": "minecraft:gray_concrete"
+        },
+        "0": {
+          "type": "modonomicon:tag",
+          "display": "occultism:golden_sacrificial_bowl",
+          "tag": "#occultism:center_sacrificial_bowl"
+        },
+        "1": {
+          "type": "modonomicon:tag",
+          "tag": "#minecraft:candles"
+        },
+        "W": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_white",
+          "tag": "#occultism:foundation_glyphs_any"
+        }
+      },
+      "pattern": [
+        [
+          "_________",
+          "___WWW___",
+          "__W_W_W__",
+          "_W_1W1_W_",
+          "_WWW0WWW_",
+          "_W_1W1_W_",
+          "__W_W_W__",
+          "___WWW___",
+          "_________"
+        ],
+        [
+          "*********",
+          "*********",
+          "*********",
+          "*********",
+          "*********",
+          "*********",
+          "*********",
+          "*********",
+          "*********"
+        ]
+      ]
+    },
+    "craft_foliot": {
+      "type": "modonomicon:dense",
+      "mapping": {
+        "*": {
+          "type": "modonomicon:display",
+          "display": "occultism:otherstone"
+        },
+        "+": {
+          "type": "modonomicon:display",
+          "display": "occultism:otherrock"
+        },
+        "0": {
+          "type": "modonomicon:tag",
+          "display": "occultism:golden_sacrificial_bowl",
+          "tag": "#occultism:center_sacrificial_bowl"
+        },
+        "1": {
+          "type": "modonomicon:tag",
+          "tag": "#minecraft:candles"
+        },
+        "W": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_white",
+          "tag": "#occultism:foundation_glyphs_any"
+        },
+        "X": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_purple",
+          "tag": "#occultism:glyphs_purple"
+        }
+      },
+      "pattern": [
+        [
+          "_________",
+          "__WXXXW__",
+          "_WW1_1WW_",
+          "_X1W_W1X_",
+          "_X__0__X_",
+          "_X1W_W1X_",
+          "_WW1_1WW_",
+          "__WXXXW__",
+          "_________"
+        ],
+        [
+          "*+*+*+*+*",
+          "+*+*+*+*+",
+          "*+*+*+*+*",
+          "+*+*+*+*+",
+          "*+*+*+*+*",
+          "+*+*+*+*+",
+          "*+*+*+*+*",
+          "+*+*+*+*+",
+          "*+*+*+*+*"
+        ]
+      ]
+    },
+    "craft_djinni": {
+      "type": "modonomicon:dense",
+      "mapping": {
+        "*": {
+          "type": "modonomicon:display",
+          "display": "occultism:otherstone"
+        },
+        "+": {
+          "type": "modonomicon:display",
+          "display": "occultism:otherrock"
+        },
+        "0": {
+          "type": "modonomicon:tag",
+          "display": "occultism:golden_sacrificial_bowl",
+          "tag": "#occultism:center_sacrificial_bowl"
+        },
+        "1": {
+          "type": "modonomicon:tag",
+          "tag": "#minecraft:candles"
+        },
+        "2": {
+          "type": "modonomicon:block",
+          "block": "minecraft:skeleton_skull"
+        },
+        "L": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_lime",
+          "tag": "#occultism:glyphs_lime"
+        },
+        "S": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_light_gray",
+          "tag": "#occultism:foundation_glyphs_no_white"
+        },
+        "W": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_white",
+          "tag": "#occultism:foundation_glyphs_any"
+        },
+        "X": {
+          "type": "modonomicon:tag",
+          "display": "occultism:chalk_glyph_purple",
+          "tag": "#occultism:glyphs_purple"
+        }
+      },
+      "pattern": [
+        [
+          "_____________",
+          "__XLXLXLXLX__",
+          "_XL_2___2_LX_",
+          "_L__WXXXW__L_",
+          "_X2WS1_1SW2X_",
+          "_L_X1S_S1X_L_",
+          "_X_X__0__X_X_",
+          "_L_X1S_S1X_L_",
+          "_X2WS1_1SW2X_",
+          "_L__WXXXW__L_",
+          "_XL_2___2_LX_",
+          "__XLXLXLXLX__",
+          "_____________"
+        ],
+        [
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*",
+          "+*+*+*+*+*+*+",
+          "*+*+*+*+*+*+*"
+        ]
+      ]
+    }
+  }
+}

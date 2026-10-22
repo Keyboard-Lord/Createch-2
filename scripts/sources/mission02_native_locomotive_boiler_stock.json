@@ -1,0 +1,1589 @@
+{
+  "truth": "REVIEWED_ADDITIONAL_LOCOMOTIVE_BOILER_BILL",
+  "ids": {
+    "boiler": "createch2:age_foundation/mi_bronze/boiler",
+    "tank": "createch2:age_foundation/mi_bronze/tank",
+    "casing": "createch2:age_foundation/mi_bronze/machine_casing",
+    "pipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "bronzePlate": "createch2:create/pressing/bronze_plate",
+    "bronzeCurve": "createch2:age_foundation/mi_bronze/bronze_curved_plate",
+    "copperRod": "createch2:age_foundation/mi_bronze/copper_rod_from_create_cutting",
+    "copperBolt": "createch2:age_foundation/mi_bronze/copper_bolt_from_create_cutting",
+    "copperCurve": "createch2:age_foundation/mi_bronze/copper_curved_plate_from_create_pressing",
+    "copperRing": "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing",
+    "fireDust": "createch2:age_foundation/mi_bronze/fire_clay_dust_from_create_mixing",
+    "blade": "modern_industrialization:materials/copper/craft/blade",
+    "rotor": "modern_industrialization:materials/copper/craft/rotor",
+    "fireBlock": "modern_industrialization:materials/fire_clay_bricks",
+    "fireSmelt": "modern_industrialization:materials/fire_clay/smelting/dust_to_ingot_smelting",
+    "brick": "minecraft:brick",
+    "furnace": "createch2:age_foundation/stone/furnace_from_tfc_raw_rock",
+    "brass": "createch2:age_foundation/foundry/brass_casing_from_foundry_brass"
+  },
+  "rows": {
+    "createch2:age_foundation/mi_bronze/boiler": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PBP",
+          "TFT",
+          "RCR"
+        ],
+        "key": {
+          "P": {
+            "item": "modern_industrialization:bronze_plate"
+          },
+          "B": {
+            "item": "modern_industrialization:bronze_tank"
+          },
+          "T": {
+            "tag": "modern_industrialization:fluid_pipes"
+          },
+          "F": {
+            "item": "minecraft:furnace"
+          },
+          "R": {
+            "item": "modern_industrialization:fire_clay_bricks"
+          },
+          "C": {
+            "item": "modern_industrialization:bronze_machine_casing"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:bronze_boiler",
+          "count": 1
+        }
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "PBP",
+            "TFT",
+            "RCR"
+          ],
+          "key": {
+            "P": {
+              "item": "modern_industrialization:bronze_plate"
+            },
+            "B": {
+              "item": "modern_industrialization:bronze_tank"
+            },
+            "T": {
+              "tag": "modern_industrialization:fluid_pipes"
+            },
+            "F": {
+              "item": "minecraft:furnace"
+            },
+            "R": {
+              "item": "modern_industrialization:fire_clay_bricks"
+            },
+            "C": {
+              "item": "modern_industrialization:bronze_machine_casing"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:bronze_boiler",
+            "count": 1
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": [
+        "research:createch2:thm_01_boiler_science"
+      ]
+    },
+    "createch2:age_foundation/mi_bronze/tank": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PRP",
+          "RGR",
+          "PRP"
+        ],
+        "key": {
+          "P": {
+            "item": "modern_industrialization:bronze_plate"
+          },
+          "R": {
+            "item": "modern_industrialization:copper_ring"
+          },
+          "G": {
+            "tag": "c:glass_blocks"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:bronze_tank",
+          "count": 1
+        }
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "PRP",
+            "RGR",
+            "PRP"
+          ],
+          "key": {
+            "P": {
+              "item": "modern_industrialization:bronze_plate"
+            },
+            "R": {
+              "item": "modern_industrialization:copper_ring"
+            },
+            "G": {
+              "tag": "c:glass_blocks"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:bronze_tank",
+            "count": 1
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/machine_casing": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "PGP",
+          "PPP"
+        ],
+        "key": {
+          "P": {
+            "item": "modern_industrialization:bronze_plate"
+          },
+          "G": {
+            "item": "create:brass_casing"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:bronze_machine_casing",
+          "count": 1
+        }
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "PPP",
+            "PGP",
+            "PPP"
+          ],
+          "key": {
+            "P": {
+              "item": "modern_industrialization:bronze_plate"
+            },
+            "G": {
+              "item": "create:brass_casing"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:bronze_machine_casing",
+            "count": 1
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "CCC",
+          "RGR",
+          "CCC"
+        ],
+        "key": {
+          "C": {
+            "item": "modern_industrialization:bronze_curved_plate"
+          },
+          "R": {
+            "item": "modern_industrialization:copper_rotor"
+          },
+          "G": {
+            "tag": "c:glass_panes"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:fluid_pipe",
+          "count": 12
+        }
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "CCC",
+            "RGR",
+            "CCC"
+          ],
+          "key": {
+            "C": {
+              "item": "modern_industrialization:bronze_curved_plate"
+            },
+            "R": {
+              "item": "modern_industrialization:copper_rotor"
+            },
+            "G": {
+              "tag": "c:glass_panes"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:fluid_pipe",
+            "count": 12
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:create/pressing/bronze_plate": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "createch2:materials/bronze/machine_grade"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:bronze_plate"
+          }
+        ],
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "createch2:materials/bronze/machine_grade"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:bronze_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/bronze_curved_plate": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "modern_industrialization:bronze_plate"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:bronze_curved_plate"
+          }
+        ],
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "modern_industrialization:bronze_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:bronze_curved_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/copper_rod_from_create_cutting": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "tag": "c:ingots/copper"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:copper_rod"
+          }
+        ],
+        "processing_time": 100,
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_rod"
+            }
+          ],
+          "processing_time": 100,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/copper_bolt_from_create_cutting": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "tag": "c:rods/copper"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:copper_bolt",
+            "count": 2
+          }
+        ],
+        "processing_time": 80,
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:rods/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_bolt",
+              "count": 2
+            }
+          ],
+          "processing_time": 80,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/copper_curved_plate_from_create_pressing": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "modern_industrialization:copper_plate"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:copper_curved_plate"
+          }
+        ],
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "modern_industrialization:copper_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_curved_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "modern_industrialization:copper_curved_plate"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:copper_ring"
+          }
+        ],
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "modern_industrialization:copper_curved_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_ring"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/mi_bronze/fire_clay_dust_from_create_mixing": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:mixing",
+        "ingredients": [
+          {
+            "item": "minecraft:brick"
+          },
+          {
+            "item": "minecraft:brick"
+          },
+          {
+            "item": "minecraft:clay_ball"
+          },
+          {
+            "item": "minecraft:clay_ball"
+          }
+        ],
+        "results": [
+          {
+            "id": "modern_industrialization:fire_clay_dust",
+            "count": 4
+          }
+        ],
+        "recipe_tier": 0
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:mixing",
+          "ingredients": [
+            {
+              "item": "minecraft:brick"
+            },
+            {
+              "item": "minecraft:brick"
+            },
+            {
+              "item": "minecraft:clay_ball"
+            },
+            {
+              "item": "minecraft:clay_ball"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:fire_clay_dust",
+              "count": 4
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "modern_industrialization:materials/copper/craft/blade": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "c:rods/copper"
+          },
+          "P": {
+            "item": "modern_industrialization:copper_curved_plate"
+          }
+        },
+        "pattern": [
+          "P",
+          "P",
+          "I"
+        ],
+        "result": {
+          "count": 4,
+          "id": "modern_industrialization:copper_blade"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "Modern-Industrialization-2.5.10.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "I": {
+                "tag": "c:rods/copper"
+              },
+              "P": {
+                "item": "modern_industrialization:copper_curved_plate"
+              }
+            },
+            "pattern": [
+              "P",
+              "P",
+              "I"
+            ],
+            "result": {
+              "count": 4,
+              "id": "modern_industrialization:copper_blade"
+            }
+          }
+        }
+      ],
+      "event": {
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:rods/copper"
+            },
+            "P": {
+              "item": "modern_industrialization:copper_curved_plate"
+            }
+          },
+          "pattern": [
+            "P",
+            "P",
+            "I"
+          ],
+          "result": {
+            "count": 4,
+            "id": "modern_industrialization:copper_blade"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "modern_industrialization:materials/copper/craft/rotor": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "modern_industrialization:copper_blade"
+          },
+          "R": {
+            "item": "modern_industrialization:copper_ring"
+          },
+          "b": {
+            "item": "modern_industrialization:copper_bolt"
+          }
+        },
+        "pattern": [
+          "bBb",
+          "BRB",
+          "bBb"
+        ],
+        "result": {
+          "count": 1,
+          "id": "modern_industrialization:copper_rotor"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "Modern-Industrialization-2.5.10.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "B": {
+                "item": "modern_industrialization:copper_blade"
+              },
+              "R": {
+                "item": "modern_industrialization:copper_ring"
+              },
+              "b": {
+                "item": "modern_industrialization:copper_bolt"
+              }
+            },
+            "pattern": [
+              "bBb",
+              "BRB",
+              "bBb"
+            ],
+            "result": {
+              "count": 1,
+              "id": "modern_industrialization:copper_rotor"
+            }
+          }
+        }
+      ],
+      "event": {
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "modern_industrialization:copper_blade"
+            },
+            "R": {
+              "item": "modern_industrialization:copper_ring"
+            },
+            "b": {
+              "item": "modern_industrialization:copper_bolt"
+            }
+          },
+          "pattern": [
+            "bBb",
+            "BRB",
+            "bBb"
+          ],
+          "result": {
+            "count": 1,
+            "id": "modern_industrialization:copper_rotor"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "modern_industrialization:materials/fire_clay_bricks": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "TT",
+          "TT"
+        ],
+        "key": {
+          "T": {
+            "item": "modern_industrialization:fire_clay_brick"
+          }
+        },
+        "result": {
+          "id": "modern_industrialization:fire_clay_bricks",
+          "count": 1
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "Modern-Industrialization-2.5.10.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+              "TT",
+              "TT"
+            ],
+            "key": {
+              "T": {
+                "item": "modern_industrialization:fire_clay_brick"
+              }
+            },
+            "result": {
+              "id": "modern_industrialization:fire_clay_bricks",
+              "count": 1
+            }
+          }
+        }
+      ],
+      "event": {
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "TT",
+            "TT"
+          ],
+          "key": {
+            "T": {
+              "item": "modern_industrialization:fire_clay_brick"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:fire_clay_bricks",
+            "count": 1
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "modern_industrialization:materials/fire_clay/smelting/dust_to_ingot_smelting": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 0.7,
+        "ingredient": {
+          "item": "modern_industrialization:fire_clay_dust"
+        },
+        "result": {
+          "count": 1,
+          "id": "modern_industrialization:fire_clay_brick"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "Modern-Industrialization-2.5.10.jar",
+          "data": {
+            "type": "minecraft:smelting",
+            "category": "misc",
+            "cookingtime": 200,
+            "experience": 0.7,
+            "ingredient": {
+              "item": "modern_industrialization:fire_clay_dust"
+            },
+            "result": {
+              "count": 1,
+              "id": "modern_industrialization:fire_clay_brick"
+            }
+          }
+        }
+      ],
+      "event": {
+        "data": {
+          "type": "minecraft:smelting",
+          "category": "misc",
+          "cookingtime": 200,
+          "experience": 0.7,
+          "ingredient": {
+            "item": "modern_industrialization:fire_clay_dust"
+          },
+          "result": {
+            "count": 1,
+            "id": "modern_industrialization:fire_clay_brick"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "minecraft:brick": {
+      "kind": "native",
+      "data": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 0.3,
+        "ingredient": {
+          "item": "minecraft:clay_ball"
+        },
+        "result": {
+          "id": "minecraft:brick"
+        }
+      },
+      "nativeRows": [
+        {
+          "provider": "1.21.1.jar",
+          "data": {
+            "type": "minecraft:smelting",
+            "category": "misc",
+            "cookingtime": 200,
+            "experience": 0.3,
+            "ingredient": {
+              "item": "minecraft:clay_ball"
+            },
+            "result": {
+              "id": "minecraft:brick"
+            }
+          }
+        }
+      ],
+      "event": {
+        "data": {
+          "type": "minecraft:smelting",
+          "category": "misc",
+          "cookingtime": 200,
+          "experience": 0.3,
+          "ingredient": {
+            "item": "minecraft:clay_ball"
+          },
+          "result": {
+            "id": "minecraft:brick"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/stone/furnace_from_tfc_raw_rock": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SSS",
+          "S S",
+          "SSS"
+        ],
+        "key": {
+          "S": {
+            "tag": "c:stones/raw"
+          }
+        },
+        "result": {
+          "id": "minecraft:furnace",
+          "count": 1
+        }
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "SSS",
+            "S S",
+            "SSS"
+          ],
+          "key": {
+            "S": {
+              "tag": "c:stones/raw"
+            }
+          },
+          "result": {
+            "id": "minecraft:furnace",
+            "count": 1
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    "createch2:age_foundation/foundry/brass_casing_from_foundry_brass": {
+      "kind": "authored",
+      "data": {
+        "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+        "type": "create:item_application",
+        "ingredients": [
+          {
+            "tag": "c:stripped_logs"
+          },
+          {
+            "tag": "createch2:materials/brass/foundry"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:brass_casing"
+          }
+        ]
+      },
+      "nativeRows": [],
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:item_application",
+          "ingredients": [
+            {
+              "tag": "c:stripped_logs"
+            },
+            {
+              "tag": "createch2:materials/brass/foundry"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:brass_casing"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": [
+        "research:createch2:mat_02_brass_engineering"
+      ]
+    }
+  },
+  "nativeClasses": {
+    "filter": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour"
+    ],
+    "furnace": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "filter": "288eb31050339c36d2a140033f9360598e228e9a1e51ed9c3d63081b81c9851d",
+    "furnace": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f"
+  },
+  "brassLoot": {
+    "provider": "create-1.21.1-6.0.10.jar",
+    "path": "data/create/loot_table/blocks/brass_casing.json",
+    "data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "create:brass_casing"
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "create:blocks/brass_casing"
+    }
+  },
+  "census": [
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "bellsandwhistles:bogie_steps/copper_bogie_steps_stonecutting",
+      "provider": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 3,
+            "id": "bellsandwhistles:copper_bogie_steps"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "bellsandwhistles:door_steps/copper_grab_rails_stonecutting",
+      "provider": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 6,
+            "id": "bellsandwhistles:copper_door_step"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "bellsandwhistles:grab_rails/copper_grab_rails_stonecutting",
+      "provider": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 4,
+            "id": "bellsandwhistles:copper_grab_rails"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_bars_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 4,
+            "id": "create:copper_bars"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_ladder_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:copper_ladder"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_scaffolding_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:copper_scaffolding"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_shingles_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:copper_shingles"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_table_cloth_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:copper_table_cloth"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:copper_tiles_from_ingots_copper_stonecutting",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:copper_tiles"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "create:copper_sheet",
+      "id": "create:cutting/compat/immersiveengineering/wire_copper",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "immersiveengineering"
+            }
+          ],
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:plates/copper"
+            }
+          ],
+          "processing_time": 50,
+          "results": [
+            {
+              "count": 2,
+              "id": "immersiveengineering:wire_copper"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "create:pressing/copper_ingot",
+      "provider": "create-1.21.1-6.0.10.jar",
+      "event": {
+        "data": {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:copper_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "create:copper_sheet",
+      "id": "createbigcannons:cutting/autocannon_cartridge_sheet_copper",
+      "provider": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "event": {
+        "data": {
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:plates/copper"
+            }
+          ],
+          "results": [
+            {
+              "count": 3,
+              "id": "createbigcannons:autocannon_cartridge_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "create:copper_sheet",
+      "id": "tacz_c:thin_copper_sheet_cutting",
+      "provider": "tacz_c-1.0.2+neoforge.1.21.1.jar",
+      "event": {
+        "data": {
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "item": "create:copper_sheet"
+            }
+          ],
+          "processingTime": 100,
+          "results": [
+            {
+              "count": 10,
+              "id": "tacz_c:thin_copper_sheet"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "tfmg:copper_wire_from_ingots_copper_stonecutting",
+      "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+      "event": {
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "tfmg:copper_wire"
+          }
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "modern_industrialization:bronze_plate",
+      "id": "createch2:age_foundation/mi_bronze/bronze_curved_plate",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "modern_industrialization:bronze_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:bronze_curved_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "modern_industrialization:copper_rod",
+      "id": "createch2:age_foundation/mi_bronze/copper_bolt_from_create_cutting",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:rods/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_bolt",
+              "count": 2
+            }
+          ],
+          "processing_time": 80,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "createaddition:copper_rod",
+      "id": "createch2:age_foundation/mi_bronze/copper_bolt_from_create_cutting",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:rods/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_bolt",
+              "count": 2
+            }
+          ],
+          "processing_time": 80,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/rod/copper",
+      "id": "createch2:age_foundation/mi_bronze/copper_bolt_from_create_cutting",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:rods/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_bolt",
+              "count": 2
+            }
+          ],
+          "processing_time": 80,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "modern_industrialization:copper_curved_plate",
+      "id": "createch2:age_foundation/mi_bronze/copper_ring_from_create_pressing",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "modern_industrialization:copper_curved_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_ring"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "createch2:age_foundation/mi_bronze/copper_rod_from_create_cutting",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_rod"
+            }
+          ],
+          "processing_time": 100,
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "createbigcannons:bronze_ingot",
+      "id": "createch2:create/pressing/bronze_plate",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "createch2:materials/bronze/machine_grade"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:bronze_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "tfc:metal/ingot/copper",
+      "id": "createch2:create/pressing/copper_plate",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "tag": "c:ingots/copper"
+            }
+          ],
+          "results": [
+            {
+              "id": "modern_industrialization:copper_plate"
+            }
+          ],
+          "recipe_tier": 0
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "create:copper_sheet",
+      "id": "createch2:low_voltage/create/cutting/copper_wire_bootstrap",
+      "provider": "authored",
+      "event": {
+        "data": {
+          "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+          "type": "greate:cutting",
+          "ingredients": [
+            {
+              "tag": "c:plates/copper"
+            }
+          ],
+          "processing_time": 80,
+          "results": [
+            {
+              "count": 2,
+              "id": "modern_industrialization:copper_wire"
+            }
+          ],
+          "recipe_tier": 1
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": []
+    },
+    {
+      "item": "create:copper_sheet",
+      "id": "createch2:electrical/wire/copper_wire",
+      "provider": "captured",
+      "event": {
+        "data": {
+          "type": "create:cutting",
+          "ingredients": [
+            {
+              "tag": "c:plates/copper"
+            }
+          ],
+          "processing_time": 50,
+          "results": [
+            {
+              "count": 4,
+              "id": "electroenergetics:copper_wire"
+            }
+          ]
+        },
+        "applied": [],
+        "removed": false
+      },
+      "owners": [
+        "research:createch2:ele_01_practical_electrics"
+      ]
+    }
+  ],
+  "rodTagMembers": [
+    "createaddition:copper_rod",
+    "modern_industrialization:copper_rod",
+    "tfc:metal/rod/copper"
+  ]
+}

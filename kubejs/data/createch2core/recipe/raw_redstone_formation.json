@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "createch2core:raw_redstone_formation",
+    "count": 1
+  }
+}

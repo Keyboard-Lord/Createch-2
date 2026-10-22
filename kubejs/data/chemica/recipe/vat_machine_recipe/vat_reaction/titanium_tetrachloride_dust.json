@@ -1,0 +1,36 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "chemica:rutile_dust"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 200,
+      "tag": "c:hydrochloric_acid"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 200,
+      "tag": "c:chlorine"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 350,
+      "id": "chemica:titanium_tetrachloride"
+    },
+    {
+      "chance": 0.1,
+      "id": "chemica:iron_dust"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

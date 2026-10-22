@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "PHP",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "P": {
+      "item": "tfmg:copper_spool"
+    },
+    "H": {
+      "item": "modern_industrialization:steel_machine_casing"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:basic_machine_hull",
+    "count": 1
+  }
+}

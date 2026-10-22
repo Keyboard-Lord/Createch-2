@@ -1,0 +1,93 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "electroenergetics:connector"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:kinetic_data"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.ele_01_practical_electrics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.ele_01_practical_electrics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:consequences/fire/smoke_detector",
+      "createch2:research/pack/grid_telemetry",
+      "electroenergetics:crafting/black_electrical_panel",
+      "electroenergetics:crafting/blue_electrical_panel",
+      "electroenergetics:crafting/brown_electrical_panel",
+      "electroenergetics:crafting/bulb",
+      "electroenergetics:crafting/buzzer",
+      "electroenergetics:crafting/capacitor",
+      "electroenergetics:crafting/clamp_meter",
+      "electroenergetics:crafting/cut_off_switch",
+      "electroenergetics:crafting/cyan_electrical_panel",
+      "electroenergetics:crafting/diode",
+      "electroenergetics:crafting/double_connector",
+      "electroenergetics:crafting/double_switch",
+      "electroenergetics:crafting/electrical_panel",
+      "electroenergetics:crafting/electrical_panel_undye",
+      "electroenergetics:crafting/emergency_stop_button",
+      "electroenergetics:crafting/gray_electrical_panel",
+      "electroenergetics:crafting/green_electrical_panel",
+      "electroenergetics:crafting/indicator_bulb",
+      "electroenergetics:crafting/inductor",
+      "electroenergetics:crafting/light_blue_electrical_panel",
+      "electroenergetics:crafting/light_gray_electrical_panel",
+      "electroenergetics:crafting/lime_electrical_panel",
+      "electroenergetics:crafting/magenta_electrical_panel",
+      "electroenergetics:crafting/momentary_switch",
+      "electroenergetics:crafting/orange_electrical_panel",
+      "electroenergetics:crafting/pink_electrical_panel",
+      "electroenergetics:crafting/potentiometer",
+      "electroenergetics:crafting/purple_electrical_panel",
+      "electroenergetics:crafting/quad_connector",
+      "electroenergetics:crafting/quad_connector_from_double",
+      "electroenergetics:crafting/red_electrical_panel",
+      "electroenergetics:crafting/redstone_potentiometer",
+      "electroenergetics:crafting/redstone_relay",
+      "electroenergetics:crafting/relay",
+      "electroenergetics:crafting/resistor",
+      "electroenergetics:crafting/triple_connector",
+      "electroenergetics:crafting/white_electrical_panel",
+      "electroenergetics:crafting/yellow_electrical_panel",
+      "electroenergetics:stonecutting/electric_shock_sign",
+      "electroenergetics:stonecutting/grounding_sign",
+      "createch2:electrical/wire/empty_spool",
+      "createch2:electrical/wire/copper_wire",
+      "createch2:electrical/distribution/connector",
+      "createch2:electrical/wire/insulated_wire",
+      "createch2:electrical/wire/insulated_spool",
+      "createch2:electrical/wire/bare_spool",
+      "createch2:electrical/protection/fuse",
+      "createch2:electrical/protection/fuse_holder",
+      "createch2:electrical/protection/ground_rod",
+      "createch2:electrical/measurement/voltmeter",
+      "createch2:electrical/measurement/ammeter",
+      "greate:integration/createch2/electrical/wire/copper_wire",
+      "greate:integration/createch_2_/electrical/wire/copper_wire"
+    ]
+  }
+}

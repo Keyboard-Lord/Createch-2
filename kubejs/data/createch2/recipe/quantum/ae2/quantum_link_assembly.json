@@ -1,0 +1,82 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:quantum_ring"
+  },
+  "transitional_item": {
+    "id": "ae2:quantum_ring"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:quantum_ring"
+        },
+        {
+          "item": "modern_industrialization:quantum_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "ae2:quantum_ring"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:quantum_ring"
+        },
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "ae2:quantum_ring"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ae2:quantum_ring"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "modern_industrialization:uu_matter"
+        }
+      ],
+      "results": [
+        {
+          "id": "ae2:quantum_ring"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:quantum_ring"
+        }
+      ],
+      "results": [
+        {
+          "id": "ae2:quantum_ring"
+        }
+      ],
+      "recipe_tier": 6
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:quantum_link"
+    }
+  ]
+}

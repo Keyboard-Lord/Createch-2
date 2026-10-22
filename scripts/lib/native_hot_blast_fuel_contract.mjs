@@ -1,0 +1,26 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';
+import {captureRecipePolicy,compileRecipeFilter} from './capture_recipe_policy.mjs';
+import {replayRecipeEventEntry} from './native_recipe_event_contract.mjs';
+const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
+
+// This qualifies fuel acceptance only. It deliberately creates no air or
+// hot-air supplier token before the actual intake/stove/drive is reviewed.
+export function nativeHotBlastFuelContract(root,overrides={}){
+ const f=JSON.parse(fs.readFileSync(new URL('../sources/mission02_native_hot_blast_fuel.json',import.meta.url),'utf8'));
+ const extension=overrides.extension??JSON.parse(fs.readFileSync(path.join(root,'kubejs/data/tfmg/tags/fluid/blast_stove_fuel.json'),'utf8'));
+ assert.deepEqual(extension,f.extension,'Missing exact append-only Railcraft blast-stove startup fuel extension');
+ const code={},hashes={};for(const[k,[jar,name]]of Object.entries(f.nativeClasses)){code[k]=execFileSync('/opt/homebrew/opt/openjdk@21/bin/javap',['-c','-p','-classpath',path.join(root,'mods',jar),name],{encoding:'utf8',maxBuffer:4*1024*1024});hashes[k]=hash(code[k]);assert.equal(hashes[k],f.nativeCodeSha256[k],k+' native blast-fuel binding changed');}
+ assert(code.stove.includes('TFMGTags$Fluids.BLAST_STOVE_FUEL:')&&code.stove.includes('FluidStack.is:(Lnet/minecraft/tags/TagKey;)Z'),'Stove fuel tank no longer uses its native fuel tag');
+ assert(code.hotRecipe.includes('SizedFluidIngredient.test:')&&code.hotRecipe.includes('HotBlastRecipeInput.air:')&&code.hotRecipe.includes('HotBlastRecipeInput.fuel:'),'Native hot-blast matching changed');
+ assert(code.fluidTags.includes('String BLAST_STOVE_FUEL')&&code.fluidTags.includes('TFMGLang.asId:')&&code.fluidTags.includes('FluidTags.create:'));
+ const jar=path.join(root,'mods/tfmg-1.21.1-1.3.2a-community.jar'),resource=name=>JSON.parse(execFileSync('/usr/bin/unzip',['-p',jar,name],{encoding:'utf8'}));
+ assert.deepEqual(resource('data/tfmg/tags/fluid/blast_stove_fuel.json'),f.nativeTag);assert(!f.nativeTag.replace);const members=[...f.nativeTag.values,...extension.values];
+ assert(!f.nativeTag.values.includes('railcraft:creosote'));assert(members.includes('tfmg:furnace_gas')&&members.includes('tfmg:creosote')&&members.includes('railcraft:creosote'));
+ const policy=captureRecipePolicy(root,true),removals=policy.removals.map(x=>compileRecipeFilter(x.filter)),recipes={};
+ for(const[id,expected]of Object.entries(f.recipes)){const d=resource('data/'+id.replace(':','/recipe/')+'.json');assert.deepEqual(d,expected);assert(!policy.additions.some(r=>r.id===id),'Unexpected hot-blast/coking override '+id);const e=replayRecipeEventEntry(id,d,'native',policy.modifications,removals);assert.equal(e.removed,id!=='tfmg:hot_blast/hot_air',id+' retirement changed');recipes[id]={source:d,removed:e.removed,normalizations:e.applied};if(!e.removed)assert.deepEqual(e.data,d);}
+ const hot=f.recipes['tfmg:hot_blast/hot_air'];assert.deepEqual(hot,{type:'tfmg:hot_blast',ingredients:[{type:'neoforge:single',amount:50,fluid:'tfmg:air'},{type:'neoforge:tag',amount:10,tag:f.tagId}],processing_time:200,results:[{amount:50,id:'tfmg:hot_air'},{amount:50,id:'tfmg:carbon_dioxide'}]});
+ const accepts=(fluid,amount,air=50)=>members.includes(fluid)&&amount>=10&&air>=50;
+ assert(accepts('railcraft:creosote',10));assert(!f.nativeTag.values.includes('railcraft:creosote'));
+ const negativeCases=[];for(const[name,fluid,amount,air]of [['nine_mb_fuel','railcraft:creosote',9,50],['forty_nine_mb_air','railcraft:creosote',10,49],['lubricant_is_not_stove_fuel','modern_industrialization:lubricant',10,50],['oil_is_not_stove_fuel','tfmg:lubrication_oil',10,50],['carbon_dioxide_is_not_stove_fuel','tfmg:carbon_dioxide',10,50],['water_is_not_stove_fuel','minecraft:water',10,50]]){assert(!accepts(fluid,amount,air));negativeCases.push({name,rejected:true});}
+ return {truth:'STATIC_NATIVE_HOT_BLAST_STARTUP_FUEL',tag:f.tagId,extension,nativeMembers:f.nativeTag.values,mergedMembers:members,nativeCodeSha256:hashes,selectedRecipe:{id:'tfmg:hot_blast/hot_air',data:hot},retiredNativeCoking:recipes,negativeCases,quantityContract:{airMb:50,fuelMb:10,hotAirMb:50,carbonDioxideMb:50,declaredProcessingTime:200},noHotAirProductionTokenAdmitted:true,limits:['Appends only railcraft:creosote to the native blast-stove fuel tag. Native creosote/furnace-gas fuels and50air/10fuel ->50hot-air/50carbon-dioxide bill, timing and matching remain unchanged.','The selected Railcraft log supplier can now feed the actual native stove fuel tank and ingredient tag without first producing furnace gas. Both old native TFMG coking recipes remain removed; no recipe/research/processor gate is restored.','This proves exact static fuel acceptance, not a completed hot-air or steel factory. Intake manufacture/drive/air output, stove formation/ports and exhaust, furnace tuyere/hot-air debit and multi-output handling remain the next supplier qualification.','Loaded tags/capabilities/recipes, actual fluid delivery, volumes, formation, work and save behavior remain runtime qualification. No Minecraft launch, performance test or packaging.']};
+}

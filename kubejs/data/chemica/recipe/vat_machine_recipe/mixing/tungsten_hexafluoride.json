@@ -1,0 +1,38 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:fluorine"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:hydrofluoric_acid"
+    },
+    {
+      "tag": "c:dusts/tungsten"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:tungsten_hexafluoride"
+    },
+    {
+      "amount": 250,
+      "id": "tfmg:hot_air"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

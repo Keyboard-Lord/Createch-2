@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:amethyst_shard"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:esoteric_records",
+      "createch2:computational_models",
+      "createch2:frontier_observations"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:eso_03_attunement",
+    "createch2:frn_03_frontier_observation",
+    "createch2:com_03_networked_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:esoteric_studies",
+  "display": {
+    "name": {
+      "translate": "research.createch2.eso_04_occult_synthesis.title"
+    },
+    "desc": {
+      "translate": "research.createch2.eso_04_occult_synthesis.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/esoteric_records_frontier"
+    ]
+  }
+}

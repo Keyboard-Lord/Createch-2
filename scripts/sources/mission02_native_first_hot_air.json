@@ -1,0 +1,1188 @@
+{
+  "scope": "Finite55Lnative hot-air precharge with retained55LCO2; first steel not yet admitted",
+  "nativeClasses": {
+    "stove": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_stove.BlastStoveBlockEntity",
+      false
+    ],
+    "stoveBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_stove.BlastStoveBlock",
+      false
+    ],
+    "stoveBlockV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_stove.BlastStoveBlock",
+      true
+    ],
+    "hotRecipe": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.HotBlastRecipe",
+      false
+    ],
+    "ioTank": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.fluid.InputOutputTankWrapper",
+      false
+    ],
+    "connectivity": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.connectivity.ConnectivityHandler",
+      false
+    ],
+    "connectivityAxis": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.connectivity.ConnectivityHandler$1",
+      false
+    ],
+    "connectivityCache": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.connectivity.ConnectivityHandler$SearchCache",
+      false
+    ],
+    "pipeNetworks": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.impl.PipeNetworks",
+      false
+    ],
+    "pipeNetworksV": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.impl.PipeNetworks",
+      true
+    ],
+    "miNetworkManager": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.api.PipeNetworkManager",
+      false
+    ],
+    "miPipes": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.MIPipes",
+      false
+    ],
+    "fluidGui": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidPipeScreenHandler"
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "fluidInsert": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$1"
+    ],
+    "fluidExtract": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$2"
+    ],
+    "pipeEndpoint": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.api.PipeEndpointType",
+      false
+    ],
+    "fluidConnection": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode$FluidConnection",
+      false
+    ],
+    "fluidVariant": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.thirdparty.fabrictransfer.api.fluid.FluidVariant",
+      false
+    ],
+    "fluidVariantImpl": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.thirdparty.fabrictransfer.impl.fluid.FluidVariantImpl",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "stove": "dab9a598aec748579b1727c5a0e1f7e7797e28a542eac282a7aed087073e63c1",
+    "stoveBlock": "b8612dad6434f86448a7e00b8d0de87508c02b54cc9372d056220a149a571934",
+    "stoveBlockV": "d69e3595ad220c9ff0dab6af46c8969ac90b8b6daa88ca1081b2e55383e4937e",
+    "hotRecipe": "67cde18644570590bb0573481ea00e1a900ef50d9db13de04e556879ecb04a8f",
+    "ioTank": "edbdee5f0a5b52ecb4633005dbb180376f0f0d8ce7c4615e29d622c61611c6a8",
+    "connectivity": "44f4afa47ef42105bdff6ec4cd34b75865016d221256340f3a79aec9338e0f52",
+    "connectivityAxis": "0775f1c237f5f877c4a0782f073cc8919e15bb6801612add27ce695e568770e3",
+    "connectivityCache": "6802502baf9767a68e81b1fd48e5f429c0182d1a8f33ba2c64fcef4e4d31fda2",
+    "pipeNetworks": "f6eea63ce9e7200407ccfdc87f862c977132a0c48e83f8868e325d913e664f8c",
+    "pipeNetworksV": "21ef130d3404e39b1b312692a087bd83dec77b5bb374c3aff40a3bd235a0942c",
+    "miNetworkManager": "6e50044e737dfa8fee019b639b88af0027578b2286372e21bb2817ece842a379",
+    "miPipes": "ca5c776d973fa5c27a31226fb1737c719b429df1884d69d07fd7f46c282cd05b",
+    "fluidGui": "51cdc9426ff55338e04e88d3d395db58c55cd806d878c5c878fbe94f92bc6020",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidInsert": "cdf676ef40d709d08111f8d626f8515be8c3cf6ea71122fa61d81254d1291091",
+    "fluidExtract": "3088821e79a1b5f18928d6775a4c0ca48c4ebad3107df050ed56b13f09012872",
+    "pipeEndpoint": "ee9bc4627262f72f68e179b658ea26d6668785bc1afeba2b2dd831a13b5c7c62",
+    "fluidConnection": "7a0bfcbf29f7439f0c4b6eff307322e58d80449a62038a32e3c7532c1d72b670",
+    "fluidVariant": "3badd27d870d71c00ddb80a41bae82044c12b0e71b59637f5acf8c095ed97da9",
+    "fluidVariantImpl": "fa5ab1c4c3893fc133bdd4c586c22890ebde620386e5ffed0fe4e8cee290fa65"
+  },
+  "sharedForceableTankSha256": "2787c7d14fba88beeff390cac8e937869a00abc75a152a1c4555a1e0f69adade",
+  "ids": {
+    "oven": "createch2:heavy_industry/railcraft/coke_oven_bricks",
+    "coking": "railcraft:coke_oven/charcoal",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "bufferCraft": "create:crafting/kinetics/fluid_tank",
+    "foundryLid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "hotAir": "tfmg:hot_blast/hot_air"
+  },
+  "recipes": {
+    "createch2:heavy_industry/railcraft/coke_oven_bricks": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "FFF",
+        "CBC",
+        "FFF"
+      ],
+      "key": {
+        "F": {
+          "item": "tfc:fire_bricks"
+        },
+        "C": {
+          "tag": "c:plates/cast_iron"
+        },
+        "B": {
+          "item": "modern_industrialization:fire_clay_bricks"
+        }
+      },
+      "result": {
+        "id": "railcraft:coke_oven_bricks",
+        "count": 4
+      }
+    },
+    "railcraft:coke_oven/charcoal": {
+      "type": "railcraft:coking",
+      "cookingTime": 300,
+      "creosoteOutput": 250,
+      "experience": 0,
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "result": {
+        "count": 1,
+        "id": "minecraft:charcoal"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "create:crafting/kinetics/fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:plates/copper"
+        },
+        "C": {
+          "tag": "c:barrels/wooden"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "B"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:fluid_tank"
+      }
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "tfmg:hot_blast/hot_air": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 50,
+          "fluid": "tfmg:air"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 10,
+          "tag": "tfmg:blast_stove_fuel"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "amount": 50,
+          "id": "tfmg:hot_air"
+        },
+        {
+          "amount": 50,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    }
+  },
+  "kinds": {
+    "createch2:heavy_industry/railcraft/coke_oven_bricks": "authored",
+    "railcraft:coke_oven/charcoal": "native",
+    "createch2:age_foundation/mi_bronze/fluid_pipe": "authored",
+    "create:crafting/kinetics/fluid_tank": "native",
+    "createch2:age_foundation/foundry/basin_foundry_lid": "authored",
+    "tfmg:hot_blast/hot_air": "native"
+  },
+  "stove": {
+    "blocks": [
+      [
+        8,
+        0,
+        3
+      ],
+      [
+        8,
+        1,
+        3
+      ],
+      [
+        8,
+        2,
+        3
+      ],
+      [
+        8,
+        3,
+        3
+      ]
+    ],
+    "width": 1,
+    "height": 4,
+    "controller": [
+      8,
+      0,
+      3
+    ],
+    "nativeMaxHeight": 5,
+    "capacityPerBlockMb": 8000,
+    "capacityPerTankMb": 32000,
+    "airInPort": [
+      7,
+      0,
+      3
+    ],
+    "co2OutPort": [
+      8,
+      0,
+      4
+    ],
+    "fuelInPort": [
+      8,
+      4,
+      3
+    ],
+    "hotAirOutPort": [
+      8,
+      -1,
+      3
+    ]
+  },
+  "networks": {
+    "air": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        6,
+        3
+      ],
+      [
+        1,
+        6,
+        3
+      ],
+      [
+        2,
+        6,
+        3
+      ],
+      [
+        3,
+        6,
+        3
+      ],
+      [
+        4,
+        6,
+        3
+      ],
+      [
+        5,
+        6,
+        3
+      ],
+      [
+        6,
+        2,
+        3
+      ],
+      [
+        6,
+        3,
+        3
+      ],
+      [
+        6,
+        4,
+        3
+      ],
+      [
+        6,
+        5,
+        3
+      ],
+      [
+        6,
+        6,
+        3
+      ],
+      [
+        7,
+        0,
+        3
+      ],
+      [
+        7,
+        1,
+        3
+      ],
+      [
+        7,
+        2,
+        3
+      ]
+    ],
+    "creosote": [
+      [
+        -13,
+        1,
+        4
+      ],
+      [
+        -13,
+        2,
+        4
+      ],
+      [
+        -13,
+        3,
+        4
+      ],
+      [
+        -13,
+        4,
+        4
+      ],
+      [
+        -13,
+        5,
+        4
+      ],
+      [
+        -13,
+        6,
+        4
+      ],
+      [
+        -13,
+        7,
+        4
+      ],
+      [
+        -13,
+        8,
+        4
+      ],
+      [
+        -13,
+        9,
+        4
+      ],
+      [
+        -13,
+        10,
+        4
+      ],
+      [
+        -12,
+        10,
+        4
+      ],
+      [
+        -11,
+        10,
+        4
+      ],
+      [
+        -10,
+        10,
+        4
+      ],
+      [
+        -9,
+        10,
+        4
+      ],
+      [
+        -8,
+        10,
+        4
+      ],
+      [
+        -7,
+        10,
+        4
+      ],
+      [
+        -6,
+        10,
+        4
+      ],
+      [
+        -5,
+        10,
+        4
+      ],
+      [
+        -4,
+        10,
+        4
+      ],
+      [
+        -3,
+        10,
+        4
+      ],
+      [
+        -2,
+        10,
+        4
+      ],
+      [
+        -1,
+        10,
+        4
+      ],
+      [
+        0,
+        10,
+        4
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        2,
+        10,
+        4
+      ],
+      [
+        3,
+        10,
+        4
+      ],
+      [
+        4,
+        10,
+        4
+      ],
+      [
+        5,
+        10,
+        4
+      ],
+      [
+        6,
+        10,
+        4
+      ],
+      [
+        7,
+        10,
+        4
+      ],
+      [
+        8,
+        4,
+        3
+      ],
+      [
+        8,
+        5,
+        3
+      ],
+      [
+        8,
+        6,
+        3
+      ],
+      [
+        8,
+        7,
+        3
+      ],
+      [
+        8,
+        8,
+        3
+      ],
+      [
+        8,
+        9,
+        3
+      ],
+      [
+        8,
+        10,
+        3
+      ],
+      [
+        8,
+        10,
+        4
+      ]
+    ],
+    "hotAir": [
+      [
+        8,
+        -4,
+        3
+      ],
+      [
+        8,
+        -3,
+        3
+      ],
+      [
+        8,
+        -2,
+        3
+      ],
+      [
+        8,
+        -1,
+        3
+      ],
+      [
+        9,
+        -4,
+        3
+      ],
+      [
+        10,
+        -4,
+        3
+      ],
+      [
+        11,
+        -4,
+        3
+      ],
+      [
+        12,
+        -4,
+        3
+      ],
+      [
+        13,
+        -4,
+        3
+      ],
+      [
+        14,
+        -4,
+        3
+      ],
+      [
+        15,
+        -4,
+        3
+      ],
+      [
+        16,
+        -4,
+        3
+      ],
+      [
+        16,
+        -3,
+        3
+      ],
+      [
+        17,
+        -4,
+        3
+      ],
+      [
+        18,
+        -4,
+        3
+      ],
+      [
+        18,
+        -3,
+        3
+      ],
+      [
+        19,
+        -4,
+        3
+      ],
+      [
+        20,
+        -4,
+        3
+      ],
+      [
+        20,
+        -3,
+        3
+      ],
+      [
+        21,
+        -4,
+        3
+      ],
+      [
+        22,
+        -4,
+        3
+      ],
+      [
+        23,
+        -4,
+        3
+      ],
+      [
+        24,
+        -4,
+        3
+      ],
+      [
+        25,
+        -4,
+        3
+      ],
+      [
+        26,
+        -4,
+        3
+      ],
+      [
+        27,
+        -4,
+        3
+      ],
+      [
+        28,
+        -4,
+        3
+      ],
+      [
+        29,
+        -4,
+        3
+      ],
+      [
+        30,
+        -4,
+        3
+      ],
+      [
+        31,
+        -4,
+        3
+      ],
+      [
+        32,
+        -4,
+        3
+      ],
+      [
+        33,
+        -4,
+        3
+      ],
+      [
+        34,
+        -4,
+        3
+      ],
+      [
+        35,
+        -4,
+        3
+      ],
+      [
+        36,
+        -4,
+        3
+      ],
+      [
+        37,
+        -4,
+        3
+      ],
+      [
+        38,
+        -4,
+        3
+      ],
+      [
+        38,
+        -3,
+        3
+      ],
+      [
+        38,
+        -2,
+        3
+      ],
+      [
+        38,
+        -1,
+        3
+      ],
+      [
+        38,
+        0,
+        3
+      ],
+      [
+        38,
+        1,
+        3
+      ]
+    ],
+    "co2": [
+      [
+        8,
+        -1,
+        8
+      ],
+      [
+        8,
+        -1,
+        9
+      ],
+      [
+        8,
+        -1,
+        10
+      ],
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        8,
+        0,
+        5
+      ],
+      [
+        8,
+        0,
+        6
+      ],
+      [
+        8,
+        0,
+        7
+      ],
+      [
+        8,
+        0,
+        8
+      ],
+      [
+        9,
+        -1,
+        10
+      ],
+      [
+        10,
+        -1,
+        10
+      ],
+      [
+        11,
+        -1,
+        10
+      ],
+      [
+        12,
+        -1,
+        10
+      ]
+    ]
+  },
+  "ports": [
+    {
+      "network": "air",
+      "node": [
+        0,
+        4,
+        3
+      ],
+      "block": [
+        0,
+        3,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:air"
+    },
+    {
+      "network": "air",
+      "node": [
+        7,
+        0,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:air"
+    },
+    {
+      "network": "creosote",
+      "node": [
+        -13,
+        1,
+        4
+      ],
+      "block": [
+        -14,
+        1,
+        4
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "railcraft:creosote"
+    },
+    {
+      "network": "creosote",
+      "node": [
+        8,
+        4,
+        3
+      ],
+      "block": [
+        8,
+        3,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "railcraft:creosote"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        8,
+        -1,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        0,
+        4
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        16,
+        -3,
+        3
+      ],
+      "block": [
+        16,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        18,
+        -3,
+        3
+      ],
+      "block": [
+        18,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        20,
+        -3,
+        3
+      ],
+      "block": [
+        20,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        -1,
+        10
+      ],
+      "block": [
+        8,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        10,
+        -1,
+        10
+      ],
+      "block": [
+        10,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        12,
+        -1,
+        10
+      ],
+      "block": [
+        12,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    }
+  ],
+  "banks": {
+    "hotAir": [
+      [
+        16,
+        -2,
+        3
+      ],
+      [
+        18,
+        -2,
+        3
+      ],
+      [
+        20,
+        -2,
+        3
+      ]
+    ],
+    "co2": [
+      [
+        8,
+        0,
+        10
+      ],
+      [
+        10,
+        0,
+        10
+      ],
+      [
+        12,
+        0,
+        10
+      ]
+    ]
+  },
+  "oven": {
+    "layers": [
+      [
+        "BBB",
+        "BBB",
+        "BBB"
+      ],
+      [
+        "BWB",
+        "WAW",
+        "BWB"
+      ],
+      [
+        "BBB",
+        "BBB",
+        "BBB"
+      ]
+    ],
+    "masterOffset": [
+      2,
+      1,
+      2
+    ],
+    "blocks": 26,
+    "capacityMb": 64000,
+    "blockCrafts": 7,
+    "blocksProduced": 28,
+    "spareBlocks": 2,
+    "craftInputs": {
+      "tfc:fire_bricks": 42,
+      "#c:plates/cast_iron": 14,
+      "modern_industrialization:fire_clay_bricks": 7
+    },
+    "formation": "Native NeighborNotifyEvent emits Railcraft NEIGHBOR_NOTIFY; multiblock listener enqueues evaluation; server tick evaluates the pattern. Interact with a formed member to open the master menu. Keep center air and all26blocks intact.",
+    "origin": [
+      -16,
+      0,
+      3
+    ],
+    "fluidMember": [
+      -14,
+      1,
+      4
+    ]
+  },
+  "quantityPlan": {
+    "oakFuelLogs": 44,
+    "creosoteMb": 11000,
+    "charcoalByproduct": 44,
+    "hotBlastRuns": 1100,
+    "airMb": 55000,
+    "hotAirMb": 55000,
+    "carbonDioxideMb": 55000,
+    "stoves": 4,
+    "stoveCrafts": 2,
+    "capacityPerFluidInStoveMb": 32000,
+    "bufferTanks": 6,
+    "bufferCrafts": 6,
+    "bufferTankMb": 8000,
+    "outputBankMbEach": 24000,
+    "totalStoragePerOutputMb": 56000,
+    "stoveCounterCallsPerBatch": 51,
+    "stoveCounterCallsExcludingGaps": 56100,
+    "airProductionCallsExcludingStartup": 55000,
+    "pipeBlocks": 108,
+    "pipeCrafts": 9,
+    "pipesProduced": 108,
+    "sparePipes": 0,
+    "oakBarrelsForStoveAndBanks": 10,
+    "oakLumberForThoseBarrels": 70,
+    "copperPlatesForBanks": 12,
+    "scope": "Inputs and selected hardware bills only. Construction logs/lumber, upstream parts/fuel/quantities and actual inventory are additional; pipe internal volume is not used to inflate the storage guarantee.",
+    "pipeBronzeCurvedPlates": 54,
+    "pipeCopperRotors": 18,
+    "pipeGlassPanes": 9,
+    "stoveCastIronTanks": 4,
+    "stoveCastIronPipes": 4,
+    "stoveCastIronPipeCrafts": 1,
+    "stoveCastIronPlates": 10,
+    "stoveCastIronIngots": 1,
+    "stoveFireproofBrickBlocks": 4,
+    "stoveFireproofBricks": 16,
+    "ovenBricks": 26,
+    "ovenBrickCrafts": 7,
+    "ovenBricksProduced": 28,
+    "spareOvenBricks": 2
+  }
+}

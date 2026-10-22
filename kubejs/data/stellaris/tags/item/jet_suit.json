@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "stellaris:jet_suit_chestplate",
+    "stellaris:jet_suit_boots",
+    "stellaris:jet_suit_helmet",
+    "stellaris:jet_suit_leggings",
+    "rocketnautics:jetpack",
+    "rocketnautics:copper_leg_thrusters",
+    "rocketnautics:copper_anchor_boots"
+  ]
+}

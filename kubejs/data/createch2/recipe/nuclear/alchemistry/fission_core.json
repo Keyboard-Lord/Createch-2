@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NAN",
+    "FCF",
+    "NPN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "A": {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "F": {
+      "item": "crowns:fuel_assembly"
+    },
+    "C": {
+      "item": "alchemistry:compactor"
+    },
+    "P": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "result": {
+    "id": "alchemistry:fission_core",
+    "count": 1
+  }
+}

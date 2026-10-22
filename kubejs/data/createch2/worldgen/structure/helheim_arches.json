@@ -1,0 +1,84 @@
+{
+  "type": "createch2core:arch",
+  "biomes": "#createch2:nether_helheim_arch_biomes",
+  "config": {
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 34,
+      "max_inclusive": 108
+    },
+    "length": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 48,
+      "max_inclusive": 140
+    },
+    "thickness": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 25,
+      "min_inclusive": 20
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "max_exclusive": 0.1,
+      "min_inclusive": 0.05
+    },
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:netherrack"
+          },
+          "weight": 7
+        },
+        {
+          "data": {
+            "Name": "minecraft:red_nether_bricks"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:crimson_nylium"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "accents": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:magma_block"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:shroomlight"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:red_nether_bricks"
+          },
+          "weight": 4
+        }
+      ]
+    },
+    "accent_chance": 0.4,
+    "replaceable": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:water",
+        "minecraft:lava"
+      ]
+    }
+  },
+  "spawn_overrides": {},
+  "step": "raw_generation"
+}

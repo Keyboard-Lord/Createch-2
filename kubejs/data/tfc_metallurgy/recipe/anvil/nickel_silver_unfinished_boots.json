@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/unfinished_boots/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "shrink_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:sheets/nickel_silver"
+  }
+}

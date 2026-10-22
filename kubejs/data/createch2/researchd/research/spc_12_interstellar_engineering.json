@@ -1,0 +1,38 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:end_crystal"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:frontier_observations",
+      "createch2:material_specimens",
+      "createch2:kinetic_data",
+      "createch2:grid_telemetry"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:spc_11_reusable_orbital_transport",
+    "createch2:mec_05_precision_mechatronics",
+    "createch2:pre_05_metrology"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_12_interstellar_engineering.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_12_interstellar_engineering.description"
+    }
+  }
+}

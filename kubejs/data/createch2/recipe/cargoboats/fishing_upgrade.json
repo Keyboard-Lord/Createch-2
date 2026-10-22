@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SFS",
+    "RBR",
+    "SFS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:fishing_rod"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "B": {
+      "tag": "createch2:wooden_barrels"
+    }
+  },
+  "result": {
+    "id": "cargoboats:fishing_upgrade",
+    "count": 1
+  }
+}

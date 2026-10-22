@@ -1,0 +1,49 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:crystal_copper"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:geological_surveys",
+      "createch2:grid_telemetry"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:che_05_reaction_engineering",
+    "createch2:geo_02_mechanized_extraction",
+    "createch2:pre_02_machine_instrumentation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_05b_precision_beneficiation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_05b_precision_beneficiation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:chemical_age/mekanism/chemical_dissolution_chamber",
+      "createch2:chemical_age/mekanism/chemical_washer",
+      "createch2:chemical_age/mekanism/chemical_crystallizer",
+      "createch2:precision_beneficiation/tetrahedrite/beneficiation/small",
+      "createch2:precision_beneficiation/tetrahedrite/beneficiation/poor",
+      "createch2:precision_beneficiation/tetrahedrite/beneficiation/normal",
+      "createch2:precision_beneficiation/tetrahedrite/beneficiation/rich",
+      "createch2:precision_beneficiation/tetrahedrite/dissolution"
+    ]
+  }
+}

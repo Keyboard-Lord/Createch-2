@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CHC",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/stainless_steel"
+    },
+    "G": {
+      "item": "greate:aluminium_mechanical_press"
+    },
+    "C": {
+      "item": "greate:stainless_steel_cogwheel"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "greate:stainless_steel_mechanical_press",
+    "count": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "jar": "eternalstarlight-0.9.1+1.21.1+neoforge.jar",
+  "sha256": "e77369ad1a779036b243ef0f7b24776640a3ff84968e6f3be1931bc953e92b09",
+  "classes": {
+    "spawner": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.spawner.TheGatekeeperSpawnerBlockEntity",
+      "sha256": "049d9619feb798e9a3d3f2dcfc58cbd1c421c73ae8edbf39f445e332eb3549cb"
+    },
+    "bossSpawner": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.spawner.BossSpawnerBlockEntity",
+      "sha256": "4c80705e90442cd902d759ee1712e3bafa8c86250451f3df1219ee48c82153c7"
+    },
+    "gatekeeper": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.gatekeeper.TheGatekeeper",
+      "sha256": "8f6095b6e1937970e8b73a7abc316ec5f3328109df7652ae7d193606b2ddb678"
+    },
+    "boss": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.ESBoss",
+      "sha256": "dbcf74db2489a7d53d657d9a525af4d444eae011478c9787c1e0a7696cdf8323"
+    },
+    "lootBag": {
+      "class": "cn.leolezury.eternalstarlight.common.item.misc.LootBagItem",
+      "sha256": "6f8e836df330a5dc1f08fc442ec5265ebce567f774a923c0173939473fd6b745"
+    },
+    "orb": {
+      "class": "cn.leolezury.eternalstarlight.common.item.magic.OrbOfProphecyItem",
+      "sha256": "fb15ffbb6588d2ef8baf89a79e5c43a8a124b3c5fb87aac24a3374d282e65f8f"
+    },
+    "portal": {
+      "class": "cn.leolezury.eternalstarlight.common.block.ESPortalBlock",
+      "sha256": "286c3954eb0f04414e4f7c0a05f138975f9d61df94778f44c3bea607359a0541"
+    },
+    "validator": {
+      "class": "cn.leolezury.eternalstarlight.common.block.ESPortalBlock$Validator",
+      "sha256": "c816feb964863bab46c2c50184fbb0fc05c4599839142074063909154c6b67e1"
+    },
+    "teleporter": {
+      "class": "cn.leolezury.eternalstarlight.common.world.ESTeleporter",
+      "sha256": "9c6b9b929abb5eb30842c1e53d8febb665158a1883070cbc6a8c83a2787e2215"
+    },
+    "pool": {
+      "class": "cn.leolezury.eternalstarlight.common.world.gen.structure.pool.ESSinglePoolElement",
+      "sha256": "72cb5ddfd3e406e3d6eccc1ac4f7d44a00635d215e1a7aead373310d90ef3424"
+    },
+    "meteor": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.projectile.AethersentMeteor",
+      "sha256": "910f6f1b94d7a76764d359bb8f8a135beda01b2090da589b5f1d2c9ee7e2ec1f"
+    },
+    "meteorShower": {
+      "class": "cn.leolezury.eternalstarlight.common.weather.MeteorShowerWeather",
+      "sha256": "61772242a02f8445a811d36a16f7de4c62ac13030ed6a86ae4938c626398fa64"
+    },
+    "weather": {
+      "class": "cn.leolezury.eternalstarlight.common.weather.WeatherInstance",
+      "sha256": "4bd16622ca44acd9703f1a207214df2fe7e4ef1003f2170ebe7d96303687b595"
+    },
+    "weatherRegistry": {
+      "class": "cn.leolezury.eternalstarlight.common.registry.ESWeathers",
+      "sha256": "4d7b833590f49497b4d3812f788fb1013159347d184fac9cff1eb94ed7dca5e3"
+    },
+    "handler": {
+      "class": "cn.leolezury.eternalstarlight.common.handler.ESCommonHandler",
+      "sha256": "24157191ff095b1f7b3852a8e64f658683b33d43a74cd45f9f8602733858066f"
+    },
+    "weatherMixin": {
+      "class": "cn.leolezury.eternalstarlight.common.mixin.ServerLevelMixin",
+      "sha256": "a3e7a983149186c385f7a8a4f7a307f452d4c8c18fd754369164857efce768e0"
+    }
+  }
+}

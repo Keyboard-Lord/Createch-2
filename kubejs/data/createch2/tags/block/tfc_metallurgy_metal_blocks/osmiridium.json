@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/osmiridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/osmiridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/osmiridium",
+      "required": false
+    }
+  ]
+}

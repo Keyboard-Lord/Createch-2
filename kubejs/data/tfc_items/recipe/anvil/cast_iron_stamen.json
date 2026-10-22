@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"tfc"}],"type":"tfc:anvil","ingredient":{"tag":"c:rods/cast_iron"},"result":{"id":"tfc_items:cast_iron_stamen","count":2},"tier":1,"rules":["bend_last","draw_second_last","draw_third_last"]}

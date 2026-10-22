@@ -1,0 +1,285 @@
+#Diesel generators: FE/t at full load and fuel use (mB/t) at full load.
+[gensets]
+	#Fluids accepted as fuel: "#namespace:tag" for a fluid tag, "namespace:id" for one fluid.
+	#Defaults cover the Twogether pack: common tags, Modern Industrialization, PneumaticCraft, Create Diesel Generators.
+	fuels = ["#c:diesel", "#c:biodiesel", "modern_industrialization:diesel", "modern_industrialization:boosted_diesel", "pneumaticcraft:diesel", "pneumaticcraft:biodiesel", "createdieselgenerators:diesel", "createdieselgenerators:biodiesel"]
+	#Marine engine: heavy fuels, burnt after 60 s on light fuel
+	heavyFuels = ["#c:heavy_fuel", "#c:crude_oil", "#c:creosote", "modern_industrialization:heavy_fuel", "modern_industrialization:crude_oil", "pneumaticcraft:oil", "immersiveengineering:creosote"]
+	#Gas turbine heat recovery boiler: steam fluid made (first one that exists)
+	steamFluids = ["modern_industrialization:steam", "mekanism:steam", "#c:steam"]
+	#Engines need energy to crank: a starter battery (starting air for the ship engine) full
+	#when formed, three cranks, refilled while running or by FE sent into the FE port. Flat: no start
+	starterEnergy = true
+	#Smallest internal fuel tank (mB); big engines get at least one minute at full load
+	# Default: 16000
+	# Range: 1000 ~ 10000000
+	minFuelTank = 16000
+	#Multiplies the FE/t of every engine (fuel use follows: same energy per mB)
+	# Default: 1.0
+	# Range: 0.01 ~ 1000.0
+	powerMultiplier = 1.0
+	#Multiplies the fuel use of every engine on top of that (less than 1 = more FE per mB)
+	# Default: 1.0
+	# Range: 0.01 ~ 1000.0
+	fuelMultiplier = 1.0
+	#Max water flow through the cold -> hot ports (mB/t) per 16 384 FE/t of engine power
+	#(at least this value). A thermostat opens it from 72 to 82 C, so the water leaves hot.
+	# Default: 200
+	# Range: 1 ~ 100000
+	coolantFlow = 200
+
+	[gensets.genset]
+		#FE/t at full load
+		# Default: 65536
+		# Range: > 1
+		maxFePerTick = 65536
+		#Fuel use in mB/t at full load (0.15 + 0.85 x load while running)
+		# Default: 24.0
+		# Range: 0.0 ~ 100000.0
+		maxFuelPerTick = 24.0
+
+	[gensets.genset12]
+		#FE/t at full load
+		# Default: 32768
+		# Range: > 1
+		maxFePerTick = 32768
+		#Fuel use in mB/t at full load (0.15 + 0.85 x load while running)
+		# Default: 12.8
+		# Range: 0.0 ~ 100000.0
+		maxFuelPerTick = 12.8
+
+	[gensets.genset8]
+		#FE/t at full load
+		# Default: 16384
+		# Range: > 1
+		maxFePerTick = 16384
+		#Fuel use in mB/t at full load (0.15 + 0.85 x load while running)
+		# Default: 7.2
+		# Range: 0.0 ~ 100000.0
+		maxFuelPerTick = 7.2
+
+	[gensets.genset6]
+		#FE/t at full load
+		# Default: 8192
+		# Range: > 1
+		maxFePerTick = 8192
+		#Fuel use in mB/t at full load (0.15 + 0.85 x load while running)
+		# Default: 4.0
+		# Range: 0.0 ~ 100000.0
+		maxFuelPerTick = 4.0
+
+	[gensets.petrol8]
+		#FE/t at full load
+		# Default: 8192
+		# Range: > 1
+		maxFePerTick = 8192
+		#Efficiency: fuel use = FE/t / (fuel energy in FE/mB x efficiency) x (0.15 + 0.85 x load)
+		# Default: 0.35
+		# Range: 0.01 ~ 1.0
+		efficiency = 0.35
+		#Accepted fuels: "#namespace:tag" or "namespace:id"
+		fuels = ["#c:gasoline", "#c:ethanol", "#c:bioethanol", "#c:naphtha", "#c:lpg", "#c:biofuel", "pneumaticcraft:gasoline", "pneumaticcraft:lpg", "pneumaticcraft:ethanol", "modern_industrialization:naphtha"]
+
+	[gensets.tdi]
+		#FE/t at full load
+		# Default: 4096
+		# Range: > 1
+		maxFePerTick = 4096
+		#Fuel use in mB/t at full load (0.15 + 0.85 x load while running)
+		# Default: 2.0
+		# Range: 0.0 ~ 100000.0
+		maxFuelPerTick = 2.0
+
+	[gensets.heli]
+		#FE/t at full load
+		# Default: 16384
+		# Range: > 1
+		maxFePerTick = 16384
+		#Efficiency: fuel use = FE/t / (fuel energy in FE/mB x efficiency) x (0.15 + 0.85 x load)
+		# Default: 0.3
+		# Range: 0.01 ~ 1.0
+		efficiency = 0.3
+		#Accepted fuels: "#namespace:tag" or "namespace:id"
+		fuels = ["#c:kerosene", "#c:diesel", "#c:biodiesel", "#c:lpg", "#c:methane", "pneumaticcraft:kerosene", "pneumaticcraft:diesel", "pneumaticcraft:biodiesel", "pneumaticcraft:lpg", "modern_industrialization:diesel"]
+
+	[gensets.turbine]
+		#FE/t at full load
+		# Default: 131072
+		# Range: > 1
+		maxFePerTick = 131072
+		#Efficiency: fuel use = FE/t / (fuel energy in FE/mB x efficiency) x (0.15 + 0.85 x load)
+		# Default: 0.4
+		# Range: 0.01 ~ 1.0
+		efficiency = 0.4
+		#Accepted fuels: "#namespace:tag" or "namespace:id"
+		fuels = ["#c:kerosene", "#c:lpg", "#c:methane", "#c:ethylene", "#c:ethene", "#c:hydrogen", "#c:naphtha", "#c:diesel", "#c:ethanol", "pneumaticcraft:kerosene", "pneumaticcraft:lpg", "pneumaticcraft:diesel", "pneumaticcraft:ethanol", "modern_industrialization:methane", "modern_industrialization:ethylene", "modern_industrialization:hydrogen", "modern_industrialization:naphtha", "modern_industrialization:diesel"]
+
+	[gensets.marine6]
+		#FE/t at full load
+		# Default: 262144
+		# Range: > 1
+		maxFePerTick = 262144
+		#Efficiency: fuel use = FE/t / (fuel energy in FE/mB x efficiency) x (0.15 + 0.85 x load)
+		# Default: 0.75
+		# Range: 0.01 ~ 1.0
+		efficiency = 0.75
+		#Accepted fuels: "#namespace:tag" or "namespace:id"
+		fuels = ["#c:diesel", "#c:biodiesel", "#c:light_fuel", "pneumaticcraft:diesel", "pneumaticcraft:biodiesel", "modern_industrialization:diesel", "modern_industrialization:light_fuel"]
+
+[maintenance]
+	#Engines use oil; without oil or above 100 C a part breaks and the engine stops until repaired
+	breakdowns = true
+	#Minutes of full-load running on a full sump (about 3 times longer at idle)
+	# Default: 120.0
+	# Range: 1.0 ~ 100000.0
+	oilMinutes = 120.0
+	#Lubricants accepted through the fuel port to top up the oil
+	oilFluids = ["#c:lubricant", "#c:lubricating_oil", "pneumaticcraft:lubricant", "modern_industrialization:lubricant"]
+
+[exhaust]
+	#Fumes (nausea, weakness, poison) when the exhaust is not led to an open stack
+	pollution = true
+	#Base radius of the fumes, + 4 blocks at full load
+	# Default: 6.0
+	# Range: 1.0 ~ 32.0
+	pollutionRadius = 6.0
+	#Smoke particles of an exhaust that is not led outside (engine room haze, leaks), as a share
+	#of the full amount: lower it on a busy server, 0 = none (the fumes still hurt)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	roomSmoke = 1.0
+
+[coolingTower]
+	#Cooling flow (mB/t) per block of inner volume, scaled by height (full at 16 blocks)
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	flowPerBlock = 0.5
+	#Extra cooling flow (mB/t) per fill (packing) block inside the tower
+	# Default: 4
+	# Range: 0 ~ 1000
+	flowPerFill = 4
+	#Max cooling flow (mB/t)
+	# Default: 8000
+	# Range: 1 ~ 1000000
+	maxFlow = 8000
+	#Fraction of the water lost as vapour
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	evaporation = 0.005
+	#Max inner half-width of a layer (blocks)
+	# Default: 15
+	# Range: 2 ~ 32
+	maxRadius = 15
+	#Max height of the shell (blocks)
+	# Default: 64
+	# Range: 4 ~ 256
+	maxHeight = 64
+
+[loadBank]
+	#Load bank power at 100 % (FE/t)
+	# Default: 1048576
+	# Range: > 1
+	fePerTick = 1048576
+
+[digester]
+	#Mixer and heating (FE/t) while digesting
+	# Default: 40
+	# Range: 0 ~ 1000000
+	fePerTick = 40
+	#Methane (mB) per item, times its vanilla composting chance
+	# Default: 25
+	# Range: 1 ~ 10000
+	methanePerItem = 25
+	#Water (mB) used per item
+	# Default: 25
+	# Range: 0 ~ 10000
+	waterPerItem = 25
+	#Digestion time constant (s)
+	# Default: 30
+	# Range: 1 ~ 3600
+	digestionSeconds = 30
+	#Methane fluid made (first one that exists)
+	methaneFluids = ["modern_industrialization:methane", "mekanismdieselgenerators:methane"]
+
+[smallCoolingTower]
+	#Max flow (mB/t) with the fan running; without energy, a quarter (natural draught)
+	# Default: 2000
+	# Range: 1 ~ 1000000
+	maxFlow = 2000
+	#Fan (FE/t)
+	# Default: 200
+	# Range: 0 ~ 1000000
+	fePerTick = 200
+
+[blockHeater]
+	#FE/t while heating
+	# Default: 100
+	# Range: 0 ~ 1000000
+	fePerTick = 100
+	#Water heated (mB/t)
+	# Default: 50
+	# Range: 1 ~ 100000
+	flow = 50
+
+[heatExchanger]
+	#Max water flow (mB/t)
+	# Default: 200
+	# Range: 1 ~ 100000
+	flow = 200
+	#Mekanism heat units per mB of water and per kelvin
+	# Default: 4.0
+	# Range: 0.01 ~ 1000.0
+	heatPerMbKelvin = 4.0
+
+[portableGenset]
+	#FE/t
+	# Default: 2048
+	# Range: 1 ~ 1000000
+	maxFePerTick = 2048
+	#Efficiency (fuel use = FE/t / (fuel energy x efficiency))
+	# Default: 0.3
+	# Range: 0.01 ~ 1.0
+	efficiency = 0.3
+	#Accepted fuels
+	fuels = ["#c:gasoline", "#c:ethanol", "#c:bioethanol", "#c:naphtha", "#c:lpg", "#c:biofuel", "pneumaticcraft:gasoline", "pneumaticcraft:lpg", "pneumaticcraft:ethanol", "modern_industrialization:naphtha"]
+
+[createShaftCoupling]
+	#Create stress units given per FE/t taken from the engine
+	# Default: 1.0
+	# Range: 0.001 ~ 1000.0
+	suPerFe = 1.0
+	#Shaft speed (rpm) while the coupling gets energy
+	# Default: 64
+	# Range: 1 ~ 256
+	rpm = 64
+	#Most FE/t one coupling takes
+	# Default: 1048576
+	# Range: > 1
+	maxFePerTick = 1048576
+
+[threePhaseMotor]
+	#Rated input of the three-phase motor (FE/t), a WEG W22 355A/B: 370 kW on the scale of the
+	#engines (the V16's 1400 kW = 65 536 FE/t). Stress capacity = input x efficiency x createShaftCoupling.suPerFe
+	# Default: 17320
+	# Range: > 1
+	maxFePerTick = 17320
+	#Share of the energy turned into rotation (the rest heats the motor); catalogue: 95.3 %
+	# Default: 0.953
+	# Range: 0.05 ~ 1.0
+	efficiency = 0.953
+	#Create stress units per FE of the three-phase motors (all sizes). 80: the large motor gives
+	#about 1.3 M SU, more than a full Create boiler (18 steam engines, 1.18 M SU); the medium one about 4 steam engines
+	# Default: 80.0
+	# Range: 0.001 ~ 100000.0
+	suPerFe = 80.0
+
+[mediumThreePhaseMotor]
+	#Rated input of the medium three-phase motor (FE/t), a WEG W22 250S/M 4 poles: 75 kW on the
+	#scale of the engines (the V16's 1400 kW = 65 536 FE/t)
+	# Default: 3511
+	# Range: > 1
+	maxFePerTick = 3511
+	#Share of the energy turned into rotation; IE3 class at 75 kW, 4 poles: 95.4 %
+	# Default: 0.954
+	# Range: 0.05 ~ 1.0
+	efficiency = 0.954

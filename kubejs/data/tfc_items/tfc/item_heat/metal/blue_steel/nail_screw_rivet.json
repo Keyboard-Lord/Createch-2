@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/blue_steel"
+    },
+    {
+      "tag": "c:rivets/blue_steel"
+    },
+    {
+      "tag": "c:screws/blue_steel"
+    },
+    {
+      "tag": "c:physical_screws/blue_steel"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

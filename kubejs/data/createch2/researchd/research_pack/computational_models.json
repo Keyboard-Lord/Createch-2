@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 73,
+    "g": 168,
+    "b": 211
+  },
+  "sorting_value": 50,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.computational_models.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.computational_models.description"
+    }
+  }
+}

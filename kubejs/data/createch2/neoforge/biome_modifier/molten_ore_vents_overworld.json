@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:molten_vent_overworld_oceans",
+  "features": [
+    "createch2:overworld_low_ore_molten_vent",
+    "createch2:overworld_industrial_molten_vent",
+    "createch2:overworld_rare_gem_molten_vent"
+  ],
+  "step": "underground_ores"
+}

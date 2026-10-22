@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:rubber_planks"
+    }
+  },
+  "result": {
+    "id": "gtceu:rubber_pressure_plate",
+    "count": 1
+  }
+}

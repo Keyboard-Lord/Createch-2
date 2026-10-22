@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "minecraft:tropical_fish"
+  },
+  "edible": true,
+  "protein": 1,
+  "decay_modifier": 3,
+  "hunger": 4
+}

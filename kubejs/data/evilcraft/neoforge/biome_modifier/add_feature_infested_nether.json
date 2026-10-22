@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": [
+    "evilcraft:ore_infested_nether"
+  ],
+  "step": "underground_decoration"
+}

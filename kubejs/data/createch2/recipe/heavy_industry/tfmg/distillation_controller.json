@@ -1,0 +1,145 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:cast_iron_chemical_vat"
+  },
+  "transitional_item": {
+    "id": "tfmg:cast_iron_chemical_vat"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "item": "tfmg:cast_iron_mechanical_pump"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "tag": "c:plates/lead"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "item": "minecraft:compass"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "tfmg:lubrication_oil"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfmg:cast_iron_chemical_vat"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:cast_iron_chemical_vat"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "tfmg:steel_distillation_controller"
+    }
+  ]
+}

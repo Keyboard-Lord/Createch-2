@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/small_sphalerite",
+      "required": false
+    },
+    "#c:ores/zinc/poor",
+    "#c:ores/zinc/normal",
+    "#c:ores/zinc/rich"
+  ]
+}

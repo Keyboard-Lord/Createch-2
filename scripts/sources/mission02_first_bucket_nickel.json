@@ -1,0 +1,152 @@
+{
+  "truth": "BOUNDED_CONDITIONAL_PRE_BUCKET_NICKEL_WITH_REUSED_FORGE",
+  "semanticDescriptionChanges": [
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "Nickel can precede vanilla buckets. Hammer 16 normal garnierite ores from the earlier gabbro deposits, then use the sluice, quern and second sluice to obtain 80 clean powders. Four fresh molds receive four nickel ingots; allocate two to this first casing and keep two separate. Reuse the cold covered primitive gold forge. Put a new bellows at north (0,1,-1), facing SOUTH toward the forge (0,0,0). Keep its west sky vent (-1,1,0), air above and roof clear. Use manual bellows, disconnected from crank networks; this route needs no nickel compressor, steam or oil bucket."
+    },
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "The additional bill is 16 normal garnierite, 29 oak logs, 82 lumber, ten clay, eight straw, three small sheepskin hides, three loose limestone, two twigs and 3,000 mB fresh water. Knap two new sedimentary knives before crushing the last limestone into two flux. Make three new barrels and one wooden bucket from 24 lumber; six more lumber and the three new leathers make the bellows. The remaining 52 lumber make 13 furnace-fuel planks for 19 new charcoal logs. Eight logs fire four new molds in one kiln; one log makes tannin and one remains the scraping surface. Wait for old furnace fuel to expire and collect actual charcoal; saved charcoal and later tools remain reserved."
+    },
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Fill each new barrel with 1,000 mB water. Convert one to limewater with both flux, another to tannin with its counted oak log, and keep the third for rinsing. Process all three hides separately through the earlier soaking, scraping, rinsing and tanning route. Each sealed run requires more than 7,200 calendar ticks; one tannin run and nine hide runs leave 100 mB in each barrel. Pay 34 knife uses on the first knife and 17 on the second. The earlier precision hammer, handstone and firestarter pay 16 ore hammer uses, one flux use, 80 quern uses and two successful ignitions, retaining 27/90/4 uses. Spend all 19 charcoal on the existing nickel schedule: 1,000 warmup calls, 16 waves of 1,000 calls with five powders each, bellows every 40 calls, then 4,000 cooling calls with pumping stopped. Keep all four molds in output slots until below 300°C; all may break after extraction. The forge ends cold and without air pressure, ready for the later gold batches."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "Nickel ist vor normalen Eimern möglich. Zerschlage 16 normale Garnieriterze aus den früheren Gabbrolagerstätten und verarbeite sie über Schleuse, Handmühle und zweite Schleuse zu 80 sauberen Pulvern. Vier neue Formen ergeben vier Nickelbarren: zwei für dieses erste Gehäuse, zwei getrennt aufbewahren. Nutze die kalte überdachte primitive Goldesse erneut. Stelle einen neuen Blasebalg nördlich bei (0,1,-1) auf, nach SOUTH zur Esse (0,0,0) gerichtet. Halte den westlichen Himmelszugang (-1,1,0), die Luft über der Esse und das Dach frei. Betätige den Blasebalg von Hand ohne Kurbelnetz. Nickelkompressor, Dampf und Öleimer sind nicht nötig."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "Zusätzlich brauchst du 16 normale Garnieriterze, 29 Eichenstämme, 82 Bauholz, zehn Ton, acht Stroh, drei kleine Schaffelle, drei lose Kalksteine, zwei Zweige und 3.000 mB Frischwasser. Knappe zuerst zwei neue Sedimentsteinmesser und zerschlage erst danach den letzten Kalkstein zu zwei Flussmittel. Aus 24 Bauholz entstehen drei neue Fässer und ein Holzeimer; sechs weitere Bauholz und die drei neuen Leder ergeben den Blasebalg. Die übrigen 52 Bauholz machen 13 Ofenbrennstoffbretter für 19 neue Holzkohlestämme. Acht Stämme brennen vier neue Formen in einer Grube; einer macht Gerbstoff, einer bleibt als Schabunterlage. Warte, bis alter Ofenbrennstoff verbraucht ist, und sammle echte Holzkohle. Gesparte Holzkohle und spätere Werkzeuge bleiben reserviert."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Fülle jedes neue Fass mit 1.000 mB Wasser. Mache eines mit beiden Flussmitteln zu Kalkwasser, eines mit dem gezählten Eichenstamm zu Gerbstoff und behalte das dritte zum Spülen. Verarbeite alle drei Felle einzeln durch die frühere Einweich-, Schab-, Spül- und Gerbfolge. Jeder versiegelte Lauf braucht mehr als 7.200 Kalenderticks. Ein Gerbstofflauf und neun Fellläufe lassen je 100 mB zurück. Bezahle 34 Messernutzungen am ersten und 17 am zweiten Messer. Früher Präzisionshammer, Mahlstein und Feuerstarter bezahlen 16 Erzschläge, einen Flussmittelschlag, 80 Mahlvorgänge und zwei erfolgreiche Zündungen; 27/90/4 Nutzungen bleiben. Verbrauche alle 19 Holzkohle nach dem Nickelplan: 1.000 Aufwärmaufrufe, 16 Wellen mit je 1.000 Aufrufen und fünf Pulvern, Blasebalg alle 40 Aufrufe, danach 4.000 Kühlaufrufe ohne Pumpen. Die vier Formen bleiben bis unter 300°C in den Ausgabefächern; alle dürfen nach Entnahme zerbrechen. Danach ist die Esse kalt und drucklos für spätere Goldchargen."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "El níquel puede preceder a los cubos normales. Machaca 16 minerales normales de garnierita de los depósitos de gabro anteriores y pasa por canaleta, molino manual y segunda canaleta para obtener 80 polvos limpios. Cuatro moldes nuevos entregan cuatro lingotes de níquel: asigna dos a esta primera carcasa y guarda dos aparte. Reutiliza la forja primitiva de oro cubierta y fría. Coloca un fuelle nuevo al norte, en (0,1,-1), orientado SOUTH hacia la forja (0,0,0). Conserva libre su abertura al cielo occidental (-1,1,0), el aire superior y el techo. Acciona el fuelle a mano, sin red de manivela. No requiere compresor de níquel, vapor ni cubo de aceite."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "La cuenta adicional es 16 garnieritas normales, 29 troncos de roble, 82 maderas, diez arcillas, ocho pajas, tres pieles pequeñas de oveja, tres calizas sueltas, dos ramitas y 3.000 mB de agua dulce. Talla primero dos cuchillos sedimentarios nuevos y después machaca la última caliza para obtener dos fundentes. Con 24 maderas fabrica tres barriles nuevos y un cubo de madera; seis más y los tres cueros nuevos fabrican el fuelle. Las 52 restantes hacen 13 tablas de combustible para carbonizar 19 troncos nuevos. Ocho troncos cuecen cuatro moldes nuevos en una fosa; uno hace tanino y otro queda para raspar. Deja que se agote el combustible anterior y recoge carbón real. El carbón guardado y las herramientas posteriores siguen reservados."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Llena cada barril nuevo con 1.000 mB de agua. Convierte uno en agua de cal con ambos fundentes, otro en tanino con el tronco contado y conserva el tercero para aclarar. Procesa las tres pieles por separado con la ruta anterior de remojo, raspado, aclarado y curtido. Cada operación sellada requiere más de 7.200 ticks de calendario; una de tanino y nueve de piel dejan 100 mB en cada barril. Gasta 34 usos del primer cuchillo y 17 del segundo. El martillo, la piedra de moler y el encendedor de la precisión temprana pagan 16 golpes de mineral, uno de fundente, 80 moliendas y dos encendidos exitosos; quedan 27/90/4 usos. Gasta los 19 carbones en el plan de níquel: 1.000 llamadas de calentamiento, 16 tandas de 1.000 con cinco polvos cada una, fuelle cada 40 llamadas y después 4.000 de enfriamiento sin bombear. Los cuatro moldes permanecen en salida hasta bajar de 300°C; todos pueden romperse tras extraer. La forja queda fría y sin presión para el oro posterior."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "Le nickel peut précéder les seaux ordinaires. Martelez 16 minerais normaux de garniérite issus des gabbros précédents, puis utilisez sluice, meule et second sluice pour obtenir 80 poudres propres. Quatre moules neufs livrent quatre lingots de nickel : deux pour ce premier châssis, deux à garder séparément. Réutilisez la forge primitive d’or couverte et froide. Placez un soufflet neuf au nord en (0,1,-1), orienté SOUTH vers la forge (0,0,0). Préservez son accès au ciel à l’ouest (-1,1,0), l’air au-dessus et le toit. Actionnez le soufflet à la main, sans réseau de manivelle. Aucun compresseur de nickel, vapeur ou seau d’huile n’est nécessaire."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "Le supplément est de 16 garniérites normales, 29 bûches de chêne, 82 pièces de bois, dix argiles, huit pailles, trois petites peaux de mouton, trois calcaires meubles, deux brindilles et 3 000 mB d’eau douce. Taillez deux couteaux sédimentaires neufs avant de broyer le dernier calcaire en deux fondants. Fabriquez trois tonneaux neufs et un seau en bois avec 24 bois ; six autres et les trois cuirs neufs font le soufflet. Les 52 restants donnent 13 planches de combustible pour carboniser 19 bûches neuves. Huit bûches cuisent quatre moules neufs dans une fosse ; une produit le tanin et une reste comme support de raclage. Attendez la fin de l’ancien combustible et collectez le charbon réel. Le charbon réservé et les outils ultérieurs restent réservés."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Chargez chaque tonneau neuf avec 1 000 mB d’eau. Transformez-en un en eau de chaux avec les deux fondants, un autre en tanin avec sa bûche comptée et gardez le troisième pour rincer. Traitez les trois peaux séparément par l’ancienne chaîne trempage, raclage, rinçage et tannage. Chaque opération scellée exige plus de 7 200 ticks calendaires ; une opération de tanin et neuf de peau laissent 100 mB par tonneau. Dépensez 34 usages du premier couteau et 17 du second. Marteau, meule et allume-feu de la précision précoce paient 16 minerais, un fondant, 80 meulages et deux allumages réussis ; ils gardent 27/90/4 usages. Dépensez les 19 charbons selon le plan de nickel : 1 000 appels de chauffe, 16 vagues de 1 000 avec cinq poudres chacune, soufflet tous les 40 appels, puis 4 000 de refroidissement sans pomper. Gardez les quatre moules en sortie jusqu’à moins de 300°C ; tous peuvent casser après extraction. La forge finit froide et sans pression pour les futurs lots d’or."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "O níquel pode vir antes dos baldes comuns. Martele 16 minérios normais de garnierita dos depósitos anteriores de gabro e passe por calha, mó e segunda calha para obter 80 pós limpos. Quatro moldes novos entregam quatro lingotes de níquel: reserve dois para esta primeira carcaça e guarde dois separados. Reutilize a forja primitiva de ouro coberta e fria. Ponha um fole novo ao norte em (0,1,-1), voltado SOUTH para a forja (0,0,0). Preserve a abertura oeste para o céu (-1,1,0), o ar acima e o teto. Acione o fole manualmente, sem rede de manivela. Não exige compressor de níquel, vapor nem balde de óleo."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "A conta adicional é 16 garnieritas normais, 29 toras de carvalho, 82 madeiras, dez argilas, oito palhas, três peles pequenas de ovelha, três calcários soltos, dois gravetos e 3.000 mB de água doce. Lasque duas facas sedimentares novas antes de triturar o último calcário em dois fundentes. Faça três barris novos e um balde de madeira com 24 madeiras; mais seis e os três couros novos fazem o fole. As 52 restantes fazem 13 tábuas de combustível para carbonizar 19 toras novas. Oito toras queimam quatro moldes novos numa cova; uma faz tanino e outra fica para raspar. Espere o combustível anterior acabar e recolha carvão real. O carvão guardado e as ferramentas posteriores continuam reservados."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Encha cada barril novo com 1.000 mB de água. Transforme um em água de cal com os dois fundentes, outro em tanino com a tora contada e deixe o terceiro para enxaguar. Processe as três peles separadamente pela rota anterior de molho, raspagem, enxágue e curtimento. Cada operação selada exige mais de 7.200 ticks de calendário; uma de tanino e nove de pele deixam 100 mB em cada barril. Gaste 34 usos da primeira faca e 17 da segunda. Martelo, mó e acendedor da precisão inicial pagam 16 minérios, um fundente, 80 moagens e duas ignições bem-sucedidas; restam 27/90/4 usos. Gaste os 19 carvões no plano de níquel: 1.000 chamadas de aquecimento, 16 ondas de 1.000 com cinco pós cada, fole a cada 40 chamadas e depois 4.000 de resfriamento sem bombear. Mantenha os quatro moldes na saída até ficarem abaixo de 300°C; todos podem quebrar após extrair. A forja termina fria e sem pressão para os lotes de ouro posteriores."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "Никель можно получить до обычных вёдер. Разбейте молотком 16 нормальных руд гарниерита из прежних габбровых залежей и пройдите цепочку шлюз, жернов, второй шлюз для 80 чистых порошков. Четыре новые изложницы дают четыре никелевых слитка: два выделите первому корпусу, два храните отдельно. Используйте прежний холодный горн с крышей для примитивного золота. Поставьте новые мехи севернее в (0,1,-1), направив SOUTH к горну (0,0,0). Сохраните западный выход к небу (-1,1,0), воздух сверху и крышу. Качайте вручную без сети кривошипа. Никелевый компрессор, пар и ведро масла не нужны."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "Дополнительная смета: 16 нормальных гарниеритов, 29 дубовых брёвен, 82 пиломатериала, десять глины, восемь соломы, три малые овечьи шкуры, три рыхлых известняка, две ветки и 3 000 мБ пресной воды. Сначала выколите два новых осадочных ножа, затем раздробите последний известняк в два флюса. Из 24 пиломатериалов сделайте три новые бочки и деревянное ведро; ещё шесть и три новых кожи идут на мехи. Остальные 52 дают 13 топливных досок для обугливания 19 новых брёвен. Восемь брёвен обжигают четыре новые изложницы в одной яме; одно делает танин, одно остаётся подложкой для скобления. Дождитесь окончания старого топлива и соберите настоящий уголь. Сохранённый уголь и поздние инструменты остаются в резерве."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "Налейте в каждую новую бочку по 1 000 мБ воды. Одну превратите в известковую воду обоими флюсами, другую — в танин учтённым бревном, третью оставьте для промывки. Обработайте три шкуры отдельно прежней цепочкой замачивания, скобления, промывки и дубления. Каждая закрытая операция требует более 7 200 календарных тиков; одна операция танина и девять операций шкур оставляют по 100 мБ. Потратьте 34 применения первого ножа и 17 второго. Ранние молоток, жернов и огниво для точных механизмов оплачивают 16 руд, один флюс, 80 помолов и два успешных розжига, сохраняя 27/90/4 применения. Все 19 углей идут на никелевый цикл: 1 000 прогревочных вызовов, 16 волн по 1 000 с пятью порошками, мехи каждые 40 вызовов, затем 4 000 охлаждения без качания. Четыре изложницы остаются в выходных слотах до температуры ниже 300°C; после извлечения могут разбиться все. Горн завершает цикл холодным и без давления, готовым к поздним партиям золота."
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 7,
+      "before": null,
+      "after": "镍可以在普通桶出现之前取得。用锤处理早期辉长岩矿床的 16 个普通品位硅镁镍矿，经过溜槽、手磨、二次溜槽，得到 80 份干净粉末。四个新锭模产出四个镍锭，其中两个分配给首个外壳，另两个单独保留。复用已冷却且有顶盖的早期金锻炉。在其北侧 (0,1,-1) 放置新风箱，朝向 SOUTH，指向锻炉 (0,0,0)。保留西侧通天位置 (-1,1,0)、炉上空气格及顶盖。风箱必须手动操作，并与曲柄网络断开。本路线不需要镍压缩机、蒸汽或油桶。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 8,
+      "before": null,
+      "after": "额外预算为 16 个普通品位硅镁镍矿、29 根橡木原木、82 木材、10 黏土、8 稻草、3 张小羊皮、3 个松散石灰岩、2 根树枝及 3,000 mB 淡水。先打制两把新沉积岩小刀，再把最后一个石灰岩锤成两个助焊剂。24 木材制作三个新木桶和一个木制水桶；另六个木材与三张新皮革制作风箱。剩余 52 木材制成 13 块燃料木板，将 19 根新原木烧成木炭。八根原木用于一炉四个新锭模的窑坑，一根制作鞣酸，一根留作刮皮台。等旧燃料燃尽后收集实际木炭；原先预留木炭和后期工具继续保留。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 9,
+      "before": null,
+      "after": "每个新木桶加入 1,000 mB 水。一个桶用两个助焊剂变成石灰水，一个用已计数橡木原木制成鞣酸，第三个保留作清洗。按早期浸泡、刮皮、清洗、鞣制路线分别处理三张羊皮。每次密封处理须超过 7,200 日历刻；一次鞣酸与九次皮革处理结束后，各桶剩余 100 mB。第一把刀消耗 34 次，第二把消耗 17 次。早期精密构件预算中的石锤、磨石和取火器支付 16 次矿石处理、一次助焊剂制作、80 次手磨及两次成功点火，剩余 27/90/4 次。19 个木炭全部用于已有镍流程：先预热 1,000 次调用，接着 16 轮各 1,000 次、每轮五份粉末，每 40 次调用操作风箱，然后停止鼓风并冷却 4,000 次调用。四个锭模留在输出格直至低于 300°C，取出后即使全部损坏也不影响该预算。锻炉最终冷却且气压归零，可继续后续金处理。"
+    }
+  ]
+}

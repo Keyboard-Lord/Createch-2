@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "IHIHI",
+    "HSHSH",
+    "IHIHI"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "S": {
+      "item": "greate:steel_shaft"
+    }
+  },
+  "result": {
+    "id": "createpropulsion:wing",
+    "count": 4
+  }
+}

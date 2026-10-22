@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "D D"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/obsidian"
+    },
+    "B": {
+      "item": "rocketnautics:titanium_alloy_sheet"
+    },
+    "C": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "D": {
+      "item": "rocketnautics:titanium_alloy"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:titanium_nozzle",
+    "count": 1
+  }
+}

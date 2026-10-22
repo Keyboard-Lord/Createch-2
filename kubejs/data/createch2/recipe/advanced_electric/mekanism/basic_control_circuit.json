@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "mekanism:metallurgic_infusing",
+  "chemical_input": {
+    "amount": 20,
+    "tag": "mekanism:redstone"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "modern_industrialization:electronic_circuit"
+  },
+  "output": {
+    "count": 2,
+    "id": "mekanism:basic_control_circuit"
+  },
+  "per_tick_usage": false
+}

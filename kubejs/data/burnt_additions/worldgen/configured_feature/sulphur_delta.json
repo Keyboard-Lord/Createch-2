@@ -1,0 +1,21 @@
+{
+  "type": "burnt_additions:gated_delta",
+  "config": {
+    "contents": {
+      "Name": "minecraft:water"
+    },
+    "rim": {
+      "Name": "minecraft:yellow_terracotta"
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 8
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    }
+  }
+}

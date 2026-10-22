@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "railcraft:coke_oven_bricks"
+  },
+  "outputs": [
+    {
+      "count": 3,
+      "probability": 1,
+      "result": {
+        "item": "minecraft:brick"
+      }
+    },
+    {
+      "probability": 0.5,
+      "result": {
+        "item": "minecraft:sand"
+      }
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "scope": "Actual TFC garnierite washing, bellows charcoal-forge direct mold output and24native MI nickel plates; static conditional finite branch only.",
+  "ids": {
+    "hammer": "tfcorewashing:ores/garnierite/garnierite_normal_hammer",
+    "quern": "tfcorewashing:chunks/quern/chunks_garnierite_quern",
+    "melt": "tfcorewashing:tfc/heating/powder/garnierite",
+    "cast": "tfc:casting/nickel_ingot",
+    "plate": "modern_industrialization:materials/nickel/compressor/main",
+    "bellows": "tfc:crafting/bellows",
+    "knapMold": "tfc:knapping/ceramic/unfired_ingot_mold",
+    "fireMold": "tfc:heating/ceramic/ingot_mold",
+    "hammerHead": "tfc:knapping/stone/hammer_head/igneous_intrusive",
+    "hammerCraft": "tfc:crafting/stone/hammer/igneous_intrusive",
+    "handstone": "tfc:crafting/handstone"
+  },
+  "recipes": {
+    "tfcorewashing:ores/garnierite/garnierite_normal_hammer": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "primary_ingredient": {
+        "tag": "c:tools/hammer"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "ingredients": [
+        {
+          "item": "tfc:ore/normal_garnierite"
+        },
+        {
+          "tag": "c:tools/hammer"
+        }
+      ],
+      "result": {
+        "id": "tfcorewashing:rocky_chunks_garnierite",
+        "count": 5
+      }
+    },
+    "tfcorewashing:chunks/quern/chunks_garnierite_quern": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfcorewashing:chunks_garnierite"
+      },
+      "result": {
+        "id": "tfcorewashing:dirty_dust_garnierite",
+        "count": 1
+      }
+    },
+    "tfcorewashing:tfc/heating/powder/garnierite": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:ores/clean_dusts/nickel"
+      },
+      "result_fluid": {
+        "id": "tfc:metal/nickel",
+        "amount": 5
+      },
+      "temperature": 1453
+    },
+    "tfc:casting/nickel_ingot": {
+      "type": "tfc:casting",
+      "break_chance": 0.1,
+      "fluid": {
+        "amount": 100,
+        "fluid": "tfc:metal/nickel"
+      },
+      "mold": {
+        "item": "tfc:ceramic/ingot_mold"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:metal/ingot/nickel"
+      }
+    },
+    "modern_industrialization:materials/nickel/compressor/main": {
+      "type": "modern_industrialization:compressor",
+      "duration": 200,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:ingots/nickel"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:nickel_plate"
+        }
+      ]
+    },
+    "tfc:crafting/bellows": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "tag": "tfc:lumber"
+        },
+        "R": {
+          "tag": "c:leathers"
+        }
+      },
+      "pattern": [
+        "LLL",
+        "RRR",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:bellows"
+      }
+    },
+    "tfc:knapping/ceramic/unfired_ingot_mold": {
+      "type": "tfc:knapping",
+      "default_on": true,
+      "knapping_type": "tfc:clay",
+      "pattern": [
+        "####",
+        "#  #",
+        "#  #",
+        "#  #",
+        "####"
+      ],
+      "result": {
+        "count": 2,
+        "id": "tfc:ceramic/unfired_ingot_mold"
+      }
+    },
+    "tfc:heating/ceramic/ingot_mold": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "item": "tfc:ceramic/unfired_ingot_mold"
+      },
+      "result_item": {
+        "count": 1,
+        "id": "tfc:ceramic/ingot_mold"
+      },
+      "temperature": 1399
+    },
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": {
+      "type": "tfc:knapping",
+      "default_on": false,
+      "ingredient": {
+        "tag": "tfc:stones/loose/igneous_intrusive"
+      },
+      "knapping_type": "tfc:rock",
+      "pattern": [
+        "#####",
+        "#####",
+        "  #  "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer_head/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/stone/hammer/igneous_intrusive": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": [
+          {
+            "tag": "c:rods/wooden"
+          },
+          {
+            "item": "minecraft:bone"
+          }
+        ],
+        "X": {
+          "item": "tfc:stone/hammer_head/igneous_intrusive"
+        }
+      },
+      "pattern": [
+        "X",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/handstone": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:stones"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        "S  ",
+        "BBB"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:handstone"
+      }
+    }
+  },
+  "providers": {
+    "tfcorewashing:ores/garnierite/garnierite_normal_hammer": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfcorewashing:chunks/quern/chunks_garnierite_quern": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfcorewashing:tfc/heating/powder/garnierite": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfc:casting/nickel_ingot": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "modern_industrialization:materials/nickel/compressor/main": [
+      "Modern-Industrialization-2.5.10.jar"
+    ],
+    "tfc:crafting/bellows": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:knapping/ceramic/unfired_ingot_mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:heating/ceramic/ingot_mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/stone/hammer/igneous_intrusive": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/handstone": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ]
+  },
+  "worldResources": {
+    "worldgen/configured_feature|tfc:vein/normal_garnierite": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 25,
+        "density": 0.3,
+        "min_y": -80,
+        "max_y": 0,
+        "size": 18,
+        "random_name": "normal_garnierite",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/granite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_garnierite/granite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_garnierite/granite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_garnierite/granite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/diorite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_garnierite/diorite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_garnierite/diorite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_garnierite/diorite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/gabbro"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_garnierite/gabbro"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_garnierite/gabbro"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_garnierite/gabbro"
+              }
+            ]
+          }
+        ],
+        "indicator": {
+          "rarity": 12,
+          "depth": 35,
+          "underground_rarity": 1,
+          "underground_count": 0,
+          "blocks": [
+            {
+              "block": "tfc:ore/small_garnierite"
+            }
+          ]
+        }
+      }
+    },
+    "worldgen/placed_feature|tfc:vein/normal_garnierite": {
+      "feature": "tfc:vein/normal_garnierite",
+      "placement": []
+    },
+    "loot_table|tfc:blocks/ore/normal_garnierite/gabbro": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/normal_garnierite"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/fuel|tfc:charcoal": {
+      "duration": 1800,
+      "ingredient": {
+        "item": "minecraft:charcoal"
+      },
+      "temperature": 1350
+    },
+    "tfc/fluid_heat|tfc:nickel": {
+      "fluid": "tfc:metal/nickel",
+      "melt_temperature": 1453,
+      "specific_heat_capacity": 0.00625
+    },
+    "tfc/item_heat|tfcorewashing:clean_dusts/nickel": {
+      "ingredient": {
+        "tag": "c:ores/clean_dusts/nickel"
+      },
+      "heat_capacity": 0.833,
+      "forging_temperature": 872,
+      "welding_temperature": 1162
+    },
+    "tfc/deposit|tfcorewashing:rocky_chunk/garnierite": {
+      "ingredient": {
+        "item": "tfcorewashing:rocky_chunks_garnierite"
+      },
+      "loot_table": "tfcorewashing:deposit/rocky_chunk/garnierite"
+    },
+    "loot_table|tfcorewashing:deposit/rocky_chunk/garnierite": {
+      "type": "minecraft:empty",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:chunks_garnierite"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/andesite"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/dolomite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/opal",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.001
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_garnierite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/deposit|tfcorewashing:dirty_dust/garnierite": {
+      "ingredient": {
+        "item": "tfcorewashing:dirty_dust_garnierite"
+      },
+      "loot_table": "tfcorewashing:deposit/dirty_dust/garnierite"
+    },
+    "loot_table|tfcorewashing:deposit/dirty_dust/garnierite": {
+      "type": "minecraft:fishing",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:powder/garnierite",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:pile_green_sand",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_garnierite",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ],
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

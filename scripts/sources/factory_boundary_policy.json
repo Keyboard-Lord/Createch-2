@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "authority": "Audited starting 0.8.7a metadata; mechanical parents, costs and prior unlocks remain checked against the frozen factory basis.",
+  "initialRuntimeRef": "f35088e0939808b9d264a7e95b920a1a3664ba65",
+  "nodes": {
+    "createch2:mat_03_space_aluminum": {
+      "earliest_age": "Age 08 Advanced Electric"
+    },
+    "createch2:pre_01_precision_mechanisms": {
+      "earliest_age": "Age 02 Alloy Foundry"
+    },
+    "createch2:che_01_process_control": {
+      "earliest_age": "Age 04 Heavy Industry"
+    },
+    "createch2:com_04_digital_fabrication": {
+      "earliest_age": "Age 10 Stainless and Digital"
+    }
+  }
+}

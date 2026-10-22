@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "createch2core:block/redstone_bud"
+    },
+    "facing=down": {
+      "model": "createch2core:block/redstone_bud",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "createch2core:block/redstone_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "createch2core:block/redstone_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "createch2core:block/redstone_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "createch2core:block/redstone_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

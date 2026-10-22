@@ -1,0 +1,7 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/biological_intermediate"
+  },
+  "edible": false,
+  "decay_modifier": 3
+}

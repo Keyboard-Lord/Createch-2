@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:isotopic_centrifuge"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:nuclear_assays",
+      "createch2:process_samples",
+      "createch2:grid_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:nuc_01_radiation_metrology",
+    "createch2:che_04_advanced_separations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_02_isotope_separation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_02_isotope_separation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:nuclear/mekanism/isotopic_centrifuge",
+      "createch2:nuclear/mekanism/solar_neutron_activator"
+    ]
+  }
+}

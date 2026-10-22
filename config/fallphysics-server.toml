@@ -1,0 +1,122 @@
+#Fall Physics - world settings, synchronised to clients on join.
+[general]
+	#Master switch. Off restores vanilla falling completely.
+	enabled = true
+
+#Terminal velocities in blocks per second. Vanilla is 78.4.
+[poses]
+	#REGULAR - held when no pose key is pressed. Vanilla is 78.4; the default
+	#here is slower on purpose, because a fall you cannot act during is not
+	#worth having poses for. Set it to 78.4 for vanilla speed.
+	# Default: 60.0
+	# Range: 5.0 ~ 400.0
+	regularTerminalPerSecond = 60.0
+	#SPREADING - belly to earth. The slow, controllable pose you land in.
+	# Default: 32.0
+	# Range: 5.0 ~ 400.0
+	spreadingTerminalPerSecond = 32.0
+	#DIVING - head down. The fast pose, and the one that kills you.
+	# Default: 95.0
+	# Range: 5.0 ~ 400.0
+	divingTerminalPerSecond = 95.0
+	#Horizontal blocks covered per vertical block while tracking in a dive.
+	#0 turns a dive into a pure drop; 1 makes it close to an elytra.
+	# Default: 0.75
+	# Range: 0.0 ~ 3.0
+	divingGlideRatio = 0.75
+	#The same, for the spread. Small on purpose - a spread is for control, not travel.
+	# Default: 0.12
+	# Range: 0.0 ~ 3.0
+	spreadingGlideRatio = 0.12
+	#Lateral acceleration available in a spread, blocks per tick squared.
+	# Default: 0.045
+	# Range: 0.0 ~ 0.5
+	spreadingSteerAcceleration = 0.045
+	#Lateral acceleration available in a dive. Low - a dive commits you.
+	# Default: 0.012
+	# Range: 0.0 ~ 0.5
+	divingSteerAcceleration = 0.012
+
+#When the pose system takes over from vanilla.
+[engagement]
+	#Ticks of continuous falling before pose control unlocks. Keeps jumps vanilla.
+	# Default: 4
+	# Range: 0 ~ 60
+	engageDelayTicks = 8
+	#Minimum descent rate in blocks per second before pose control unlocks.
+	# Default: 6.0
+	# Range: 0.0 ~ 100.0
+	engageMinSpeedPerSecond = 10.0
+	#Blocks you must have already fallen before pose control unlocks.
+	#This is what keeps ordinary jumping out of the mod: a jump from flat ground
+	#drops you about 1.25 blocks and nothing you do changes that, so anything
+	#above 3 means running and jumping never touches the pose system at all.
+	# Default: 4.0
+	# Range: 0.0 ~ 64.0
+	engageMinFallDistance = 6.0
+
+#Fall damage from impact speed rather than distance fallen.
+[damage]
+	#Off leaves vanilla distance-based fall damage in place.
+	#Note that with this off, a slow spread landing from a great height still hurts
+	overhaulFallDamage = true
+	#Impact speed in blocks per second you can walk away from. 13 matches vanilla's
+	#three-block free ride.
+	# Default: 13.0
+	# Range: 0.0 ~ 100.0
+	safeImpactSpeedPerSecond = 16.0
+	#Damage scale. With the default exponent this reproduces vanilla damage to within
+	#half a heart at 10, 20 and 40 blocks.
+	# Default: 26.0
+	# Range: 0.0 ~ 500.0
+	damagePerSpeed = 20.0
+	#Above 1, the last few blocks per second of impact speed hurt disproportionately.
+	#This is also what makes terminal velocity lethal in every pose without a canopy:
+	#lower it much and holding a spread becomes a way to survive any fall in the game.
+	# Default: 1.78
+	# Range: 0.5 ~ 4.0
+	damageExponent = 1.78
+	#Multiplier applied when landing in a spread. A spread is already the slowest
+	#descent there is, so this stays near 1 - the pose earns its landing on speed.
+	# Default: 0.9
+	# Range: 0.0 ~ 4.0
+	spreadingDamageScale = 0.9
+	#Multiplier applied when landing head first.
+	# Default: 1.45
+	# Range: 0.0 ~ 4.0
+	divingDamageScale = 1.45
+
+#Parachute behaviour.
+[parachute]
+	#Descent rate under a fully open canopy, blocks per second.
+	# Default: 11.0
+	# Range: 1.0 ~ 60.0
+	terminalPerSecond = 11.0
+	#Steering authority under canopy, blocks per tick squared.
+	# Default: 0.055
+	# Range: 0.0 ~ 0.5
+	steerAcceleration = 0.055
+	#Ticks the canopy takes to inflate. This is the deceleration, so short is violent.
+	# Default: 12
+	# Range: 1 ~ 100
+	deployTicks = 12
+	#Durability spent per landing. 0 makes parachutes permanent.
+	# Default: 1
+	# Range: 0 ~ 64
+	durabilityPerLanding = 1
+	#Deploying above this speed, in blocks per second, tears the canopy.
+	#Slow down first, or pack a spare.
+	# Default: 104.0
+	# Range: 10.0 ~ 400.0
+	collapseSpeedPerSecond = 104.0
+
+#Flares.
+[flares]
+	#How long a lit flare burns, in ticks. 1200 is one minute.
+	# Default: 1200
+	# Range: 20 ~ 24000
+	burnTicks = 1200
+	#Light level emitted by a burning flare.
+	# Default: 12
+	# Range: 0 ~ 15
+	lightLevel = 12

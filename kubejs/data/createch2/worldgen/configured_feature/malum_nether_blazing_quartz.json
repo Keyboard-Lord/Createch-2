@@ -1,0 +1,26 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 64,
+    "min_y": 8,
+    "max_y": 112,
+    "size": 16,
+    "density": 0.3,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:netherrack",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "malum:blazing_quartz_ore"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_malum_nether_blazing_quartz"
+  }
+}

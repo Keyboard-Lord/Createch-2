@@ -1,0 +1,105 @@
+{
+  "truth": "RETAINED_VAMPIRE_DUNGEON_FANG_PROVIDER",
+  "classes": {
+    "dungeon": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.world.gen.feature.VampireDungeonFeature",
+      "sha256": "566b05a10a6696491d31b50ebe26075ba8c32be0d3ceaea9e5dec17a30b2f222"
+    },
+    "features": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.core.ModFeatures",
+      "sha256": "5709a09c4be6fdc81a5b37cf7e53a2d5170b871485db592d49a31f35a118eb04"
+    },
+    "lootKeys": {
+      "jar": "Vampirism-1.21-1.10.13.jar",
+      "class": "de.teamlapen.vampirism.core.ModLootTables",
+      "sha256": "e66b170a648f926c299deb8e86edd127c098712a61e16acc7d6a3fec0816ece3"
+    },
+    "container": {
+      "jar": "../../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.RandomizableContainer",
+      "sha256": "08d339359a7ac114439eb249f8139ef57a74f6d6b49255adce023732f934385f"
+    },
+    "containerBlockEntity": {
+      "jar": "../../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity",
+      "sha256": "7495bc60cd67f54a39a0541d9afc6355bc19b758293a3997861b6c39f7d5059b"
+    }
+  },
+  "selectedBiome": "tfc:hills",
+  "biomeTag": "vampirism:has_structure/vampire_dungeon",
+  "feature": "vampirism:vampire_dungeon",
+  "modifier": "vampirism:feature/vampire_dungeon",
+  "lootTable": "vampirism:chests/dungeon/vampire_dungeon",
+  "output": "vampirism:vampire_fang",
+  "nativeJar": "Vampirism-1.21-1.10.13.jar",
+  "baseMandatoryTasks": [
+    {
+      "quest": "3EF63F460CD85E45",
+      "task": "281024DBC06AD999",
+      "token": "justdirethings:time_wand",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "6E1EA6986E9B62DA",
+      "task": "5FC029E5E7F016AD",
+      "token": "oritechthings:addon_block_cross_dimensional",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "30F22008F933612B",
+      "task": "425DE969387DE8A7",
+      "token": "vampirism:vampire_book",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "0592767DB06D292B",
+      "task": "71D0E00639CA7A88",
+      "token": "vampirism:vampire_fang",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "0592767DB06D292B",
+      "task": "102151D6BBBAC72B",
+      "token": "werewolves:werewolf_tooth",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "391356CCEE6C5B8A",
+      "task": "510FFE4CB807B738",
+      "token": "enchanted:attuned_stone_charged",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "767549982DA5DAC1",
+      "task": "6DF41F7C7D534CBB",
+      "token": "werewolves:stone_altar",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "767549982DA5DAC1",
+      "task": "347FF13F3A4F1639",
+      "token": "werewolves:injection_un_werewolf",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "0B86C31CB0DC04C0",
+      "task": "484933E8B28BB58D",
+      "token": "evilcraft:blood_extractor",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "0B86C31CB0DC04C0",
+      "task": "5A2291CAD839097D",
+      "token": "evilcraft:hardened_blood",
+      "reason": "No supplier from gathered-resource roots within this age"
+    },
+    {
+      "quest": "66197D8CF37A3640",
+      "task": "43D2509B200CC610",
+      "token": "ae2:spatial_cell_component_128",
+      "reason": "No supplier from gathered-resource roots within this age"
+    }
+  ]
+}

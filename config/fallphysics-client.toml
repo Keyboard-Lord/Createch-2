@@ -1,0 +1,34 @@
+#Fall Physics - presentation. Client only; changing these never desyncs you.
+[wind]
+	#The wind effect as a whole: screen streaks, particles, sound and camera.
+	enabled = true
+	#Overall strength multiplier for the wind effect.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+	#Maximum number of airflow streaks drawn across the screen at full speed.
+	#0 disables the streaks but keeps the rest of the effect.
+	# Default: 96
+	# Range: 0 ~ 400
+	streakCount = 96
+	#Airflow particles in the world around you.
+	particles = true
+	#Camera buffet at speed. Turn off if it makes you motion sick.
+	cameraShake = true
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	cameraShakeScale = 1.0
+	#Field of view widening with airspeed.
+	fovEffect = true
+	#Volume of the wind loop, on top of the usual sound sliders.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	volume = 1.0
+
+#HUD.
+[hud]
+	#Small readout of the current pose while falling.
+	showPoseReadout = true
+	#Descent rate in blocks per second, under the pose name.
+	#Bind "Toggle speed readout" in Controls to turn this on and off in game.
+	showSpeedReadout = true

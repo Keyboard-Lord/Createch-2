@@ -1,0 +1,53 @@
+{
+  "jar": "gtceu-1.21.1-8.1.0.jar",
+  "classes": {
+    "alloys": {
+      "class": "com.gregtechceu.gtceu.data.material.SecondDegreeMaterials",
+      "sha256": "52d9d43e52827a03605359cb3193d243ede9ed5cd99136db551319e0f2e018f7"
+    },
+    "elements": {
+      "class": "com.gregtechceu.gtceu.data.material.ElementMaterials",
+      "sha256": "d6b58be43972b478999d12c0885b8fe49db8a4994a2b62e83f41f6bf1099104f"
+    },
+    "flags": {
+      "class": "com.gregtechceu.gtceu.data.material.GTMaterials",
+      "sha256": "e0fbed4711516561672c1b1d83b3ac7e36d393db52b33ef3a4ecd27780029249"
+    },
+    "prefix": {
+      "class": "com.gregtechceu.gtceu.api.tag.TagPrefix",
+      "sha256": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b"
+    }
+  },
+  "materials": [
+    [
+      "tungsten_steel",
+      "TungstenSteel",
+      "alloys",
+      "EXT2_METAL"
+    ],
+    [
+      "rhodium_plated_palladium",
+      "RhodiumPlatedPalladium",
+      "alloys",
+      "EXT2_METAL"
+    ],
+    [
+      "naquadah_alloy",
+      "NaquadahAlloy",
+      "alloys",
+      "EXT2_METAL"
+    ],
+    [
+      "darmstadtium",
+      "Darmstadtium",
+      "elements",
+      "EXT2_METAL"
+    ],
+    [
+      "neutronium",
+      "Neutronium",
+      "elements",
+      "EXT_METAL"
+    ]
+  ]
+}

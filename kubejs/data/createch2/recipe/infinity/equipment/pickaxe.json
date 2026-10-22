@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "IIIIIIIII",
+    "ICCCXCCCI",
+    "    G    ",
+    "    N    ",
+    "    N    "
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "G": {
+      "item": "avaritia:neutron_gear"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_pickaxe",
+    "count": 1
+  },
+  "tier": 4
+}

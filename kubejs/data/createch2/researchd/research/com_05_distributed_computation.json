@@ -1,0 +1,49 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "computercraft:computer_advanced"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:com_04_digital_fabrication",
+    "createch2:pre_03_electronic_metrology"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.com_05_distributed_computation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.com_05_distributed_computation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:computing/age_10/advanced_computer",
+      "createch2:computing/age_10/advanced_monitor",
+      "createch2:computing/age_10/mining_turtle",
+      "createch2:mobility/hologenica/imprinter",
+      "createch2:mobility/hologenica/reformer",
+      "createch2:mobility/hologenica/neurocell",
+      "createch2:factory_scaling/components/mv_electric_motor_batch",
+      "createch2:factory_scaling/components/mv_electric_pump_batch",
+      "createch2:factory_scaling/components/mv_conveyor_module_batch"
+    ]
+  }
+}

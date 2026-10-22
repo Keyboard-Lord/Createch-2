@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FCF",
+    "PHP",
+    "TBT"
+  ],
+  "key": {
+    "F": {
+      "item": "stellaris:engine_fan"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "P": {
+      "item": "modern_industrialization:pump"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "T": {
+      "item": "stellaris:big_oxygen_tank"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    }
+  },
+  "result": {
+    "id": "stellaris:oxygen_distributor",
+    "count": 1
+  }
+}

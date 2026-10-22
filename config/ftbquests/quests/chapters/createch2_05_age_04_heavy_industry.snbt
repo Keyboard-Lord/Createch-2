@@ -1,0 +1,1884 @@
+{
+	autofocus_id: "0805E46BFACC635A"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_05_age_04_heavy_industry"
+	group: "0A85000000000002"
+	id: "09EAEA8CE2694C0A"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "0C6AE18611195145"
+		image: "createch2:textures/quests/chapter_icons/heavy_industry.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [{
+		id: "0822000000000006"
+		linked_quest: "0C4F7FBDB9DA914D"
+		shape: "rsquare"
+		size: 1.35d
+		x: 3.904d
+		y: 9.831d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"0DD5A97327961323"
+				"696D34A8AB6D9BAA"
+			]
+			icon: {
+				id: "tfmg:coke_oven"
+			}
+			id: "0805E46BFACC635A"
+			rewards: [{
+				auto: "enabled"
+				id: "00C1356F1FBB5ED5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 3.25d
+			tags: [
+				"theme_heavy_industry_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0BE92A29D9DF3A65"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 3.904d
+			y: 14.031d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			id: "024F0B82259320A0"
+			rewards: [{
+				auto: "enabled"
+				id: "6E502D3A5AA484F7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 32L
+				id: "032959DF15BB51EC"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 37.325d
+			y: -34.669d
+		}
+		{
+			dependencies: ["024F0B82259320A0"]
+			icon: {
+				id: "tfmg:fireclay"
+			}
+			id: "0AE33BC31290CD84"
+			rewards: [{
+				auto: "enabled"
+				id: "7152025EEA9BA765"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_heavy_industry_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 16L
+				id: "06CBF3C84647CD28"
+				item: { count: 1, id: "tfmg:fireclay" }
+				type: "item"
+			}]
+			x: 49.136d
+			y: 5.004d
+		}
+		{
+			dependencies: ["0AE33BC31290CD84"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			id: "0C462947C2A27098"
+			rewards: [{
+				auto: "enabled"
+				id: "55922D42417796B3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_heavy_industry_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0E8FD96D86B5DEBC"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: 57.496d
+			y: 37.893d
+		}
+		{
+			dependencies: ["0C462947C2A27098"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			id: "04C35F62E0D31D66"
+			rewards: [{
+				auto: "enabled"
+				id: "67517B5BBDEEB991"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "01F74D33AEEE9E9E"
+				item: { count: 1, id: "tfmg:lubrication_oil_bucket" }
+				type: "item"
+			}]
+			x: 53.974d
+			y: 35.279d
+		}
+		{
+			dependencies: ["04C35F62E0D31D66"]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			icon_scale: 1.05d
+			id: "0B5A5B1254EE88FF"
+			rewards: [{
+				auto: "enabled"
+				id: "6B68C9FB6D68389E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_heavy_industry_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "380197D4020124DC"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: 44.06d
+			y: 37.765d
+		}
+		{
+			dependencies: ["024F0B82259320A0"]
+			icon: {
+				id: "tfmg:cast_iron_fluid_tank"
+			}
+			icon_scale: 0.95d
+			id: "38665588DCF9F600"
+			rewards: [{
+				auto: "enabled"
+				id: "67235795AAC63E77"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "311993AA1438E74F"
+					item: { count: 1, id: "tfmg:cast_iron_fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "3FB89C6DEB5F0EBE"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+				{
+					id: "1E336E69DAD7A04D"
+					item: { count: 1, id: "tfmg:oil_can" }
+					type: "item"
+				}
+			]
+			x: 35.51d
+			y: -38.178d
+		}
+		{
+			dependencies: ["024F0B82259320A0"]
+			icon: {
+				id: "tfmg:coal_coke_block"
+			}
+			icon_scale: 0.95d
+			id: "1F3408ABA5096248"
+			rewards: [{
+				auto: "enabled"
+				id: "186D04DBA027729B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_heavy_industry_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "578777A67BC1C14E"
+				item: { count: 1, id: "tfmg:coal_coke_block" }
+				type: "item"
+			}]
+			x: 44.707d
+			y: -0.257d
+		}
+		{
+			dependencies: ["1F3408ABA5096248"]
+			icon: {
+				id: "tfmg:cast_iron_fluid_tank"
+			}
+			icon_scale: 0.95d
+			id: "76E18603E4688CED"
+			rewards: [{
+				auto: "enabled"
+				id: "1A627D325B9B916D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_heavy_industry_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "188F6D949340AC42"
+				item: { count: 1, id: "tfmg:cast_iron_fluid_tank" }
+				type: "item"
+			}]
+			x: 45.286d
+			y: 1.922d
+		}
+		{
+			dependencies: ["0B5A5B1254EE88FF"]
+			icon: {
+				id: "tfmg:cast_iron_fluid_tank"
+			}
+			icon_scale: 0.95d
+			id: "7F5CB4893E467C64"
+			rewards: [{
+				auto: "enabled"
+				id: "390D6EC6A54BF5B4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "335AF71B19A9AE55"
+				item: { count: 1, id: "tfmg:cast_iron_fluid_tank" }
+				type: "item"
+			}]
+			x: 53.049d
+			y: 42.078d
+		}
+		{
+			dependencies: ["0B5A5B1254EE88FF"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			id: "4F0A04160A028947"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "33D96CF2FCE772F2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "32FC3CD144A7A3B8"
+					item: {
+						count: 1
+						id: "create:black_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "517B78B1CF8BF23F"
+					item: { count: 1, id: "tfmg:lubrication_oil_bucket" }
+					type: "item"
+				}
+				{
+					id: "7FB65482645607D8"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 3.467d
+			y: 16.688d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			icon_scale: 0.95d
+			id: "5773684BCF80CF2C"
+			rewards: [{
+				auto: "enabled"
+				id: "01B41140768361E0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "2B9A34D8A5471E58"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: -28.292d
+			y: -3.806d
+		}
+		{
+			dependencies: ["0C462947C2A27098"]
+			icon: {
+				id: "tfmg:coke_oven"
+			}
+			icon_scale: 0.95d
+			id: "083A27A23EE346E8"
+			rewards: [{
+				auto: "enabled"
+				id: "44F64C1D29CA2315"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3FF1EF44D5B39DDB"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 38.531d
+			y: -43.85d
+		}
+		{
+			dependencies: ["1F3408ABA5096248"]
+			icon: {
+				id: "tfmg:fireclay_ball"
+			}
+			icon_scale: 0.95d
+			id: "6EB03CF566178A0E"
+			rewards: [{
+				auto: "enabled"
+				id: "5116B6A67E88F80C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "0C0075BB2EEA88F3"
+				item: { count: 1, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: 40.519d
+			y: -0.739d
+		}
+		{
+			dependencies: ["083A27A23EE346E8"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.95d
+			id: "17C7A7DBFE59857A"
+			rewards: [{
+				auto: "enabled"
+				id: "3139E718A9C7FD8C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6A8472875D38D889"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16B303BDA50891C6"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 59.702d
+			y: 38.948d
+		}
+		{
+			dependencies: ["7F5CB4893E467C64"]
+			icon: {
+				id: "tfmg:oil_can"
+			}
+			icon_scale: 0.95d
+			id: "36E7D3E69013CD25"
+			rewards: [{
+				auto: "enabled"
+				id: "076A9F3E7A013C19"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "654B84F47F704D3C"
+				item: { count: 1, id: "tfmg:oil_can" }
+				type: "item"
+			}]
+			x: 55.25d
+			y: 43.106d
+		}
+		{
+			dependencies: ["36E7D3E69013CD25"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			icon_scale: 0.95d
+			id: "0B43C7371D48D3E1"
+			rewards: [{
+				auto: "enabled"
+				id: "1FD6FF37C0DDBF1F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "5E4E56003F4A7786"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "126AD6FEB238D677"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 57.432d
+			y: 44.115d
+		}
+		{
+			dependencies: [
+				"17C7A7DBFE59857A"
+				"0B43C7371D48D3E1"
+			]
+			icon: {
+				id: "tfmg:pumpjack_base"
+			}
+			id: "170759DC92DBF678"
+			rewards: [{
+				auto: "enabled"
+				id: "10D60ACF710BB757"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5ADDE83EAAF0FDCD"
+				item: { count: 1, id: "tfmg:pumpjack_base" }
+				type: "item"
+			}]
+			x: 61.737d
+			y: 46.072d
+		}
+		{
+			dependencies: ["170759DC92DBF678"]
+			icon: {
+				id: "tfmg:coke_oven"
+			}
+			icon_scale: 0.92d
+			id: "786438808FFAEF7E"
+			rewards: [{
+				auto: "enabled"
+				id: "2DE538E7D94FA144"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "6B8205A0E040F7AB"
+					item: { count: 1, id: "tfmg:coke_oven" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6B5AB8B7CAA019B6"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 38.828d
+			y: -46.072d
+		}
+		{
+			dependencies: ["786438808FFAEF7E"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			icon_scale: 0.92d
+			id: "2B18EDAD1B191FEB"
+			rewards: [{
+				auto: "enabled"
+				id: "47D334AA350D51FE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "0BF5F2D19D2BB74B"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "780C2CC93CAD46DF"
+					item: { count: 1, id: "tfmg:fireclay_ball" }
+					type: "item"
+				}
+			]
+			x: -61.737d
+			y: 1.229d
+		}
+		{
+			dependencies: ["2B18EDAD1B191FEB"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.92d
+			id: "7EE6C0C35E1F23C2"
+			rewards: [{
+				auto: "enabled"
+				id: "56F92B989C3050BF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "571BF11E5CBDC686"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "493F0B3D83CE52CE"
+					item: { count: 1, id: "rubberworks:rubber" }
+					type: "item"
+				}
+			]
+			x: -55.488d
+			y: 4.623d
+		}
+		{
+			dependencies: [
+				"38665588DCF9F600"
+				"4F0A04160A028947"
+				"5773684BCF80CF2C"
+				"2B18EDAD1B191FEB"
+				"7489D8F7F34227D4"
+				"18FEC984A51A865A"
+				"0AA25E949D1B6390"
+			]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			icon_scale: 1.1d
+			id: "7E2F37A4005BB466"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "496ECE7A952ADAD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18E10D759EEFF0E9"
+					item: {
+						count: 1
+						id: "supplementaries:blackstone_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "4BA835DB8F999FA7"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_heavy_industry_capstone"
+				"role_capstone"
+				"canonical_age_04"
+			]
+			tasks: [{
+				id: "7A89E3647927EAC1"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: -55.96d
+			y: 1.955d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:coal_coke_block"
+			}
+			icon_scale: 0.96d
+			id: "157801AA7BCFC8C6"
+			rewards: [{
+				auto: "enabled"
+				id: "60490C7F4F063AE3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_heavy_industry_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "5ED07BB4CBDB24F8"
+					item: { count: 1, id: "tfmg:coal_coke_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "184BFEB61D466EB5"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: -16.507d
+			y: 1.692d
+		}
+		{
+			dependencies: ["157801AA7BCFC8C6"]
+			icon: {
+				id: "tfmg:fireclay_ball"
+			}
+			icon_scale: 0.98d
+			id: "629913687BB9B536"
+			rewards: [{
+				auto: "enabled"
+				id: "66B63BB5E2FA5FF7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 32L
+				id: "5F0F993B3417E63A"
+				item: { count: 1, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: -14.085d
+			y: 2.822d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:oil_can"
+			}
+			icon_scale: 0.98d
+			id: "02E5283B1C03046C"
+			rewards: [{
+				auto: "enabled"
+				id: "545DB8377105DEF3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "5A0B8F08F440B817"
+					item: { count: 1, id: "tfmg:oil_can" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E01D0580B6E2BED"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: -2.427d
+			y: -9.259d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:heavy_oil_bucket"
+			}
+			icon_scale: 0.98d
+			id: "73247B95B5E00487"
+			rewards: [{
+				auto: "enabled"
+				id: "3ACC23763C8C796E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:heavy_oil"
+				}
+				id: "29AA56355996AB64"
+				type: "fluid"
+			}]
+			x: -21.178d
+			y: -0.727d
+		}
+		{
+			dependencies: ["73247B95B5E00487"]
+			icon: {
+				id: "tfmg:naphtha_bucket"
+			}
+			icon_scale: 0.96d
+			id: "4A60314F8873A316"
+			rewards: [{
+				auto: "enabled"
+				id: "73E1950907556E10"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_heavy_industry_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:naphtha"
+				}
+				id: "77F6849AA2CC3C96"
+				type: "fluid"
+			}]
+			x: -18.781d
+			y: 0.357d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			icon_scale: 0.98d
+			id: "75A26851CCA32314"
+			rewards: [{
+				auto: "enabled"
+				id: "68B0D04F28A166FC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:lubrication_oil"
+				}
+				id: "1F82D14C4361BDE0"
+				type: "fluid"
+			}]
+			x: -23.563d
+			y: -1.78d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "railcraft:coke_oven_bricks"
+			}
+			icon_scale: 0.96d
+			id: "7AD8280CC0E8D33A"
+			rewards: [{
+				auto: "enabled"
+				id: "1E47D93C0EFC2869"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_heavy_industry_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 27L
+				id: "7DC4EA36FAB8AEFB"
+				item: { count: 1, id: "railcraft:coke_oven_bricks" }
+				type: "item"
+			}]
+			x: -7.076d
+			y: 6.844d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:coal_coke_block"
+			}
+			icon_scale: 0.98d
+			id: "3D09A6327BF6A676"
+			rewards: [{
+				auto: "enabled"
+				id: "17D8CA7B91845600"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6B90E48DA52EEF18"
+					item: { count: 1, id: "tfmg:coal_coke_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16FA2681B847C450"
+					item: { count: 1, id: "tfmg:fireclay_ball" }
+					type: "item"
+				}
+			]
+			x: -11.8d
+			y: 4.214d
+		}
+		{
+			dependencies: ["3D09A6327BF6A676"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.98d
+			id: "5EB8ABD694C9AFE7"
+			rewards: [{
+				auto: "enabled"
+				id: "5592D17F8436EFEA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 4L
+				id: "7D53137FAB509777"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: -9.368d
+			y: 5.402d
+		}
+		{
+			dependencies: ["0805E46BFACC635A"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			icon_scale: 0.98d
+			id: "58C02952D731A986"
+			rewards: [{
+				auto: "enabled"
+				id: "0B7DFE088E745E1C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 8000
+						id: "tfmg:lubrication_oil"
+					}
+					id: "5BA986B88FE80F0D"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 8000
+						id: "tfmg:heavy_oil"
+					}
+					id: "44A340A94D56B3DB"
+					type: "fluid"
+				}
+			]
+			x: -25.936d
+			y: -2.805d
+		}
+		{
+			dependencies: [
+				"08E09986F1C1EF63"
+				"0805E46BFACC635A"
+				"696D34A8AB6D9BAA"
+			]
+			icon: {
+				id: "railcraft:coke_oven_bricks"
+			}
+			id: "2404D0A02FBD90BF"
+			rewards: [{
+				auto: "enabled"
+				id: "199CE2C2662388DB"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "08C4EA8805021933"
+				item: { count: 1, id: "railcraft:coke_oven_bricks" }
+				type: "item"
+			}]
+			x: 26.703d
+			y: 15.555d
+		}
+		{
+			dependencies: [
+				"2404D0A02FBD90BF"
+				"0B5A5B1254EE88FF"
+			]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			icon_scale: 0.96d
+			id: "1AC7A9885837340A"
+			rewards: [{
+				auto: "enabled"
+				id: "7F036230830C190A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_oil_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "05A07C15E52563CB"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: 18.532d
+			y: 21.833d
+		}
+		{
+			dependencies: ["1AC7A9885837340A"]
+			icon: {
+				id: "stellaris:oil_finder"
+			}
+			icon_scale: 0.96d
+			id: "36E4A378A4274CAD"
+			rewards: [{
+				auto: "enabled"
+				id: "1982015FD6F73098"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_oil_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "4B5ADDEB80D16A16"
+				item: { count: 1, id: "stellaris:oil_finder" }
+				type: "item"
+			}]
+			x: 24.345d
+			y: 23.939d
+		}
+		{
+			dependencies: [
+				"2404D0A02FBD90BF"
+				"0B5A5B1254EE88FF"
+			]
+			icon: {
+				id: "stellaris:pumpjack"
+			}
+			id: "5FE988C5C16F8E24"
+			rewards: [{
+				auto: "enabled"
+				id: "327ED71F6439FB80"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1B1163F7DC0247F0"
+				item: { count: 1, id: "stellaris:pumpjack" }
+				type: "item"
+			}]
+			x: 46.763d
+			y: 3.676d
+		}
+		{
+			dependencies: ["5FE988C5C16F8E24"]
+			icon: {
+				id: "tfmg:naphtha_bucket"
+			}
+			id: "7489D8F7F34227D4"
+			rewards: [{
+				auto: "enabled"
+				id: "18C2DF57E23D054C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:naphtha"
+				}
+				id: "2EBF17224FC74A76"
+				type: "fluid"
+			}]
+			x: 40.652d
+			y: 25.767d
+		}
+		{
+			dependencies: ["7489D8F7F34227D4"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			id: "0AA25E949D1B6390"
+			rewards: [{
+				auto: "enabled"
+				id: "2C84A35AA0DA290F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "064FA2F0F06D733F"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: 39.236d
+			y: 24.085d
+		}
+		{
+			dependencies: ["0AA25E949D1B6390"]
+			icon: {
+				id: "tfmg:lubrication_oil_bucket"
+			}
+			id: "18FEC984A51A865A"
+			rewards: [{
+				auto: "enabled"
+				id: "66A496F896A31248"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "tfmg:lubrication_oil"
+				}
+				id: "69627AD01508516E"
+				type: "fluid"
+			}]
+			x: 38.763d
+			y: 21.941d
+		}
+		{
+			dependencies: ["36E4A378A4274CAD"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.95d
+			id: "0971DD094AF6398D"
+			rewards: [{
+				auto: "enabled"
+				id: "0427BBDC96A10182"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 8000
+						id: "tfmg:lubrication_oil"
+					}
+					id: "191AB4C6D2CC53A1"
+					type: "fluid"
+				}
+				{
+					id: "5F814BEBCBFECE81"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 26.758d
+			y: 25.204d
+		}
+		{
+			dependencies: ["0971DD094AF6398D"]
+			icon: {
+				id: "stellaris:pipe_t1"
+			}
+			icon_scale: 0.95d
+			id: "3CB9158B471E813E"
+			rewards: [{
+				auto: "enabled"
+				id: "352355ED709457DC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "4422593DE6ACEF94"
+				item: { count: 1, id: "stellaris:pipe_t1" }
+				type: "item"
+			}]
+			x: 30.587d
+			y: 28.153d
+		}
+		{
+			dependencies: ["7489D8F7F34227D4"]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.95d
+			id: "74F7C07ACEF2F804"
+			rewards: [{
+				auto: "enabled"
+				id: "69B05BD55E203E64"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "4B3FDF21F20DCD8B"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: 37.781d
+			y: 17.619d
+		}
+		{
+			dependencies: ["7489D8F7F34227D4"]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			icon_scale: 0.94d
+			id: "31FAB95D65AA76CD"
+			rewards: [{
+				auto: "enabled"
+				id: "364FF534942E325E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_oil_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "111E01ADF2EEB40E"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: 38.278d
+			y: 19.786d
+		}
+		{
+			dependencies: ["0971DD094AF6398D"]
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			icon_scale: 0.95d
+			id: "4F0BCB44E1B87E3A"
+			rewards: [{
+				auto: "enabled"
+				id: "21DC94E8663A477D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:diesel"
+				}
+				id: "4E0D14AF848C8CCC"
+				type: "fluid"
+			}]
+			x: 29.16d
+			y: 26.458d
+		}
+		{
+			dependencies: ["5FE988C5C16F8E24"]
+			icon: {
+				id: "stellaris:pumpjack"
+			}
+			icon_scale: 0.94d
+			id: "557C03B422A6383A"
+			rewards: [{
+				auto: "enabled"
+				id: "6F3528EF8179A5EF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_oil_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "24263ED2A1ECB10F"
+					item: { count: 1, id: "stellaris:pumpjack" }
+					type: "item"
+				}
+				{
+					id: "2A5A32DA8D018313"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: 28.673d
+			y: 19.489d
+		}
+		{
+			dependencies: [
+				"56FEFA53979F1086"
+				"4F0A04160A028947"
+			]
+			icon: {
+				id: "create:depot"
+			}
+			icon_scale: 0.98d
+			id: "1CB1D6FE111F9B27"
+			rewards: [{
+				auto: "enabled"
+				id: "2E4AA8EFB7B67818"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "2683A953587ECF8D"
+				item: { count: 1, id: "create:depot" }
+				type: "item"
+			}]
+			x: 4.515d
+			y: 21.099d
+		}
+		{
+			dependencies: ["1CB1D6FE111F9B27"]
+			icon: {
+				id: "create:track"
+			}
+			icon_scale: 0.98d
+			id: "3FE945A52A72194C"
+			rewards: [{
+				auto: "enabled"
+				id: "768AD77A3B8DD40B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "1C02D830C695DA21"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 5.04d
+			y: 23.3d
+		}
+		{
+			dependencies: ["3FE945A52A72194C"]
+			icon: {
+				id: "create:track_signal"
+			}
+			icon_scale: 0.98d
+			id: "544F5EC2B79B9229"
+			rewards: [{
+				auto: "enabled"
+				id: "20BA4A06BB0A8E6C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "5857E8BAFDEB5C95"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: -3.243d
+			y: 32.075d
+		}
+		{
+			dependencies: ["3FE945A52A72194C"]
+			icon: {
+				id: "create:schedule"
+			}
+			icon_scale: 0.95d
+			id: "2C0003571837775D"
+			rewards: [{
+				auto: "enabled"
+				id: "06540889FD7F7165"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "49C26B1D465AEC98"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 7.117d
+			y: 32.042d
+		}
+		{
+			dependencies: ["2C0003571837775D"]
+			icon: {
+				id: "cargoboats:capacity_upgrade"
+			}
+			icon_scale: 0.95d
+			id: "0CE75E9681893924"
+			rewards: [{
+				auto: "enabled"
+				id: "44A5470DBA6351F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "17D0870754697B9E"
+				item: { count: 1, id: "cargoboats:capacity_upgrade" }
+				type: "item"
+			}]
+			x: 7.624d
+			y: 34.204d
+		}
+		{
+			dependencies: ["3FE945A52A72194C"]
+			icon: {
+				id: "tfcastikorcarts:hand_cart/oak"
+			}
+			icon_scale: 0.95d
+			id: "11BE8AEE296C5123"
+			rewards: [{
+				auto: "enabled"
+				id: "3A43B141E5442F93"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_logistics_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "02E2C654570A2D03"
+					item: { count: 1, id: "tfcastikorcarts:hand_cart/oak" }
+					type: "item"
+				}
+				{
+					id: "426FA0161465F041"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+			]
+			x: -5.628d
+			y: 30.761d
+		}
+		{
+			dependencies: ["11BE8AEE296C5123"]
+			icon: {
+				id: "cargoboats:motorboat"
+			}
+			icon_scale: 0.95d
+			id: "7A1D7230AA352583"
+			rewards: [{
+				auto: "enabled"
+				id: "33B783845E72BECC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_logistics_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 2L
+				id: "3C1F7C2CD96E7DD0"
+				item: { count: 1, id: "cargoboats:motorboat" }
+				type: "item"
+			}]
+			x: -12.782d
+			y: 26.783d
+		}
+		{
+			dependencies: ["0CE75E9681893924"]
+			icon: {
+				id: "greate:rubber_belt_connector"
+			}
+			icon_scale: 0.95d
+			id: "3B082930B3B08F61"
+			rewards: [{
+				auto: "enabled"
+				id: "751D3AF5E3331860"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_logistics_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "38688D184CE1824F"
+					item: { count: 1, id: "greate:rubber_belt_connector" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "387352187E34F97C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/wrought_iron" }
+					type: "item"
+				}
+			]
+			x: 8.124d
+			y: 36.353d
+		}
+		{
+			dependencies: ["3B082930B3B08F61"]
+			icon: {
+				id: "tfcastikorcarts:hand_cart/oak"
+			}
+			icon_scale: 0.94d
+			id: "7F61706E10A2E45C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "70933EDFA5AFD33B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "68F18F351154E677"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_logistics_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "73838A36D4F730F5"
+					item: { count: 1, id: "tfcastikorcarts:hand_cart/oak" }
+					type: "item"
+				}
+				{
+					id: "4B0B0C7BF64F2D4B"
+					item: { count: 1, id: "cargoboats:capacity_upgrade" }
+					type: "item"
+				}
+			]
+			x: 8.616d
+			y: 38.487d
+		}
+		{
+			dependencies: [
+				"4661E86013D4C432"
+				"7F61706E10A2E45C"
+			]
+			icon: {
+				id: "cargoboats:dock"
+			}
+			icon_scale: 0.94d
+			id: "105F6DE657BD7CE5"
+			rewards: [{
+				auto: "enabled"
+				id: "64A532DA92589B05"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_logistics_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "7EA0110A9E49D6A3"
+				item: { count: 1, id: "cargoboats:dock" }
+				type: "item"
+			}]
+			x: -0.861d
+			y: 33.381d
+		}
+		{
+			dependencies: [
+				"3E47A95F4DB0740A"
+				"0805E46BFACC635A"
+			]
+			icon: {
+				id: "create:chute"
+			}
+			id: "74A82D693AB26B9D"
+			rewards: [{
+				auto: "enabled"
+				id: "1682E3D8C8067028"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4FFF3C683F289B07"
+					item: { count: 1, id: "create:chute" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "463997C99FDDE2FA"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+					type: "item"
+				}
+			]
+			x: -2.694d
+			y: -11.377d
+		}
+		{
+			dependencies: ["74A82D693AB26B9D"]
+			icon: {
+				id: "modern_industrialization:bronze_macerator"
+			}
+			icon_scale: 0.94d
+			id: "0535341822E236AD"
+			rewards: [{
+				auto: "enabled"
+				id: "32A0A50ABEB177AE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_mass_processing_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "6BD555782619327D"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: -3.085d
+			y: -13.44d
+		}
+		{
+			dependencies: [
+				"0805E46BFACC635A"
+				"5B23332B2C0F9C87"
+			]
+			icon: {
+				id: "simulated:red_portable_engine"
+			}
+			id: "5D7D800EE61CDEA7"
+			rewards: [{
+				auto: "enabled"
+				id: "76D7DAC88AD85D07"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "11136D9B4A2D8687"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					id: "26FF1A92E13C5C62"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+				{
+					id: "3236F1005427966D"
+					item: { count: 1, id: "create:chest_minecart_contraption" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -69.5d
+		}
+		{
+			dependencies: [
+				"0805E46BFACC635A"
+				"455B78A66D896CC7"
+			]
+			icon: {
+				id: "adchimneys:large_brick_chimney"
+			}
+			id: "52ED0CF0F7572134"
+			rewards: [{
+				auto: "enabled"
+				id: "5E59420EC098DF5E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0A15520BC861CC0A"
+					item: { count: 1, id: "adchimneys:large_brick_chimney" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "043C6386FE27C013"
+					item: { count: 1, id: "adchimneys:stone_vent" }
+					type: "item"
+				}
+			]
+			x: 160.0d
+			y: -72.75d
+		}
+	]
+	tags: ["theme_heavy_industry_chapter"]
+}

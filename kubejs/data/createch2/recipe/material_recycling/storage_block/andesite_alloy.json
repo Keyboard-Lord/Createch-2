@@ -1,0 +1,12 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:storage_blocks/andesite_alloy"
+  },
+  "result_fluid": {
+    "amount": 900,
+    "id": "tfc_metallurgy:metal/andesite_alloy"
+  },
+  "temperature": 660
+}

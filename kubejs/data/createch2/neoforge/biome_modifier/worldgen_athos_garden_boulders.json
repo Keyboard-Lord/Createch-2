@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_athos",
+  "features": [
+    "createch2:athos_garden_boulders"
+  ],
+  "step": "local_modifications"
+}

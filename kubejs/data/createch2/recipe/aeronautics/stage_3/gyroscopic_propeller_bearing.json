@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "AGA",
+    " E "
+  ],
+  "key": {
+    "S": {
+      "item": "aeroworks:stepper_servo"
+    },
+    "A": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "G": {
+      "item": "aeroworks:gyroscope"
+    },
+    "E": {
+      "item": "gtceu:lv_emitter"
+    }
+  },
+  "result": {
+    "id": "aeronautics:gyroscopic_propeller_bearing",
+    "count": 1
+  }
+}

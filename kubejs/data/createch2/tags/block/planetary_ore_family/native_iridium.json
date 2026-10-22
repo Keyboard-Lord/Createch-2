@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_native_iridium/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_iridium/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_native_iridium/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_native_iridium/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/granite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/tin"
+    },
+    {
+      "tag": "c:rivets/tin"
+    },
+    {
+      "tag": "c:screws/tin"
+    },
+    {
+      "tag": "c:physical_screws/tin"
+    }
+  ],
+  "heat_capacity": 0.714,
+  "forging_temperature": 138,
+  "welding_temperature": 184
+}

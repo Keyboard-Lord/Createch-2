@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "ICI",
+    "OAO"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:dusts/platinum"
+    },
+    "R": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_tiny_dust"
+    },
+    "C": {
+      "item": "modern_industrialization:purified_platinum_sulfuric_solution_bucket"
+    },
+    "O": {
+      "tag": "createch2:chemical_osmium_dusts"
+    },
+    "A": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "result": {
+    "id": "mekanism:alloy_atomic",
+    "count": 1
+  }
+}

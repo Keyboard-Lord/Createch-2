@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:stainless_steel_cogwheel"
+    },
+    {
+      "item": "greate:stainless_steel_cogwheel"
+    },
+    {
+      "tag": "c:plates/stainless_steel"
+    }
+  ],
+  "result": {
+    "id": "greate:large_stainless_steel_cogwheel",
+    "count": 1
+  }
+}

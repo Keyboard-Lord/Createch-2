@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "CNC",
+    "IXI",
+    "CNC"
+  ],
+  "key": {
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_clock",
+    "count": 1
+  },
+  "tier": 4
+}

@@ -1,0 +1,2747 @@
+{
+	autofocus_id: "032D2E661C629440"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_17_age_16_infinity"
+	group: "0A85000000000006"
+	id: "0FDE3813B04FF993"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "4264EAD52FE809DE"
+		image: "createch2:textures/quests/chapter_icons/infinity.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: -0.107d
+		y: 0.108d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0EFDF3590C0EDCEC"
+				"7F95E7B9F7FEFB4D"
+			]
+			icon: {
+				id: "avaritia:eternal_singularity"
+			}
+			id: "032D2E661C629440"
+			rewards: [{
+				auto: "enabled"
+				id: "79F8A845B461DD3A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 3.25d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0D98F02727BA0431"
+				item: { count: 1, id: "avaritia:eternal_singularity" }
+				type: "item"
+			}]
+			x: -7.091d
+			y: -10.286d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			icon: {
+				id: "modern_industrialization:fusion_reactor"
+			}
+			id: "0A38BAB96AC33D42"
+			rewards: [{
+				auto: "enabled"
+				id: "20A8683A47B2AFE1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "189531AA6E5310A6"
+					item: { count: 1, id: "modern_industrialization:fusion_reactor" }
+					type: "item"
+				}
+				{
+					id: "3AD76CA6C4E701F1"
+					item: { count: 1, id: "modern_industrialization:plasma_turbine" }
+					type: "item"
+				}
+			]
+			x: 33.403d
+			y: -19.114d
+		}
+		{
+			dependencies: ["0A38BAB96AC33D42"]
+			icon: {
+				id: "modern_industrialization:quantum_machine_hull"
+			}
+			id: "0C658BD8E07F2260"
+			rewards: [{
+				auto: "enabled"
+				id: "3B9846ECE20E173D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "65BF57ECE1E2916E"
+					item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
+					type: "item"
+				}
+				{
+					id: "2E325A053EE40080"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+				{
+					id: "2052527734763D4F"
+					item: { count: 1, id: "sgjourney:milky_way_stargate" }
+					type: "item"
+				}
+			]
+			x: 32.392d
+			y: -20.857d
+		}
+		{
+			dependencies: ["0C658BD8E07F2260"]
+			icon: {
+				id: "modern_industrialization:uu_matter_bucket"
+			}
+			id: "0EF0FC1E179BF40A"
+			rewards: [{
+				auto: "enabled"
+				id: "50DEAE559D4C5EDC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 8000
+						id: "modern_industrialization:uu_matter"
+					}
+					id: "19E0F63F81700858"
+					type: "fluid"
+				}
+				{
+					id: "7A0DD66381F0A2DC"
+					max_input: 100000000L
+					type: "forge_energy"
+					value: 100000000L
+				}
+			]
+			x: 41.531d
+			y: -31.839d
+		}
+		{
+			dependencies: [
+				"0EF0FC1E179BF40A"
+				"40269A1545BEA1FB"
+			]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "05A227A2ADF9216A"
+			rewards: [{
+				auto: "enabled"
+				id: "7DAB1E504AC2D7EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "7F98705BAC695F3D"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 42.701d
+			y: -3.087d
+		}
+		{
+			dependencies: ["05A227A2ADF9216A"]
+			icon: {
+				id: "avaritia:infinity_ingot"
+			}
+			id: "0C125A550DDD8B92"
+			rewards: [{
+				auto: "enabled"
+				id: "369B683FD21D6526"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "08CDE0FC2DC39834"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 41.18d
+			y: 30.269d
+		}
+		{
+			dependencies: ["0C125A550DDD8B92"]
+			icon: {
+				id: "avaritia:infinity_sword"
+			}
+			icon_scale: 1.05d
+			id: "05F403F6322AFFE5"
+			rewards: [{
+				auto: "enabled"
+				id: "2B28F45DDFD97E0A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0C7B14ADCF4E3C4E"
+				item: { count: 1, id: "avaritia:infinity_sword" }
+				type: "item"
+			}]
+			x: 29.391d
+			y: 23.3d
+		}
+		{
+			dependencies: ["0A38BAB96AC33D42"]
+			icon: {
+				id: "modern_industrialization:singularity"
+			}
+			icon_scale: 0.95d
+			id: "35E51DBA15585575"
+			rewards: [{
+				auto: "enabled"
+				id: "2B4FFDF8C9E75D85"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "61C01543EC46BDAB"
+				item: { count: 1, id: "modern_industrialization:singularity" }
+				type: "item"
+			}]
+			x: 34.46d
+			y: -15.274d
+		}
+		{
+			dependencies: [
+				"57FF21534B33B517"
+				"35E51DBA15585575"
+			]
+			icon: {
+				id: "avaritia:star_fuel"
+			}
+			icon_scale: 0.95d
+			id: "40269A1545BEA1FB"
+			rewards: [{
+				auto: "enabled"
+				id: "4DA9F29753624E03"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "28F8343B4920203E"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					id: "70E9625447BB2F2A"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B579E05F841B389"
+					item: { count: 1, id: "avaritia:star_fuel" }
+					type: "item"
+				}
+				{
+					id: "37308BC4C3A929A0"
+					item: { count: 1, id: "gtceu:crystal_processor" }
+					type: "item"
+				}
+				{
+					id: "301ACC2707B41C0C"
+					item: { count: 1, id: "gtceu:luv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 35.569d
+			y: -9.286d
+		}
+		{
+			dependencies: ["0EF0FC1E179BF40A"]
+			icon: {
+				id: "avaritia:infinity_nugget"
+			}
+			icon_scale: 0.95d
+			id: "38DAC06BF649159C"
+			rewards: [{
+				auto: "enabled"
+				id: "38E72AE7F519A7FC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5990E37F96B2B75C"
+				item: { count: 1, id: "avaritia:infinity_nugget" }
+				type: "item"
+			}]
+			x: -35.28d
+			y: -5.309d
+		}
+		{
+			dependencies: ["38DAC06BF649159C"]
+			icon: {
+				id: "gtceu:uv_lapotronic_battery"
+			}
+			icon_scale: 0.95d
+			id: "3B8B93CEB040A794"
+			rewards: [{
+				auto: "enabled"
+				id: "3B93B255A5468501"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "006311EFCE9DDEF8"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -32.326d
+			y: -2.221d
+		}
+		{
+			dependencies: ["05F403F6322AFFE5"]
+			icon: {
+				id: "avaritia:infinity_upgrade"
+			}
+			id: "6CB7853B2709EBB9"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5C484F77C3B6D7AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7295DCF5504DB159"
+					item: {
+						count: 1
+						id: "create:white_table_cloth"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_infinity_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "3AA6680789124CEC"
+					item: { count: 1, id: "avaritia:infinity_upgrade" }
+					type: "item"
+				}
+				{
+					id: "20E18D428594DC90"
+					item: { count: 1, id: "avaritia:infinity_ingot" }
+					type: "item"
+				}
+			]
+			x: 28.62d
+			y: 19.732d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			icon: {
+				id: "avaritia:crystal_matrix_ingot"
+			}
+			icon_scale: 0.95d
+			id: "43BBCCBA296E7F07"
+			rewards: [{
+				auto: "enabled"
+				id: "14D47825B545C0CE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "508A64F4366E92D7"
+				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+				type: "item"
+			}]
+			x: 6.758d
+			y: -2.199d
+		}
+		{
+			dependencies: ["0EF0FC1E179BF40A"]
+			icon: {
+				id: "avaritia:neutron_compressor"
+			}
+			icon_scale: 0.95d
+			id: "0D9E4C35C291AC59"
+			rewards: [{
+				auto: "enabled"
+				id: "4CD84E58996F830A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "710F74475FAEDF6A"
+				item: { count: 1, id: "avaritia:neutron_compressor" }
+				type: "item"
+			}]
+			x: -42.916d
+			y: -4.85d
+		}
+		{
+			dependencies: ["35E51DBA15585575"]
+			icon: {
+				id: "modern_industrialization:helium_plasma_bucket"
+			}
+			icon_scale: 0.95d
+			id: "762AEA107E4C095D"
+			rewards: [{
+				auto: "enabled"
+				id: "307C86317D139228"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 8000
+						id: "modern_industrialization:uu_matter"
+					}
+					id: "6C0E889F35457059"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 4000
+						id: "modern_industrialization:helium_plasma"
+					}
+					id: "6D574B29954A1E0E"
+					type: "fluid"
+				}
+			]
+			x: 12.336d
+			y: -6.097d
+		}
+		{
+			dependencies: ["0D9E4C35C291AC59"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			icon_scale: 1.1d
+			id: "4149EA2F03FF155B"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "06CB3FA593889B43"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CAA75722A870D95"
+					item: {
+						count: 1
+						id: "supplementaries:end_stone_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "176ED82686F74372"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_infinity_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [{
+				count: 2L
+				id: "5D62A368A35D6C67"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: -29.249d
+			y: 5.087d
+		}
+		{
+			dependencies: ["3B8B93CEB040A794"]
+			icon: {
+				id: "avaritia:infinity_nugget"
+			}
+			icon_scale: 0.95d
+			id: "38C158FA58C71044"
+			rewards: [{
+				auto: "enabled"
+				id: "313F5B111244A7CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "048CBFE2249E23A0"
+					item: { count: 1, id: "avaritia:infinity_nugget" }
+					type: "item"
+				}
+				{
+					id: "4892CC26B4438470"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+			]
+			x: -31.324d
+			y: -0.494d
+		}
+		{
+			dependencies: ["38C158FA58C71044"]
+			icon: {
+				id: "avaritia:infinity_ingot"
+			}
+			icon_scale: 0.95d
+			id: "71B7BE8590A5D63F"
+			rewards: [{
+				auto: "enabled"
+				id: "756E711954543A04"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5298C9B69AB6E3F2"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -30.313d
+			y: 1.249d
+		}
+		{
+			dependencies: [
+				"4149EA2F03FF155B"
+				"71B7BE8590A5D63F"
+			]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "2848D9B57B26DB72"
+			rewards: [{
+				auto: "enabled"
+				id: "1CBCFA7826408633"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "703A8744C3CEC8C7"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: -29.294d
+			y: 3.006d
+		}
+		{
+			dependencies: ["2848D9B57B26DB72"]
+			icon: {
+				id: "gtceu:uv_lapotronic_battery"
+			}
+			icon_scale: 0.92d
+			id: "7E25D2E8B8104F74"
+			rewards: [{
+				auto: "enabled"
+				id: "3F720E28D299FE15"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3901404FB7DAE5E9"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -27.281d
+			y: 4.458d
+		}
+		{
+			dependencies: ["7E25D2E8B8104F74"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			icon_scale: 0.92d
+			id: "0F28D3D80B0C8D2E"
+			rewards: [{
+				auto: "enabled"
+				id: "2358D358E479CA8A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5249B55FF7485DAA"
+					item: { count: 1, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "256EE8DC5FF573FE"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+			]
+			x: 13.575d
+			y: 32.054d
+		}
+		{
+			dependencies: ["0863C18CB67C4313"]
+			icon: {
+				id: "avaritia:infinity_nugget"
+			}
+			icon_scale: 0.92d
+			id: "7A4B49F04CAE7CC8"
+			rewards: [{
+				auto: "enabled"
+				id: "0392966E0B2E8291"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "29411AAE2CE2076B"
+					item: { count: 1, id: "avaritia:infinity_nugget" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4FF0D5B954DA9DDC"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+			]
+			x: -13.883d
+			y: 0.176d
+		}
+		{
+			dependencies: [
+				"6CB7853B2709EBB9"
+				"762AEA107E4C095D"
+				"0F28D3D80B0C8D2E"
+				"7A4B49F04CAE7CC8"
+				"416C17169F652E52"
+				"7AD7B8724B36B4C1"
+				"2DF621682A59E19E"
+				"5BE4A562ABFBD6D3"
+				"0509E9FAACA4664D"
+				"654E8F3824653BFD"
+				"0A35E553B53C11B8"
+				"2ADAFA296AF26A7A"
+				"0710BE372D3EB0CA"
+				"4410F206DA2357AB"
+				"3EF63F460CD85E45"
+			]
+			icon: {
+				id: "avaritia:infinity_totem"
+			}
+			icon_scale: 1.05d
+			id: "45A0E9B35836528D"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7F211CD1A2098D73"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F3DC28A8881A6BE"
+					item: {
+						count: 1
+						id: "avaritia:infinity_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "227FB876A53E0411"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_infinity_main"
+				"role_capstone"
+				"canonical_age_16"
+			]
+			tasks: [
+				{
+					id: "6CA46AC011C27087"
+					item: { count: 1, id: "avaritia:infinity_totem" }
+					type: "item"
+				}
+				{
+					id: "0496956C0465ADF5"
+					item: { count: 1, id: "greate:neutronium_mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 14.572d
+			y: 20.3d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			icon: {
+				id: "modern_industrialization:singularity"
+			}
+			id: "36D81E9159116003"
+			rewards: [{
+				auto: "enabled"
+				id: "1C2CE401F2C0D1DE"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "1B69C213C987F1E6"
+					item: { count: 1, id: "modern_industrialization:singularity" }
+					type: "item"
+				}
+				{
+					id: "616B6582E2E6D59B"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+			]
+			x: -10.545d
+			y: -5.069d
+		}
+		{
+			dependencies: ["36D81E9159116003"]
+			icon: {
+				id: "avaritia:infinity_nugget"
+			}
+			id: "0863C18CB67C4313"
+			rewards: [{
+				auto: "enabled"
+				id: "3C8BC0FAD4B29983"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "76E7D1E9F12D4086"
+				item: { count: 1, id: "avaritia:infinity_nugget" }
+				type: "item"
+			}]
+			x: -9.526d
+			y: -3.312d
+		}
+		{
+			dependencies: ["0863C18CB67C4313"]
+			icon: {
+				id: "modern_industrialization:quantum_circuit"
+			}
+			id: "4F4A1AA52C626C32"
+			rewards: [{
+				auto: "enabled"
+				id: "558D833763D54116"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "48D3D3EE818565E4"
+				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+				type: "item"
+			}]
+			x: -9.634d
+			y: 0.925d
+		}
+		{
+			dependencies: ["43BBCCBA296E7F07"]
+			icon: {
+				id: "modern_industrialization:helium_plasma_bucket"
+			}
+			id: "1F5BDBCAAEB1012F"
+			rewards: [{
+				auto: "enabled"
+				id: "7C285672EC38D755"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 4000
+					id: "modern_industrialization:helium_plasma"
+				}
+				id: "6C907E1CE6B01D41"
+				type: "fluid"
+			}]
+			x: 6.828d
+			y: -4.336d
+		}
+		{
+			dependencies: ["1F5BDBCAAEB1012F"]
+			icon: {
+				id: "modern_industrialization:uu_matter_bucket"
+			}
+			id: "5E86A579AC795C89"
+			rewards: [{
+				auto: "enabled"
+				id: "73102971FA36B219"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 4000
+					id: "modern_industrialization:uu_matter"
+				}
+				id: "35D8D614E3198E54"
+				type: "fluid"
+			}]
+			x: 6.901d
+			y: -6.466d
+		}
+		{
+			dependencies: ["5E86A579AC795C89"]
+			icon: {
+				id: "modern_industrialization:cryofluid_bucket"
+			}
+			id: "416C17169F652E52"
+			rewards: [{
+				auto: "enabled"
+				id: "3FCA14558BCB52B0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "modern_industrialization:cryofluid"
+				}
+				id: "09FDF6E80262B5CE"
+				type: "fluid"
+			}]
+			x: 8.081d
+			y: -8.939d
+		}
+		{
+			dependencies: ["05A227A2ADF9216A"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "7AD7B8724B36B4C1"
+			rewards: [{
+				auto: "enabled"
+				id: "31C40735F0673E39"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "avaritia:singularity/infinity_catalyst"
+				criterion: ""
+				id: "645272CAFA9F9114"
+				type: "advancement"
+			}]
+			x: 31.49d
+			y: -10.103d
+		}
+		{
+			dependencies: ["0C125A550DDD8B92"]
+			icon: {
+				id: "avaritia:infinity_ingot"
+			}
+			id: "2DF621682A59E19E"
+			rewards: [{
+				auto: "enabled"
+				id: "250B4D6C5190E6E6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "avaritia:infinity/infinity_ingot"
+				criterion: ""
+				id: "72273A414D695284"
+				type: "advancement"
+			}]
+			x: 30.94d
+			y: 17.043d
+		}
+		{
+			dependencies: ["05F403F6322AFFE5"]
+			icon: {
+				id: "avaritia:infinity_sword"
+			}
+			id: "5D81E2680262C989"
+			rewards: [{
+				auto: "enabled"
+				id: "5932B6812F9748D8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "avaritia:infinity/infinity_sword"
+				criterion: ""
+				id: "2D2777FEE2BD6520"
+				type: "advancement"
+			}]
+			x: 29.205d
+			y: 25.224d
+		}
+		{
+			dependencies: ["5D81E2680262C989"]
+			icon: {
+				id: "avaritia:eternal_singularity"
+			}
+			id: "784D0217780D9ADE"
+			rewards: [{
+				auto: "enabled"
+				id: "6A105F8138879C6F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "avaritia:singularity/eternal_singularity"
+				criterion: ""
+				id: "1A6143911167BCCE"
+				type: "advancement"
+			}]
+			x: 25.163d
+			y: 22.758d
+		}
+		{
+			dependencies: ["4F4A1AA52C626C32"]
+			icon: {
+				id: "modern_industrialization:singularity"
+			}
+			id: "5BE4A562ABFBD6D3"
+			rewards: [{
+				auto: "enabled"
+				id: "12162210E77F5797"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "333529D2330AFD41"
+					item: { count: 1, id: "modern_industrialization:singularity" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "62838B1CAFC3B374"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+			]
+			x: -9.57d
+			y: 2.903d
+		}
+		{
+			dependencies: ["0863C18CB67C4313"]
+			icon: {
+				id: "avaritia:infinity_nugget"
+			}
+			id: "0509E9FAACA4664D"
+			rewards: [{
+				auto: "enabled"
+				id: "0871722756B10AD4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "445F1993721EA844"
+					item: { count: 1, id: "avaritia:infinity_nugget" }
+					type: "item"
+				}
+				{
+					id: "2C14C87C046388BE"
+					item: { count: 1, id: "avaritia:eternal_singularity" }
+					type: "item"
+				}
+			]
+			x: -7.412d
+			y: -1.892d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			icon: {
+				id: "modern_industrialization:quantum_circuit"
+			}
+			id: "654E8F3824653BFD"
+			rewards: [{
+				auto: "enabled"
+				id: "5C2FD02DD52CB0D3"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2B9F05758F6C95D7"
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "116B919CD2F099B7"
+					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.796d
+			y: -0.41d
+		}
+		{
+			dependencies: ["784D0217780D9ADE"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "531ABE4F2C304C28"
+			rewards: [{
+				auto: "enabled"
+				id: "34EBB3F01B9D8C8E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "4B6DC73CB2BE917F"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 24.795d
+			y: 26.633d
+		}
+		{
+			dependencies: ["531ABE4F2C304C28"]
+			icon: {
+				id: "avaritia:infinity_ingot"
+			}
+			id: "0A35E553B53C11B8"
+			rewards: [{
+				auto: "enabled"
+				id: "4E1043755513BDBF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5AF760C9741F2C49"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 22.778d
+			y: 25.414d
+		}
+		{
+			dependencies: ["0EF0FC1E179BF40A"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "2ADAFA296AF26A7A"
+			rewards: [{
+				auto: "enabled"
+				id: "785063039729B4E1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3E148E6496C6DA9A"
+				max_input: 100000000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -26.271d
+			y: -6.184d
+		}
+		{
+			dependencies: ["2EB10036D72C8A2F"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "189A9AA2D3ED80A2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "334DF0E9EF132BC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18BEC86F8BF5CBCA"
+					item: {
+						count: 1
+						id: "supplementaries:statue"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "03EA3061DBDA7032"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 41.545d
+			y: -9.073d
+		}
+		{
+			dependencies: [
+				"2E386CF02CE83DF0"
+				"300A457DBD9146B1"
+				"4AE5F9C445FFDFBD"
+				"68A6CDB0993D2252"
+				"5304DDF3269944EA"
+				"210738A262D11D51"
+				"15A7E24C0064F8EF"
+				"583E29E844D34FD3"
+				"67C59FD4AC12D59A"
+				"558876074C30DD9B"
+				"189A9AA2D3ED80A2"
+				"5037787688C33B78"
+			]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			icon_scale: 1.1d
+			id: "364BA8FBDE902C63"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "62C5E8CBE12CBB05"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E6CF2FFA158272B"
+					item: {
+						count: 1
+						id: "supplementaries:pedestal"
+					}
+					type: "item"
+				}
+				{
+					id: "4690C18B200E3642"
+					item: {
+						count: 1
+						id: "modern_industrialization:wrench"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_megastructures_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "097B750FB2A1E214"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 40.629d
+			y: -6.658d
+		}
+		{
+			dependencies: [
+				"350A8D21355E26C3"
+				"05A227A2ADF9216A"
+			]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "5037787688C33B78"
+			rewards: [{
+				auto: "enabled"
+				id: "58D745509D4ECDA9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "1DEF9D80E7FBDE17"
+					max_input: 500000000L
+					type: "forge_energy"
+					value: 500000000L
+				}
+				{
+					id: "24971B96FEBAD6CD"
+					item: { count: 1, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+			]
+			x: 41.667d
+			y: -4.87d
+		}
+		{
+			dependencies: [
+				"012AB42FD633A80C"
+				"62213B4CE40ABCD5"
+				"4823A50A7A6B2AD6"
+				"032D2E661C629440"
+				"4149EA2F03FF155B"
+			]
+			icon: {
+				id: "enchanted:infinity_egg"
+			}
+			id: "01340720D08D67A4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "2E210621B0298783"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "493A3FADE3C2C54D"
+					item: {
+						count: 1
+						id: "malum:ornate_soulwood_item_pedestal"
+					}
+					type: "item"
+				}
+				{
+					id: "5C49245A3AC55F3E"
+					item: {
+						count: 1
+						id: "occultism:datura_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_arcane_research_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "511DED3655215D6D"
+				item: { count: 1, id: "enchanted:infinity_egg" }
+				type: "item"
+			}]
+			x: -11.556d
+			y: -6.812d
+		}
+		{
+			dependencies: ["543EE7788A12E303"]
+			icon: {
+				id: "shield_generators:shield_generator"
+			}
+			id: "22EEEC6BB64B443F"
+			rewards: [{
+				auto: "enabled"
+				id: "69D9A61F07F7557A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "2885B5416E33F26F"
+					item: { count: 1, id: "shield_generators:shield_generator" }
+					type: "item"
+				}
+				{
+					id: "3D48B7B289E97802"
+					item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+					type: "item"
+				}
+			]
+			x: 110.0d
+			y: -56.0d
+		}
+		{
+			dependencies: ["22EEEC6BB64B443F"]
+			icon: {
+				id: "ae2:quantum_link"
+			}
+			id: "2C6B145C7F06EA11"
+			rewards: [{
+				auto: "enabled"
+				id: "1B0FDC1078793904"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "472DF4FFC90E3B60"
+					max_input: 33554432L
+					type: "forge_energy"
+					value: 33554432L
+				}
+				{
+					id: "4D11C121E9335DE4"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: 114.0d
+			y: -56.0d
+		}
+		{
+			dependencies: ["2C6B145C7F06EA11"]
+			icon: {
+				id: "dysoncubeproject:ray_receiver_controller"
+			}
+			id: "3C708E4E73306D79"
+			rewards: [{
+				auto: "enabled"
+				id: "15BB76D803888648"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "12AF3F723BED165D"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: 118.0d
+			y: -56.0d
+		}
+		{
+			dependencies: [
+				"3C708E4E73306D79"
+				"71A1C0F5DB5A1ABE"
+				"2F2A359FCDEB76AD"
+				"7F4A860BF440D2D2"
+			]
+			icon: {
+				id: "dysoncubeproject:ray_receiver_controller"
+			}
+			id: "0710BE372D3EB0CA"
+			rewards: [{
+				auto: "enabled"
+				id: "58E9DC730FFF2BD9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_infinity_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "2FB62641D988952E"
+				max_input: 4194304L
+				type: "forge_energy"
+				value: 4194304L
+			}]
+			x: 122.0d
+			y: -56.0d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "4410F206DA2357AB"
+			rewards: [{
+				auto: "enabled"
+				id: "5A8D0AE08F2974F6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_infinity_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					id: "3A8052D24B77196A"
+					item: { count: 1, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01357FC953536FB5"
+					item: { count: 1, id: "gtceu:uxv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -53.25d
+		}
+		{
+			dependencies: [
+				"032D2E661C629440"
+				"14D56ABE98F3CD46"
+			]
+			icon: {
+				id: "adpother:diamond_vacuum_tube"
+			}
+			id: "71A1C0F5DB5A1ABE"
+			rewards: [{
+				auto: "enabled"
+				id: "5F09C809EB2C4EBE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_infinity_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "309AE564E7196814"
+					item: { count: 1, id: "adpother:diamond_vacuum_tube" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7060F1D08E92F03C"
+					item: { count: 1, id: "adpother:diamond_vacuum_bag" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39C9D0AC7D075AD5"
+					item: { count: 1, id: "adpother:diamond_respirator" }
+					type: "item"
+				}
+			]
+			x: 160.0d
+			y: -56.5d
+		}
+		{
+			dependencies: [
+				"032D2E661C629440"
+				"2D1FB3254DECE568"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uev_electric_motor"
+			}
+			id: "0B82EFAF0A5BC4B5"
+			rewards: [{
+				auto: "enabled"
+				id: "19C05B16E748724E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "79AEAD22B3FF6A0F"
+					item: { count: 1, id: "gtceu:uev_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "071B6CAF03D41F88"
+					item: { count: 1, id: "gtceu:uev_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "33FE16E86DE81201"
+					item: { count: 1, id: "gtceu:uev_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "27A8FE2E047A5304"
+					item: { count: 1, id: "gtceu:uev_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "5300CE151E8FA0A5"
+					item: { count: 1, id: "gtceu:uev_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "3637D4CBFC0FE935"
+					item: { count: 1, id: "gtceu:uev_sensor" }
+					type: "item"
+				}
+				{
+					id: "1AC50C7F7E739843"
+					item: { count: 1, id: "gtceu:uev_emitter" }
+					type: "item"
+				}
+				{
+					id: "79930D40952A11B4"
+					item: { count: 1, id: "gtceu:uev_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"0B82EFAF0A5BC4B5"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uev_electric_motor"
+			}
+			id: "0752DBE386C64C0C"
+			rewards: [{
+				auto: "enabled"
+				id: "34DDEC708B367D65"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_infinity_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "057D5A7CE05036D5"
+					item: { count: 1, id: "gtceu:uev_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78D2F2EA9CFBBE69"
+					item: { count: 1, id: "gtceu:uev_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2219233799E2F793"
+					item: { count: 1, id: "gtceu:uev_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F97B002FAC79611"
+					item: { count: 1, id: "gtceu:uev_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77DD56BF15D091D2"
+					item: { count: 1, id: "gtceu:uev_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "03A5FC66E4297D51"
+					item: { count: 1, id: "gtceu:uev_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3220447023A0EC86"
+					item: { count: 1, id: "gtceu:uev_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "56A035432158E68E"
+					item: { count: 1, id: "gtceu:uev_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 44.25d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "avaritia:eternal_singularity"
+			}
+			id: "6732A626779A066A"
+			rewards: [{
+				auto: "enabled"
+				id: "6FBE7EEBBAB6D4DC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1BC716755B612FA1"
+				item: { count: 1, id: "avaritia:eternal_singularity" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: 47.5d
+		}
+		{
+			dependencies: [
+				"6732A626779A066A"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uev_electric_motor"
+			}
+			id: "135D759EBFDF5019"
+			rewards: [{
+				auto: "enabled"
+				id: "7F3C9159EB9273F5"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "0EB37677764B5500"
+					item: { count: 1, id: "gtceu:uev_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "669D2D74A381FA91"
+					item: { count: 1, id: "gtceu:uev_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "6C92B1D4E3ECA114"
+					item: { count: 1, id: "gtceu:uev_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "705E9E41B87DB39C"
+					item: { count: 1, id: "gtceu:uev_sensor" }
+					type: "item"
+				}
+				{
+					id: "1431F481A9C72FEB"
+					item: { count: 1, id: "gtceu:uev_emitter" }
+					type: "item"
+				}
+				{
+					id: "5D30CF48F85E96D8"
+					item: { count: 1, id: "gtceu:uev_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 50.75d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uiv_electric_motor"
+			}
+			id: "04FBF658EF792751"
+			rewards: [{
+				auto: "enabled"
+				id: "60439DFD588289E1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "66DFF12EBBF441A5"
+					item: { count: 1, id: "gtceu:uiv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "10DAF71771ABFC9D"
+					item: { count: 1, id: "gtceu:uiv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "041CB20D425C44E7"
+					item: { count: 1, id: "gtceu:uiv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "792B0847513610EC"
+					item: { count: 1, id: "gtceu:uiv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "4A8165CD9EE1B853"
+					item: { count: 1, id: "gtceu:uiv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "5F07D6B5B65762CD"
+					item: { count: 1, id: "gtceu:uiv_sensor" }
+					type: "item"
+				}
+				{
+					id: "24B9619BC2FB4490"
+					item: { count: 1, id: "gtceu:uiv_emitter" }
+					type: "item"
+				}
+				{
+					id: "2BEE4FFBA624BB24"
+					item: { count: 1, id: "gtceu:uiv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 54.0d
+		}
+		{
+			dependencies: [
+				"04FBF658EF792751"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uiv_electric_motor"
+			}
+			id: "1172ACBAAE690A02"
+			rewards: [{
+				auto: "enabled"
+				id: "317ED95BFBC9E4B0"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_infinity_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "43FED58A749FDC9E"
+					item: { count: 1, id: "gtceu:uiv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19FCF06A3126FC39"
+					item: { count: 1, id: "gtceu:uiv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "25442D05C1D25023"
+					item: { count: 1, id: "gtceu:uiv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B17884A1E38991D"
+					item: { count: 1, id: "gtceu:uiv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39C96E2AA5DF0721"
+					item: { count: 1, id: "gtceu:uiv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C26A9C85E9A7905"
+					item: { count: 1, id: "gtceu:uiv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DCF4529E8E31A25"
+					item: { count: 1, id: "gtceu:uiv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "181C927D025878EE"
+					item: { count: 1, id: "gtceu:uiv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 57.25d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "avaritia:crystal_matrix"
+			}
+			id: "63DB67C204E66B16"
+			rewards: [{
+				auto: "enabled"
+				id: "6CEDA025E91E5680"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "7778C660FCCD9CDD"
+				item: { count: 1, id: "avaritia:crystal_matrix" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: 60.5d
+		}
+		{
+			dependencies: [
+				"63DB67C204E66B16"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uiv_electric_motor"
+			}
+			id: "716C59275E68C468"
+			rewards: [{
+				auto: "enabled"
+				id: "338E1B09C1F343A4"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "03F3AD072EC17350"
+					item: { count: 1, id: "gtceu:uiv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "1213AECEC6670053"
+					item: { count: 1, id: "gtceu:uiv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "44F17D51A53FD920"
+					item: { count: 1, id: "gtceu:uiv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "21419F27F4D3BDCF"
+					item: { count: 1, id: "gtceu:uiv_sensor" }
+					type: "item"
+				}
+				{
+					id: "77EBC5DAF3AD3541"
+					item: { count: 1, id: "gtceu:uiv_emitter" }
+					type: "item"
+				}
+				{
+					id: "38012881C3AFD061"
+					item: { count: 1, id: "gtceu:uiv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 63.75d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uxv_electric_motor"
+			}
+			id: "4D38F4D5DF1E18E5"
+			rewards: [{
+				auto: "enabled"
+				id: "218B1D0B067D5873"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "2FE83802128861C8"
+					item: { count: 1, id: "gtceu:uxv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "6B3CDA240105409C"
+					item: { count: 1, id: "gtceu:uxv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "1E3A002EBF58A3C1"
+					item: { count: 1, id: "gtceu:uxv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "1A1C352BA9FD3A47"
+					item: { count: 1, id: "gtceu:uxv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "10CF9CABF1897A19"
+					item: { count: 1, id: "gtceu:uxv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "29FFA7F3D7BEDB33"
+					item: { count: 1, id: "gtceu:uxv_sensor" }
+					type: "item"
+				}
+				{
+					id: "37B66D0E8F1417C8"
+					item: { count: 1, id: "gtceu:uxv_emitter" }
+					type: "item"
+				}
+				{
+					id: "645AE1473ADEAFAA"
+					item: { count: 1, id: "gtceu:uxv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 67.0d
+		}
+		{
+			dependencies: [
+				"4D38F4D5DF1E18E5"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uxv_electric_motor"
+			}
+			id: "65F2B32C49A15B81"
+			rewards: [{
+				auto: "enabled"
+				id: "5B3E475717C50185"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_infinity_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "064D16EE04B2616F"
+					item: { count: 1, id: "gtceu:uxv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "235782D0FD588D4C"
+					item: { count: 1, id: "gtceu:uxv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11B32B8017CA3D90"
+					item: { count: 1, id: "gtceu:uxv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1DD1FFE93258C4B8"
+					item: { count: 1, id: "gtceu:uxv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7EB914368CE13150"
+					item: { count: 1, id: "gtceu:uxv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D70E611BF25A95C"
+					item: { count: 1, id: "gtceu:uxv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "481F1D84CB079A03"
+					item: { count: 1, id: "gtceu:uxv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BDDF67DC9295E00"
+					item: { count: 1, id: "gtceu:uxv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 70.25d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "48D6B9E825B938DD"
+			rewards: [{
+				auto: "enabled"
+				id: "14D62E3C6418CCBB"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "09AC8373B5F9F88A"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: 73.5d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:uxv_electric_motor"
+			}
+			id: "5BE6ABA8A135CE85"
+			rewards: [{
+				auto: "enabled"
+				id: "12A03121192E37A5"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "7BD2A379744E35AC"
+					item: { count: 1, id: "gtceu:uxv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "457F0CB8D9D81B40"
+					item: { count: 1, id: "gtceu:uxv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "4DEDCC26A721A106"
+					item: { count: 1, id: "gtceu:uxv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "3E0AE9A8756531E6"
+					item: { count: 1, id: "gtceu:uxv_sensor" }
+					type: "item"
+				}
+				{
+					id: "629DCC94BE9684A9"
+					item: { count: 1, id: "gtceu:uxv_emitter" }
+					type: "item"
+				}
+				{
+					id: "4F5857BE7549E09F"
+					item: { count: 1, id: "gtceu:uxv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 76.75d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:opv_electric_motor"
+			}
+			id: "3288265373F0F72C"
+			rewards: [{
+				auto: "enabled"
+				id: "47960ECCB68CCCFF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "7C7F03DFD80FD66E"
+					item: { count: 1, id: "gtceu:opv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "38EB122976299967"
+					item: { count: 1, id: "gtceu:opv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "00E8EBD911242133"
+					item: { count: 1, id: "gtceu:opv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "4031BE973EE844C4"
+					item: { count: 1, id: "gtceu:opv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "77FCB80A9A2E74B3"
+					item: { count: 1, id: "gtceu:opv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "5864DB32EB7C6B6F"
+					item: { count: 1, id: "gtceu:opv_sensor" }
+					type: "item"
+				}
+				{
+					id: "16A15F7F7D7CF2F5"
+					item: { count: 1, id: "gtceu:opv_emitter" }
+					type: "item"
+				}
+				{
+					id: "6DAD82999F57636B"
+					item: { count: 1, id: "gtceu:opv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 80.0d
+		}
+		{
+			dependencies: [
+				"3288265373F0F72C"
+				"032D2E661C629440"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:opv_electric_motor"
+			}
+			id: "254C599EED2425EA"
+			rewards: [{
+				auto: "enabled"
+				id: "01E230C6C992AA00"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_infinity_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0300042198103C4A"
+					item: { count: 1, id: "gtceu:opv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "504906E9B9988797"
+					item: { count: 1, id: "gtceu:opv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65A83B4EEBB065E2"
+					item: { count: 1, id: "gtceu:opv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0EBE1A989D47B63A"
+					item: { count: 1, id: "gtceu:opv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FCCB05B00E04B78"
+					item: { count: 1, id: "gtceu:opv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EED1407289E0161"
+					item: { count: 1, id: "gtceu:opv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "181848D8BAA72732"
+					item: { count: 1, id: "gtceu:opv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11EE111769D7103C"
+					item: { count: 1, id: "gtceu:opv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 83.25d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "avaritia:infinity_catalyst"
+			}
+			id: "1C0958F6F78A3138"
+			rewards: [{
+				auto: "enabled"
+				id: "124A4D3CA31632EC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6DFEC18D4D31ADE4"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: 86.5d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:opv_electric_motor"
+			}
+			id: "05E1344D8F7B9045"
+			rewards: [{
+				auto: "enabled"
+				id: "3F8C650C9E321C5E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "439855AE1D79A67E"
+					item: { count: 1, id: "gtceu:opv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "091A8503B2D46A53"
+					item: { count: 1, id: "gtceu:opv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "0A32343DA0A3DCC3"
+					item: { count: 1, id: "gtceu:opv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "00A7834ACD143B28"
+					item: { count: 1, id: "gtceu:opv_sensor" }
+					type: "item"
+				}
+				{
+					id: "0DC9E33851B76998"
+					item: { count: 1, id: "gtceu:opv_emitter" }
+					type: "item"
+				}
+				{
+					id: "55FCD6CAE191AC9D"
+					item: { count: 1, id: "gtceu:opv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: 89.75d
+		}
+		{
+			dependencies: [
+				"032D2E661C629440"
+				"2C12DE4579FD8529"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:watch_of_flowing_time"
+			}
+			id: "1DB8AD4EA3D6812D"
+			rewards: [{
+				auto: "enabled"
+				id: "07825C56CF7DA46C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1120CE6DA3D71573"
+				item: { count: 1, id: "projecte:watch_of_flowing_time" }
+				type: "item"
+			}]
+			x: 194.0d
+			y: -46.75d
+		}
+		{
+			dependencies: [
+				"032D2E661C629440"
+				"1DB8AD4EA3D6812D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:transmutation_table"
+			}
+			id: "21D3F7925C1B3312"
+			rewards: [{
+				auto: "enabled"
+				id: "5378616741C0E40F"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "361316D0F905D687"
+					item: { count: 1, id: "projecte:transmutation_table" }
+					type: "item"
+				}
+				{
+					id: "0E46C58160C8EA68"
+					item: { count: 1, id: "projecte:collector_mk1" }
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "76436661EB425DEB"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 194.0d
+			y: -43.5d
+		}
+		{
+			dependencies: [
+				"032D2E661C629440"
+				"6E1EA6986E9B62DA"
+				"01340720D08D67A4"
+			]
+			icon: {
+				id: "justdirethings:time_wand"
+			}
+			id: "3EF63F460CD85E45"
+			rewards: [{
+				auto: "enabled"
+				id: "7A736D11294AA597"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_target"
+			size: 2.1d
+			tags: [
+				"theme_infinity_capstone"
+				"role_required"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "281024DBC06AD999"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: 244.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:upgrade_flight"
+			}
+			id: "3A2264BC544654D7"
+			rewards: [{
+				auto: "enabled"
+				id: "474BD5CA825FA390"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_infinity_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "588C2C7EA2DF9638"
+				item: { count: 1, id: "justdirethings:upgrade_flight" }
+				type: "item"
+			}]
+			x: 244.0d
+			y: -7.75d
+		}
+		{
+			dependencies: ["032D2E661C629440"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:opv_field_generator"
+			}
+			id: "2AB885EE7230A012"
+			rewards: [{
+				auto: "enabled"
+				id: "406E6594B3E7FF2A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_infinity_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "2538F75729C5E7AB"
+					item: { count: 1, id: "gtceu:opv_field_generator" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6449F175477B3DDF"
+					item: { count: 1, id: "justdirethings:time_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6CBBB53009168E62"
+					item: { count: 1, id: "oritech:still_strange_matter_bucket" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "71FB4214325D4B33"
+					item: { count: 1, id: "electroenergetics:sulfur_hexafluoride_breaker" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -4.5d
+		}
+	]
+	tags: ["theme_infinity_chapter"]
+}

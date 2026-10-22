@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "createch2:chemical_salt"
+    },
+    {
+      "tag": "createch2:chemical_salt"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "tfc:any_fresh_water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "chemica:brine"
+    }
+  ]
+}

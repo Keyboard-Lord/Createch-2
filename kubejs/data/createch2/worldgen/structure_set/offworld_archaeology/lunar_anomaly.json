@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "createch2:offworld_archaeology/lunar_anomaly",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20770211,
+    "spacing": 48,
+    "separation": 32
+  }
+}

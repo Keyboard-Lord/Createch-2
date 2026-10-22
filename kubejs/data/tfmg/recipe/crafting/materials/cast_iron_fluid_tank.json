@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:barrel"
+      },
+      {
+        "tag": "c:barrels/wooden"
+      }
+    ],
+    "P": {
+      "tag": "c:plates/cast_iron"
+    }
+  },
+  "pattern": [
+    " P ",
+    " B ",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tfmg:cast_iron_fluid_tank"
+  }
+}

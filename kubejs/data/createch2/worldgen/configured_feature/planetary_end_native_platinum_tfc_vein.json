@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 92,
+    "min_y": -24,
+    "max_y": 40,
+    "size": 24,
+    "density": 0.34,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:end_stone"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_native_platinum/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_platinum/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/rich_native_platinum/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 18,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 44,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_platinum"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_end_native_platinum_tfc_vein"
+  }
+}

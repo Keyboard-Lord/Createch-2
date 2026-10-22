@@ -1,0 +1,1700 @@
+{
+	autofocus_id: "023F6BB2D31155A8"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_08_age_07_first_space"
+	group: "0A85000000000004"
+	id: "034647BE41128B91"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "1881752EBD35D506"
+		image: "createch2:textures/quests/chapter_icons/first_space.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [
+		{
+			id: "0822000000000009"
+			linked_quest: "0764F8C5D0DAC768"
+			shape: "rsquare"
+			size: 1.35d
+			x: 45.37d
+			y: -25.971d
+		}
+		{
+			id: "0822000000000013"
+			linked_quest: "077A010000000001"
+			shape: "rsquare"
+			size: 1.15d
+			x: -23.948d
+			y: -11.124d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"00E84A6CCFFC95F4"
+				"408FCBE8C6059DC5"
+				"5F76C355880F605C"
+			]
+			icon: {
+				id: "stellaris:rocket_launch_pad"
+			}
+			id: "023F6BB2D31155A8"
+			rewards: [{
+				auto: "enabled"
+				id: "73175727A4800059"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 3.25d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "060F1DAD95456C90"
+				item: { count: 1, id: "stellaris:rocket_launch_pad" }
+				type: "item"
+			}]
+			x: 41.17d
+			y: -25.971d
+		}
+		{
+			dependencies: ["023F6BB2D31155A8"]
+			icon: {
+				id: "stellaris:fuel_refinery"
+			}
+			id: "05F7ABD1605BA3AB"
+			rewards: [{
+				auto: "enabled"
+				id: "5FB94FA826F017D5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "053CF5AC70938D57"
+				item: { count: 1, id: "stellaris:fuel_refinery" }
+				type: "item"
+			}]
+			x: -13.795d
+			y: -11.124d
+		}
+		{
+			dependencies: ["05F7ABD1605BA3AB"]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			id: "04EDCB87A68F7B52"
+			rewards: [{
+				auto: "enabled"
+				id: "2BEF1CAF747A344E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "04BD1BA042D1AEE2"
+				item: { count: 1, id: "stellaris:oxygen_tank" }
+				type: "item"
+			}]
+			x: -30.296d
+			y: -17.316d
+		}
+		{
+			dependencies: ["04EDCB87A68F7B52"]
+			icon: {
+				id: "stellaris:rocket"
+			}
+			id: "05A7D004C02A22B2"
+			rewards: [{
+				auto: "enabled"
+				id: "2E82F630B23598E6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "6741C5C90CB9A0DF"
+					item: { count: 1, id: "stellaris:rocket_station" }
+					type: "item"
+				}
+				{
+					id: "0FD06E9F788E04EF"
+					item: { count: 1, id: "stellaris:rocket" }
+					type: "item"
+				}
+			]
+			x: -36.953d
+			y: -19.511d
+		}
+		{
+			dependencies: ["05A7D004C02A22B2"]
+			icon: {
+				id: "stellaris:raw_desh_ingot"
+			}
+			id: "06D83DFD0A495597"
+			rewards: [{
+				auto: "enabled"
+				id: "58367A6CF4890A48"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "02EFD8FB9D7C8772"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+				{
+					advancement: "createch2:campaign/returned_moon_cargo"
+					criterion: ""
+					id: "0BDFF2173A341DEA"
+					type: "advancement"
+				}
+			]
+			x: -43.965d
+			y: -18.334d
+		}
+		{
+			dependencies: ["06D83DFD0A495597"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 1.05d
+			id: "09B0371253FF1CA0"
+			rewards: [{
+				auto: "enabled"
+				id: "5666FA7749B5270B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_first_space_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "09C6875CC6CC245A"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 7.249d
+			y: 3.362d
+		}
+		{
+			dependencies: ["05F7ABD1605BA3AB"]
+			icon: {
+				id: "stellaris:rocket_launch_pad"
+			}
+			icon_scale: 0.95d
+			id: "2A5F97ADA7B3186A"
+			rewards: [{
+				auto: "enabled"
+				id: "76F4A7EEA1CD1A2A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "rocketnautics:moon"
+				id: "5EEF402EFDE27268"
+				type: "dimension"
+			}]
+			x: -20.978d
+			y: -14.094d
+		}
+		{
+			dependencies: ["05F7ABD1605BA3AB"]
+			icon: {
+				id: "stellaris:rocket_fin"
+			}
+			icon_scale: 0.95d
+			id: "71ABB3C300134014"
+			rewards: [{
+				auto: "enabled"
+				id: "67D7A7488486E85E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 4L
+				id: "3A5D668A21423E2F"
+				item: { count: 1, id: "stellaris:rocket_fin" }
+				type: "item"
+			}]
+			x: -18.325d
+			y: -14.452d
+		}
+		{
+			dependencies: ["71ABB3C300134014"]
+			icon: {
+				id: "stellaris:rocket_launch_pad"
+			}
+			icon_scale: 0.95d
+			id: "039F6290CE6208F8"
+			rewards: [{
+				auto: "enabled"
+				id: "7A1985E652717E4A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "2C12C7ECEF318EFC"
+					item: { count: 1, id: "stellaris:rocket_launch_pad" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5B55F8D3E57B109F"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+			]
+			x: -23.038d
+			y: -16.412d
+		}
+		{
+			dependencies: ["05A7D004C02A22B2"]
+			icon: {
+				id: "stellaris:fuel_bucket"
+			}
+			icon_scale: 0.95d
+			id: "17138C41AFEA7B9E"
+			rewards: [{
+				auto: "enabled"
+				id: "79871659E92E2C16"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "stellaris:fuel"
+				}
+				id: "4A8057497D11E506"
+				type: "fluid"
+			}]
+			x: -39.049d
+			y: -20.452d
+		}
+		{
+			dependencies: ["17138C41AFEA7B9E"]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			icon_scale: 0.95d
+			id: "25EE87C7D933EB2E"
+			rewards: [{
+				auto: "enabled"
+				id: "45DDDEDC76D14525"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					fluid: {
+						amount: 8000
+						id: "stellaris:fuel"
+					}
+					id: "3C7A901669DE2E92"
+					type: "fluid"
+				}
+				{
+					count: 2L
+					id: "4EC855F18BB3B114"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+				{
+					id: "6DD3E954F56FF650"
+					item: { count: 1, id: "mekanism:geiger_counter" }
+					type: "item"
+				}
+				{
+					id: "64CE3B10EE8F374A"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+			]
+			x: -41.107d
+			y: -21.386d
+		}
+		{
+			dependencies: ["09B0371253FF1CA0"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			id: "45191B308E69316A"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "31AAD0962392C164"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "24F9764C67A7718A"
+					item: {
+						count: 1
+						id: "create:light_blue_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "66E6772939D1BB49"
+					item: { count: 1, id: "stellaris:rocket_station" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5E299D67EFDC0EFC"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 6.105d
+			y: 21.375d
+		}
+		{
+			dependencies: ["023F6BB2D31155A8"]
+			icon: {
+				id: "stellaris:cable"
+			}
+			icon_scale: 0.95d
+			id: "0368DC2703C1B435"
+			rewards: [{
+				auto: "enabled"
+				id: "1AB17D24620298F5"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7858C2AD02AC6625"
+				item: { count: 1, id: "stellaris:cable" }
+				type: "item"
+			}]
+			x: 1.852d
+			y: -9.174d
+		}
+		{
+			dependencies: ["05A7D004C02A22B2"]
+			icon: {
+				id: "stellaris:fuel_refinery"
+			}
+			icon_scale: 0.95d
+			id: "5DEA47ABCA50B93A"
+			rewards: [{
+				auto: "enabled"
+				id: "155989AEE8EB3A4A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6C584C4128291F47"
+				item: { count: 1, id: "stellaris:fuel_refinery" }
+				type: "item"
+			}]
+			x: 36.796d
+			y: -27.727d
+		}
+		{
+			dependencies: ["71ABB3C300134014"]
+			icon: {
+				id: "stellaris:raw_desh_ingot"
+			}
+			icon_scale: 0.95d
+			id: "6500CB38EE19DEA1"
+			rewards: [{
+				auto: "enabled"
+				id: "70175E6CF586AC18"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "452F7A6C3E617A9D"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20CE1C0EC2BF0B8A"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+			]
+			x: -20.414d
+			y: -16.768d
+		}
+		{
+			dependencies: ["5DEA47ABCA50B93A"]
+			icon: {
+				id: "stellaris:rocket_engine"
+			}
+			icon_scale: 0.95d
+			id: "604CF5DB4D097AAB"
+			rewards: [{
+				auto: "enabled"
+				id: "4308420470234D5D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "31B9E37466A05E69"
+				item: { count: 1, id: "stellaris:rocket_engine" }
+				type: "item"
+			}]
+			x: 39.126d
+			y: -27.437d
+		}
+		{
+			dependencies: ["25EE87C7D933EB2E"]
+			icon: {
+				id: "stellaris:rocket_engine"
+			}
+			icon_scale: 0.95d
+			id: "7BF834462C225706"
+			rewards: [{
+				auto: "enabled"
+				id: "12F0E16C11C06159"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 2L
+				id: "4C7F128AAF8C1476"
+				item: { count: 1, id: "stellaris:rocket_engine" }
+				type: "item"
+			}]
+			x: -43.126d
+			y: -22.313d
+		}
+		{
+			dependencies: ["7BF834462C225706"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 0.95d
+			id: "252EFD4B7FAF18D9"
+			rewards: [{
+				auto: "enabled"
+				id: "677CB0CA47EB555C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "5DDA77BCD0749C8F"
+				max_input: 100000L
+				type: "forge_energy"
+				value: 100000L
+			}]
+			x: -45.106d
+			y: -23.233d
+		}
+		{
+			dependencies: [
+				"604CF5DB4D097AAB"
+				"252EFD4B7FAF18D9"
+			]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			id: "4B7729800DEBB41C"
+			rewards: [{
+				auto: "enabled"
+				id: "6B9BD4F3D7D3256D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6250B7E1E12922F7"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 45.106d
+			y: -33.661d
+		}
+		{
+			dependencies: ["4B7729800DEBB41C"]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.92d
+			id: "49B7D2652BAD0ADC"
+			rewards: [{
+				auto: "enabled"
+				id: "576D19FDF9B23C6C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "72EB99BF2EDA3A70"
+				item: { count: 1, id: "stellaris:big_oxygen_tank" }
+				type: "item"
+			}]
+			x: 30.904d
+			y: 33.661d
+		}
+		{
+			dependencies: ["49B7D2652BAD0ADC"]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			icon_scale: 0.92d
+			id: "57D3A8EFB1884828"
+			rewards: [{
+				auto: "enabled"
+				id: "0F266BAD171702C5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "58C8A5BD80B91D7F"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 8000
+						id: "stellaris:fuel"
+					}
+					id: "3BE0C6249C3400DA"
+					type: "fluid"
+				}
+			]
+			x: 22.148d
+			y: 30.193d
+		}
+		{
+			dependencies: ["57D3A8EFB1884828"]
+			icon: {
+				id: "stellaris:fuel_bucket"
+			}
+			icon_scale: 0.92d
+			id: "469CFA1185CB3E29"
+			rewards: [{
+				auto: "enabled"
+				id: "0F8B8A10B4D131CB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "stellaris:fuel"
+				}
+				id: "288EC6039549B7D4"
+				type: "fluid"
+			}]
+			x: 24.639d
+			y: 29.901d
+		}
+		{
+			dependencies: [
+				"45191B308E69316A"
+				"49B7D2652BAD0ADC"
+				"1C9A44B11C45964D"
+				"05A7D004C02A22B2"
+				"06D83DFD0A495597"
+				"2A5F97ADA7B3186A"
+			]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 1.1d
+			id: "48BC476A8330C289"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6E7E378AD8DDF517"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1E5EF3E43CAE9F7E"
+					item: {
+						count: 1
+						id: "stellaris:moon_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "5C09ED8B56BFFE2B"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "3EFA76122D932EBC"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_first_space_capstone"
+				"role_capstone"
+				"canonical_age_07"
+			]
+			tasks: [{
+				id: "4F29B61890017E83"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 27.094d
+			y: 29.6d
+		}
+		{
+			dependencies: ["023F6BB2D31155A8"]
+			icon: {
+				id: "stellaris:rocket_engine"
+			}
+			id: "28CD20189A4E3F81"
+			rewards: [{
+				auto: "enabled"
+				id: "0AB201ED67BAF3D1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "03CB64889773A154"
+					item: { count: 1, id: "stellaris:rocket_engine" }
+					type: "item"
+				}
+				{
+					id: "61D846EA6192B737"
+					item: { count: 1, id: "stellaris:oxygen_tank" }
+					type: "item"
+				}
+			]
+			x: 15.386d
+			y: 2.283d
+		}
+		{
+			dependencies: ["28CD20189A4E3F81"]
+			icon: {
+				id: "stellaris:rocket_fin"
+			}
+			id: "5FF3ADE6863D1D7B"
+			rewards: [{
+				auto: "enabled"
+				id: "116778F490BB7D17"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "19E24E90885D3728"
+					item: { count: 1, id: "stellaris:rocket_fin" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "144D274E870ECB7F"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 22.444d
+			y: 5.255d
+		}
+		{
+			dependencies: ["5FF3ADE6863D1D7B"]
+			icon: {
+				id: "stellaris:rover"
+			}
+			id: "38B253E7DD415551"
+			rewards: [{
+				auto: "enabled"
+				id: "5825510C8BF6F927"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4EC46C610BD4950D"
+				item: { count: 1, id: "stellaris:rover" }
+				type: "item"
+			}]
+			x: 24.737d
+			y: 6.237d
+		}
+		{
+			dependencies: ["28CD20189A4E3F81"]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			icon_scale: 0.96d
+			id: "2136CD6D3D18274E"
+			rewards: [{
+				auto: "enabled"
+				id: "03E179DE64EAB33F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "rocketnautics:lunar_maria"
+				id: "1C19E7EC041E5095"
+				type: "biome"
+			}]
+			x: 17.91d
+			y: 2.598d
+		}
+		{
+			dependencies: ["2136CD6D3D18274E"]
+			icon: {
+				id: "stellaris:raw_desh_ingot"
+			}
+			icon_scale: 0.96d
+			id: "22A6CF8F657A9E97"
+			rewards: [{
+				auto: "enabled"
+				id: "513FA83F5076562D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				biome: "rocketnautics:lunar_aged_chasm"
+				id: "78B87B54213FDAF9"
+				type: "biome"
+			}]
+			x: 20.263d
+			y: 3.589d
+		}
+		{
+			dependencies: ["38B253E7DD415551"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 0.96d
+			id: "16F421FFEF690AA7"
+			rewards: [{
+				auto: "enabled"
+				id: "61099CF1AF5F5590"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "10913D97ACB84A60"
+				structure: "stellaris:moon_dungeon"
+				type: "structure"
+			}]
+			x: 27.139d
+			y: 6.536d
+		}
+		{
+			dependencies: ["0368DC2703C1B435"]
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			icon_scale: 0.96d
+			id: "12EEC49CE6043572"
+			rewards: [{
+				auto: "enabled"
+				id: "7651908EA7F06A19"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:diesel"
+				}
+				id: "338DA9DFB5F02C24"
+				type: "fluid"
+			}]
+			x: 4.329d
+			y: -8.171d
+		}
+		{
+			dependencies: ["12EEC49CE6043572"]
+			icon: {
+				id: "stellaris:fuel_bucket"
+			}
+			icon_scale: 0.96d
+			id: "74A38055C1A9013C"
+			rewards: [{
+				auto: "enabled"
+				id: "5155F4A8EA02E310"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "stellaris:fuel"
+				}
+				id: "632818001B9E8C3B"
+				type: "fluid"
+			}]
+			x: 6.8d
+			y: -7.169d
+		}
+		{
+			dependencies: ["74A38055C1A9013C"]
+			icon: {
+				id: "modern_industrialization:oxygen_bucket"
+			}
+			icon_scale: 0.98d
+			id: "382186E1F4A9D617"
+			rewards: [{
+				auto: "enabled"
+				id: "2437ABBC1D569D38"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "modern_industrialization:oxygen"
+				}
+				id: "1A338791FAC9035D"
+				type: "fluid"
+			}]
+			x: -0.771d
+			y: -9.501d
+		}
+		{
+			dependencies: ["74A38055C1A9013C"]
+			icon: {
+				id: "stellaris:heavy_metal_ingot"
+			}
+			icon_scale: 0.96d
+			id: "52F8B4EB40801EDA"
+			rewards: [{
+				auto: "enabled"
+				id: "00633E2D992FD079"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "stellaris:alien_zombie"
+				id: "57BA3AE739ECCFE1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.402d
+			y: -6.844d
+		}
+		{
+			dependencies: ["52F8B4EB40801EDA"]
+			icon: {
+				id: "stellaris:moon_stone_dust"
+			}
+			icon_scale: 0.98d
+			id: "138DBB3F19366FA5"
+			rewards: [{
+				auto: "enabled"
+				id: "73689817B2A651EF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [{
+				entity: "stellaris:star_crawler"
+				id: "45AD88B013088F54"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.99d
+			y: -6.522d
+		}
+		{
+			dependencies: ["138DBB3F19366FA5"]
+			icon: {
+				id: "stellaris:desh_ingot"
+			}
+			icon_scale: 0.96d
+			id: "3ABCE5F82A286363"
+			rewards: [{
+				auto: "enabled"
+				id: "35CDE7BA91F7B6A5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				entity: "stellaris:alien"
+				id: "7F4F8AEF6CB8C74E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.837d
+			y: 1.966d
+		}
+		{
+			dependencies: ["6500CB38EE19DEA1"]
+			icon: {
+				id: "stellaris:rocket"
+			}
+			icon_scale: 0.96d
+			id: "0F4EF8A7EE0ED6CD"
+			rewards: [{
+				auto: "enabled"
+				id: "132AB76D4DBD049D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "stellaris:rocket"
+				criterion: ""
+				id: "3F8E958C46CFA654"
+				type: "advancement"
+			}]
+			x: -14.807d
+			y: -18.784d
+		}
+		{
+			dependencies: ["6500CB38EE19DEA1"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 0.96d
+			id: "49E216A9E87A2295"
+			rewards: [{
+				auto: "enabled"
+				id: "657D806E29284920"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "stellaris:rocket_station"
+				criterion: ""
+				id: "0F669D4E9EC78C07"
+				type: "advancement"
+			}]
+			x: -22.757d
+			y: -17.742d
+		}
+		{
+			dependencies: ["023F6BB2D31155A8"]
+			icon: {
+				id: "stellaris:moon_sand"
+			}
+			icon_scale: 0.96d
+			id: "5FCF62A158490A1A"
+			rewards: [{
+				auto: "enabled"
+				id: "7FAE5EC3D1BDDC65"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_space_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "stellaris:moon_land"
+				criterion: ""
+				id: "38030DFE57FD8195"
+				type: "advancement"
+			}]
+			x: -8.62d
+			y: -10.479d
+		}
+		{
+			dependencies: ["38B253E7DD415551"]
+			icon: {
+				id: "stellaris:rocket_engine"
+			}
+			id: "1C9A44B11C45964D"
+			rewards: [{
+				auto: "enabled"
+				id: "6C9E6D29F89EA414"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_space_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "58661B02686679D6"
+					item: { count: 1, id: "stellaris:rocket_engine" }
+					type: "item"
+				}
+				{
+					id: "1E887A2AF2F9B26A"
+					item: { count: 1, id: "stellaris:rocket_fin" }
+					type: "item"
+				}
+			]
+			x: 29.22d
+			y: 8.184d
+		}
+		{
+			dependencies: ["023F6BB2D31155A8"]
+			icon: {
+				id: "stellaris:rocket_fin"
+			}
+			icon_scale: 0.98d
+			id: "7B8719374610E88F"
+			rewards: [{
+				auto: "enabled"
+				id: "34F93FEBD2EA9889"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "70B8E763C1273DED"
+					item: { count: 1, id: "stellaris:rocket_fin" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5EEDC457AE9535E9"
+					item: { count: 1, id: "stellaris:raw_desh_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.394d
+			y: -9.828d
+		}
+		{
+			dependencies: ["7B8719374610E88F"]
+			icon: {
+				id: "stellaris:raw_desh_ingot"
+			}
+			icon_scale: 0.98d
+			id: "26FFE1882978622D"
+			rewards: [{
+				auto: "enabled"
+				id: "2AEF638C8B31E3F6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_space_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "02C4A15A91089EA8"
+				item: { count: 1, id: "stellaris:raw_desh_ingot" }
+				type: "item"
+			}]
+			x: -6.011d
+			y: -10.154d
+		}
+		{
+			dependencies: ["45191B308E69316A"]
+			icon: {
+				id: "stellaris:rocket_launch_pad"
+			}
+			id: "75ED4F2F7CFFA8A2"
+			rewards: [{
+				auto: "enabled"
+				id: "66D789568EFB19CF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "48D80A0DE6BA737B"
+				item: { count: 1, id: "stellaris:rocket_launch_pad" }
+				type: "item"
+			}]
+			x: -1.302d
+			y: 18.524d
+		}
+		{
+			dependencies: ["75ED4F2F7CFFA8A2"]
+			icon: {
+				id: "stellaris:rocket"
+			}
+			icon_scale: 0.96d
+			id: "5E3F772C7739928D"
+			rewards: [{
+				auto: "enabled"
+				id: "3137D8C901E8182F"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "2BD8CB8471CD67E8"
+				item: { count: 1, id: "stellaris:rocket" }
+				type: "item"
+			}]
+			x: -1.015d
+			y: 4.417d
+		}
+		{
+			dependencies: ["75ED4F2F7CFFA8A2"]
+			icon: {
+				id: "stellaris:fuel_bucket"
+			}
+			id: "5EEBD2C60D7D028F"
+			rewards: [{
+				auto: "enabled"
+				id: "4AF853BB8CD62311"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "stellaris:fuel"
+				}
+				id: "6078AE6E9FA3463D"
+				type: "fluid"
+			}]
+			x: -8.495d
+			y: 14.355d
+		}
+		{
+			dependencies: ["5EEBD2C60D7D028F"]
+			icon: {
+				id: "stellaris:oxygen_tank"
+			}
+			icon_scale: 0.98d
+			id: "293D94FDFB653C67"
+			rewards: [{
+				auto: "enabled"
+				id: "1B4E0796AA672183"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_space_race_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "32FD127D6A3280D3"
+				item: { count: 1, id: "stellaris:oxygen_tank" }
+				type: "item"
+			}]
+			x: -10.148d
+			y: 9.458d
+		}
+		{
+			dependencies: ["293D94FDFB653C67"]
+			icon: {
+				id: "stellaris:desh_plating_block"
+			}
+			icon_scale: 0.96d
+			id: "19CA3FCDD6FF44DC"
+			rewards: [{
+				auto: "enabled"
+				id: "218AE45BE207E953"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "196BC1443DE17ACE"
+				item: { count: 1, id: "stellaris:desh_plating_block" }
+				type: "item"
+			}]
+			x: -12.617d
+			y: 8.471d
+		}
+		{
+			dependencies: ["5E3F772C7739928D"]
+			icon: {
+				id: "stellaris:rocket"
+			}
+			icon_scale: 0.95d
+			id: "05E487281942D4A6"
+			rewards: [{
+				auto: "enabled"
+				id: "1427F610FC473A6F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "stellaris:mars"
+				id: "7F66CCE47AE26F12"
+				type: "dimension"
+			}]
+			x: 4.504d
+			y: 3.716d
+		}
+		{
+			dependencies: ["5EEBD2C60D7D028F"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			icon_scale: 0.95d
+			id: "1C8D795AC23565E5"
+			rewards: [{
+				auto: "enabled"
+				id: "17DBB1D26397DF9A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_space_race_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "1BFEBE1B3E233EC4"
+				stat: "minecraft:open_chest"
+				type: "stat"
+				value: 25
+			}]
+			x: -15.907d
+			y: 11.436d
+		}
+		{
+			dependencies: ["1C8D795AC23565E5"]
+			icon: {
+				id: "stellaris:fuel_module"
+			}
+			icon_scale: 0.95d
+			id: "1AFAEEC008E29AB2"
+			rewards: [{
+				auto: "enabled"
+				id: "18EA6C5D01B1AD2E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_space_race_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "0347DE8116B90147"
+				item: { count: 1, id: "stellaris:fuel_module" }
+				type: "item"
+			}]
+			x: -18.349d
+			y: 10.461d
+		}
+		{
+			dependencies: ["19CA3FCDD6FF44DC"]
+			icon: {
+				id: "rocketnautics:thruster_mount"
+			}
+			icon_scale: 0.95d
+			id: "5AEC2B2E137549DE"
+			rewards: [{
+				auto: "enabled"
+				id: "1395B2FD7749DDD6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_space_race_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "726EBF28476C4015"
+					item: { count: 1, id: "rocketnautics:thruster_mount" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5366F3BA78766C8D"
+					item: { count: 1, id: "stellaris:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: -17.512d
+			y: 6.496d
+		}
+		{
+			dependencies: ["5AEC2B2E137549DE"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 0.94d
+			id: "4D515BC3F0AB3A28"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1255922630DBC9AF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3121BF6AC00B99B2"
+					item: {
+						count: 1
+						id: "waterflasks:iron_flask"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_space_race_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "6A83C1082F31A0A3"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: -14.792d
+			y: 6.15d
+		}
+		{
+			dependencies: ["75ED4F2F7CFFA8A2"]
+			icon: {
+				id: "stellaris:big_oxygen_tank"
+			}
+			icon_scale: 0.95d
+			id: "2A035AA4688AC1DC"
+			rewards: [{
+				auto: "enabled"
+				id: "0652214BE9CD36BE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_space_race_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "765382B0F4D1D929"
+				item: { count: 1, id: "stellaris:big_oxygen_tank" }
+				type: "item"
+			}]
+			x: -11.248d
+			y: 14.672d
+		}
+		{
+			dependencies: ["19CA3FCDD6FF44DC"]
+			icon: {
+				id: "stellaris:rocket_station"
+			}
+			icon_scale: 0.94d
+			id: "15A912FA31E79D23"
+			rewards: [{
+				auto: "enabled"
+				id: "375A3D67E9B1587B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_space_race_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "783562AC447CC4CE"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: -3.781d
+			y: 4.765d
+		}
+		{
+			dependencies: ["1C8D795AC23565E5"]
+			icon: {
+				id: "stellaris:desh_plating_block"
+			}
+			icon_scale: 0.95d
+			id: "77CE6D94F2134283"
+			rewards: [{
+				auto: "enabled"
+				id: "1AD6E51FF9A9AB1B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_space_race_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "094B8F3B9EE5BDC8"
+					item: { count: 1, id: "stellaris:desh_plating_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1343DC64A43F5D11"
+					item: { count: 1, id: "stellaris:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: -12.896d
+			y: 9.793d
+		}
+	]
+	tags: ["theme_first_space_chapter"]
+}

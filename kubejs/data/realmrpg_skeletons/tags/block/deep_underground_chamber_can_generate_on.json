@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:deepslate",
+      "required": false
+    },
+    {
+      "id": "#minecraft:deepslate_ore_replaceables",
+      "required": false
+    }
+  ]
+}

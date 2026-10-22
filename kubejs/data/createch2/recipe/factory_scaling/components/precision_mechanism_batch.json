@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 500,
+  "item_inputs": [
+    {
+      "item": "create:brass_sheet",
+      "amount": 4
+    },
+    {
+      "item": "greate:steel_cogwheel",
+      "amount": 4
+    },
+    {
+      "item": "greate:steel_shaft",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 250
+  },
+  "item_outputs": [
+    {
+      "item": "create:precision_mechanism",
+      "amount": 4
+    }
+  ]
+}

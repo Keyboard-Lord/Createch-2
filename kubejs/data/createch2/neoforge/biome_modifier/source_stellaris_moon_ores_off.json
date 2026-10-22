@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#createch2:moon_biomes",
+  "features": [
+    "stellaris:moon_desh_ore",
+    "stellaris:moon_ice_shard_ore",
+    "stellaris:moon_iron_ore",
+    "stellaris:moon_steel_ore"
+  ],
+  "steps": [
+    "underground_ores"
+  ]
+}

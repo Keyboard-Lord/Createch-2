@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 64,
+    "min_y": -16,
+    "max_y": 40,
+    "size": 30,
+    "density": 0.44,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:end_stone"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_wolframite/basalt"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_wolframite/basalt"
+          },
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/rich_wolframite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 40,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_wolframite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_end_wolframite_tfc_vein"
+  }
+}

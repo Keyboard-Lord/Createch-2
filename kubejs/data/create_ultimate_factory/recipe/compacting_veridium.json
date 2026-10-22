@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "create:veridium"
+    }
+  ]
+}

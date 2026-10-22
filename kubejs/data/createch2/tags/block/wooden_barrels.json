@@ -1,0 +1,89 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/barrel/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/barrel/willow",
+      "required": false
+    },
+    {
+      "id": "minecraft:barrel",
+      "required": false
+    }
+  ]
+}

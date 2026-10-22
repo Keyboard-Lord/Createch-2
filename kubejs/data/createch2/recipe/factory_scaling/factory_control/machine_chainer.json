@@ -1,0 +1,60 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 1800,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:highly_advanced_machine_hull",
+      "amount": 2
+    },
+    {
+      "item": "computercraft:computer_advanced",
+      "amount": 2
+    },
+    {
+      "item": "computercraft:cable",
+      "amount": 64
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:transformer_core",
+      "amount": 2
+    },
+    {
+      "tag": "createch2:control/factory/processing",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:current_transformer",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker",
+      "amount": 2
+    },
+    {
+      "item": "greate:stainless_steel_gearbox",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyethylene",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 2000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "extended_industrialization:machine_chainer",
+      "amount": 1
+    }
+  ]
+}

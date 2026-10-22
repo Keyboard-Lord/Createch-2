@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#createch2:tfc_structure_dry_land",
+    "#createch2:tfc_structure_flat_land"
+  ]
+}

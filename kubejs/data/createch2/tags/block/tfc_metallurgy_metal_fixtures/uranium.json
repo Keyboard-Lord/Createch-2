@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/uranium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/uranium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/uranium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/uranium",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/cobalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/cobalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/cobalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/cobalt",
+      "required": false
+    }
+  ]
+}

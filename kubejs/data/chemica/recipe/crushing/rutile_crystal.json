@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "chemica:rutile_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "chemica:rutile_dust"
+    }
+  ],
+  "processing_time": 100
+}

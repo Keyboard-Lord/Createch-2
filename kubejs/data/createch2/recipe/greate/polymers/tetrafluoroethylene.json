@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 240,
+  "duration": 480,
+  "fluid_inputs": [
+    {
+      "fluid": "gtceu:chloroform",
+      "amount": 2000
+    },
+    {
+      "fluid": "chemica:hydrofluoric_acid",
+      "amount": 4000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 6000
+    },
+    {
+      "fluid": "gtceu:tetrafluoroethylene",
+      "amount": 1000
+    }
+  ]
+}

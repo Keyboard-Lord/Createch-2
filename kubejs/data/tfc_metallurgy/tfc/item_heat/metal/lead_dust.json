@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:physical_dusts/lead"
+    }
+  ],
+  "heat_capacity": 0.227,
+  "forging_temperature": 197,
+  "welding_temperature": 262
+}

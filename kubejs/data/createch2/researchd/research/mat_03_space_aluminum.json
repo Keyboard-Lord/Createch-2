@@ -1,0 +1,79 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:aluminum_ingot"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:kinetic_data"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mat_02_brass_engineering",
+    "createch2:che_01_process_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_03_space_aluminum.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_03_space_aluminum.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:advanced_electric/mi/aluminum_from_bauxite_space_reduction",
+      "createch2:advanced_electric/mi/aluminum_from_aluminum_dust_space_reduction",
+      "createch2:research/pack/material_specimens_industrial",
+      "createch2:greate/tier_2/cogwheel",
+      "createch2:greate/tier_2/crushing_wheel",
+      "createch2:greate/tier_2/encased_fan",
+      "createch2:greate/tier_2/gearbox",
+      "createch2:greate/tier_2/horizontal_gearbox",
+      "createch2:greate/tier_2/large_cogwheel",
+      "createch2:greate/tier_2/mechanical_mixer",
+      "createch2:greate/tier_2/mechanical_press",
+      "createch2:greate/tier_2/mechanical_pump",
+      "createch2:greate/tier_2/mechanical_saw",
+      "createch2:greate/tier_2/millstone",
+      "createch2:greate/tier_2/shaft_cutting",
+      "createch2:greate/tier_2/vertical_gearbox",
+      "createch2:process_facilities/thermal/large_electric_furnace",
+      "createch2:factory_scaling/mass_processing/large_electric_macerator",
+      "createch2:factory_scaling/logistics/advanced_item_input_hatch",
+      "createch2:factory_scaling/logistics/advanced_item_output_hatch",
+      "createch2:process_facilities/transport/advanced_item_input_from_other",
+      "createch2:process_facilities/transport/advanced_item_output_from_other",
+      "createch2:tfc_geology/advanced_electric/bauxite/poor",
+      "createch2:tfc_geology/advanced_electric/bauxite/normal",
+      "createch2:tfc_geology/advanced_electric/bauxite/rich",
+      "createch2:material_recycling/tfmg_electric/electric_motor",
+      "createch2:material_recycling/greate_aluminum/aluminium_cogwheel",
+      "createch2:material_recycling/greate_aluminum/aluminium_crushing_wheel",
+      "createch2:material_recycling/greate_aluminum/aluminium_encased_fan",
+      "createch2:material_recycling/greate_aluminum/aluminium_gearbox",
+      "createch2:material_recycling/greate_aluminum/large_aluminium_cogwheel",
+      "createch2:material_recycling/greate_aluminum/aluminium_mechanical_mixer",
+      "createch2:material_recycling/greate_aluminum/aluminium_mechanical_press",
+      "createch2:material_recycling/greate_aluminum/aluminium_mechanical_pump",
+      "createch2:material_recycling/greate_aluminum/aluminium_mechanical_saw",
+      "createch2:material_recycling/greate_aluminum/aluminium_millstone",
+      "createch2:material_recycling/greate_aluminum/aluminium_shaft",
+      "createch2:material_recycling/greate_aluminum/aluminium_vertical_gearbox",
+      "createch2:material_recycling/mi_thermal/frostproof_machine_casing"
+    ]
+  }
+}

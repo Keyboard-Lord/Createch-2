@@ -1,0 +1,28 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "chemica:sodium_bisulfate_dust"
+    }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "tfmg:hydrogen"
+    },
+    {
+      "id": "chemica:sodium_persulfate"
+    }
+  ],
+  "processing_time": 100,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

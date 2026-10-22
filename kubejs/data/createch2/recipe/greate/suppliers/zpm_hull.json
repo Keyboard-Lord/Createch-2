@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 1024,
+  "duration": 900,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:quantum_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:naquadah_alloy_plate",
+      "amount": 9
+    },
+    {
+      "item": "chemica:polytetrafluoroethylene_sheet",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:zpm_machine_hull",
+      "amount": 1
+    }
+  ]
+}

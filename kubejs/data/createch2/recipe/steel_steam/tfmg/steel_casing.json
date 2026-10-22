@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "tfmg:hardened_planks"
+    },
+    {
+      "tag": "createch2:industrial_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfmg:steel_casing"
+    }
+  ]
+}

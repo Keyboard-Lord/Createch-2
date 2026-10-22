@@ -1,0 +1,16 @@
+{
+  "dimension": "stellaris:venus_orbit",
+  "priority": 100,
+  "universal_drag": 0,
+  "base_gravity": [
+    0,
+    0,
+    0
+  ],
+  "base_pressure": 0,
+  "magnetic_north": [
+    0,
+    0,
+    0
+  ]
+}

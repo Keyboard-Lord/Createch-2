@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:lantea_deep_warm_ocean",
+    "createch2:lantea_rocky_reef",
+    "createch2:lantea_bioshroom_caves",
+    "createch2:lantea_prismachasm"
+  ],
+  "spawners": [
+    { "type": "aquamirae:anglerfish", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "aquamirae:eel", "weight": 4, "minCount": 1, "maxCount": 2 },
+    { "type": "aquamirae:spinefish", "weight": 3, "minCount": 1, "maxCount": 2 },
+    { "type": "aquamirae:abyssal_scyphoid", "weight": 2, "minCount": 1, "maxCount": 1 }
+  ]
+}

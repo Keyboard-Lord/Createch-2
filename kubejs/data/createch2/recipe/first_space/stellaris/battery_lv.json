@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "RBR",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    },
+    "B": {
+      "item": "modern_industrialization:redstone_battery"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "result": {
+    "id": "stellaris:battery",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "SCS",
+    " E "
+  ],
+  "key": {
+    "G": {
+      "tag": "createbigcannons:gunpowder"
+    },
+    "S": {
+      "item": "create:piston_extension_pole"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "E": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:cannon_loader",
+    "count": 1
+  }
+}

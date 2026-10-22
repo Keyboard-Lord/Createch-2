@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PGP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "G": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:bronze_machine_casing",
+    "count": 1
+  }
+}

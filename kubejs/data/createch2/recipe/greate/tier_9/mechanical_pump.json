@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "GHC",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "greate:darmstadtium_mechanical_pump"
+    },
+    "H": {
+      "tag": "c:plates/neutronium"
+    },
+    "C": {
+      "tag": "gtceu:circuits/uhv"
+    },
+    "S": {
+      "item": "greate:neutronium_cogwheel"
+    }
+  },
+  "result": {
+    "id": "greate:neutronium_mechanical_pump",
+    "count": 1
+  }
+}

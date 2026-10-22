@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "recipe_tier": 8,
+  "ingredients": [
+    {
+      "item": "gtceu:neutronium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:neutronium_plate"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "adchimneys:cobblestone_chimney"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method",
+    "createch2:thm_01_boiler_science"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.env_01_emissions_control.title"
+    },
+    "desc": {
+      "translate": "research.createch2.env_01_emissions_control.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:pollution/age_00/cobblestone_chimney",
+      "createch2:pollution/age_02/small_brick_chimney",
+      "createch2:pollution/age_03/large_brick_chimney"
+    ]
+  }
+}

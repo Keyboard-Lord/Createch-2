@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 6,
+  "ingredients": [
+    {
+      "tag": "c:plates/naquadah_alloy"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:naquadah_alloy_shaft",
+      "count": 6
+    }
+  ]
+}

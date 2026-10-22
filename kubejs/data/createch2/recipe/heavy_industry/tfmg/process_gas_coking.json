@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:coking",
+  "ingredients": [
+    {
+      "tag": "createch2:geology/coking_coal"
+    }
+  ],
+  "processing_time": 1200,
+  "results": [
+    {
+      "id": "tfmg:coal_coke"
+    },
+    {
+      "amount": 30,
+      "id": "tfmg:carbon_dioxide"
+    }
+  ]
+}

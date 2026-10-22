@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BIB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "mekanismgenerators:turbine_blade"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:turbine_rotor",
+    "count": 1
+  }
+}

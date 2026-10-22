@@ -1,0 +1,591 @@
+{
+  "createch2:cc_survival_cache": {
+    "chance": 5,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:hot_cocoa",
+          "count": 2
+        }
+      },
+      {
+        "item": {
+          "id": "tfc:food/red_apple",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bubble_blower",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:flute",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The cube remembered that civilization starts with food, fire, and storage.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_pottery_bundle": {
+    "chance": 7,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:doormat",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:blackboard",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:globe",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:wind_vane",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The cube furnishes the break room instead of the production line.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_geology_tip": {
+    "chance": 9,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:hourglass",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:flute",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:present",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "No ore, just instruments for celebrating the expedition.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_create_workshop_cache": {
+    "chance": 30,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:stuffed_pumpkin",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:altimeter",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "A field lunch and a loud way to mark the route home.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_foundry_boost": {
+    "chance": 38,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:honey_glazed_ham",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb",
+          "count": 2
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "gobberdelight:ender_goo",
+          "count": 2
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Dinner, a record, and a shortcut home—not a solved foundry.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_bronze_steam_parts": {
+    "chance": 42,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 2
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "gobberdelight:ender_goo",
+          "count": 2
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Pressure released as spectacle, music, and an escape route.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_heavy_industry_supply": {
+    "chance": 48,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "survivorsdelight:golden_carrot",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:altimeter",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The refinery receives morale instead of feedstock.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_steel_push": {
+    "chance": 55,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:apple_cider",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 6
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Experience and a record; the steelworks still belongs to you.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_low_voltage_spark": {
+    "chance": 62,
+    "Item": [
+      {
+        "item": {
+          "id": "survivorsdelight:golden_carrot",
+          "count": 6
+        }
+      },
+      {
+        "item": {
+          "id": "gobberdelight:ender_goo",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Emergency travel supplies and one very reassuring totem.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_chemistry_crate": {
+    "chance": 68,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:apple_cider",
+          "count": 12
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 12
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Strange energy, stranger music, and no borrowed chemistry.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_digital_sampler": {
+    "chance": 74,
+    "Item": [
+      {
+        "item": {
+          "id": "supplementaries:confetti_popper",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "gobberdelight:ender_goo",
+          "count": 6
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The network sends celebration supplies, not processors.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_space_cargo_sample": {
+    "chance": 80,
+    "Item": [
+      {
+        "item": {
+          "id": "farmersdelight:apple_cider",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 4
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "Mission morale arrived. Rocket hardware did not.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_recovery_stakes": {
+    "chance": 90,
+    "Item": [
+      {
+        "item": {
+          "id": "survivorsdelight:golden_carrot",
+          "count": 8
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:bomb_blue",
+          "count": 16
+        }
+      },
+      {
+        "item": {
+          "id": "supplementaries:music_disc_heave_ho",
+          "count": 1
+        }
+      }
+    ],
+    "Message": [
+      {
+        "message": "The hazard leaves a recovery kit, not progression parts.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_xp_shower": {
+    "chance": 10,
+    "Experience": [
+      {
+        "experienceAmount": 350,
+        "numberOfOrbs": 8
+      }
+    ],
+    "Message": [
+      {
+        "message": "Useful knowledge falls out.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_factory_fatigue": {
+    "chance": -18,
+    "Effect": [
+      {
+        "potionid": "mining_fatigue",
+        "duration": 35,
+        "amplifier": 1,
+        "radius": 24
+      },
+      {
+        "potionid": "slowness",
+        "duration": 25,
+        "amplifier": 1,
+        "radius": 24
+      }
+    ],
+    "Message": [
+      {
+        "message": "Your tools suddenly feel very heavy.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_ambush": {
+    "chance": -28,
+    "Entity": [
+      {
+        "entity": {
+          "id": "minecraft:zombie"
+        },
+        "copies": 6
+      },
+      {
+        "entity": {
+          "id": "minecraft:skeleton"
+        },
+        "copies": 2
+      }
+    ],
+    "Message": [
+      {
+        "message": "Progress attracts attention.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_safety_inspection": {
+    "chance": -35,
+    "Effect": [
+      {
+        "potionid": "weakness",
+        "duration": 25,
+        "amplifier": 1,
+        "radius": 24
+      },
+      {
+        "potionid": "glowing",
+        "duration": 25,
+        "amplifier": 0,
+        "radius": 24
+      }
+    ],
+    "Message": [
+      {
+        "message": "A safety inspector arrives.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_webbed_worksite": {
+    "chance": -24,
+    "Effect": [
+      {
+        "potionid": "slowness",
+        "duration": 20,
+        "amplifier": 2,
+        "radius": 20
+      },
+      {
+        "potionid": "mining_fatigue",
+        "duration": 20,
+        "amplifier": 1,
+        "radius": 20
+      }
+    ],
+    "Message": [
+      {
+        "message": "The site is now behind schedule.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_thermal_audit": {
+    "chance": -42,
+    "Effect": [
+      {
+        "potionid": "nausea",
+        "duration": 18,
+        "amplifier": 0,
+        "radius": 20
+      },
+      {
+        "potionid": "weakness",
+        "duration": 25,
+        "amplifier": 0,
+        "radius": 20
+      }
+    ],
+    "Message": [
+      {
+        "message": "Thermal management audit failed.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_air_pressure_test": {
+    "chance": -8,
+    "Effect": [
+      {
+        "potionid": "levitation",
+        "duration": 4,
+        "amplifier": 4,
+        "radius": 20
+      },
+      {
+        "potionid": "slow_falling",
+        "duration": 12,
+        "amplifier": 0,
+        "radius": 20
+      }
+    ],
+    "Message": [
+      {
+        "message": "Pressure test begins now.",
+        "range": 32
+      }
+    ]
+  },
+  "createch2:cc_delayed_blast_false_alarm": {
+    "chance": -55,
+    "Effect": [
+      {
+        "potionid": "darkness",
+        "duration": 8,
+        "amplifier": 0,
+        "radius": 28
+      },
+      {
+        "potionid": "slow_falling",
+        "duration": 12,
+        "amplifier": 0,
+        "radius": 28
+      }
+    ],
+    "Message": [
+      {
+        "message": "Four seconds. Move. The blast circuit clicks—and fails safe.",
+        "range": 32
+      }
+    ]
+  }
+}

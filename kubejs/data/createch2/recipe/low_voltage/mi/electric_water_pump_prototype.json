@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "WHW",
+    "FBF"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:pump"
+    },
+    "A": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "W": {
+      "item": "electroenergetics:insulated_wire"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "F": {
+      "tag": "modern_industrialization:fluid_pipes"
+    },
+    "B": {
+      "item": "modern_industrialization:bronze_water_pump"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:electric_water_pump",
+    "count": 1
+  }
+}

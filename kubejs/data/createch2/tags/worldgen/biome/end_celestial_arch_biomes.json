@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_barrens",
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:small_end_islands",
+    "endercon:end_depths",
+    "endercon:end_hallows",
+    "endercon:end_skies",
+    "endercon:end_sky_islands"
+  ]
+}

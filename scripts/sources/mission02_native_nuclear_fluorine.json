@@ -1,0 +1,300 @@
+{
+  "id": "createch2:cosmonautics_foundation/nuclear/elemental_fluorine",
+  "gate": "CHE-02",
+  "fluid": "chemica:fluorine",
+  "item": "chemlib:fluorine",
+  "nativeRecipeId": "alchemistry:atomizer/fluorine",
+  "nativeRecipe": {
+    "type": "alchemistry:atomizer",
+    "group": "alchemistry:atomizer",
+    "input": {
+      "amount": 500,
+      "fluid": "chemlib:fluorine_fluid"
+    },
+    "result": {
+      "count": 8,
+      "item": "chemlib:fluorine"
+    }
+  },
+  "element": {
+    "name": "fluorine",
+    "atomic_number": 9,
+    "abbreviation": "F",
+    "group": "17",
+    "period": "2",
+    "matter_state": "gas",
+    "fluid_properties": {
+      "density": -1000,
+      "light_level": 0,
+      "viscosity": 0,
+      "temperature": 300,
+      "motion_scale": 0.014,
+      "fall_distance_modifier": 0,
+      "path_type": "water",
+      "push_entity": false,
+      "can_swim": false,
+      "can_drown": false,
+      "can_hydrate": false,
+      "can_extinguish": false,
+      "supports_boating": false,
+      "can_convert_to_source": false
+    },
+    "metal_type": "nonmetal",
+    "color": "B4D14B",
+    "effect": [
+      {
+        "location": "minecraft:poison",
+        "duration": "600",
+        "amplifier": 1
+      },
+      {
+        "location": "minecraft:nausea",
+        "duration": "600",
+        "amplifier": 2
+      },
+      {
+        "location": "minecraft:instant_damage",
+        "duration": "100",
+        "amplifier": 0
+      }
+    ]
+  },
+  "composition": {
+    "compositions": [
+      {
+        "elements": [
+          {
+            "amount": 1,
+            "id": "rutile:fluorine"
+          }
+        ]
+      }
+    ],
+    "contents": [
+      "chemica:fluorine"
+    ]
+  },
+  "classes": {
+    "atomizer": [
+      "alchemistry-1.21.1-2.4.5.jar",
+      "com.smashingmods.alchemistry.common.block.atomizer.AtomizerBlockEntity"
+    ],
+    "chemlibFluids": [
+      "chemlib-1.21.1-2.1.5.jar",
+      "com.smashingmods.chemlib.registry.FluidRegistry"
+    ],
+    "chemicaFluids": [
+      "chemica-1.21.1-0.7.1.jar",
+      "com.cosmads.chemica.registry.ChemicaFluids"
+    ],
+    "processing": [
+      "alchemylib-1.21.1-1.1.6.jar",
+      "com.smashingmods.alchemylib.api.blockentity.processing.AbstractProcessingBlockEntity"
+    ],
+    "machineTypes": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.MIMachineRecipeTypes"
+    ],
+    "machineType": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.recipe.MachineRecipeType"
+    ]
+  },
+  "nativeCodeSha256": {
+    "atomizer": "e3ff4a95b91fe34a27683ed6a11b8721b3de5867a9f1c5b334bdd80a103e63ec",
+    "chemlibFluids": "449ce02f630f581c05cc65f75aa056f56b74b48db05ae1302f62707fc94f54ef",
+    "chemicaFluids": "2ed91f8f087de8dd0102d428ee645e05a089e2fd9190041fc3902119bbb564d0",
+    "processing": "6d93f1740dfa7ba4e7d45b5d64f780254d38b4c7ed721406d57f1e2683ed7952",
+    "machineTypes": "b7265585549eea26b8324ad916060f5e85d75c5091aaab62a858ebb530f79b43",
+    "machineType": "ed418c835a8f9e75230bc470844c214734ae0a6548fd6adae335fc54954dec81"
+  },
+  "beforeLedgerNode": {
+    "code": "CHE-02",
+    "id": "createch2:che_02_electrolysis",
+    "page": "createch2:process_resources",
+    "name": "Wet Chemistry",
+    "description": "Establish laboratory vessels, brine electrolysis and controlled practical acids.",
+    "icon": "chemica:platinum_electrode",
+    "parents": [
+      "createch2:che_01_process_control",
+      "createch2:ele_01_practical_electrics"
+    ],
+    "cost": {
+      "class": "B",
+      "packs": [
+        "process_samples",
+        "grid_telemetry"
+      ]
+    },
+    "recipes_unlocked": [
+      "chemica:cutting/glass_vial",
+      "chemica:cutting/graduated_cylinder",
+      "chemica:cutting/petri_dish",
+      "chemica:cutting/platinum_electrode",
+      "chemica:mixing/brine",
+      "chemica:vat_machine_recipe/electrolysis/brine",
+      "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+      "createch2:chemica/feedstock/tfc_graphite",
+      "createch2:chemica/feedstock/tfc_phosphorus",
+      "createch2:chemica/feedstock/canonical_fluorite",
+      "createch2:chemica/feedstock/tfc_rutile",
+      "createch2:chemical_age/mi/chlorine_from_geological_salt"
+    ],
+    "items_covered": [
+      "chemica:glass_vial",
+      "chemica:graduated_cylinder",
+      "chemica:petri_dish",
+      "chemica:platinum_electrode",
+      "chemica:hydrochloric_acid_bucket"
+    ],
+    "earliest_age": "Age 09 Chemical and Arcane Chemistry",
+    "authority": "Chemica applied-chemistry authority",
+    "notes": "The TFMG vat remains the physical process machine; Chemica supplies the applied chemistry.",
+    "audit": {
+      "classification": "Production capability and same-output observation separated",
+      "earliest_required_consumer": "No reviewed quest requires this specific locked production capability.",
+      "consumer_quests": [],
+      "same_output_consumer_quests": [
+        "033EAFA0AE07DA62",
+        "034CEC92A93F2DFA"
+      ],
+      "earliest_same_output_consumer": "Age 09 Chemical and Arcane Chemistry: Laboratory Electrolysis (033EAFA0AE07DA62)",
+      "main_or_capstone_path": false,
+      "same_output_on_main_or_capstone_path": true,
+      "reviewed_for_campaign_unity": "2026-10-08",
+      "semantics_version": 2,
+      "capability_review_status": "NO_REQUIRED_RELATIONSHIP_ASSERTED",
+      "scope": "Item-output equality does not prove dependence on an alternative or batch recipe. Only explicit reviewed capability consumers enter required-consumer fields. Knowledge unlock age is unchanged; native dynamic alternatives and loaded acquisition remain runtime qualification."
+    },
+    "localization": {
+      "title": "research.createch2.che_02_electrolysis.title",
+      "description": "research.createch2.che_02_electrolysis.description"
+    }
+  },
+  "beforeNativeNode": {
+    "type": "researchd:simple",
+    "icon": {
+      "type": "researchd:item_research_icon",
+      "items": [
+        {
+          "id": "chemica:platinum_electrode"
+        }
+      ]
+    },
+    "method": {
+      "type": "researchd:consume_research_pack",
+      "packs": [
+        "createch2:process_samples",
+        "createch2:grid_telemetry"
+      ],
+      "count": 5,
+      "duration": 180
+    },
+    "parents": [
+      "createch2:che_01_process_control",
+      "createch2:ele_01_practical_electrics"
+    ],
+    "requires_parent": true,
+    "research_page": "createch2:process_resources",
+    "display": {
+      "name": {
+        "translate": "research.createch2.che_02_electrolysis.title"
+      },
+      "desc": {
+        "translate": "research.createch2.che_02_electrolysis.description"
+      }
+    },
+    "effect": {
+      "type": "researchd:unlock_recipe",
+      "recipes": [
+        "chemica:cutting/glass_vial",
+        "chemica:cutting/graduated_cylinder",
+        "chemica:cutting/petri_dish",
+        "chemica:cutting/platinum_electrode",
+        "chemica:mixing/brine",
+        "chemica:vat_machine_recipe/electrolysis/brine",
+        "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+        "createch2:chemica/feedstock/tfc_graphite",
+        "createch2:chemica/feedstock/tfc_phosphorus",
+        "createch2:chemica/feedstock/canonical_fluorite",
+        "createch2:chemica/feedstock/tfc_rutile",
+        "createch2:chemical_age/mi/chlorine_from_geological_salt",
+        "greate:integration/chemica/cutting/glass_vial",
+        "greate:integration/chemica/cutting/graduated_cylinder",
+        "greate:integration/chemica/cutting/petri_dish",
+        "greate:integration/chemica/cutting/platinum_electrode",
+        "greate:integration/chemica/mixing/brine",
+        "greate:integration/createch2/chemica/feedstock/tfc_graphite",
+        "greate:integration/createch2/chemica/feedstock/tfc_phosphorus",
+        "greate:integration/createch2/chemica/feedstock/canonical_fluorite",
+        "greate:integration/createch2/chemica/feedstock/tfc_rutile"
+      ]
+    }
+  },
+  "atomizerConfig": {
+    "energyPerTick": 50,
+    "ticksPerOperation": 50
+  },
+  "fePerEu": 10,
+  "recipe": {
+    "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+    "type": "modern_industrialization:chemical_reactor",
+    "eu": 5,
+    "duration": 51,
+    "fluid_inputs": {
+      "fluid": "chemica:fluorine",
+      "amount": 500
+    },
+    "item_outputs": [
+      {
+        "item": "chemlib:fluorine",
+        "amount": 8
+      }
+    ]
+  },
+  "compositionProviderReview": {
+    "currentJar": "chemica-1.21.1-0.7.1.jar",
+    "previousJar": "chemica-1.21.1-0.7.0.jar",
+    "previousNativeComposition": {
+      "compositions": [
+        {
+          "elements": [
+            {
+              "amount": 1,
+              "id": "rutile:fluorine"
+            }
+          ]
+        }
+      ],
+      "contents": [
+        "chemica:fluorine"
+      ]
+    },
+    "previousFluidRegistryCodeSha256": "2ed91f8f087de8dd0102d428ee645e05a089e2fd9190041fc3902119bbb564d0",
+    "retiredResource": "data/chemica/rutile/composition/fluid/fluorine.json",
+    "currentResourceAbsent": true,
+    "currentFluidName": "Fluorine",
+    "identityBasis": "Current named gas registration has exactly the same native bytecode as the previously reviewed provider. The pure-fluorine phase mapping and native Alchemistry500mB/8packet ratio remain unchanged. No current Rutile composition resource or tooltip is asserted."
+  },
+  "runtimeHostRepair": {
+    "mission": "Mission04",
+    "evidence": "launch-05: Fluid inputs are not allowed; installed MI Packer lacks withFluidInputs",
+    "previousRecipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:packer",
+      "eu": 5,
+      "duration": 51,
+      "fluid_inputs": {
+        "fluid": "chemica:fluorine",
+        "amount": 500
+      },
+      "item_outputs": [
+        {
+          "item": "chemlib:fluorine",
+          "amount": 8
+        }
+      ]
+    },
+    "preserved": "Only machine type changes; recipe ID, CHE-02 research, 500 mB input, 8 outputs, 5 EU/t and 51 base ticks unchanged"
+  }
+}

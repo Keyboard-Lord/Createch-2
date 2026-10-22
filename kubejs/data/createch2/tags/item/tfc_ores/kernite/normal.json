@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_kernite/tuff",
+      "required": false
+    }
+  ]
+}

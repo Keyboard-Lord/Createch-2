@@ -1,0 +1,15 @@
+{
+  "entity": "minecraft:vindicator",
+  "variants": [],
+  "name_color": "#325566",
+  "display": {},
+  "sim_cost": 512,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.vindicator",
+  "fabricator_drops": []
+}

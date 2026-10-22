@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_magnesite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_magnesite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_magnesite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_magnesite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_magnesite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_magnesite/granite",
+      "required": false
+    }
+  ]
+}

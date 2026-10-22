@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/brass"
+    },
+    {
+      "tag": "c:rivets/brass"
+    },
+    {
+      "tag": "c:screws/brass"
+    },
+    {
+      "tag": "c:physical_screws/brass"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 558,
+  "welding_temperature": 744
+}

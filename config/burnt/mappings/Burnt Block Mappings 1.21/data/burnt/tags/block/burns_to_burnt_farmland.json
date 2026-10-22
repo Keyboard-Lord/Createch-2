@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:fertile_farmland",
+      "required": false
+    },
+    {
+      "id": "yourmod:rich_farmland",
+      "required": false
+    }
+  ]
+}

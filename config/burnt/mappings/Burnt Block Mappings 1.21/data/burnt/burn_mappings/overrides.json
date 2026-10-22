@@ -1,0 +1,14 @@
+{
+  "_comment": [
+    "PER-BLOCK OVERRIDES. These BEAT the tag files - Burnt checks this list before any",
+    "burns_to_* tag, so use it when a block is already mapped and you disagree with it.",
+    "Adding a block to a different burns_to_* tag does NOT re-map it: tags MERGE, so the",
+    "block ends up in both and whichever tag Burnt checks first still wins.",
+    "'from' = any block id.  'to' = the Burnt block it should become.",
+    "Run /reload after editing. Unknown ids are skipped with a warning in the log."
+  ],
+  "mappings": [
+    { "from": "yourmod:some_block",       "to": "burnt:smoldering_log" },
+    { "from": "yourmod:some_other_block", "to": "burnt:smoldering_planks" }
+  ]
+}

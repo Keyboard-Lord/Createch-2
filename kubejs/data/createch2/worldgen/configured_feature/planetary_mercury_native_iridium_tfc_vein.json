@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 128,
+    "min_y": -60,
+    "max_y": 0,
+    "size": 18,
+    "density": 0.26,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mercury_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:smooth_basalt",
+          "minecraft:calcite",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/poor_native_iridium/basalt"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_native_iridium/basalt"
+          },
+          {
+            "weight": 35,
+            "block": "tfc_metallurgy:ore/rich_native_iridium/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 22,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 52,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_iridium"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_mercury_native_iridium_tfc_vein"
+  }
+}

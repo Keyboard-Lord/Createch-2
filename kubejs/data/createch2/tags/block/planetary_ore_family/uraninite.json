@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_uraninite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_uraninite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_uraninite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_uraninite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_uraninite/granite",
+      "required": false
+    }
+  ]
+}

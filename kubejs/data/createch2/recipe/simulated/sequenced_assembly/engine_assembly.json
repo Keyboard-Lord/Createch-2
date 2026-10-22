@@ -1,0 +1,92 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:heavy_plate"
+  },
+  "transitional_item": {
+    "id": "simulated:incomplete_engine_assembly"
+  },
+  "loops": 4,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simulated:incomplete_engine_assembly"
+        },
+        {
+          "item": "tfmg:steel_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "simulated:incomplete_engine_assembly"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simulated:incomplete_engine_assembly"
+        },
+        {
+          "item": "tfmg:copper_spool"
+        }
+      ],
+      "results": [
+        {
+          "id": "simulated:incomplete_engine_assembly"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simulated:incomplete_engine_assembly"
+        },
+        {
+          "tag": "createch2:control/electromechanical"
+        }
+      ],
+      "results": [
+        {
+          "id": "simulated:incomplete_engine_assembly"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "simulated:incomplete_engine_assembly"
+        }
+      ],
+      "results": [
+        {
+          "id": "simulated:incomplete_engine_assembly"
+        }
+      ],
+      "recipe_tier": 1
+    }
+  ],
+  "results": [
+    {
+      "chance": 80,
+      "id": "simulated:engine_assembly"
+    },
+    {
+      "chance": 8,
+      "id": "tfmg:heavy_plate"
+    },
+    {
+      "chance": 4,
+      "id": "tfmg:steel_mechanism"
+    },
+    {
+      "id": "tfmg:copper_spool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "ABA",
+    "BBB"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "tag": "createch2:ceramic/foundry_masonry"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:basin_foundry_lid",
+    "count": 1
+  }
+}

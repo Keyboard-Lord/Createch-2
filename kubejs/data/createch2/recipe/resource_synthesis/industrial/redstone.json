@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "tag": "c:dusts/silicon"
+    },
+    {
+      "tag": "c:dusts/sulfur"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:redstone",
+      "count": 4
+    }
+  ],
+  "recipe_tier": 0
+}

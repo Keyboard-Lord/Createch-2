@@ -1,0 +1,226 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "railcraft:frame"
+  },
+  "transitional_item": {
+    "id": "railcraft:frame"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "railcraft:solid_fueled_firebox"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "modern_industrialization:bronze_boiler"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "tfmg:steel_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "railcraft:standard_rail"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "railcraft:controller_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "railcraft:steel_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "railcraft:track_parts"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "create:fluid_tank"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "create:mechanical_pump"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "create:controls"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "tfmg:lubrication_oil"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "railcraft:frame"
+        }
+      ],
+      "results": [
+        {
+          "id": "railcraft:frame"
+        }
+      ],
+      "recipe_tier": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "railcraft:steam_locomotive"
+    }
+  ]
+}

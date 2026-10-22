@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:industrial_blasting",
+  "hot_air_usage": 40,
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/cast_iron"
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "processing_time": 80,
+  "results": [
+    {
+      "amount": 100,
+      "id": "tfc:metal/pig_iron"
+    },
+    {
+      "amount": 144,
+      "id": "tfmg:molten_slag"
+    },
+    {
+      "amount": 100,
+      "id": "tfmg:furnace_gas"
+    }
+  ]
+}

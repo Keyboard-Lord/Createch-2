@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "WHW",
+    "SBS"
+  ],
+  "key": {
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "P": {
+      "item": "modern_industrialization:pump"
+    },
+    "W": {
+      "item": "electroenergetics:insulated_wire"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "B": {
+      "item": "modern_industrialization:bronze_mixer"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:assembler",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 64,
+  "duration": 600,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:item_pipe",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 2
+    },
+    {
+      "item": "electroenergetics:white_electric_motor",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 2
+    },
+    {
+      "item": "electroenergetics:hanging_glass_insulator",
+      "amount": 2
+    },
+    {
+      "item": "greate:aluminium_gearbox",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:advanced_item_output_hatch",
+      "amount": 1
+    }
+  ]
+}

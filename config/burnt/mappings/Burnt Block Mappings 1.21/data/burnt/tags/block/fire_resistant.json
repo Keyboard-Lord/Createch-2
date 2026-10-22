@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:obsidian_tile",
+      "required": false
+    },
+    {
+      "id": "yourmod:magma_brick",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "ids": {
+    "tin": "modern_industrialization:materials/tin/compressor/main",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "cog": "createch2:greate/tier_0/cogwheel",
+    "wheel": "createch2:age_foundation/create/water_wheel",
+    "casing": "createch2:age_foundation/create/andesite_casing",
+    "depot": "create:crafting/kinetics/depot",
+    "planks": "tfc:crafting/wood/planks/oak"
+  },
+  "recipes": {
+    "modern_industrialization:materials/tin/compressor/main": {
+      "type": "modern_industrialization:compressor",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:ingots/tin"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:tin_plate"
+        }
+      ]
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/andesite_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "AAA",
+        "ALA",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "tag": "minecraft:logs"
+        }
+      },
+      "result": {
+        "id": "create:andesite_casing",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/planks/oak"
+      }
+    }
+  },
+  "kinds": {
+    "modern_industrialization:materials/tin/compressor/main": "native",
+    "createch2:age_foundation/create/shaft": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored",
+    "createch2:age_foundation/create/water_wheel": "authored",
+    "createch2:age_foundation/create/andesite_casing": "authored",
+    "create:crafting/kinetics/depot": "native",
+    "tfc:crafting/wood/planks/oak": "native"
+  },
+  "nativeRows": {
+    "modern_industrialization:materials/tin/compressor/main": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:compressor",
+          "duration": 100,
+          "eu": 2,
+          "item_inputs": [
+            {
+              "amount": 1,
+              "tag": "c:ingots/tin"
+            }
+          ],
+          "item_outputs": [
+            {
+              "amount": 1,
+              "item": "modern_industrialization:tin_plate"
+            }
+          ]
+        }
+      }
+    ],
+    "create:crafting/kinetics/depot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "create:andesite_alloy"
+            },
+            {
+              "item": "create:andesite_casing"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:depot"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "furnace": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.FurnaceBlockEntity"
+    ],
+    "furnaceBase": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity"
+    ],
+    "bucket": [
+      "@minecraft",
+      "net.minecraft.world.item.BucketItem"
+    ],
+    "liquid": [
+      "@minecraft",
+      "net.minecraft.world.level.block.LiquidBlock"
+    ],
+    "water": [
+      "@minecraft",
+      "net.minecraft.world.level.material.WaterFluid"
+    ],
+    "itemUtils": [
+      "@minecraft",
+      "net.minecraft.world.item.ItemUtils"
+    ],
+    "emptying": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.transfer.GenericItemEmptying"
+    ],
+    "fluidHelper": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.FluidHelper"
+    ],
+    "bucketWrapper": [
+      "@loader",
+      "net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper"
+    ],
+    "chest": [
+      "@minecraft",
+      "net.minecraft.world.level.block.entity.ChestBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "furnace": "a2bcafcbd2ed84235042e1dc88f6f5bc72d06295820abe9c09d43ee76bbbed6b",
+    "furnaceBase": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f",
+    "bucket": "b934b6ac5bf4710499e0365208a304b8d71d241d24288f56b5e5e0ca0dac220d",
+    "liquid": "c7ef1544ed39fad2d4f5ea948d4b14979000335124979936437fdab906d96d9e",
+    "water": "92ccfcdda6267f54ff1aa215eded817718f669b353f054a7416639e5a8810058",
+    "itemUtils": "f34ae6a8540a9b47b8d3eabc67a2676435153808d12f9ea1d0ba07eff02b8bff",
+    "emptying": "7842a777119423eb51bb56a3c5222a8ec516fe8444ed8290cf6ec807f75b45bb",
+    "fluidHelper": "6d1b2b7780cd1ba08f6c0e1faf9c0918b7c64fc174215ae364531c89cf2b1802",
+    "bucketWrapper": "4e82d7ea9ea75d0549fca4f08c9d434cf71c1b7a255c650b9bc3392f88b1c2f5",
+    "chest": "d780f65497469d5e78acca6b7614c6ec9df2c28939a841dd20f51ec025b7fbbf"
+  }
+}

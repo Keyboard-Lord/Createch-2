@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:dosimeter"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:ele_02_electromechanical_conversion",
+    "createch2:spc_01_propulsion_instrumentation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_01_radiation_metrology.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_01_radiation_metrology.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:space_environment_phase2/radiation/dosimeter_first_space",
+      "createch2:space_environment_phase2/radiation/geiger_counter_first_space",
+      "createch2:research/pack/nuclear_assays"
+    ]
+  }
+}

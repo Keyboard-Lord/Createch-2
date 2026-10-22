@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/tungsten_steel"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/tungsten_steel",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

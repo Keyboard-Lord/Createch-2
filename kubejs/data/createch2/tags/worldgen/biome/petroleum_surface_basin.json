@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_dry_land",
+    "#createch2:tfc_structure_shore",
+    "stellaris:mars_desert",
+    "createch2:unitas_gravel_desert",
+    "createch2:unitas_ancient_delta"
+  ]
+}

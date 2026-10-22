@@ -1,0 +1,40 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:nether_star"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:material_specimens",
+      "createch2:frontier_observations"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:pre_05_metrology",
+    "createch2:com_06_quantum_computation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:scientific_institutions",
+  "display": {
+    "name": {
+      "translate": "research.createch2.sci_04_megaproject_governance.title"
+    },
+    "desc": {
+      "translate": "research.createch2.sci_04_megaproject_governance.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:multiply_value",
+    "value": "researchd:research_lab_productivity",
+    "amount": 1.25
+  }
+}

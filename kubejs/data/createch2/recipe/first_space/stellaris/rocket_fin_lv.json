@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S",
+    "HS",
+    "RH"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:rocket_fin",
+    "count": 1
+  }
+}

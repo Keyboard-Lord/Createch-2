@@ -1,0 +1,13 @@
+{
+
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:tuff",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:smooth_basalt",
+    "minecraft:calcite"
+  ]
+}

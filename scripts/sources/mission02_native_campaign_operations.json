@@ -1,0 +1,333 @@
+{
+  "truth": "REVIEWED_NATIVE_TRAIN_AND_FE_RECEIVER",
+  "classes": {
+    "station": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.trains.station.StationBlockEntity"
+    ],
+    "carriage": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.trains.entity.CarriageContraption"
+    ],
+    "gluePacket": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.contraptions.glue.SuperGlueSelectionPacket"
+    ],
+    "movement": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.contraptions.actors.psi.PortableStorageInterfaceMovement"
+    ],
+    "itemHandler": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.contraptions.actors.psi.PortableItemInterfaceBlockEntity$InterfaceItemHandler"
+    ],
+    "psi": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.contraptions.actors.psi.PortableStorageInterfaceBlockEntity"
+    ],
+    "slime": [
+      "@client",
+      "net.minecraft.world.entity.monster.Slime"
+    ],
+    "screenEnergy": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.block.neoforge.NeoForgeTaskScreenBlockEntity$TaskEnergyHandler"
+    ],
+    "screen": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.block.entity.TaskScreenBlockEntity"
+    ],
+    "screenNEO": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.block.neoforge.NeoForgeTaskScreenBlockEntity"
+    ],
+    "tfcFluids": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler"
+    ],
+    "ftbRegister": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.neoforge.FTBQuestsNeoForge"
+    ],
+    "dimensionTask": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.DimensionTask"
+    ],
+    "booleanTask": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.AbstractBooleanTask"
+    ],
+    "taskTicker": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.FTBQuestsEventHandler"
+    ]
+  },
+  "nativeCodeSha256": {
+    "station": "494d8073ea505a5c9c103792463da4b6e06664f1d5c9d5e147e24d4749e45f7b",
+    "carriage": "49874e1db54a14e1028b9ca0f540f0ed52f2026dea668de85ba0cacd712f8b9e",
+    "gluePacket": "1c6e3ce308d7b1168d3af7609b988cf5f0040633f9aedfde45a5eb69cae3f523",
+    "movement": "5d1f89b1f9c0a23f5ee4c0a33f581e8552051c7eaf846e9892b8421ce95b45e2",
+    "itemHandler": "1d22f4ee31574518ec09b3120a83951a53ea65e9235c1a02e7d36f38866ea7fb",
+    "psi": "a7113f3fc8537b4dd1d3827d2e75b080f665fd9555bd893608aca53966eef2ee",
+    "slime": "dd5127c2a799eb681c34d5e2ec2a821a5c6d4e72a639c4b0980c02404d704146",
+    "screenEnergy": "9a08604b8d0a18a287434c1650216b06c0fdb6799f2c09bd66b3fff68e7a9c73",
+    "screen": "f76530a0c39b5ca41a78c819039cf7d84847f38d008e140d90825d41688514e8",
+    "screenNEO": "f66406fd93f6d0a18ef9f734746eedab65af6e30542138f0a1c599e1bc437f6d",
+    "tfcFluids": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "ftbRegister": "41a221f7ef2393d52fe0802b94cb256092edc0741172097fe39b2f649c156b7b",
+    "dimensionTask": "de9579e46402318a37ce331203e36ad637e6e743441577e0ef1c82a34129dfab",
+    "booleanTask": "b70096c508e31705e14bd29401c1f817770422e0517db91b317ed1f0aa7c0a25",
+    "taskTicker": "25b47faac084af7405245c61d90e2641a57e9153b3c85d56b3a444633de619ce"
+  },
+  "originalScreen": {
+    "type": "minecraft:crafting_shaped",
+    "group": "ftbquests:screen",
+    "result": {
+      "id": "ftbquests:screen_1"
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "key": {
+      "B": {
+        "item": "book"
+      },
+      "C": {
+        "item": "minecraft:stone"
+      }
+    }
+  },
+  "screen": {
+    "type": "minecraft:crafting_shaped",
+    "group": "ftbquests:screen",
+    "result": {
+      "id": "ftbquests:screen_1"
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:book"
+      },
+      "C": {
+        "tag": "c:stones"
+      }
+    }
+  },
+  "train": {
+    "trackAxis": "X",
+    "trackMin": -8,
+    "trackMax": 24,
+    "assemblyTarget": [
+      0,
+      0,
+      0
+    ],
+    "bogeys": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ]
+    ],
+    "planks": [
+      [
+        -1,
+        2,
+        -1
+      ],
+      [
+        -1,
+        2,
+        0
+      ],
+      [
+        -1,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        -1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        -1
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        -1
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        -1
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        4,
+        2,
+        -1
+      ],
+      [
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        1
+      ],
+      [
+        5,
+        2,
+        -1
+      ],
+      [
+        5,
+        2,
+        0
+      ],
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        5,
+        3,
+        1
+      ]
+    ],
+    "controls": [
+      {
+        "position": [
+          -1,
+          3,
+          0
+        ],
+        "facing": "WEST"
+      },
+      {
+        "position": [
+          5,
+          3,
+          0
+        ],
+        "facing": "EAST"
+      }
+    ],
+    "chest": [
+      2,
+      3,
+      0
+    ],
+    "mountedInterface": [
+      2,
+      3,
+      1
+    ],
+    "mountedFacing": "SOUTH",
+    "stationaryInterface": [
+      2,
+      3,
+      3
+    ],
+    "stationaryFacing": "NORTH",
+    "hopper": [
+      2,
+      2,
+      3
+    ],
+    "glueBounds": [
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        5,
+        3,
+        1
+      ]
+    ],
+    "speed": 0,
+    "powered": false,
+    "inPortal": false
+  },
+  "hardwareBill": {
+    "trackBlocks": 33,
+    "stations": 1,
+    "extraRailwayCasingsForBogeys": 2,
+    "controls": 2,
+    "oakPlanks": 23,
+    "chests": 2,
+    "portableItemInterfaces": 2,
+    "hopper": 1,
+    "superGlueItems": 1,
+    "glueSelections": 1,
+    "wrenches": 1,
+    "cargo": {
+      "tfc:rock/loose/granite": 1
+    },
+    "scope": "Finite construction bill using separately repeated reachable producers. Original conditional banks are not spent; all upstream factory bills and freshly sourced materials remain in the chronological trace. Native glue selection charges one use for this small connected box."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "K": [
+      {
+        "tag": "c:ingots/copper"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ]
+  },
+  "pattern": [
+    " B ",
+    "CFC",
+    " K "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:port_gasout"
+  }
+}

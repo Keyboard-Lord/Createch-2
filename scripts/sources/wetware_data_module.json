@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "id": "gtceu:circuit_assembler/data_module_soldering_alloy",
+  "nativeAlternativeId": "gtceu:circuit_assembler/data_module",
+  "itemInputs": [
+    "gtceu:wetware_printed_circuit_board",
+    "2x #gtceu:circuits/zpm",
+    "32x gtceu:ram_chip",
+    "64x gtceu:nor_memory_chip",
+    "64x gtceu:nand_memory_chip",
+    "8x modern_industrialization:superconductor_wire"
+  ],
+  "itemOutputs": [
+    "gtceu:data_module"
+  ],
+  "inputFluids": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 144
+    }
+  ],
+  "duration": 400,
+  "eu": 38400,
+  "cleanroom": "STERILE_CLEANROOM",
+  "mapping": {
+    "nativeFineWireCount": 32,
+    "nativeFineWireUnits": 12.5,
+    "newCanonicalWireCount": 8,
+    "newCanonicalWireUnits": 50,
+    "nativeSolderMultiplier": 2,
+    "nativeSolderMb": 144,
+    "existingNativeTinAlternativePreserved": true,
+    "allAlternativeIdsOwnedBySameResearch": true,
+    "reason": "Use the established campaign-specific equal-unit shared conductor mapping already used by wetware circuits. Native YBC conductor depends on unqualified yttrium and barium providers outside the selected TFC suppliers. Preserve the native soldering-alloy recipe ID and all other native bills, EU, duration, sterile room and native bank-only module metadata."
+  },
+  "highPowerCasing": {
+    "id": "gtceu:assembler/high_power_casing",
+    "nativeEu": 7680,
+    "nativeDuration": 100,
+    "recipe": {
+      "type": "modern_industrialization:assembler",
+      "eu": 1024,
+      "duration": 750,
+      "item_inputs": [
+        {
+          "item": "gtceu:iridium_frame",
+          "amount": 1
+        },
+        {
+          "tag": "c:plates/iridium",
+          "amount": 6
+        },
+        {
+          "tag": "gtceu:circuits/iv",
+          "amount": 1
+        },
+        {
+          "item": "gtceu:fine_cobalt_wire",
+          "amount": 16
+        },
+        {
+          "item": "gtceu:fine_copper_wire",
+          "amount": 16
+        },
+        {
+          "item": "modern_industrialization:superconductor_wire",
+          "amount": 2
+        }
+      ],
+      "item_outputs": {
+        "item": "gtceu:high_power_casing",
+        "amount": 2
+      }
+    },
+    "mapping": "Keep native ID,six item bills and configured two-case output. Native retired IVassembler has no supplied host. Reuse established MIassembler and fine wires;native100unit NiTi contact budget maps explicitly to two50unit canonical composite wires.1024*750=7680*100=768000EU. Native material alloys are not globally aliased."
+  }
+}

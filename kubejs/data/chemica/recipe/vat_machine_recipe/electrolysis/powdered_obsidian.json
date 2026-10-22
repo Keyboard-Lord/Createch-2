@@ -1,0 +1,33 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "machines": [
+    "chemica:electrode",
+    "chemica:electrode"
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "chemica:iron_dust"
+    },
+    {
+      "id": "chemica:silicon_dust"
+    },
+    {
+      "id": "tfmg:nitrate_dust"
+    },
+    {
+      "id": "tfmg:sulfur_dust"
+    }
+  ],
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

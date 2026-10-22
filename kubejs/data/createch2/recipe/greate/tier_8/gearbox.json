@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "PHP",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    "S": {
+      "item": "greate:darmstadtium_shaft"
+    },
+    "P": {
+      "tag": "c:plates/darmstadtium"
+    },
+    "H": {
+      "item": "greate:naquadah_alloy_gearbox"
+    }
+  },
+  "result": {
+    "id": "greate:darmstadtium_gearbox",
+    "count": 1
+  }
+}

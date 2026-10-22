@@ -1,0 +1,36 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
+const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
+const num=(text,key)=>{const m=new RegExp('^\\s*'+key+'\\s*=\\s*([0-9.]+)\\s*$','m').exec(text);assert(m,key);return Number(m[1]);};
+export function nativeHeatedMixingContract(root,rotary,nether){
+ assert.equal(rotary.truth,'STATIC_NATIVE_GREATE_ROTARY_SOURCE_CAPACITY');assert.equal(nether.truth,'STATIC_NATIVE_BENEATH_RITUAL_AND_NETHER_BLAZE');
+ const fixture=JSON.parse(fs.readFileSync(new URL('../sources/mission02_native_heated_mixing.json',import.meta.url),'utf8'));
+ const code=Object.fromEntries(Object.entries(fixture.nativeClasses).map(([k,[jar,name,verbose]])=>[k,execFileSync('/opt/homebrew/opt/openjdk@21/bin/javap',[verbose?'-v':'-c','-p','-classpath',path.join(root,'mods',jar),name],{encoding:'utf8',maxBuffer:8*1024*1024})]));
+ const hashes=Object.fromEntries(Object.entries(code).map(([k,v])=>[k,sha(v)]));assert.deepEqual(hashes,fixture.nativeCodeSha256,'Native heated mixer/burner mechanics changed');
+ assert(code.burnerItem.includes('BLAZE_BURNER_CAPTURABLE:')&&code.burnerItem.includes('giveBurnerItemTo:')&&code.burnerItem.includes('LivingEntity.discard:')&&code.burnerItem.includes('ItemStack.shrink:')&&code.burnerItem.includes('Player.setItemInHand:')&&code.burnerItem.includes('Inventory.placeItemBackInInventory:'));
+ assert(/aconst_null\n[^\n]*ItemStack.getBurnTime:/.test(code.burner));
+ assert(code.burner.includes('FuelType.NORMAL:')&&code.burner.includes('HeatLevel.KINDLED:')&&code.burner.includes('double 0.0125d')&&code.burner.includes('double 10000.0d'));
+ assert(code.heat.includes('HeatLevel.NONE:')&&code.heat.includes('HeatLevel.SMOULDERING:')&&code.heat.includes('Field HEATED:'));
+ assert(code.mixerBlock.includes('SpeedLevel.MEDIUM:')&&code.tieredMixerBlock.includes('SpeedLevel.SLOW:'));assert(/74: fconst_1\n[^\n]*freturn/.test(code.speedLevels),'Unreviewed native SLOW speed value');
+ assert(code.tieredMixer.includes('ModRecipeTypes.MIXING:')&&code.tieredMixer.includes('TieredBasinRecipe.apply:')&&code.basin.includes('HeatCondition.testBlazeBurner:')&&code.basin.includes('BlockPos.above:(I)')&&code.basin.includes('ITieredBlock.getTier:'));
+ const factoryBlock=code.factoryCode.slice(code.factoryCode.indexOf('AllRecipeTypes.MIXING:'),code.factoryCode.indexOf('AllRecipeTypes.MIXING:')+700),indy=/InvokeDynamic #(\d+):create:/.exec(factoryBlock)?.[1];assert(indy);const bootstrap=code.factory.slice(code.factory.indexOf('\n  '+indy+':'),code.factory.indexOf('\n  '+(Number(indy)+1)+':'));assert(bootstrap.includes('TieredMixingRecipe.'),'Wrong native mixing factory');
+ assert(code.conversion.includes('ProcessingRecipe.getRequiredHeat:')&&code.conversion.includes('Builder.requiresHeat:'),'Native conversion lost heat requirement');
+ assert(code.mixerBlock.includes('ICogWheel')&&code.mixerBlock.includes('Direction$Axis.Y:'),'Missing native vertical cog mixer drive');
+ const cc=fs.readFileSync(path.join(root,'config/create-server.toml'),'utf8'),gc=fs.readFileSync(path.join(root,'config/greate-server.toml'),'utf8');
+ const drive={sourceCount:1,sourceRpm:8,sourceCapacityEach:rotary.smallWheel.totalCapacity,gearStages:0,mixerRpm:8,mixerMinimumRpm:1,mixerImpact:num(gc,'andesite_alloy_mechanical_mixer'),tierCapacity:num(gc,'andesiteMaxCapacity'),hardware:{'create:water_wheel':1,'greate:andesite_alloy_mechanical_mixer':1,'greate:andesite_alloy_shaft':4,'greate:andesite_alloy_gearbox':1,'greate:andesite_alloy_cogwheel':1,'create:basin':1,'create:chute':2},layout:'Basin(0,0,0),burner(0,-1,0),mixer(0,2,0); adjacent cog(1,2,0) axisY, shaft(1,1,0), gearbox(1,0,0), three coaxial shafts to an8RPMwater wheel(1,0,-4) axisZ. The cog meshes with the mixer at1:1.'};
+ drive.sourceCapacity=drive.sourceCount*drive.sourceCapacityEach;drive.load=drive.mixerRpm*drive.mixerImpact;
+ for(const p of ['andesite_alloy_shaft','andesite_alloy_cogwheel','andesite_alloy_gearbox'])assert.equal(num(gc,p),0,'Unreviewed relay load');
+ assert(drive.mixerRpm>=drive.mixerMinimumRpm&&drive.load<=Math.min(drive.sourceCapacity,drive.tierCapacity));
+ assert.equal(drive.load,4);assert.equal(drive.sourceCapacity,8);assert.equal(drive.tierCapacity,8);
+ const instance=JSON.parse(fs.readFileSync(path.join(root,'minecraftinstance.json'),'utf8')),loader=instance.baseModLoader.name.replace('neoforge-',''),libraries=path.join(root,'../../Install/libraries');
+ const cp=[`net/neoforged/neoforge/${loader}/neoforge-${loader}-client.jar`,'net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar',`net/neoforged/neoforge/${loader}/neoforge-${loader}-universal.jar`].map(p=>path.join(libraries,p)).join(':');
+ const fuel=execFileSync('/opt/homebrew/opt/openjdk@21/bin/javap',['-c','-p','-classpath',cp,'net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity'],{encoding:'utf8'});
+ assert(/Items.CHARCOAL:[^\n]*\n[^\n]*sipush\s+1600/.test(fuel));
+ const processingTicks=Math.max(Math.floor(Math.log2(Math.trunc(512/drive.mixerRpm)))*Math.ceil(fixture.source.processing_time/100*15)+1,1);
+ const batch={nickelIngots:2,steelIngots:2,siliconIngots:1,magneticAlloyIngots:2,nativeRecipeDuration:300,nativePlannedProcessingTicks:processingTicks,conservativeStartFinishAllowance:60,freshCharcoal:1,nativeCharcoalBurnTicks:1600,kindledWindowTicks:1600-125,basin:[0,0,0],burner:[0,-1,0],mixer:[0,2,0]};
+ assert.equal(processingTicks,271);assert(processingTicks+batch.conservativeStartFinishAllowance<batch.kindledWindowTicks);
+ const negativeCases=[];
+ assert(0<drive.load);negativeCases.push({name:'missing_source_capacity',rejected:true});
+ assert(0.5<drive.mixerMinimumRpm);negativeCases.push({name:'below_native_slow_speed',rejected:true});
+ assert(num(gc,'andesite_alloy_mechanical_mixer')*32>num(gc,'andesiteMaxCapacity'));negativeCases.push({name:'unnecessary_speedup_overstress',rejected:true});
+ return {truth:'STATIC_NATIVE_ANDESITE_HEATED_MIXING',...fixture,nativeClasses:undefined,nativeCodeSha256:{...hashes,charcoalFuel:sha(fuel)},drive,batch,negativeCases,limits:['Selected tier0native magnetic-alloy recipe on the available tier0andesite mixer, with basin two blocks below and a captured, fueled burner directly below the basin. Native Greate overrides the vanilla MEDIUM minimum with SLOW=1RPM; no advanced motor is required.','One8RPMsmall wheel supplies8SU for the8RPMandesite mixer loading4SU, within the8SUtier limit. A gearbox turns the drive to a vertical cog meshing at1:1 with the mixer. Relays are zero load;4SU remains reserved. No capacity or speed config is raised.','One fresh native charcoal fuel budget covers the selected271processing ticks plus60start/finish allowance before the conservative125tick fading threshold. Loaded fuel hooks, actual insertion, mixin conversion, registration, matching, formation, flow, inventory and operation remain runtime qualification.','Captured burner supply specifically requires the reviewed native Nether ritual/fortress encounter and alive portal return. No blaze powder, Ember Skeleton, creative fuel, smouldering empty burner or unreviewed Overworld spawn is a substitute.']};
+}

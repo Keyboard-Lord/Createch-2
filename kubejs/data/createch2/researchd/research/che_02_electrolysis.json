@@ -1,0 +1,65 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "chemica:platinum_electrode"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:grid_telemetry"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:che_01_process_control",
+    "createch2:ele_01_practical_electrics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_02_electrolysis.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_02_electrolysis.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "chemica:cutting/glass_vial",
+      "chemica:cutting/graduated_cylinder",
+      "chemica:cutting/petri_dish",
+      "chemica:cutting/platinum_electrode",
+      "chemica:mixing/brine",
+      "chemica:vat_machine_recipe/electrolysis/brine",
+      "chemica:vat_machine_recipe/mixing/hydrochloric_acid",
+      "createch2:chemica/feedstock/tfc_graphite",
+      "createch2:chemica/feedstock/tfc_phosphorus",
+      "createch2:chemica/feedstock/canonical_fluorite",
+      "createch2:chemica/feedstock/tfc_rutile",
+      "createch2:chemical_age/mi/chlorine_from_geological_salt",
+      "createch2:cosmonautics_foundation/nuclear/elemental_fluorine",
+      "greate:integration/chemica/cutting/glass_vial",
+      "greate:integration/chemica/cutting/graduated_cylinder",
+      "greate:integration/chemica/cutting/petri_dish",
+      "greate:integration/chemica/cutting/platinum_electrode",
+      "greate:integration/chemica/mixing/brine",
+      "greate:integration/createch2/chemica/feedstock/tfc_graphite",
+      "greate:integration/createch2/chemica/feedstock/tfc_phosphorus",
+      "greate:integration/createch2/chemica/feedstock/canonical_fluorite",
+      "greate:integration/createch2/chemica/feedstock/tfc_rutile",
+      "greate:integration/createch_2_/chemica/feedstock/tfc_graphite",
+      "greate:integration/createch_2_/chemica/feedstock/tfc_phosphorus",
+      "greate:integration/createch_2_/chemica/feedstock/canonical_fluorite",
+      "greate:integration/createch_2_/chemica/feedstock/tfc_rutile"
+    ]
+  }
+}

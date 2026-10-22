@@ -1,0 +1,29 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 39,
+    "min_y": -56,
+    "max_y": 64,
+    "size": 30,
+    "density": 0.48,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:calcite",
+          "minecraft:red_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "tfc:ore/sulfur/basalt"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_cavum_sulfur_tfc_vein"
+  }
+}

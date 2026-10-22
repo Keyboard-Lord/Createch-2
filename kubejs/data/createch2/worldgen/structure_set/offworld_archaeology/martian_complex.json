@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "createch2:offworld_archaeology/martian_complex",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20770212,
+    "spacing": 56,
+    "separation": 40
+  }
+}

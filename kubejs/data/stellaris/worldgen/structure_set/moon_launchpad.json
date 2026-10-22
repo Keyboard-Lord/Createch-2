@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "stellaris:moon_launchpad",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 458630173,
+    "frequency": 0.75,
+    "spacing": 52,
+    "separation": 28
+  }
+}

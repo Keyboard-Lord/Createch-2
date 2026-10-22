@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 66,
+    "min_y": -32,
+    "max_y": 24,
+    "size": 24,
+    "density": 0.38,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mars_stone"
+        ],
+        "with": [
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/poor_spodumene/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_spodumene/basalt"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_spodumene/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 40,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_spodumene"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_mars_spodumene_tfc_vein"
+  }
+}

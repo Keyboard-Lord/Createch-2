@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "SCS",
+    " P "
+  ],
+  "key": {
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "S": {
+      "item": "aeroworks:mechanical_servo"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "P": {
+      "item": "electroenergetics:converter"
+    }
+  },
+  "result": {
+    "id": "aeroworks:stepper_servo",
+    "count": 1
+  }
+}

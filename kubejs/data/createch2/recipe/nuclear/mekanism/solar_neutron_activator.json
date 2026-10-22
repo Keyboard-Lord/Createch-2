@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QPQ",
+    "CTC",
+    "NIN"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "C": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "T": {
+      "item": "mekanism:elite_chemical_tank"
+    },
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "mekanism:solar_neutron_activator",
+    "count": 1
+  }
+}

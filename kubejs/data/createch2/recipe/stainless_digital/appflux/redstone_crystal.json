@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RFR",
+    "FSF",
+    "RFR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "F": {
+      "tag": "c:dusts/fluix"
+    },
+    "S": {
+      "item": "modern_industrialization:silicon_plate"
+    }
+  },
+  "result": {
+    "id": "appflux:redstone_crystal",
+    "count": 2
+  }
+}

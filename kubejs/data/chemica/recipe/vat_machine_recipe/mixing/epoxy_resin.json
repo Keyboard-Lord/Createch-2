@@ -1,0 +1,44 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:epichlorohydrin"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:caustic_soda"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:phenol"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:acetone"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:epoxy_resin"
+    },
+    {
+      "amount": 150,
+      "id": "chemica:brine"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 3
+}

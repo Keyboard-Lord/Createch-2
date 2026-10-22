@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 64,
+  "duration": 700,
+  "item_inputs": [
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "tfmg:heavy_plate",
+      "amount": 8
+    },
+    {
+      "item": "tfmg:steel_casing",
+      "amount": 4
+    },
+    {
+      "item": "create:precision_mechanism",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:motor",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 500
+  },
+  "item_outputs": [
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 4
+    }
+  ]
+}

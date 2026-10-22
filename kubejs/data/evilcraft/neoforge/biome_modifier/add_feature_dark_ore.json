@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": [
+    "evilcraft:ore_dark",
+    "evilcraft:ore_dark_lower"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/enderium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/enderium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/enderium",
+      "required": false
+    }
+  ]
+}

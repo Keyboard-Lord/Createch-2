@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "ISI",
+    " P "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:dusts/diamond"
+    },
+    "G": {
+      "item": "mekanism:ingot_refined_glowstone"
+    },
+    "I": {
+      "tag": "c:ingots/bronze"
+    },
+    "S": {
+      "tag": "c:storage_blocks/steel"
+    },
+    "P": {
+      "item": "mekanism:jetpack"
+    }
+  },
+  "result": {
+    "id": "mekanism:jetpack_armored",
+    "count": 1
+  }
+}

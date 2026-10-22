@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "PCP",
+    "IPI"
+  ],
+  "key": {
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:advanced_machine_casing"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:iridium_machine_casing_pipe",
+    "count": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "rocketnautics:rcs_thruster"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:grid_telemetry",
+      "createch2:computational_models"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:spc_06_advanced_space_hardware",
+    "createch2:com_04_digital_fabrication"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_07_orbital_control.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_07_orbital_control.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:cosmonautics/mechanisms/rcs_thruster",
+      "createch2:cosmonautics/mechanisms/separator",
+      "createch2:research/pack/propulsion_telemetry_advanced",
+      "createch2:factory_scaling/aerospace/rcs_thruster_batch",
+      "ae2:network/cells/spatial_components",
+      "ae2:network/cells/spatial_components_0",
+      "ae2:network/cells/spatial_components_1"
+    ]
+  }
+}

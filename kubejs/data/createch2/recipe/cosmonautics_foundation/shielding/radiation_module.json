@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "CMC",
+    "LIL"
+  ],
+  "key": {
+    "L": {
+      "tag": "c:ingots/lead"
+    },
+    "P": {
+      "item": "chemlib:palladium_plate"
+    },
+    "C": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "M": {
+      "item": "mekanism:module_base"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "mekanism:module_radiation_shielding_unit",
+    "count": 1
+  }
+}

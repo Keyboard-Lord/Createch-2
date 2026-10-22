@@ -1,0 +1,112 @@
+{
+  "truth": "EXACT_LOADED_RESEARCH_ALIAS_SUPPLEMENT",
+  "evidence": "mission04/dynamic-recipes-before-17.json",
+  "evidenceSha256": "ce8b91f9f2bffed5520952cb8bb9b5010c2bae3d87d8a0d48d3323a643c554f5",
+  "canonicalLedgerSha256": "ea55070e4049a312e65365d051b5785490bf28a7206b7dea3853f167ac825492",
+  "originalConditionalAliasesRetained": true,
+  "rows": [
+    {
+      "node": "createch2:che_01_process_control",
+      "source": "createch2:research/pack/process_samples_heated",
+      "conditionalAlias": "greate:integration/createch2/research/pack/process_samples_heated",
+      "registeredAlias": "greate:integration/createch_2_/research/pack/process_samples_heated"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "source": "createch2:chemica/feedstock/tfc_graphite",
+      "conditionalAlias": "greate:integration/createch2/chemica/feedstock/tfc_graphite",
+      "registeredAlias": "greate:integration/createch_2_/chemica/feedstock/tfc_graphite"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "source": "createch2:chemica/feedstock/tfc_phosphorus",
+      "conditionalAlias": "greate:integration/createch2/chemica/feedstock/tfc_phosphorus",
+      "registeredAlias": "greate:integration/createch_2_/chemica/feedstock/tfc_phosphorus"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "source": "createch2:chemica/feedstock/canonical_fluorite",
+      "conditionalAlias": "greate:integration/createch2/chemica/feedstock/canonical_fluorite",
+      "registeredAlias": "greate:integration/createch_2_/chemica/feedstock/canonical_fluorite"
+    },
+    {
+      "node": "createch2:che_02_electrolysis",
+      "source": "createch2:chemica/feedstock/tfc_rutile",
+      "conditionalAlias": "greate:integration/createch2/chemica/feedstock/tfc_rutile",
+      "registeredAlias": "greate:integration/createch_2_/chemica/feedstock/tfc_rutile"
+    },
+    {
+      "node": "createch2:ele_01_practical_electrics",
+      "source": "createch2:electrical/wire/copper_wire",
+      "conditionalAlias": "greate:integration/createch2/electrical/wire/copper_wire",
+      "registeredAlias": "greate:integration/createch_2_/electrical/wire/copper_wire"
+    },
+    {
+      "node": "createch2:eso_01_botanical_observation",
+      "source": "createch2:research/pack/esoteric_records_botanical",
+      "conditionalAlias": "greate:integration/createch2/research/pack/esoteric_records_botanical",
+      "registeredAlias": "greate:integration/createch_2_/research/pack/esoteric_records_botanical"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "source": "createch2:mixer/greate_computation/pcb_coolant",
+      "conditionalAlias": "greate:integration/createch2/mixer/greate_computation/pcb_coolant",
+      "registeredAlias": "greate:integration/createch_2_/mixer/greate_computation/pcb_coolant"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "source": "createch2:mixer/greate_biology/gelatin_mixture",
+      "conditionalAlias": "greate:integration/createch2/mixer/greate_biology/gelatin_mixture",
+      "registeredAlias": "greate:integration/createch_2_/mixer/greate_biology/gelatin_mixture"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "source": "createch2:mixer/greate_biology/raw_growth_medium",
+      "conditionalAlias": "greate:integration/createch2/mixer/greate_biology/raw_growth_medium",
+      "registeredAlias": "greate:integration/createch_2_/mixer/greate_biology/raw_growth_medium"
+    },
+    {
+      "node": "createch2:frn_06_reality_engineering",
+      "source": "createch2:mixer/greate_precision/osmiridium_stock",
+      "conditionalAlias": "greate:integration/createch2/mixer/greate_precision/osmiridium_stock",
+      "registeredAlias": "greate:integration/createch_2_/mixer/greate_precision/osmiridium_stock"
+    },
+    {
+      "node": "createch2:geo_02_mechanized_extraction",
+      "source": "createch2:research/pack/geological_surveys_crushing",
+      "conditionalAlias": "greate:integration/createch2/research/pack/geological_surveys_crushing",
+      "registeredAlias": "greate:integration/createch_2_/research/pack/geological_surveys_crushing"
+    },
+    {
+      "node": "createch2:mat_01_bronze_metallurgy",
+      "source": "createch2:age_foundation/foundry/cast_bronze_ingot",
+      "conditionalAlias": "greate:integration/createch2/age_foundation/foundry/cast_bronze_ingot",
+      "registeredAlias": "greate:integration/createch_2_/age_foundation/foundry/cast_bronze_ingot"
+    },
+    {
+      "node": "createch2:mat_01_bronze_metallurgy",
+      "source": "createch2:research/pack/material_specimens_workshop",
+      "conditionalAlias": "greate:integration/createch2/research/pack/material_specimens_workshop",
+      "registeredAlias": "greate:integration/createch_2_/research/pack/material_specimens_workshop"
+    },
+    {
+      "node": "createch2:mat_02_brass_engineering",
+      "source": "createch2:age_foundation/foundry/brass_foundry_batch",
+      "conditionalAlias": "greate:integration/createch2/age_foundation/foundry/brass_foundry_batch",
+      "registeredAlias": "greate:integration/createch_2_/age_foundation/foundry/brass_foundry_batch"
+    },
+    {
+      "node": "createch2:mat_02_brass_engineering",
+      "source": "createch2:age_foundation/foundry/brass_sheet_from_foundry_brass",
+      "conditionalAlias": "greate:integration/createch2/age_foundation/foundry/brass_sheet_from_foundry_brass",
+      "registeredAlias": "greate:integration/createch_2_/age_foundation/foundry/brass_sheet_from_foundry_brass"
+    },
+    {
+      "node": "createch2:mec_01_rotary_mechanics",
+      "source": "createch2:research/pack/kinetic_data_workshop",
+      "conditionalAlias": "greate:integration/createch2/research/pack/kinetic_data_workshop",
+      "registeredAlias": "greate:integration/createch_2_/research/pack/kinetic_data_workshop"
+    }
+  ],
+  "scope": "Only seventeen observed native holder IDs for already-owned source recipes. Existing canonical/conditional IDs and recipe data remain unchanged; no namespace-wide ownership rule."
+}

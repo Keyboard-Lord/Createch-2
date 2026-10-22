@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "AIA",
+    "CPC"
+  ],
+  "key": {
+    "C": {
+      "item": "megacells:cell_component_1m"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "A": {
+      "item": "megacells:accumulation_processor"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "megacells:cell_component_4m",
+    "count": 1
+  }
+}

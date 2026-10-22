@@ -1,0 +1,50 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -56,
+    "max_y": 16,
+    "size": 24,
+    "density": 0.34,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:orange_terracotta",
+          "minecraft:purple_terracotta",
+          "minecraft:red_terracotta",
+          "minecraft:yellow_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 40,
+            "block": "tfc_metallurgy:ore/poor_uraninite/granite"
+          },
+          {
+            "weight": 50,
+            "block": "tfc_metallurgy:ore/normal_uraninite/granite"
+          },
+          {
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/rich_uraninite/granite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 40,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_uraninite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_rima_uraninite_tfc_vein"
+  }
+}

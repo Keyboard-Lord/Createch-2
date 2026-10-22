@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QFQ",
+    "RCR",
+    "QHQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "F": {
+      "item": "alchemistry:fusion_core"
+    },
+    "R": {
+      "item": "modern_industrialization:fusion_reactor"
+    },
+    "C": {
+      "tag": "createch2:control/factory/quantum"
+    },
+    "H": {
+      "item": "modern_industrialization:quantum_machine_hull"
+    }
+  },
+  "result": {
+    "id": "alchemistry:fusion_chamber_controller",
+    "count": 1
+  }
+}

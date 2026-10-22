@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_settled_land",
+    "#createch2:tfc_structure_rugged_land",
+    "#createch2:tfc_structure_dry_land",
+    "#createch2:tfc_structure_karst_land",
+    "#createch2:tfc_structure_volcanic_land",
+    "#createch2:tfc_structure_icy_land"
+  ]
+}

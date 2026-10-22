@@ -1,0 +1,61 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 512,
+  "duration": 2400,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:iridium_dust",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:platinum_dust",
+      "amount": 4
+    },
+    {
+      "item": "stellaris:corronium_ingot",
+      "amount": 4
+    },
+    {
+      "item": "stellaris:solerium",
+      "amount": 4
+    },
+    {
+      "tag": "c:dusts/lithium",
+      "amount": 4
+    },
+    {
+      "item": "eternal_starlight:starcore",
+      "amount": 2
+    },
+    {
+      "item": "eternal_starlight:aethersent_ingot",
+      "amount": 2
+    },
+    {
+      "item": "eternal_starlight:deepsilver_ingot",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:superconductor_ingot",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:deuterium",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:tritium",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:superconductor_dust",
+      "amount": 24
+    }
+  ]
+}

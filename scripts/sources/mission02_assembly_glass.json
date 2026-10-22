@@ -1,0 +1,277 @@
+{
+  "gate": "COM-06",
+  "truth": "REPAIRED_RETIRED_PROCESSOR_ASSEMBLY_GLASS_CHAIN",
+  "nativeJar": "gtceu-1.21.1-8.1.0.jar",
+  "nativeJarSha256": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680",
+  "classes": {
+    "reactor": {
+      "class": "com.gregtechceu.gtceu.data.recipe.serialized.chemistry.ReactorRecipes",
+      "sha256": "3744aa4c588b85363f0c749fb1910e2a462a94b9443e35733392bd741636b56a"
+    },
+    "misc": {
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.MiscRecipeLoader",
+      "sha256": "d715fe4599372ed1e2765a55af06c8d302e6154479a448552df912b306560720"
+    },
+    "types": {
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeTypes",
+      "sha256": "f3e486dabfcdb015d16f6727ca8dcf69ce1e8add1ad868c5c336403f7c231308"
+    },
+    "meta": {
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.MetaTileEntityLoader",
+      "sha256": "7c9695d7b60937eeacc178eaad124510f0c0dccd1adefe529a3278be53260413"
+    },
+    "miSingle": {
+      "class": "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "sha256": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5"
+    },
+    "multis": {
+      "class": "com.gregtechceu.gtceu.data.machine.GTMultiMachines",
+      "sha256": "ed9f8ddcf25a670073067fef2fabbd37c6f12755dd7e983d726b9969a14380cf"
+    },
+    "machines": {
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5"
+    }
+  },
+  "recipes": {
+    "tempered_glass": {
+      "type": "modern_industrialization:blast_furnace",
+      "eu": 30,
+      "duration": 60,
+      "item_inputs": [
+        {
+          "tag": "c:glass_blocks",
+          "amount": 1
+        }
+      ],
+      "fluid_inputs": [
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 60
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:tempered_glass",
+          "amount": 1
+        }
+      ]
+    },
+    "acetic_acid": {
+      "type": "modern_industrialization:chemical_reactor",
+      "eu": 30,
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 2000
+        },
+        {
+          "fluid": "modern_industrialization:ethylene",
+          "amount": 1000
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "gtceu:acetic_acid",
+          "amount": 1000
+        }
+      ]
+    },
+    "vinyl_acetate": {
+      "type": "modern_industrialization:chemical_reactor",
+      "eu": 30,
+      "duration": 180,
+      "fluid_inputs": [
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 1000
+        },
+        {
+          "fluid": "gtceu:acetic_acid",
+          "amount": 1000
+        },
+        {
+          "fluid": "modern_industrialization:ethylene",
+          "amount": 1000
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        },
+        {
+          "fluid": "gtceu:vinyl_acetate",
+          "amount": 1000
+        }
+      ]
+    },
+    "polyvinyl_acetate": {
+      "type": "modern_industrialization:chemical_reactor",
+      "eu": 30,
+      "duration": 160,
+      "fluid_inputs": [
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 1000
+        },
+        {
+          "fluid": "gtceu:vinyl_acetate",
+          "amount": 144
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "gtceu:polyvinyl_acetate",
+          "amount": 216
+        }
+      ]
+    },
+    "butyraldehyde": {
+      "type": "modern_industrialization:chemical_reactor",
+      "eu": 480,
+      "duration": 200,
+      "fluid_inputs": [
+        {
+          "fluid": "modern_industrialization:propene",
+          "amount": 1000
+        },
+        {
+          "fluid": "modern_industrialization:hydrogen",
+          "amount": 2000
+        },
+        {
+          "fluid": "chemica:carbon_monoxide",
+          "amount": 1000
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "gtceu:butyraldehyde",
+          "amount": 1000
+        }
+      ]
+    },
+    "polyvinyl_butyral": {
+      "type": "modern_industrialization:chemical_reactor",
+      "eu": 480,
+      "duration": 400,
+      "fluid_inputs": [
+        {
+          "fluid": "gtceu:butyraldehyde",
+          "amount": 250
+        },
+        {
+          "fluid": "gtceu:polyvinyl_acetate",
+          "amount": 144
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "gtceu:polyvinyl_butyral",
+          "amount": 144
+        }
+      ]
+    },
+    "polyvinyl_butyral_plate": {
+      "type": "greate:compacting",
+      "recipe_tier": 2,
+      "heat_requirement": "heated",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "fluid": "gtceu:polyvinyl_butyral",
+          "amount": 144
+        }
+      ],
+      "results": [
+        {
+          "id": "gtceu:polyvinyl_butyral_plate"
+        }
+      ]
+    },
+    "laminated_glass": {
+      "type": "modern_industrialization:assembler",
+      "eu": 480,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "gtceu:tempered_glass",
+          "amount": 2
+        },
+        {
+          "item": "gtceu:polyvinyl_butyral_plate",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:laminated_glass",
+          "amount": 1
+        }
+      ]
+    },
+    "single_input_bus": {
+      "type": "modern_industrialization:unpacker",
+      "eu": 2,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "gtceu:iv_input_bus",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:ulv_input_bus",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "nativeBasis": {
+    "tempered_glass": {
+      "recipe": "gtceu:arc_furnace/tempered_glass",
+      "item": "native Glass block1",
+      "oxygenMb": 60,
+      "eu": 30,
+      "duration": 60
+    },
+    "acetic_acid": {
+      "recipe": "gtceu:chemical_reactor/acetic_acid_from_ethylene",
+      "eu": 30,
+      "duration": 100
+    },
+    "vinyl_acetate": {
+      "recipe": "gtceu:chemical_reactor/vinyl_acetate",
+      "eu": 30,
+      "duration": 180
+    },
+    "polyvinyl_acetate": {
+      "recipe": "gtceu:chemical_reactor/pva_from_oxygen",
+      "eu": 30,
+      "duration": 160
+    },
+    "butyraldehyde": {
+      "recipe": "gtceu:chemical_reactor/butraldehyde",
+      "eu": 480,
+      "duration": 200
+    },
+    "polyvinyl_butyral": {
+      "recipe": "gtceu:chemical_reactor/polyvinyl_butyral",
+      "eu": 480,
+      "duration": 400
+    },
+    "laminated_glass": {
+      "recipe": "gtceu:forming_press/laminated_glass",
+      "eu": 480,
+      "duration": 200
+    }
+  },
+  "substitutions": "Only same chemical names:MIethylene,oxygen,hydrogen,propene and Chemica carbon monoxide. Existing Greate heated144mBpolymer plate compacting convention. No arbitrary polymer,alloy,unit or yield substitution.",
+  "nativeRegistrationRepairPending": true,
+  "miJarSha256": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca",
+  "inputBusRepair": "Native assembly-line I predicate accepts only ITEM_IMPORT_BUS[0],ULV. Consume one newly made owned IVbus to retain one single-slot ULVbus;extra advanced hardware is discarded. No hull,metal,polymer,circuit or energy refund. The retired native ULVmachine suppliers are not restored."
+}

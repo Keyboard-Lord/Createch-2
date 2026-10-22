@@ -1,0 +1,46 @@
+{
+  "structures": [
+    {
+      "structure": "idas:labyrinth",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ancient_mines",
+      "weight": 3
+    },
+    {
+      "structure": "idas:tinkers_citadel",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 2
+    },
+    {
+      "structure": "idas:desert_pyramid",
+      "weight": 2
+    },
+    {
+      "structure": "idas:windswept_shrine",
+      "weight": 2
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 1
+    },
+    {
+      "structure": "idas:castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480678,
+    "spacing": 120,
+    "separation": 72,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 5,
+      "other_set": "#idas:rare_avoid"
+    }
+  }
+}

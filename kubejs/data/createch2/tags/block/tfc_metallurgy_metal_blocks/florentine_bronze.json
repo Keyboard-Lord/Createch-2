@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/florentine_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/florentine_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/florentine_bronze",
+      "required": false
+    }
+  ]
+}

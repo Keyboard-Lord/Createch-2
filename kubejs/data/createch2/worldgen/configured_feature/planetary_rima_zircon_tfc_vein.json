@@ -1,0 +1,50 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 84,
+    "min_y": -32,
+    "max_y": 24,
+    "size": 22,
+    "density": 0.32,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:orange_terracotta",
+          "minecraft:purple_terracotta",
+          "minecraft:red_terracotta",
+          "minecraft:yellow_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 35,
+            "block": "tfc_metallurgy:ore/poor_zircon/granite"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_zircon/granite"
+          },
+          {
+            "weight": 10,
+            "block": "tfc_metallurgy:ore/rich_zircon/granite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 16,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 42,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_zircon"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_rima_zircon_tfc_vein"
+  }
+}

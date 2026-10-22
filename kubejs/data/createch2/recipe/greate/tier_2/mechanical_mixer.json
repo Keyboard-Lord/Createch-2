@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CHC",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/aluminum"
+    },
+    "G": {
+      "item": "greate:steel_mechanical_mixer"
+    },
+    "C": {
+      "item": "greate:aluminium_cogwheel"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:electronic_circuit"
+    }
+  },
+  "result": {
+    "id": "greate:aluminium_mechanical_mixer",
+    "count": 1
+  }
+}

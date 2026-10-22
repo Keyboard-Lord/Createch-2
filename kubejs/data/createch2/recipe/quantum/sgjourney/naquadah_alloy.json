@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "SMS",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "sgjourney:refined_naquadah"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "S": {
+      "item": "modern_industrialization:superconductor_plate"
+    },
+    "M": {
+      "tag": "createch2:malum_reality_engineering"
+    }
+  },
+  "result": {
+    "id": "sgjourney:naquadah_alloy",
+    "count": 2
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:hydrofluoric_acid"
+    }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "tfmg:hydrogen"
+    },
+    {
+      "amount": 500,
+      "id": "chemica:fluorine"
+    }
+  ],
+  "processing_time": 100,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

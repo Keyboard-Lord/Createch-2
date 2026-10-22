@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "createaddition:zinc_sheet"
+    }
+  ],
+  "recipe_tier": 0
+}

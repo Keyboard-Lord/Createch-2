@@ -1,0 +1,29 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "chemica:phenol"
+    },
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:benzene"
+    },
+    {
+      "id": "chemica:zinc_dust"
+    }
+  ],
+  "processing_time": 200,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel"
+  ],
+  "min_size": 1
+}

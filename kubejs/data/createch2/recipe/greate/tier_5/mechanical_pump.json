@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "GHC",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "greate:titanium_mechanical_pump"
+    },
+    "H": {
+      "tag": "c:plates/tungsten_steel"
+    },
+    "C": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "S": {
+      "item": "greate:tungsten_steel_cogwheel"
+    }
+  },
+  "result": {
+    "id": "greate:tungsten_steel_mechanical_pump",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:chemical_crystallizer"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:che_05_reaction_engineering",
+    "createch2:thm_03_high_pressure_thermodynamics",
+    "createch2:mat_05_vacuum_titanium"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_06_catalytic_processing.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_06_catalytic_processing.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:chemical_age/mekanism/chemical_injection_chamber"
+    ]
+  }
+}

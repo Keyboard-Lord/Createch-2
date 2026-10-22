@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:stone",
+      "required": false
+    },
+    {
+      "id": "#minecraft:stone_ore_replaceables",
+      "required": false
+    }
+  ]
+}

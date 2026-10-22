@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 512,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "greate:naquadah_alloy_cogwheel",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:naquadah_alloy_dust",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "ae2:printed_calculation_processor",
+      "amount": 4
+    },
+    {
+      "item": "ae2:printed_silicon",
+      "amount": 4
+    },
+    {
+      "tag": "c:dusts/redstone",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 2000
+  },
+  "item_outputs": [
+    {
+      "item": "ae2:calculation_processor",
+      "amount": 4
+    }
+  ]
+}

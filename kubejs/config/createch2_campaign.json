@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "authority": "Existing FTB Quests + Researchd; no separate progression state",
+  "canonical_ages": [
+    {
+      "age": 0,
+      "name": "Stone",
+      "quest": "3FDFB82BD98A4BAC",
+      "title": "Stone Settlement Proven",
+      "chapter": "0605D9FDE89DB248",
+      "file": "config/ftbquests/quests/chapters/createch2_01_age_00_stone.snbt",
+      "entry": "05D7794894BC51C0",
+      "contract": "Fire, ceramics and charcoal establish a survivable TFC settlement and first copper."
+    },
+    {
+      "age": 1,
+      "name": "Copper",
+      "quest": "0DEE1DD112355C06",
+      "title": "Copper Mining Camp Proven",
+      "chapter": "0189351395619B62",
+      "file": "config/ftbquests/quests/chapters/createch2_02_age_01_copper.snbt",
+      "entry": "0F573E8D8FBAA0D6",
+      "contract": "Prospecting, the copper workshop and empirical research turn survival into organized mining."
+    },
+    {
+      "age": 2,
+      "name": "Alloy Foundry",
+      "quest": "6EDA5D14095E5827",
+      "title": "Kinetic Foundry Proven",
+      "chapter": "0AB49A5259787D47",
+      "file": "config/ftbquests/quests/chapters/createch2_03_age_02_alloy_foundry.snbt",
+      "entry": "2B127FBCA55C1DE5",
+      "contract": "Water power and Create/Greate forming establish the kinetic foundry; rail preparation supports this district."
+    },
+    {
+      "age": 3,
+      "name": "Bronze Steam",
+      "quest": "696D34A8AB6D9BAA",
+      "title": "Bronze Steam Hall Proven",
+      "chapter": "03B240B4945F83DE",
+      "file": "config/ftbquests/quests/chapters/createch2_04_age_03_bronze_steam.snbt",
+      "entry": "03DC1833EB6821E2",
+      "contract": "Bronze steam industrializes ore preparation and pumping while the kinetic foundry supplies the machine hall."
+    },
+    {
+      "age": 4,
+      "name": "Heavy Industry",
+      "quest": "7E2F37A4005BB466",
+      "title": "Heavy Industry District Proven",
+      "chapter": "09EAEA8CE2694C0A",
+      "file": "config/ftbquests/quests/chapters/createch2_05_age_04_heavy_industry.snbt",
+      "entry": "0805E46BFACC635A",
+      "contract": "Coke, refractory, petroleum, rubber and lubrication become permanent industrial feedstocks."
+    },
+    {
+      "age": 5,
+      "name": "Steel Steam",
+      "quest": "5F76C355880F605C",
+      "title": "Steel and Railway Works Proven",
+      "chapter": "094D8004B4BC61C6",
+      "file": "config/ftbquests/quests/chapters/createch2_06_age_05_steel_steam.snbt",
+      "entry": "0C4F7FBDB9DA914D",
+      "contract": "Durable steel machinery and serviced freight terminals turn small hauling into repeatable bulk transport."
+    },
+    {
+      "age": 6,
+      "name": "Low Voltage",
+      "quest": "408FCBE8C6059DC5",
+      "title": "Low-Voltage Grid Proven",
+      "chapter": "065C522F18E2DC46",
+      "file": "config/ftbquests/quests/chapters/createch2_07_age_06_low_voltage.snbt",
+      "entry": "09DA0EFC9C85F330",
+      "contract": "Generation, metering, protected conductors, the EE converter and recoverable loads establish electric service."
+    },
+    {
+      "age": 7,
+      "name": "First Space",
+      "quest": "48BC476A8330C289",
+      "title": "Launch Complex Proven",
+      "chapter": "034647BE41128B91",
+      "file": "config/ftbquests/quests/chapters/createch2_08_age_07_first_space.snbt",
+      "entry": "023F6BB2D31155A8",
+      "contract": "Steel, freight, petroleum and electricity launch an expedition that returns useful cargo to Terra."
+    },
+    {
+      "age": 8,
+      "name": "Advanced Electric",
+      "quest": "40B9F21964564F18",
+      "title": "Advanced Electric Floor Proven",
+      "chapter": "0D87E40C49866C23",
+      "file": "config/ftbquests/quests/chapters/createch2_09_age_08_advanced_electric.snbt",
+      "entry": "0764F8C5D0DAC768",
+      "contract": "Returned space feedstocks become aluminum, advanced motors and a stronger Greate mechanical floor."
+    },
+    {
+      "age": 9,
+      "name": "Chemical and Arcane Chemistry",
+      "quest": "41F9C6DA45533FA3",
+      "title": "Chemical Laboratory Proven",
+      "chapter": "08386D304607DDD9",
+      "file": "config/ftbquests/quests/chapters/createch2_10_age_09_chemical_arcane.snbt",
+      "entry": "0D3CCAB136834E0D",
+      "contract": "The refinery feeds controlled chemistry, polymers, electronics and programmable supervision."
+    },
+    {
+      "age": 10,
+      "name": "Stainless and Digital",
+      "quest": "1A97FD1D97E6F468",
+      "title": "Digital Factory Proven",
+      "chapter": "0B17CFFFB67577AB",
+      "file": "config/ftbquests/quests/chapters/createch2_11_age_10_stainless_digital.snbt",
+      "entry": "0655E46718DD0069",
+      "contract": "AE2 requests production and coordinates local machinery while rail and expeditions still move geographical bulk."
+    },
+    {
+      "age": 11,
+      "name": "High Pressure Aerospace",
+      "quest": "677DBBBFEA49913C",
+      "title": "Vacuum Aerospace Works Proven",
+      "chapter": "02E137BC8B9A8A80",
+      "file": "config/ftbquests/quests/chapters/createch2_12_age_11_high_pressure.snbt",
+      "entry": "0C26A049C9F82AC7",
+      "contract": "Vacuum titanium, high pressure and large processing lines relieve repetitive production and support deep extraction."
+    },
+    {
+      "age": 12,
+      "name": "Cosmonautics and Deep Space",
+      "quest": "1807EB5C02D2A745",
+      "title": "Deep-Space Freight Yard Proven",
+      "chapter": "0438176E6ABCF370",
+      "file": "config/ftbquests/quests/chapters/createch2_13_age_12_cosmonautics.snbt",
+      "entry": "05BA7B31EF14DF31",
+      "contract": "Repeatable remote cargo, flight control and planetary extraction establish permanent deep-space supply."
+    },
+    {
+      "age": 13,
+      "name": "Nuclear Civilization",
+      "quest": "4F849CB77549B587",
+      "title": "Nuclear Complex Proven",
+      "chapter": "04347F546E30FF44",
+      "file": "config/ftbquests/quests/chapters/createch2_14_age_13_nuclear.snbt",
+      "entry": "0CAB92CC888C9309",
+      "contract": "Fuel preparation, coolant, output, instruments, controlled waste and recovery establish nuclear civilization."
+    },
+    {
+      "age": 14,
+      "name": "Extreme Industry and Eternal Starlight",
+      "quest": "156A51C1EA94D3A8",
+      "title": "Neutron and Starlight Works Proven",
+      "chapter": "0A4400DB026A65B8",
+      "file": "config/ftbquests/quests/chapters/createch2_15_age_14_extreme_starlight.snbt",
+      "entry": "264EB1BB7695FED2",
+      "contract": "Existing nuclear and chemical institutions reach extreme purity, neutron production and Starlight feedstocks."
+    },
+    {
+      "age": 15,
+      "name": "Quantum and Reality Engineering",
+      "quest": "7F95E7B9F7FEFB4D",
+      "title": "Quantum Systems Mastered",
+      "chapter": "0303D34F18B86030",
+      "file": "config/ftbquests/quests/chapters/createch2_16_age_15_quantum.snbt",
+      "entry": "023A7897291258E3",
+      "contract": "Fusion, quantum control, earned GT precision, matter replication and spatial transport scale established industry."
+    },
+    {
+      "age": 16,
+      "name": "Infinity and Final Ascension",
+      "quest": "45A0E9B35836528D",
+      "title": "Infinity Systems Mastered",
+      "chapter": "0FDE3813B04FF993",
+      "file": "config/ftbquests/quests/chapters/createch2_17_age_16_infinity.snbt",
+      "entry": "032D2E661C629440",
+      "contract": "Infinity material, stellar power, matter engineering, deliberate esoteric convergence and restart capacity complete the civilization."
+    }
+  ],
+  "final_convergence": [
+    "0710BE372D3EB0CA",
+    "4410F206DA2357AB",
+    "3EF63F460CD85E45",
+    "01340720D08D67A4",
+    "2ADAFA296AF26A7A"
+  ],
+  "optional_disciplines": [
+    "aviation",
+    "military",
+    "productive_bees",
+    "aqua_mire"
+  ],
+  "esoteric_convergence": "ESO-04 is deliberately required by FRN-06 and Infinity Convergence; branch optional before final reality engineering.",
+  "validation": "verify_campaign_unity.mjs and existing runtime_audit.js",
+  "runtime_status": "RUNTIME_UNVERIFIED"
+}

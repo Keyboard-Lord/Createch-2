@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 480,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "gtceu:small_pipe_casting_mold",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gtceu:polybenzimidazole",
+      "amount": 144
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:polybenzimidazole_small_fluid_pipe",
+      "amount": 1
+    }
+  ]
+}

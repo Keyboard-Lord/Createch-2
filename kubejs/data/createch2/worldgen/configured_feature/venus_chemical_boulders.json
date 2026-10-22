@@ -1,0 +1,60 @@
+{
+  "type": "createch2core:landform",
+  "config": {
+    "pillar": false,
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "stellaris:venus_stone"
+          },
+          "weight": 7
+        },
+        {
+          "data": {
+            "Name": "minecraft:yellow_terracotta"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:blackstone"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:cave_air"
+      ]
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 8,
+      "max_inclusive": 24
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 4,
+      "max_inclusive": 10
+    },
+    "tip_scale": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.15,
+      "max_exclusive": 0.45
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0.02,
+      "max_exclusive": 0.12
+    },
+    "euclidean_weight": 1,
+    "manhattan_weight": 0,
+    "chebyshev_weight": 0
+  }
+}

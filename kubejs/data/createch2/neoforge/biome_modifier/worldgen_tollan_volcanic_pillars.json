@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:worldgen_tollan_custom",
+  "features": [
+    "createch2:tollan_volcanic_pillars"
+  ],
+  "step": "local_modifications"
+}

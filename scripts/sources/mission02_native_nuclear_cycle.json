@@ -1,0 +1,280 @@
+{
+  "truth": "REVIEWED_EXISTING_NATIVE_NUCLEAR_FUEL_CYCLE",
+  "classes": {
+    "fission": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.content.fission.FissionReactorMultiblockData",
+      "verbose": false,
+      "sha256": "f1c8a8002851a58a633ac2b3cada54d7c3f9f7a3051af8ea3212a1858a5cdf9c"
+    },
+    "validator": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.content.fission.FissionReactorValidator",
+      "verbose": false,
+      "sha256": "32ef00a47a3b5ef5f533917aa0ba2c0dfdbd72e3880cd43531ac0736d5d8d46f"
+    },
+    "assembly": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.content.fission.FissionReactorValidator$FuelAssembly",
+      "verbose": false,
+      "sha256": "cd9368948a3fd94755e56322294b0f639c105f73557ddd1e64fcaf6d92db4cd2"
+    },
+    "cuboid": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.lib.multiblock.CuboidStructureValidator",
+      "verbose": false,
+      "sha256": "abfb20e2db54accacf92a0bafcc9643a98b48c15b3455cdcdc94ba17eb21dec1"
+    },
+    "centrifuge": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.machine.TileEntityIsotopicCentrifuge",
+      "verbose": false,
+      "sha256": "fb86fee147050a7b4c1a2e98c1c94f1f76b25e54efa59ccac10aa5f028e1e256"
+    },
+    "steamTank": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.TileEntityChemicalTank",
+      "verbose": false,
+      "sha256": "956cb3bcfc8401f65583ba51f95eae2f3ad2b306e2ca9fd8648d2640883770bc"
+    },
+    "heatUtils": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.util.HeatUtils",
+      "verbose": false,
+      "sha256": "df22e149fe2828cf97e8b14cae0bff6785f3a2d6b42f9b5c1ea8ac63b0013bd1"
+    },
+    "gui": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.client.gui.GuiFissionReactor",
+      "verbose": false,
+      "sha256": "b369e3e3405f439e0ff314fc23e0aaf8499590ff4915fd034456f6b3acd759e8"
+    },
+    "packet": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.network.to_server.PacketGeneratorsGuiInteract$GeneratorsGuiInteraction",
+      "verbose": false,
+      "sha256": "2712c08b991a37996470f540df77ec9c2c8164686eb09c743e5f38fe58388e33"
+    },
+    "port": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.tile.fission.TileEntityFissionReactorPort",
+      "verbose": false,
+      "sha256": "c21a7b48d21336921f48190bcba9d797d116ed3fa957167da14c8752ef5a1b5f"
+    },
+    "casing": {
+      "jar": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.generators.common.tile.fission.TileEntityFissionReactorCasing",
+      "verbose": false,
+      "sha256": "cd3dd3efee3a13515787018368eb8d7b5a9b37cb9c10ec26573437dad079705f"
+    },
+    "heatAPI": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.api.heat.HeatAPI",
+      "verbose": false,
+      "sha256": "7f281032c0c4313c0e79ae7b6231ffbd5bce25f15febba2f988bb45c6426cecb"
+    },
+    "heatCap": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.heat.VariableHeatCapacitor",
+      "verbose": false,
+      "sha256": "85ff16ffd6a2b5470c1b32c62da37dbab6f1d7fd8cbf15fb44dd16596f133038"
+    },
+    "fluids": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registries.MekanismFluids",
+      "verbose": false,
+      "sha256": "232edf655fbc1cbe5a27c030c8975ea1ae7a9ad9579887b7b2ecdfd7c39f2aac"
+    },
+    "fluidRegister": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registration.impl.FluidDeferredRegister",
+      "verbose": false,
+      "sha256": "a61462766c8b2a6f0d21e48bc1cbb81545d7b421066806223ce13cd650d081f0"
+    },
+    "chemicalHelper": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.holder.chemical.ChemicalTankHelper",
+      "verbose": false,
+      "sha256": "451ea61de48418c26257e3343e4f9781a19ac0342e511a9054f6db541b8c0ff8"
+    },
+    "oneInput": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.api.recipes.cache.OneInputCachedRecipe",
+      "verbose": false,
+      "sha256": "275079cbdedbc57665508f0c1c3140c22744530cc12cf43f5c73091269f1d9b8"
+    },
+    "baseHeat": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.heat.BasicHeatCapacitor",
+      "verbose": false,
+      "sha256": "9b0261236c1c799fd01055664312c727712878b1938208509c5de53812a75294"
+    },
+    "fluidSlot": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.inventory.slot.FluidInventorySlot",
+      "verbose": false,
+      "sha256": "249dba7a2164e0b57c95407027ebfe9a98d0a14dc13970e7fe15f6aea737d8d8"
+    },
+    "chemicalConstants": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.ChemicalConstants",
+      "verbose": false,
+      "sha256": "5a20473e5748ad63d40374a07616bf5c9177d9bffcdd8d1ad4413fc046789b68"
+    },
+    "multiblockTile": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.prefab.TileEntityMultiblock",
+      "verbose": false,
+      "sha256": "67cd7ae37bafb13f8b0c811e9ef2e7c9d10e52de8cb3e173bff1aa4bb3009ae6"
+    },
+    "chemicalTankBase": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.api.chemical.BasicChemicalTank",
+      "verbose": false,
+      "sha256": "e9ee7a8e4fb56400813af90de4bb98c7230fd32778d88eb52e4ed5b6be2973ae"
+    },
+    "chemicalUtil": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.util.ChemicalUtil",
+      "verbose": false,
+      "sha256": "cdc9a0145a766dde3e49ac4f2a2019740293d4ab0c2646171acc9e50b5d7e2a1"
+    },
+    "fluidHandlerSlot": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.inventory.slot.IFluidHandlerSlot",
+      "verbose": false,
+      "sha256": "a5e6aca5194918c0e8ddeac3893622ed213582b3cdfa042f757750778ba11eaa"
+    },
+    "fluidNetwork": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.content.network.FluidNetwork",
+      "verbose": false,
+      "sha256": "4be93d61c5ee2da019a3208401fd8ae254c0c32759a937fa994e53aa25c8fe16"
+    },
+    "mechPipe": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.transmitter.TileEntityMechanicalPipe",
+      "verbose": false,
+      "sha256": "4eb014382738326872a90d26d12ed84ad6dd659c4af2ea2c243a0bb00e462a8e"
+    },
+    "centrifugeBlockTypes": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registries.MekanismBlockTypes",
+      "verbose": false,
+      "sha256": "6351fb732237968ae05248dc9467b5c6f232bb7d27dd05505681f4dd53d77929"
+    },
+    "fluidRegisterV": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registration.impl.FluidDeferredRegister",
+      "verbose": true,
+      "sha256": "49eac4de2c4a030c1f94b0446e5148785f302de09fed85754b4855f61b1ab05d"
+    },
+    "temperatureUnit": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.util.UnitDisplayUtils$TemperatureUnit",
+      "verbose": false,
+      "sha256": "8cf8b3d4c1c046df24e59e6c0eb0f04a3e245ab71ec176c90e7172a15b970654"
+    }
+  },
+  "jars": {
+    "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+    "MekanismGenerators-1.21.1-10.7.19.85.jar": "0e5783b111e756f27b48c62b2f0e02fff750c77f7985ff809bfadc5f444ba4ac"
+  },
+  "authored": {
+    "createch2:nuclear/uranium/fissile_fuel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "mekanism:centrifuging",
+      "input": {
+        "amount": 1,
+        "chemical": "mekanism:uranium_hexafluoride"
+      },
+      "output": {
+        "amount": 1,
+        "id": "mekanism:fissile_fuel"
+      }
+    },
+    "createch2:nuclear/reprocessing/plutonium_from_waste": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "mekanism:centrifuging",
+      "input": {
+        "amount": 10,
+        "chemical": "mekanism:nuclear_waste"
+      },
+      "output": {
+        "amount": 1,
+        "id": "mekanism:plutonium"
+      }
+    },
+    "createch2:nuclear/reprocessing/plutonium_pellet": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "mekanism:reaction",
+      "chemical_input": {
+        "amount": 1000,
+        "chemical": "mekanism:plutonium"
+      },
+      "chemical_output": {
+        "amount": 1000,
+        "id": "mekanism:spent_nuclear_waste"
+      },
+      "duration": 160,
+      "fluid_input": {
+        "amount": 1000,
+        "tag": "minecraft:water"
+      },
+      "item_input": {
+        "count": 1,
+        "tag": "createch2:chemical_catalyst_media"
+      },
+      "item_output": {
+        "count": 1,
+        "id": "mekanism:pellet_plutonium"
+      }
+    }
+  },
+  "nativeRotary": {
+    "id": "mekanism:rotary/uranium_hexafluoride",
+    "data": {
+      "type": "mekanism:rotary",
+      "chemical_input": {
+        "amount": 1,
+        "chemical": "mekanism:uranium_hexafluoride"
+      },
+      "chemical_output": {
+        "amount": 1,
+        "id": "mekanism:uranium_hexafluoride"
+      },
+      "fluid_input": {
+        "amount": 1,
+        "tag": "c:uranium_hexafluoride"
+      },
+      "fluid_output": {
+        "amount": 1,
+        "id": "mekanism:uranium_hexafluoride"
+      }
+    }
+  },
+  "configExpected": {
+    "energyPerFissionFuel": 1000000,
+    "casingHeatCapacity": 1000,
+    "surfaceAreaTarget": 4,
+    "defaultBurnRate": 0.1,
+    "burnPerAssembly": 1,
+    "maxFuelPerAssembly": 8000,
+    "cooledCoolantPerTank": 100000,
+    "heatedCoolantPerTank": 1000000,
+    "excessWaste": 0.9
+  },
+  "sharedHDPEKeys": [
+    "rotary",
+    "rotaryCache",
+    "prc",
+    "prcCache",
+    "prcEnergy",
+    "cached",
+    "forgeCompat",
+    "tracker",
+    "fe",
+    "energyCompat",
+    "types"
+  ]
+}

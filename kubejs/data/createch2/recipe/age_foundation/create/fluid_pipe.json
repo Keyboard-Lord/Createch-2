@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    " L "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/copper"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "L": {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "result": {
+    "id": "create:fluid_pipe",
+    "count": 4
+  }
+}

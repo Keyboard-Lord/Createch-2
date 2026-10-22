@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/solder"
+    },
+    {
+      "tag": "c:physical_dusts/solder"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 240,
+  "welding_temperature": 320
+}

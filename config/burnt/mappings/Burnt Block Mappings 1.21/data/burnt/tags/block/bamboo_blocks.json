@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "yourmod:some_bamboo_block", "required": false }
+  ]
+}

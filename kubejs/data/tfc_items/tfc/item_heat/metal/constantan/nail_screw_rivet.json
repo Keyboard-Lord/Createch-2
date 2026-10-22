@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/constantan"
+    },
+    {
+      "tag": "c:rivets/constantan"
+    },
+    {
+      "tag": "c:screws/constantan"
+    },
+    {
+      "tag": "c:physical_screws/constantan"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 450,
+  "welding_temperature": 600
+}

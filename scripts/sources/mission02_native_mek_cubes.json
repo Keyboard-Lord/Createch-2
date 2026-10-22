@@ -1,0 +1,44 @@
+{
+  "truth": "REVIEWED_EXISTING_EMPTY_MEK_DATA_ENERGY_CUBE_CRAFTING",
+  "nativeJars": {
+    "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43"
+  },
+  "classes": {
+    "wrapped": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.recipe.WrappedShapedRecipe",
+      "sha256": "468088621addb26c8d15b13705375268659f9d451513f45465f56cf212f29a0e"
+    },
+    "recipe": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.recipe.upgrade.MekanismShapedRecipe",
+      "sha256": "4b7705b9b83cce07c0dd8661b6bbe210822196432a5b99b310bcdb4f2c29b60d"
+    },
+    "serializer": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.recipe.serializer.MekanismRecipeSerializer",
+      "sha256": "1c24186a42da04cf315a3b59ac1bd8086566290a6fcc6ad56b4af066ca8bde47"
+    },
+    "registry": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registries.MekanismRecipeSerializersInternal",
+      "sha256": "eab9f9af12513c9c99b3b9e3c73b5c3bfeaed071d3c46c41e8d06a37543ecebf"
+    },
+    "energyData": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.recipe.upgrade.EnergyRecipeData",
+      "sha256": "f32d3605c8ec3b0604d34c6e0925be121600adb79d3f7016fb358caf0bedd0a1"
+    },
+    "basicEnergy": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.energy.BasicEnergyContainer",
+      "sha256": "616f55dff92974586878eba3eb52501d0626c2671b4148b6004c6f89e1692b11"
+    },
+    "registryV": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.registries.MekanismRecipeSerializersInternal",
+      "sha256": "f99634e8ac0e6af93c253209d0f6d525ef419061105fe9532e5f1dabf2705481",
+      "verbose": true
+    }
+  }
+}

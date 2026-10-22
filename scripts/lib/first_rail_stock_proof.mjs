@@ -1,0 +1,37 @@
+import assert from'node:assert/strict';
+import{selectRailGradeSteelSuppliers}from'./first_rail_grade_steel_proof.mjs';
+export function selectRailStockSuppliers({contract,grade,steelSteam,ignitionArgs,foundry}){
+ assert.equal(contract.truth,'STATIC_NATIVE_RAIL_STOCK_PACKET');
+ const{solve,tagMembers,locks}=ignitionArgs.shaftArgs,previous=selectRailGradeSteelSuppliers({contract:grade,steelSteam,ignitionArgs,foundry}),allowed=new Map(previous.allowed),forbidden=new Set(previous.forbidden),i=contract.ids;
+ const selected=new Map([
+  ['railcraft:manual_rolling_machine',i.machine],['railcraft:steel_plate',i.plate],['railcraft:standard_rail',i.standardRail],['railcraft:track_parts',i.trackParts],['railcraft:frame',i.underframe],['railcraft:steel_crowbar',i.crowbar],['tfmg:steel_nugget',i.nuggets],['modern_industrialization:steel_large_plate',i.largePlate],['minecraft:minecart',i.minecart],['minecraft:rail',i.ordinaryRail],['capability:rail_stock_hematite_pigment',contract.pigmentPowderSupplier],['minecraft:red_dye',i.redDye],['modern_industrialization:steel_plate',i.canonicalPlate],['capability:manual_rolling_service','native:manual_rolling_service'],['capability:rail_stock_slag_storage','native:rail_stock_slag_storage'],['capability:rail_stock_steel_allocation','native:rail_stock_steel_allocation'],['capability:rail_stock_minecart_service','native:rail_stock_minecart_service']
+ ]);
+ for(const[out,id]of selected){allowed.set(out,new Set([id]));forbidden.delete(out);}
+ const excluded=new Set([...allowed.keys(),...forbidden]),seed=new Map([...previous.seed].filter(([id])=>!excluded.has(id)&&(!(id.startsWith('#')||id.startsWith('fluid:#'))||!tagMembers(id).some(x=>excluded.has(x))))),restore=new Set(selected.values()),guarded=new Set([i.plate,i.standardRail,i.trackParts,i.underframe,i.crowbar,i.nuggets]),choices=Object.fromEntries(Object.entries(contract.selectedTagChoices).map(([tag,item])=>['#'+tag,item])),restoredOutputs=new Map([...restore].map(id=>[id,[...selected].filter(([,source])=>source===id).map(([out])=>out)]));
+ for(const id of restore)assert(previous.raw.has(id),'Unmodeled selected rail-stock producer '+id);
+ // Restore only the selected outputs. Preserve all upstream allocation and
+ // processor requirements; these choices scope this witness, not live tags.
+ const choose=e=>e.id&&choices[e.id]?{id:choices[e.id]}:e.all?{all:e.all.map(choose)}:e.any?{any:e.any.map(choose)}:e;
+ const rules=previous.rules.map(r=>{
+  const outputs=(restore.has(r.id)?[...new Set([...r.outputs,...restoredOutputs.get(r.id)])]:r.outputs).filter(out=>!forbidden.has(out)&&(!allowed.has(out)||allowed.get(out).has(r.id)));
+  const requirements=restore.has(r.id)?choose(r.requirements):r.requirements;
+  return {...r,outputs,requirements:{all:[requirements,...(guarded.has(r.id)?[{id:'capability:rail_stock_steel_allocation'}]:[]),...(r.id===i.minecart?[{id:'capability:rail_stock_minecart_service'}]:[]),...(r.id===i.redDye?[{id:'capability:rail_stock_hematite_pigment'}]:[])]}};
+ });
+ return {previous,allowed,forbidden,selected,seed,rules};
+}
+export function firstRailStockProof(args){
+ const{contract,ignitionArgs}=args,{solve,tagMembers,locks}=ignitionArgs.shaftArgs,{selected,forbidden,seed,rules}=selectRailStockSuppliers(args),i=contract.ids;
+ const targets=[...selected.keys(),'railcraft:steel_ingot','tfmg:steel_ingot','modern_industrialization:steel_packer','create:fluid_tank','modern_industrialization:fluid_pipe','tfc:quern','tfc:powder/hematite'],s=solve(rules,seed,{recordInputs:true}),missing=targets.filter(id=>!s.reached.has(id)),leaves=e=>s.evaluate(e)?[]:e.id?[e.id]:[...new Set((e.all??e.any).flatMap(leaves))];
+ const result={truth:missing.length?'INCOMPLETE_FIRST_RAIL_STOCK_PACKET':'BOUNDED_NATIVE_GEOLOGICAL_RAIL_STOCK_PACKET',targets,missing,missingDetails:missing.map(out=>({output:out,producers:rules.filter(r=>r.outputs.includes(out)).map(r=>({id:r.id,missing:leaves(r.requirements)}))})),witnesses:Object.fromEntries(targets.map(id=>[id,s.witness.get(id)??null])),selectedSources:Object.fromEntries(selected),selectedTagChoices:contract.selectedTagChoices,researchOwners:Object.fromEntries(Object.values(i).map(id=>[id,locks.get(id)??[]])),quantityPlan:contract.quantityPlan,heldAfterUnderframe:contract.packet.heldAfterUnderframe,reservedForRemainingConsumers:contract.packet.reservedForRemainingConsumers,excludedShortcuts:[...forbidden],negativeCases:[],limits:[...contract.limits,'The scoped pigment-batch capability records the additional washed-hematite batch (hammer,first sluice,quern,second sluice) required by red dye. The pre-existing washed-hematite supplier remains selected for the earlier wrought/steel chain; the extra pigment batch does not replace or double-credit that stock.']};
+ if(missing.length)return result;
+ for(const id of [...selected.keys(),'railcraft:steel_ingot','tfmg:steel_ingot'])assert(!seed.has(id),'Rail packet inherits '+id);
+ const used=new Set(),visited=new Set(),walk=id=>{if(visited.has(id))return;visited.add(id);if(seed.has(id)){used.add(id);return;}const ins=s.witnessInputs.get(id);assert(ins,'Missing rail packet provenance '+id);ins.forEach(walk);};targets.forEach(walk);result.usedEarlierFrontier=Object.fromEntries([...used].sort().map(id=>[id,seed.get(id)]));
+ const reject=(name,target,{outputs=[],ids=[]}={})=>{const absent=new Set(outputs),removed=new Set(ids),check=solve(rules.filter(r=>!removed.has(r.id)).map(r=>({...r,outputs:r.outputs.filter(out=>!absent.has(out))})),new Map([...seed].filter(([id])=>!absent.has(id))));assert(!check.reached.has(target),'Rail stock bypasses '+name);result.negativeCases.push({name,target,rejected:true});};
+ for(const out of ['tfmg:steel_ingot','railcraft:steel_ingot','railcraft:steel_plate','railcraft:standard_rail','railcraft:track_parts','tfmg:steel_nugget','railcraft:manual_rolling_machine','capability:manual_rolling_service','capability:rail_grade_furnace','capability:rail_grade_fresh_steel','capability:steam_bucket_steel_allocation','capability:rail_stock_steel_allocation','capability:rail_stock_slag_storage','capability:rail_stock_minecart_service','modern_industrialization:steel_large_plate','modern_industrialization:steel_plate','modern_industrialization:steel_packer','modern_industrialization:fluid_pipe','create:fluid_tank','minecraft:rail','fluid:modern_industrialization:steam','capability:steam_service','research:createch2:mec_04_rolling_systems'])reject('no_'+out,'railcraft:frame',{outputs:[out]});
+ for(const out of ['capability:rail_stock_hematite_pigment','tfc:ore/normal_hematite','tfc:powder/hematite','tfc:quern','minecraft:red_dye'])reject('no_'+out,'railcraft:steel_crowbar',{outputs:[out]});
+ reject('no_quern_handstone','railcraft:steel_crowbar',{outputs:['#tfc:quern_handstones',...tagMembers('#tfc:quern_handstones')]});
+ for(const key of ['machine','plate','standardRail','trackParts','nuggets','largePlate','minecart','ordinaryRail','underframe'])reject('no_selected_'+key,'railcraft:frame',{ids:[i[key]]});
+ for(const key of ['crowbar','pigment','pigmentHammer','redDye'])reject('no_selected_'+key,'railcraft:steel_crowbar',{ids:[i[key]]});
+ for(const id of ['native:rail_stock_slag_storage','native:rail_stock_steel_allocation','native:rail_stock_minecart_service'])reject('no_'+id,'railcraft:frame',{ids:[id]});
+ result.noInheritedSelectedRailSteelPartsCartCrowbarOrDye=true;result.fortySteelIngotsAllocatedOnce=true;result.noElectricOrOffworldService=true;result.finalLocomotiveAndTerminalsNotClaimed=true;return result;
+}

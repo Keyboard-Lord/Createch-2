@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "CTC",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    },
+    "C": {
+      "item": "electroenergetics:insulated_wire"
+    },
+    "T": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "result": {
+    "id": "stellaris:cable",
+    "count": 6
+  }
+}

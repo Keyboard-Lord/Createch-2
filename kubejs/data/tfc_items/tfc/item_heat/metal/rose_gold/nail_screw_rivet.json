@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/rose_gold"
+    },
+    {
+      "tag": "c:rivets/rose_gold"
+    },
+    {
+      "tag": "c:screws/rose_gold"
+    },
+    {
+      "tag": "c:physical_screws/rose_gold"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 576,
+  "welding_temperature": 768
+}

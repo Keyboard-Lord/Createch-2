@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_zircon/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_zircon/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_zircon/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_zircon/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_zircon/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_zircon/granite",
+      "required": false
+    }
+  ]
+}

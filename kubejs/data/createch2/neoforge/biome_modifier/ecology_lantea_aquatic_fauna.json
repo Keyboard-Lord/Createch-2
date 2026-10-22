@@ -1,0 +1,35 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:lantea_deep_warm_ocean",
+    "createch2:lantea_mirage_isles",
+    "createch2:lantea_rocky_reef",
+    "createch2:lantea_ancient_delta"
+  ],
+  "spawners": [
+    {
+      "type": "tfc:tropical_fish",
+      "weight": 14,
+      "minCount": 4,
+      "maxCount": 8
+    },
+    {
+      "type": "tfc:jellyfish",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "tfc:dolphin",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "tfc:manatee",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

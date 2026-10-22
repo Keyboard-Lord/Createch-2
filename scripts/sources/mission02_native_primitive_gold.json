@@ -1,0 +1,171 @@
+{
+  "scope": "Native primitive masonry roof and fresh furnace charcoal; independent of later rail and oil allocations.",
+  "recipes": {
+    "minecraft:charcoal": {
+      "provider": "1.21.1.jar",
+      "data": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 0.15,
+        "ingredient": {
+          "tag": "minecraft:logs_that_burn"
+        },
+        "result": {
+          "id": "minecraft:charcoal"
+        }
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "X": {
+            "item": "tfc:wood/lumber/oak"
+          }
+        },
+        "pattern": [
+          "XX",
+          "XX"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:wood/planks/oak"
+        }
+      }
+    },
+    "tfc:crafting/brick/granite": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:advanced_shapeless_crafting",
+        "ingredients": [
+          [
+            {
+              "item": "tfc:rock/loose/granite"
+            },
+            {
+              "item": "tfc:rock/mossy_loose/granite"
+            }
+          ],
+          {
+            "tag": "c:tools/chisel"
+          }
+        ],
+        "primary_ingredient": {
+          "tag": "c:tools/chisel"
+        },
+        "remainder": {
+          "modifiers": [
+            {
+              "type": "tfc:damage_crafting_remainder"
+            }
+          ]
+        },
+        "result": {
+          "count": 1,
+          "id": "tfc:brick/granite"
+        }
+      }
+    },
+    "tfc:crafting/rock/bricks/granite": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "X": {
+            "item": "tfc:brick/granite"
+          },
+          "Y": {
+            "item": "tfc:mortar"
+          }
+        },
+        "pattern": [
+          "XYX",
+          "YXY",
+          "XYX"
+        ],
+        "result": {
+          "count": 4,
+          "id": "tfc:rock/bricks/granite"
+        }
+      }
+    },
+    "tfc:barrel/mortar": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_sealed",
+        "duration": 7200,
+        "input_fluid": {
+          "amount": 100,
+          "fluid": "tfc:limewater"
+        },
+        "input_item": {
+          "count": 1,
+          "tag": "c:sands"
+        },
+        "output_item": {
+          "count": 16,
+          "id": "tfc:mortar"
+        }
+      }
+    },
+    "tfc:barrel/limewater": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:barrel_instant",
+        "input_fluid": {
+          "amount": 500,
+          "fluid": "minecraft:water"
+        },
+        "input_item": {
+          "type": "neoforge:compound",
+          "children": [
+            {
+              "item": "tfc:powder/lime"
+            },
+            {
+              "item": "tfc:powder/flux"
+            }
+          ],
+          "count": 1
+        },
+        "output_fluid": {
+          "amount": 500,
+          "id": "tfc:limewater"
+        }
+      }
+    },
+    "tfc:crafting/handstone": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "tag": "c:stones"
+          },
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          "S  ",
+          "BBB"
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfc:handstone"
+        }
+      }
+    }
+  },
+  "nativeCodeSha256": {
+    "rock": "e7c1f131190149ece67738efe4ba0ceaa6350c38abd6e7b50afc72980ebadc77",
+    "rockV": "80025f266ba2ac2c59a352fbc42802a2a2da97a323d9a55c057cd15d1f1b15f2",
+    "moss": "95e8bd68917805af51c1aee32c41b67a91647ab31febc64f8c47b72087f1bbae",
+    "furnaceBase": "509d7ef2e8e3b8eb611bc645b3fab86e8262a824c457e18b5bc2f1da3110440f"
+  }
+}

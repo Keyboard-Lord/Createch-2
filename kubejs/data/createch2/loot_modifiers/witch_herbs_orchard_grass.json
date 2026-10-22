@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "tfc:blocks/plant/orchard_grass"
+    }
+  ],
+  "table": "createch2:blocks/witch_herbs_orchard_grass"
+}

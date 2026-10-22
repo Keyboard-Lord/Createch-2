@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZIZ",
+    "PTP",
+    "ZBZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "chemlib:zirconium_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "B": {
+      "item": "chemlib:boron_dust"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:mixed_plate_nuclear",
+    "count": 1
+  }
+}

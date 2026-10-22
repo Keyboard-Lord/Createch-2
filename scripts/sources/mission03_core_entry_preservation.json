@@ -1,0 +1,42 @@
+{
+  "truth": "STATIC_MISSION03_RESEARCH_CORE_ENTRY_PRESERVATION",
+  "before": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+  "after": "b5844649675e45d8bf30132fa7797cca79f76439f8f04d9cbee961ff5fb7089e",
+  "added": [
+    "createch2/core/mixin/compat/TaczResearchMixin.class"
+  ],
+  "changed": [
+    "createch2/core/mixin/compat/AlchemistryReactorResearchMixin.class",
+    "createch2/core/mixin/compat/AlchemistryResearchMixin.class",
+    "createch2/core/mixin/compat/MiRecipeResearchMixin.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 357,
+  "unchangedEntriesSha256": "5a944af8563abaca0406f96f49434ff3623e0584818f4578ad09338ff6f22116",
+  "sourceCheckpoint": "e3e360d",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/AlchemistryReactorResearchMixin.class": {
+      "before": "eeb28138f152b1a579a7b72b11be37c2b23a0ae6bcc4f6f0e623b7f88a4272f7",
+      "after": "6bf13390ca79580dcf6d85e28bf22bb9baa1cfa37fc2db4d32e0c364e6febd27"
+    },
+    "createch2/core/mixin/compat/AlchemistryResearchMixin.class": {
+      "before": "c2c371c4ffaecfc0a12b02b0fcfc8b5023c4a7800e913a7580083b22d5da7263",
+      "after": "c293423478221962c73109f570d7c4464a95b671397d8a76a03aaed1da8405b6"
+    },
+    "createch2/core/mixin/compat/MiRecipeResearchMixin.class": {
+      "before": "7bddc658276a7f12a33a1e87437a799fad457422914464786259a899839447ff",
+      "after": "5e2b6602d9b991074ddb606f38ce59e90d58bfd31fc5dc84858dc171e7b47338"
+    },
+    "createch2/core/mixin/compat/TaczResearchMixin.class": {
+      "before": null,
+      "after": "c864ba960c30c4f2158bc6ba04343c8966714eb35539802f1b9fe522b8e0bb73"
+    },
+    "createch2core.mixins.json": {
+      "before": "dbe2df8c895a7db1cf15a623591317b172429276fc505b71a65143abfe89d8e2",
+      "after": "3204e15c641dfb19187774961a4826453383c4b5222337395121b35508a85fba"
+    }
+  }
+}

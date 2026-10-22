@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#createch2:moon_biomes",
+  "entity_types": [
+    "stellaris:alien_zombie",
+    "stellaris:star_crawler",
+    "death_angels:death_angel",
+    "death_angels:death_angel_baby",
+    "death_angels:realistic_death_angel",
+    "death_angels:meteor_spawn_point"
+  ]
+}

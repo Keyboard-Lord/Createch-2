@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:wires/copper"
+    },
+    {
+      "tag": "c:light_wires/copper"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 648,
+  "welding_temperature": 864
+}

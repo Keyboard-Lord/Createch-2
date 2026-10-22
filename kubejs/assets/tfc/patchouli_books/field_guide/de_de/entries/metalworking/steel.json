@@ -1,0 +1,98 @@
+{
+  "name": "Stahl",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG ersetzt den TFC-Hochofen. Der spätere elektrische MI-Hochofen behält seine eigene Rolle.$(br2)Ein TFC-Gusseisenbarren und ein TFC-Flussmittel ergeben 100 mB TFC-Roheisen. Daraus lässt sich ein Roheisenbarren gießen. Die Erzqualität bestimmt weiterhin die Gusseisenmenge beim Erhitzen nach TFC-Regeln."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:anvil/metal/ingot/high_carbon_steel",
+      "text": "Die TFMG-Anlage liefert das Roheisen für TFC-Amboss- und Schweißrezepte. Kohlenstoffreicher, schwarzer, roter und blauer Stahl behalten ihre TFC-Schmiede- und Legierungsanforderungen."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "black_steel",
+      "text": "$(thing)Schwarzer Stahl$() ist eine fortschrittliche Stahlform, die aus einer Legierung von Stahl und anderen Metallen besteht. Um ihn herzustellen, musst du in einem $(l:metalworking/crucible)Tiegel$() eine Legierung namens $(thing)Schwacher Stahl$() erzeugen.",
+      "title": "Schwarzer Stahl"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_steel",
+      "title": "Schwacher Stahl",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Anforderungen:$()$(br)$(li)50 - 70 %: $(thing)Stahl$()$(li)15 - 25 %: $(thing)Nickel$()$(li)15 - 25 %: $(thing)Schwarze Bronze$()$(br2)Geschmolzener $(thing)Schwacher Stahl$() kann zu Barren gegossen werden."
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_black_steel",
+      "text": "$(thing)Barren aus Schwachem Stahl$() können mit $(thing)Roheisenbarren$() verschweißt werden, um $(thing)Barren aus kohlenstoffreichem Schwarzem Stahl$() herzustellen. Anschließend lassen sie sich auf einem $(l:metalworking/anvils)Amboss$() zu $(thing)Barren aus Schwarzem Stahl$() verarbeiten."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Schwarzer Stahl$() kann für Werkzeuge und $(l:mechanics/armor)Rüstungen$() verwendet werden und ist außerdem eine wichtige Zutat für $(l:metalworking/steel#blue_steel)Blauen Stahl$() und $(l:metalworking/steel#red_steel)Roten Stahl$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blue_steel",
+      "text": "$(thing)Blauer Stahl$() ist neben $(l:metalworking/steel#red_steel)Rotem Stahl$() eines der beiden höchststufigen Metalle. Wie bei $(l:metalworking/steel#black_steel)Schwarzem Stahl$() wird zuerst in einem $(l:metalworking/crucible)Tiegel$() eine Legierung aus $(thing)Schwachem Blauem Stahl$() hergestellt.",
+      "title": "Blauer Stahl"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_blue_steel",
+      "title": "Schwacher Blauer Stahl",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Anforderungen:$()$(br)$(li)50 - 55 %: $(thing)Schwarzer Stahl$()$(li)20 - 25 %: $(thing)Stahl$()$(li)10 - 15 %: $(thing)Bismutbronze$()$(li)10 - 15 %: $(thing)Sterlingsilber$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_blue_steel",
+      "text": "$(thing)Barren aus Schwachem Blauem Stahl$() können mit $(l:metalworking/steel#black_steel)Barren aus Schwarzem Stahl$() verschweißt werden, um $(thing)Barren aus kohlenstoffreichem Blauem Stahl$() herzustellen. Anschließend lassen sie sich auf einem $(l:metalworking/anvils)Amboss$() zu $(thing)Barren aus Blauem Stahl$() verarbeiten."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Blauer Stahl$() kann für Werkzeuge und $(l:mechanics/armor)Rüstungen$() sowie für einen $(thing)Eimer aus Blauem Stahl$() verwendet werden, der $(cfg:metalBucketCapacity) Flüssigkeit einschließlich $(6)Lava$() transportieren kann."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_steel",
+      "text": "$(thing)Roter Stahl$() ist neben $(l:metalworking/steel#blue_steel)Blauem Stahl$() eines der beiden höchststufigen Metalle. Wie bei $(l:metalworking/steel#black_steel)Schwarzem Stahl$() wird zuerst in einem $(l:metalworking/crucible)Tiegel$() eine Legierung aus $(thing)Schwachem Rotem Stahl$() hergestellt.",
+      "title": "Roter Stahl"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/weak_red_steel",
+      "title": "Schwacher Roter Stahl",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Anforderungen:$()$(br)$(li)50 - 55 %: $(thing)Schwarzer Stahl$()$(li)20 - 25 %: $(thing)Stahl$()$(li)10 - 15 %: $(thing)Messing$()$(li)10 - 15 %: $(thing)Roségold$()$(br2)"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "tfc:welding/metal/ingot/high_carbon_red_steel",
+      "text": "$(thing)Barren aus Schwachem Rotem Stahl$() können mit $(l:metalworking/steel#black_steel)Barren aus Schwarzem Stahl$() verschweißt werden, um $(thing)Barren aus kohlenstoffreichem Rotem Stahl$() herzustellen. Anschließend lassen sie sich auf einem $(l:metalworking/anvils)Amboss$() zu $(thing)Barren aus Rotem Stahl$() verarbeiten."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Roter Stahl$() kann für Werkzeuge und $(l:mechanics/armor)Rüstungen$() sowie für einen $(thing)Eimer aus Rotem Stahl$() verwendet werden, der $(cfg:metalBucketCapacity) Flüssigkeit einschließlich $(6)Lava$() transportieren kann."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8,
+  "extra_recipe_mappings": {
+    "tfc:metal/ingot/pig_iron": 1,
+    "tfc:metal/ingot/high_carbon_steel": 1,
+    "tfc:metal/ingot/steel": 1,
+    "tfc:metal/ingot/weak_steel": 3,
+    "tfc:metal/ingot/high_carbon_black_steel": 4,
+    "tfc:metal/ingot/black_steel": 4,
+    "tfc:metal/ingot/weak_blue_steel": 7,
+    "tfc:metal/ingot/high_carbon_blue_steel": 8,
+    "tfc:metal/ingot/blue_steel": 8,
+    "tfc:metal/ingot/weak_red_steel": 11,
+    "tfc:metal/ingot/high_carbon_red_steel": 12,
+    "tfc:metal/ingot/red_steel": 12
+  }
+}

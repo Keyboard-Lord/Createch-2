@@ -1,0 +1,960 @@
+{
+  "nativeClasses": {
+    "miRegistration": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      false
+    ],
+    "miSteamCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.blockentities.SteamCraftingMachineBlockEntity",
+      false
+    ],
+    "miSteamHelper": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.helper.SteamHelper",
+      false
+    ],
+    "miCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CrafterComponent",
+      false
+    ],
+    "machineRecipe": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.recipe.MachineRecipe"
+    ],
+    "spout": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.SpoutBlockEntity"
+    ],
+    "filling": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout"
+    ],
+    "manual": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ManualApplicationRecipe"
+    ],
+    "manualV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ManualApplicationRecipe",
+      true
+    ],
+    "applicationParams": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipeParams"
+    ],
+    "typesV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.AllRecipeTypes",
+      true
+    ],
+    "master": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity"
+    ],
+    "exhaust": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.exhaust.ExhaustBlockEntity",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "miRegistration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+    "miSteamCrafter": "fa9e348b7183130b150c77602997a165e2cbdfe281d2bc8d2ddbb15e1993038f",
+    "miSteamHelper": "434348c4dfa11c8664a733675726d8ba79a459e583018d3b8d76c1f7103390fd",
+    "miCrafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+    "machineRecipe": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0",
+    "spout": "58e301764efe3e47bf055281a08f9c4a830676c85dd0cd34591f0d606912eb72",
+    "filling": "a1241eed48a107ef1db927e5c0417f44c384db06525f057f246e4115727d7730",
+    "manual": "8a49239281cfc07cfd0baa75467df76c3500a2e14e8c64a756239dd8c0d69af0",
+    "manualV": "6a042d58e9dad8030671ba3e3b2fb3633a09061d94a876b77fda3395d51012bc",
+    "applicationParams": "57a67173046a9d962dc45dc741b7a7c046f434fc3154b7f487d014d5c8746dc4",
+    "typesV": "2e7c64b1ef979432e152f2ff7cf06abaaaff088520674df7af04edad6489b2a3",
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "exhaust": "c9ce9616b5ab5fbef9031c9d3bd1693a606486ff2643d04c985dab62d9808e0d"
+  },
+  "ids": {
+    "bucket": "modern_industrialization:vanilla_recipes/packer/bucket",
+    "packer": "modern_industrialization:steam_age/steel/packer_asbl",
+    "casing": "createch2:modern_industrialization/steel_machine_casing_tfmg_entry",
+    "steelCasing": "createch2:steel_steam/tfmg/steel_casing",
+    "hardenedPlanks": "tfmg:filling/hardened_planks",
+    "compressor": "createch2:age_foundation/mi_bronze/compressor",
+    "curvedPlate": "modern_industrialization:materials/steel/compressor/plate",
+    "itemPipe": "createch2:age_foundation/mi_bronze/item_pipe",
+    "boiler": "createch2:age_foundation/mi_bronze/boiler",
+    "spout": "createch2:age_foundation/create/spout",
+    "depot": "create:crafting/kinetics/depot",
+    "exhaust": "tfmg:crafting/materials/exhaust"
+  },
+  "recipes": {
+    "modern_industrialization:vanilla_recipes/packer/bucket": {
+      "type": "modern_industrialization:packer",
+      "eu": 2,
+      "duration": 100,
+      "item_inputs": [
+        {
+          "item": "modern_industrialization:steel_curved_plate",
+          "amount": 3
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "minecraft:bucket",
+          "amount": 4
+        }
+      ]
+    },
+    "modern_industrialization:steam_age/steel/packer_asbl": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "GCG",
+        "ppp"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:gears/bronze"
+        },
+        "C": {
+          "item": "modern_industrialization:steel_machine_casing"
+        },
+        "p": {
+          "tag": "modern_industrialization:fluid_pipes"
+        },
+        "P": {
+          "tag": "modern_industrialization:item_pipes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:steel_packer",
+        "count": 1
+      }
+    },
+    "createch2:modern_industrialization/steel_machine_casing_tfmg_entry": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SPS",
+        "OTO",
+        "SPS"
+      ],
+      "key": {
+        "S": {
+          "tag": "c:plates/steel"
+        },
+        "P": {
+          "item": "create:precision_mechanism"
+        },
+        "O": {
+          "tag": "c:ingots/nickel"
+        },
+        "T": {
+          "item": "tfmg:steel_casing"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:steel_machine_casing",
+        "count": 1
+      }
+    },
+    "createch2:steel_steam/tfmg/steel_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "item": "tfmg:hardened_planks"
+        },
+        {
+          "tag": "createch2:industrial_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:steel_casing"
+        }
+      ]
+    },
+    "tfmg:filling/hardened_planks": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "tag": "minecraft:planks"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 250,
+          "tag": "c:creosote"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:hardened_planks"
+        }
+      ]
+    },
+    "createch2:age_foundation/mi_bronze/compressor": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PMP",
+        "RCR",
+        "PTP"
+      ],
+      "key": {
+        "P": {
+          "item": "modern_industrialization:bronze_plate"
+        },
+        "M": {
+          "tag": "createch2:control/mechanical"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_ring"
+        },
+        "C": {
+          "item": "modern_industrialization:bronze_machine_casing"
+        },
+        "T": {
+          "item": "create:mechanical_piston"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:bronze_compressor",
+        "count": 1
+      }
+    },
+    "modern_industrialization:materials/steel/compressor/plate": {
+      "type": "modern_industrialization:compressor",
+      "duration": 200,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:plates/steel"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:steel_curved_plate"
+        }
+      ]
+    },
+    "createch2:age_foundation/mi_bronze/item_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "GBG",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "G": {
+          "tag": "c:heavy_gears/copper"
+        },
+        "B": {
+          "item": "create:brass_sheet"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:item_pipe",
+        "count": 12
+      }
+    },
+    "createch2:age_foundation/mi_bronze/boiler": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PBP",
+        "TFT",
+        "RCR"
+      ],
+      "key": {
+        "P": {
+          "item": "modern_industrialization:bronze_plate"
+        },
+        "B": {
+          "item": "modern_industrialization:bronze_tank"
+        },
+        "T": {
+          "tag": "modern_industrialization:fluid_pipes"
+        },
+        "F": {
+          "item": "minecraft:furnace"
+        },
+        "R": {
+          "item": "modern_industrialization:fire_clay_bricks"
+        },
+        "C": {
+          "item": "modern_industrialization:bronze_machine_casing"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:bronze_boiler",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/spout": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "C",
+        "K",
+        "L"
+      ],
+      "key": {
+        "C": {
+          "item": "create:copper_casing"
+        },
+        "K": {
+          "tag": "createch2:food/dried_kelp"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:spout",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "tfmg:crafting/materials/exhaust": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "minecraft:iron_bars"
+        },
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "BPB",
+        "BPB",
+        "CPC"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:exhaust"
+      }
+    }
+  },
+  "kinds": {
+    "modern_industrialization:vanilla_recipes/packer/bucket": "native",
+    "modern_industrialization:steam_age/steel/packer_asbl": "native",
+    "createch2:modern_industrialization/steel_machine_casing_tfmg_entry": "authored",
+    "createch2:steel_steam/tfmg/steel_casing": "authored",
+    "tfmg:filling/hardened_planks": "authored",
+    "createch2:age_foundation/mi_bronze/compressor": "authored",
+    "modern_industrialization:materials/steel/compressor/plate": "native",
+    "createch2:age_foundation/mi_bronze/item_pipe": "authored",
+    "createch2:age_foundation/mi_bronze/boiler": "authored",
+    "createch2:age_foundation/create/spout": "authored",
+    "create:crafting/kinetics/depot": "native",
+    "tfmg:crafting/materials/exhaust": "native"
+  },
+  "nativeRows": {
+    "modern_industrialization:vanilla_recipes/packer/bucket": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:packer",
+          "eu": 2,
+          "duration": 100,
+          "item_inputs": [
+            {
+              "item": "modern_industrialization:steel_curved_plate",
+              "amount": 3
+            }
+          ],
+          "item_outputs": [
+            {
+              "item": "minecraft:bucket",
+              "amount": 4
+            }
+          ]
+        }
+      }
+    ],
+    "modern_industrialization:steam_age/steel/packer_asbl": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "PGP",
+            "GCG",
+            "ppp"
+          ],
+          "key": {
+            "G": {
+              "tag": "c:gears/bronze"
+            },
+            "C": {
+              "item": "modern_industrialization:steel_machine_casing"
+            },
+            "p": {
+              "tag": "modern_industrialization:fluid_pipes"
+            },
+            "P": {
+              "tag": "modern_industrialization:item_pipes"
+            }
+          },
+          "result": {
+            "id": "modern_industrialization:steel_packer",
+            "count": 1
+          }
+        }
+      }
+    ],
+    "modern_industrialization:materials/steel/compressor/plate": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:compressor",
+          "duration": 200,
+          "eu": 2,
+          "item_inputs": [
+            {
+              "amount": 1,
+              "tag": "c:plates/steel"
+            }
+          ],
+          "item_outputs": [
+            {
+              "amount": 1,
+              "item": "modern_industrialization:steel_curved_plate"
+            }
+          ]
+        }
+      }
+    ],
+    "create:crafting/kinetics/depot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "create:andesite_alloy"
+            },
+            {
+              "item": "create:andesite_casing"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:depot"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/exhaust": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "minecraft:iron_bars"
+            },
+            "C": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          },
+          "pattern": [
+            "BPB",
+            "BPB",
+            "CPC"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:exhaust"
+          }
+        }
+      }
+    ]
+  },
+  "assets": {
+    "data/tfmg/loot_table/blocks/steel_casing.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfmg:steel_casing"
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "tfmg:blocks/steel_casing"
+    },
+    "data/minecraft/tags/block/mineable/pickaxe.json": {
+      "values": [
+        "tfmg:turbine_engine",
+        "tfmg:regular_engine",
+        "tfmg:radial_engine",
+        "tfmg:large_engine",
+        "tfmg:simple_large_engine",
+        "tfmg:engine_gearbox",
+        "tfmg:aluminum_fluid_tank",
+        "tfmg:cast_iron_fluid_tank",
+        "tfmg:steel_fluid_tank",
+        "tfmg:steel_distillation_output",
+        "tfmg:steel_distillation_controller",
+        "tfmg:industrial_pipe",
+        "tfmg:concrete_encased_industrial_pipe",
+        "tfmg:pumpjack_hammer",
+        "tfmg:pumpjack_crank",
+        "tfmg:pumpjack_hammer_part",
+        "tfmg:pumpjack_hammer_head",
+        "tfmg:pumpjack_hammer_connector",
+        "tfmg:large_pumpjack_hammer_part",
+        "tfmg:large_pumpjack_hammer_head",
+        "tfmg:large_pumpjack_hammer_connector",
+        "tfmg:pumpjack_base",
+        "tfmg:steel_chemical_vat",
+        "tfmg:cast_iron_chemical_vat",
+        "tfmg:fireproof_chemical_vat",
+        "tfmg:industrial_mixer",
+        "tfmg:electrode_holder",
+        "tfmg:freezer",
+        "tfmg:compressor",
+        "tfmg:lead_ore",
+        "tfmg:deepslate_lead_ore",
+        "tfmg:nickel_ore",
+        "tfmg:deepslate_nickel_ore",
+        "tfmg:lithium_ore",
+        "tfmg:deepslate_lithium_ore",
+        "tfmg:sulfur",
+        "tfmg:lignite",
+        "tfmg:fossilstone",
+        "tfmg:slag_block",
+        "tfmg:raw_nickel_block",
+        "tfmg:raw_lead_block",
+        "tfmg:raw_lithium_block",
+        "tfmg:air_intake",
+        "tfmg:firebox",
+        "tfmg:winding_machine",
+        "tfmg:surface_scanner",
+        "tfmg:machine_input",
+        "tfmg:concrete_hose",
+        "tfmg:blast_furnace_output",
+        "tfmg:blast_furnace_hatch",
+        "tfmg:fireproof_bricks",
+        "tfmg:reinforced_fireproof_bricks",
+        "tfmg:blast_furnace_reinforcement",
+        "tfmg:blast_furnace_reinforcement_wall",
+        "tfmg:rusted_blast_furnace_reinforcement",
+        "tfmg:rusted_blast_furnace_reinforcement_wall",
+        "tfmg:fireproof_brick_reinforcement",
+        "tfmg:coke_oven",
+        "tfmg:blast_stove",
+        "tfmg:casting_basin",
+        "tfmg:napalm_bomb",
+        "tfmg:generator",
+        "tfmg:cable_connector",
+        "tfmg:glass_cable_insulator",
+        "tfmg:resistor",
+        "tfmg:copycat_cable_block",
+        "tfmg:copycat_cable_base",
+        "tfmg:brass_cable_hub",
+        "tfmg:copper_cable_hub",
+        "tfmg:steel_cable_hub",
+        "tfmg:aluminum_cable_hub",
+        "tfmg:steel_casing_cable_hub",
+        "tfmg:heavy_cable_hub",
+        "tfmg:cable_tube",
+        "tfmg:concrete_encased_cable_tube",
+        "tfmg:electric_post",
+        "tfmg:concrete_encased_electric_post",
+        "tfmg:diagonal_cable_block",
+        "tfmg:electric_motor",
+        "tfmg:heavy_electric_motor",
+        "tfmg:creative_generator",
+        "tfmg:accumulator",
+        "tfmg:light_bulb",
+        "tfmg:circular_light",
+        "tfmg:modern_light",
+        "tfmg:aluminum_lamp",
+        "tfmg:neon_tube",
+        "tfmg:electric_diode",
+        "tfmg:encased_diode",
+        "tfmg:potentiometer",
+        "tfmg:electrical_switch",
+        "tfmg:large_switch",
+        "tfmg:encased_potentiometer",
+        "tfmg:electric_pump",
+        "tfmg:voltage_observer",
+        "tfmg:voltmeter",
+        "tfmg:electric_measurement_block",
+        "tfmg:polarizer",
+        "tfmg:rotor",
+        "tfmg:stator",
+        "tfmg:traffic_light",
+        "tfmg:segmented_display",
+        "tfmg:transformer",
+        "tfmg:large_transformer",
+        "tfmg:large_coil",
+        "tfmg:brick_smokestack",
+        "tfmg:metal_smokestack",
+        "tfmg:concrete_smokestack",
+        "tfmg:exhaust",
+        "tfmg:flarestack",
+        "tfmg:gas_lamp",
+        "tfmg:steel_cogwheel",
+        "tfmg:large_steel_cogwheel",
+        "tfmg:aluminum_cogwheel",
+        "tfmg:large_aluminum_cogwheel",
+        "tfmg:steel_casing",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:industrial_aluminum_casing",
+        "tfmg:steel_block",
+        "tfmg:cast_iron_block",
+        "tfmg:aluminum_block",
+        "tfmg:plastic_block",
+        "tfmg:lead_block",
+        "tfmg:constantan_block",
+        "tfmg:nickel_block",
+        "tfmg:lithium_block",
+        "tfmg:coal_coke_block",
+        "tfmg:laminated_magnetic_alloy_block",
+        "tfmg:heavy_casing_door",
+        "tfmg:steel_door",
+        "tfmg:aluminum_door",
+        "tfmg:heavy_plated_door",
+        "tfmg:steel_gearbox",
+        "tfmg:steel_bars",
+        "tfmg:aluminum_bars",
+        "tfmg:cast_iron_bars",
+        "tfmg:lead_bars",
+        "tfmg:nickel_bars",
+        "tfmg:steel_ladder",
+        "tfmg:aluminum_ladder",
+        "tfmg:cast_iron_ladder",
+        "tfmg:lead_ladder",
+        "tfmg:nickel_ladder",
+        "tfmg:constantan_ladder",
+        "tfmg:steel_scaffolding",
+        "tfmg:aluminum_scaffolding",
+        "tfmg:slag_bricks",
+        "tfmg:cinder_block",
+        "tfmg:cinderflour_block",
+        "tfmg:factory_floor",
+        "tfmg:steel_trapdoor",
+        "tfmg:steel_flywheel",
+        "tfmg:lead_flywheel",
+        "tfmg:cast_iron_flywheel",
+        "tfmg:aluminum_flywheel",
+        "tfmg:nickel_flywheel",
+        "tfmg:steel_truss",
+        "tfmg:steel_frame",
+        "tfmg:aluminum_truss",
+        "tfmg:aluminum_frame",
+        "tfmg:cast_iron_truss",
+        "tfmg:cast_iron_frame",
+        "tfmg:lead_truss",
+        "tfmg:lead_frame",
+        "tfmg:nickel_truss",
+        "tfmg:nickel_frame",
+        "tfmg:constantan_truss",
+        "tfmg:constantan_frame",
+        "tfmg:copper_truss",
+        "tfmg:copper_frame",
+        "tfmg:zinc_truss",
+        "tfmg:zinc_frame",
+        "tfmg:brass_truss",
+        "tfmg:brass_frame",
+        "tfmg:white_caution_block",
+        "tfmg:orange_caution_block",
+        "tfmg:magenta_caution_block",
+        "tfmg:light_blue_caution_block",
+        "tfmg:yellow_caution_block",
+        "tfmg:lime_caution_block",
+        "tfmg:pink_caution_block",
+        "tfmg:gray_caution_block",
+        "tfmg:light_gray_caution_block",
+        "tfmg:cyan_caution_block",
+        "tfmg:purple_caution_block",
+        "tfmg:blue_caution_block",
+        "tfmg:brown_caution_block",
+        "tfmg:green_caution_block",
+        "tfmg:red_caution_block",
+        "tfmg:black_caution_block",
+        "tfmg:rebar_block",
+        "tfmg:rebar_floor",
+        "tfmg:rebar_wall",
+        "tfmg:rebar_pile",
+        "tfmg:rebar_stairs",
+        "tfmg:rebar_pillar",
+        "tfmg:concrete_wall",
+        "tfmg:concrete",
+        "tfmg:concrete_stairs",
+        "tfmg:concrete_slab",
+        "tfmg:rebar_concrete_wall",
+        "tfmg:rebar_concrete",
+        "tfmg:rebar_concrete_stairs",
+        "tfmg:rebar_concrete_slab",
+        "tfmg:white_concrete",
+        "tfmg:white_concrete_wall",
+        "tfmg:white_concrete_stairs",
+        "tfmg:white_concrete_slab",
+        "tfmg:orange_concrete",
+        "tfmg:orange_concrete_wall",
+        "tfmg:orange_concrete_stairs",
+        "tfmg:orange_concrete_slab",
+        "tfmg:magenta_concrete",
+        "tfmg:magenta_concrete_wall",
+        "tfmg:magenta_concrete_stairs",
+        "tfmg:magenta_concrete_slab",
+        "tfmg:light_blue_concrete",
+        "tfmg:light_blue_concrete_wall",
+        "tfmg:light_blue_concrete_stairs",
+        "tfmg:light_blue_concrete_slab",
+        "tfmg:yellow_concrete",
+        "tfmg:yellow_concrete_wall",
+        "tfmg:yellow_concrete_stairs",
+        "tfmg:yellow_concrete_slab",
+        "tfmg:lime_concrete",
+        "tfmg:lime_concrete_wall",
+        "tfmg:lime_concrete_stairs",
+        "tfmg:lime_concrete_slab",
+        "tfmg:pink_concrete",
+        "tfmg:pink_concrete_wall",
+        "tfmg:pink_concrete_stairs",
+        "tfmg:pink_concrete_slab",
+        "tfmg:gray_concrete",
+        "tfmg:gray_concrete_wall",
+        "tfmg:gray_concrete_stairs",
+        "tfmg:gray_concrete_slab",
+        "tfmg:light_gray_concrete",
+        "tfmg:light_gray_concrete_wall",
+        "tfmg:light_gray_concrete_stairs",
+        "tfmg:light_gray_concrete_slab",
+        "tfmg:cyan_concrete",
+        "tfmg:cyan_concrete_wall",
+        "tfmg:cyan_concrete_stairs",
+        "tfmg:cyan_concrete_slab",
+        "tfmg:purple_concrete",
+        "tfmg:purple_concrete_wall",
+        "tfmg:purple_concrete_stairs",
+        "tfmg:purple_concrete_slab",
+        "tfmg:blue_concrete",
+        "tfmg:blue_concrete_wall",
+        "tfmg:blue_concrete_stairs",
+        "tfmg:blue_concrete_slab",
+        "tfmg:brown_concrete",
+        "tfmg:brown_concrete_wall",
+        "tfmg:brown_concrete_stairs",
+        "tfmg:brown_concrete_slab",
+        "tfmg:green_concrete",
+        "tfmg:green_concrete_wall",
+        "tfmg:green_concrete_stairs",
+        "tfmg:green_concrete_slab",
+        "tfmg:red_concrete",
+        "tfmg:red_concrete_wall",
+        "tfmg:red_concrete_stairs",
+        "tfmg:red_concrete_slab",
+        "tfmg:black_concrete",
+        "tfmg:black_concrete_wall",
+        "tfmg:black_concrete_stairs",
+        "tfmg:black_concrete_slab",
+        "tfmg:white_rebar_concrete",
+        "tfmg:white_rebar_concrete_wall",
+        "tfmg:white_rebar_concrete_stairs",
+        "tfmg:white_rebar_concrete_slab",
+        "tfmg:orange_rebar_concrete",
+        "tfmg:orange_rebar_concrete_wall",
+        "tfmg:orange_rebar_concrete_stairs",
+        "tfmg:orange_rebar_concrete_slab",
+        "tfmg:magenta_rebar_concrete",
+        "tfmg:magenta_rebar_concrete_wall",
+        "tfmg:magenta_rebar_concrete_stairs",
+        "tfmg:magenta_rebar_concrete_slab",
+        "tfmg:light_blue_rebar_concrete",
+        "tfmg:light_blue_rebar_concrete_wall",
+        "tfmg:light_blue_rebar_concrete_stairs",
+        "tfmg:light_blue_rebar_concrete_slab",
+        "tfmg:yellow_rebar_concrete",
+        "tfmg:yellow_rebar_concrete_wall",
+        "tfmg:yellow_rebar_concrete_stairs",
+        "tfmg:yellow_rebar_concrete_slab",
+        "tfmg:lime_rebar_concrete",
+        "tfmg:lime_rebar_concrete_wall",
+        "tfmg:lime_rebar_concrete_stairs",
+        "tfmg:lime_rebar_concrete_slab",
+        "tfmg:pink_rebar_concrete",
+        "tfmg:pink_rebar_concrete_wall",
+        "tfmg:pink_rebar_concrete_stairs",
+        "tfmg:pink_rebar_concrete_slab",
+        "tfmg:gray_rebar_concrete",
+        "tfmg:gray_rebar_concrete_wall",
+        "tfmg:gray_rebar_concrete_stairs",
+        "tfmg:gray_rebar_concrete_slab",
+        "tfmg:light_gray_rebar_concrete",
+        "tfmg:light_gray_rebar_concrete_wall",
+        "tfmg:light_gray_rebar_concrete_stairs",
+        "tfmg:light_gray_rebar_concrete_slab",
+        "tfmg:cyan_rebar_concrete",
+        "tfmg:cyan_rebar_concrete_wall",
+        "tfmg:cyan_rebar_concrete_stairs",
+        "tfmg:cyan_rebar_concrete_slab",
+        "tfmg:purple_rebar_concrete",
+        "tfmg:purple_rebar_concrete_wall",
+        "tfmg:purple_rebar_concrete_stairs",
+        "tfmg:purple_rebar_concrete_slab",
+        "tfmg:blue_rebar_concrete",
+        "tfmg:blue_rebar_concrete_wall",
+        "tfmg:blue_rebar_concrete_stairs",
+        "tfmg:blue_rebar_concrete_slab",
+        "tfmg:brown_rebar_concrete",
+        "tfmg:brown_rebar_concrete_wall",
+        "tfmg:brown_rebar_concrete_stairs",
+        "tfmg:brown_rebar_concrete_slab",
+        "tfmg:green_rebar_concrete",
+        "tfmg:green_rebar_concrete_wall",
+        "tfmg:green_rebar_concrete_stairs",
+        "tfmg:green_rebar_concrete_slab",
+        "tfmg:red_rebar_concrete",
+        "tfmg:red_rebar_concrete_wall",
+        "tfmg:red_rebar_concrete_stairs",
+        "tfmg:red_rebar_concrete_slab",
+        "tfmg:black_rebar_concrete",
+        "tfmg:black_rebar_concrete_wall",
+        "tfmg:black_rebar_concrete_stairs",
+        "tfmg:black_rebar_concrete_slab",
+        "tfmg:asphalt",
+        "tfmg:asphalt_wall",
+        "tfmg:asphalt_slab",
+        "tfmg:asphalt_stairs",
+        "tfmg:brass_pipe",
+        "tfmg:encased_brass_pipe",
+        "tfmg:glass_brass_pipe",
+        "tfmg:brass_mechanical_pump",
+        "tfmg:brass_smart_fluid_pipe",
+        "tfmg:brass_fluid_valve",
+        "tfmg:steel_pipe",
+        "tfmg:encased_steel_pipe",
+        "tfmg:glass_steel_pipe",
+        "tfmg:steel_mechanical_pump",
+        "tfmg:steel_smart_fluid_pipe",
+        "tfmg:steel_fluid_valve",
+        "tfmg:aluminum_pipe",
+        "tfmg:encased_aluminum_pipe",
+        "tfmg:glass_aluminum_pipe",
+        "tfmg:aluminum_mechanical_pump",
+        "tfmg:aluminum_smart_fluid_pipe",
+        "tfmg:aluminum_fluid_valve",
+        "tfmg:cast_iron_pipe",
+        "tfmg:encased_cast_iron_pipe",
+        "tfmg:glass_cast_iron_pipe",
+        "tfmg:cast_iron_mechanical_pump",
+        "tfmg:cast_iron_smart_fluid_pipe",
+        "tfmg:cast_iron_fluid_valve",
+        "tfmg:plastic_pipe",
+        "tfmg:encased_plastic_pipe",
+        "tfmg:glass_plastic_pipe",
+        "tfmg:plastic_mechanical_pump",
+        "tfmg:plastic_smart_fluid_pipe",
+        "tfmg:plastic_fluid_valve",
+        "tfmg:steel_encased_shaft",
+        "tfmg:heavy_encased_shaft",
+        "tfmg:industrial_encased_shaft",
+        "tfmg:steel_encased_cogwheel",
+        "tfmg:heavy_encased_cogwheel",
+        "tfmg:industrial_encased_cogwheel",
+        "tfmg:steel_encased_large_cogwheel",
+        "tfmg:heavy_encased_large_cogwheel",
+        "tfmg:industrial_encased_large_cogwheel",
+        "tfmg:steel_encased_steel_cogwheel",
+        "tfmg:heavy_encased_steel_cogwheel",
+        "tfmg:industrial_encased_steel_cogwheel",
+        "tfmg:steel_encased_large_steel_cogwheel",
+        "tfmg:heavy_encased_large_steel_cogwheel",
+        "tfmg:industrial_encased_large_steel_cogwheel",
+        "tfmg:steel_encased_aluminum_cogwheel",
+        "tfmg:heavy_encased_aluminum_cogwheel",
+        "tfmg:industrial_encased_aluminum_cogwheel",
+        "tfmg:steel_encased_large_aluminum_cogwheel",
+        "tfmg:heavy_encased_large_aluminum_cogwheel",
+        "tfmg:industrial_encased_large_aluminum_cogwheel",
+        "tfmg:bauxite",
+        "tfmg:cut_bauxite",
+        "tfmg:cut_bauxite_stairs",
+        "tfmg:cut_bauxite_slab",
+        "tfmg:cut_bauxite_wall",
+        "tfmg:polished_cut_bauxite",
+        "tfmg:polished_cut_bauxite_stairs",
+        "tfmg:polished_cut_bauxite_slab",
+        "tfmg:polished_cut_bauxite_wall",
+        "tfmg:cut_bauxite_bricks",
+        "tfmg:cut_bauxite_brick_stairs",
+        "tfmg:cut_bauxite_brick_slab",
+        "tfmg:cut_bauxite_brick_wall",
+        "tfmg:small_bauxite_bricks",
+        "tfmg:small_bauxite_brick_stairs",
+        "tfmg:small_bauxite_brick_slab",
+        "tfmg:small_bauxite_brick_wall",
+        "tfmg:layered_bauxite",
+        "tfmg:bauxite_pillar",
+        "tfmg:galena",
+        "tfmg:cut_galena",
+        "tfmg:cut_galena_stairs",
+        "tfmg:cut_galena_slab",
+        "tfmg:cut_galena_wall",
+        "tfmg:polished_cut_galena",
+        "tfmg:polished_cut_galena_stairs",
+        "tfmg:polished_cut_galena_slab",
+        "tfmg:polished_cut_galena_wall",
+        "tfmg:cut_galena_bricks",
+        "tfmg:cut_galena_brick_stairs",
+        "tfmg:cut_galena_brick_slab",
+        "tfmg:cut_galena_brick_wall",
+        "tfmg:small_galena_bricks",
+        "tfmg:small_galena_brick_stairs",
+        "tfmg:small_galena_brick_slab",
+        "tfmg:small_galena_brick_wall",
+        "tfmg:layered_galena",
+        "tfmg:galena_pillar"
+      ]
+    }
+  }
+}

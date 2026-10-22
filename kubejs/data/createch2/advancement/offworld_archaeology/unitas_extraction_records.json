@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "unitas_survey": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "sgjourney:unitas"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unitas_survey"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "createch2:offworld_archaeology/cavum_address"
+    ]
+  }
+}

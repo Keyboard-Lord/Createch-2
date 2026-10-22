@@ -1,0 +1,1690 @@
+{
+  "schema": 1,
+  "sharedWetwareNativeCodeSha256": {
+    "yield": "803b6a084bc4b6b50c781207df5dcb5ff380e6d70ddf036803da0d53048b7034",
+    "fauna": "d1accd0c753e1d599358ad60ba347645f71e8bee885244acb3dc6ecf8d88407d",
+    "looseRock": "9d60efdf246690667b7844488fad2dee1460d4aec36832b8e19cb498459abdea",
+    "rockLayers": "2f52e7e640f3642bd3eebac658a1628186d157914a5c2e24ec4a775b003a070b"
+  },
+  "rows": [
+    {
+      "entity": "tfc:pig",
+      "output": "tfc:food/pork",
+      "biome": "tfc:plains",
+      "category": "creature",
+      "spawn": {
+        "type": "tfc:pig",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      "fauna": {
+        "max_temperature": 35.0,
+        "min_forest": 2,
+        "min_groundwater": 200.0,
+        "min_temperature": -10.0
+      },
+      "loot": "tfc:entities/pig"
+    },
+    {
+      "entity": "tfc:sheep",
+      "output": "tfc:food/mutton",
+      "biome": "tfc:plains",
+      "category": "creature",
+      "spawn": {
+        "type": "tfc:sheep",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      "fauna": {
+        "max_groundwater": 300.0,
+        "max_temperature": 35.0,
+        "min_groundwater": 70.0,
+        "min_temperature": 0.0
+      },
+      "loot": "tfc:entities/sheep"
+    },
+    {
+      "entity": "tfc:chicken",
+      "output": "animaltrap:chicken_carcass",
+      "biome": "tfc:plains",
+      "category": "creature",
+      "spawn": {
+        "type": "tfc:chicken",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      "fauna": {
+        "min_forest": 2,
+        "min_groundwater": 225.0,
+        "min_temperature": 14.0
+      },
+      "loot": "tfc:entities/chicken",
+      "meatOutput": "tfc:food/chicken"
+    },
+    {
+      "entity": "tfc:rabbit",
+      "output": "animaltrap:rabbit_carcass",
+      "biome": "tfc:plains",
+      "category": "creature",
+      "spawn": {
+        "type": "tfc:rabbit",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      "fauna": {
+        "min_groundwater": 15.0,
+        "min_temperature": -16.0
+      },
+      "loot": "tfc:entities/rabbit",
+      "meatOutput": "tfc:food/rabbit"
+    },
+    {
+      "entity": "tfc:cod",
+      "output": "tfc:food/cod",
+      "biome": "tfc:ocean",
+      "category": "water_ambient",
+      "spawn": {
+        "type": "tfc:cod",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      "fauna": {
+        "distance_below_sea_level": 5,
+        "max_temperature": 18.0
+      },
+      "loot": "tfc:entities/cod"
+    },
+    {
+      "entity": "tfc:salmon",
+      "output": "tfc:food/salmon",
+      "biome": "tfc:river",
+      "category": "water_ambient",
+      "spawn": {
+        "type": "tfc:salmon",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      "fauna": {
+        "ignore_rivers": true,
+        "max_groundwater": 500.0,
+        "max_temperature": 12.0,
+        "min_groundwater": 250.0,
+        "min_temperature": -8.0,
+        "months": [
+          "may",
+          "june",
+          "july",
+          "august",
+          "september",
+          "october"
+        ]
+      },
+      "loot": "tfc:entities/salmon"
+    },
+    {
+      "entity": "tfc:tropical_fish",
+      "output": "tfc:food/tropical_fish",
+      "biome": "tfc:ocean",
+      "category": "water_ambient",
+      "spawn": {
+        "type": "tfc:tropical_fish",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 6
+      },
+      "fauna": {
+        "distance_below_sea_level": 3,
+        "min_temperature": 18.0
+      },
+      "loot": "tfc:entities/tropical_fish"
+    },
+    {
+      "entity": "tfc:squid",
+      "output": "tfc:food/calamari",
+      "biome": "tfc:ocean",
+      "category": "water_creature",
+      "spawn": {
+        "type": "tfc:squid",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      "fauna": {
+        "distance_below_sea_level": 15
+      },
+      "loot": "tfc:entities/squid"
+    },
+    {
+      "entity": "minecraft:zombie",
+      "output": "minecraft:rotten_flesh",
+      "biome": "tfc:plains",
+      "category": "monster",
+      "spawn": {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      "fauna": null,
+      "loot": "minecraft:entities/zombie"
+    },
+    {
+      "entity": "minecraft:spider",
+      "output": "minecraft:spider_eye",
+      "biome": "tfc:plains",
+      "category": "monster",
+      "spawn": {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      "fauna": null,
+      "loot": "minecraft:entities/spider"
+    }
+  ],
+  "resources": {
+    "worldgen/biome|tfc:plains": {
+      "data": {
+        "has_precipitation": true,
+        "temperature": 0.5,
+        "downfall": 0.5,
+        "effects": {
+          "fog_color": 12638463,
+          "sky_color": 8709887,
+          "water_color": 4159204,
+          "water_fog_color": 329011
+        },
+        "carvers": {
+          "air": [
+            "tfc:cave",
+            "tfc:deep_cave",
+            "tfc:canyon"
+          ],
+          "liquid": []
+        },
+        "features": [
+          "#tfc:in_biome/erosion",
+          "#tfc:in_biome/all_lakes",
+          "#tfc:in_biome/soil_discs/plains",
+          "#tfc:in_biome/underground_structures",
+          "#tfc:in_biome/surface_structures",
+          "#tfc:in_biome/strongholds",
+          "#tfc:in_biome/veins",
+          "#tfc:in_biome/underground_decoration",
+          "#tfc:in_biome/large_features/plains",
+          "#tfc:in_biome/surface_decoration/plains",
+          "#tfc:in_biome/top_layer_modification"
+        ],
+        "spawners": {
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 95,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:creeper",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:slime",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            }
+          ],
+          "creature": [
+            {
+              "type": "tfc:crocodile",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:pig",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:cow",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:goat",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:yak",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:alpaca",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:sheep",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:musk_ox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:chicken",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:duck",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:quail",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:polar_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:grizzly_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:black_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:lion",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:sabertooth",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:cougar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panther",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:tiger",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:rabbit",
+              "weight": 3,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:fox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panda",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 5
+            },
+            {
+              "type": "tfc:boar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "tfc:wildebeest",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:bison",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:moose",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:bongo",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:caribou",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:deer",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:gazelle",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:grouse",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:pheasant",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:turkey",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:peafowl",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:wolf",
+              "weight": 1,
+              "minCount": 6,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:hyena",
+              "weight": 1,
+              "minCount": 5,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:direwolf",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 7
+            },
+            {
+              "type": "tfc:donkey",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:horse",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:dromedary_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:bactrian_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:ocelot",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:frog",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:armadillo",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 3
+            }
+          ]
+        },
+        "creature_spawn_probability": 0.1,
+        "spawn_costs": {}
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:pig": {
+      "data": {
+        "max_temperature": 35.0,
+        "min_forest": 2,
+        "min_groundwater": 200.0,
+        "min_temperature": -10.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/pig": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "tfc:animal_yield",
+                      "max": {
+                        "type": "minecraft:uniform",
+                        "max": 15.0,
+                        "min": 9.0
+                      },
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "tfc:food/pork"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "tfc:not_predated"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:medium_raw_hide"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "tfc:not_predated"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:bone"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/pig"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:sheep": {
+      "data": {
+        "max_groundwater": 300.0,
+        "max_temperature": 35.0,
+        "min_groundwater": 70.0,
+        "min_temperature": 0.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/sheep": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "tfc:animal_yield",
+                      "max": {
+                        "type": "minecraft:uniform",
+                        "max": 18.0,
+                        "min": 12.0
+                      },
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "tfc:food/mutton"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "tfc:not_predated"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:bone"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "tfc:not_predated"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:small_sheepskin_hide"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/sheep"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:chicken": {
+      "data": {
+        "min_forest": 2,
+        "min_groundwater": 225.0,
+        "min_temperature": 14.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/chicken": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "animaltrap:chicken_carcass",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "animaltraptfc-1.21.1-neoforge-1.0.3.jar"
+    },
+    "tfc/fauna|tfc:rabbit": {
+      "data": {
+        "min_groundwater": 15.0,
+        "min_temperature": -16.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/rabbit": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "animaltrap:rabbit_carcass",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "animaltraptfc-1.21.1-neoforge-1.0.3.jar"
+    },
+    "worldgen/biome|tfc:ocean": {
+      "data": {
+        "has_precipitation": true,
+        "temperature": 0.5,
+        "downfall": 0.5,
+        "effects": {
+          "fog_color": 12638463,
+          "sky_color": 8709887,
+          "water_color": 4159204,
+          "water_fog_color": 329011
+        },
+        "carvers": {
+          "air": [
+            "tfc:cave",
+            "tfc:deep_cave",
+            "tfc:canyon"
+          ],
+          "liquid": []
+        },
+        "features": [
+          "#tfc:in_biome/erosion",
+          "#tfc:in_biome/underground_lakes",
+          "#tfc:in_biome/soil_discs/ocean",
+          "#tfc:in_biome/underground_structures",
+          "#tfc:in_biome/surface_structures",
+          "#tfc:in_biome/strongholds",
+          "#tfc:in_biome/veins",
+          "#tfc:in_biome/underground_decoration",
+          "#tfc:in_biome/large_features/ocean",
+          "#tfc:in_biome/surface_decoration/ocean",
+          "#tfc:in_biome/top_layer_modification"
+        ],
+        "spawners": {
+          "creature": [
+            {
+              "type": "tfc:polar_bear",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:penguin",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 5
+            },
+            {
+              "type": "tfc:turtle",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 5
+            },
+            {
+              "type": "tfc:leopard_seal",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            }
+          ],
+          "water_ambient": [
+            {
+              "type": "tfc:isopod",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:lobster",
+              "weight": 3,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:horseshoe_crab",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:cod",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:pufferfish",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "tfc:tropical_fish",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:jellyfish",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            }
+          ],
+          "water_creature": [
+            {
+              "type": "tfc:orca",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:dolphin",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:squid",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 3
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "tfc:octopoteuthis",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 95,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:creeper",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:slime",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            }
+          ]
+        },
+        "creature_spawn_probability": 0.1,
+        "spawn_costs": {
+          "tfc:octopoteuthis": {
+            "energy_budget": 0.12,
+            "charge": 1.0
+          }
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:cod": {
+      "data": {
+        "distance_below_sea_level": 5,
+        "max_temperature": 18.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/cod": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:killed_by_player"
+                  },
+                  {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                      "tags": [
+                        {
+                          "expected": true,
+                          "id": "tfc:counts_as_player_kill"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/cod"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/cod"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/biome|tfc:river": {
+      "data": {
+        "has_precipitation": true,
+        "temperature": 0.5,
+        "downfall": 0.5,
+        "effects": {
+          "fog_color": 12638463,
+          "sky_color": 8709887,
+          "water_color": 4159204,
+          "water_fog_color": 329011
+        },
+        "carvers": {
+          "air": [
+            "tfc:cave",
+            "tfc:deep_cave",
+            "tfc:canyon"
+          ],
+          "liquid": []
+        },
+        "features": [
+          "#tfc:in_biome/erosion",
+          "#tfc:in_biome/all_lakes",
+          "#tfc:in_biome/soil_discs/river",
+          "#tfc:in_biome/underground_structures",
+          "#tfc:in_biome/surface_structures",
+          "#tfc:in_biome/strongholds",
+          "#tfc:in_biome/veins",
+          "#tfc:in_biome/veins/river",
+          "#tfc:in_biome/underground_decoration",
+          "#tfc:in_biome/large_features/river",
+          "#tfc:in_biome/surface_decoration/river",
+          "#tfc:in_biome/top_layer_modification"
+        ],
+        "spawners": {
+          "water_ambient": [
+            {
+              "type": "tfc:bluegill",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:crappie",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:largemouth_bass",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:rainbow_trout",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:salmon",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:smallmouth_bass",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:arctic_char",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:burbot",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:muksun",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:northern_pike",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:spotted_gudgeon",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:tilapia",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:peacock_bass",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:pacu",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:red_piranha",
+              "weight": 10,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:crayfish",
+              "weight": 5,
+              "minCount": 1,
+              "maxCount": 4
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 95,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:creeper",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:slime",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            }
+          ],
+          "creature": [
+            {
+              "type": "tfc:crocodile",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:pig",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:cow",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:goat",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:yak",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:alpaca",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:sheep",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:musk_ox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:chicken",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:duck",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:quail",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:polar_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:grizzly_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:black_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:lion",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:sabertooth",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:cougar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panther",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:tiger",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:rabbit",
+              "weight": 3,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:fox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panda",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 5
+            },
+            {
+              "type": "tfc:boar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "tfc:wildebeest",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:bison",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:moose",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:bongo",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:caribou",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:deer",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:gazelle",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:grouse",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:pheasant",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:turkey",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:peafowl",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:wolf",
+              "weight": 1,
+              "minCount": 6,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:hyena",
+              "weight": 1,
+              "minCount": 5,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:direwolf",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 7
+            },
+            {
+              "type": "tfc:donkey",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:horse",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:dromedary_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:bactrian_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:ocelot",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:frog",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:armadillo",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 3
+            }
+          ]
+        },
+        "creature_spawn_probability": 0.1,
+        "spawn_costs": {}
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:salmon": {
+      "data": {
+        "ignore_rivers": true,
+        "max_groundwater": 500.0,
+        "max_temperature": 12.0,
+        "min_groundwater": 250.0,
+        "min_temperature": -8.0,
+        "months": [
+          "may",
+          "june",
+          "july",
+          "august",
+          "september",
+          "october"
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/salmon": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:killed_by_player"
+                  },
+                  {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                      "tags": [
+                        {
+                          "expected": true,
+                          "id": "tfc:counts_as_player_kill"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/salmon"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/salmon"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:tropical_fish": {
+      "data": {
+        "distance_below_sea_level": 3,
+        "min_temperature": 18.0
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/tropical_fish": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:killed_by_player"
+                  },
+                  {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                      "tags": [
+                        {
+                          "expected": true,
+                          "id": "tfc:counts_as_player_kill"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/tropical_fish"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/tropical_fish"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "tfc/fauna|tfc:squid": {
+      "data": {
+        "distance_below_sea_level": 15
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:entities/squid": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:ink_sac"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/calamari"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "tfc:entities/squid"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|minecraft:entities/zombie": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:entities/zombie"
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|minecraft:entities/spider": {
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:string"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": 0.0,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:spider_eye"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:entities/spider"
+      },
+      "provider": "1.21.1.jar"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/sweetener"
+  },
+  "edible": true,
+  "hunger": 2,
+  "saturation": 0.3,
+  "decay_modifier": 0.1
+}

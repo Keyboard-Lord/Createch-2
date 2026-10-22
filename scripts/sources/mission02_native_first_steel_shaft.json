@@ -1,0 +1,618 @@
+{
+  "loader": "21.1.256",
+  "outputFilter": {
+    "item": "create:attribute_filter",
+    "sample": "greate:andesite_alloy_shaft",
+    "attribute": "added_by",
+    "modId": "greate",
+    "inverted": false,
+    "mode": "WHITELIST_DISJ",
+    "firstSteelShaftSampleNotRequired": true
+  },
+  "ids": {
+    "plate": "createch2:create/pressing/steel_plate",
+    "shaft": "createch2:greate/tier_1/shaft_cutting",
+    "sawCraft": "createch2:greate/tier_0/mechanical_saw",
+    "pressCraft": "createch2:age_foundation/create/mechanical_press",
+    "depot": "create:crafting/kinetics/depot",
+    "waterWheel": "createch2:age_foundation/create/water_wheel",
+    "driveShaft": "createch2:age_foundation/create/shaft",
+    "attributeFilter": "create:crafting/kinetics/attribute_filter"
+  },
+  "nativeClasses": {
+    "factory": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      false
+    ],
+    "factoryV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      true
+    ],
+    "converter": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      false
+    ],
+    "converterV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      true
+    ],
+    "saw": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlockEntity"
+    ],
+    "sawBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlock"
+    ],
+    "createSaw": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlockEntity"
+    ],
+    "createSawBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlock"
+    ],
+    "addedBy": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.item.filter.attribute.attributes.AddedByAttribute"
+    ],
+    "addedByType": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.item.filter.attribute.attributes.AddedByAttribute$Type"
+    ],
+    "attributeTypes": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.item.filter.attribute.AllItemAttributeTypes"
+    ],
+    "attributeMenu": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.filter.AttributeFilterMenu"
+    ],
+    "attributeStack": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.filter.FilterItemStack$AttributeFilterItemStack"
+    ],
+    "filterBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour"
+    ],
+    "tierConditions": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.TieredRecipeConditions"
+    ],
+    "attributeMode": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.filter.AttributeFilterWhitelistMode"
+    ],
+    "attributeSwitch": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.filter.FilterItemStack$1"
+    ],
+    "itemExtension": [
+      "@loader",
+      "net.neoforged.neoforge.common.extensions.IItemExtension"
+    ],
+    "creatorHooks": [
+      "@loader",
+      "net.neoforged.neoforge.common.CommonHooks"
+    ]
+  },
+  "nativeCodeSha256": {
+    "factory": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "factoryV": "2adb4be912ed372db9ea6c536854ce3951fc032821563300614f1b89916da2f7",
+    "converter": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "converterV": "b6831e2a5a1ebbe2ea7632c38f006d983e97be3ea608f925a2db78fea5332518",
+    "saw": "7e2e38be0682530d3265f902fb454eaf03acfe1c0a092e445fe8d15181f60bf0",
+    "sawBlock": "75dd79fd7585f6d91581ff30cda2b33d37160f6f7a965fe42a302fe17abd892a",
+    "createSaw": "ec223c2745e4b53f1f24b94d6039b240a3ec04eb1d3a3f378c0f279ebb2dc7b7",
+    "createSawBlock": "4af96a9cb073350f35492854ef637cd6be7ae110db50e431c19b577ed225fb8b",
+    "addedBy": "217993c5a59a429f4e3d38974d05177398686214966f9408312f4ab2e5757dc1",
+    "addedByType": "d3e06053cfc99ec39b4c70a5eac9f171d4701250b8da0782909314827b7cd35d",
+    "attributeTypes": "0782be1ca558b0b23ae216a6462e854dbdb1bb5d87747f4b6c72a5365f5bdac8",
+    "attributeMenu": "df6efc4a94104046fc66f26054fd90b27166dd2fa7c2b9b0157d880c23505ab7",
+    "attributeStack": "ce6971cbc80a86a864f14beb88aca4a4fd7ee43f31c21f061834e379572ad2f1",
+    "filterBehaviour": "288eb31050339c36d2a140033f9360598e228e9a1e51ed9c3d63081b81c9851d",
+    "tierConditions": "d19111bdd6524f12a0c54e1f2d876435741e0738c82076d37e3729d144dda246",
+    "attributeMode": "870493b091641888b03ae78a7e8f5ab96cfcc7b9fde249901377dff201053905",
+    "attributeSwitch": "5f22f8a1cfaf8cd23b3787cb9b94a3931fc64cf90b71a1aa1b78acbbf5b100c4",
+    "itemExtension": "d937efaed3c1e741d59ce3b6aaddf21e1bcb4e8f919d90694322d09ffc9cc29f",
+    "creatorHooks": "fddb9d3b7e90e2b491d2e14ba3751af12cfc1a54a166fceb09347d2ad41dd5ad"
+  },
+  "recipes": {
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:greate/tier_1/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:steel_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:greate/tier_0/mechanical_saw": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        "SCS",
+        " W "
+      ],
+      "key": {
+        "G": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "W": {
+          "item": "tfc:metal/double_sheet/bronze"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_saw",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " S ",
+        " C ",
+        " D "
+      ],
+      "key": {
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "D": {
+          "item": "tfc:metal/double_sheet/copper"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_press",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "create:crafting/kinetics/attribute_filter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:nuggets/brass"
+        },
+        "S": {
+          "tag": "minecraft:wool"
+        }
+      },
+      "pattern": [
+        "ASA"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:attribute_filter"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:create/pressing/steel_plate": "authored",
+    "createch2:greate/tier_1/shaft_cutting": "authored",
+    "createch2:greate/tier_0/mechanical_saw": "authored",
+    "createch2:age_foundation/create/mechanical_press": "authored",
+    "create:crafting/kinetics/depot": "native",
+    "createch2:age_foundation/create/water_wheel": "authored",
+    "createch2:age_foundation/create/shaft": "authored",
+    "create:crafting/kinetics/attribute_filter": "native"
+  },
+  "effectiveRecipes": {
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:greate/tier_1/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:steel_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:greate/tier_0/mechanical_saw": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        "SCS",
+        " W "
+      ],
+      "key": {
+        "G": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "W": {
+          "item": "tfc:metal/double_sheet/bronze"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_saw",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " S ",
+        " C ",
+        " D "
+      ],
+      "key": {
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "D": {
+          "item": "tfc:metal/double_sheet/copper"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_press",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "create:crafting/kinetics/attribute_filter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:nuggets/brass"
+        },
+        "S": {
+          "tag": "minecraft:wool"
+        }
+      },
+      "pattern": [
+        "ASA"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:attribute_filter"
+      }
+    }
+  },
+  "normalizations": {
+    "createch2:create/pressing/steel_plate": [],
+    "createch2:greate/tier_1/shaft_cutting": [],
+    "createch2:greate/tier_0/mechanical_saw": [],
+    "createch2:age_foundation/create/mechanical_press": [],
+    "create:crafting/kinetics/depot": [],
+    "createch2:age_foundation/create/water_wheel": [],
+    "createch2:age_foundation/create/shaft": [],
+    "create:crafting/kinetics/attribute_filter": []
+  },
+  "nativeRows": {
+    "create:crafting/kinetics/depot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "create:andesite_alloy"
+            },
+            {
+              "item": "create:andesite_casing"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:depot"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/attribute_filter": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "A": {
+              "tag": "c:nuggets/brass"
+            },
+            "S": {
+              "tag": "minecraft:wool"
+            }
+          },
+          "pattern": [
+            "ASA"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:attribute_filter"
+          }
+        }
+      }
+    ]
+  },
+  "plateRuntimeId": "greate:integration/createch2/create/pressing/steel_plate",
+  "plateRuntimeData": {
+    "type": "greate:pressing",
+    "recipe_tier": 0,
+    "ingredients": [
+      {
+        "tag": "c:ingots/steel"
+      }
+    ],
+    "results": [
+      {
+        "id": "modern_industrialization:steel_plate",
+        "count": 1,
+        "chance": 1
+      }
+    ],
+    "processing_time": 0
+  },
+  "pressStation": {
+    "source": [
+      -30,
+      0,
+      0
+    ],
+    "shaft": [
+      -29,
+      0,
+      0
+    ],
+    "press": [
+      -28,
+      0,
+      0
+    ],
+    "depot": [
+      -28,
+      -2,
+      0
+    ],
+    "axis": "X",
+    "rpm": 8,
+    "pressImpact": 1,
+    "load": 8,
+    "capacity": 8
+  },
+  "sawStation": {
+    "saw": [
+      -8,
+      -2,
+      3
+    ],
+    "facing": "up",
+    "axis": "X",
+    "axisAlongFirstCoordinate": true,
+    "rpm": 8,
+    "input": "Drop one steel plate onto the upward-facing saw.",
+    "output": "Empty-hand use of the upward-facing saw returns its native inventory; collect all six steel shafts.",
+    "note": "An isolated8SUsaw station manufactures the first steel shafts and remains separate from the main8SUrubber drive. Current cog recipes do not require plates. No saw disassembly, inherited finished shaft, wrench or raised capacity is credited.",
+    "source": [
+      -10,
+      -2,
+      3
+    ],
+    "shaft": [
+      -9,
+      -2,
+      3
+    ],
+    "independentSource": true
+  },
+  "quantityPlan": {
+    "firstTfmgSteelIngots": 1,
+    "steelCastingInputMb": 144,
+    "canonicalSteelUnitsPerIngot": 100,
+    "canonicalSteelUnitsPerPlate": 100,
+    "pressRuns": 1,
+    "steelPlatesProduced": 1,
+    "sawRuns": 1,
+    "steelPlatesConsumed": 1,
+    "steelShaftsProduced": 6,
+    "compressorSteelShaftsAllocated": 1,
+    "steelShaftsRetained": 5,
+    "stationRpm": 8,
+    "pressLoad": 8,
+    "sawLoad": 8,
+    "capacityPerIndependentSource": 8,
+    "simultaneousSources": 2,
+    "independentSelectedDrives": true,
+    "attributeFilters": 1,
+    "attributeFilterBrassNuggets": 2,
+    "attributeFilterWoolBlocks": 1,
+    "earlierAndesiteShaftSample": 1
+  },
+  "limits": [
+    "One ingot is consumed once into one plate then six mechanical shafts; these are sequential milestones, not simultaneously retained ingot/plate/shaft stocks. No extra steel-furnace batch or unbudgeted furnace-gas repetition is credited."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "pack_runtime": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "pack_runtime"
+    ]
+  ]
+}

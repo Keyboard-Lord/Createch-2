@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VQV",
+    "QCQ",
+    "VQV"
+  ],
+  "key": {
+    "V": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "C": {
+      "item": "sgjourney:classic_stargate"
+    }
+  },
+  "result": {
+    "id": "sgjourney:milky_way_stargate",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "BMB",
+    "TCT"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "T": {
+      "item": "tfmg:cast_iron_truss"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "tfmg:pumpjack_crank",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/vanadium"
+    },
+    {
+      "tag": "c:physical_dusts/vanadium"
+    }
+  ],
+  "heat_capacity": 0.2,
+  "forging_temperature": 938,
+  "welding_temperature": 1250
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/antimony"
+    },
+    {
+      "tag": "c:physical_dusts/antimony"
+    }
+  ],
+  "heat_capacity": 0.2,
+  "forging_temperature": 378,
+  "welding_temperature": 504
+}

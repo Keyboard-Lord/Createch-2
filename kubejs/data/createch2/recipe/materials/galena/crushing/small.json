@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tfc_metallurgy:ore/small_galena"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "id": "create:crushed_raw_lead",
+      "count": 1
+    }
+  ],
+  "recipe_tier": 0
+}

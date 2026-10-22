@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " R ",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "tfmg:magnetic_alloy_sheet"
+    },
+    "R": {
+      "tag": "c:rods/steel"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:steel_rod_magnetic",
+    "count": 1
+  }
+}

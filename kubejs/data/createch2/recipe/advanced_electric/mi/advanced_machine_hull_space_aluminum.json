@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "BAB",
+    "ETE"
+  ],
+  "key": {
+    "E": {
+      "item": "electroenergetics:connector"
+    },
+    "C": {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "B": {
+      "item": "modern_industrialization:silicon_battery"
+    },
+    "A": {
+      "item": "modern_industrialization:advanced_machine_casing"
+    },
+    "T": {
+      "item": "stellaris:tharsite_ingot"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:advanced_machine_hull",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PBP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "B": {
+      "item": "cookingforblockheads:recipe_book"
+    }
+  },
+  "result": {
+    "id": "cookingforblockheads:no_filter_edition",
+    "count": 1
+  }
+}

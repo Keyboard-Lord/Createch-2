@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cedar_fence",
+      "required": false
+    },
+    {
+      "id": "yourmod:redwood_fence",
+      "required": false
+    }
+  ]
+}

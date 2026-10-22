@@ -1,0 +1,42 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:turbo_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:distillery",
+      "amount": 2
+    },
+    {
+      "item": "greate:stainless_steel_mechanical_pump",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:steel_distillation_output",
+      "amount": 2
+    },
+    {
+      "item": "chemica:polytetrafluoroethylene_sheet",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:distillation_tower",
+      "amount": 1
+    }
+  ]
+}

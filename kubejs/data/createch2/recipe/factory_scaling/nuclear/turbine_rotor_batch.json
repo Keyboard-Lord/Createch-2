@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 192,
+  "duration": 1000,
+  "item_inputs": [
+    {
+      "item": "mekanismgenerators:turbine_rotor",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "mekanismgenerators:turbine_blade",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:iridium_plate",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 500
+  },
+  "item_outputs": [
+    {
+      "item": "mekanismgenerators:turbine_rotor",
+      "amount": 2
+    }
+  ]
+}

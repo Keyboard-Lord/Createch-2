@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "NHN",
+    "PTP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "C": {
+      "item": "mekanismgenerators:saturating_condenser"
+    },
+    "N": {
+      "item": "mekanism:elite_thermodynamic_conductor"
+    },
+    "H": {
+      "item": "crowns:heat_exchanger"
+    },
+    "T": {
+      "item": "mekanism:elite_pressurized_tube"
+    }
+  },
+  "result": {
+    "id": "crowns:steam_collector",
+    "count": 1
+  }
+}

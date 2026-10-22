@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "death_angels:stick_trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 16,
+    "salt": 450589408
+  }
+}

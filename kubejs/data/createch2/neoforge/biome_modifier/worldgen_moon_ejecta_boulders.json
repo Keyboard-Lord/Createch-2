@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#rocketnautics:createch2_expedition_biomes",
+  "features": [
+    "createch2:moon_ejecta_boulders"
+  ],
+  "step": "local_modifications"
+}

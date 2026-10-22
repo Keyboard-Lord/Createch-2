@@ -1,0 +1,31 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "chemica:yeast"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:ethanol"
+    }
+  ],
+  "processing_time": 800,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/mithril",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/mithril",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/mithril",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/mithril",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:circuits/advanced"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "W": [
+      {
+        "tag": "c:ingots/copper"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ]
+  },
+  "pattern": [
+    "WRW",
+    "CFC",
+    "WRW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:port_fe"
+  }
+}

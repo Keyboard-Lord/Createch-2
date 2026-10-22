@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": "createch2:copper_ore_end",
+  "step": "underground_ores"
+}

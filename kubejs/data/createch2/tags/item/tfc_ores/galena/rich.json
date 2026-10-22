@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/rich_galena",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_galena/tuff",
+      "required": false
+    }
+  ]
+}

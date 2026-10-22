@@ -1,0 +1,9 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:digger_bee",
+  "result": "productivebees:quarry_bee",
+  "item": {
+    "item": "productivebees:advanced_oak_beehive"
+  }
+}

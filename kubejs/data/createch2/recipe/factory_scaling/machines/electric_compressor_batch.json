@@ -1,0 +1,42 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 700,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:bronze_compressor",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:basic_machine_hull",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:motor",
+      "amount": 4
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 2
+    },
+    {
+      "item": "electroenergetics:insulated_wire",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 500
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:electric_compressor",
+      "amount": 2
+    }
+  ]
+}

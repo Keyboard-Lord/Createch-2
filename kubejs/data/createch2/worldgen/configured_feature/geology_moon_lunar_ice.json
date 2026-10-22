@@ -1,0 +1,40 @@
+{
+  "type": "tfc:disc_vein",
+  "config": {
+    "rarity": 42,
+    "density": 0.35,
+    "min_y": -24,
+    "max_y": 24,
+    "size": 16,
+    "height": 3,
+    "random_name": "createch2_moon_lunar_ice",
+    "blocks": [
+      {
+        "replace": [
+          "rocketnautics:lunar_rock",
+          "rocketnautics:lunar_fragmented_rock",
+          "rocketnautics:lunar_regolith",
+          "rocketnautics:lunar_shattered_regolith",
+          "stellaris:moon_stone"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "stellaris:moon_ice_shard_ore"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 84,
+      "depth": 36,
+      "underground_rarity": 16,
+      "underground_count": 1,
+      "blocks": [
+        {
+          "block": "minecraft:packed_ice"
+        }
+      ]
+    }
+  }
+}

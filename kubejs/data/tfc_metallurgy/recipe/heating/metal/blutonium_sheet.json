@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/blutonium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/blutonium",
+    "amount": 200
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

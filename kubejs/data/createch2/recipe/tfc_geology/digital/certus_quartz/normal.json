@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 32,
+  "duration": 300,
+  "item_inputs": [
+    {
+      "tag": "createch2:tfc_ores/certus_quartz/normal",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "amount": 2
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "amount": 1,
+      "probability": 0.25
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "oritech:accelerator_controller"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:frontier_observations",
+      "createch2:nuclear_assays",
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:frn_04_spacetime_engineering",
+    "createch2:nuc_05_fusion_fuels",
+    "createch2:pre_05_metrology"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_05_exotic_particle_physics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_05_exotic_particle_physics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_ring",
+      "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_motor",
+      "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_sensor",
+      "createch2:oritech_jdt/age_15/oritech/accelerator/particle_collector_block",
+      "createch2:oritech_jdt/age_15/oritech/accelerator/accelerator_controller",
+      "createch2:oritech_jdt/age_15/oritech/accelerator/strange_matter",
+      "createch2:research/pack/frontier_observations_advanced",
+      "createch2:greate/tier_8/cogwheel",
+      "createch2:greate/tier_8/crushing_wheel",
+      "createch2:greate/tier_8/encased_fan",
+      "createch2:greate/tier_8/gearbox",
+      "createch2:greate/tier_8/horizontal_gearbox",
+      "createch2:greate/tier_8/large_cogwheel",
+      "createch2:greate/tier_8/mechanical_mixer",
+      "createch2:greate/tier_8/mechanical_press",
+      "createch2:greate/tier_8/mechanical_pump",
+      "createch2:greate/tier_8/mechanical_saw",
+      "createch2:greate/tier_8/millstone",
+      "createch2:greate/tier_8/shaft_cutting",
+      "createch2:greate/tier_8/vertical_gearbox",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_cogwheel",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_crushing_wheel",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_encased_fan",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_gearbox",
+      "createch2:material_recycling/greate_darmstadtium/large_darmstadtium_cogwheel",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_mechanical_mixer",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_mechanical_press",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_mechanical_pump",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_mechanical_saw",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_millstone",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_shaft",
+      "createch2:material_recycling/greate_darmstadtium/darmstadtium_vertical_gearbox",
+      "createch2:greate/suppliers/tin_element_feed",
+      "createch2:greate/suppliers/neodymium_element_feed",
+      "createch2:greate/suppliers/darmstadtium_fusion",
+      "createch2:greate/suppliers/darmstadtium_compaction",
+      "createch2:greate/suppliers/darmstadtium_reduction",
+      "createch2:greate/suppliers/darmstadtium_plate",
+      "createch2:greate/suppliers/uv_hull",
+      "createch2:greate/suppliers/uv_uu_matter_bucket",
+      "createch2:laser_engraver/greate_uv/nand_memory_wafer",
+      "createch2:laser_engraver/greate_uv/nand_memory_chip",
+      "createch2:circuit_assembler/greate_uv/crystal_processor_assembly",
+      "createch2:circuit_assembler/greate_uv/crystal_processor_computer",
+      "createch2:assembly_line/greate_uv/crystal_processor_mainframe",
+      "createch2:greate/belts/polybenzimidazole",
+      "createch2:research_station/greate_uv/research/gtceu/crystal_processor_computer"
+    ]
+  }
+}

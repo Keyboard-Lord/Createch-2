@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "scope": "Current installed provider review for factory supplier witnesses; historical basis remains immutable.",
+  "oldJar": "mods/chemica-1.21.1-0.7.0.jar",
+  "oldSha256": "85446050a3e81f1a3674ae64ae901a9952560628b7b7865550a7547df07a0340",
+  "currentJar": "mods/chemica-1.21.1-0.7.1.jar",
+  "currentSha256": "fbeec7f6a35596dec4540e5dd2b9734459e9aa47a195c56dd92fb8de0533a60d",
+  "reviewedEntries": {
+    "data/chemica/recipe/distillation/light_hydrocarbons_alt.json": "6c749a22f7d9bf24c19e90e1d4c332d590fd985e1ae1b91d4523c81e308f6a07"
+  },
+  "limits": "No claim of equivalent complete JARs or throughput. Current native supplier payloads and all pinned factory classes are checked independently.",
+  "chemicaPolicy": {
+    "shippedArtifact": "chemica-1.21.1-0.7.1.jar",
+    "artifactSha256": "fbeec7f6a35596dec4540e5dd2b9734459e9aa47a195c56dd92fb8de0533a60d",
+    "staticSha256": "5328214e827f63fcbb41aaeb5e59bdf23def0cea784455535a1c059beb2f0719",
+    "approved": 205,
+    "denied": 118
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "truth": "BOUNDED_CONDITIONAL_TWO_EARLY_PRECISION_FOR_FIRST_BUCKET",
+  "researchNodes": [
+    {
+      "id": "createch2:sci_01_empirical_method",
+      "code": "SCI-01",
+      "parents": [],
+      "cost": {
+        "class": "A",
+        "item": "tfc:metal/sheet/copper",
+        "count": 4
+      },
+      "earliest_age": "Age 01 Copper"
+    },
+    {
+      "id": "createch2:mat_01_bronze_metallurgy",
+      "code": "MAT-01",
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "cost": {
+        "class": "A",
+        "packs": [
+          "material_specimens",
+          "kinetic_data"
+        ]
+      },
+      "earliest_age": "Age 02 Alloy Foundry"
+    },
+    {
+      "id": "createch2:mat_02_brass_engineering",
+      "code": "MAT-02",
+      "parents": [
+        "createch2:mat_01_bronze_metallurgy",
+        "createch2:thm_01_boiler_science"
+      ],
+      "cost": {
+        "class": "B",
+        "packs": [
+          "material_specimens",
+          "process_samples"
+        ]
+      },
+      "earliest_age": "Age 02 Alloy Foundry"
+    },
+    {
+      "id": "createch2:mec_01_rotary_mechanics",
+      "code": "MEC-01",
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "cost": {
+        "class": "A",
+        "packs": [
+          "kinetic_data",
+          "material_specimens"
+        ]
+      },
+      "earliest_age": "Age 01 Copper"
+    },
+    {
+      "id": "createch2:mec_02_automated_manipulation",
+      "code": "MEC-02",
+      "parents": [
+        "createch2:mec_01_rotary_mechanics",
+        "createch2:mat_01_bronze_metallurgy"
+      ],
+      "cost": {
+        "class": "B",
+        "packs": [
+          "kinetic_data",
+          "material_specimens"
+        ]
+      },
+      "earliest_age": "Age 02 Alloy Foundry"
+    },
+    {
+      "id": "createch2:thm_01_boiler_science",
+      "code": "THM-01",
+      "parents": [
+        "createch2:sci_01_empirical_method"
+      ],
+      "cost": {
+        "class": "A",
+        "packs": [
+          "kinetic_data",
+          "material_specimens"
+        ]
+      },
+      "earliest_age": "Age 02 Alloy Foundry"
+    },
+    {
+      "id": "createch2:pre_01_precision_mechanisms",
+      "code": "PRE-01",
+      "parents": [
+        "createch2:mec_02_automated_manipulation",
+        "createch2:mat_02_brass_engineering"
+      ],
+      "cost": {
+        "class": "B",
+        "packs": [
+          "kinetic_data",
+          "material_specimens"
+        ]
+      },
+      "earliest_age": "Age 02 Alloy Foundry"
+    }
+  ],
+  "bootstrapPackRoutes": [
+    {
+      "id": "createch2:research/pack/kinetic_data",
+      "pack": "createch2:kinetic_data",
+      "tier": "bootstrap",
+      "generation": 0,
+      "generation_name": "Handwritten Observation",
+      "unlock_node": "createch2:sci_01_empirical_method",
+      "output_count": 2,
+      "machine": "Crafting Table",
+      "experiment": "Write primitive motion and gearing observations.",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "RPR",
+          "SCS",
+          "RPR"
+        ],
+        "key": {
+          "C": "minecraft:charcoal",
+          "P": "minecraft:paper",
+          "R": "tfc:metal/rod/copper",
+          "S": "#c:strings"
+        }
+      }
+    },
+    {
+      "id": "createch2:research/pack/material_specimens",
+      "pack": "createch2:material_specimens",
+      "tier": "bootstrap",
+      "generation": 0,
+      "generation_name": "Handwritten Observation",
+      "unlock_node": "createch2:sci_01_empirical_method",
+      "output_count": 2,
+      "machine": "Crafting Table",
+      "experiment": "Prepare primitive copper coupons and record their condition.",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SPS",
+          "BGB",
+          "SPS"
+        ],
+        "key": {
+          "B": "minecraft:brick",
+          "G": [
+            "tfc:ceramic/vessel",
+            "minecraft:glass_bottle"
+          ],
+          "P": "minecraft:paper",
+          "S": "tfc:metal/sheet/copper"
+        }
+      }
+    },
+    {
+      "id": "createch2:research/pack/process_samples",
+      "pack": "createch2:process_samples",
+      "tier": "bootstrap",
+      "generation": 0,
+      "generation_name": "Handwritten Observation",
+      "unlock_node": "createch2:sci_01_empirical_method",
+      "output_count": 2,
+      "machine": "Crafting Table",
+      "experiment": "Bottle and annotate a primitive thermal-process sample.",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "FPF",
+          "CGC",
+          "FPF"
+        ],
+        "key": {
+          "C": "minecraft:charcoal",
+          "F": "tfc:powder/flux",
+          "G": [
+            "tfc:ceramic/vessel",
+            "minecraft:glass_bottle"
+          ],
+          "P": "minecraft:paper"
+        }
+      }
+    }
+  ],
+  "semanticDescriptionChanges": [
+    {
+      "lang": "en_us",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Mine 16 additional normal native-gold ores and use the guaranteed hammer, sluice, quern and second sluice route to collect 80 clean gold powders. Fund a new stone hammer with one loose granite and a twig, and a new handstone with three raw granite and a second twig; this gold batch spends 16 hammer uses and 80 handstone uses. Knap four fresh ingot molds from ten clay and fire them in one kiln load with eight additional logs and eight straw. Let the molds cool before handling. With the covered forge and its ten counted fuel charcoal, melt five one-item powders at a time into the four output molds. Stop fueling after the counted batch and leave all molds in the forge until cold before pickup. No hot vessel transfer or bellows is needed for this gold route. All four molds may break after delivering four ingots. Press one ingot into the first gold sheet and retain three ingots for later attempts; every retry still needs its own cogs and nuggets.",
+      "after": "Mine 16 additional normal native-gold ores and use the guaranteed hammer, sluice, quern and second sluice route to collect 80 clean gold powders. Fund a new stone hammer with one loose granite and a twig, and a new handstone with three raw granite and a second twig; this gold batch spends 16 hammer uses and 80 handstone uses. Knap four fresh ingot molds from ten clay and fire them in one kiln load with eight additional logs and eight straw. Let the molds cool before handling. With the covered forge and its ten counted fuel charcoal, melt five one-item powders at a time into the four output molds. Stop fueling after the counted batch and leave all molds in the forge until cold before pickup. No hot vessel transfer or bellows is needed for this gold route. All four molds may break after delivering four ingots. Press one ingot for the original attempt and reserve the other three for the wrench below. Additional attempts need new gold, cogs and nuggets."
+    },
+    {
+      "lang": "en_us",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "Build the forming drive with every shaft and cog on axis X. Relative positions: water wheel (-8,-3,-3); small cogs (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); large cogs (-6,-2,-2), (-4,-1,-1), (-2,0,0); five shafts (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Put the earlier andesite press at (0,0,0) and the downward USE deployer at (2,0,0), with its horizontal shaft axis X. Place depots two blocks below the press and deployer. Translate the whole layout so the existing oil spout/depot sits at (4,0,0)/(4,-2,0), keeping its tank and pipes intact. Three small-to-large reductions give 1 RPM: press plus deployer use 5 SU of the 8 SU drive. Later replace the empty andesite press with the steel press at the same position for 6 SU total. Normal wrench clicks on the body rotate the deployer or its shaft axis; the protruding hand can toggle mode, so verify USE after adjustments. Sneaking can dismantle blocks. Keep work cells clear and preserve the same workpiece’s sequence marker when moving it between depots.",
+      "after": "Build the forming drive with every shaft and cog on axis X. Relative positions: water wheel (-8,-3,-3); small cogs (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); large cogs (-6,-2,-2), (-4,-1,-1), (-2,0,0); five shafts (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Put the earlier andesite press at (0,0,0) and the downward USE deployer at (2,0,0), with its horizontal shaft axis X. Place depots two blocks below the press and deployer. The press and deployer work before the oil spout exists; leave (4,0,0)/(4,-2,0) empty. When oil handling is ready, translate this layout to the spout/depot while preserving its tank and pipes. Three small-to-large reductions give 1 RPM: press plus deployer use 5 SU of the 8 SU drive. Later replace the empty andesite press with the steel press at the same position for 6 SU total. Normal wrench clicks on the body rotate the deployer or its shaft axis; the protruding hand can toggle mode, so verify USE after adjustments. Sneaking can dismantle blocks. Keep work cells clear and preserve the same workpiece’s sequence marker when moving it between depots."
+    },
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "Before this first casing, make two additional precision mechanisms with the earlier andesite press and deployer. Complete PRE-01 Precision Mechanisms research; crafting does not wait for the eight-item quest. Keep the original attempt, wrench gold, six saved charcoal and later eight-item batch separate. These two early mechanisms are consumed here."
+    },
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "For two successful attempts, add 38 andesite alloy, four foundry lids, 188 lumber and two earned cold TFC wrought-iron ingots. Craft four batches of eight shafts, 30 small cogs and ten large cogs. The large cogs consume 20 small cogs; the sequence spends the remaining ten small cogs, ten large cogs and ten nuggets over 30 deployments. Use 160 lumber for gear planks and 28 for seven furnace-fuel planks. If one of three attempts fails, instead allow 57 alloy, six lids and 268 lumber; the gold and wrought bill is unchanged. More failures need more inputs, and failure scraps are not part of this bill."
+    },
+    {
+      "lang": "en_us",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "For a separate four-gold batch, add 16 normal native-gold ores, ten clay, eight straw and 18 logs: ten for furnace charcoal and eight for one kiln. Start with two loose granite, three raw granite and four twigs for a fresh hammer, handstone and firestarter; knapping consumes one loose stone. The gold spends 16 hammer uses and 80 handstone uses. Reuse the cleared furnace and cold covered forge. Seven fresh planks smelt the ten charcoal; use all ten charcoal for the earlier four-mold gold schedule and wait for cold molds before pickup. Allow two successful strong ignitions; failed ignition attempts cost extra wear. Two gold sheets feed the two attempts. Keep the two remaining gold ingots, eight nuggets and two shafts separate from later reserves. The two wrought ingots still require their earlier bloomery and forging supplies."
+    },
+    {
+      "lang": "de_de",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Baue 16 zusätzliche normale gediegene Golderze ab und gewinne über Hammer, Schleuse, Mahlstein und zweite Schleuse garantiert 80 saubere Goldpulver. Fertige einen neuen Steinhammer aus einem losen Granit und einem Zweig sowie einen neuen Mahlstein aus drei rohen Granitblöcken und einem zweiten Zweig. Diese Goldcharge benötigt 16 Hammer- und 80 Mahlsteinanwendungen. Knappe vier neue Barrenformen aus zehn Ton und brenne sie in einer Grubenofenladung mit acht zusätzlichen Stämmen und acht Stroh. Lass die Formen vor dem Aufheben abkühlen. Schmilz in der überdachten Schmiede mit den zehn gezählten Brennstoff-Holzkohlen jeweils fünf einzeln eingelegte Pulver in die vier Ausgabeformen. Fülle nach der geplanten Charge keinen Brennstoff nach und entnimm die Formen erst kalt. Heiße Gefäßtransfers und Blasebalg sind für diesen Goldweg unnötig. Alle vier Formen dürfen nach der Ausgabe der vier Barren zerbrechen. Presse einen Barren zum ersten Goldblech; drei bleiben für weitere Versuche. Jeder erneute Versuch braucht eigene Zahnräder und Nuggets.",
+      "after": "Baue 16 zusätzliche normale gediegene Golderze ab und gewinne über Hammer, Schleuse, Mahlstein und zweite Schleuse garantiert 80 saubere Goldpulver. Fertige einen neuen Steinhammer aus einem losen Granit und einem Zweig sowie einen neuen Mahlstein aus drei rohen Granitblöcken und einem zweiten Zweig. Diese Goldcharge benötigt 16 Hammer- und 80 Mahlsteinanwendungen. Knappe vier neue Barrenformen aus zehn Ton und brenne sie in einer Grubenofenladung mit acht zusätzlichen Stämmen und acht Stroh. Lass die Formen vor dem Aufheben abkühlen. Schmilz in der überdachten Schmiede mit den zehn gezählten Brennstoff-Holzkohlen jeweils fünf einzeln eingelegte Pulver in die vier Ausgabeformen. Fülle nach der geplanten Charge keinen Brennstoff nach und entnimm die Formen erst kalt. Heiße Gefäßtransfers und Blasebalg sind für diesen Goldweg unnötig. Alle vier Formen dürfen nach der Ausgabe der vier Barren zerbrechen. Presse einen Barren für den ursprünglichen Versuch und reserviere die anderen drei für den unten beschriebenen Schraubenschlüssel. Weitere Versuche brauchen neues Gold, Zahnräder und Nuggets."
+    },
+    {
+      "lang": "de_de",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "Richte alle Wellen und Zahnräder auf Achse X aus. Relative Positionen: Wasserrad (-8,-3,-3); kleine Zahnräder (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); große Zahnräder (-6,-2,-2), (-4,-1,-1), (-2,0,0); fünf Wellen (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Die frühere Andesitpresse steht bei (0,0,0), der nach unten gerichtete Deployer im USE-Modus bei (2,0,0), mit horizontaler Wellenachse X. Depots stehen jeweils zwei Blöcke darunter. Verschiebe den gesamten Aufbau so, dass der vorhandene Öl-Ausguss mit Depot bei (4,0,0)/(4,-2,0) liegt; Tank und Rohre bleiben erhalten. Drei Übersetzungen von klein auf groß ergeben 1 U/min und 5 SU Gesamtlast bei 8 SU Antrieb. Ersetze später die leere Andesitpresse am selben Ort durch die Stahlpresse: dann sind es 6 SU. Normale Schraubenschlüsselklicks am Gehäuse drehen Deployer oder Wellenachse. Die herausragende Hand kann den Modus wechseln: Prüfe danach USE. Schleichen kann Blöcke abbauen. Halte Arbeitsfelder frei und bewahre beim Umsetzen zwischen Depots die Sequenzmarkierung desselben Werkstücks.",
+      "after": "Richte alle Wellen und Zahnräder auf Achse X aus. Relative Positionen: Wasserrad (-8,-3,-3); kleine Zahnräder (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); große Zahnräder (-6,-2,-2), (-4,-1,-1), (-2,0,0); fünf Wellen (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Die frühere Andesitpresse steht bei (0,0,0), der nach unten gerichtete Deployer im USE-Modus bei (2,0,0), mit horizontaler Wellenachse X. Depots stehen jeweils zwei Blöcke darunter. Presse und Deployer funktionieren bereits ohne Öl-Ausguss; lasse (4,0,0)/(4,-2,0) frei. Sobald die Ölverarbeitung bereitsteht, verschiebe den Aufbau zum Ausguss mit Depot und erhalte Tank und Rohre. Drei Übersetzungen von klein auf groß ergeben 1 U/min und 5 SU Gesamtlast bei 8 SU Antrieb. Ersetze später die leere Andesitpresse am selben Ort durch die Stahlpresse: dann sind es 6 SU. Normale Schraubenschlüsselklicks am Gehäuse drehen Deployer oder Wellenachse. Die herausragende Hand kann den Modus wechseln: Prüfe danach USE. Schleichen kann Blöcke abbauen. Halte Arbeitsfelder frei und bewahre beim Umsetzen zwischen Depots die Sequenzmarkierung desselben Werkstücks."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "Fertige vor diesem ersten Gehäuse zwei zusätzliche Präzisionsmechanismen mit der früheren Andesitpresse und dem Deployer. Schließe PRE-01 Präzisionsmechanismen ab; die Herstellung wartet nicht auf die Acht-Stück-Aufgabe. Halte den ursprünglichen Versuch, das Gold für den Schlüssel, sechs gesparte Holzkohle und die spätere Achtercharge getrennt. Die zwei frühen Mechanismen werden hier verbraucht."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "Für zwei erfolgreiche Versuche kommen 38 Andesitlegierung, vier Gießereideckel, 188 Bauholz und zwei erarbeitete kalte TFC-Schmiedeeisenbarren hinzu. Fertige vier Chargen mit je acht Wellen, 30 kleine und zehn große Zahnräder. Die großen verbrauchen 20 kleine; die Sequenz verbraucht die übrigen zehn kleinen, zehn großen und zehn Nuggets in 30 Deployer-Schritten. 160 Bauholz werden zu Zahnradbrettern, 28 zu sieben Ofenbrennstoffbrettern. Bei einem Fehlschlag unter drei Versuchen benötigst du stattdessen 57 Legierung, sechs Deckel und 268 Bauholz; Gold und Schmiedeeisen bleiben gleich. Weitere Fehlschläge brauchen weitere Eingaben; Ausschuss ist nicht eingerechnet."
+    },
+    {
+      "lang": "de_de",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "Für eine getrennte Vier-Gold-Charge brauchst du 16 normale gediegene Golderze, zehn Ton, acht Stroh und 18 Stämme: zehn für Ofenholzkohle und acht für einen Grubenbrand. Beginne mit zwei losem Granit, drei rohem Granit und vier Zweigen für neuen Hammer, Mahlstein und Feuerstarter; das Knappen verbraucht einen losen Stein. Gold verbraucht 16 Hammer- und 80 Mahlsteinnutzungen. Nutze den geleerten Ofen und die kalte überdachte Esse erneut. Sieben neue Bretter schmelzen zehn Holzkohle; diese zehn bezahlen den früheren Goldplan mit vier Formen. Entnimm Formen erst kalt. Plane zwei erfolgreiche starke Zündungen; Fehlversuche kosten zusätzliche Haltbarkeit. Zwei Goldbleche speisen die Versuche. Halte zwei übrige Goldbarren, acht Nuggets und zwei Wellen von späteren Reserven getrennt. Die zwei Schmiedeeisenbarren brauchen weiterhin ihre früheren Rennofen- und Schmiedevorräte."
+    },
+    {
+      "lang": "es_es",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Extrae 16 menas normales adicionales de oro nativo y sigue la ruta garantizada de martillo, canal de lavado, molino y segundo lavado para reunir 80 polvos de oro limpios. Fabrica un martillo de piedra nuevo con un granito suelto y una ramita, y una piedra de molino nueva con tres granitos en bruto y otra ramita. Esta tanda consume 16 usos de martillo y 80 de piedra de molino. Forma cuatro moldes de lingote nuevos con diez arcillas y cuécelos en una sola carga de horno de pozo con ocho troncos adicionales y ocho pajas. Déjalos enfriar antes de recogerlos. En la forja cubierta, con los diez carbones de combustible contados, funde cinco polvos individuales cada vez hacia los cuatro moldes de salida. Deja de añadir combustible tras la tanda y recoge los moldes solo cuando estén fríos. Esta ruta no necesita trasvasar recipientes calientes ni usar fuelle. Los cuatro moldes pueden romperse tras entregar cuatro lingotes. Prensa uno para la primera lámina de oro y guarda tres para otros intentos; cada repetición necesita sus propios engranajes y pepitas.",
+      "after": "Extrae 16 menas normales adicionales de oro nativo y sigue la ruta garantizada de martillo, canal de lavado, molino y segundo lavado para reunir 80 polvos de oro limpios. Fabrica un martillo de piedra nuevo con un granito suelto y una ramita, y una piedra de molino nueva con tres granitos en bruto y otra ramita. Esta tanda consume 16 usos de martillo y 80 de piedra de molino. Forma cuatro moldes de lingote nuevos con diez arcillas y cuécelos en una sola carga de horno de pozo con ocho troncos adicionales y ocho pajas. Déjalos enfriar antes de recogerlos. En la forja cubierta, con los diez carbones de combustible contados, funde cinco polvos individuales cada vez hacia los cuatro moldes de salida. Deja de añadir combustible tras la tanda y recoge los moldes solo cuando estén fríos. Esta ruta no necesita trasvasar recipientes calientes ni usar fuelle. Los cuatro moldes pueden romperse tras entregar cuatro lingotes. Prensa un lingote para el intento original y reserva los otros tres para la llave descrita abajo. Los intentos adicionales necesitan oro, engranajes y pepitas nuevos."
+    },
+    {
+      "lang": "es_es",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "Coloca todos los ejes y engranajes sobre el eje X. Posiciones relativas: rueda hidráulica (-8,-3,-3); engranajes pequeños (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); grandes (-6,-2,-2), (-4,-1,-1), (-2,0,0); cinco ejes (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Pon la prensa de andesita anterior en (0,0,0) y el desplegador orientado hacia abajo en modo USE en (2,0,0), con eje horizontal X. Los depósitos van dos bloques debajo de cada máquina. Traslada todo el conjunto para situar el surtidor de aceite y depósito existentes en (4,0,0)/(4,-2,0), conservando tanque y tuberías. Tres reducciones de pequeño a grande dan 1 RPM: prensa y desplegador consumen 5 SU de las 8 SU disponibles. Más adelante sustituye la prensa de andesita vacía por la de acero en el mismo lugar: la carga pasa a 6 SU. Los clics normales con la llave sobre el cuerpo giran el desplegador o su eje; la mano saliente puede cambiar el modo, así que verifica USE después. Agacharse puede desmontar bloques. Mantén libres las zonas de trabajo y conserva el marcador de secuencia de la misma pieza al moverla entre depósitos.",
+      "after": "Coloca todos los ejes y engranajes sobre el eje X. Posiciones relativas: rueda hidráulica (-8,-3,-3); engranajes pequeños (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); grandes (-6,-2,-2), (-4,-1,-1), (-2,0,0); cinco ejes (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Pon la prensa de andesita anterior en (0,0,0) y el desplegador orientado hacia abajo en modo USE en (2,0,0), con eje horizontal X. Los depósitos van dos bloques debajo de cada máquina. La prensa y el desplegador funcionan antes de tener surtidor de aceite; deja (4,0,0)/(4,-2,0) vacío. Cuando prepares el aceite, traslada este conjunto al surtidor y depósito conservando tanque y tuberías. Tres reducciones de pequeño a grande dan 1 RPM: prensa y desplegador consumen 5 SU de las 8 SU disponibles. Más adelante sustituye la prensa de andesita vacía por la de acero en el mismo lugar: la carga pasa a 6 SU. Los clics normales con la llave sobre el cuerpo giran el desplegador o su eje; la mano saliente puede cambiar el modo, así que verifica USE después. Agacharse puede desmontar bloques. Mantén libres las zonas de trabajo y conserva el marcador de secuencia de la misma pieza al moverla entre depósitos."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "Antes de esta primera carcasa, fabrica dos mecanismos de precisión adicionales con la prensa de andesita y el desplegador anteriores. Completa PRE-01 Mecanismos de precisión; fabricar no espera a la misión de ocho. Conserva por separado el intento original, el oro de la llave, los seis carbones guardados y el lote posterior de ocho. Aquí se consumen los dos mecanismos tempranos."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "Para dos intentos exitosos, añade 38 aleaciones de andesita, cuatro tapas de fundición, 188 maderas y dos lingotes fríos TFC de hierro forjado obtenidos previamente. Fabrica cuatro lotes de ocho ejes, 30 engranajes pequeños y diez grandes. Los grandes consumen 20 pequeños; la secuencia gasta los diez pequeños restantes, diez grandes y diez pepitas en 30 operaciones del desplegador. Destina 160 maderas a tablas para engranajes y 28 a siete tablas de combustible. Si falla uno de tres intentos, calcula 57 aleaciones, seis tapas y 268 maderas; oro y hierro forjado no cambian. Más fallos requieren más entradas; los descartes no reducen esta cuenta."
+    },
+    {
+      "lang": "es_es",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "Para otro lote de cuatro oros, añade 16 minerales normales de oro nativo, diez arcillas, ocho pajas y 18 troncos: diez para carbón de horno y ocho para una cocción en fosa. Empieza con dos granitos sueltos, tres granitos en bruto y cuatro ramitas para martillo, piedra de moler y encendedor nuevos; tallar consume una piedra suelta. El oro gasta 16 usos de martillo y 80 de piedra. Reutiliza el horno vacío y la forja cubierta fría. Siete tablas nuevas producen diez carbones; gasta los diez en el plan de oro anterior de cuatro moldes y recoge estos solo fríos. Prevé dos encendidos fuertes exitosos; los fallidos gastan durabilidad extra. Dos láminas de oro alimentan los intentos. Guarda los dos lingotes de oro, ocho pepitas y dos ejes sobrantes aparte de reservas posteriores. Los dos lingotes forjados siguen necesitando sus suministros anteriores de horno bajo y forja."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Extrayez 16 minerais normaux supplémentaires d’or natif et suivez le traitement garanti au marteau, à la rampe de lavage, à la meule puis au second lavage pour obtenir 80 poudres d’or propres. Fabriquez un nouveau marteau en pierre avec un granite meuble et une brindille, ainsi qu’une nouvelle meule avec trois granites bruts et une autre brindille. Ce lot dépense 16 utilisations du marteau et 80 de la meule. Formez quatre nouveaux moules à lingot avec dix argiles et cuisez-les dans une seule fosse avec huit bûches supplémentaires et huit pailles. Laissez refroidir les moules avant de les prendre. Dans la forge couverte, avec les dix charbons de combustible comptés, fondez cinq poudres individuelles à la fois dans les quatre moules de sortie. N’ajoutez plus de combustible après le lot et ne récupérez les moules qu’une fois froids. Cette route ne demande ni transfert de récipient chaud ni soufflet. Les quatre moules peuvent casser après avoir livré quatre lingots. Pressez un lingot pour la première feuille d’or et gardez trois lingots pour d’autres essais ; chaque nouvel essai exige ses propres engrenages et pépites.",
+      "after": "Extrayez 16 minerais normaux supplémentaires d’or natif et suivez le traitement garanti au marteau, à la rampe de lavage, à la meule puis au second lavage pour obtenir 80 poudres d’or propres. Fabriquez un nouveau marteau en pierre avec un granite meuble et une brindille, ainsi qu’une nouvelle meule avec trois granites bruts et une autre brindille. Ce lot dépense 16 utilisations du marteau et 80 de la meule. Formez quatre nouveaux moules à lingot avec dix argiles et cuisez-les dans une seule fosse avec huit bûches supplémentaires et huit pailles. Laissez refroidir les moules avant de les prendre. Dans la forge couverte, avec les dix charbons de combustible comptés, fondez cinq poudres individuelles à la fois dans les quatre moules de sortie. N’ajoutez plus de combustible après le lot et ne récupérez les moules qu’une fois froids. Cette route ne demande ni transfert de récipient chaud ni soufflet. Les quatre moules peuvent casser après avoir livré quatre lingots. Pressez un lingot pour l’essai initial et réservez les trois autres pour la clé décrite ci-dessous. Les essais supplémentaires exigent du nouvel or, des engrenages et des pépites."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "Orientez tous les arbres et engrenages selon X. Positions relatives : roue à eau (-8,-3,-3) ; petits engrenages (-6,-3,-3), (-4,-2,-2), (-2,-1,-1) ; grands (-6,-2,-2), (-4,-1,-1), (-2,0,0) ; cinq arbres (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Placez l’ancienne presse en andésite en (0,0,0) et le déployeur dirigé vers le bas, en mode USE, en (2,0,0), avec axe horizontal X. Les dépôts sont deux blocs sous les machines. Translatez l’ensemble pour que le bec verseur d’huile et son dépôt existants soient en (4,0,0)/(4,-2,0), sans déplacer le réservoir ni les tuyaux. Trois réductions petit-vers-grand donnent 1 tr/min : presse et déployeur demandent 5 SU sur les 8 SU disponibles. Remplacez ensuite la presse en andésite vide par celle en acier au même endroit : charge totale 6 SU. Les clics normaux de clé sur le corps tournent le déployeur ou son axe ; la main saillante peut changer le mode, donc vérifiez USE après réglage. S’accroupir peut démonter les blocs. Laissez les zones de travail libres et conservez le marqueur de séquence de la même pièce lors des transferts entre dépôts.",
+      "after": "Orientez tous les arbres et engrenages selon X. Positions relatives : roue à eau (-8,-3,-3) ; petits engrenages (-6,-3,-3), (-4,-2,-2), (-2,-1,-1) ; grands (-6,-2,-2), (-4,-1,-1), (-2,0,0) ; cinq arbres (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Placez l’ancienne presse en andésite en (0,0,0) et le déployeur dirigé vers le bas, en mode USE, en (2,0,0), avec axe horizontal X. Les dépôts sont deux blocs sous les machines. La presse et le déployeur fonctionnent avant le bec d’huile ; laissez (4,0,0)/(4,-2,0) libre. Une fois le traitement d’huile prêt, translatez ce montage vers le bec et son dépôt en préservant réservoir et tuyaux. Trois réductions petit-vers-grand donnent 1 tr/min : presse et déployeur demandent 5 SU sur les 8 SU disponibles. Remplacez ensuite la presse en andésite vide par celle en acier au même endroit : charge totale 6 SU. Les clics normaux de clé sur le corps tournent le déployeur ou son axe ; la main saillante peut changer le mode, donc vérifiez USE après réglage. S’accroupir peut démonter les blocs. Laissez les zones de travail libres et conservez le marqueur de séquence de la même pièce lors des transferts entre dépôts."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "Avant ce premier châssis, fabriquez deux mécanismes de précision supplémentaires avec l’ancienne presse en andésite et le déployeur. Terminez PRE-01 Mécanismes de précision ; la fabrication n’attend pas la quête de huit. Gardez séparés l’essai initial, l’or de la clé, les six charbons réservés et le futur lot de huit. Les deux mécanismes précoces sont consommés ici."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "Pour deux essais réussis, ajoutez 38 alliages d’andésite, quatre couvercles de fonderie, 188 pièces de bois et deux lingots froids TFC de fer forgé acquis précédemment. Fabriquez quatre lots de huit arbres, 30 petits engrenages et dix grands. Les grands consomment 20 petits ; la séquence dépense les dix petits restants, dix grands et dix pépites en 30 actions du déployeur. Affectez 160 bois aux planches d’engrenages et 28 à sept planches de combustible. Pour un échec sur trois essais, prévoyez plutôt 57 alliages, six couvercles et 268 bois ; or et fer forgé ne changent pas. Davantage d’échecs exigent davantage d’entrées ; les rebuts ne réduisent pas ce budget."
+    },
+    {
+      "lang": "fr_fr",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "Pour un lot séparé de quatre lingots d’or, ajoutez 16 minerais normaux d’or natif, dix argiles, huit pailles et 18 bûches : dix pour le charbon du four et huit pour une cuisson en fosse. Commencez avec deux granits meubles, trois granits bruts et quatre brindilles pour un marteau, une meule et un allume-feu neufs ; la taille consomme une pierre meuble. L’or dépense 16 usages de marteau et 80 de meule. Réutilisez le four vidé et la forge couverte froide. Sept planches neuves produisent dix charbons ; dépensez-les pour le plan d’or précédent à quatre moules et récupérez ceux-ci froids. Prévoyez deux allumages forts réussis ; les échecs coûtent de la durabilité supplémentaire. Deux feuilles d’or alimentent les essais. Gardez les deux lingots d’or, huit pépites et deux arbres restants séparés des réserves ultérieures. Les deux lingots forgés exigent toujours leurs anciens moyens de bas-fourneau et de forge."
+    },
+    {
+      "lang": "pt_br",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Extraia 16 minérios normais adicionais de ouro nativo e siga a rota garantida de martelo, calha de lavagem, moinho e segunda lavagem para obter 80 pós limpos de ouro. Faça um martelo de pedra novo com um granito solto e um graveto, e uma pedra de moinho nova com três granitos brutos e outro graveto. Esse lote gasta 16 usos de martelo e 80 de pedra de moinho. Molde quatro formas novas de lingote com dez argilas e queime-as em uma carga de forno de poço com oito toras adicionais e oito palhas. Deixe as formas esfriarem antes de pegar. Na forja coberta, com os dez carvões de combustível contados, derreta cinco pós individuais por vez nas quatro formas de saída. Pare de abastecer após o lote e só recolha as formas frias. Essa rota não precisa transferir recipientes quentes nem usar fole. As quatro formas podem quebrar depois de entregar quatro lingotes. Prense um lingote para a primeira chapa de ouro e guarde três para novas tentativas; cada repetição ainda precisa das próprias engrenagens e pepitas.",
+      "after": "Extraia 16 minérios normais adicionais de ouro nativo e siga a rota garantida de martelo, calha de lavagem, moinho e segunda lavagem para obter 80 pós limpos de ouro. Faça um martelo de pedra novo com um granito solto e um graveto, e uma pedra de moinho nova com três granitos brutos e outro graveto. Esse lote gasta 16 usos de martelo e 80 de pedra de moinho. Molde quatro formas novas de lingote com dez argilas e queime-as em uma carga de forno de poço com oito toras adicionais e oito palhas. Deixe as formas esfriarem antes de pegar. Na forja coberta, com os dez carvões de combustível contados, derreta cinco pós individuais por vez nas quatro formas de saída. Pare de abastecer após o lote e só recolha as formas frias. Essa rota não precisa transferir recipientes quentes nem usar fole. As quatro formas podem quebrar depois de entregar quatro lingotes. Prense um lingote para a tentativa original e reserve os outros três para a chave descrita abaixo. Tentativas adicionais precisam de ouro, engrenagens e pepitas novos."
+    },
+    {
+      "lang": "pt_br",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "Oriente todos os eixos e engrenagens no eixo X. Posições relativas: roda d’água (-8,-3,-3); engrenagens pequenas (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); grandes (-6,-2,-2), (-4,-1,-1), (-2,0,0); cinco eixos (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Ponha a prensa de andesito anterior em (0,0,0) e o posicionador voltado para baixo, em modo USE, em (2,0,0), com eixo horizontal X. Os depósitos ficam dois blocos abaixo das máquinas. Desloque todo o conjunto para manter o bico de óleo e depósito existentes em (4,0,0)/(4,-2,0), preservando tanque e tubulações. Três reduções de pequena para grande dão 1 RPM: prensa e posicionador usam 5 SU das 8 SU disponíveis. Depois substitua a prensa de andesito vazia pela de aço no mesmo ponto: a carga passa a 6 SU. Cliques normais da chave no corpo giram o posicionador ou seu eixo; a mão saliente pode trocar o modo, então confira USE após ajustes. Agachar pode desmontar blocos. Mantenha as áreas de trabalho livres e preserve o marcador de sequência da mesma peça ao movê-la entre depósitos.",
+      "after": "Oriente todos os eixos e engrenagens no eixo X. Posições relativas: roda d’água (-8,-3,-3); engrenagens pequenas (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); grandes (-6,-2,-2), (-4,-1,-1), (-2,0,0); cinco eixos (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Ponha a prensa de andesito anterior em (0,0,0) e o posicionador voltado para baixo, em modo USE, em (2,0,0), com eixo horizontal X. Os depósitos ficam dois blocos abaixo das máquinas. A prensa e o posicionador funcionam antes de existir o bico de óleo; deixe (4,0,0)/(4,-2,0) vazio. Quando o óleo estiver pronto, desloque este conjunto ao bico e depósito, preservando tanque e tubulações. Três reduções de pequena para grande dão 1 RPM: prensa e posicionador usam 5 SU das 8 SU disponíveis. Depois substitua a prensa de andesito vazia pela de aço no mesmo ponto: a carga passa a 6 SU. Cliques normais da chave no corpo giram o posicionador ou seu eixo; a mão saliente pode trocar o modo, então confira USE após ajustes. Agachar pode desmontar blocos. Mantenha as áreas de trabalho livres e preserve o marcador de sequência da mesma peça ao movê-la entre depósitos."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "Antes desta primeira carcaça, fabrique dois mecanismos de precisão adicionais com a prensa de andesito e o posicionador anteriores. Conclua PRE-01 Mecanismos de precisão; fabricar não depende da missão de oito. Separe a tentativa original, o ouro da chave, os seis carvões guardados e o lote posterior de oito. Os dois mecanismos iniciais são consumidos aqui."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "Para duas tentativas bem-sucedidas, acrescente 38 ligas de andesito, quatro tampas de fundição, 188 madeiras e dois lingotes frios TFC de ferro forjado obtidos anteriormente. Fabrique quatro lotes de oito eixos, 30 engrenagens pequenas e dez grandes. As grandes consomem 20 pequenas; a sequência gasta as dez pequenas restantes, dez grandes e dez pepitas em 30 ações do posicionador. Use 160 madeiras para tábuas de engrenagens e 28 para sete tábuas de combustível. Se uma de três tentativas falhar, reserve 57 ligas, seis tampas e 268 madeiras; ouro e ferro forjado não mudam. Mais falhas exigem mais entradas; refugos não reduzem esta conta."
+    },
+    {
+      "lang": "pt_br",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "Para outro lote de quatro ouros, acrescente 16 minérios normais de ouro nativo, dez argilas, oito palhas e 18 toras: dez para carvão no forno e oito para uma queima em cova. Comece com dois granitos soltos, três granitos brutos e quatro gravetos para martelo, mó e acendedor novos; lascar consome uma pedra solta. O ouro gasta 16 usos do martelo e 80 da mó. Reutilize o forno vazio e a forja coberta fria. Sete tábuas novas produzem dez carvões; use todos no plano anterior de quatro moldes e recolha os moldes frios. Preveja duas ignições fortes bem-sucedidas; falhas gastam durabilidade extra. Duas chapas de ouro alimentam as tentativas. Guarde os dois lingotes de ouro, oito pepitas e dois eixos restantes separados das reservas posteriores. Os dois lingotes forjados ainda precisam dos suprimentos anteriores de redução e forjamento."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "Добудьте ещё 16 обычных руд самородного золота и пройдите гарантированную цепочку: молот, промывочный желоб, жернов и второй желоб, получив 80 чистых золотых порошков. Сделайте новый каменный молот из свободного гранита и ветки, а новый жернов — из трёх необработанных гранитов и второй ветки. Партия расходует 16 применений молота и 80 применений жернова. Сформуйте четыре новые изложницы из десяти глин и обожгите их одной загрузкой ямной печи с восемью дополнительными брёвнами и восемью соломами. Перед переноской дайте изложницам остыть. В крытом горне с десятью учтёнными топливными углями плавьте по пять отдельных порошков в четыре выходные изложницы. После партии не добавляйте топливо и забирайте изложницы только холодными. Этот путь не требует переноса горячих сосудов или мехов. Все четыре изложницы могут разбиться после выдачи четырёх слитков. Один слиток спрессуйте в первый золотой лист, три сохраните для следующих попыток; каждая новая попытка требует собственных шестерён и самородков.",
+      "after": "Добудьте ещё 16 обычных руд самородного золота и пройдите гарантированную цепочку: молот, промывочный желоб, жернов и второй желоб, получив 80 чистых золотых порошков. Сделайте новый каменный молот из свободного гранита и ветки, а новый жернов — из трёх необработанных гранитов и второй ветки. Партия расходует 16 применений молота и 80 применений жернова. Сформуйте четыре новые изложницы из десяти глин и обожгите их одной загрузкой ямной печи с восемью дополнительными брёвнами и восемью соломами. Перед переноской дайте изложницам остыть. В крытом горне с десятью учтёнными топливными углями плавьте по пять отдельных порошков в четыре выходные изложницы. После партии не добавляйте топливо и забирайте изложницы только холодными. Этот путь не требует переноса горячих сосудов или мехов. Все четыре изложницы могут разбиться после выдачи четырёх слитков. Один слиток спрессуйте для исходной попытки, а остальные три зарезервируйте для описанного ниже ключа. Дополнительным попыткам нужны новые золото, шестерни и самородки."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "У всех валов и шестерён ось X. Относительные координаты: водяное колесо (-8,-3,-3); малые шестерни (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); большие (-6,-2,-2), (-4,-1,-1), (-2,0,0); пять валов (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Ранний андезитовый пресс ставится в (0,0,0), направленный вниз механический манипулятор в режиме USE — в (2,0,0), с горизонтальной осью X. Депо находятся на два блока ниже машин. Сместите всю схему так, чтобы существующий масляный носик и его депо оказались в (4,0,0)/(4,-2,0), сохранив бак и трубы. Три передачи малая-большая дают 1 об/мин: пресс и манипулятор потребляют 5 SU из доступных 8 SU. Позже замените пустой андезитовый пресс стальным в том же месте: суммарная нагрузка станет 6 SU. Обычные щелчки ключом по корпусу меняют ориентацию или ось манипулятора; выступающая рука может переключать режим, поэтому проверяйте USE после настройки. Приседание может демонтировать блоки. Оставляйте рабочие клетки свободными и сохраняйте метку последовательности той же заготовки при переносе между депо.",
+      "after": "У всех валов и шестерён ось X. Относительные координаты: водяное колесо (-8,-3,-3); малые шестерни (-6,-3,-3), (-4,-2,-2), (-2,-1,-1); большие (-6,-2,-2), (-4,-1,-1), (-2,0,0); пять валов (-7,-3,-3), (-5,-2,-2), (-3,-1,-1), (-1,0,0), (1,0,0). Ранний андезитовый пресс ставится в (0,0,0), направленный вниз механический манипулятор в режиме USE — в (2,0,0), с горизонтальной осью X. Депо находятся на два блока ниже машин. Пресс и манипулятор работают до появления масляного носика; оставьте (4,0,0)/(4,-2,0) пустыми. Когда подготовите масло, совместите схему с носиком и депо, сохраняя бак и трубы. Три передачи малая-большая дают 1 об/мин: пресс и манипулятор потребляют 5 SU из доступных 8 SU. Позже замените пустой андезитовый пресс стальным в том же месте: суммарная нагрузка станет 6 SU. Обычные щелчки ключом по корпусу меняют ориентацию или ось манипулятора; выступающая рука может переключать режим, поэтому проверяйте USE после настройки. Приседание может демонтировать блоки. Оставляйте рабочие клетки свободными и сохраняйте метку последовательности той же заготовки при переносе между депо."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "До этого первого корпуса сделайте два дополнительных механизма точности на раннем андезитовом прессе и манипуляторе. Завершите PRE-01 Механизмы точности: изготовление не ждёт задания на восемь штук. Сохраните отдельно исходную попытку, золото для ключа, шесть углей и позднюю партию из восьми. Эти два ранних механизма расходуются здесь."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "На две успешные попытки добавьте 38 андезитовых сплавов, четыре литейные крышки, 188 пиломатериалов и два ранее полученных холодных слитка ковкого железа TFC. Сделайте четыре партии по восемь валов, 30 малых и десять больших шестерён. Большие расходуют 20 малых; последовательность расходует оставшиеся десять малых, десять больших и десять самородков за 30 действий манипулятора. 160 пиломатериалов идут на доски шестерён, 28 — на семь топливных досок. При одном провале из трёх попыток нужны 57 сплавов, шесть крышек и 268 пиломатериалов; золото и ковкое железо не меняются. Новые провалы требуют новых входов; отходы не уменьшают этот бюджет."
+    },
+    {
+      "lang": "ru_ru",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "Для отдельной партии четырёх золотых слитков добавьте 16 нормальных руд самородного золота, десять глины, восемь соломы и 18 брёвен: десять на печной уголь и восемь на один ямный обжиг. Начните с двух рыхлых гранитов, трёх сырых гранитов и четырёх веток для новых молотка, жернова и огнива; раскалывание расходует один рыхлый камень. Золото расходует 16 применений молотка и 80 жернова. Повторно используйте пустую печь и холодный горн с крышей. Семь новых досок дают десять углей; потратьте их на прежний золотой цикл с четырьмя изложницами и забирайте изложницы холодными. Нужны два успешных сильных розжига; неудачи расходуют дополнительную прочность. Два золотых листа идут на попытки. Оставшиеся два золотых слитка, восемь самородков и два вала держите отдельно от поздних резервов. Два кованых слитка по-прежнему требуют прежних ресурсов сыродутной плавки и ковки."
+    },
+    {
+      "lang": "zh_cn",
+      "id": "0282549C54557CBB",
+      "index": 5,
+      "before": "另采 16 个普通品位自然金矿，按保证主产物的锤碎、溜槽清洗、手磨和二次清洗路线，收集 80 个干净金粉。用一个额外松散花岗岩和一根树枝制作新石锤；用三块计入账目的花岗岩原石和第二根树枝制作新磨石。本批金消耗石锤 16 次、磨石 80 次。用十个黏土制作四个新锭模，另用八根原木、八个稻草在一炉窑坑中烧制，取用前先冷却。在有顶盖的锻炉中，用计入账目的十个燃料木炭，每次放入五份各一个的金粉，熔入四个输出锭模。整批结束后停止加燃料，所有锭模必须留在炉内直至冷却后才能取出。本路线不需要搬运热容器或使用风箱。四个锭模都可能在交付四个金锭后损坏。将一个金锭压成第一张金板，保留三个金锭供后续尝试；每次重试仍须另备齿轮和铁粒。",
+      "after": "另采 16 个普通品位自然金矿，按保证主产物的锤碎、溜槽清洗、手磨和二次清洗路线，收集 80 个干净金粉。用一个额外松散花岗岩和一根树枝制作新石锤；用三块计入账目的花岗岩原石和第二根树枝制作新磨石。本批金消耗石锤 16 次、磨石 80 次。用十个黏土制作四个新锭模，另用八根原木、八个稻草在一炉窑坑中烧制，取用前先冷却。在有顶盖的锻炉中，用计入账目的十个燃料木炭，每次放入五份各一个的金粉，熔入四个输出锭模。整批结束后停止加燃料，所有锭模必须留在炉内直至冷却后才能取出。本路线不需要搬运热容器或使用风箱。四个锭模都可能在交付四个金锭后损坏。将一个金锭压成原始尝试所需的金板，另外三个留给下文的扳手。额外尝试必须另备金、齿轮和铁粒。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "0282549C54557CBB",
+      "index": 7,
+      "before": "所有传动杆和齿轮都沿 X 轴。相对坐标：水车 (-8,-3,-3)；小齿轮 (-6,-3,-3)、(-4,-2,-2)、(-2,-1,-1)；大齿轮 (-6,-2,-2)、(-4,-1,-1)、(-2,0,0)；五根传动杆 (-7,-3,-3)、(-5,-2,-2)、(-3,-1,-1)、(-1,0,0)、(1,0,0)。早期安山动力辊压机位于 (0,0,0)，朝下并处于 USE 模式的机械手位于 (2,0,0)，其水平传动轴也沿 X。置物台分别位于机器下方两格。整体平移此布局，使已有油注液器及其置物台位于 (4,0,0)/(4,-2,0)，保持储罐和管道完整。三次小齿轮带大齿轮将转速降到 1 RPM，辊压机加机械手合计占用 8 SU 驱动中的 5 SU。之后在同一位置将空的安山辊压机换成钢辊压机，总负载为 6 SU。对机身正常使用扳手可调整机械手朝向或传动轴；突出的手部可能切换模式，调整后务必确认 USE。潜行操作可能拆卸方块。工作格要保持畅通，在置物台之间搬运同一个工件时保留它的装配序列标记。",
+      "after": "所有传动杆和齿轮都沿 X 轴。相对坐标：水车 (-8,-3,-3)；小齿轮 (-6,-3,-3)、(-4,-2,-2)、(-2,-1,-1)；大齿轮 (-6,-2,-2)、(-4,-1,-1)、(-2,0,0)；五根传动杆 (-7,-3,-3)、(-5,-2,-2)、(-3,-1,-1)、(-1,0,0)、(1,0,0)。早期安山动力辊压机位于 (0,0,0)，朝下并处于 USE 模式的机械手位于 (2,0,0)，其水平传动轴也沿 X。置物台分别位于机器下方两格。辊压机和机械手在油注液器出现前就能工作；先将 (4,0,0)/(4,-2,0) 留空。备好油处理后，再将此布局平移至注液器和置物台，保持储罐与管道完整。三次小齿轮带大齿轮将转速降到 1 RPM，辊压机加机械手合计占用 8 SU 驱动中的 5 SU。之后在同一位置将空的安山辊压机换成钢辊压机，总负载为 6 SU。对机身正常使用扳手可调整机械手朝向或传动轴；突出的手部可能切换模式，调整后务必确认 USE。潜行操作可能拆卸方块。工作格要保持畅通，在置物台之间搬运同一个工件时保留它的装配序列标记。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 4,
+      "before": null,
+      "after": "制造这个首个外壳前，先用早期安山辊压机与机械手额外制造两个精密构件。完成 PRE-01 精密构件研究即可制造，无须等待要求八个的任务。原始尝试、扳手用金、预留六个木炭及之后的八件批次都须单独保留。这两个早期构件在此消耗。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 5,
+      "before": null,
+      "after": "两次成功尝试另需 38 个安山合金、4 个铸造盆盖、188 个木材和 2 个已取得的冷 TFC 锻铁锭。制作四批各八根传动杆、30 个小齿轮、10 个大齿轮。大齿轮消耗其中 20 个小齿轮；装配在 30 次机械手操作中消耗剩余 10 个小齿轮、10 个大齿轮及 10 个铁粒。160 木材用于齿轮木板，28 木材制成七块熔炉燃料木板。如果三次中有一次失败，则改备 57 合金、6 个盖子、268 木材，金和锻铁用量不变。继续失败就必须补充材料；失败产物不计入这份预算。"
+    },
+    {
+      "lang": "zh_cn",
+      "id": "047549F249559E07",
+      "index": 6,
+      "before": null,
+      "after": "另开一批四金锭需 16 个普通品位自然金矿、10 黏土、8 稻草、18 原木：10 原木用于熔炉木炭，8 原木用于一炉窑坑。备好 2 个松散花岗岩、3 块花岗岩原石和 4 根树枝，制作新石锤、磨石、取火器；打制消耗一个松散石。金处理消耗石锤 16 次、磨石 80 次。复用清空的熔炉和已冷却的有顶锻炉。七块新木板烧出十个木炭，全部用于先前四锭模金处理流程，锭模冷却后再取。需要两次成功的强力点火，点火失败另耗耐久。两张金板用于两次尝试。剩余两个金锭、八个铁粒、两根传动杆单独保留，不计入后续储备。两个锻铁锭仍须先前块炼与锻造路线的配套材料。"
+    }
+  ],
+  "firestarter": {
+    "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+    "class": "net.dries007.tfc.common.items.FirestarterItem",
+    "codeSha256": "950fadbf93ba47431a892af4a594606a2e007a01ebe0d1eaf63cc822a9a700ab"
+  }
+}

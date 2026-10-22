@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "firmalife:reinforced_glass"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "chemica:glass_vial"
+    }
+  ],
+  "processing_time": 400
+}

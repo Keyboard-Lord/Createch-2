@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "ingredients": [
+    {
+      "tag": "createch2:natural_rubber_sheet_precursors"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:rubber_sheet"
+    }
+  ],
+  "recipe_tier": 1
+}

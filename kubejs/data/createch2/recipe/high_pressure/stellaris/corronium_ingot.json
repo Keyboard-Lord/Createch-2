@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 500,
+  "item_inputs": [
+    {
+      "item": "stellaris:raw_corronium",
+      "amount": 1
+    },
+    {
+      "tag": "c:dusts/titanium",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "stellaris:corronium_ingot",
+      "amount": 1
+    }
+  ]
+}

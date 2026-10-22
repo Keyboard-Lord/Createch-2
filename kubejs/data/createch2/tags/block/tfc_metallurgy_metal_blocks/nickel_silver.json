@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/nickel_silver",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/nickel_silver",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/nickel_silver",
+      "required": false
+    }
+  ]
+}

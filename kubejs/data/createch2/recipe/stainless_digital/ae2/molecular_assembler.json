@@ -1,0 +1,39 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "ACT",
+    "MFR"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "T": {
+      "tag": "createch2:control/factory/processing"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    "R": {
+      "item": "extended_industrialization:machine_chainer_relay"
+    }
+  },
+  "result": {
+    "id": "ae2:molecular_assembler",
+    "count": 1
+  }
+}

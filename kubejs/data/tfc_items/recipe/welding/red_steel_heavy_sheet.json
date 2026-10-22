@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/red_steel"
+  },
+  "second_input": {
+    "tag": "c:sheets/red_steel"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:red_steel_heavy_sheet"
+  }
+}

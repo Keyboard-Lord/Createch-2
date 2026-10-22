@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/magnesite/small",
+    "#createch2:tfc_ores/magnesite/poor",
+    "#createch2:tfc_ores/magnesite/normal",
+    "#createch2:tfc_ores/magnesite/rich"
+  ]
+}

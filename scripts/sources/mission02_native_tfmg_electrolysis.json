@@ -1,0 +1,376 @@
+{
+  "classes": {
+    "events": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.events.TFMGCommonEvents$ModBusEvents",
+      true
+    ],
+    "accumulator": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.storage.AccumulatorBlockEntity"
+    ],
+    "storage": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.storage.TFMGForgeEnergyStorage"
+    ],
+    "energy": [
+      "neoforge-21.1.256-universal.jar",
+      "net.neoforged.neoforge.energy.EnergyStorage"
+    ],
+    "connector": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.connection.cables.CableConnectorBlockEntity"
+    ],
+    "connectorBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.connection.cables.CableConnectorBlock"
+    ],
+    "electric": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.base.IElectric"
+    ],
+    "network": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.base.ElectricalNetwork"
+    ],
+    "electrode": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.electrode_holder.ElectrodeHolderBlockEntity"
+    ],
+    "electrodes": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGElectrodes"
+    ],
+    "electrodesV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGElectrodes",
+      true
+    ],
+    "items": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGItems"
+    ],
+    "itemsV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGItems",
+      true
+    ],
+    "vatMachine": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.base.IVatMachine"
+    ],
+    "spool": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.winding_machine.SpoolItem"
+    ],
+    "vat": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.base.VatBlockEntity"
+    ],
+    "vatSwitch": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.vat.base.VatBlockEntity$1"
+    ],
+    "smart": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.SmartBlockEntity"
+    ]
+  },
+  "nativeCodeSha256": {
+    "events": "1dd5b7053a96b8ea00c178565b977eeb538907754b976b7fc9b51e2c51bd6677",
+    "accumulator": "121d2c5312af992223dbd438e103964012483af3da509cc42a4567aab7c5f234",
+    "storage": "01ba5c84d10508a8b250a90d23efc35f7dd49390b564e83cf0f5a04814aaeec8",
+    "energy": "0f423def5955ac364286eaf73c24cad63851c1a19a046f6008c1f6ba65ecbc96",
+    "connector": "ecc3503583fcdf9ee9d8bd1af9b68f7e9db9902225bd18e1226eea552bd9f06d",
+    "connectorBlock": "737e2f1761d50a1dcffbd2e3baf56a82806e266be770126e55a6c7619d0e7e73",
+    "electric": "906fc222491c29e533af2d51754f1c353cd03c33055a79402fa5b6a7d6c950e9",
+    "network": "33ad18d048336308486466b47c729a21680c521cf9bf417307848490768d3efe",
+    "electrode": "65e885efd5ed8bf9bb1bc3a4a5a896c9a72a7333e632cb75569f4fcd17e2bb7d",
+    "electrodes": "29e6fcbf4685e2dbb42d69725bc82a93debe7c965e1d333c081aade4f8e51c6b",
+    "electrodesV": "a28b0d12917ff1b72a0536aee554ae52b617956c85955e0acde13e73569a954f",
+    "items": "816447210870ce898a1a7ee7444303e56ce418ba040e10b8249fdc7bb4884f59",
+    "itemsV": "4786f2e25a028c6483a7ef97eb523f0727f60fd515944cfb790b8884314da5af",
+    "vatMachine": "1444296359fd8935e65ee0011ae460d0e00a99c29c84d2764c9df3b024328a35",
+    "spool": "c78a88db6c15a4fbf66fc8cfca41af8c5bbd7e08b516c27b45d02d6956b2deef",
+    "vat": "71df7962c4e7653bbb7e018024e5df1be0ebb8b1e6249e55843860bc76220706",
+    "vatSwitch": "a8115b1954bfa51b98d0a4522f2103af55c489dbb8df44b2a0cc7970b77a78a6",
+    "smart": "dcc9f4b4307a402428dd042583360f0c4bd6201466b25993eff3e08f18aafd3b"
+  },
+  "recipes": {
+    "chemica:vat_machine_recipe/electrolysis/hydrofluoric_acid": {
+      "type": "tfmg:vat_machine_recipe",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "chemica:hydrofluoric_acid"
+        }
+      ],
+      "machines": [
+        "tfmg:electrode",
+        "tfmg:electrode"
+      ],
+      "results": [
+        {
+          "amount": 500,
+          "id": "tfmg:hydrogen"
+        },
+        {
+          "amount": 500,
+          "id": "chemica:fluorine"
+        }
+      ],
+      "processing_time": 100,
+      "allowed_vat_types": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "min_size": 1,
+      "heat_level": 1
+    },
+    "tfmg:crafting/materials/accumulator": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "c:storage_blocks/lead"
+        },
+        "C": {
+          "item": "tfmg:industrial_aluminum_casing"
+        },
+        "L": {
+          "tag": "c:plates/lead"
+        },
+        "S": {
+          "item": "tfmg:sulfuric_acid_bucket"
+        },
+        "W": {
+          "tag": "c:wires/copper"
+        }
+      },
+      "pattern": [
+        "LWL",
+        "SBS",
+        "LCL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:accumulator"
+      }
+    },
+    "tfmg:crafting/materials/cable_connector": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "item": "tfmg:unfinished_insulator"
+        },
+        "N": {
+          "item": "minecraft:copper_ingot"
+        },
+        "O": {
+          "tag": "c:nuggets/steel"
+        }
+      },
+      "pattern": [
+        "OOO",
+        " C ",
+        " N "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:cable_connector"
+      }
+    },
+    "tfmg:copper_electrode_from_storage_blocks_copper_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "tag": "c:storage_blocks/copper"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfmg:copper_electrode"
+      }
+    },
+    "tfmg:crafting/copper_spool": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": {
+          "item": "tfmg:empty_spool"
+        },
+        "W": {
+          "tag": "c:wires/copper"
+        }
+      },
+      "pattern": [
+        "WWW",
+        "WSW",
+        "WWW"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:copper_spool"
+      }
+    },
+    "chemica:vat_machine_recipe/electrolysis/brine": {
+      "type": "tfmg:vat_machine_recipe",
+      "ingredients": [
+        {
+          "type": "neoforge:tag",
+          "amount": 1000,
+          "tag": "c:brine"
+        }
+      ],
+      "machines": [
+        "tfmg:electrode",
+        "tfmg:electrode"
+      ],
+      "results": [
+        {
+          "amount": 180,
+          "id": "tfmg:hydrogen"
+        },
+        {
+          "amount": 100,
+          "id": "chemica:brine"
+        },
+        {
+          "amount": 360,
+          "id": "chemica:chlorine"
+        },
+        {
+          "amount": 360,
+          "id": "chemica:caustic_soda"
+        }
+      ],
+      "processing_time": 100,
+      "allowed_vat_types": [
+        "tfmg:cast_iron",
+        "tfmg:steel",
+        "tfmg:fireproof"
+      ],
+      "min_size": 1,
+      "heat_level": 1
+    }
+  },
+  "origins": {
+    "chemica:vat_machine_recipe/electrolysis/hydrofluoric_acid": "authored",
+    "tfmg:crafting/materials/accumulator": "native",
+    "tfmg:crafting/materials/cable_connector": "native",
+    "tfmg:copper_electrode_from_storage_blocks_copper_stonecutting": "native",
+    "tfmg:crafting/copper_spool": "native",
+    "chemica:vat_machine_recipe/electrolysis/brine": "authored"
+  },
+  "layout": {
+    "accumulators": [
+      [
+        -2,
+        0,
+        20
+      ],
+      [
+        -2,
+        0,
+        21
+      ],
+      [
+        -2,
+        0,
+        22
+      ],
+      [
+        -2,
+        0,
+        23
+      ],
+      [
+        -2,
+        0,
+        24
+      ],
+      [
+        -2,
+        0,
+        25
+      ]
+    ],
+    "accumulatorFacing": "NORTH",
+    "controller": [
+      -2,
+      0,
+      20
+    ],
+    "FEConverter": [
+      -1,
+      0,
+      20
+    ],
+    "inputConnector": {
+      "pos": [
+        -2,
+        0,
+        19
+      ],
+      "facing": "NORTH",
+      "inputMode": true
+    },
+    "vatBlocks": [
+      [
+        -6,
+        0,
+        14
+      ],
+      [
+        -5,
+        0,
+        14
+      ],
+      [
+        -6,
+        0,
+        15
+      ],
+      [
+        -5,
+        0,
+        15
+      ]
+    ],
+    "width": 2,
+    "height": 1,
+    "holders": [
+      [
+        -6,
+        1,
+        14
+      ],
+      [
+        -5,
+        1,
+        14
+      ]
+    ],
+    "outputConnectors": [
+      {
+        "pos": [
+          -6,
+          2,
+          14
+        ],
+        "facing": "UP",
+        "inputMode": false
+      },
+      {
+        "pos": [
+          -5,
+          2,
+          14
+        ],
+        "facing": "UP",
+        "inputMode": false
+      }
+    ]
+  }
+}

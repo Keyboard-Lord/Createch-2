@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:venus_yellowstone",
+    "createch2:venus_volcanic_crater",
+    "createch2:venus_caldera",
+    "createch2:venus_ashen_plains",
+    "createch2:venus_warped_mesa",
+    "createch2:venus_bioshroom_caves",
+    "createch2:venus_inferno",
+    "createch2:venus_scorching_caves"
+  ]
+}

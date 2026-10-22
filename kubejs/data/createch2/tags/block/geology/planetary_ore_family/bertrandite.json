@@ -1,0 +1,257 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bertrandite/tuff",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bertrandite/tuff",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bertrandite/tuff",
+      "required": false
+    }
+  ]
+}

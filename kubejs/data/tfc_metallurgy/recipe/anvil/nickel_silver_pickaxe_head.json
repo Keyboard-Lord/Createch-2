@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/pickaxe_head/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "bend_not_last",
+    "draw_not_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "apply_bonus": true
+}

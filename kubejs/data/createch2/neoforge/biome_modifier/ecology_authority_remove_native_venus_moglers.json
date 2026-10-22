@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#stellaris:venus_biomes",
+  "entity_types": [
+    "stellaris:mogler"
+  ]
+}

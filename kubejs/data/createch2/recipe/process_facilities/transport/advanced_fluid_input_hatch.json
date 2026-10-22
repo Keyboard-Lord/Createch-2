@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:aluminum_tank",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "greate:aluminium_mechanical_pump",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:advanced_fluid_input_hatch",
+      "amount": 1
+    }
+  ]
+}

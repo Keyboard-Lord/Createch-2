@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NBN",
+    "BCB",
+    "NBN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_bricks"
+    },
+    "B": {
+      "item": "railcraft:coke_oven_bricks"
+    },
+    "C": {
+      "item": "tfmg:fireproof_bricks"
+    }
+  },
+  "result": {
+    "id": "railcraft:blast_furnace_bricks",
+    "count": 4
+  }
+}

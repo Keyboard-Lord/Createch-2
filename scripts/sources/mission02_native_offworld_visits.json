@@ -1,0 +1,220 @@
+{
+  "truth": "NATIVE_EXISTING_OFFWORLD_VISIT_OBJECTIVES",
+  "classes": {
+    "player": {
+      "class": "net.minecraft.server.level.ServerPlayer",
+      "sha256": "94e4b06e2fb4184faf0bc8916eb9994a24b7a09ee506a92704f7faa4e0d36764"
+    },
+    "triggers": {
+      "class": "net.minecraft.advancements.CriteriaTriggers",
+      "sha256": "830a292081c0a9e40cd3e5558979fc5abc512066635dbcadac98d8a71b8233c6"
+    },
+    "playerTrigger": {
+      "class": "net.minecraft.advancements.critereon.PlayerTrigger",
+      "sha256": "531ad84a5524d022806aeb04c37f88c117b1047538d4507de704d76b208db0c8"
+    },
+    "simpleTrigger": {
+      "class": "net.minecraft.advancements.critereon.SimpleCriterionTrigger",
+      "sha256": "acbb9a9867c0c0815498ee227b18c6903b1a3f19b1f2377e73878b0c9048379e"
+    },
+    "location": {
+      "class": "net.minecraft.advancements.critereon.LocationPredicate",
+      "sha256": "7849c114b4823fd602dcdc0436620ffb350eebc6d510a061db1c606aefb53de9"
+    },
+    "entityCondition": {
+      "class": "net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition",
+      "sha256": "f50a021a147147aee070ed3f9adc4479078dc49aec79cb8d9636c07556b480fa"
+    },
+    "listener": {
+      "class": "net.minecraft.advancements.CriterionTrigger$Listener",
+      "sha256": "33045ca26dda59a7383a2fc54c5a5181176ebac6c3aaa1da4e7b48d3a1a6f1f9"
+    },
+    "entityPredicate": {
+      "class": "net.minecraft.advancements.critereon.EntityPredicate",
+      "sha256": "e2743d894b228209b7e9a1ecca488ff1776783acaf4a31d1e8dac9e01c52fa50"
+    },
+    "wrapper": {
+      "class": "net.minecraft.advancements.critereon.EntityPredicate$LocationWrapper",
+      "sha256": "644a77ad04c8b854b0e2290afd3716c96a7a321fad43990a7a1b347dae2f6efb"
+    },
+    "playerInstance": {
+      "class": "net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance",
+      "sha256": "437e040a6ed7b59e2ae2c0e292597c9d0c62d6949ff3c229ab9a81f115aeb5af"
+    },
+    "changed": {
+      "class": "net.minecraft.advancements.critereon.ChangeDimensionTrigger",
+      "sha256": "1635fb071deead6d072938bdd5f450040895af08538e25e91601b05b218b71ff"
+    },
+    "changedInstance": {
+      "class": "net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance",
+      "sha256": "61751ce5b80f89184894d61884443208c506786fcbb1e3e18c996b4a5fbcf643"
+    },
+    "pool": {
+      "class": "net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement",
+      "sha256": "115f1522a0ff89365efcb228564f4106d8842219ff106ee42ab1c0b87428a436"
+    },
+    "piece": {
+      "class": "net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece",
+      "sha256": "ed9113ab973a912c98d471165f560f79fdfb56ef4c1a61c0f15a1e7d0a86653b"
+    },
+    "task": {
+      "jar": "ftb-quests-neoforge-2101.1.36.jar",
+      "class": "dev.ftb.mods.ftbquests.quest.task.AdvancementTask",
+      "sha256": "98077272d22c1807d03e682b0e7fad082ae17906a366ea03f7c5f95fe48286a5"
+    },
+    "utils": {
+      "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+      "class": "com.st0x0ef.stellaris.common.utils.Utils",
+      "sha256": "04951b39d0672f70dae08a6bd0fcee40b8809ef17738fd9d358a66aae13a578e"
+    },
+    "teleport": {
+      "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+      "class": "com.st0x0ef.stellaris.common.utils.TeleportUtil",
+      "sha256": "6a7ed0c4444ead32eec118aaceeccb20c69c9995df51aac19f707e647d06790f"
+    }
+  },
+  "sharedStarlightNativeCodeSha256": {
+    "task": "98077272d22c1807d03e682b0e7fad082ae17906a366ea03f7c5f95fe48286a5",
+    "player": "94e4b06e2fb4184faf0bc8916eb9994a24b7a09ee506a92704f7faa4e0d36764",
+    "triggers": "830a292081c0a9e40cd3e5558979fc5abc512066635dbcadac98d8a71b8233c6",
+    "playerTrigger": "531ad84a5524d022806aeb04c37f88c117b1047538d4507de704d76b208db0c8",
+    "simpleTrigger": "acbb9a9867c0c0815498ee227b18c6903b1a3f19b1f2377e73878b0c9048379e",
+    "location": "7849c114b4823fd602dcdc0436620ffb350eebc6d510a061db1c606aefb53de9",
+    "entityCondition": "f50a021a147147aee070ed3f9adc4479078dc49aec79cb8d9636c07556b480fa",
+    "listener": "33045ca26dda59a7383a2fc54c5a5181176ebac6c3aaa1da4e7b48d3a1a6f1f9",
+    "entityPredicate": "e2743d894b228209b7e9a1ecca488ff1776783acaf4a31d1e8dac9e01c52fa50"
+  },
+  "sourceSha256": {
+    "kubejs/data/createch2/advancement/offworld_archaeology/mercurian_relay.json": "59eff3d8a83dd386134d7adb78924c4aac5585a8dd3865fda9a2bab9830071ce",
+    "kubejs/data/createch2/advancement/offworld_archaeology/venusian_field_station.json": "fe9d4d585803d316204e19066f2b6f16ba0e55760f3a350eeb3deee2fefa86dd",
+    "kubejs/data/createch2/advancement/offworld_archaeology/martian_complex.json": "3d2906c0a8376939d652e78cb624a0a36965e6930927d533feb70fe4a34e4e10",
+    "kubejs/data/createch2/advancement/offworld_archaeology/lunar_anomaly.json": "94ede41dac27a4f2a986fba5b38cc527d5aebbc2fff6789b4d812e485bc8a3ec"
+  },
+  "objectives": [
+    {
+      "advancement": "createch2:offworld_archaeology/mercurian_relay",
+      "quest": "077A070000000001",
+      "task": "077A070000000011",
+      "kind": "structure",
+      "definition": {
+        "criteria": {
+          "inside_mercurian_relay": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structures": "createch2:offworld_archaeology/mercurian_relay"
+                }
+              }
+            }
+          }
+        },
+        "requirements": [
+          [
+            "inside_mercurian_relay"
+          ]
+        ],
+        "sends_telemetry_event": false
+      }
+    },
+    {
+      "advancement": "createch2:offworld_archaeology/venusian_field_station",
+      "quest": "077A050000000001",
+      "task": "077A050000000011",
+      "kind": "structure",
+      "definition": {
+        "criteria": {
+          "inside_venusian_field_station": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structures": "createch2:offworld_archaeology/venusian_field_station"
+                }
+              }
+            }
+          }
+        },
+        "requirements": [
+          [
+            "inside_venusian_field_station"
+          ]
+        ],
+        "sends_telemetry_event": false
+      }
+    },
+    {
+      "advancement": "createch2:offworld_archaeology/martian_complex",
+      "quest": "077A030000000001",
+      "task": "077A030000000011",
+      "kind": "structure",
+      "definition": {
+        "criteria": {
+          "inside_martian_complex": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structures": "createch2:offworld_archaeology/martian_complex"
+                }
+              }
+            }
+          }
+        },
+        "requirements": [
+          [
+            "inside_martian_complex"
+          ]
+        ],
+        "sends_telemetry_event": false
+      }
+    },
+    {
+      "advancement": "createch2:offworld_archaeology/lunar_anomaly",
+      "quest": "077A010000000001",
+      "task": "077A010000000011",
+      "kind": "structure",
+      "definition": {
+        "criteria": {
+          "inside_lunar_anomaly": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structures": "createch2:offworld_archaeology/lunar_anomaly"
+                }
+              }
+            }
+          }
+        },
+        "requirements": [
+          [
+            "inside_lunar_anomaly"
+          ]
+        ],
+        "sends_telemetry_event": false
+      }
+    },
+    {
+      "advancement": "stellaris:venus_land",
+      "quest": "231AAA8D46F0E522",
+      "task": "436AC881A54FC9D8",
+      "kind": "changed_dimension",
+      "dimension": "stellaris:venus"
+    },
+    {
+      "advancement": "stellaris:mars_land",
+      "quest": "66210706B4540F10",
+      "task": "1EA2BBF9969E0F00",
+      "kind": "changed_dimension",
+      "dimension": "stellaris:mars"
+    },
+    {
+      "advancement": "stellaris:mercury_land",
+      "quest": "728B2E2AB28A5C4E",
+      "task": "56071D84189B0E43",
+      "kind": "changed_dimension",
+      "dimension": "stellaris:mercury"
+    }
+  ]
+}

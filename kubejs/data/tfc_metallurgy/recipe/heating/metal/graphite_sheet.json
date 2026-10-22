@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/graphite"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/graphite",
+    "amount": 200
+  },
+  "temperature": 500,
+  "use_durability": false
+}

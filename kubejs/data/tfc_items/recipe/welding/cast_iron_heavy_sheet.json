@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/cast_iron"
+  },
+  "second_input": {
+    "tag": "c:sheets/cast_iron"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:cast_iron_heavy_sheet"
+  }
+}

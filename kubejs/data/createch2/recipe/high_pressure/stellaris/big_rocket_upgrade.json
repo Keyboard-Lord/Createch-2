@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TST",
+    "CRC",
+    "TET"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_large_plate"
+    },
+    "S": {
+      "item": "stellaris:solerium"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "R": {
+      "item": "stellaris:normal_rocket_upgrade"
+    },
+    "E": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "stellaris:big_rocket_upgrade",
+    "count": 1
+  }
+}

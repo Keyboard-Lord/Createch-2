@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/invar",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/invar",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/invar",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "CLC",
+    "GPG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "E": {
+      "item": "mekanism:electrolytic_core"
+    },
+    "C": {
+      "tag": "createch2:control/factory/electronic"
+    },
+    "L": {
+      "item": "alchemistry:liquifier"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    }
+  },
+  "result": {
+    "id": "alchemistry:atomizer",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CBC",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "C": {
+      "tag": "createch2:wooden_storage_chests"
+    },
+    "B": {
+      "tag": "createch2:wooden_barrels"
+    }
+  },
+  "result": {
+    "id": "cargoboats:capacity_upgrade",
+    "count": 1
+  }
+}

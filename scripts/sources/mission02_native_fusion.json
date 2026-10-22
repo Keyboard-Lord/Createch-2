@@ -1,0 +1,206 @@
+{
+  "truth": "REVIEWED_NATIVE_FINITE_DD_FUSION_AND_TWO_CONSTRUCTION_OBJECTIVES",
+  "jar": "Modern-Industrialization-2.5.10.jar",
+  "classes": {
+    "reactor": {
+      "class": "aztech.modern_industrialization.machines.blockentities.multiblocks.FusionReactorBlockEntity",
+      "verbose": false,
+      "sha256": "3f5d3a7dd0dc41dbb681c1efe2c584b7499644251db3295dd43f0c431950fe8c"
+    },
+    "crafter": {
+      "class": "aztech.modern_industrialization.machines.components.CrafterComponent",
+      "verbose": false,
+      "sha256": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6"
+    },
+    "electric": {
+      "class": "aztech.modern_industrialization.machines.blockentities.multiblocks.AbstractElectricCraftingMultiblockBlockEntity",
+      "verbose": false,
+      "sha256": "33a7f7a3bc94b1d2ef9b934a755adcd3a300003a9f9e308ae4ca516944e2a810"
+    },
+    "recipe": {
+      "class": "aztech.modern_industrialization.machines.recipe.MachineRecipe",
+      "verbose": false,
+      "sha256": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0"
+    },
+    "hatch": {
+      "class": "aztech.modern_industrialization.machines.blockentities.hatches.EnergyHatch",
+      "verbose": false,
+      "sha256": "ec2b9627b4ccdab2c65049dae53553cd32173d8e26489660a269f7a556e56f04"
+    },
+    "hatches": {
+      "class": "aztech.modern_industrialization.machines.init.MultiblockHatches",
+      "verbose": false,
+      "sha256": "26b986a2752792d24beef50799113126472c7b380fa8dcce49f1543fd1e82725"
+    },
+    "hatchesV": {
+      "class": "aztech.modern_industrialization.machines.init.MultiblockHatches",
+      "verbose": true,
+      "sha256": "56b2109e3ce29bec6dd048267ca83676aca0c6567aff47bb7a72f49fc0d42cd6"
+    },
+    "tier": {
+      "class": "aztech.modern_industrialization.api.energy.CableTier",
+      "verbose": false,
+      "sha256": "b7419bba67a7433663f3fd67ae458195e3306c32ede9c885bb08d68467e38111"
+    },
+    "energy": {
+      "class": "aztech.modern_industrialization.machines.components.EnergyComponent",
+      "verbose": false,
+      "sha256": "d01eec6de0554f8cf8b9256a5593953678ffdc618ff605b24fcd8b3725d8d763"
+    },
+    "insert": {
+      "class": "aztech.modern_industrialization.machines.components.EnergyComponent$1",
+      "verbose": false,
+      "sha256": "8940c07d8e89a3e9ddb6bacf571963f30924252609813fdab12274e01ddc3b47"
+    },
+    "shape": {
+      "class": "aztech.modern_industrialization.machines.multiblocks.ShapeTemplate$Builder",
+      "verbose": false,
+      "sha256": "19c3730934502e2fe669d61d2901d69b48d03cda8956818c70dfb19e5875be38"
+    },
+    "flags": {
+      "class": "aztech.modern_industrialization.machines.multiblocks.HatchFlags",
+      "verbose": false,
+      "sha256": "eddba85afe8ddf3db9803aebb744f09f8e2f3ffd955b0bb49fcd612d26f439d3"
+    },
+    "fluidHatch": {
+      "class": "aztech.modern_industrialization.machines.blockentities.hatches.FluidHatch",
+      "verbose": false,
+      "sha256": "307fe7e1fd11ce7e8803132f556db7cb1e8c54162ae2d808970f63085bcfb4c6"
+    },
+    "fluidStacks": {
+      "class": "aztech.modern_industrialization.inventory.ConfigurableFluidStack",
+      "verbose": false,
+      "sha256": "dc161374f2f466f4c37630078581c4757f2712ede61958c5f2ee7d240e69e6bd"
+    },
+    "caps": {
+      "class": "aztech.modern_industrialization.MICapabilities",
+      "verbose": false,
+      "sha256": "feab40ff5322b41445faef3b11a741e10fb32a7adbc8d2bd0f6fd430ce36f657"
+    },
+    "capsV": {
+      "class": "aztech.modern_industrialization.MICapabilities",
+      "verbose": true,
+      "sha256": "c91c543dd904ac7a047befa500744d0ad75a6d26586315c91729fe94050a8839"
+    },
+    "nodes": {
+      "jar": "electroenergetics-1.21.1-1.1.4.jar",
+      "class": "com.george_vi.electroenergetics.CEENodeConfigurations",
+      "sha256": "d3bd3d821a04f2752d2ee087ebb1d719aab24887467652a686886ae8d1bfed73"
+    },
+    "nodeBuilder": {
+      "jar": "electroenergetics-1.21.1-1.1.4.jar",
+      "class": "com.george_vi.electroenergetics.foundation.nodes.NodeConfigurator$Builder",
+      "sha256": "43df90541d4bc0bf1472aaaf0e8c0c8ac678273f10fecd3dc1f961045558ae7f"
+    },
+    "nodeModel": {
+      "jar": "electroenergetics-1.21.1-1.1.4.jar",
+      "class": "com.george_vi.electroenergetics.foundation.nodes.NodeConfigurator",
+      "sha256": "b7d68ba2c3e21bc961163c33fe1309d1c08671cf56df0a67e8af48c8d4a8dd70"
+    },
+    "converterBlock": {
+      "jar": "electroenergetics-1.21.1-1.1.4.jar",
+      "class": "com.george_vi.electroenergetics.content.converter.ConverterBlock",
+      "sha256": "86e60fb70d44325f73c6abc5a15e2b632db1862a2f9075896968386e00b86213"
+    }
+  },
+  "outerRows": [
+    [
+      6,
+      1,
+      0,
+      0
+    ],
+    [
+      4,
+      3,
+      0,
+      0
+    ],
+    [
+      3,
+      3,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ]
+  ],
+  "middleRows": [
+    [
+      5,
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ]
+  ],
+  "recipe": "modern_industrialization:fusion_reactor/deuterium_deuterium",
+  "chapter": "config/ftbquests/quests/chapters/createch2_16_age_15_quantum.snbt",
+  "tasks": {
+    "modern_industrialization:fusion_reactor": {
+      "quest": "6AF258C35F948253",
+      "task": "70B77C6AC75F72DA"
+    },
+    "modern_industrialization:plasma_turbine": {
+      "quest": "738C2C3AB4A0B067",
+      "task": "0C0BCEA8131E32D6"
+    }
+  }
+}

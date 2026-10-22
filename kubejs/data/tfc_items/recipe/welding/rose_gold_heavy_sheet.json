@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/rose_gold"
+  },
+  "second_input": {
+    "tag": "c:sheets/rose_gold"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:rose_gold_heavy_sheet"
+  }
+}

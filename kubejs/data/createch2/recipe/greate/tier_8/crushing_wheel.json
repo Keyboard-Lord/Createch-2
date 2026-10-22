@@ -1,0 +1,31 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PCP",
+    "GSG",
+    "PHP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/darmstadtium"
+    },
+    "C": {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    "G": {
+      "item": "greate:naquadah_alloy_crushing_wheel"
+    },
+    "S": {
+      "item": "greate:darmstadtium_shaft"
+    },
+    "H": {
+      "tag": "gtceu:circuits/uv"
+    }
+  },
+  "result": {
+    "id": "greate:darmstadtium_crushing_wheel",
+    "count": 2
+  },
+  "accept_mirrored": false
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BTB",
+    "MHM",
+    "BTB"
+  ],
+  "key": {
+    "B": {
+      "item": "modern_industrialization:blastproof_alloy_large_plate"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_large_plate"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:implosion_compressor",
+    "count": 1
+  }
+}

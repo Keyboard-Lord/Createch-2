@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 200,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dripstone_block"
+    }
+  ]
+}

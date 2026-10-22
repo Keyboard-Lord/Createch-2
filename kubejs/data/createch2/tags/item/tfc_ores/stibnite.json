@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/stibnite/small",
+    "#createch2:tfc_ores/stibnite/poor",
+    "#createch2:tfc_ores/stibnite/normal",
+    "#createch2:tfc_ores/stibnite/rich"
+  ]
+}

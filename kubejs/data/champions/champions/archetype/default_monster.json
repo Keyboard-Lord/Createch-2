@@ -1,0 +1,298 @@
+{
+  "id": "champions:default_monster",
+  "weight": 1,
+  "tier_range": {},
+  "affix_pools": [
+    {
+      "tier_range": {
+        "max": 1
+      },
+      "min_count": 1,
+      "max_count": 1,
+      "candidates": [
+        {
+          "affix": "champions:knocking",
+          "max_strength": 1,
+          "weight": 12
+        },
+        {
+          "affix": "champions:dampening",
+          "max_strength": 1,
+          "weight": 10
+        },
+        {
+          "affix": "champions:shielding",
+          "max_strength": 1,
+          "weight": 8
+        },
+        {
+          "affix": "champions:hasty",
+          "max_strength": 1,
+          "weight": 10
+        },
+        {
+          "affix": "champions:wounding",
+          "max_strength": 1,
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "tier_range": {
+        "min": 2,
+        "max": 2
+      },
+      "min_count": 1,
+      "max_count": 2,
+      "candidates": [
+        {
+          "affix": "champions:knocking",
+          "max_strength": 2,
+          "weight": 12
+        },
+        {
+          "affix": "champions:dampening",
+          "max_strength": 2,
+          "weight": 10
+        },
+        {
+          "affix": "champions:shielding",
+          "max_strength": 2,
+          "weight": 8
+        },
+        {
+          "affix": "champions:hasty",
+          "max_strength": 2,
+          "weight": 10
+        },
+        {
+          "affix": "champions:wounding",
+          "max_strength": 2,
+          "weight": 8
+        },
+        {
+          "affix": "champions:plagued",
+          "max_strength": 1,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "tier_range": {
+        "min": 3,
+        "max": 3
+      },
+      "min_count": 2,
+      "max_count": 2,
+      "candidates": [
+        {
+          "affix": "champions:knocking",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 10
+        },
+        {
+          "affix": "champions:dampening",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 10
+        },
+        {
+          "affix": "champions:shielding",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 8
+        },
+        {
+          "affix": "champions:lively",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 7
+        },
+        {
+          "affix": "champions:hasty",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 9
+        },
+        {
+          "affix": "champions:wounding",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 8
+        },
+        {
+          "affix": "champions:reflective",
+          "max_strength": 1,
+          "weight": 4
+        },
+        {
+          "affix": "champions:molten",
+          "max_strength": 1,
+          "weight": 4
+        },
+        {
+          "affix": "champions:arctic",
+          "max_strength": 1,
+          "weight": 4
+        },
+        {
+          "affix": "champions:enkindling",
+          "max_strength": 1,
+          "weight": 4
+        },
+        {
+          "affix": "champions:plagued",
+          "max_strength": 2,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "tier_range": {
+        "min": 4
+      },
+      "min_count": 2,
+      "max_count": 3,
+      "candidates": [
+        {
+          "affix": "champions:knocking",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 9
+        },
+        {
+          "affix": "champions:dampening",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 9
+        },
+        {
+          "affix": "champions:shielding",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 7
+        },
+        {
+          "affix": "champions:lively",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 6
+        },
+        {
+          "affix": "champions:hasty",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 8
+        },
+        {
+          "affix": "champions:wounding",
+          "min_strength": 2,
+          "max_strength": 3,
+          "weight": 7
+        },
+        {
+          "affix": "champions:reflective",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 4
+        },
+        {
+          "affix": "champions:molten",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 4
+        },
+        {
+          "affix": "champions:arctic",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 4
+        },
+        {
+          "affix": "champions:enkindling",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 4
+        },
+        {
+          "affix": "champions:plagued",
+          "min_strength": 1,
+          "max_strength": 2,
+          "weight": 4
+        },
+        {
+          "affix": "champions:magnetic",
+          "max_strength": 1,
+          "weight": 3
+        },
+        {
+          "affix": "champions:desecrating",
+          "max_strength": 1,
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "entity_filter": {
+    "type": "entity_type",
+    "types": [
+      "minecraft:blaze",
+      "minecraft:bogged",
+      "minecraft:breeze",
+      "minecraft:cave_spider",
+      "minecraft:creeper",
+      "minecraft:drowned",
+      "minecraft:enderman",
+      "minecraft:endermite",
+      "minecraft:ghast",
+      "minecraft:guardian",
+      "minecraft:hoglin",
+      "minecraft:husk",
+      "minecraft:magma_cube",
+      "minecraft:phantom",
+      "minecraft:piglin",
+      "minecraft:pillager",
+      "minecraft:shulker",
+      "minecraft:silverfish",
+      "minecraft:skeleton",
+      "minecraft:slime",
+      "minecraft:spider",
+      "minecraft:stray",
+      "minecraft:vex",
+      "minecraft:vindicator",
+      "minecraft:witch",
+      "minecraft:wither_skeleton",
+      "minecraft:zoglin",
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:zombified_piglin",
+      "tfc:crocodile",
+      "tfc:hyena",
+      "tfc:wolf",
+      "stellaris:alien",
+      "stellaris:alien_zombie",
+      "stellaris:martian_raptor",
+      "stellaris:mogler",
+      "stellaris:pygro",
+      "stellaris:star_crawler",
+      "sgjourney:goauld",
+      "sgjourney:jaffa",
+      "eternal_starlight:boarwarf",
+      "eternal_starlight:gleech",
+      "eternal_starlight:lonestar_skeleton",
+      "eternal_starlight:nightfall_spider",
+      "eternal_starlight:ratlin",
+      "eternal_starlight:seeker",
+      "eternal_starlight:stranghoul",
+      "eternal_starlight:thirst_walker",
+      "eternal_starlight:tiny_creteor",
+      "eternal_starlight:twilight_gaze",
+      "eternal_starlight:yeti",
+      "eternal_starlight:zombified_ratlin",
+      "evilcraft:netherfish",
+      "evilcraft:poisonous_libelle",
+      "the_bumblezone:honey_slime"
+    ]
+  }
+}

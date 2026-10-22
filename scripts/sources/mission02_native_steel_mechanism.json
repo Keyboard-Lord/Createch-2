@@ -1,0 +1,997 @@
+{
+  "ids": {
+    "mechanism": "createch2:steel_steam/tfmg/steel_mechanism",
+    "heavyPlate": "tfmg:sequenced_assembly/heavy_plate",
+    "press": "createch2:greate/tier_1/mechanical_press",
+    "cog": "createch2:greate/tier_1/cogwheel",
+    "shaft": "createch2:greate/tier_1/shaft_cutting",
+    "plate": "createch2:create/pressing/steel_plate",
+    "casing": "createch2:steel_steam/tfmg/steel_casing",
+    "hardened": "tfmg:filling/hardened_planks",
+    "deployer": "create:crafting/kinetics/deployer"
+  },
+  "kinds": {
+    "createch2:steel_steam/tfmg/steel_mechanism": "authored",
+    "tfmg:sequenced_assembly/heavy_plate": "native",
+    "createch2:greate/tier_1/mechanical_press": "authored",
+    "createch2:greate/tier_1/cogwheel": "authored",
+    "createch2:greate/tier_1/shaft_cutting": "authored",
+    "createch2:create/pressing/steel_plate": "authored",
+    "createch2:steel_steam/tfmg/steel_casing": "authored",
+    "tfmg:filling/hardened_planks": "authored",
+    "create:crafting/kinetics/deployer": "native"
+  },
+  "recipes": {
+    "createch2:steel_steam/tfmg/steel_mechanism": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "tfmg:heavy_plate"
+      },
+      "transitional_item": {
+        "id": "tfmg:unfinished_steel_mechanism"
+      },
+      "loops": 3,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "item": "tfmg:steel_casing"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "tfmg:lubrication_oil"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "tag": "c:plates/nickel"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "tag": "c:plates/lead"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ],
+          "recipe_tier": 1
+        }
+      ],
+      "results": [
+        {
+          "chance": 120,
+          "id": "tfmg:steel_mechanism"
+        },
+        {
+          "chance": 4,
+          "id": "tfmg:heavy_plate"
+        },
+        {
+          "chance": 2,
+          "id": "tfmg:steel_ingot"
+        }
+      ]
+    },
+    "tfmg:sequenced_assembly/heavy_plate": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "tag": "c:ingots/steel"
+      },
+      "results": [
+        {
+          "id": "tfmg:heavy_plate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "tfmg:unprocessed_heavy_plate"
+      }
+    },
+    "createch2:greate/tier_1/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "CHC",
+        " M "
+      ],
+      "key": {
+        "P": {
+          "tag": "c:plates/steel"
+        },
+        "G": {
+          "item": "greate:andesite_alloy_mechanical_press"
+        },
+        "C": {
+          "item": "greate:steel_cogwheel"
+        },
+        "H": {
+          "item": "tfmg:steel_casing"
+        },
+        "M": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "result": {
+        "id": "greate:steel_mechanical_press",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_1/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:steel_shaft"
+        },
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "result": {
+        "id": "greate:steel_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_1/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:steel_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:steel_steam/tfmg/steel_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "item": "tfmg:hardened_planks"
+        },
+        {
+          "tag": "createch2:industrial_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:steel_casing"
+        }
+      ]
+    },
+    "tfmg:filling/hardened_planks": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "tag": "minecraft:planks"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 250,
+          "tag": "c:creosote"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:hardened_planks"
+        }
+      ]
+    },
+    "create:crafting/kinetics/deployer": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "I": {
+          "item": "create:brass_hand"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:deployer"
+      }
+    }
+  },
+  "effectiveRecipes": {
+    "createch2:steel_steam/tfmg/steel_mechanism": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "tfmg:heavy_plate"
+      },
+      "transitional_item": {
+        "id": "tfmg:unfinished_steel_mechanism"
+      },
+      "loops": 3,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "item": "tfmg:steel_casing"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "tfmg:lubrication_oil"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "tag": "c:plates/nickel"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            },
+            {
+              "tag": "c:plates/lead"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unfinished_steel_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unfinished_steel_mechanism"
+            }
+          ],
+          "recipe_tier": 1
+        }
+      ],
+      "results": [
+        {
+          "chance": 120,
+          "id": "tfmg:steel_mechanism"
+        },
+        {
+          "chance": 4,
+          "id": "tfmg:heavy_plate"
+        },
+        {
+          "chance": 2,
+          "id": "tfmg:steel_ingot"
+        }
+      ]
+    },
+    "tfmg:sequenced_assembly/heavy_plate": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "tag": "c:ingots/steel"
+      },
+      "results": [
+        {
+          "id": "tfmg:heavy_plate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "tfmg:unprocessed_heavy_plate"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:unprocessed_heavy_plate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "tfmg:unprocessed_heavy_plate"
+      }
+    },
+    "createch2:greate/tier_1/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "CHC",
+        " M "
+      ],
+      "key": {
+        "P": {
+          "tag": "c:plates/steel"
+        },
+        "G": {
+          "item": "greate:andesite_alloy_mechanical_press"
+        },
+        "C": {
+          "item": "greate:steel_cogwheel"
+        },
+        "H": {
+          "item": "tfmg:steel_casing"
+        },
+        "M": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "result": {
+        "id": "greate:steel_mechanical_press",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_1/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:steel_shaft"
+        },
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "result": {
+        "id": "greate:steel_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_1/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:steel_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:steel_steam/tfmg/steel_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "item": "tfmg:hardened_planks"
+        },
+        {
+          "tag": "createch2:industrial_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:steel_casing"
+        }
+      ]
+    },
+    "tfmg:filling/hardened_planks": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "tag": "minecraft:planks"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 250,
+          "tag": "c:creosote"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:hardened_planks"
+        }
+      ]
+    },
+    "create:crafting/kinetics/deployer": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "I": {
+          "item": "create:brass_hand"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:deployer"
+      }
+    }
+  },
+  "nativeRows": {
+    "tfmg:sequenced_assembly/heavy_plate": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "tag": "c:ingots/steel"
+          },
+          "results": [
+            {
+              "id": "tfmg:heavy_plate"
+            }
+          ],
+          "sequence": [
+            {
+              "type": "create:pressing",
+              "ingredients": [
+                {
+                  "item": "tfmg:unprocessed_heavy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "tfmg:unprocessed_heavy_plate"
+                }
+              ]
+            },
+            {
+              "type": "create:pressing",
+              "ingredients": [
+                {
+                  "item": "tfmg:unprocessed_heavy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "tfmg:unprocessed_heavy_plate"
+                }
+              ]
+            },
+            {
+              "type": "create:pressing",
+              "ingredients": [
+                {
+                  "item": "tfmg:unprocessed_heavy_plate"
+                }
+              ],
+              "results": [
+                {
+                  "id": "tfmg:unprocessed_heavy_plate"
+                }
+              ]
+            }
+          ],
+          "transitional_item": {
+            "id": "tfmg:unprocessed_heavy_plate"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/deployer": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "create:electron_tube"
+            },
+            "C": {
+              "item": "create:andesite_casing"
+            },
+            "I": {
+              "item": "create:brass_hand"
+            }
+          },
+          "pattern": [
+            "B",
+            "C",
+            "I"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:deployer"
+          }
+        }
+      }
+    ]
+  },
+  "normalizations": {
+    "createch2:steel_steam/tfmg/steel_mechanism": [],
+    "tfmg:sequenced_assembly/heavy_plate": [],
+    "createch2:greate/tier_1/mechanical_press": [],
+    "createch2:greate/tier_1/cogwheel": [],
+    "createch2:greate/tier_1/shaft_cutting": [],
+    "createch2:create/pressing/steel_plate": [],
+    "createch2:steel_steam/tfmg/steel_casing": [],
+    "tfmg:filling/hardened_planks": [],
+    "create:crafting/kinetics/deployer": []
+  },
+  "nativeClasses": {
+    "sequence": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipe"
+    ],
+    "press": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredMechanicalPressBlockEntity"
+    ],
+    "processing": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipe"
+    ],
+    "applier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeApplier"
+    ],
+    "results": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeHelper"
+    ],
+    "deployerBelt": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.BeltDeployerCallbacks"
+    ],
+    "filling": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout"
+    ],
+    "deployer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerBlockEntity"
+    ],
+    "deployerV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerBlockEntity",
+      true
+    ],
+    "searchEvent": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerRecipeSearchEvent"
+    ],
+    "sequenceV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipe",
+      true
+    ],
+    "serializer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipeSerializer"
+    ],
+    "serializerV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipeSerializer",
+      true
+    ],
+    "output": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput"
+    ],
+    "outputV": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "sequence": "aafa9e0274dc454aa2f14daf5805aa1f07a69cccd772c05ea7955525a8b90177",
+    "press": "57fb860f87bdae3a4851afac770467f15d1a0d0011b90fdd77e923578d834ec4",
+    "processing": "432fa64c0b18d12fa9247463f4c8a7ab65c2ebfb4e4ed7c86a391cab805c40a3",
+    "applier": "fc08cbccd7b0047b964eea65fe63e8191bd2f9967cce2aa116c0b8529b22d536",
+    "results": "5e1f2ff0e9a5e83dc426ae6faf37b19080081b011a821a3a4fb37fa9ccc56e91",
+    "deployerBelt": "06a79fedad74589c6d3bdf4df149728b368016a43d24c70216ad449370a54fad",
+    "filling": "a1241eed48a107ef1db927e5c0417f44c384db06525f057f246e4115727d7730",
+    "deployer": "254d9cab418721fbed96f50b95f214ea2a00d6ff593878a1bb6e0d62e9443de1",
+    "deployerV": "1c687d468f390149f30dfd9492d3f1d00857c65f05dd0d32457b71803b092ae7",
+    "searchEvent": "d784e48c543e8dbc37d15bfc60af1ab21b5869f27d5715a9a4fe68f7d397c08b",
+    "sequenceV": "32f1da0403ae8e3ba0453b8f7b1e32df9056ef80550e1c8cbb19eae93a7b8bf8",
+    "serializer": "2764c3a6a6e32faf0189ba1b12d9e55b3eeed95b3ad11183f5f53f4bcca60f50",
+    "serializerV": "456639d4e905c09f0608ca134db3c772106fe60bad292a4b7170a6b5bce2eef7",
+    "output": "44cae193648fc75cd62159eb8edeb5b52bf737fbf604f583b0e7473eb37bb758",
+    "outputV": "19d0bfb461a3208b839bbd0271d2f6f4a087832d850ea02a906bca990e1fd239"
+  },
+  "quest": {
+    "dependencies": [
+      "0EAC06C57F45B1AD"
+    ],
+    "icon": {
+      "id": "tfmg:steel_mechanism"
+    },
+    "id": "41F95A6E5A884B05",
+    "rewards": [
+      {
+        "auto": "enabled",
+        "id": "6CF14363540630C0",
+        "type": "xp",
+        "xp": "5"
+      }
+    ],
+    "shape": "square",
+    "size": "1.22d",
+    "tags": [
+      "theme_steel_steam_required",
+      "role_required"
+    ],
+    "tasks": [
+      {
+        "count": "8L",
+        "id": "6868ED2251D9DEBB",
+        "item": {
+          "count": "1",
+          "id": "tfmg:steel_mechanism"
+        },
+        "type": "item"
+      }
+    ],
+    "x": "-14.353d",
+    "y": "-2.485d"
+  },
+  "questFile": "createch2_06_age_05_steel_steam.snbt",
+  "retiredNative": [
+    {
+      "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+      "data": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "tfmg:heavy_plate"
+        },
+        "loops": 2,
+        "results": [
+          {
+            "chance": 120,
+            "id": "tfmg:steel_mechanism"
+          },
+          {
+            "chance": 4,
+            "id": "minecraft:compass"
+          },
+          {
+            "chance": 4,
+            "id": "tfmg:steel_ingot"
+          }
+        ],
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:steel_cogwheel"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:nickel_sheet"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:large_steel_cogwheel"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:lead_sheet"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:screw"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "tfmg:unfinished_steel_mechanism"
+              },
+              {
+                "item": "tfmg:screwdriver"
+              }
+            ],
+            "results": [
+              {
+                "id": "tfmg:unfinished_steel_mechanism"
+              }
+            ]
+          }
+        ],
+        "transitional_item": {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      }
+    }
+  ],
+  "scope": "Native three-loop weighted mechanism execution and physical forming service; input manufacture kinds and finite extra procurement are separate requirements.",
+  "heldInputClasses": {
+    "application": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipe"
+    ],
+    "deployApplication": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe"
+    ]
+  },
+  "heldInputCodeSha256": {
+    "application": "ee6ba3911da5ffbacc03849f00e80f9095270a437bdb1a4641e005438949fecf",
+    "deployApplication": "36a0e7e1d61767b83444ca967f8be3a819b07a4d926257ce64ad0a722ffb1663"
+  },
+  "heldInputCreateJarSha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+}

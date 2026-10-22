@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/pewter"
+    },
+    {
+      "tag": "c:physical_dusts/pewter"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

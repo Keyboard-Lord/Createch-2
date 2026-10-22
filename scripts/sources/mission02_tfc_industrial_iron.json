@@ -1,0 +1,271 @@
+{
+  "id": "createch2:tfc_geology/bronze_steam/iron_dust_from_wrought_iron",
+  "research": "THM-02",
+  "input": "tfc:metal/ingot/wrought_iron",
+  "output": "modern_industrialization:iron_dust",
+  "metalUnits": 100,
+  "nativeTemplateId": "modern_industrialization:materials/iron/macerator/ingot",
+  "nativeTemplate": {
+    "provider": "Modern-Industrialization-2.5.10.jar",
+    "data": {
+      "type": "modern_industrialization:macerator",
+      "duration": 200,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:ingots/iron"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:iron_dust"
+        }
+      ]
+    }
+  },
+  "quests": {
+    "0F16DEDF6E39443D": {
+      "file": "createch2_04_age_03_bronze_steam.snbt",
+      "quest": {
+        "dependencies": [
+          "03DC1833EB6821E2"
+        ],
+        "icon": {
+          "components": {
+            "tfc:heat": {}
+          },
+          "id": "modern_industrialization:bronze_ingot"
+        },
+        "id": "0F16DEDF6E39443D",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "15B2AD50F4BDF101",
+            "type": "xp",
+            "xp": "40"
+          }
+        ],
+        "shape": "createch_target",
+        "size": "1.14d",
+        "tags": [
+          "theme_bronze_steam_production",
+          "role_production"
+        ],
+        "tasks": [
+          {
+            "count": "16L",
+            "id": "7DE50D8E4B4E7D7E",
+            "item": {
+              "components": {
+                "tfc:heat": {}
+              },
+              "count": "1",
+              "id": "modern_industrialization:bronze_ingot"
+            },
+            "type": "item"
+          },
+          {
+            "count": "16L",
+            "id": "719D6390AA5893F2",
+            "item": {
+              "count": "1",
+              "id": "create:crushed_raw_iron"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "132.0d",
+        "y": "-72.75d"
+      }
+    },
+    "6D8EE28E14590C42": {
+      "file": "createch2_06_age_05_steel_steam.snbt",
+      "quest": {
+        "dependencies": [
+          "65C742774D5BE2B7"
+        ],
+        "icon": {
+          "id": "create:crushed_raw_iron"
+        },
+        "icon_scale": "0.92d",
+        "id": "6D8EE28E14590C42",
+        "rewards": [
+          {
+            "auto": "enabled",
+            "id": "12F349B2ECAD4A1F",
+            "type": "xp",
+            "xp": "15"
+          }
+        ],
+        "shape": "square",
+        "size": "1.22d",
+        "tags": [
+          "theme_steel_steam_required",
+          "role_required"
+        ],
+        "tasks": [
+          {
+            "count": "32L",
+            "id": "4AA838C389602B6F",
+            "item": {
+              "count": "1",
+              "id": "create:crushed_raw_iron"
+            },
+            "type": "item"
+          },
+          {
+            "count": "32L",
+            "id": "1B236B585898F3A7",
+            "item": {
+              "count": "1",
+              "id": "tfmg:coal_coke"
+            },
+            "type": "item"
+          }
+        ],
+        "x": "-16.274d",
+        "y": "1.019d"
+      }
+    }
+  },
+  "researchBefore": {
+    "code": "THM-02",
+    "id": "createch2:thm_02_industrial_heat",
+    "page": "createch2:fabrication_materials",
+    "name": "Industrial Heat",
+    "description": "Control coke-fired industrial blast temperatures.",
+    "icon": "tfmg:steel_ingot",
+    "parents": [
+      "createch2:thm_01_boiler_science",
+      "createch2:mat_01_bronze_metallurgy"
+    ],
+    "cost": {
+      "class": "B",
+      "packs": [
+        "process_samples",
+        "material_specimens",
+        "kinetic_data"
+      ]
+    },
+    "recipes_unlocked": [
+      "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_crushed_iron",
+      "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust",
+      "createch2:steel_steam/tfmg/industrial_blasting/pig_iron",
+      "createch2:steel_steam/tfmg/casting/pig_iron_ingot",
+      "createch2:steel_steam/tfmg/casting/steel_ingot",
+      "createch2:consequences/fire/extinguisher",
+      "createch2:steel_steam/tfmg/steel_nuggets",
+      "createch2:greate/suppliers/steel_foundry_melting"
+    ],
+    "items_covered": [
+      "tfmg:steel_ingot",
+      "burnt:extinguisher"
+    ],
+    "earliest_age": "Age 03 Bronze Steam",
+    "authority": "TFMG steel authority",
+    "notes": "TFMG is the sole early blast-furnace authority, including pig iron for TFC's later forging chains. Native coke-dust fuel, hot air, slag and gas handling remain physical requirements. MI's later electric blast furnace remains in its existing progression role.",
+    "audit": {
+      "classification": "Production capability and same-output observation separated",
+      "earliest_required_consumer": "No reviewed quest requires this specific locked production capability.",
+      "consumer_quests": [],
+      "same_output_consumer_quests": [
+        "0C4F7FBDB9DA914D",
+        "13600CBD07081E1A",
+        "1A57E0F180BD83FE",
+        "2EA08DCC6E926259",
+        "4C6FD6ECD0FC4D50",
+        "55B8AEEB7ACA1E4E",
+        "65C742774D5BE2B7",
+        "6BF0E7D18F1E27C4",
+        "42181B18A078F951",
+        "231AAA8D46F0E522"
+      ],
+      "earliest_same_output_consumer": "Age 05 Steel Steam: Industrial Steel (0C4F7FBDB9DA914D)",
+      "main_or_capstone_path": false,
+      "same_output_on_main_or_capstone_path": true,
+      "reviewed_for_campaign_unity": "2026-10-08",
+      "semantics_version": 2,
+      "capability_review_status": "NO_REQUIRED_RELATIONSHIP_ASSERTED",
+      "scope": "Item-output equality does not prove dependence on an alternative or batch recipe. Only explicit reviewed capability consumers enter required-consumer fields. Knowledge unlock age is unchanged; native dynamic alternatives and loaded acquisition remain runtime qualification."
+    },
+    "localization": {
+      "title": "research.createch2.thm_02_industrial_heat.title",
+      "description": "research.createch2.thm_02_industrial_heat.description"
+    }
+  },
+  "retainedBlastRecipes": {
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_crushed_iron": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:industrial_blasting",
+      "hot_air_usage": 40,
+      "ingredients": [
+        {
+          "item": "create:crushed_raw_iron"
+        },
+        {
+          "item": "tfc:powder/flux"
+        }
+      ],
+      "processing_time": 80,
+      "results": [
+        {
+          "amount": 144,
+          "id": "tfmg:molten_steel"
+        },
+        {
+          "amount": 144,
+          "id": "tfmg:molten_slag"
+        },
+        {
+          "amount": 200,
+          "id": "tfmg:furnace_gas"
+        }
+      ]
+    },
+    "createch2:steel_steam/tfmg/industrial_blasting/steel_from_coke_and_iron_dust": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:industrial_blasting",
+      "hot_air_usage": 40,
+      "ingredients": [
+        {
+          "tag": "c:dusts/iron"
+        },
+        {
+          "item": "tfc:powder/flux"
+        }
+      ],
+      "processing_time": 80,
+      "results": [
+        {
+          "amount": 144,
+          "id": "tfmg:molten_steel"
+        },
+        {
+          "amount": 144,
+          "id": "tfmg:molten_slag"
+        },
+        {
+          "amount": 100,
+          "id": "tfmg:furnace_gas"
+        }
+      ]
+    }
+  },
+  "nativeWroughtUnitBasis": {
+    "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+    "id": "tfc:heating/metal/ingot/wrought_iron",
+    "data": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:ingots/wrought_iron"
+      },
+      "result_fluid": {
+        "amount": 100,
+        "id": "tfc:metal/cast_iron"
+      },
+      "temperature": 1535.0
+    }
+  }
+}

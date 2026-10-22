@@ -1,0 +1,13 @@
+{
+  "ingredient": {
+    "type": "neoforge:difference",
+    "base": {
+      "tag": "c:foods/soup"
+    },
+    "subtracted": {
+      "tag": "createch2:food/defined_soups"
+    }
+  },
+  "hunger": 4,
+  "decay_modifier": 4.5
+}

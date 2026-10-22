@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 102,
+  "item_inputs": [
+    {
+      "item": "tfc:food/beef",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:meat_dust",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:meat_dust",
+      "amount": 1,
+      "probability": 0.5
+    },
+    {
+      "item": "gtceu:tiny_bone_dust",
+      "amount": 1
+    }
+  ]
+}

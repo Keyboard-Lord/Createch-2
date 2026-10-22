@@ -1,0 +1,38 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:ethanol"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:butene"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "tfmg:sulfuric_acid"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 500,
+      "id": "chemica:ethyl_tert_butyl_ether"
+    },
+    {
+      "amount": 250,
+      "id": "minecraft:water"
+    }
+  ],
+  "processing_time": 600,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

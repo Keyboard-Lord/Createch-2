@@ -1,0 +1,1 @@
+{"type":"tfc:anvil","apply_bonus":true,"ingredient":{"tag":"c:sheets/wrought_iron"},"result":{"count":1,"id":"tfc:metal/fish_hook/wrought_iron"},"rules":["hit_any","bend_any","draw_not_last"],"tier":3}

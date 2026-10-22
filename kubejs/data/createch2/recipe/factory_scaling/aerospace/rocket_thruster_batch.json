@@ -1,0 +1,52 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 192,
+  "duration": 1600,
+  "item_inputs": [
+    {
+      "item": "rocketnautics:titanium_nozzle",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 4
+    },
+    {
+      "item": "mekanism:elite_control_circuit",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:titanium_large_plate",
+      "amount": 8
+    },
+    {
+      "item": "electroenergetics:hanging_glass_insulator",
+      "amount": 8
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "rocketnautics:rocket_thruster",
+      "amount": 4
+    }
+  ]
+}

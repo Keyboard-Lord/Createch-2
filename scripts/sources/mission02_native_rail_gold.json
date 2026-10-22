@@ -1,0 +1,620 @@
+{
+  "ids": {
+    "hammer": "tfcorewashing:ores/gold/gold_normal_hammer",
+    "quern": "tfcorewashing:chunks/quern/chunks_gold_quern",
+    "melt": "tfcorewashing:tfc/heating/powder/native_gold",
+    "cast": "tfc:casting/gold_ingot",
+    "knapMold": "tfc:knapping/ceramic/unfired_ingot_mold",
+    "fireMold": "tfc:heating/ceramic/ingot_mold"
+  },
+  "recipes": {
+    "tfcorewashing:ores/gold/gold_normal_hammer": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "primary_ingredient": {
+        "tag": "c:tools/hammer"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "ingredients": [
+        {
+          "item": "tfc:ore/normal_native_gold"
+        },
+        {
+          "tag": "c:tools/hammer"
+        }
+      ],
+      "result": {
+        "id": "tfcorewashing:rocky_chunks_gold",
+        "count": 5
+      }
+    },
+    "tfcorewashing:chunks/quern/chunks_gold_quern": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "tfcorewashing:chunks_gold"
+      },
+      "result": {
+        "id": "tfcorewashing:dirty_dust_gold",
+        "count": 1
+      }
+    },
+    "tfcorewashing:tfc/heating/powder/native_gold": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:ores/clean_dusts/gold"
+      },
+      "result_fluid": {
+        "id": "tfc:metal/gold",
+        "amount": 5
+      },
+      "temperature": 1060
+    },
+    "tfc:casting/gold_ingot": {
+      "type": "tfc:casting",
+      "break_chance": 0.1,
+      "fluid": {
+        "amount": 100,
+        "fluid": "tfc:metal/gold"
+      },
+      "mold": {
+        "item": "tfc:ceramic/ingot_mold"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:metal/ingot/gold"
+      }
+    },
+    "tfc:knapping/ceramic/unfired_ingot_mold": {
+      "type": "tfc:knapping",
+      "default_on": true,
+      "knapping_type": "tfc:clay",
+      "pattern": [
+        "####",
+        "#  #",
+        "#  #",
+        "#  #",
+        "####"
+      ],
+      "result": {
+        "count": 2,
+        "id": "tfc:ceramic/unfired_ingot_mold"
+      }
+    },
+    "tfc:heating/ceramic/ingot_mold": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "item": "tfc:ceramic/unfired_ingot_mold"
+      },
+      "result_item": {
+        "count": 1,
+        "id": "tfc:ceramic/ingot_mold"
+      },
+      "temperature": 1399
+    }
+  },
+  "providers": {
+    "tfcorewashing:ores/gold/gold_normal_hammer": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfcorewashing:chunks/quern/chunks_gold_quern": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfcorewashing:tfc/heating/powder/native_gold": [
+      "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+    ],
+    "tfc:casting/gold_ingot": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:knapping/ceramic/unfired_ingot_mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:heating/ceramic/ingot_mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ]
+  },
+  "nativeClasses": {
+    "kiln": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PitKilnBlockEntity"
+    ],
+    "kilnBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.PitKilnBlock"
+    ],
+    "placed": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.PlacedItemBlockEntity"
+    ],
+    "mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.mold.Mold"
+    ],
+    "moldItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.MoldItem"
+    ],
+    "moldInfo": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.MoldItem$1"
+    ],
+    "moldSwitch": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.MoldItem$2"
+    ],
+    "casting": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.CastingRecipe"
+    ],
+    "heating": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.HeatingRecipe"
+    ],
+    "heat": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.HeatComponent"
+    ],
+    "heatCap": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.HeatCapability"
+    ],
+    "fluidHeat": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.data.FluidHeat"
+    ],
+    "itemComponent": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.item.ItemComponent"
+    ],
+    "capabilities": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.capabilities.ItemCapabilities"
+    ],
+    "items": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems"
+    ],
+    "itemsV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      true
+    ],
+    "damageRemainder": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.outputs.DamageCraftingRemainderModifier"
+    ]
+  },
+  "nativeCodeSha256": {
+    "kiln": "b310bf7df1d9fe2da1fb66e70631ef1b275502d701aba911d3d2cb638d010842",
+    "kilnBlock": "2584e1ea6920f088734366f6fc6d86105e311b20467037ad50b6322185baca13",
+    "placed": "8fedb2ee168fa9539c49da1c6a516e03914f0eaa83b0fdea1f3fc1976143ef2c",
+    "mold": "c14e9ca5e8797afc7e75848c1c1e387fddd0059447483648d7cca8d081c5260a",
+    "moldItem": "244d1547eb5c02a2b7043a99e2c7ebb9a83ebdec21df18a0b3e601a1f8f77dea",
+    "moldInfo": "ae93c1b2015ed7e48e6a660c2cdfaf726d7e497af4763df1c879d4452269d75c",
+    "moldSwitch": "5147dfb7e111f897277ddf333d6779371bf193a6ea9932807ff97ca176061490",
+    "casting": "ada68b23753b8f04a8a492eccda4fae7725a8b14556b847a500e97107a1de8f2",
+    "heating": "d2047f6749a749d49d4e69d820a111a73cd9434a01c4ec60825cdbe3992d4778",
+    "heat": "5e88d2b9b1a2ea1df3e4685ac74791d418d685c86673ee1a0d3cc1088430361b",
+    "heatCap": "d703fba7b9c8ca2e4e8c9efc5387cc2ab443064080a512a4445f1c229d6a965a",
+    "fluidHeat": "24445e5276ccf9fdf3bc8da344705138d9ee649199e24c06520e234b985a98a3",
+    "itemComponent": "408e74e0db613f58994f4c57675b8481aa7842bbe980e0a4c2b24af93bafb668",
+    "capabilities": "7eb56b82ddfc5984f10d63474bc402e618ae267e89c926aadfa602e42ca5e450",
+    "items": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "itemsV": "f08da74a18eebfd6bb9be7fca644a2dfb4fbf061dec298709790c5890e97fb21",
+    "damageRemainder": "ac0f4932b795f523d3d22c5f09576013d88bd6af7399c88f3eca294fc2df1eab"
+  },
+  "worldResources": {
+    "worldgen/configured_feature|tfc:vein/normal_native_gold": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 90,
+        "density": 0.25,
+        "min_y": 0,
+        "max_y": 70,
+        "size": 15,
+        "random_name": "normal_native_gold",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/rhyolite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/rhyolite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/rhyolite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/rhyolite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/basalt"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/basalt"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/basalt"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/basalt"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/andesite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/andesite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/andesite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/andesite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/dacite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/dacite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/dacite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/dacite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/granite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/granite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/granite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/granite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/diorite"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/diorite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/diorite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/diorite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/gabbro"
+            ],
+            "with": [
+              {
+                "weight": 35,
+                "block": "tfc:ore/poor_native_gold/gabbro"
+              },
+              {
+                "weight": 40,
+                "block": "tfc:ore/normal_native_gold/gabbro"
+              },
+              {
+                "weight": 25,
+                "block": "tfc:ore/rich_native_gold/gabbro"
+              }
+            ]
+          }
+        ],
+        "indicator": {
+          "rarity": 40,
+          "depth": 35,
+          "underground_rarity": 1,
+          "underground_count": 0,
+          "blocks": [
+            {
+              "block": "tfc:ore/small_native_gold"
+            }
+          ]
+        }
+      }
+    },
+    "worldgen/placed_feature|tfc:vein/normal_native_gold": {
+      "feature": "tfc:vein/normal_native_gold",
+      "placement": []
+    },
+    "loot_table|tfc:blocks/ore/normal_native_gold/granite": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/normal_native_gold"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/knapping_type|tfc:clay": {
+      "click_sound": "tfc:item.knapping.clay",
+      "consume_after_complete": true,
+      "has_off_texture": true,
+      "icon": {
+        "count": 1,
+        "id": "minecraft:clay_ball"
+      },
+      "input": {
+        "count": 5,
+        "tag": "tfc:clay_knapping"
+      },
+      "spawns_particles": false
+    },
+    "tfc/fluid_heat|tfc:gold": {
+      "fluid": "tfc:metal/gold",
+      "melt_temperature": 1060,
+      "specific_heat_capacity": 0.005
+    },
+    "tfc/item_size|tfc:powders": {
+      "ingredient": {
+        "tag": "tfc:bowl_powders"
+      },
+      "size": "tiny",
+      "weight": "very_light"
+    },
+    "tfc/item_size|tfc:fired_molds": {
+      "ingredient": {
+        "tag": "tfc:fired_molds"
+      },
+      "size": "normal",
+      "weight": "medium"
+    },
+    "tfc/item_size|tfc:unfired_molds": {
+      "ingredient": {
+        "tag": "tfc:unfired_molds"
+      },
+      "size": "normal",
+      "weight": "medium"
+    },
+    "tfc/item_size|tfc:vessels": {
+      "ingredient": {
+        "tag": "tfc:vessels"
+      },
+      "size": "normal",
+      "weight": "heavy"
+    },
+    "tfc/deposit|tfcorewashing:rocky_chunk/gold": {
+      "ingredient": {
+        "item": "tfcorewashing:rocky_chunks_gold"
+      },
+      "loot_table": "tfcorewashing:deposit/rocky_chunk/gold"
+    },
+    "loot_table|tfcorewashing:deposit/rocky_chunk/gold": {
+      "type": "minecraft:empty",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:chunks_gold"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/andesite"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/dolomite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/topaz",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.001
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_gold",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/deposit|tfcorewashing:dirty_dust/gold": {
+      "ingredient": {
+        "item": "tfcorewashing:dirty_dust_gold"
+      },
+      "loot_table": "tfcorewashing:deposit/dirty_dust/gold"
+    },
+    "loot_table|tfcorewashing:deposit/dirty_dust/gold": {
+      "type": "minecraft:fishing",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:powder/native_gold",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:pile_yellow_sand",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_gold",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ],
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|railcraft:blocks/blast_furnace_bricks": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "railcraft:blast_furnace_bricks"
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "railcraft:blocks/blast_furnace_bricks"
+    }
+  },
+  "forgeNativeClasses": {
+    "multiBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.MultiBlock"
+    ],
+    "level": [
+      "@minecraft",
+      "net.minecraft.world.level.Level"
+    ]
+  },
+  "forgeNativeCodeSha256": {
+    "multiBlock": "b2576351356595b5a54a0791344fb2933a5bc2a2e9d20230c5a1470696a1d060",
+    "level": "55036e18007ef0124eca0402ce4d71f5b01711da424820ae23998d780370b750"
+  },
+  "scope": "Selected sixteen-normal-ore/four-gold-ingot supplier uses a separately funded sheltered charcoal forge and cold output molds. Unprotected hot-vessel transfer is excluded from this scoped proof."
+}

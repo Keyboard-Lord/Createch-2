@@ -1,0 +1,250 @@
+[pressure]
+	#Master switch for player pressure damage.
+	enabled = true
+	#If Create: Deep Seas has disableImplosion=true, also disable player pressure damage.
+	respectDisableImplosion = true
+	#Rated depth (blocks below the water surface) an unprotected swimmer tolerates.
+	#Below this, damage scales exactly like hull blocks past their maxWaterDepth:
+	#damage/s = baseDamagePerSecond * (depth / unprotectedMaxDepth).
+	#Note: create_submarine's water-surface scan saturates ~400 blocks up, so the
+	#effective depth (and therefore the multiplier) caps out around 400.
+	# Default: 50
+	# Range: 1 ~ 10000
+	unprotectedMaxDepth = 50
+	#Damage per second at 1.0x over-depth multiplier (2.0 = one heart).
+	#For reference: vanilla drowning is 2.0/s. At the default 0.75, crossing your
+	#rated depth starts gentler than drowning; it passes drowning at ~2.7x over.
+	# Default: 0.75
+	# Range: 0.0 ~ 100.0
+	baseDamagePerSecond = 0.75
+	#Damage factor for players INSIDE a still-sealed hull that is past its rated depth
+	#(the creaking/cracking phase). 0 disables interior crush damage entirely;
+	#exposure damage after a breach is unaffected by this.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	interiorDamageFactor = 0.25
+	#Hard cap on pressure damage per second.
+	# Default: 20.0
+	# Range: 1.0 ~ 1000.0
+	maxDamagePerSecond = 20.0
+	#Entities that fully shield their rider from pressure while ridden. For
+	#create_submarine the mod reads real hull ratings instead, but vehicles from
+	#other mods are opaque single entities with no hull to measure -- so riding
+	#one is simply protection. Format: "namespace:entity_id".
+	#Nested riding counts, so a seat inside a listed vehicle still protects.
+	#Entries for absent mods are never matched, so they cost nothing.
+	sealedVehicles = ["alexscaves:submarine"]
+	#Apply brief Nausea while pressure damage is being taken. The screen warp
+	#sells the disorientation, but underwater some players read it as being
+	#knocked around. Set false for damage with no visual effect.
+	nauseaOnDamage = true
+
+	[pressure.difficulty]
+		#Pressure damage multiplier per world difficulty. Environmental damage exists
+		#on peaceful in vanilla (drowning does full damage), but the abyss can be kinder.
+		#hard=1.25 with base 0.75 roughly restores the original 1.0 tuning.
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		peaceful = 0.5
+		# Default: 0.75
+		# Range: 0.0 ~ 10.0
+		easy = 0.75
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		normal = 1.0
+		# Default: 1.25
+		# Range: 0.0 ~ 10.0
+		hard = 1.25
+
+[gear]
+	#Extra rated depth (blocks) per level of Abyssal Adaptation, SUMMED across all
+	#four armor pieces. At the default 5, a full set of level III is 5x3x4 = +60,
+	#which is real progress in a vanilla ocean without eclipsing a diving suit.
+	#It also scales cleanly if a pack raises the level cap: a full set of V (via
+	#Apotheosis, say) is 5x5x4 = +100. Only affects exposure damage, never hull
+	#integrity. Deep packs should raise this rather than the level cap.
+	# Default: 5
+	# Range: 0 ~ 10000
+	enchantDepthPerLevel = 5
+	#Curios/accessories that raise an exposed player's rated depth while equipped.
+	#Format: "namespace:item_id=depth". Requires the Curios API at runtime;
+	#silently ignored when Curios is not installed.
+	equippedBonuses = ["artifacts:snorkel=5"]
+	#Worn armor (any vanilla equipment slot, including Create backtanks in the chest
+	#slot) that raises an exposed player's rated depth. Format: "namespace:item_id=depth".
+	#These are the PARTIAL-set values: what each piece is worth on its own. Wearing a
+	#COMPLETE diving suit instead grants fullSuitRatedDepth below, which is what makes
+	#a real suit worth assembling. Entries for absent mods are never matched, so they
+	#cost nothing.
+	armorBonuses = ["create:copper_diving_helmet=5", "create:copper_backtank=5", "create:copper_diving_boots=5", "create:netherite_diving_helmet=10", "create:netherite_backtank=10", "create:netherite_diving_boots=10", "alexscaves:diving_helmet=5", "alexscaves:diving_chestplate=10", "alexscaves:diving_leggings=10", "alexscaves:diving_boots=5", "aquamirae:salvager_helmet=15", "aquamirae:salvager_suit=20", "aquamirae:salvager_waders=15", "aquamirae:salvager_boots=15"]
+	#Rated depth granted by a COMPLETE diving suit, replacing the sum of the
+	#individual armorBonuses pieces (the higher of the two wins, and the Abyssal
+	#Adaptation enchantment still stacks on top).
+	#130 is chosen so a full suit clears a vanilla ocean column down to y=-64:
+	#the sea surface sits at y=62-63, so the floor measures ~126-127 blocks of
+	#depth. Raise this if your world generates below y=-64.
+	#Pieces may be MIXED between mods -- what matters is that every slot listed
+	#in fullSuitSlots holds something named in armorBonuses.
+	# Default: 130
+	# Range: 0 ~ 10000
+	fullSuitRatedDepth = 130
+	#Which armor slots must all hold armorBonuses items to count as a complete
+	#suit. Defaults to head/chest/feet because that is the common denominator
+	#between diving sets: Create's has no leggings at all (helmet + backtank +
+	#boots) while Alex's Caves' has four pieces. Add "legs" only if every
+	#diving set you ship includes them. Allowed values: head, chest, legs, feet.
+	fullSuitSlots = ["head", "chest", "feet"]
+	#Play a low groan and brief Darkness on exposed players past 80% of their rated
+	#depth (mirrors the 0.8 threshold create_submarine uses for isUnderHighPressure),
+	#as a warning before damage starts. Also: quiet hull ticks for players inside a
+	#sealed sub in the same 80-100% band.
+	pressureWarnings = true
+	#Show an actionbar depth readout to exposed players past half their rated depth,
+	#e.g. "⚓ 732 m ▼ 464 m". Localized on clients that have this mod.
+	depthActionbar = true
+	#Boyle's law for backtanks: while breathing from a Create diving helmet underwater,
+	#drain extra backtank air with depth. Create consumes 1 air/s; this adds
+	#depth/airDrainDoubleDepth extra air/s (fractional = probabilistic), so consumption
+	#is exactly doubled at that depth. Uses the same (saturating) depth scan as pressure.
+	airDrainScaling = true
+	#Depth (blocks) at which backtank air consumption is doubled; scales linearly
+	#below it (e.g. half this depth = 1.5x). The pressure depth scan saturates ~400,
+	#so 400 means 'double at the abyss floor'.
+	# Default: 400
+	# Range: 1 ~ 10000
+	airDrainDoubleDepth = 400
+
+	[gear.bends]
+		#Decompression sickness: time spent exposed below bendsMinDepth builds saturation;
+		#ascending faster than bendsAscentPerSecond with enough saturation causes nausea,
+		#weakness and slowness (no damage). Standing in a create_submarine decompression
+		#chamber drains saturation 10x and clears the symptoms.
+		bendsEnabled = true
+		#Depth (blocks below surface) past which saturation accumulates, 1 point/second.
+		# Default: 100
+		# Range: 1 ~ 10000
+		bendsMinDepth = 100
+		#Seconds of deep exposure before the bends can trigger at all.
+		# Default: 60
+		# Range: 1 ~ 100000
+		bendsMinSaturation = 60
+		#Ascent speed (blocks/second, measured on the 1s pressure tick) that triggers
+		#the bends when saturated. Normal swimming ascends ~1-3; ballast-assisted or
+		#elytra-assisted ascents exceed this.
+		# Default: 12
+		# Range: 1 ~ 1000
+		bendsAscentPerSecond = 12
+
+	[gear.advancements]
+		#Depth below the water surface (blocks) that earns 'Into the Deep'.
+		#Depth-relative so it works at any world depth; sub crews count.
+		# Default: 100
+		# Range: 1 ~ 10000
+		intoTheDeepDepth = 100
+		#EXPOSED depth below the surface (blocks) that earns the Iron Lungs challenge
+		#(outside a sealed hull - your lungs, not the sub's). Tune to your world's
+		#ocean floor; the default suits Deep Seas' deepened oceans.
+		# Default: 350
+		# Range: 1 ~ 10000
+		ironLungsDepth = 350
+
+[hull]
+	#Raise create_submarine's rated depth for specific blocks it underrates.
+	#Its automatic rating is derived from hardness, blast resistance and sound
+	#type, which reads a deep-sea material from another mod as ordinary stone.
+	#Format: "namespace:block=depth". Implosion chance is left untouched.
+	#IMPORTANT: these are PRE-multiplier values, same as submarine_hull.json.
+	#They are then scaled by create_submarine's maxDepthMultiplier, so at 2.1
+	#an entry of 200 resolves to 420 in game. Since the depth scan saturates
+	#around 400, anything resolving past ~400 is effectively abyss-proof.
+	#Applied in memory at server start; this mod never writes their config
+	#file. CAVEAT: create_submarine's own in-game hull config screen saves the
+	#whole table, so editing any block there bakes these overrides into
+	#submarine_hull.json permanently -- after that, deleting an entry here will
+	#not restore the original rating. Unknown block ids are skipped and logged.
+	hullOverrides = []
+
+[spawning]
+	#Natural spawns of these entities REPLACE their placement rule with: in water,
+	#at or below sea level + offset (offset is negative). Fixes surface-OR fallbacks
+	#(Naturalist blobfish/anglerfish) AND surface-only rules (unusualfishmod's
+	#deep-biome fish). Spawn eggs/buckets/spawners are unaffected. Adding entities
+	#requires a restart; changing offsets applies on reload.
+	#Format: "namespace:entity_id=offset".
+	spawnDepthLimits = ["naturalist:blobfish=-33", "naturalist:anglerfish=-33", "unusualfishmod:volt_angler=-33", "unusualfishmod:demon_herring=-33", "unusualfishmod:crimsonshell=-33", "unusualfishmod:trumpet_squid=-33", "unusualfishmod:squoddle=-33", "unusualfishmod:porcupine_lobsta=-33", "aquamirae:anglerfish=-80", "aquamirae:eel=-80", "aquamirae:spinefish=-110", "aquamirae:abyssal_scyphoid=-140"]
+
+[currents]
+	#Thermocline rivers and vortex shafts in the Overworld ocean.
+	#Procedural: a function of position and world time, same contract as
+	#retrofit's jet streams. Nothing is spawned or synced.
+	enabled = true
+	#Horizontal speed at a thermocline core, blocks/tick.
+	#0.08 is about 1.6 b/s — enough to carry a swimmer, not enough to
+	#make swimming against the edge impossible.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	push = 0.08
+	#Vertical speed at a downwelling/upwelling core, blocks/tick.
+	#Downwellings are how the abyss finds you. Upwellings are how you leave.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	vortexPush = 0.05
+	#Vertical extent of one thermocline, core to core.
+	# Default: 28.0
+	# Range: 4.0 ~ 256.0
+	thickness = 28.0
+	#Horizontal width of one thermocline corridor.
+	# Default: 48.0
+	# Range: 8.0 ~ 1024.0
+	width = 48.0
+	#Distance between adjacent corridors across their axis.
+	# Default: 192.0
+	# Range: 32.0 ~ 4096.0
+	spacing = 192.0
+	#How far a corridor snakes off its axis.
+	# Default: 64.0
+	# Range: 0.0 ~ 1024.0
+	meander = 64.0
+	#Blocks of travel per full meander cycle.
+	# Default: 280.0
+	# Range: 32.0 ~ 8192.0
+	wavelength = 280.0
+	#Blocks/tick the whole pattern slides. Tiny on purpose, like the jet streams.
+	# Default: 4.0E-4
+	# Range: 0.0 ~ 1.0
+	drift = 4.0E-4
+	#Currents ignore anything shallower than this. Surface boats stay boats.
+	# Default: 16.0
+	# Range: 0.0 ~ 256.0
+	minDepth = 16.0
+	#Lattice spacing of the vertical shafts.
+	# Default: 160.0
+	# Range: 32.0 ~ 4096.0
+	vortexSpacing = 160.0
+	#How wide a shaft is at the core.
+	# Default: 18.0
+	# Range: 4.0 ~ 256.0
+	vortexRadius = 18.0
+	#Depths below sea level of each thermocline core.
+	#Defaults sit at the shelf, the mid-column, the pressure-warning band,
+	#and the crush-depth saturation floor (~400).
+	depths = [36, 110, 220, 380]
+	#Dimensions that have currents. The Overworld alone by default, but nothing
+	#about the maths is Overworld-specific -- add any dimension with an ocean
+	#worth swimming in. Depths are measured against that dimension's sea level.
+	#An empty list disables currents everywhere.
+	dimensions = ["minecraft:overworld", "sgjourney:lantea"]
+	#Seconds of continuous riding to earn the In the Stream advancement.
+	# Default: 5
+	# Range: 1 ~ 600
+	rideSeconds = 5
+	#How close to a current's core counts as riding it, 0-1. Below this you are
+	#in the margin rather than the stream, and the timer resets.
+	# Default: 0.45
+	# Range: 0.0 ~ 1.0
+	rideStrength = 0.45
+	#Sound a distinct, lower alarm when a downwelling shaft is carrying you past
+	#your rated depth, rather than the ordinary deep-water warning. Without it a
+	#player dragged under has no way to tell being deep from being taken deeper.
+	#Requires pressureWarnings.
+	downwellingWarning = true

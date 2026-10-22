@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SLS",
+    "L L",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "L": {
+      "tag": "c:leathers"
+    }
+  },
+  "result": {
+    "id": "minecraft:bundle",
+    "count": 1
+  }
+}

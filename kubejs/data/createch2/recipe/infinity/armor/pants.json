@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "NNNNN",
+    "NIXIN",
+    "NI IN",
+    "NI IN",
+    "NI IN"
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_pants",
+    "count": 1
+  },
+  "tier": 4
+}

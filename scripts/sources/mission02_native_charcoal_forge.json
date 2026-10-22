@@ -1,0 +1,103 @@
+{
+  "scope": "Shared installed TFC charcoal-forge, manual bellows, mold and TFCHotOrNot native bindings",
+  "nativeClasses": {
+    "forge": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.CharcoalForgeBlockEntity"
+    ],
+    "forgeBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.CharcoalForgeBlock"
+    ],
+    "forgeBlockV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.CharcoalForgeBlock",
+      true
+    ],
+    "bellows": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.BellowsBlockEntity"
+    ],
+    "bellowsBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.BellowsBlock"
+    ],
+    "bellowsConsumer": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.IBellowsConsumer"
+    ],
+    "offset": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.IBellowsConsumer$Offset"
+    ],
+    "heat": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.HeatCapability"
+    ],
+    "heatComponent": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.heat.HeatComponent"
+    ],
+    "baseCalendar": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.calendar.Calendar"
+    ],
+    "calendar": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.calendar.ServerCalendar"
+    ],
+    "helpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Helpers"
+    ],
+    "mold": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.mold.Mold"
+    ],
+    "fluidComponent": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.fluid.FluidComponent"
+    ],
+    "events": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler"
+    ],
+    "moldItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.MoldItem"
+    ],
+    "hotEvents": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.EventHandler"
+    ],
+    "placement": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.BlockItemPlacement"
+    ],
+    "interactions": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.InteractionManager"
+    ]
+  },
+  "nativeCodeSha256": {
+    "forge": "b0ab71150ee79989aed9df020509f15ddaac76f6647d77aea4eae0aa9ba6f247",
+    "forgeBlock": "b5cb5beedbc249c5be2555d31243d4f98cf28ecfec417628d5b30c6c9cadc6da",
+    "forgeBlockV": "bd144d74183660cf0415fd2c61f3b2ac375aa993fad4e8cf82dcf1b8b8caa0a9",
+    "bellows": "8a335c075bddbd1eecec6414f28f7b332785f72bab87e6790b3e48388ee7cf2e",
+    "bellowsBlock": "461bedd401528504fc4305388fb24186e4b0b48001c94eb35aceee505fd6f804",
+    "bellowsConsumer": "839f02eff4e6d6e55ed065f7ff04c98a19123669263dcd62f05f36180dcccda4",
+    "offset": "c5f8528276cff06908ca12791ba3fc31490c71027afb075e5b162ecd5a7bcfcb",
+    "heat": "d703fba7b9c8ca2e4e8c9efc5387cc2ab443064080a512a4445f1c229d6a965a",
+    "heatComponent": "5e88d2b9b1a2ea1df3e4685ac74791d418d685c86673ee1a0d3cc1088430361b",
+    "baseCalendar": "c0fffff29d5b76e8f8b8c80ce834c8d17975643a780960779f72b16cd66bcbfc",
+    "calendar": "c0f831b90b38baf8c21f074e4537776add717a9ede17238f888ca0de4caf17f6",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "mold": "c14e9ca5e8797afc7e75848c1c1e387fddd0059447483648d7cca8d081c5260a",
+    "fluidComponent": "539b29fa033a6e9586fb4673e69d0cf27f9b513359c6836ff5118464139aea9c",
+    "events": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "moldItem": "244d1547eb5c02a2b7043a99e2c7ebb9a83ebdec21df18a0b3e601a1f8f77dea",
+    "hotEvents": "6b64ce90401ae84ce9c7abde69dc8c51612e30dcc67b45f3eda745e3dc2193e2",
+    "placement": "28ae27eccdac245347ecabdd134b35d13fb1293bf12ffbd9e0ae4673a75f0b62",
+    "interactions": "93113bf654159dd4bfd377432e6233d82fb1ed354360af9bba132373cd7c2458"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:brass_ingot"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:mat_01_bronze_metallurgy",
+    "createch2:thm_01_boiler_science"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_02_brass_engineering.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_02_brass_engineering.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:age_foundation/foundry/brass_foundry_batch",
+      "createch2:age_foundation/foundry/brass_sheet_from_foundry_brass",
+      "createch2:age_foundation/foundry/brass_casing_from_foundry_brass",
+      "greate:integration/createch2/age_foundation/foundry/brass_foundry_batch",
+      "greate:integration/createch2/age_foundation/foundry/brass_sheet_from_foundry_brass",
+      "greate:integration/createch_2_/age_foundation/foundry/brass_foundry_batch",
+      "greate:integration/createch_2_/age_foundation/foundry/brass_sheet_from_foundry_brass"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:physical_rings/black_bronze"
+  },
+  "second_input": {
+    "tag": "c:physical_rings/black_bronze"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_metal_tools:black_bronze_pommel"
+  }
+}

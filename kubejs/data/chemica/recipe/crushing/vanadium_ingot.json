@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/vanadium"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:vanadium_dust"
+    }
+  ]
+}

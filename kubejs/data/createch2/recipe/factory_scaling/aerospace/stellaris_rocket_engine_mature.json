@@ -1,0 +1,56 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 2000,
+  "item_inputs": [
+    {
+      "item": "rocketnautics:rocket_thruster",
+      "amount": 2
+    },
+    {
+      "item": "rocketnautics:titanium_nozzle",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 4
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:titanium_plate",
+      "amount": 8
+    },
+    {
+      "item": "electroenergetics:hanging_glass_insulator",
+      "amount": 8
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 2000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "stellaris:rocket_engine",
+      "amount": 2
+    }
+  ]
+}

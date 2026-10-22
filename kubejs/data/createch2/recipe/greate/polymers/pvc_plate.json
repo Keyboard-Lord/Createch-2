@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:compacting",
+  "recipe_tier": 2,
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:polyvinyl_chloride_plate"
+    }
+  ]
+}

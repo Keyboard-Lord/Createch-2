@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:copper_rod"
+    }
+  ],
+  "processing_time": 100,
+  "recipe_tier": 0
+}

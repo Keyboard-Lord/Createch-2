@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/antimony"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/antimony",
+    "amount": 50
+  },
+  "temperature": 630,
+  "use_durability": false
+}

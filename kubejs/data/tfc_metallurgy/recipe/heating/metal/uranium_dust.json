@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_dusts/uranium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/uranium",
+    "amount": 5
+  },
+  "temperature": 1100,
+  "use_durability": false
+}

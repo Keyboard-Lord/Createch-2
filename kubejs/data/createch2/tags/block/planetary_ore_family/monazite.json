@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_monazite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_monazite/granite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "service": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "sgjourney:lantea",
+                "position": {
+                  "y": {
+                    "max": 32
+                  }
+                }
+              },
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "crush_depth:abyss/root": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "create_submarine:decompression_chamber"
+          },
+          {
+            "items": "create_submarine:industrial_alarm"
+          },
+          {
+            "items": "create_submarine:oxygene_diffuser"
+          },
+          {
+            "items": "aquamirae:oxyhelium",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "service"
+    ]
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:heavy_plate"
+  },
+  "transitional_item": {
+    "id": "tfmg:unfinished_steel_mechanism"
+  },
+  "loops": 3,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_steel_mechanism"
+        },
+        {
+          "item": "tfmg:steel_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_steel_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "tfmg:lubrication_oil"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_steel_mechanism"
+        },
+        {
+          "tag": "c:plates/nickel"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_steel_mechanism"
+        },
+        {
+          "tag": "c:plates/lead"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_steel_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_steel_mechanism"
+        }
+      ],
+      "recipe_tier": 1
+    }
+  ],
+  "results": [
+    {
+      "chance": 120,
+      "id": "tfmg:steel_mechanism"
+    },
+    {
+      "chance": 4,
+      "id": "tfmg:heavy_plate"
+    },
+    {
+      "chance": 2,
+      "id": "tfmg:steel_ingot"
+    }
+  ]
+}

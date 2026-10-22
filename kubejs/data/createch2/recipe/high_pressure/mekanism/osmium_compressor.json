@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "CHC",
+    "TAT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "A": {
+      "item": "mekanism:advanced_chemical_tank"
+    }
+  },
+  "result": {
+    "id": "mekanism:osmium_compressor",
+    "count": 1
+  }
+}

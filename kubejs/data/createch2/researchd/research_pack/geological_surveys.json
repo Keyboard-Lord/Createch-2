@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 121,
+    "g": 151,
+    "b": 84
+  },
+  "sorting_value": 80,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.geological_surveys.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.geological_surveys.description"
+    }
+  }
+}

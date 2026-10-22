@@ -1,0 +1,126 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "ae2:quantum_link"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:frontier_observations"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:com_05_distributed_computation",
+    "createch2:ele_05_extreme_power_systems",
+    "createch2:frn_03_frontier_observation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.com_06_quantum_computation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.com_06_quantum_computation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:circuit_assembler/greg_2048/processors/quantum_processor",
+      "createch2:quantum/ae2/quantum_link_workpiece",
+      "createch2:quantum/ae2/quantum_link_assembly",
+      "createch2:research/pack/computational_models_quantum",
+      "createch2:mobility/aperture/portal_gun",
+      "createch2:mobility/aperture/portal_gun_atlas",
+      "createch2:mobility/aperture/portal_gun_pbody",
+      "createch2:mobility/aperture/portal_gun_reloaded",
+      "createch2:mobility/hologenica/telepad",
+      "createch2:greate/tier_5/cogwheel",
+      "createch2:greate/tier_5/crushing_wheel",
+      "createch2:greate/tier_5/encased_fan",
+      "createch2:greate/tier_5/gearbox",
+      "createch2:greate/tier_5/horizontal_gearbox",
+      "createch2:greate/tier_5/large_cogwheel",
+      "createch2:greate/tier_5/mechanical_mixer",
+      "createch2:greate/tier_5/mechanical_press",
+      "createch2:greate/tier_5/mechanical_pump",
+      "createch2:greate/tier_5/mechanical_saw",
+      "createch2:greate/tier_5/millstone",
+      "createch2:greate/tier_5/shaft_cutting",
+      "createch2:greate/tier_5/vertical_gearbox",
+      "createch2:greate/factory/wire_coating_controller",
+      "createch2:factory_scaling/controls/quantum_circuit_board_batch",
+      "createch2:greate/suppliers/tungsten_steel_refining",
+      "createch2:greate/suppliers/tungsten_steel_reprocessing",
+      "createch2:greate/suppliers/tungsten_steel_plate",
+      "createch2:material_forming/tungsten_steel_tiny_dust_compaction",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_cogwheel",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_crushing_wheel",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_encased_fan",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_gearbox",
+      "createch2:material_recycling/greate_tungsten_steel/large_tungsten_steel_cogwheel",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_mechanical_mixer",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_mechanical_press",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_mechanical_pump",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_mechanical_saw",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_millstone",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_shaft",
+      "createch2:material_recycling/greate_tungsten_steel/tungsten_steel_vertical_gearbox",
+      "createch2:greate/suppliers/platinum_fine_wire",
+      "createch2:laser_engraver/greate_precision/nor_memory_wafer",
+      "createch2:laser_engraver/greate_precision/nor_memory_chip",
+      "createch2:circuit_assembler/greate_precision/quantum_processor_assembly",
+      "createch2:circuit_assembler/greate_precision/quantum_processor_computer",
+      "createch2:material_recycling/quantum_chassis/quantum_machine_casing",
+      "createch2:material_recycling/quantum_chassis/quantum_machine_hull",
+      "createch2:material_recycling/quantum_chassis/quantum_upgrade",
+      "createch2:material_recycling/precision_gateway/iv_circuit_assembler",
+      "createch2:material_recycling/precision_gateway/iv_laser_engraver",
+      "createch2:material_recycling/precision_gateway/iv_scanner",
+      "createch2:material_recycling/precision_gateway/iv_1a_energy_converter",
+      "createch2:material_recycling/precision_gateway/iv_energy_input_hatch",
+      "createch2:material_recycling/precision_gateway/iv_input_bus",
+      "createch2:material_recycling/precision_gateway/iv_output_bus",
+      "createch2:material_recycling/precision_gateway/iv_input_hatch",
+      "createch2:material_recycling/precision_gateway/iv_output_hatch",
+      "createch2:material_recycling/native_utilities/maintenance_hatch",
+      "createch2:material_recycling/native_utilities/cleanroom",
+      "createch2:greg_gateway/cleanroom/plascrete",
+      "createch2:greg_gateway/research/computer_casing",
+      "createch2:greg_gateway/research/computer_heat_vent",
+      "createch2:circuit_assembler/greg_4096/research/optical_pipe_bootstrap",
+      "createch2:greg_gateway/assembly_line/tempered_glass",
+      "createch2:greg_gateway/assembly_line/acetic_acid",
+      "createch2:greg_gateway/assembly_line/vinyl_acetate",
+      "createch2:greg_gateway/assembly_line/polyvinyl_acetate",
+      "createch2:greg_gateway/assembly_line/butyraldehyde",
+      "createch2:greg_gateway/assembly_line/polyvinyl_butyral",
+      "createch2:greg_gateway/assembly_line/polyvinyl_butyral_plate",
+      "createch2:greg_gateway/assembly_line/laminated_glass",
+      "createch2:research_station/greg_4096/research/gtceu/iv_conveyor_module",
+      "createch2:research_station/greg_4096/research/gtceu/iv_robot_arm",
+      "createch2:research_station/greg_4096/research/gtceu/iv_sensor",
+      "createch2:research_station/greg_4096/research/gtceu/iv_emitter",
+      "createch2:research_station/greg_4096/research/gtceu/iv_field_generator",
+      "createch2:research_station/greg_4096/research/gtceu/quantum_processor",
+      "createch2:research_station/greg_4096/research/gtceu/crystal_soc",
+      "createch2:research_station/greg_4096/research/modern_industrialization/processing_unit",
+      "createch2:research_station/greg_4096/research/modern_industrialization/quantum_circuit",
+      "createch2:research_station/greg_4096/research/rocketnautics/rocket_thruster",
+      "createch2:research_station/greg_4096/research/sgjourney/crystallizer",
+      "createch2:greg_gateway/assembly_line/single_input_bus",
+      "createch2:assembly_line/greg_4096/processors/crystal_soc",
+      "createch2:assembly_line/greg_4096/processors/crystal_processor"
+    ]
+  }
+}

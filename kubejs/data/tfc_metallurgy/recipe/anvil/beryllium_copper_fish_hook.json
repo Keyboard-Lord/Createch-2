@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/fish_hook/beryllium_copper"
+  },
+  "tier": 3,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "ingredient": {
+    "tag": "c:sheets/beryllium_copper"
+  },
+  "apply_bonus": true
+}

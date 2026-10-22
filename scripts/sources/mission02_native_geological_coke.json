@@ -1,0 +1,1192 @@
+{
+  "scope": "Native steel-free geological coking with CO2 venting,32quest coke retained and3fresh coke dust for first steel; first steel remains separate",
+  "nativeClasses": {
+    "cokeOven": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.coke_oven.CokeOvenBlockEntity",
+      false
+    ],
+    "cokeOvenBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.coke_oven.CokeOvenBlock",
+      false
+    ],
+    "cokeOvenBlockV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.coke_oven.CokeOvenBlock",
+      true
+    ],
+    "exhaust": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.exhaust.ExhaustBlockEntity",
+      false
+    ],
+    "exhaustBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.exhaust.ExhaustBlock",
+      false
+    ],
+    "wallMount": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.blocks.WallMountBlock",
+      false
+    ],
+    "coreExhaust": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.TfmgExhaustChimneyMixin",
+      false
+    ],
+    "coreExhaustV": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.TfmgExhaustChimneyMixin",
+      true
+    ],
+    "chute": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.chute.ChuteBlockEntity",
+      false
+    ],
+    "chuteBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.chute.ChuteBlock",
+      false
+    ],
+    "chuteItem": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.chute.ChuteItemHandler",
+      false
+    ],
+    "abstractChute": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.chute.AbstractChuteBlock",
+      false
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "cokeOvenV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.coke_oven.CokeOvenBlockEntity",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "cokeOven": "efdf62323ee99bb59ade17e95d932cddea5fea12a30a81b4d28b96682727c0b4",
+    "cokeOvenBlock": "b95047f82f8f42990671eac9257f623e4a8e0b21a93cd8b5a2ef6bbb33cc14fa",
+    "cokeOvenBlockV": "6c8a3f9c3ed1a832268192b870b3ec07fc2f2c7c44b63459e2849a7d6a067b48",
+    "exhaust": "c9ce9616b5ab5fbef9031c9d3bd1693a606486ff2643d04c985dab62d9808e0d",
+    "exhaustBlock": "a47d38e8a4c7faaa9cfb3732f24f0ca869ffaff627372e73784adf6b7068291d",
+    "wallMount": "cb8ad4e7755ee17c7aa93aacdf222e7e65fb5a58e53c5c40f1042db7d45f0280",
+    "coreExhaust": "504415cb8e1dd59ab532b84566c6e9ab890f46f3575b02cdfdb548ec1fce56a3",
+    "coreExhaustV": "cf1a1ec1ccd751a80c6283c9663ad2cd588c65f157e7b40ecf9fad087d21ff31",
+    "chute": "d3c7769630f557229ff6dc7c0ca6f0bff5f7d27a53238402ac7f17943f3f288f",
+    "chuteBlock": "dc65054df6e4d0c8f83e985405d50b549e9ffc18689f3decc40a11a5a1932ca2",
+    "chuteItem": "b2b7986c507bed0dd190ac15eeb3efe3d3620b2d84a44e62d0fd68efe0531939",
+    "abstractChute": "fbde36c9823d446b87c6c8c0933f348da5e4dfa2cd7b3b4dfc8a08213ac8ea37",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "cokeOvenV": "74e71b1f16b637ca496561efbd11d300efa1cbd37c5353e43bbc309120e267d3"
+  },
+  "ids": {
+    "oven": "tfmg:crafting/materials/coke_oven",
+    "exhaust": "tfmg:crafting/materials/exhaust",
+    "ironBars": "minecraft:iron_bars",
+    "chute": "create:crafting/kinetics/chute",
+    "ironBlock": "create:industrial_iron_block_from_ingots_iron_stonecutting",
+    "castPipe": "tfmg:crafting/materials/cast_iron_pipe",
+    "fluidPipe": "createch2:age_foundation/mi_bronze/fluid_pipe",
+    "coking": "createch2:heavy_industry/tfmg/process_gas_coking",
+    "cokeDust": "tfmg:crushing/coal_coke",
+    "waterWheel": "createch2:age_foundation/create/water_wheel",
+    "largeCog": "createch2:greate/tier_0/large_cogwheel",
+    "foundryLid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "pressCraft": "createch2:age_foundation/create/mechanical_press",
+    "depot": "create:crafting/kinetics/depot",
+    "wrench": "createch2:age_foundation/create/wrench",
+    "plate": "createch2:greate/tier_0/andesite_plate"
+  },
+  "recipes": {
+    "tfmg:crafting/materials/coke_oven": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "I": {
+          "item": "create:industrial_iron_block"
+        }
+      },
+      "pattern": [
+        " C ",
+        "CIC",
+        " C "
+      ],
+      "result": {
+        "count": 2,
+        "id": "tfmg:coke_oven"
+      }
+    },
+    "tfmg:crafting/materials/exhaust": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "minecraft:iron_bars"
+        },
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "BPB",
+        "BPB",
+        "CPC"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:exhaust"
+      }
+    },
+    "minecraft:iron_bars": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "###",
+        "###"
+      ],
+      "result": {
+        "count": 16,
+        "id": "minecraft:iron_bars"
+      }
+    },
+    "create:crafting/kinetics/chute": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:plates/iron"
+        },
+        "I": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "A",
+        "I",
+        "A"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create:chute"
+      }
+    },
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "tag": "c:ingots/iron"
+      },
+      "result": {
+        "count": 2,
+        "id": "create:industrial_iron_block"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        "   ",
+        "PIP",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfmg:cast_iron_pipe"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "createch2:heavy_industry/tfmg/process_gas_coking": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:coking",
+      "ingredients": [
+        {
+          "tag": "createch2:geology/coking_coal"
+        }
+      ],
+      "processing_time": 1200,
+      "results": [
+        {
+          "id": "tfmg:coal_coke"
+        },
+        {
+          "amount": 30,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    },
+    "tfmg:crushing/coal_coke": {
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "item": "tfmg:coal_coke"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:coal_coke_dust"
+        }
+      ]
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/large_cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:large_andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " S ",
+        " C ",
+        " D "
+      ],
+      "key": {
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "D": {
+          "item": "tfc:metal/double_sheet/copper"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_press",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "createch2:greate/tier_0/andesite_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:pressing",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "greate:andesite_alloy_plate"
+        }
+      ]
+    },
+    "createch2:age_foundation/create/wrench": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GG",
+        "GP",
+        " S"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:plates/gold"
+        },
+        "P": {
+          "tag": "c:createch2_kinetics/cogwheel/andesite_alloy"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "result": {
+        "id": "create:wrench",
+        "count": 1
+      }
+    }
+  },
+  "kinds": {
+    "tfmg:crafting/materials/coke_oven": "native",
+    "tfmg:crafting/materials/exhaust": "native",
+    "minecraft:iron_bars": "native",
+    "create:crafting/kinetics/chute": "native",
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": "native",
+    "tfmg:crafting/materials/cast_iron_pipe": "native",
+    "createch2:age_foundation/mi_bronze/fluid_pipe": "authored",
+    "createch2:heavy_industry/tfmg/process_gas_coking": "authored",
+    "tfmg:crushing/coal_coke": "native",
+    "createch2:age_foundation/create/water_wheel": "authored",
+    "createch2:greate/tier_0/large_cogwheel": "authored",
+    "createch2:age_foundation/foundry/basin_foundry_lid": "authored",
+    "createch2:age_foundation/create/mechanical_press": "authored",
+    "create:crafting/kinetics/depot": "native",
+    "createch2:greate/tier_0/andesite_plate": "authored",
+    "createch2:age_foundation/create/wrench": "authored"
+  },
+  "nativeRows": {
+    "tfmg:crafting/materials/coke_oven": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "C": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "I": {
+              "item": "create:industrial_iron_block"
+            }
+          },
+          "pattern": [
+            " C ",
+            "CIC",
+            " C "
+          ],
+          "result": {
+            "count": 2,
+            "id": "tfmg:coke_oven"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/exhaust": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "minecraft:iron_bars"
+            },
+            "C": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "item": "tfmg:cast_iron_pipe"
+            }
+          },
+          "pattern": [
+            "BPB",
+            "BPB",
+            "CPC"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfmg:exhaust"
+          }
+        }
+      }
+    ],
+    "minecraft:iron_bars": [
+      {
+        "provider": "neoforge-21.1.256-universal.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "#": {
+              "tag": "c:ingots/iron"
+            }
+          },
+          "pattern": [
+            "###",
+            "###"
+          ],
+          "result": {
+            "count": 16,
+            "id": "minecraft:iron_bars"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "#": {
+              "item": "minecraft:iron_ingot"
+            }
+          },
+          "pattern": [
+            "###",
+            "###"
+          ],
+          "result": {
+            "count": 16,
+            "id": "minecraft:iron_bars"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/chute": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "A": {
+              "tag": "c:plates/iron"
+            },
+            "I": {
+              "tag": "c:ingots/iron"
+            }
+          },
+          "pattern": [
+            "A",
+            "I",
+            "A"
+          ],
+          "result": {
+            "count": 4,
+            "id": "create:chute"
+          }
+        }
+      }
+    ],
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/iron"
+          },
+          "result": {
+            "count": 2,
+            "id": "create:industrial_iron_block"
+          }
+        }
+      }
+    ],
+    "tfmg:crafting/materials/cast_iron_pipe": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "I": {
+              "tag": "c:ingots/cast_iron"
+            },
+            "P": {
+              "tag": "c:plates/cast_iron"
+            }
+          },
+          "pattern": [
+            "   ",
+            "PIP",
+            "   "
+          ],
+          "result": {
+            "count": 4,
+            "id": "tfmg:cast_iron_pipe"
+          }
+        }
+      }
+    ],
+    "tfmg:crushing/coal_coke": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "create:crushing",
+          "ingredients": [
+            {
+              "item": "tfmg:coal_coke"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:coal_coke_dust"
+            }
+          ]
+        }
+      }
+    ],
+    "create:crafting/kinetics/depot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "create:andesite_alloy"
+            },
+            {
+              "item": "create:andesite_casing"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:depot"
+          }
+        }
+      }
+    ]
+  },
+  "questBinding": {
+    "chapter": "config/ftbquests/quests/chapters/createch2_05_age_04_heavy_industry.snbt",
+    "quest": "024F0B82259320A0",
+    "task": {
+      "count": "32L",
+      "id": "032959DF15BB51EC",
+      "item": {
+        "count": "1",
+        "id": "tfmg:coal_coke"
+      },
+      "type": "item"
+    }
+  },
+  "gasTag": {
+    "id": "tfmg:exhaustable",
+    "nativeRows": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "values": [
+            "tfmg:flowing_carbon_dioxide",
+            "tfmg:carbon_dioxide"
+          ]
+        }
+      }
+    ]
+  },
+  "scene": {
+    "oven": [
+      0,
+      0,
+      0
+    ],
+    "facing": "NORTH",
+    "nativeSize": 1,
+    "feedChute": [
+      0,
+      1,
+      0
+    ],
+    "feedClear": [
+      0,
+      2,
+      0
+    ],
+    "frontOutput": [
+      0,
+      0,
+      -1
+    ],
+    "frontClear": true,
+    "exhaust": [
+      3,
+      0,
+      0
+    ],
+    "exhaustFacing": "UP",
+    "exhaustSupport": [
+      3,
+      -1,
+      0
+    ],
+    "exhaustClear": [
+      3,
+      1,
+      0
+    ],
+    "pipes": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "ports": [
+      {
+        "node": [
+          1,
+          0,
+          0
+        ],
+        "block": [
+          0,
+          0,
+          0
+        ],
+        "machineFace": "EAST",
+        "mode": "BLOCK_OUT"
+      },
+      {
+        "node": [
+          2,
+          0,
+          0
+        ],
+        "block": [
+          3,
+          0,
+          0
+        ],
+        "machineFace": "WEST",
+        "mode": "BLOCK_IN"
+      }
+    ],
+    "nativeMaxSize": 5,
+    "plateStation": {
+      "source": [
+        -30,
+        0,
+        0
+      ],
+      "shaft": [
+        -29,
+        0,
+        0
+      ],
+      "press": [
+        -28,
+        0,
+        0
+      ],
+      "depot": [
+        -28,
+        -2,
+        0
+      ],
+      "axis": "X",
+      "rpm": 8,
+      "pressImpact": 1,
+      "load": 8,
+      "capacity": 8
+    },
+    "localCoordinates": true,
+    "translateOtherModulesAwayFromGasLoop": true
+  },
+  "quantityPlan": {
+    "minedBituminousCoal": 35,
+    "cokingRuns": 35,
+    "cokeProduced": 35,
+    "questCokeRetained": 32,
+    "cokeCrushed": 3,
+    "cokeDust": 3,
+    "cokingDurationPerSingleOvenRun": 1200,
+    "cokingCallsPerIsolatedRun": 1201,
+    "cokingCallsExcludingFeedAndRecoveryGaps": 42035,
+    "gasProgressCalls": 42000,
+    "co2RateMb": 30,
+    "co2ProducedAndVentedMb": 1260000,
+    "cokingGasRetainedMb": 0,
+    "ovenPrimaryMb": 8000,
+    "ovenSecondaryMb": 8000,
+    "exhaustMb": 4000,
+    "exhaustDrainPerCallMb": 500,
+    "pipeBlocks": 2,
+    "pipeCrafts": 1,
+    "pipesProduced": 12,
+    "sparePipes": 10,
+    "pipeBronzeCurvedPlates": 6,
+    "pipeCopperRotors": 2,
+    "pipeGlassPanes": 1,
+    "ovenCrafts": 1,
+    "ovensProduced": 2,
+    "ovensPlaced": 1,
+    "spareOvens": 1,
+    "ironBarsCrafts": 1,
+    "ironBarsProduced": 16,
+    "ironBarsConsumed": 4,
+    "spareIronBars": 12,
+    "castPipeCrafts": 1,
+    "castPipesProduced": 4,
+    "castPipesConsumed": 3,
+    "spareCastPipes": 1,
+    "gasApparatusCastIronIngots": 7,
+    "gasApparatusCastIronPlates": 2,
+    "gasApparatusOrdinaryIronIngots": 7,
+    "industrialIronBlocksProduced": 2,
+    "industrialIronBlocksConsumed": 1,
+    "spareIndustrialIronBlocks": 1,
+    "feedChutes": 1,
+    "scope": "One native oven and exhaust plus feed/gas-handling apparatus. The existing grid/crushing drives and their manufacturing are composed separately; upstream non-steel metals/components/research and actual collected ore/inventory remain boundaries. Feed and collect one batch at a time; no assumption that35raw coal fit in one stack.",
+    "chuteCrafts": 1,
+    "chutesProduced": 4,
+    "crusherFeedChutes": 2,
+    "totalChutesUsed": 3,
+    "spareChutes": 1,
+    "chuteOrdinaryIronIngots": 1,
+    "chuteIronPlates": 2,
+    "gasAndChuteOrdinaryIronIngots": 8,
+    "platePressRuns": 4,
+    "platePressAndesiteAlloy": 4,
+    "platePressPlates": 4,
+    "wheelCrafts": 1,
+    "crushingWheels": 2,
+    "pressStationIndependentWaterWheels": 1,
+    "totalEarlyIndependentWaterWheels": 4,
+    "totalPlacedEarlyShafts": 15
+  },
+  "effectiveRecipes": {
+    "tfmg:crafting/materials/coke_oven": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "I": {
+          "item": "create:industrial_iron_block"
+        }
+      },
+      "pattern": [
+        " C ",
+        "CIC",
+        " C "
+      ],
+      "result": {
+        "count": 2,
+        "id": "tfmg:coke_oven"
+      }
+    },
+    "tfmg:crafting/materials/exhaust": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "minecraft:iron_bars"
+        },
+        "C": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "BPB",
+        "BPB",
+        "CPC"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:exhaust"
+      }
+    },
+    "minecraft:iron_bars": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "###",
+        "###"
+      ],
+      "result": {
+        "count": 16,
+        "id": "minecraft:iron_bars"
+      }
+    },
+    "create:crafting/kinetics/chute": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:plates/iron"
+        },
+        "I": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "A",
+        "I",
+        "A"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create:chute"
+      }
+    },
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "tag": "c:ingots/iron"
+      },
+      "result": {
+        "count": 2,
+        "id": "create:industrial_iron_block"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        "   ",
+        "PIP",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfmg:cast_iron_pipe"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/fluid_pipe": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "RGR",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "item": "modern_industrialization:bronze_curved_plate"
+        },
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:glass_panes"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 12
+      }
+    },
+    "createch2:heavy_industry/tfmg/process_gas_coking": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "tfmg:coking",
+      "ingredients": [
+        {
+          "tag": "createch2:geology/coking_coal"
+        }
+      ],
+      "processing_time": 1200,
+      "results": [
+        {
+          "id": "tfmg:coal_coke"
+        },
+        {
+          "amount": 30,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    },
+    "tfmg:crushing/coal_coke": {
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "item": "tfmg:coal_coke"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:coal_coke_dust"
+        }
+      ]
+    },
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/large_cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:large_andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/create/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " S ",
+        " C ",
+        " D "
+      ],
+      "key": {
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "D": {
+          "item": "tfc:metal/double_sheet/copper"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_mechanical_press",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    },
+    "createch2:greate/tier_0/andesite_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:pressing",
+      "recipe_tier": 0,
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "greate:andesite_alloy_plate"
+        }
+      ]
+    },
+    "createch2:age_foundation/create/wrench": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GG",
+        "GP",
+        " S"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:plates/gold"
+        },
+        "P": {
+          "tag": "c:createch2_kinetics/cogwheel/andesite_alloy"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "result": {
+        "id": "create:wrench",
+        "count": 1
+      }
+    }
+  },
+  "normalizations": {
+    "tfmg:crafting/materials/coke_oven": [],
+    "tfmg:crafting/materials/exhaust": [],
+    "minecraft:iron_bars": [],
+    "create:crafting/kinetics/chute": [],
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": [],
+    "tfmg:crafting/materials/cast_iron_pipe": [],
+    "createch2:age_foundation/mi_bronze/fluid_pipe": [],
+    "createch2:heavy_industry/tfmg/process_gas_coking": [],
+    "tfmg:crushing/coal_coke": [],
+    "createch2:age_foundation/create/water_wheel": [],
+    "createch2:greate/tier_0/large_cogwheel": [],
+    "createch2:age_foundation/foundry/basin_foundry_lid": [],
+    "createch2:age_foundation/create/mechanical_press": [],
+    "create:crafting/kinetics/depot": [],
+    "createch2:greate/tier_0/andesite_plate": [],
+    "createch2:age_foundation/create/wrench": []
+  }
+}

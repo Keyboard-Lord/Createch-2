@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "PAP",
+    "BFB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "F": {
+      "item": "greate:titanium_encased_fan"
+    }
+  },
+  "result": {
+    "id": "aeronautics_utility_objects:hydraulic_regulator",
+    "count": 1
+  }
+}

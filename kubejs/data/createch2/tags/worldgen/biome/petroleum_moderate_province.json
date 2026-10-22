@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:chulak_eucalyptus_forest",
+    "createch2:chulak_baobab_savanna",
+    "createch2:chulak_dry_bushland",
+    "createch2:chulak_arid_mountains"
+  ]
+}

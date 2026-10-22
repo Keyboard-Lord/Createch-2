@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "TAT",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "E": {
+      "item": "chemica:platinum_electrode"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "A": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "mekanism:electrolytic_core",
+    "count": 1
+  }
+}

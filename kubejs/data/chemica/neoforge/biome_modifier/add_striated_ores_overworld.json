@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:chemica_worldgen_disabled",
+  "features": "chemica:chemica_striated_ores_overworld",
+  "step": "underground_ores"
+}

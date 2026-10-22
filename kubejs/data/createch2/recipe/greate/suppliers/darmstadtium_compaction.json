@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "alchemistry:compactor",
+  "group": "alchemistry:compactor",
+  "input": {
+    "count": 16,
+    "ingredient": {
+      "item": "chemlib:darmstadtium"
+    }
+  },
+  "result": {
+    "item": "gtceu:darmstadtium_dust"
+  }
+}

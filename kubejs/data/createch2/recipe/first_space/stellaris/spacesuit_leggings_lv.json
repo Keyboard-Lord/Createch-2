@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "W W",
+    "R R"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:space_suit_leggings",
+    "count": 1
+  }
+}

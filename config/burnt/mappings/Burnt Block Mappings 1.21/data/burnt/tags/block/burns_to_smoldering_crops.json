@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:corn_crop",
+      "required": false
+    },
+    {
+      "id": "yourmod:rice_crop",
+      "required": false
+    }
+  ]
+}

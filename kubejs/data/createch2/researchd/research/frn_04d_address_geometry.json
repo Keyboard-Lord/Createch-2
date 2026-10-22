@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:red_sandstone_cartouche"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:mercurian_coordinates",
+      "createch2:computational_models",
+      "createch2:propulsion_telemetry"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:frn_04c_dimensional_field_theory",
+    "createch2:spc_09_deep_space_navigation",
+    "createch2:com_05_distributed_computation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04d_address_geometry.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04d_address_geometry.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/sgjourney/communication_crystal",
+      "createch2:factory_scaling/quantum/stargate_communication_crystal_batch"
+    ]
+  }
+}

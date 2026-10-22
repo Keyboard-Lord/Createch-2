@@ -1,0 +1,89 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:rock/bricks/andesite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/basalt_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/chalk_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/chert_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/claystone_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/conglomerate_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/dacite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/diorite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/dolomite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/gabbro_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/gneiss_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/granite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/limestone_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/marble_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/phyllite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/quartzite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/rhyolite_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/schist_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/shale_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/slate_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:rock/bricks/tuff_slab",
+      "required": false
+    }
+  ]
+}

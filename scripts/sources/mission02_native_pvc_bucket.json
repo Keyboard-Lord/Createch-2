@@ -1,0 +1,37 @@
+{
+  "truth": "REVIEWED_NATIVE_MI_PVC_BUCKET",
+  "jar": "Modern-Industrialization-2.5.10.jar",
+  "classes": {
+    "fluids": {
+      "class": "aztech.modern_industrialization.MIFluids",
+      "verbose": false,
+      "sha256": "7bfa978be5518f07a6ae4ae5bbc5c3d3823fe0318630d304d4852533752068e4"
+    },
+    "definition": {
+      "class": "aztech.modern_industrialization.definition.FluidDefinition",
+      "verbose": false,
+      "sha256": "ed69bcc6c6a56fccfc6a8c58e935d488f65cfffbd596a418e46cafff17e12c93"
+    },
+    "definitionV": {
+      "class": "aztech.modern_industrialization.definition.FluidDefinition",
+      "verbose": true,
+      "sha256": "81e81655f81db171c8986b18c3c5c806ff5d9fa43297abfc866ec58fe4e8e9ad"
+    },
+    "fluid": {
+      "class": "aztech.modern_industrialization.fluid.MIFluid",
+      "verbose": false,
+      "sha256": "ca4abca0357fdd5d5a449099fcb47f16dfc25bc79a7ba0b67462ce9d0d766ef5"
+    },
+    "type": {
+      "class": "aztech.modern_industrialization.fluid.MIFluidType",
+      "verbose": false,
+      "sha256": "54a4015e49dc47ed375fc105b76ecf02d5d5e0b163e3d2caeb4107e8e67edc69"
+    },
+    "bucket": {
+      "class": "aztech.modern_industrialization.fluid.MIBucketItem",
+      "verbose": false,
+      "sha256": "8b449398859643fd85511be9d8acc66f194f88f516811660f74ac99b3e548887"
+    }
+  },
+  "jarSha256": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca"
+}

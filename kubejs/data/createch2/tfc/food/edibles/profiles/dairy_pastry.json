@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/dairy_pastry"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 1.5,
+  "grain": 1,
+  "dairy": 0.5,
+  "decay_modifier": 2
+}

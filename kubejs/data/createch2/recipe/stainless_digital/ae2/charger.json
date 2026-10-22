@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "CEC",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "C": {
+      "item": "electroenergetics:inductor"
+    },
+    "E": {
+      "item": "ae2:energy_acceptor"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "ae2:charger",
+    "count": 1
+  }
+}

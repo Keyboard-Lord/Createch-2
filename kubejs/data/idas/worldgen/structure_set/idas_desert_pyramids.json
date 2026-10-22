@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "idas:desert_pyramid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480679,
+    "spacing": 64,
+    "separation": 34,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "#idas:rare_avoid"
+    }
+  }
+}

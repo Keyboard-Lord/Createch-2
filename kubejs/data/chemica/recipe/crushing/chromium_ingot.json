@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/chromium"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:chromium_dust"
+    }
+  ]
+}

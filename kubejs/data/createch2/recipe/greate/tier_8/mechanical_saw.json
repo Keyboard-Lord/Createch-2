@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "HMS",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/darmstadtium"
+    },
+    "G": {
+      "item": "greate:naquadah_alloy_mechanical_saw"
+    },
+    "H": {
+      "item": "gtceu:uv_machine_hull"
+    },
+    "M": {
+      "item": "gtceu:uv_electric_motor"
+    },
+    "S": {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    "C": {
+      "tag": "gtceu:circuits/uv"
+    }
+  },
+  "result": {
+    "id": "greate:darmstadtium_mechanical_saw",
+    "count": 1
+  }
+}

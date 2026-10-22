@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/refined_glowstone"
+    },
+    {
+      "tag": "c:physical_dusts/refined_glowstone"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 900,
+  "welding_temperature": 1200
+}

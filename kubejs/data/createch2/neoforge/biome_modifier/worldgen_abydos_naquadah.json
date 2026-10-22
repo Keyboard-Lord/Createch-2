@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_abydos",
+  "features": [
+    "createch2:planetary_abydos_naquadah_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

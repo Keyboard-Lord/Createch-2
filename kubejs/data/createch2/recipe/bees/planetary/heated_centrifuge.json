@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VGV",
+    "CPC",
+    "MHM"
+  ],
+  "key": {
+    "V": {
+      "item": "stellaris:venus_sandstone"
+    },
+    "G": {
+      "item": "stellaris:venus_corronium_ore"
+    },
+    "C": {
+      "item": "modern_industrialization:stainless_steel_curved_plate"
+    },
+    "P": {
+      "item": "productivebees:powered_centrifuge"
+    },
+    "M": {
+      "item": "stellaris:mercury_solerium_ore"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "productivebees:heated_centrifuge",
+    "count": 1
+  }
+}

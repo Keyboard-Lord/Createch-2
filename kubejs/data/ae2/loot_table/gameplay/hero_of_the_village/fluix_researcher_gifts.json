@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:unrefined_paper",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:powder/graphite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:powder/kaolinite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ceramic/unfired_ingot_mold",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "ae2:gameplay/hero_of_the_village/fluix_researcher_gifts"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:pressurized_reaction_chamber"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:grid_telemetry",
+      "createch2:computational_models"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:che_04_advanced_separations",
+    "createch2:com_02_programmable_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_05_reaction_engineering.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_05_reaction_engineering.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:chemical_age/mekanism/pressurized_reaction_chamber_workpiece",
+      "createch2:chemical_age/mekanism/pressurized_reaction_chamber_assembly"
+    ]
+  }
+}

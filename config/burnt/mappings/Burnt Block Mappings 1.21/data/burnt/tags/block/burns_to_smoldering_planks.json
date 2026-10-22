@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cedar_planks",
+      "required": false
+    },
+    {
+      "id": "yourmod:redwood_planks",
+      "required": false
+    }
+  ]
+}

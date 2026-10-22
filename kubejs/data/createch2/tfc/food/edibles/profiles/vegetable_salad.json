@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/vegetable_salad"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 1,
+  "vegetables": 1.5,
+  "water": 10,
+  "decay_modifier": 4.5
+}

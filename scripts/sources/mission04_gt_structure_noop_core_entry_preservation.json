@@ -1,0 +1,38 @@
+{
+  "truth": "STATIC_MISSION04_GT_STRUCTURE_NOOP_CORE_ENTRY_PRESERVATION",
+  "before": "85ee5fcc7f3a8417611e4b46bd4fbe96ff67da03a313aa8281365911201b28be",
+  "after": "5053338d26af7422643b95283d81166fadac5443e3d714c4a111d89fa2ee3864",
+  "added": [
+    "createch2/core/compat/GtStructureDataFixPolicy.class",
+    "createch2/core/mixin/compat/GtStructureDataFixMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 372,
+  "unchangedEntriesSha256": "feff4aeb1364ed4bd711cb5d19dab7b2828d2cf58ef8fd302e43f3abf9cb3c23",
+  "sourceCheckpoint": "4483e18",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-85ee5fcc7f3a8417611e4b46bd4fbe96ff67da03a313aa8281365911201b28be.jar",
+  "entrySha256": {
+    "createch2/core/compat/GtStructureDataFixPolicy.class": {
+      "before": null,
+      "after": "82abc6d960323c35b4f3b387a9ff7f2c1c46f03afe36c8fe8d47ebe8e01d7a6a"
+    },
+    "createch2/core/mixin/compat/GtStructureDataFixMixin.class": {
+      "before": null,
+      "after": "585f66b6056f0025f86c720f7d4ebf1bb7081fc0374ad1185b2d131366616596"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "7aa99904e2774b51a2f70ea5a0c2e766e5d0e4ee2a93e8a4d19351f66d96b30f",
+      "after": "5e7708b134e20846c8eff5b7f0564f05a21268ad3cc0a9115217324fec12e4bf"
+    },
+    "createch2core.mixins.json": {
+      "before": "2daeda6b24f0599ea0d132c3852d486106f503f7a7419a2428e61061914db8c1",
+      "after": "515c61b738bd4608d72a9e58e35a8bd4ee2fbc60592218a16ab65d73fa29be36"
+    }
+  },
+  "scope": "Only GTversion4unchanged-structure subset;native inventory/entity/unknown/future migrations remain. Native equivalence/worldgen acceptance separate."
+}

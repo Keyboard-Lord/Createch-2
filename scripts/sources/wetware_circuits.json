@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "routes": [
+    {
+      "nativeName": "wetware_processor_luv",
+      "type": "circuit_assembler",
+      "eu": 38400,
+      "duration": 200,
+      "cleanroom": "CLEANROOM",
+      "itemInputs": [
+        "gtceu:neuro_processing_unit",
+        "gtceu:crystal_soc",
+        "gtceu:nano_cpu_chip",
+        "8x gtceu:advanced_smd_capacitor",
+        "8x gtceu:advanced_smd_transistor",
+        "2x modern_industrialization:superconductor_wire"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 72
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:wetware_processor"
+      ],
+      "outputFluids": []
+    },
+    {
+      "nativeName": "wetware_processor_assembly_zpm",
+      "type": "circuit_assembler",
+      "eu": 38400,
+      "duration": 400,
+      "cleanroom": "CLEANROOM",
+      "itemInputs": [
+        "gtceu:wetware_printed_circuit_board",
+        "2x gtceu:wetware_processor",
+        "6x gtceu:advanced_smd_inductor",
+        "12x gtceu:advanced_smd_capacitor",
+        "24x gtceu:ram_chip",
+        "4x modern_industrialization:superconductor_wire"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 144
+        }
+      ],
+      "itemOutputs": [
+        "2x gtceu:wetware_processor_assembly"
+      ],
+      "outputFluids": []
+    },
+    {
+      "nativeName": "wetware_super_computer_uv",
+      "type": "assembly_line",
+      "eu": 38400,
+      "duration": 400,
+      "itemInputs": [
+        "gtceu:wetware_printed_circuit_board",
+        "2x gtceu:wetware_processor_assembly",
+        "8x gtceu:advanced_smd_diode",
+        "16x gtceu:nor_memory_chip",
+        "32x gtceu:ram_chip",
+        "6x modern_industrialization:superconductor_wire",
+        "32x gtceu:polybenzimidazole_foil",
+        "4x gtceu:rhodium_plated_palladium_plate"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 1152
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:wetware_processor_computer"
+      ],
+      "outputFluids": [],
+      "research": {
+        "item": "gtceu:wetware_processor_assembly",
+        "cwut": 16
+      }
+    },
+    {
+      "nativeName": "wetware_mainframe_uhv",
+      "type": "assembly_line",
+      "eu": 300000,
+      "duration": 2000,
+      "itemInputs": [
+        "2x gtceu:advanced_computer_casing",
+        "2x gtceu:wetware_processor_computer",
+        "32x gtceu:advanced_smd_diode",
+        "32x gtceu:advanced_smd_capacitor",
+        "32x gtceu:advanced_smd_transistor",
+        "32x gtceu:advanced_smd_resistor",
+        "32x gtceu:advanced_smd_inductor",
+        "64x gtceu:polybenzimidazole_foil",
+        "32x gtceu:ram_chip",
+        "32x modern_industrialization:superconductor_wire",
+        "8x gtceu:rhodium_plated_palladium_plate"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 2880
+        },
+        {
+          "fluid": "gtceu:polybenzimidazole",
+          "amount": 1152
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:wetware_processor_mainframe"
+      ],
+      "outputFluids": [],
+      "research": {
+        "item": "gtceu:wetware_processor_computer",
+        "cwut": 96,
+        "eu": 491520
+      }
+    }
+  ],
+  "authoredMappings": {
+    "cpu": "Existing crystal SoC substitutes the native crystal CPU die; advanced inherited logic is used, not native CPU equivalence.",
+    "contacts": "RPP plates replace europium contact plates at the same 400/800-unit budgets.",
+    "frame": "Existing advanced computer casings replace two Tritanium frames, as shared capital structure; native material equivalence is not claimed.",
+    "wires": "Shared 50-unit superconductors replace 12.5-unit fine wire and 100-unit double exotic wire at equal 100/200/300/1600-unit budgets."
+  }
+}

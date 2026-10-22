@@ -1,0 +1,14 @@
+{
+  "type": "vampirism:extended_add_spawns",
+  "biomes": "#werewolves:has_spawn/human_werewolf",
+  "excludedBiomes": "#werewolves:no_spawn/human_werewolf",
+  "spawners": {
+    "category": "creature",
+    "super": {
+      "type": "werewolves:human_werewolf",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 5
+    }
+  }
+}

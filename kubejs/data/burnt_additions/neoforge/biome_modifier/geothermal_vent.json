@@ -1,0 +1,7 @@
+{
+  "type": "burnt_additions:gated_features",
+  "biomes": "#createch2:no_biomes",
+  "features": "burnt_additions:geothermal_vent",
+  "step": "surface_structures",
+  "gate": "geyserGeneration"
+}

@@ -1,0 +1,826 @@
+{
+  "nativeJars": {
+    "Modern-Industrialization-2.5.10.jar": "94e391b5a4432ec6e391a44e162e32a0475b8c0c3f101944a93297c6dfc068ca",
+    "almostunified-neoforge-1.21.1-1.4.2.jar": "65202adf4dccf7b3033537e539e23eccc541c6a15ad88d87fa1c5a09ceb3359f",
+    "kubejs-neoforge-2101.7.2-build.377.jar": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+    "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+    "mekanism_tfmg_compat-0.4-1.21.1.jar": "352302fa9a80628ae70b3292e7788273ea86ab98ae304c9079c1b4b608bc3f5e",
+    "oritech-neoforge-1.21.1-1.2.13.jar": "32600bf5b08fcf6d4a49e557f90ee45b238098170777872c8919d9fdb0a1b828"
+  },
+  "classes": {
+    "mi": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.compat.almostunified.MIRecipeUnifier",
+      "verbose": false,
+      "sha256": "ac6ff98a756f0d61200d28b9a7a602b0898fb05cd968b352cc69a62d6b4ce36f"
+    },
+    "plugin": {
+      "jar": "Modern-Industrialization-2.5.10.jar",
+      "class": "aztech.modern_industrialization.compat.almostunified.MIAlmostUnifiedPlugin",
+      "verbose": true,
+      "sha256": "163e223ed0e46c6bd1d5b821fe914949a3cf96d4b7a0f868b79c27ddfca4d8e2"
+    },
+    "registry": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.unification.recipe.RecipeUnifierRegistryImpl",
+      "verbose": false,
+      "sha256": "1cbe09dcfaf670f4ce6f094d079fa0a13d2333d2d7a474cdfe3ff8c4ecc56bd9"
+    },
+    "helper": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.unification.recipe.UnificationHelperImpl",
+      "verbose": false,
+      "sha256": "b348660b4e991c4be6536fdae5d5d0557eb47a0535b6893b80cbada792b96721"
+    },
+    "common": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.AlmostUnifiedCommon",
+      "verbose": false,
+      "sha256": "bf2fa63ebe3c862f5e003b291c1d7dd1f4174306147dadce68a905a78869b808"
+    },
+    "runtime": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.core.AlmostUnifiedRuntimeImpl",
+      "verbose": false,
+      "sha256": "7d1e5fc97ce74ace9724b8e7124deadae9df984aab8467a5e33e98e841df6eaf"
+    },
+    "kjsEvent": {
+      "jar": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "class": "dev.latvian.mods.kubejs.recipe.RecipesKubeEvent",
+      "verbose": false,
+      "sha256": "382eca1122d86542be1342401a94b988cc4060b30a42963624c237961754d2a5"
+    },
+    "kjsManager": {
+      "jar": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "class": "dev.latvian.mods.kubejs.core.mixin.RecipeManagerMixin",
+      "verbose": true,
+      "sha256": "b3841f824ae2fff200a185d265be1d66a0871164336af43c187dec08b90ab617"
+    },
+    "auManager": {
+      "jar": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "class": "com.almostreliable.unified.mixin.runtime.RecipeManagerMixin",
+      "verbose": true,
+      "sha256": "2538524a73c43027b05e944c4b0a361e7e8ec8af2c9806a4efce07c0c7abdb1a"
+    },
+    "oritechAssembler": {
+      "jar": "oritech-neoforge-1.21.1-1.2.13.jar",
+      "class": "rearth.oritech.block.entity.processing.AssemblerBlockEntity",
+      "verbose": false,
+      "sha256": "b81792c96acdc8861d70ffad2f508b23cd70c95a835bc85972a60d9a3e6bc191"
+    },
+    "oritechBase": {
+      "jar": "oritech-neoforge-1.21.1-1.2.13.jar",
+      "class": "rearth.oritech.block.base.entity.MachineBlockEntity",
+      "verbose": false,
+      "sha256": "df89d9bce27d4ab6e909b8acf81e993e72eeb4b6f9740c8de661845293b0fe09"
+    }
+  },
+  "unificationConfigSha256": "3b45df0ef9d65f2fc39bb8d61e0ecc8f41c977df53f34d0ec9eeecbd350c0890",
+  "steelItem": "modern_industrialization:steel_ingot",
+  "steelTag": "c:ingots/steel",
+  "ferricore": {
+    "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+    "id": "createch2:oritech_jdt/age_06/jdt/ferricore",
+    "custom": {
+      "type": "modern_industrialization:assembler",
+      "eu": 32,
+      "duration": 600,
+      "item_inputs": [
+        {
+          "item": "modern_industrialization:steel_ingot",
+          "amount": 2
+        },
+        {
+          "item": "tfc:metal/ingot/copper",
+          "amount": 1
+        },
+        {
+          "item": "electroenergetics:inductor",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:electronic_circuit",
+          "amount": 1
+        }
+      ],
+      "fluid_inputs": {
+        "fluid": "modern_industrialization:soldering_alloy",
+        "amount": 144
+      },
+      "item_outputs": [
+        {
+          "item": "justdirethings:ferricore_ingot",
+          "amount": 1
+        }
+      ]
+    },
+    "kind": "custom",
+    "args": [
+      {
+        "type": "modern_industrialization:assembler",
+        "eu": 32,
+        "duration": 600,
+        "item_inputs": [
+          {
+            "item": "modern_industrialization:steel_ingot",
+            "amount": 2
+          },
+          {
+            "item": "tfc:metal/ingot/copper",
+            "amount": 1
+          },
+          {
+            "item": "electroenergetics:inductor",
+            "amount": 1
+          },
+          {
+            "item": "modern_industrialization:electronic_circuit",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 144
+        },
+        "item_outputs": [
+          {
+            "item": "justdirethings:ferricore_ingot",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ultimate": {
+    "id": "mekanism:control_circuit/ultimate",
+    "providers": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "A": {
+              "tag": "mekanism:alloys/atomic"
+            },
+            "C": {
+              "tag": "c:circuits/elite"
+            }
+          },
+          "pattern": [
+            "ACA"
+          ],
+          "result": {
+            "count": 1,
+            "id": "mekanism:ultimate_control_circuit"
+          }
+        }
+      },
+      {
+        "provider": "mekanism_tfmg_compat-0.4-1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "key": {
+            "A": {
+              "tag": "mekanism:alloys/atomic"
+            },
+            "C": {
+              "tag": "c:circuits/elite"
+            },
+            "P": {
+              "item": "mekanism:hdpe_sheet"
+            },
+            "B": {
+              "item": "mekanism:ingot_bronze"
+            }
+          },
+          "pattern": [
+            "BPB",
+            "ACA",
+            "BPB"
+          ],
+          "result": {
+            "id": "mekanism:ultimate_control_circuit"
+          }
+        }
+      }
+    ],
+    "effective": [
+      {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "mekanism:alloys/atomic"
+          },
+          "C": {
+            "tag": "c:circuits/elite"
+          }
+        },
+        "pattern": [
+          "ACA"
+        ],
+        "result": {
+          "count": 1,
+          "id": "mekanism:ultimate_control_circuit"
+        }
+      },
+      {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "A": {
+            "tag": "mekanism:alloys/atomic"
+          },
+          "C": {
+            "tag": "c:circuits/elite"
+          },
+          "P": {
+            "item": "mekanism:hdpe_sheet"
+          },
+          "B": {
+            "tag": "c:ingots/bronze"
+          }
+        },
+        "pattern": [
+          "BPB",
+          "ACA",
+          "BPB"
+        ],
+        "result": {
+          "id": "mekanism:ultimate_control_circuit"
+        }
+      }
+    ]
+  },
+  "retiredBronzeProducers": [
+    "mekanism:processing/bronze/ingot/from_block",
+    "mekanism:processing/bronze/ingot/from_dust_blasting",
+    "mekanism:processing/bronze/ingot/from_dust_smelting",
+    "mekanism:processing/bronze/ingot/from_infusing",
+    "mekanism:processing/bronze/ingot/from_nuggets"
+  ],
+  "bootstrap": {
+    "before": {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_08/oritech/hall/controlled_processing_unit",
+      "custom": {
+        "type": "oritech:assembler",
+        "ingredients": [
+          {
+            "item": "oritech:fluxite"
+          },
+          {
+            "item": "modern_industrialization:electronic_circuit"
+          },
+          {
+            "item": "electroenergetics:converter"
+          },
+          {
+            "item": "create:precision_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:processing_unit",
+            "count": 1
+          }
+        ],
+        "time": 240
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "oritech:assembler",
+          "ingredients": [
+            {
+              "item": "oritech:fluxite"
+            },
+            {
+              "item": "modern_industrialization:electronic_circuit"
+            },
+            {
+              "item": "electroenergetics:converter"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "oritech:processing_unit",
+              "count": 1
+            }
+          ],
+          "time": 240
+        }
+      ]
+    },
+    "after": {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_08/oritech/hall/controlled_processing_unit",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 12,
+        "duration": 256,
+        "item_inputs": [
+          {
+            "item": "oritech:fluxite",
+            "amount": 1
+          },
+          {
+            "item": "modern_industrialization:electronic_circuit",
+            "amount": 1
+          },
+          {
+            "item": "electroenergetics:converter",
+            "amount": 1
+          },
+          {
+            "item": "create:precision_mechanism",
+            "amount": 1
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "oritech:processing_unit",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 12,
+          "duration": 256,
+          "item_inputs": [
+            {
+              "item": "oritech:fluxite",
+              "amount": 1
+            },
+            {
+              "item": "modern_industrialization:electronic_circuit",
+              "amount": 1
+            },
+            {
+              "item": "electroenergetics:converter",
+              "amount": 1
+            },
+            {
+              "item": "create:precision_mechanism",
+              "amount": 1
+            }
+          ],
+          "item_outputs": [
+            {
+              "item": "oritech:processing_unit",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_08/oritech/hall/machine_core_1_commissioning",
+      "custom": {
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+          "item": "oritech:machine_frame_block"
+        },
+        "transitional_item": {
+          "id": "oritech:machine_frame_block"
+        },
+        "loops": 1,
+        "sequence": [
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "modern_industrialization:advanced_machine_hull"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "justdirethings:ferricore_ingot"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "oritech:processing_unit"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "modern_industrialization:advanced_motor"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "modern_industrialization:advanced_pump"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "electroenergetics:converter"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "create:precision_mechanism"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "item": "modern_industrialization:electronic_circuit"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              },
+              {
+                "type": "neoforge:single",
+                "amount": 144,
+                "fluid": "modern_industrialization:soldering_alloy"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          },
+          {
+            "type": "greate:pressing",
+            "recipe_tier": 2,
+            "ingredients": [
+              {
+                "item": "oritech:machine_frame_block"
+              }
+            ],
+            "results": [
+              {
+                "id": "oritech:machine_frame_block"
+              }
+            ]
+          }
+        ],
+        "results": [
+          {
+            "id": "oritech:machine_core_1"
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "oritech:machine_frame_block"
+          },
+          "transitional_item": {
+            "id": "oritech:machine_frame_block"
+          },
+          "loops": 1,
+          "sequence": [
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "modern_industrialization:advanced_machine_hull"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "justdirethings:ferricore_ingot"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "oritech:processing_unit"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "modern_industrialization:advanced_motor"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "modern_industrialization:advanced_pump"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "electroenergetics:converter"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "create:precision_mechanism"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:deploying",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "item": "modern_industrialization:electronic_circuit"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "create:filling",
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                },
+                {
+                  "type": "neoforge:single",
+                  "amount": 144,
+                  "fluid": "modern_industrialization:soldering_alloy"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            },
+            {
+              "type": "greate:pressing",
+              "recipe_tier": 2,
+              "ingredients": [
+                {
+                  "item": "oritech:machine_frame_block"
+                }
+              ],
+              "results": [
+                {
+                  "id": "oritech:machine_frame_block"
+                }
+              ]
+            }
+          ],
+          "results": [
+            {
+              "id": "oritech:machine_core_1"
+            }
+          ]
+        }
+      ]
+    },
+    "assembler": {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_08/oritech/hall/assembler_block",
+      "kind": "shaped",
+      "args": [
+        "oritech:assembler_block",
+        [
+          "FDF",
+          "PCP",
+          "FWF"
+        ],
+        {
+          "F": "oritech:machine_frame_block",
+          "D": "electroenergetics:converter",
+          "P": "oritech:machine_core_1",
+          "C": "modern_industrialization:assembler",
+          "W": "electroenergetics:connector"
+        }
+      ]
+    },
+    "nominalFePerTick": 128,
+    "researchOwners": []
+  },
+  "capstoneBoundary": {
+    "truth": "STATIC_REPAIRED_QUANTUM_INFINITY_CAPSTONE_BOUNDARY",
+    "file": "config/ftbquests/quests/chapters/createch2_16_age_15_quantum.snbt",
+    "quantumEntry": "023A7897291258E3",
+    "quantumCapstone": "7F95E7B9F7FEFB4D",
+    "launcherQuest": "543EE7788A12E303",
+    "launcherDependencies": [
+      "0A817EE2BA7D85FB",
+      "0823DFC8C79A1D46",
+      "0021097E5B619BC4",
+      "39E6E46769DBE39D",
+      "55AF35DE3CC8C10D",
+      "29A4FE6FE875AE7E"
+    ],
+    "beforeDependencies": [
+      "20417C57931939EC",
+      "755B62D9C5A5894E",
+      "1CEDA3F1E7E7EBA6",
+      "4C99C86636F7F9A0",
+      "656DE99456CFF645",
+      "72E7F709D1ADB228",
+      "5D76028168F81D74",
+      "27CEB6182E027462",
+      "033A52EBB5BF4556",
+      "493FC9A9C805A96A",
+      "4CC251B961F3DA6F",
+      "57FF21534B33B517",
+      "0A817EE2BA7D85FB",
+      "0823DFC8C79A1D46",
+      "543EE7788A12E303"
+    ],
+    "afterDependencies": [
+      "20417C57931939EC",
+      "755B62D9C5A5894E",
+      "1CEDA3F1E7E7EBA6",
+      "4C99C86636F7F9A0",
+      "656DE99456CFF645",
+      "72E7F709D1ADB228",
+      "5D76028168F81D74",
+      "27CEB6182E027462",
+      "033A52EBB5BF4556",
+      "493FC9A9C805A96A",
+      "4CC251B961F3DA6F",
+      "57FF21534B33B517",
+      "0A817EE2BA7D85FB",
+      "0823DFC8C79A1D46",
+      "0021097E5B619BC4",
+      "39E6E46769DBE39D",
+      "55AF35DE3CC8C10D",
+      "29A4FE6FE875AE7E"
+    ],
+    "infinityEntry": "032D2E661C629440",
+    "infinityCapstone": "45A0E9B35836528D",
+    "infinityLauncherConsumer": "22EEEC6BB64B443F",
+    "finalRecipe": "dysoncubeproject:em_railejector_controller",
+    "finalPressTier": 9,
+    "finalGate": "createch2:frn_06_reality_engineering",
+    "reason": "Age15 no longer requires the existing Age16FRN06/Neutronium launcher. All six launcher prerequisites remain in the Quantum capstone ancestry;the launcher quest and its Infinity consumer remain mandatory for Infinity. No recipe,gate,task,reward,quest or chapter identity changes."
+  }
+}

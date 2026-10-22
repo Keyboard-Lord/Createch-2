@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/magnesium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/magnesium",
+    "amount": 200
+  },
+  "temperature": 650,
+  "use_durability": false
+}

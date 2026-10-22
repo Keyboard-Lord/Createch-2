@@ -1,0 +1,16 @@
+{
+  "dimension": "stellaris:mars",
+  "priority": 0,
+  "universal_drag": 0.0001,
+  "base_gravity": [
+    0,
+    -3.72076,
+    0
+  ],
+  "base_pressure": 0.007,
+  "magnetic_north": [
+    0,
+    0,
+    0
+  ]
+}

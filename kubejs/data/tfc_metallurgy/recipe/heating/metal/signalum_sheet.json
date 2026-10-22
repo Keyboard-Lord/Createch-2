@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/signalum"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/signalum",
+    "amount": 200
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

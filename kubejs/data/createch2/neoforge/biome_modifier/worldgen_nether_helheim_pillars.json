@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:nether_helheim_arch_biomes",
+  "features": [
+    "createch2:nether_helheim_pillars"
+  ],
+  "step": "local_modifications"
+}

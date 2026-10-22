@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DPD",
+    "PHP",
+    "MCM"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "P": {
+      "item": "create:mechanical_piston"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "C": {
+      "item": "railcraft:manual_rolling_machine"
+    }
+  },
+  "result": {
+    "id": "railcraft:crusher",
+    "count": 4
+  }
+}

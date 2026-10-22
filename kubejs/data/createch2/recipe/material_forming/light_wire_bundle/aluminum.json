@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:light_wires/aluminum"
+    },
+    {
+      "tag": "c:light_wires/aluminum"
+    }
+  ],
+  "result": {
+    "id": "tfmg:aluminum_wire",
+    "count": 1
+  }
+}

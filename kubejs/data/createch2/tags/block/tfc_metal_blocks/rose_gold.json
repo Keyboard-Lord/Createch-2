@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/rose_gold",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/rose_gold_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/rose_gold_stairs",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "ALA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "result": {
+    "id": "create:basin",
+    "count": 1
+  }
+}

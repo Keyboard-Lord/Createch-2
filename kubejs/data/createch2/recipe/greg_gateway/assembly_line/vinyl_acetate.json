@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 30,
+  "duration": 180,
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:oxygen",
+      "amount": 1000
+    },
+    {
+      "fluid": "gtceu:acetic_acid",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:ethylene",
+      "amount": 1000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "fluid": "gtceu:vinyl_acetate",
+      "amount": 1000
+    }
+  ]
+}

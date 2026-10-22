@@ -1,0 +1,1926 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "recipeTypes": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeTypes",
+      "sha256": "f3e486dabfcdb015d16f6727ca8dcf69ce1e8add1ad868c5c336403f7c231308"
+    },
+    "machineUtils": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachineUtils",
+      "sha256": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581"
+    },
+    "simple": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.SimpleTieredMachine",
+      "sha256": "01914b7fa41efdf3e9173c8da228e525bb7730713a9e6a6b88c9b1ac42854b63"
+    },
+    "workable": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.WorkableTieredMachine",
+      "sha256": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10"
+    },
+    "modifier": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipeModifiers",
+      "sha256": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e"
+    },
+    "overclock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.OverclockingLogic",
+      "sha256": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc"
+    },
+    "condition": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition",
+      "sha256": "33de22c6956de20e3717c2f219b0b9ecc23f3271bb5e18f428c6a2cee42138ac"
+    },
+    "fluidTank": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableFluidTank",
+      "sha256": "53280f634f183dc5c52f359f23d1b0f3673d572b173be988b146f5359a3a9d46"
+    },
+    "itemHandler": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableItemStackHandler",
+      "sha256": "9262fe3d8225412f9473f698e19b17dd388f819081e60337a81624bbc1efdbc7"
+    },
+    "room": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.electric.CleanroomMachine",
+      "sha256": "2072b7511b2b0cea17b3f6426cf875f74c648f6a36fe91b112a45acd49c6e5b2"
+    },
+    "roomLogic": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.trait.CleanroomLogic",
+      "sha256": "afd8e8da0b84fd35631061580c5325e582db2914d9ff7a98cd7548867eb16511"
+    },
+    "machines": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachines",
+      "sha256": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5"
+    },
+    "electricMultiblock": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine",
+      "sha256": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5"
+    },
+    "predicates": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.multiblock.Predicates",
+      "sha256": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0"
+    },
+    "filter": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.block.CleanroomFilterType",
+      "sha256": "bbc4eae64fb19a9b39d848c4a8eee22cfcd0657eb53ae35b9131b9f94cdbf80c"
+    },
+    "ghost": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.gui.widget.GhostCircuitSlotWidget",
+      "sha256": "4b4cde4e701848a8a9eea27de5ae18701c7c92a5780507342167d9806c336c5d"
+    },
+    "circuit": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.ingredient.IntCircuitIngredient",
+      "sha256": "f370913a22559d9732b03cb6cd0db638f5381fa12277e6f98fb5e26c0d99c6e7"
+    },
+    "bus": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.multiblock.part.ItemBusPartMachine",
+      "sha256": "cfb500a6d9755578891d481db49107b83b6f94ca173df77eaa8ea777d6bf8b42"
+    },
+    "type": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.recipe.GTRecipeType",
+      "sha256": "49430b27af5a755cc95a06ba7a684d65393ef1e9f1eb016c68c9a268ccba4f71"
+    },
+    "builder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.GTRecipeBuilder",
+      "sha256": "0fca712012d74d4346f7a5f12c0a5a8e02a165e9e7ff2b8fdfa2f43d04823bf3"
+    },
+    "schema": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.integration.kjs.recipe.GTRecipeSchema$GTKubeRecipe",
+      "sha256": "a558b350202308ce3967382be9ec7b6478e04369f6c729ee0f668485d5e5c720"
+    },
+    "machineUtilsV": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.machine.GTMachineUtils",
+      "sha256": "6a2f7a1c1b8c34833ce539e5625e1198532bd99576d9ce0428580e4908082799",
+      "verbose": true
+    },
+    "circuitSlot": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.feature.IHasCircuitSlot",
+      "sha256": "3f6f7af5d01fcb057f2eac523b71f6703cd9055d241f98424b7469003dca2b39"
+    },
+    "circuitUi": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.fancyconfigurator.CircuitFancyConfigurator",
+      "sha256": "ab1e25c8bf8f510134b7e42aec00081ec554f924561e625072d2498de08f1bd2"
+    },
+    "controller": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.feature.multiblock.IMultiController",
+      "sha256": "22630c74fa210c3d9326caad99a9503023fcef1afedfb66bd6e22f60c9b7c946"
+    }
+  },
+  "sharedNativeCodeSha256": {
+    "precision": {
+      "recipeTypes": "f3e486dabfcdb015d16f6727ca8dcf69ce1e8add1ad868c5c336403f7c231308",
+      "machineUtils": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581",
+      "simple": "01914b7fa41efdf3e9173c8da228e525bb7730713a9e6a6b88c9b1ac42854b63",
+      "workable": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10",
+      "modifier": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e",
+      "overclock": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc",
+      "condition": "33de22c6956de20e3717c2f219b0b9ecc23f3271bb5e18f428c6a2cee42138ac",
+      "fluidTank": "53280f634f183dc5c52f359f23d1b0f3673d572b173be988b146f5359a3a9d46",
+      "itemHandler": "9262fe3d8225412f9473f698e19b17dd388f819081e60337a81624bbc1efdbc7"
+    },
+    "cleanroom": {
+      "chemicalHelper": "7a1d0342d9c0b804bee9560e0c2d6f1c4a19f238e13a9f6c4b9a0f7b1a960604",
+      "materialData": "df9acaba7a0ed8713d09a58b6d75d9137b0390385e232b71f9995c51e2b8ad29",
+      "prefix": "ca2071f4298a2ffe0f81657db558f17e1d529a016b2b40f18fe626ce09f8379b",
+      "blocks": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868",
+      "predicates": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0",
+      "room": "2072b7511b2b0cea17b3f6426cf875f74c648f6a36fe91b112a45acd49c6e5b2",
+      "logic": "afd8e8da0b84fd35631061580c5325e582db2914d9ff7a98cd7548867eb16511",
+      "maintenance": "f452175b38f9c14f62307bae05733cdf22b717c926be9912e42fd5918ee9bbb2",
+      "maintenanceInterface": "62feba6f7fd82ba015a37c4abca72961452ae39eee89185c8e7c082f86ec9178",
+      "hatch": "4e1dea2d2c9e938e27e27d10fbbb40b75d9c0c69fdf31b051336f36aecd3dc47",
+      "registry": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5",
+      "registryV": "a66ab0bd952f7eba669fd69a9ee9c0131e1ec5ea5cee88ca8bdd0e134d6cd62a",
+      "workable": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5",
+      "parts": "401b53a266d15470bfad6c303097deef1542ad57bca214f5154949bf157b9c4a",
+      "filters": "bbc4eae64fb19a9b39d848c4a8eee22cfcd0657eb53ae35b9131b9f94cdbf80c",
+      "hazards": "46a1e64265d0c05ae0716dd65a3b95fa76f74ca533631dea9fab2dd6505db97c",
+      "tools": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77",
+      "baseLogic": "1697212af3c6f9010daa9048ded954862ade8311602f22d45ce9a61e2f320b04",
+      "energyList": "4f7b00792b0beebe535b575dc3b992925f35d28d2849fa1fa08de76721f943ee"
+    },
+    "pbi": {
+      "multis": "ed9f8ddcf25a670073067fef2fabbd37c6f12755dd7e983d726b9969a14380cf",
+      "blocks": "2748d1d23d4a4cfd672e1251f3abec758e3fb56deeac33016b0f9a4958beb868",
+      "predicates": "56ae74217d22e887d065ee2c20e6640a19645199e389b12427c0a0d597738ad0",
+      "factory": "614e0e9f939af642b41d8d71d76e83ea907f343dbf7b662bb50bbfbc627b5f86",
+      "electricMultiblock": "6ec7df5c7c9a7bd0ad1c56bc8c89d4972c795a5ec1164aa74882adc4538944c5",
+      "fluidHatch": "b4d4da70e9f380eacdf689ebdd6a8bed37940614a7099f91f8af94609630e632",
+      "machineUtils": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581",
+      "machines": "686833e60370e6039a23dea7550632952b7da3fc5fab3da2f765775dc50f67d5",
+      "modifier": "805d29992fd8365da30fb61191a6fb2eaf4fcccb9a3352a20372743dbde3731e",
+      "overclock": "976f657ea541c3e13ad367deea814a16a1037e33ec939a407cccc19056bd71cc",
+      "parallel": "2262c487cc7bda9aa5eadf9897491baed69068954e5e027788ec6e821f948bf4",
+      "coil": "cf1d1577f38f5a2e995bf417ce3e526956e90a9010e5351f066210335bd21852",
+      "fluidCapability": "84e1fe8e6d71863e7264ba9f410fea7da471b1e4a47610219d3cd1872f0f4585",
+      "itemCapability": "b66419276dd6313c14dabd5f74ae374fa31c5d6d2c52c51e8ba3e5eb5c79caad"
+    },
+    "inductionMatrix": {
+      "provider": "953fc12a563b4a2b111396ec1139e653c1fd6ca19a9740a61baa55dce40aba6a",
+      "cell": "46ff210edf8e5a84e512ac53a193b7d36f7905ca9f31c5cb19e9ccbd0685d712",
+      "port": "e84089536b8e5346349e389308155a871be0d70d33c1a94c4e894746699a21d0",
+      "container": "4b98e6f7e9af493becb0116319f375b6e6073ea5a2ca326cb7176e4df81544d6",
+      "matrix": "4220d087188d91c479ea1ead82804170548228bc853d9aede6bdb7c9ac67d485",
+      "validator": "ac2cf9e2c4884efe94d47080b8844bfc0415ee316208722dca2c8efe978c77cf",
+      "cuboid": "abfb20e2db54accacf92a0bafcc9643a98b48c15b3455cdcdc94ba17eb21dec1",
+      "cellTile": "bee240782cd4cc694ba1f418fdd89ed92adc33197c7ba91957683609679632e3",
+      "output": "26fe654ef50b52bf253e2360daa5799374e36db5baf052247ae617443ed2595b",
+      "multiblock": "97051ad388ad231afd2991f74aa29d504c09dadc0bfd87c577640f6b0d4d7db2",
+      "configurator": "6870e00cdb6827228126665f3dd13a77384531f060d30558185b81bb64faa728",
+      "tierConfig": "a35724d0cd3b1de92cecd84d3c19f446063076f494085a5d02e4aa0e36a87e0a",
+      "types": "6351fb732237968ae05248dc9467b5c6f232bb7d27dd05505681f4dd53d77929",
+      "machineEnergy": "a7a992d0dd4e2c0f4f3eb782b081dddf2827d8130401d90ff4266c2bdd1cbe20",
+      "cache": "739f7f95abe1ed57138ce8911ec700603654c24c44e2529ce8069c8c9e79d250"
+    },
+    "gtPower": {
+      "cube": "ac29566fdf661f1eec9398f3341a9023cfc29c8e4737f762542055c55230eeb1",
+      "cubeContainer": "5c98e131d397734e42318643c87e93996bb1eb176dae5b5a2d67456112b9c323",
+      "cubeTier": "2b874116b9b1e476351b9392a2d1a4c1c6d7937e6e880c7a9d5fcec90ef5a5e5",
+      "ejector": "1418c96aa9197c17d2449edc8a88d5875cf9a62c45c597e32daef846a2ee03f5",
+      "cable": "e9c30488838dada97f967a3ccfdc3e8318797c68472280a643e0fa767c7d8e01",
+      "feHandler": "573678779da1226051d06755aab64fc9f65eca6d913f62468a3bb6924a482ef5",
+      "gpHandler": "da5d1cc1277c756d4e368779b06eb6b797cdcb911780833ba464cf2480cb2674",
+      "energyCompat": "29f685968a7d13b9217cfdc1d8255e67d7d73b3eecfb8942fcdae21420a46f55",
+      "unit": "9c7261c7be2c79d602fc8ce06e4f4a4fc2b790487eb425c6430429918cfc138b",
+      "converter": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb",
+      "fe": "73bd49a015948e7cca2ea4ddd3c7f9b2cd04c82add345376afd19285e5683dd2",
+      "converterMachine": "92d8aefdc2d0e2231130081b3bae54e6d2841d08656ad0fdbb88354d911a432e",
+      "container": "b54138d2b7dee8fcc1e6d9addd974ae38b71c68b8ebbc30fa1aad2cf89333dad",
+      "workable": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10",
+      "block": "c9c8d475b19703f0c700c38493e985be8901e6b6adacb3b646ee130886f78d2c",
+      "trait": "48898103ad4be28f63fddbc99a773ef0a360f3fb7b1533d058609befa8053e8d",
+      "values": "e9011966cd21d9d2af6c579e28336d3df9fd918d4c9ed78b679c940715f36379",
+      "tools": "4de83f2dbac43168563bc6c9b068cd8a3c089c2ee5cb7de632fca99ea8e82493",
+      "toolHandler": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77",
+      "toolHelper": "f1e949312213fabde1370b786c0858625419b149a3d865492438ba0f7253b0d5",
+      "toolType": "2d385c2f38adacdb7fa6a00d24c2c5449772c4ee0e7bda930fd0ecf17f11e44f",
+      "common": "25cc09a0a58f945c85a46d605967d4b32370f6029b975c035df8330687e141ed",
+      "materialItems": "052fa048d860d0db1189a62bdd49e9e1ff0f6664bc127f5261f6bc3d21705e78",
+      "abilities": "e013370a03a4284d3acc605dbe2962f619501c8b1b7e0754772382185e758059",
+      "woodMaterial": "074187f33bb50c873362a06b6af1ddbe56f80dbfcb3e47cc1f1d6ff29faee13c",
+      "vanillaHelper": "9bc951e7fdafae15bb81fe1b85ed2f939a092d5356e1554064abb5c38e70ee24",
+      "shapedBuilder": "dc77fed18b499d5d0b5dfb204edfd60f131d58b6ac82485c57780ee2c49e507a"
+    }
+  },
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:brewery/greate_biology/bacteria",
+      "nativeType": "gtceu:brewery",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "4x gtceu:bio_chaff"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:distilled_water",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:bacteria",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:large_chemical_reactor/greate_biology/bacterial_sludge",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:biomass",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:bacteria",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:bacterial_sludge",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            1920
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:brewery/greate_biology/enriched_bacterial_sludge_from_u238",
+      "nativeType": "gtceu:brewery",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "modern_industrialization:uranium_238_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:bacterial_sludge",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:enriched_bacterial_sludge",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            128
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            4
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:distillery/greate_biology/mutagen",
+      "nativeType": "gtceu:distillery",
+      "nativeCalls": [
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:enriched_bacterial_sludge",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:mutagen",
+              "amount": 100
+            }
+          ]
+        },
+        {
+          "method": "circuit",
+          "args": [
+            1
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            100
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:large_chemical_reactor/greate_biology/collagen_from_bone",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x gtceu:meat_dust",
+            "minecraft:bone"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:collagen_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:sulfuric_acid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:diluted_sulfuric_acid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:mixer/greate_biology/gelatin_mixture",
+      "nativeType": "gtceu:mixer",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "4x gtceu:collagen_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "chemica:phosphoric_acid",
+              "amount": 1000
+            },
+            {
+              "fluid": "minecraft:water",
+              "amount": 3000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:gelatin_mixture",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:centrifuge/greate_biology/gelatin",
+      "nativeType": "gtceu:centrifuge",
+      "nativeCalls": [
+        {
+          "method": "itemOutputs",
+          "args": [
+            "chemica:phosphorus_dust",
+            "4x gtceu:gelatin_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:gelatin_mixture",
+              "amount": 6000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            2400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:autoclave/greate_biology/agar",
+      "nativeType": "gtceu:autoclave",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:gelatin_dust"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:agar_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:distilled_water",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:mixer/greate_biology/raw_growth_medium",
+      "nativeType": "gtceu:mixer",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "4x gtceu:meat_dust",
+            "4x tfc:powder/salt",
+            "4x chemlib:calcium_dust",
+            "4x gtceu:agar_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:mutagen",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:raw_growth_medium",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:fluid_heater/greate_biology/sterile_growth_medium",
+      "nativeType": "gtceu:fluid_heater",
+      "nativeCalls": [
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:raw_growth_medium",
+              "amount": 100
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:sterilized_growth_medium",
+              "amount": 100
+            }
+          ]
+        },
+        {
+          "method": "circuit",
+          "args": [
+            1
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            20
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:large_chemical_reactor/greate_biology/stem_cells",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:osmiridium_dust"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "32x gtceu:stem_cells"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:bacteria",
+              "amount": 500
+            },
+            {
+              "fluid": "gtceu:sterilized_growth_medium",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:bacterial_sludge",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30720
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_neuro.js",
+      "id": "createch2:large_chemical_reactor/greate_neuro/chloromethane_from_methane",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:chlorine",
+              "amount": 2000
+            },
+            {
+              "fluid": "modern_industrialization:methane",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:hydrochloric_acid",
+              "amount": 1000
+            },
+            {
+              "fluid": "gtceu:chloromethane",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "circuit",
+          "args": [
+            3
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            80
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_neuro.js",
+      "id": "createch2:large_chemical_reactor/greate_neuro/dimethylchlorosilane_from_chloromethane",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "#c:dusts/silicon"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:chloromethane",
+              "amount": 2000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dimethyldichlorosilane",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_neuro.js",
+      "id": "createch2:large_chemical_reactor/greate_neuro/polydimethylsiloxane_from_dimethyldichlorosilane",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemOutputs",
+          "args": [
+            "3x gtceu:polydimethylsiloxane_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:dimethyldichlorosilane",
+              "amount": 1000
+            },
+            {
+              "fluid": "minecraft:water",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:diluted_hydrochloric_acid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            240
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_neuro.js",
+      "id": "createch2:large_chemical_reactor/greate_neuro/silicone_rubber",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "9x gtceu:polydimethylsiloxane_dust",
+            "#c:dusts/sulfur"
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:silicone_rubber",
+              "amount": 1296
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_neuro.js",
+      "id": "createch2:large_chemical_reactor/greate_neuro/neuro_processor",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:wetware_printed_circuit_board",
+            "16x gtceu:stem_cells",
+            "8x gtceu:polybenzimidazole_small_fluid_pipe",
+            "8x #c:plates/electrum",
+            "16x gtceu:silicone_rubber_foil",
+            "8x gtceu:tungsten_steel_bolt"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:neuro_processing_unit"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:sterilized_growth_medium",
+              "amount": 250
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            600
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            80000
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_precision.js",
+      "id": "createch2:mixer/greate_precision/osmiridium_stock",
+      "nativeType": "gtceu:mixer",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "#c:dusts/osmium",
+            "3x #c:dusts/iridium"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "4x gtceu:osmiridium_dust"
+          ]
+        },
+        {
+          "method": "circuit",
+          "args": [
+            1
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            300
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30720
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_boards.js",
+      "id": "createch2:large_chemical_reactor/greate_wetware_boards/multilayer_fiber_board",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "2x modern_industrialization:quantum_circuit_board",
+            "2x gtceu:rhodium_plated_palladium_plate"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:multilayer_fiber_reinforced_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:sulfuric_acid",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            500
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_boards.js",
+      "id": "createch2:large_chemical_reactor/greate_wetware_boards/wetware_board",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "16x gtceu:multilayer_fiber_reinforced_circuit_board",
+            "gtceu:petri_dish",
+            "gtceu:luv_electric_pump",
+            "gtceu:iv_sensor",
+            "gtceu:crystal_processor",
+            "4x modern_industrialization:superconductor_plate"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "16x gtceu:wetware_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:sterilized_growth_medium",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30720
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_boards.js",
+      "id": "createch2:large_chemical_reactor/greate_wetware_boards/wetware_circuit_board_iron3",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:wetware_circuit_board",
+            "8x modern_industrialization:superconductor_plate"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:wetware_printed_circuit_board"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:iron_iii_chloride",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1800
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            480
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_boards.js",
+      "id": "createch2:large_chemical_reactor/greate_wetware_boards/iron_3_chloride",
+      "nativeType": "gtceu:large_chemical_reactor",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "#c:dusts/iron"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:hydrochloric_acid",
+              "amount": 3000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:iron_iii_chloride",
+              "amount": 1000
+            },
+            {
+              "fluid": "modern_industrialization:hydrogen",
+              "amount": 3000
+            }
+          ]
+        },
+        {
+          "method": "circuit",
+          "args": [
+            1
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_circuits.js",
+      "id": "createch2:circuit_assembler/greate_wetware_circuits/wetware_processor_luv",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:neuro_processing_unit",
+            "gtceu:crystal_soc",
+            "gtceu:nano_cpu_chip",
+            "8x gtceu:advanced_smd_capacitor",
+            "8x gtceu:advanced_smd_transistor",
+            "2x modern_industrialization:superconductor_wire"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "gtceu:wetware_processor"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 72
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            38400
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/greate_wetware_circuits.js",
+      "id": "createch2:circuit_assembler/greate_wetware_circuits/wetware_processor_assembly_zpm",
+      "nativeType": "gtceu:circuit_assembler",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "gtceu:wetware_printed_circuit_board",
+            "2x gtceu:wetware_processor",
+            "6x gtceu:advanced_smd_inductor",
+            "12x gtceu:advanced_smd_capacitor",
+            "24x gtceu:ram_chip",
+            "4x modern_industrialization:superconductor_wire"
+          ]
+        },
+        {
+          "method": "itemOutputs",
+          "args": [
+            "2x gtceu:wetware_processor_assembly"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "modern_industrialization:soldering_alloy",
+              "amount": 144
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            400
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            38400
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "cleanroom"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomPrototype": {
+    "truth": "PROTOTYPE_ONLY_BIOLOGY_ROOMS_NOT_YET_ADMITTED",
+    "geometry": {
+      "room": {
+        "min": [
+          -1,
+          0,
+          -4
+        ],
+        "max": [
+          9,
+          6,
+          2
+        ],
+        "controller": [
+          4,
+          6,
+          -1
+        ],
+        "front": "NORTH",
+        "upwardsFacing": "NORTH",
+        "door": [
+          [
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            2,
+            2
+          ]
+        ],
+        "levers": [
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            3
+          ]
+        ],
+        "extraLeverSupport": [
+          4,
+          0,
+          3
+        ],
+        "energyHatch": [
+          9,
+          1,
+          -1
+        ],
+        "maintenance": [
+          -1,
+          1,
+          -1
+        ]
+      },
+      "roomPower": {
+        "converter": [
+          10,
+          1,
+          -1
+        ],
+        "front": "WEST",
+        "cubes": [
+          [
+            11,
+            1,
+            -1
+          ],
+          [
+            10,
+            2,
+            -1
+          ]
+        ],
+        "cubeOutputs": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "chargers": [
+          [
+            12,
+            1,
+            -1
+          ],
+          [
+            10,
+            3,
+            -1
+          ]
+        ],
+        "chargerOutputs": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "brushes": [
+          [
+            9,
+            -20,
+            -1
+          ],
+          [
+            11,
+            -20,
+            -1
+          ]
+        ]
+      },
+      "reactor": {
+        "base": [
+          6,
+          1,
+          -2
+        ],
+        "controller": [
+          7,
+          2,
+          0
+        ],
+        "energyHatch": [
+          6,
+          3,
+          -1
+        ],
+        "front": "SOUTH",
+        "maintenance": [
+          8,
+          2,
+          -2
+        ]
+      },
+      "operationPower": {
+        "matrix": {
+          "min": [
+            1,
+            2,
+            -3
+          ],
+          "max": [
+            4,
+            4,
+            0
+          ],
+          "cell": [
+            2,
+            3,
+            -1
+          ],
+          "provider": [
+            2,
+            3,
+            -2
+          ],
+          "input": [
+            2,
+            3,
+            0
+          ],
+          "outputs": [
+            [
+              4,
+              3,
+              -1
+            ],
+            [
+              4,
+              3,
+              -2
+            ]
+          ],
+          "transformation": "[x,y,z] -> [z+1,y+2,-x]"
+        },
+        "charger": [
+          2,
+          3,
+          1
+        ],
+        "chargerFacing": "SOUTH",
+        "chargerOutput": [
+          0,
+          0,
+          -1
+        ],
+        "brushes": [
+          [
+            1,
+            -19,
+            1
+          ],
+          [
+            3,
+            -19,
+            1
+          ]
+        ],
+        "converter": [
+          5,
+          3,
+          -1
+        ],
+        "front": "EAST",
+        "receiver": [
+          6,
+          3,
+          -1
+        ]
+      },
+      "operatorInsideAfterSealing": true,
+      "chargedBlocksMoved": false
+    },
+    "counts": {
+      "plascrete": 265,
+      "maintenance": 1,
+      "inner": 225,
+      "filter": 44,
+      "doorHalf": 2,
+      "controller": 1,
+      "energyHatch": 1
+    },
+    "roomHardware": {
+      "roomPlascrete": 265,
+      "extraExternalLeverSupportPlascrete": 1,
+      "totalNewPlascrete": 266,
+      "miPlascreteCrafts": 133,
+      "ordinaryFilterCasings": 44,
+      "sterileFilterCasings": 44,
+      "separateRoomTypes": true
+    }
+  },
+  "formingRecipes": {
+    "kubejs/data/createch2/recipe/greate/suppliers/biology_meat.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:macerator",
+      "eu": 2,
+      "duration": 102,
+      "item_inputs": [
+        {
+          "item": "tfc:food/beef",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:meat_dust",
+          "amount": 1
+        },
+        {
+          "item": "gtceu:meat_dust",
+          "amount": 1,
+          "probability": 0.5
+        },
+        {
+          "item": "gtceu:tiny_bone_dust",
+          "amount": 1
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/neuro_pbi_pipe.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 480,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "gtceu:small_pipe_casting_mold",
+          "amount": 1,
+          "probability": 0
+        }
+      ],
+      "fluid_inputs": [
+        {
+          "fluid": "gtceu:polybenzimidazole",
+          "amount": 144
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:polybenzimidazole_small_fluid_pipe",
+          "amount": 1
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/neuro_silicone_plate.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 480,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "gtceu:plate_casting_mold",
+          "amount": 1,
+          "probability": 0
+        }
+      ],
+      "fluid_inputs": [
+        {
+          "fluid": "gtceu:silicone_rubber",
+          "amount": 144
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:silicone_rubber_plate",
+          "amount": 1
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/neuro_silicone_foil.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:pressing",
+      "recipe_tier": 5,
+      "ingredients": [
+        {
+          "item": "gtceu:silicone_rubber_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "gtceu:silicone_rubber_foil",
+          "count": 4
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/wetware_pbi_plate.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 480,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "gtceu:plate_casting_mold",
+          "amount": 1,
+          "probability": 0
+        }
+      ],
+      "fluid_inputs": [
+        {
+          "fluid": "gtceu:polybenzimidazole",
+          "amount": 144
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:polybenzimidazole_plate",
+          "amount": 1
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/wetware_pbi_foil.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:pressing",
+      "recipe_tier": 8,
+      "ingredients": [
+        {
+          "item": "gtceu:polybenzimidazole_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "gtceu:polybenzimidazole_foil",
+          "count": 4
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/biology_calcite.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:macerator",
+      "eu": 2,
+      "duration": 150,
+      "item_inputs": [
+        {
+          "item": "tfc:rock/raw/chalk",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "gtceu:calcite_dust",
+          "amount": 1
+        },
+        {
+          "item": "gtceu:stone_dust",
+          "amount": 1,
+          "probability": 0.0025
+        }
+      ]
+    },
+    "kubejs/data/createch2/recipe/greate/suppliers/biology_calcium.json": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:electrolyzer",
+      "eu": 60,
+      "duration": 100,
+      "item_inputs": [
+        {
+          "item": "gtceu:calcite_dust",
+          "amount": 5
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "chemlib:calcium_dust",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:carbon_dust",
+          "amount": 1
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 3000
+        }
+      ]
+    }
+  },
+  "saltRepair": {
+    "id": "createch2:mixer/greate_biology/raw_growth_medium",
+    "before": {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:mixer/greate_biology/raw_growth_medium",
+      "nativeType": "gtceu:mixer",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "4x gtceu:meat_dust",
+            "4x modern_industrialization:salt_dust",
+            "4x chemlib:calcium_dust",
+            "4x gtceu:agar_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:mutagen",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:raw_growth_medium",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "file": "kubejs/server_scripts/compatibility/greate_biology.js",
+      "id": "createch2:mixer/greate_biology/raw_growth_medium",
+      "nativeType": "gtceu:mixer",
+      "nativeCalls": [
+        {
+          "method": "itemInputs",
+          "args": [
+            "4x gtceu:meat_dust",
+            "4x tfc:powder/salt",
+            "4x chemlib:calcium_dust",
+            "4x gtceu:agar_dust"
+          ]
+        },
+        {
+          "method": "inputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:mutagen",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "outputFluids",
+          "args": [
+            {
+              "fluid": "gtceu:raw_growth_medium",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "method": "duration",
+          "args": [
+            1200
+          ]
+        },
+        {
+          "method": "EUt",
+          "args": [
+            7680
+          ]
+        },
+        {
+          "method": "cleanroom",
+          "args": [
+            "sterile_cleanroom"
+          ]
+        }
+      ]
+    },
+    "oldIngredient": "4x modern_industrialization:salt_dust",
+    "newIngredient": "4x tfc:powder/salt",
+    "nativeCompound": "NaCl",
+    "nativeIngredientAmount": 4,
+    "owner": "FRN-06",
+    "source": "Existing active TFC halite world supplier;MI salt paths otherwise require missing foreign ore or an existing MI salt bootstrap.",
+    "noNewSaltRecipeOrTag": true,
+    "priorLiveSha256": "7638b44f3607da7569ad87aff315610bbd4240dcbcd79a05dd3445fe7be5cd94"
+  },
+  "chalkCompactingRecipe": [
+    {
+      "provider": "woodencog-1.2.19-1.21.1.jar",
+      "data": {
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [
+          {
+            "item": "tfc:rock/loose/chalk"
+          },
+          {
+            "item": "tfc:rock/loose/chalk"
+          },
+          {
+            "item": "tfc:rock/loose/chalk"
+          },
+          {
+            "item": "tfc:rock/loose/chalk"
+          }
+        ],
+        "results": [
+          {
+            "id": "tfc:rock/raw/chalk"
+          }
+        ]
+      }
+    }
+  ]
+}

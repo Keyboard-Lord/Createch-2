@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:mars_biomes",
+  "features": [
+    "createch2:geology_mars_tharsite",
+    "createch2:geology_mars_ostrum"
+  ],
+  "step": "underground_ores"
+}

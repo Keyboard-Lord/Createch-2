@@ -1,0 +1,37 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:ethanol",
+      "nbt": {}
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "nbt": {},
+      "tag": "c:chlorine"
+    },
+    {
+      "item": "tfmg:lead_ingot"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 250,
+      "id": "chemica:tetraethyllead"
+    },
+    {
+      "amount": 250,
+      "id": "chemica:hydrochloric_acid"
+    }
+  ],
+  "processing_time": 1200,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

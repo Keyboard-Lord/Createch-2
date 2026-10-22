@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/neodymium"
+  },
+  "second_input": {
+    "tag": "c:sheets/neodymium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/neodymium"
+  }
+}

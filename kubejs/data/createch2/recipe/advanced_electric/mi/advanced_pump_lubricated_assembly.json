@@ -1,0 +1,46 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 64,
+  "duration": 500,
+  "item_inputs": [
+    {
+      "tag": "modern_industrialization:fluid_pipes",
+      "amount": 3
+    },
+    {
+      "item": "modern_industrialization:aluminum_rotor",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:aluminum_bolt",
+      "amount": 2
+    },
+    {
+      "item": "stellaris:tharsite_ingot",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:pump",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:lubricant",
+    "amount": 250
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 1
+    }
+  ]
+}

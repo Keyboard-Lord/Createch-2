@@ -1,0 +1,26 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 170,
+    "min_y": 0,
+    "max_y": 96,
+    "size": 8,
+    "density": 0.18,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:netherrack",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "occultism:iesnium_ore_natural"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_occultism_nether_iesnium"
+  }
+}

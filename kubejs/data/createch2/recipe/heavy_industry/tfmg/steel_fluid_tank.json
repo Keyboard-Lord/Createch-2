@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " B ",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "tfmg:heavy_plate"
+    },
+    "B": {
+      "tag": "createch2:wooden_barrels"
+    }
+  },
+  "result": {
+    "id": "tfmg:steel_fluid_tank",
+    "count": 2
+  }
+}

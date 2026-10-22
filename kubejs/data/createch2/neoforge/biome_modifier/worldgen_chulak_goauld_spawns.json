@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:chulak_baobab_savanna",
+    "createch2:chulak_prismachasm"
+  ],
+  "spawners": {
+    "type": "sgjourney:goauld",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

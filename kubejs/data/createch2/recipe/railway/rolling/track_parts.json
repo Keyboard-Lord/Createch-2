@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:rolling",
+  "key": {
+    "A": {
+      "tag": "c:nuggets/steel"
+    }
+  },
+  "pattern": [
+    "AA",
+    " A"
+  ],
+  "result": {
+    "count": 3,
+    "id": "railcraft:track_parts"
+  }
+}

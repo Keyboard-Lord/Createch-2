@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "THT",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "T": {
+      "item": "productivebees:honey_treat"
+    },
+    "H": {
+      "item": "stellaris:oxygen_distributor"
+    }
+  },
+  "result": {
+    "id": "productivebees:breeding_chamber",
+    "count": 1
+  }
+}

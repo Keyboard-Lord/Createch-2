@@ -1,0 +1,34 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:writable_book"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method",
+    "createch2:ele_01_practical_electrics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:scientific_institutions",
+  "display": {
+    "name": {
+      "translate": "research.createch2.sci_02_peer_review.title"
+    },
+    "desc": {
+      "translate": "research.createch2.sci_02_peer_review.description"
+    }
+  }
+}

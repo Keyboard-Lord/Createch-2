@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "burnt:ember_berries",
+    "enchanted:rowan_berries",
+    "eternal_starlight:lunar_berries",
+    "minecraft:glow_berries",
+    "minecraft:sweet_berries",
+    "stellaris:moon_berries",
+    "werewolves:wolf_berries"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:prismarine",
+      "required": false
+    },
+	{
+      "id": "minecraft:prismarine_bricks",
+      "required": false
+    },
+	{
+      "id": "minecraft:dark_prismarine",
+      "required": false
+    },
+	{
+      "id": "minecraft:sea_lantern",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:foils/tin"
+    },
+    {
+      "tag": "c:physical_foils/tin"
+    }
+  ],
+  "heat_capacity": 7.143,
+  "forging_temperature": 138,
+  "welding_temperature": 184
+}

@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 7,
+  "ingredients": [
+    {
+      "tag": "c:plates/darmstadtium"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:darmstadtium_shaft",
+      "count": 6
+    }
+  ]
+}

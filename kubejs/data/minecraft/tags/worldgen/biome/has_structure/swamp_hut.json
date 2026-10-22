@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mangrove_swamp",
+    "#createch2:tfc_structure_wetland"
+  ]
+}

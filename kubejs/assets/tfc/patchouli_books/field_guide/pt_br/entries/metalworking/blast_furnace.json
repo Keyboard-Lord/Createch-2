@@ -1,0 +1,40 @@
+{
+  "name": "Alto-forno do TFMG",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O TFMG substitui o alto-forno do TFC. O forno elétrico posterior do MI mantém sua função.$(br2)Construa o alto-forno, a entrada de ar, o aquecedor de ar e a bacia de fundição do TFMG. Seus tijolos refratários vêm dos tijolos queimados do TFC. Consulte a cena Ponder da escotilha para montar a estrutura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Abasteça com pó de coque e ar quente. O fundente do TFC vai na entrada de fundente, não no combustível. Separe as saídas de metal, escória e gás; esvazie o tanque de metal antes de trocar de produto."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "Para obter ferro-gusa do TFC, use um lingote de ferro fundido do TFC e um fundente do TFC. O forno produz 100 mB de ferro-gusa, suficientes para um lingote. A qualidade do minério continua determinando o ferro obtido pelo aquecimento do TFC."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "Ferro triturado ou em pó com fundente do TFC produz aço fundido do TFMG. Molde 144 mB para obter um lingote. Essas receitas e a ponte de ferro-gusa usam a pesquisa existente de Calor industrial."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A instalação do TFMG fornece ferro-gusa às receitas de bigorna e soldagem do TFC. Os aços de alto carbono, negro, vermelho e azul mantêm seus requisitos de forja e liga."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os antigos fornos do TFC mantêm seus inventários e tanques, mas não processam receitas. Use o isolamento retirado na fabricação para recuperar três chapas de ferro forjado; os tijolos isolados também devolvem o bloco refratário."
+    }
+  ]
+}

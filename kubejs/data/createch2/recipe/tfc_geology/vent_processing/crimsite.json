@@ -1,0 +1,29 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "molten_vents:dormant_molten_crimsite"
+    }
+  ],
+  "processing_time": 450,
+  "results": [
+    {
+      "id": "minecraft:redstone",
+      "count": 6
+    },
+    {
+      "id": "minecraft:redstone",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "create:crimsite",
+      "chance": 0.25
+    }
+  ],
+  "recipe_tier": 0
+}

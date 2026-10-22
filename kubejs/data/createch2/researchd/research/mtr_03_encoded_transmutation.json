@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "projecte:transmutation_table"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:computational_models",
+      "createch2:esoteric_records"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mtr_02_transmutation_theory",
+    "createch2:com_04_digital_fabrication"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mtr_03_encoded_transmutation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mtr_03_encoded_transmutation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:projecte/age_10/transmutation_table",
+      "createch2:projecte/age_11/transmutation_tablet",
+      "createch2:projecte/age_12/condenser_mk1",
+      "createch2:projecte/age_13/condenser_mk2"
+    ]
+  }
+}

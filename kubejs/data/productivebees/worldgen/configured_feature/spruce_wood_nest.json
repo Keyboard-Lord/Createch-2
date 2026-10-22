@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:spruce_wood_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "tfc:spruce_logs"
+        },
+        "state": {
+          "Name": "productivebees:spruce_wood_nest"
+        }
+      }
+    ]
+  }
+}

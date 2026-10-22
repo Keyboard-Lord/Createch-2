@@ -1,0 +1,34 @@
+[experimental]
+	#Unlocks RGBCraft's client-side experimental colored lighting. A server can never enable this setting for a player.
+	coloredLighting = false
+	#AUTO prefers the GPU volume renderer and falls back safely when unsupported.
+	#Allowed Values: AUTO, GPU_VOLUME, VEIL_LEGACY, OFF
+	coloredLightBackend = "AUTO"
+	#Resolution and per-frame propagation work used by the GPU light volume.
+	#Allowed Values: LOW, BALANCED, HIGH
+	coloredLightQuality = "BALANCED"
+	#Client-side colored illumination strength. 0 disables colored illumination.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	coloredLightIntensity = 0.12
+	#Approximate reach of each colored-light source in blocks.
+	# Default: 24
+	# Range: 4 ~ 64
+	coloredLightRange = 24
+	#Camera distance in which colored-light sources are represented by the GPU volume.
+	# Default: 128
+	# Range: 32 ~ 512
+	coloredLightDistance = 128
+
+[controller]
+	#Last controller dashboard page, restored when the screen reopens.
+	# Default: 0
+	# Range: 0 ~ 5
+	lastPage = 0
+
+[renderer]
+	#AUTO uses RGBCraft's section-batched LED renderer when available and switches to shader-compatible rendering whenever Iris is installed. COMPATIBILITY restores the per-fixture Minecraft renderer.
+	#Allowed Values: AUTO, BATCHED, COMPATIBILITY
+	mode = "AUTO"
+	#Logs occasional section/pixel renderer statistics for performance diagnosis.
+	stats = false

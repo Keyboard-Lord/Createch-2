@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/anvil/black_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/bars/black_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/chain/black_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/lamp/black_bronze",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/trapdoor/black_bronze",
+      "required": false
+    }
+  ]
+}

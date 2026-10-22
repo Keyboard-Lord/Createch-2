@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/fish_hook/uranium"
+  },
+  "tier": 3,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "ingredient": {
+    "tag": "c:sheets/uranium"
+  },
+  "apply_bonus": true
+}

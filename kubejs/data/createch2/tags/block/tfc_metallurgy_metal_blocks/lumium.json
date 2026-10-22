@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/lumium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/lumium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/lumium",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/zinc"
+    },
+    {
+      "tag": "c:rivets/zinc"
+    },
+    {
+      "tag": "c:screws/zinc"
+    },
+    {
+      "tag": "c:physical_screws/zinc"
+    }
+  ],
+  "heat_capacity": 0.742,
+  "forging_temperature": 252,
+  "welding_temperature": 336
+}

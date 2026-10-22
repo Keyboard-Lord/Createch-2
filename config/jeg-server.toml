@@ -1,0 +1,1319 @@
+[ui]
+	#If true, clients render the JEG gun crosshair while holding guns.
+	showCrosshair = true
+	#If true, clients display hit feedback markers when bullets hit living entities.
+	showHitFeedback = true
+	#If true, kill medals are disabled and the attachment-screen medal toggle cannot be changed.
+	hideMedals = false
+
+[attachments]
+	#If true, powered flashlight attachments place temporary dynamic light blocks.
+	allowFlashlights = true
+	#Maximum block distance flashlight attachments can illuminate.
+	# Default: 32
+	# Range: 1 ~ 64
+	flashlightDistance = 32
+	#If true, laser pointer attachments apply Glowing to aimed-at living entities while ADS is active.
+	glowingLaserPointers = true
+
+[spawns]
+	#Base probability (0-1) that a naturally spawned Phantom upgrades into a Phantom Gunner.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	phantomGunnerChance = 0.0
+	#Upper cap probability (0-1) for Phantom Gunner conversion as game time increases.
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	phantomGunnerMaxChance = 0.0
+	#If true, Phantom Gunners explode when they die.
+	phantomGunnerDeathExplosionEnabled = false
+	#Base probability (0-1) that a naturally spawned Pillager converts into a Pillager Gunner.
+	# Default: 0.14
+	# Range: 0.0 ~ 1.0
+	pillagerGunnerChance = 0.0
+	#Upper cap probability (0-1) for Pillager Gunner conversion as game time increases.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	pillagerGunnerMaxChance = 0.0
+	#Probability (0-1) that a naturally spawned Skeleton is flagged to receive a gun on spawn completion.
+	# Default: 0.14285714285714285
+	# Range: 0.0 ~ 1.0
+	skeletonGunnerChance = 0.0
+	#Probability (0-1) that a naturally spawned Zombie converts into a Zombie Gunner. Should be lower than Skeleton Gunner chance.
+	# Default: 0.08333333333333333
+	# Range: 0.0 ~ 1.0
+	zombieGunnerChance = 0.0
+	#Probability (0-1) that a naturally spawned Husk converts into a Husk Gunner. Same as Zombie Gunner chance.
+	# Default: 0.08333333333333333
+	# Range: 0.0 ~ 1.0
+	huskGunnerChance = 0.0
+	#Probability (0-1) that a naturally spawned Zombified Piglin converts into a Zombified Piglin Gunner. Should be lower than Skeleton Gunner chance.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	zombifiedPiglinGunnerChance = 0.0
+	#Probability (0-1) that a naturally spawned Piglin converts into a Piglin Gunner. Should be higher than Pillager Gunner chance.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	piglinGunnerChance = 0.0
+	#Probability (0-1) that a naturally spawned Wither Skeleton converts into a Wither Skeleton Gunner. Wither Skeletons prefer heavy weapons.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	witherSkeletonGunnerChance = 0.0
+	#In-game day when dynamic spawn scaling starts.
+	# Default: 3
+	# Range: 0 ~ 5000
+	spawnScalingStartDay = 3
+	#Number of in-game days from scaling start day to reach max spawn probabilities.
+	# Default: 28
+	# Range: 1 ~ 5000
+	spawnScalingDaysToMax = 28
+
+	[gunnerGrowth.all]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = 0.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = 0.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 3.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = 3.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.04
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = 0.04
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = 0.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 5.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = 5.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.05
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = 0.05
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 80.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = 80.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.02
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = 0.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.55
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = 0.55
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.06
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = 0.06
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 5.714286E-4
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = 5.714286E-4
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 50.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = 50.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.06
+		# Range: -1.0 ~ 5000.0
+		bomberChance = 0.06
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 0.1
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = 0.1
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: 5.714286E-4
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = 5.714286E-4
+
+	[gunnerGrowth.skeleton]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.stray]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.zombie]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.husk]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.parched]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.drowned]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.zombieVillager]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.zombifiedPiglin]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.piglin]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.piglinBrute]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.witherSkeleton]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.pillager]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.vindicator]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+	[gunnerGrowth.generic]
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		minSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		maxSpawnChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		spawnChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorInitialTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorMaxTier = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		armorTierPerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		weaponAggression = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		rocketLauncherChancePerDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberStartDay = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberMaxChance = -1.0
+		#Use -1 to inherit the balanced default or the all-gunners override.
+		# Default: -1.0
+		# Range: -1.0 ~ 5000.0
+		bomberChancePerDay = -1.0
+
+[combat]
+	#If true, firing a gun pushes the player backwards.
+	recoilBackstepEnabled = true
+	#Global multiplier for recoil backstep force. 0.5 means half of 1.20.1-like force.
+	# Default: 0.5
+	# Range: 0.0 ~ 2.0
+	recoilBackstepScale = 0.5
+	#If true, bullets hitting a block trigger the vanilla block hit particle animation event.
+	blockHitAnimationEnabled = true
+	#If true, guns and installed attachments receive durability damage when a gun is fired.
+	gunDurability = true
+	#If true, low-durability guns can jam and fail to fire.
+	gunJamming = true
+	#If true, bullets can destroy hit blocks based on penetration and bullet power rules.
+	bulletBlockDestructionEnabled = false
+	#If true, guns that support magazine swaps will reload from compatible magazines instead of using the legacy loose-ammo reload path.
+	magazineFeedEnabled = true
+	#If true, gun headshots apply weapon-specific damage multipliers.
+	headshotMultiplier = true
+	#If true, ground gunners can place support blocks to get around simple terrain obstacles.
+	gunnerTerrainPlacementEnabled = false
+	#Block id ground gunners place as temporary terrain support.
+	gunnerTerrainSupportBlock = "minecraft:dirt"
+	#Maximum bulletproof tier ground gunners are allowed to break while traversing terrain. 0 = penetrable only, 2 = tier 2 and below.
+	# Default: 2
+	# Range: 0 ~ 3
+	gunnerTerrainBreakMaxTier = 0
+	#In-game day when gunner accuracy scaling starts.
+	# Default: 5
+	# Range: 0 ~ 5000
+	gunnerAccuracyStartDay = 5
+	#In-game day when gunner accuracy reaches configured max value.
+	# Default: 60
+	# Range: 1 ~ 5000
+	gunnerAccuracyMaxDay = 60
+	#Late-game gunner accuracy increase as a percent from the day-5 spread baseline. 0.70 means 70% more accurate.
+	# Default: 0.7
+	# Range: 0.0 ~ 0.95
+	gunnerAccuracyMaxPercent = 0.7
+	#Additional spread multiplier for gunner-fired shotguns. Lower = tighter pellet grouping.
+	# Default: 0.82
+	# Range: 0.2 ~ 1.0
+	gunnerShotgunSpreadMultiplier = 0.82
+	#In-game day when gunner weapon strength, armor chance, and armor tier reach their maximum.
+	# Default: 60
+	# Range: 1 ~ 5000
+	gunnerProgressionMaxDay = 60
+	#Global bullet lifetime in seconds. Applies to all bullets.
+	# Default: 60
+	# Range: 1 ~ 3600
+	bulletLifetimeSeconds = 60
+
+[terrorRaid]
+	#Seconds between Terror Raid waves.
+	# Default: 18
+	# Range: 3 ~ 120
+	waveIntervalSeconds = 18
+	#Total ground raid waves triggered by Terror Phantom death.
+	# Default: 4
+	# Range: 1 ~ 10
+	groundWaveCount = 1
+	#Total air raid waves triggered by Bound Terror Phantom death.
+	# Default: 4
+	# Range: 1 ~ 10
+	airWaveCount = 1
+
+[factionPatrol]
+	#If true, faction patrols spawn naturally and command-spawned patrols show encounter boss bars.
+	enabled = false
+	#Fixed patrol interval in days. Set to 0 to use random interval ticks.
+	# Default: 5
+	# Range: 0 ~ 30
+	intervalDays = 5
+	#Minimum random patrol interval in ticks when intervalDays is 0.
+	# Default: 12000
+	# Range: > 1
+	randomIntervalMinTicks = 12000
+	#Maximum random patrol interval in ticks when intervalDays is 0.
+	# Default: 24000
+	# Range: > 1
+	randomIntervalMaxTicks = 24000
+	#Minimum in-game days before patrols can naturally spawn.
+	# Default: 5
+	# Range: 0 ~ 100
+	minimumDays = 5
+	#Range in blocks where patrol boss bars are visible.
+	# Default: 64
+	# Range: 16 ~ 256
+	bossBarRange = 64
+	#Probability (0-1) that a patrol attempt actually spawns once all other patrol conditions pass.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	spawnChance = 0.0
+
+[factionRaid]
+	#If true, faction raids can spawn naturally and by returning home with Faction Omen.
+	enabled = false
+	#Fixed raid interval in days. Set to 0 to use random interval ticks.
+	# Default: 30
+	# Range: 0 ~ 100
+	intervalDays = 30
+	#Minimum random raid interval in ticks when intervalDays is 0.
+	# Default: 12000
+	# Range: > 1
+	randomIntervalMinTicks = 12000
+	#Maximum random raid interval in ticks when intervalDays is 0.
+	# Default: 24000
+	# Range: > 1
+	randomIntervalMaxTicks = 24000
+	#Minimum in-game days before natural raids can spawn.
+	# Default: 15
+	# Range: 0 ~ 100
+	minimumDays = 15
+	#Radius around player's respawn point that triggers a faction raid when Faction Omen is active.
+	# Default: 48
+	# Range: 8 ~ 256
+	homeTriggerRadius = 48
+
+[vehicle]
+	#If true, players can place vehicle assembling tables and assemble new vehicle containers.
+	enabled = false
+	#If true, gunner vehicles can naturally replace open-sky gunners and join faction raids.
+	enemyVehicleSpawningEnabled = false
+	#In-game day when enemy gunner vehicles can start spawning.
+	# Default: 80
+	# Range: 0 ~ 5000
+	enemyVehicleStartDay = 80
+	#Initial probability (0-1) that a newly created open-sky natural gunner converts into an enemy vehicle.
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	enemyVehicleConversionChance = 0.0
+	#Maximum late-game probability (0-1) for natural gunner conversion into an enemy vehicle.
+	# Default: 0.045
+	# Range: 0.0 ~ 1.0
+	enemyVehicleMaxConversionChance = 0.045
+	#Conversion probability added per in-game day after enemyVehicleStartDay.
+	# Default: 4.0E-4
+	# Range: 0.0 ~ 1.0
+	enemyVehicleConversionChancePerDay = 4.0E-4

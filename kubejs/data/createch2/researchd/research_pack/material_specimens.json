@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 177,
+    "g": 116,
+    "b": 78
+  },
+  "sorting_value": 20,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.material_specimens.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.material_specimens.description"
+    }
+  }
+}

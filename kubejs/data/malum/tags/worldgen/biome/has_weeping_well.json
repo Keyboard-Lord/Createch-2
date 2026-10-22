@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "#createch2:tfc_structure_wetland",
+    "#createch2:tfc_structure_karst_land",
+    "#createch2:tfc_structure_icy_land"
+  ]
+}

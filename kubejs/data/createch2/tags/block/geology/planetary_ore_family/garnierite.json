@@ -1,0 +1,257 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/poor_garnierite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/poor_garnierite/tuff",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/normal_garnierite/tuff",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/rich_garnierite/tuff",
+      "required": false
+    }
+  ]
+}

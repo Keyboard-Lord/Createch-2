@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:ironwood_log",
+      "required": false
+    },
+    {
+      "id": "yourmod:ebony_log",
+      "required": false
+    }
+  ]
+}

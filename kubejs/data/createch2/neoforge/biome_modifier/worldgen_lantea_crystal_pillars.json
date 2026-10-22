@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "createch2:lantea_bioshroom_caves",
+    "createch2:lantea_prismachasm"
+  ],
+  "features": [
+    "createch2:lantea_crystal_pillars"
+  ],
+  "step": "local_modifications"
+}

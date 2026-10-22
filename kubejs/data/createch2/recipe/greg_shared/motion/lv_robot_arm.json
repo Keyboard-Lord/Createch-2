@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 240,
+  "item_inputs": [
+    {
+      "item": "gtceu:lv_conveyor_module",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:lv_electric_motor",
+      "amount": 2
+    },
+    {
+      "item": "create:mechanical_piston",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:phenolic_printed_circuit_board",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 288
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:lv_robot_arm",
+      "amount": 1
+    }
+  ]
+}

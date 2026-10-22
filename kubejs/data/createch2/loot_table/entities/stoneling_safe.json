@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/amethyst",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

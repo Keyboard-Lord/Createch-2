@@ -1,0 +1,10 @@
+[permissions]
+	#singleplayer_open_access let players without OP use all viewing interface in singleplayer/LAN
+	singleplayer_open_access = false
+
+[features]
+	inspector = false
+	seed_view = false
+	seed_structures = false
+	trade = false
+	screens = false

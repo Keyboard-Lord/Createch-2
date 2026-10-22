@@ -1,0 +1,2944 @@
+{
+	autofocus_id: "0655E46718DD0069"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_11_age_10_stainless_digital"
+	group: "0A85000000000003"
+	id: "0B17CFFFB67577AB"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "7078B4A0BE1DD15A"
+		image: "createch2:textures/quests/chapter_icons/stainless_digital.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.0d
+		y: 0.578d
+	}]
+	order_index: 3
+	quest_links: [{
+		id: "082200000000000C"
+		linked_quest: "0C26A049C9F82AC7"
+		shape: "rsquare"
+		size: 1.35d
+		x: -39.775d
+		y: -34.336d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"0DFC44DF39807CD3"
+				"41F9C6DA45533FA3"
+			]
+			icon: {
+				id: "modern_industrialization:stainless_steel_ingot"
+			}
+			id: "0655E46718DD0069"
+			rewards: [{
+				auto: "enabled"
+				id: "0F08BFBCAA7C2B19"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 3.25d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 16L
+				id: "006351EADE965903"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: -43.975d
+			y: -34.336d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "modern_industrialization:digital_circuit"
+			}
+			id: "063E964BB6CF6EA6"
+			rewards: [{
+				auto: "enabled"
+				id: "38F19CBB1096B16C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "03C457A73F91B018"
+				item: { count: 1, id: "modern_industrialization:digital_circuit" }
+				type: "item"
+			}]
+			x: 8.13d
+			y: -3.548d
+		}
+		{
+			dependencies: ["063E964BB6CF6EA6"]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "0989D998D50A0493"
+			rewards: [{
+				auto: "enabled"
+				id: "5E70407C457C3746"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 16L
+				id: "0BEEFF1601D7444B"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 6.102d
+			y: 27.892d
+		}
+		{
+			dependencies: ["0989D998D50A0493"]
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			id: "066B1B32AD7E0708"
+			rewards: [{
+				auto: "enabled"
+				id: "38732A68631E9F1A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 8L
+				id: "0116A32FD8D4B523"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 7.64d
+			y: 26.101d
+		}
+		{
+			dependencies: [
+				"066B1B32AD7E0708"
+				"5E1702E434DCC9BB"
+				"3A8DF225636E8786"
+			]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "0EB6B5C1CAC5426E"
+			rewards: [{
+				auto: "enabled"
+				id: "28D063B5BD6A2A00"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "58520912ED3EC245"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "56EE535980D805C1"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "1547E47E426DF89D"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "0956FE373DB78778"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+			]
+			x: 13.413d
+			y: 14.514d
+		}
+		{
+			dependencies: ["0EB6B5C1CAC5426E"]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			icon_scale: 1.05d
+			id: "0500D1DFEC4CD2F5"
+			rewards: [{
+				auto: "enabled"
+				id: "534FE7AACAC9A50E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_stainless_digital_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0BB995165720E29F"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 14.664d
+			y: 16.901d
+		}
+		{
+			dependencies: ["063E964BB6CF6EA6"]
+			icon: {
+				id: "ae2:certus_quartz_dust"
+			}
+			icon_scale: 0.95d
+			id: "7A2480E01B9BFE31"
+			rewards: [{
+				auto: "enabled"
+				id: "5CD7AB31E72AFBD6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "40C71B09FC7EC2C9"
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
+				type: "item"
+			}]
+			x: 14.065d
+			y: -6.531d
+		}
+		{
+			dependencies: ["7A2480E01B9BFE31"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			icon_scale: 0.95d
+			id: "50B8AEE55C40EE5D"
+			rewards: [{
+				auto: "enabled"
+				id: "5805221ADEB3F2E8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "6300D2AF358BD4A1"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 9.433d
+			y: -1.182d
+		}
+		{
+			dependencies: ["066B1B32AD7E0708"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			icon_scale: 0.95d
+			id: "5E1702E434DCC9BB"
+			rewards: [{
+				auto: "enabled"
+				id: "474DE3D586C503C4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "35CFE5D2012EC613"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: 8.759d
+			y: 19.975d
+		}
+		{
+			dependencies: ["5E1702E434DCC9BB"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			icon_scale: 0.95d
+			id: "14F1986FE2EF7969"
+			rewards: [{
+				auto: "enabled"
+				id: "7013E70B5A28FBF9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "748524937D87694C"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6331A151FBF2A395"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 9.606d
+			y: 18.016d
+		}
+		{
+			dependencies: ["0500D1DFEC4CD2F5"]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			icon_scale: 0.94d
+			id: "269327B384B0D611"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "074EBECB346FC7A2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "7F0C6A730978B4C6"
+					item: {
+						count: 1
+						id: "create:cyan_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "3E7B1B290526C4EF"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "740015EAC1E51F17"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 13.117d
+			y: 18.722d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			icon_scale: 0.95d
+			id: "7D56E7A156627990"
+			rewards: [{
+				auto: "enabled"
+				id: "0BBA77FB52A6D04E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7B861B5AAB92B4D0"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 6.579d
+			y: -1.756d
+		}
+		{
+			dependencies: ["066B1B32AD7E0708"]
+			icon: {
+				id: "modern_industrialization:digital_circuit"
+			}
+			icon_scale: 0.95d
+			id: "0B75AB968BC64D7A"
+			rewards: [{
+				auto: "enabled"
+				id: "6F0A89F93A0EA29C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "26EFFF155CD7518B"
+					item: { count: 1, id: "modern_industrialization:digital_circuit" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5BE67301CA810CFD"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.377d
+			y: 30.238d
+		}
+		{
+			dependencies: ["7A2480E01B9BFE31"]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			icon_scale: 0.95d
+			id: "14254C918D43005E"
+			rewards: [{
+				auto: "enabled"
+				id: "28C39464670E6B1E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "639D333DE727F7E3"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "13F505426CF8767A"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 17.017d
+			y: -8.007d
+		}
+		{
+			dependencies: ["0B75AB968BC64D7A"]
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			icon_scale: 0.95d
+			id: "35A02BE5F2ED7511"
+			rewards: [{
+				auto: "enabled"
+				id: "3CE337B732AD5C68"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "3D30C8AD00C51FCD"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 8.208d
+			y: 28.315d
+		}
+		{
+			dependencies: ["14F1986FE2EF7969"]
+			icon: {
+				id: "ae2:blank_pattern"
+			}
+			icon_scale: 0.95d
+			id: "5B6DB28CBE032422"
+			rewards: [{
+				auto: "enabled"
+				id: "4A8DE261DCA5C150"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "6CA90BEE84381AEC"
+				item: { count: 1, id: "ae2:blank_pattern" }
+				type: "item"
+			}]
+			x: 10.454d
+			y: 16.054d
+		}
+		{
+			dependencies: ["5B6DB28CBE032422"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			icon_scale: 0.95d
+			id: "3A8DF225636E8786"
+			rewards: [{
+				auto: "enabled"
+				id: "44A5468BA6470AFB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "09B007CB470740C8"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 11.448d
+			y: 11.982d
+		}
+		{
+			dependencies: [
+				"3A8DF225636E8786"
+				"07FFD57D5A1F33CE"
+			]
+			icon: {
+				id: "ae2:crafting_unit"
+			}
+			icon_scale: 0.94d
+			id: "2392D8E34DF640F2"
+			rewards: [{
+				auto: "enabled"
+				id: "205D47933A29D6C2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "567965B5745998CF"
+				item: { count: 1, id: "ae2:crafting_unit" }
+				type: "item"
+			}]
+			x: 12.298d
+			y: 10.017d
+		}
+		{
+			dependencies: ["3A8DF225636E8786"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			icon_scale: 0.92d
+			id: "697284576D20534E"
+			rewards: [{
+				auto: "enabled"
+				id: "69E217F0C4BB14DF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "0619304E144AF6A0"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "664140FAFD5BBFEB"
+					item: { count: 1, id: "modern_industrialization:digital_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 15.403d
+			y: 6.377d
+		}
+		{
+			dependencies: ["697284576D20534E"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			icon_scale: 0.92d
+			id: "742FAE8C207E014F"
+			rewards: [{
+				auto: "enabled"
+				id: "1FF5810521750066"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "50916DA1B8DA4BC8"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "22BF79A4AF5BB1F0"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 8.461d
+			y: 2.855d
+		}
+		{
+			dependencies: ["742FAE8C207E014F"]
+			icon: {
+				id: "modern_industrialization:digital_circuit_board"
+			}
+			icon_scale: 0.92d
+			id: "07FFD57D5A1F33CE"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "307D4E984447FDE5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "682140BC6BAD99FB"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 4L
+				id: "659E1FFFBB30A889"
+				item: { count: 1, id: "modern_industrialization:digital_circuit_board" }
+				type: "item"
+			}]
+			x: 13.147d
+			y: 8.054d
+		}
+		{
+			dependencies: [
+				"0500D1DFEC4CD2F5"
+				"0B75AB968BC64D7A"
+				"3A8DF225636E8786"
+				"742FAE8C207E014F"
+				"044B1D6D6C012D9E"
+				"722119609CAAC37F"
+				"0EB6B5C1CAC5426E"
+				"22CB913A3F53DE5C"
+			]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			icon_scale: 1.1d
+			id: "1A97FD1D97E6F468"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "413ECE268F49835F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D995E9AF7F8C162"
+					item: {
+						count: 1
+						id: "supplementaries:crystal_display"
+					}
+					type: "item"
+				}
+				{
+					id: "2C751DA6C77ED380"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "62BDFC8CA7A8B906"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_stainless_digital_capstone"
+				"role_capstone"
+				"canonical_age_10"
+			]
+			tasks: [
+				{
+					id: "1036370884800E58"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "078EA462D554E2AF"
+					item: { count: 1, id: "greate:stainless_steel_mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 39.459d
+			y: -6.593d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "ae2:certus_quartz_dust"
+			}
+			icon_scale: 0.96d
+			id: "16AA09BAD2AC62D0"
+			rewards: [{
+				auto: "enabled"
+				id: "325FD44FD7E47F56"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "719A5ECDBB2DC933"
+					item: { count: 1, id: "ae2:certus_quartz_dust" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4E533B4DD2E61366"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: -45.252d
+			y: 0.581d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "70C8512A7E97AEF6"
+			rewards: [{
+				auto: "enabled"
+				id: "01EE63AA17483982"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "2B1381E581E9B5FA"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 46.784d
+			y: -16.086d
+		}
+		{
+			dependencies: ["70C8512A7E97AEF6"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "0AB6D0CC350EED1C"
+			rewards: [{
+				auto: "enabled"
+				id: "6DE5AAA079DF81FD"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6DB8CDFD8576F4BA"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5FDFA739581DBF99"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 45.336d
+			y: -14.419d
+		}
+		{
+			dependencies: ["14254C918D43005E"]
+			icon: {
+				id: "modern_industrialization:stainless_steel_ingot"
+			}
+			icon_scale: 0.96d
+			id: "443A711F1C47F019"
+			rewards: [{
+				auto: "enabled"
+				id: "2FDA55EF140829F7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:stainless_steel_ingot"
+				criterion: ""
+				id: "7601A59828C4A424"
+				type: "advancement"
+			}]
+			x: 13.947d
+			y: -4.472d
+		}
+		{
+			dependencies: ["14254C918D43005E"]
+			icon: {
+				id: "modern_industrialization:digital_circuit"
+			}
+			id: "044B1D6D6C012D9E"
+			rewards: [{
+				auto: "enabled"
+				id: "74E52BB19A547D9D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:digital_circuit"
+				criterion: ""
+				id: "63A20F81D37E6821"
+				type: "advancement"
+			}]
+			x: 18.543d
+			y: -9.757d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			icon_scale: 0.96d
+			id: "1A0898B9C30A00BF"
+			rewards: [{
+				auto: "enabled"
+				id: "58258264D0F037FA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "ae2:main/fluix"
+				criterion: ""
+				id: "11B5AC4BD2BC2CD2"
+				type: "advancement"
+			}]
+			x: -43.72d
+			y: -1.247d
+		}
+		{
+			dependencies: ["0AB6D0CC350EED1C"]
+			icon: {
+				id: "ae2:certus_quartz_dust"
+			}
+			id: "37047374E1A3C4CE"
+			rewards: [{
+				auto: "enabled"
+				id: "46208C503D047FE9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "199C9D8EE1C0424B"
+					item: { count: 1, id: "ae2:certus_quartz_dust" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47CB0E609587CB5B"
+					item: { count: 1, id: "modern_industrialization:digital_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 43.879d
+			y: -12.736d
+		}
+		{
+			dependencies: ["37047374E1A3C4CE"]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "45F2EED8520DC677"
+			rewards: [{
+				auto: "enabled"
+				id: "352BFDAF25B0A0B9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "53C39B3915F65279"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "29CE614B429BFCBA"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_plate" }
+					type: "item"
+				}
+			]
+			x: 42.414d
+			y: -11.037d
+		}
+		{
+			dependencies: ["45F2EED8520DC677"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "722119609CAAC37F"
+			rewards: [{
+				auto: "enabled"
+				id: "61E859AE8D5E3DAB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5F027B130AAA1C0A"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "28BF9AF08721CDBD"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 40.941d
+			y: -9.323d
+		}
+		{
+			dependencies: [
+				"78B03D44BEC85E33"
+				"0DFC44DF39807CD3"
+			]
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "725FBC5CE04051F8"
+			rewards: [{
+				auto: "enabled"
+				id: "27FEB053FC81C042"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "4A553CA42BDDD9CB"
+					item: { count: 1, id: "computercraft:wired_modem_full" }
+					type: "item"
+				}
+				{
+					id: "725FBC5CE04051F9"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "725FBC5CE04051FA"
+					item: { count: 1, id: "computercraft:cable" }
+					type: "item"
+				}
+				{
+					id: "23C7678EF0BF09E6"
+					item: { count: 1, id: "synaxis:camera" }
+					type: "item"
+				}
+				{
+					id: "7B04A9680BD0C7F4"
+					item: { count: 1, id: "synaxis:circuit_diagram" }
+					type: "item"
+				}
+			]
+			x: -7.358d
+			y: 12.472d
+		}
+		{
+			dependencies: [
+				"6AAB05DE2ECA0C5B"
+				"0DFC44DF39807CD3"
+			]
+			icon: {
+				id: "computercraft:cable"
+			}
+			icon_scale: 0.95d
+			id: "5FA54C671621A36D"
+			rewards: [{
+				auto: "enabled"
+				id: "08C55AFCB6FFFA4A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "44AA2D8F8F571215"
+					item: { count: 1, id: "computercraft:cable" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "119ADD3B34F9357C"
+					item: { count: 1, id: "synaxis:controller_wire_cable" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "27186FE748FAB65C"
+					item: { count: 1, id: "synaxis:circuit" }
+					type: "item"
+				}
+			]
+			x: -35.427d
+			y: 0.42d
+		}
+		{
+			dependencies: ["5FA54C671621A36D"]
+			icon: {
+				id: "computercraft:cable"
+			}
+			icon_scale: 0.95d
+			id: "65B755165CC6BAE9"
+			rewards: [{
+				auto: "enabled"
+				id: "74F9B49CFD7AF096"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4D1B43AC200530CD"
+					item: { count: 1, id: "computercraft:cable" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "26074B6DAE426560"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+					type: "item"
+				}
+			]
+			x: -38.054d
+			y: -2.242d
+		}
+		{
+			dependencies: ["5FA54C671621A36D"]
+			icon: {
+				id: "computercraft:cable"
+			}
+			icon_scale: 0.95d
+			id: "73672BD67231F47C"
+			rewards: [{
+				auto: "enabled"
+				id: "37129BC0CB7627CA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "7B6D2FFEE29530A7"
+					item: { count: 1, id: "computercraft:cable" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "056A9FA9927C6AAB"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "473A2A1395E22189"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+			]
+			x: -38.52d
+			y: 4.071d
+		}
+		{
+			dependencies: ["73672BD67231F47C"]
+			hide_lock_icon: true
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			icon_scale: 0.88d
+			id: "335B6598C7C558E9"
+			rewards: [{
+				auto: "enabled"
+				id: "05F7E9DE05A02A3D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_mass_processing_info"
+				"role_info"
+			]
+			tasks: [{
+				id: "52236ED31F883F1C"
+				stat: "minecraft:interact_with_crafting_table"
+				type: "stat"
+				value: 100
+			}]
+			x: -38.365d
+			y: 1.965d
+		}
+		{
+			dependencies: [
+				"0DD5A97327961323"
+				"0655E46718DD0069"
+			]
+			icon: {
+				id: "hostilenetworks:sim_chamber"
+			}
+			id: "21D8407F29294CF3"
+			rewards: [{
+				auto: "enabled"
+				id: "24A575820699637F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 2.5d
+			tags: [
+				"theme_mass_processing_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "6B2A1D2BD09E9F7E"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 5.024d
+			y: 0.044d
+		}
+		{
+			dependencies: ["21D8407F29294CF3"]
+			icon: {
+				id: "hostilenetworks:loot_fabricator"
+			}
+			id: "7BA0ECF99B0119B7"
+			rewards: [{
+				auto: "enabled"
+				id: "686A1FCA4A25EA39"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "55FEBD64BEC0A91C"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: -7.489d
+			y: 14.579d
+		}
+		{
+			dependencies: [
+				"0D7A4DBF1F2D963A"
+				"0655E46718DD0069"
+			]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			icon_scale: 0.96d
+			id: "1B638A41D009EC7F"
+			rewards: [{
+				auto: "enabled"
+				id: "72946DF4767FE62C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "1BCE572DE8455951"
+				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+				type: "item"
+			}]
+			x: -40.653d
+			y: -4.895d
+		}
+		{
+			dependencies: [
+				"0D7A4DBF1F2D963A"
+				"1B638A41D009EC7F"
+			]
+			icon: {
+				id: "productivebees:centrifuge"
+			}
+			icon_scale: 0.98d
+			id: "50B077819ACC1E13"
+			rewards: [{
+				auto: "enabled"
+				id: "5AD3C43BA5AE24A5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_survival_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "69D18F32C405B5E6"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: -42.186d
+			y: -3.073d
+		}
+		{
+			dependencies: [
+				"07A31A9A4492C18F"
+				"0655E46718DD0069"
+			]
+			icon: {
+				id: "psi:cad_assembler"
+			}
+			id: "0C33EE9AF0BA27FC"
+			rewards: [{
+				auto: "enabled"
+				id: "02BC997D92B3AB77"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "178E4EC580BCE028"
+					item: { count: 1, id: "psi:cad_assembler" }
+					type: "item"
+				}
+				{
+					id: "17607C02FC9ECDE3"
+					item: { count: 1, id: "psi:programmer" }
+					type: "item"
+				}
+			]
+			x: -46.784d
+			y: 2.409d
+		}
+		{
+			dependencies: [
+				"5901D481B2DAFB49"
+				"725FBC5CE04051F8"
+			]
+			icon: {
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			icon_scale: 0.96d
+			id: "1C3BABEE6504FB9D"
+			rewards: [{
+				auto: "enabled"
+				id: "397572E9E62F2C35"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "52AAF3CE593D9E4E"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -31.799d
+			y: 9.691d
+		}
+		{
+			dependencies: [
+				"5901D481B2DAFB49"
+				"725FBC5CE04051F8"
+			]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "79A93E92FC1E235D"
+			rewards: [{
+				auto: "enabled"
+				id: "0BD1196A845D7061"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6E80328CD935B545"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: -12.051d
+			y: 17.915d
+		}
+		{
+			dependencies: ["79A93E92FC1E235D"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "61E5A29E21AE2F0A"
+			rewards: [{
+				auto: "enabled"
+				id: "358223AE0A6CB2A5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "25CBB02FA7189DA7"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -18.271d
+			y: 25.08d
+		}
+		{
+			dependencies: ["61E5A29E21AE2F0A"]
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+			}
+			id: "3B80A3C53444F973"
+			rewards: [{
+				auto: "enabled"
+				id: "325A0644892873E5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1975CD68C292AA68"
+				item: { count: 1, id: "ae2:item_storage_cell_1k" }
+				type: "item"
+			}]
+			x: -26.987d
+			y: 25.406d
+		}
+		{
+			dependencies: ["3B80A3C53444F973"]
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "5C175EFA0D60C2A6"
+			rewards: [{
+				auto: "enabled"
+				id: "0CC306C031A2EB79"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "388AA3E163C75856"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
+			x: -26.76d
+			y: 21.284d
+		}
+		{
+			dependencies: ["61E5A29E21AE2F0A"]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			icon_scale: 0.95d
+			id: "59B4135BF5B6003B"
+			rewards: [{
+				auto: "enabled"
+				id: "5254EF25184498A0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "3C89848B63E27893"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -22.889d
+			y: 30.346d
+		}
+		{
+			dependencies: ["59B4135BF5B6003B"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			icon_scale: 0.94d
+			id: "22CB913A3F53DE5C"
+			rewards: [{
+				auto: "enabled"
+				id: "20AACD7A6AFFD75F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_ae2_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "31048302055CC158"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: -27.092d
+			y: 27.45d
+		}
+		{
+			dependencies: ["1C3BABEE6504FB9D"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			icon_scale: 0.95d
+			id: "0663EC95288CB1F8"
+			rewards: [{
+				auto: "enabled"
+				id: "169984BE9F2E9E4A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_ae2_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7E50400B04966D7B"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: -35.729d
+			y: 4.632d
+		}
+		{
+			dependencies: ["59B4135BF5B6003B"]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			icon_scale: 0.95d
+			id: "79D36DEED49BD9EB"
+			rewards: [{
+				auto: "enabled"
+				id: "7EB3DCA0BDFC75B7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_ae2_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7E6ED8E19348E90C"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: -25.938d
+			y: 33.791d
+		}
+		{
+			dependencies: ["79A93E92FC1E235D"]
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+			}
+			icon_scale: 0.92d
+			id: "0BBBBFBA196043D2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "2F5153AE8FA2ECFE"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "0B81B899837A649A"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_ae2_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "67C9596E3F9DCC3E"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4385ADE746C16104"
+					item: { count: 1, id: "ae2:silicon" }
+					type: "item"
+				}
+			]
+			x: -31.938d
+			y: 11.792d
+		}
+		{
+			dependencies: ["79A93E92FC1E235D"]
+			icon: {
+				id: "ae2:printed_silicon"
+			}
+			id: "16E93E4B40AB1715"
+			rewards: [{
+				auto: "enabled"
+				id: "03F41688ADF82585"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3013AE89CE0511D4"
+					item: { count: 1, id: "ae2:printed_silicon" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14ADE3D0754B5DB3"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: -26.639d
+			y: 19.208d
+		}
+		{
+			dependencies: ["16E93E4B40AB1715"]
+			icon: {
+				id: "ae2:blank_pattern"
+			}
+			icon_scale: 0.96d
+			id: "42CF86E177E62652"
+			rewards: [{
+				auto: "enabled"
+				id: "7F2BB0F99FF0E935"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "03F4F4621AB6F671"
+				item: { count: 1, id: "ae2:blank_pattern" }
+				type: "item"
+			}]
+			x: -29.733d
+			y: 22.775d
+		}
+		{
+			dependencies: ["16E93E4B40AB1715"]
+			icon: {
+				id: "ae2:cell_component_1k"
+			}
+			id: "0D66981AB002C00B"
+			rewards: [{
+				auto: "enabled"
+				id: "1669091FEF7D3734"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3FD4D8FCC6B323F0"
+				item: { count: 1, id: "ae2:cell_component_1k" }
+				type: "item"
+			}]
+			x: -29.615d
+			y: 20.709d
+		}
+		{
+			dependencies: ["79D36DEED49BD9EB"]
+			icon: {
+				id: "ae2:controller"
+			}
+			icon_scale: 0.98d
+			id: "5F00CA539F005BF4"
+			rewards: [{
+				auto: "enabled"
+				id: "74CC521C31051F07"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_ae2_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "ae2:main/controller"
+				criterion: ""
+				id: "4F305F2B5FB3E523"
+				type: "advancement"
+			}]
+			x: -27.285d
+			y: 31.499d
+		}
+		{
+			dependencies: ["79D36DEED49BD9EB"]
+			icon: {
+				id: "ae2:pattern_encoding_terminal"
+			}
+			icon_scale: 0.96d
+			id: "7189E799D55C5132"
+			rewards: [{
+				auto: "enabled"
+				id: "2EB3516BF662B912"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "ae2:main/pattern_encoding_terminal"
+				criterion: ""
+				id: "7B49BCFB3E7E1D58"
+				type: "advancement"
+			}]
+			x: -27.453d
+			y: 35.491d
+		}
+		{
+			dependencies: ["0D66981AB002C00B"]
+			icon: {
+				id: "ae2:printed_silicon"
+			}
+			id: "177293286F2EECF6"
+			rewards: [{
+				auto: "enabled"
+				id: "4368C1E2F70F565F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_ae2_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "334063F1F53225FB"
+					item: { count: 1, id: "ae2:printed_silicon" }
+					type: "item"
+				}
+				{
+					id: "6AF2175479B1F99C"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+			]
+			x: -31.159d
+			y: 22.489d
+		}
+		{
+			dependencies: ["177293286F2EECF6"]
+			icon: {
+				id: "ae2:blank_pattern"
+			}
+			icon_scale: 0.96d
+			id: "0F7D49128E3B5E46"
+			rewards: [{
+				auto: "enabled"
+				id: "6CD9FA728775E22D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "581AB84C66530819"
+					item: { count: 1, id: "ae2:blank_pattern" }
+					type: "item"
+				}
+				{
+					id: "100738D334E1D14B"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: -32.698d
+			y: 24.257d
+		}
+		{
+			dependencies: ["0F7D49128E3B5E46"]
+			icon: {
+				id: "ae2:cell_component_1k"
+			}
+			icon_scale: 0.94d
+			id: "60DFC6D2D8E9A9B3"
+			rewards: [{
+				auto: "enabled"
+				id: "44FC16E55200D377"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_ae2_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "0CC0B3E8A489FBBF"
+					item: { count: 1, id: "ae2:cell_component_1k" }
+					type: "item"
+				}
+				{
+					id: "3BD9850F0555F504"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+			]
+			x: -32.208d
+			y: 15.979d
+		}
+		{
+			dependencies: ["1C3BABEE6504FB9D"]
+			icon: {
+				id: "appflux:energy_processor"
+			}
+			icon_scale: 0.96d
+			id: "751A5CBE912F3939"
+			rewards: [{
+				auto: "enabled"
+				id: "2E0B4F32B7360718"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "20B69DD53D773B73"
+				item: { count: 1, id: "appflux:energy_processor" }
+				type: "item"
+			}]
+			x: -34.903d
+			y: 13.32d
+		}
+		{
+			dependencies: ["751A5CBE912F3939"]
+			icon: {
+				id: "appflux:flux_accessor"
+			}
+			icon_scale: 0.96d
+			id: "0321E6A3F539CA7E"
+			rewards: [{
+				auto: "enabled"
+				id: "1C691B2FCCBC0A58"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "6FC62F3C1A8B4D84"
+				item: { count: 1, id: "appflux:flux_accessor" }
+				type: "item"
+			}]
+			x: -36.45d
+			y: 15.126d
+		}
+		{
+			dependencies: ["0321E6A3F539CA7E"]
+			icon: {
+				id: "appflux:fe_1k_cell"
+			}
+			icon_scale: 0.96d
+			id: "108D7D5563D708D7"
+			rewards: [{
+				auto: "enabled"
+				id: "2D7482C2218E0110"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_ae2_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "330A0161E72E0B93"
+				item: { count: 1, id: "appflux:fe_1k_cell" }
+				type: "item"
+			}]
+			x: -36.17d
+			y: 10.941d
+		}
+		{
+			dependencies: [
+				"43B718A034CF42A5"
+				"063E964BB6CF6EA6"
+			]
+			icon: {
+				id: "modern_industrialization:distillation_tower"
+			}
+			icon_scale: 0.98d
+			id: "6DF54BD53EAC4EFE"
+			rewards: [{
+				auto: "enabled"
+				id: "5D9BF78C1E994C49"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:distillation_tower"
+				criterion: ""
+				id: "00CECDB5CDE50091"
+				type: "advancement"
+			}]
+			x: 8.963d
+			y: -5.474d
+		}
+		{
+			dependencies: [
+				"0500D1DFEC4CD2F5"
+				"725FBC5CE04051F8"
+			]
+			icon: {
+				id: "create_aeronautics_automated_logistics:airship_station"
+			}
+			id: "190CE1149DE78F57"
+			rewards: [{
+				auto: "enabled"
+				id: "2B22F556EAD2FA9E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_logistics_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "1573511712BF0283"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:airship_station" }
+					type: "item"
+				}
+				{
+					id: "6999FFFA7478309A"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:ship_transponder" }
+					type: "item"
+				}
+			]
+			x: 46.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["063E964BB6CF6EA6"]
+			icon: {
+				id: "adfinders:metal_finder"
+			}
+			id: "67734FFD6C565083"
+			rewards: [{
+				auto: "enabled"
+				id: "4540330EAB4A2FAC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "19C6196ABEB1F5AB"
+				item: { components: { "minecraft:max_damage": 32 }, count: 1, id: "adfinders:metal_finder" }
+				type: "item"
+			}]
+			x: 110.0d
+			y: -46.0d
+		}
+		{
+			dependencies: ["063E964BB6CF6EA6"]
+			icon: {
+				id: "create_aeronautics_toolgun:survival_structure_tool"
+			}
+			id: "3551397B1C0A7A92"
+			rewards: [{
+				auto: "enabled"
+				id: "2A77E66E539FCB5D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_stainless_digital_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "2EBBF8B6B8F2AD67"
+					item: { count: 1, id: "create_aeronautics_toolgun:magnetic_gun" }
+					type: "item"
+				}
+				{
+					id: "4080D1BE46617F6C"
+					item: { count: 1, id: "create_aeronautics_toolgun:survival_structure_tool" }
+					type: "item"
+				}
+			]
+			x: 114.0d
+			y: -46.0d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"614EAE44EB28E3D1"
+			]
+			icon: {
+				id: "modern_industrialization:stainless_steel_ingot"
+			}
+			id: "5EC0A201D5233C26"
+			rewards: [{
+				auto: "enabled"
+				id: "1C7CFDE29D98A79D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5277728F03136133"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40376ADD6C622E01"
+					item: { count: 1, id: "modern_industrialization:digital_circuit" }
+					type: "item"
+				}
+			]
+			x: 132.0d
+			y: -63.0d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"1E51162C2FA371F5"
+			]
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "53949CE0FA440225"
+			rewards: [{
+				auto: "enabled"
+				id: "17394D6582F0FFDC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "31D63D7F90DA5EBF"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "214ACC4AC584E153"
+					item: { count: 1, id: "computercraft:redstone_relay" }
+					type: "item"
+				}
+				{
+					id: "3C6C735F40DDF4FF"
+					item: { count: 1, id: "aeroworks:mechanical_servo" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -56.5d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"0A9CDCB37BBA2E9E"
+			]
+			icon: {
+				id: "adpother:gold_filter_frame"
+			}
+			id: "4CEDD69D95922752"
+			rewards: [{
+				auto: "enabled"
+				id: "39DBC2F8AA9EF6F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "38DAB5D3B62FA808"
+					item: { count: 1, id: "adpother:gold_filter_frame" }
+					type: "item"
+				}
+				{
+					id: "4405C616161D2C7E"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "6223E835DFA5D4D9"
+					item: { count: 1, id: "computercraft:redstone_relay" }
+					type: "item"
+				}
+			]
+			x: 160.0d
+			y: -63.0d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"433256F1CB8907BC"
+			]
+			icon: {
+				id: "gtceu:hv_electric_motor"
+			}
+			id: "203AD838B55F2DBE"
+			rewards: [{
+				auto: "enabled"
+				id: "433A59B0CAC608E0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "7AD796B196E6FA78"
+					item: { count: 1, id: "gtceu:hv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "31D52A6A3CD92787"
+					item: { count: 1, id: "gtceu:hv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "297B18D791D0A1B8"
+					item: { count: 1, id: "gtceu:hv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "76F1AE2BC76893FA"
+					item: { count: 1, id: "gtceu:hv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "69F19AEEAC10093F"
+					item: { count: 1, id: "gtceu:hv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "2D16366DA07A1F44"
+					item: { count: 1, id: "gtceu:hv_sensor" }
+					type: "item"
+				}
+				{
+					id: "66BF11B1F030D237"
+					item: { count: 1, id: "gtceu:hv_emitter" }
+					type: "item"
+				}
+				{
+					id: "677FBA053EA0E941"
+					item: { count: 1, id: "gtceu:hv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -50.0d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "gtceu:hv_electric_motor"
+			}
+			id: "3E3266AF76DD3ED6"
+			rewards: [{
+				auto: "enabled"
+				id: "30132EE4207708F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "03625C7C76CCA6B3"
+					item: { count: 1, id: "gtceu:hv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5E4AD3AB2C27F835"
+					item: { count: 1, id: "gtceu:hv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D8F2BDDE15F273F"
+					item: { count: 1, id: "gtceu:hv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C3F2D0E47D1B645"
+					item: { count: 1, id: "gtceu:hv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03A606DE759F1858"
+					item: { count: 1, id: "gtceu:hv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4203B552D0A5F583"
+					item: { count: 1, id: "gtceu:hv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2B52B680A7AD2CAC"
+					item: { count: 1, id: "gtceu:hv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39CC7DF9B776E37A"
+					item: { count: 1, id: "gtceu:hv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -46.75d
+		}
+		{
+			dependencies: [
+				"3E3266AF76DD3ED6"
+				"0655E46718DD0069"
+			]
+			icon: {
+				id: "oritech:drone_port_block"
+			}
+			id: "783D1AE7F056B8EE"
+			rewards: [{
+				auto: "enabled"
+				id: "3FD7608DD6A7C6A1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "247D581BCD3EF62E"
+				item: { count: 1, id: "oritech:drone_port_block" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: -43.5d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "gtceu:hv_electric_motor"
+			}
+			id: "28FE788DFAA32EF0"
+			rewards: [{
+				auto: "enabled"
+				id: "73C54D8722B6DF8E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "0DA0C4CE249AD131"
+					item: { count: 1, id: "gtceu:hv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "16B2C7B6D6AAF44D"
+					item: { count: 1, id: "gtceu:hv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "4A215AECB06D07C8"
+					item: { count: 1, id: "gtceu:hv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "7532179777BF21B2"
+					item: { count: 1, id: "gtceu:hv_sensor" }
+					type: "item"
+				}
+				{
+					id: "32A054AC93010DBF"
+					item: { count: 1, id: "gtceu:hv_emitter" }
+					type: "item"
+				}
+				{
+					id: "5F637A4939D692AA"
+					item: { count: 1, id: "gtceu:hv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -40.25d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"2A0EA7058CB094C9"
+			]
+			icon: {
+				id: "computercraft:turtle_normal"
+			}
+			id: "7D6A954794030611"
+			rewards: [{
+				auto: "enabled"
+				id: "51D363C1C36D80BE"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "296BA0C5C1D0B921"
+					item: { count: 1, id: "computercraft:turtle_normal" }
+					type: "item"
+				}
+				{
+					id: "6F7E1E63E32D898F"
+					item: { count: 1, id: "computercraft:disk_drive" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4344A0103A54DD48"
+					item: { count: 1, id: "computercraft:disk" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -72.75d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"7D6A954794030611"
+			]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "71DDBBF3B76EF96E"
+			rewards: [{
+				auto: "enabled"
+				id: "1FFCE662BB0B6133"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_stainless_digital_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "1256EC6500B7D023"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "108BF083D683B844"
+					item: { count: 1, id: "computercraft:redstone_relay" }
+					type: "item"
+				}
+				{
+					id: "034F416C9D9740BA"
+					item: { count: 1, id: "computercraft:monitor_advanced" }
+					type: "item"
+				}
+				{
+					id: "3A7F17F5AF59964E"
+					item: { count: 1, id: "synaxis:control_chair" }
+					type: "item"
+				}
+				{
+					id: "4A2176DC498008E8"
+					item: { count: 1, id: "synaxis:dynamic_joint_motor" }
+					type: "item"
+				}
+				{
+					id: "3C162A719A92411C"
+					item: { count: 1, id: "synaxis:hydraulic_linear_actuator" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -69.5d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "quarryplus:marker"
+			}
+			id: "328A892AF322CA12"
+			rewards: [{
+				auto: "enabled"
+				id: "05349C70B286EBFE"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7E00E8007EBB6158"
+				item: { count: 1, id: "quarryplus:marker" }
+				type: "item"
+			}]
+			x: 226.0d
+			y: -69.5d
+		}
+		{
+			dependencies: [
+				"328A892AF322CA12"
+				"0655E46718DD0069"
+			]
+			icon: {
+				id: "quarryplus:quarry"
+			}
+			id: "19A1AC76720FD9EC"
+			rewards: [{
+				auto: "enabled"
+				id: "69718E6AD12BA1BB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_stainless_digital_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7D9DBDC7EC67044C"
+				item: { count: 1, id: "quarryplus:quarry" }
+				type: "item"
+			}]
+			x: 226.0d
+			y: -66.25d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "oritech:drone_port_block"
+			}
+			id: "1E8AFB4035F2E1D2"
+			rewards: [{
+				auto: "enabled"
+				id: "4C14EA5D46751C22"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_stainless_digital_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4670C67993C12285"
+					item: { count: 1, id: "oritech:drone_port_block" }
+					type: "item"
+				}
+				{
+					id: "291F7ECA75A3027A"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "35DB4ED10F0D6FD0"
+					item: { count: 1, id: "justdirethings:celestigem" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -40.25d
+		}
+		{
+			dependencies: [
+				"0655E46718DD0069"
+				"1E8AFB4035F2E1D2"
+			]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "3F20B9EFB67E80BD"
+			rewards: [{
+				auto: "enabled"
+				id: "23C1687C68F3C6AA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "0F808D9AEEE3DF2C"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7C9FF639A03869D0"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+				{
+					id: "6ED7062659E612D9"
+					item: { count: 1, id: "justdirethings:blockplacert2" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -37.0d
+		}
+		{
+			dependencies: [
+				"076C09B300000001"
+				"0EB6B5C1CAC5426E"
+				"1872493EE179B692"
+			]
+			icon: {
+				id: "mbtool:mbtool"
+			}
+			id: "076C10B100000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076C10B1000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "076C10B100000011"
+					item: { count: 1, id: "mbtool:mbtool" }
+					type: "item"
+				}
+				{
+					id: "076C10B100000012"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "076C10B100000013"
+					item: { count: 1, id: "gtceu:hv_robot_arm" }
+					type: "item"
+				}
+			]
+			x: 248.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["076C10B100000001"]
+			icon: {
+				id: "electroenergetics:sulfur_hexafluoride_breaker"
+			}
+			id: "076C10B200000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076C10B2000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "076C10B200000011"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "076C10B200000012"
+					item: { count: 1, id: "railcraft:advanced_item_loader" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "076C10B200000013"
+					item: { count: 1, id: "electroenergetics:sulfur_hexafluoride_breaker" }
+					type: "item"
+				}
+				{
+					id: "076C10B200000014"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 252.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["076C10B200000001"]
+			icon: {
+				id: "gtceu:hv_electric_motor"
+			}
+			id: "076C10B300000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076C10B3000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_stainless_digital_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "076C10B300000011"
+					item: { count: 1, id: "gtceu:hv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "076C10B300000012"
+					item: { count: 1, id: "gtceu:hv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "076C10B300000013"
+					item: { count: 1, id: "gtceu:hv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "076C10B300000014"
+					item: { count: 1, id: "electroenergetics:fuse_holder" }
+					type: "item"
+				}
+				{
+					id: "076C10B300000015"
+					item: { count: 1, id: "ae2:network_tool" }
+					type: "item"
+				}
+			]
+			x: 256.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["0655E46718DD0069"]
+			icon: {
+				id: "hostilenetworks:blank_data_model"
+			}
+			icon_scale: 0.96d
+			id: "38240647EC719970"
+			rewards: [{
+				auto: "enabled"
+				id: "533230C3A7A47818"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_mass_processing_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "6783942AECE6FAE3"
+					item: { count: 1, id: "hostilenetworks:deep_learner" }
+					type: "item"
+				}
+				{
+					id: "1454E2C64F8588C2"
+					item: { count: 1, id: "hostilenetworks:blank_data_model" }
+					type: "item"
+				}
+			]
+			x: 214.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"570B2A572D09FF2F"
+				"0655E46718DD0069"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "adchimneys:metal_pump"
+			}
+			id: "0A9CDCB37BBA2E9E"
+			rewards: [{
+				auto: "enabled"
+				id: "3F6FE7D117AA04DF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "6463215E404152A7"
+					item: { count: 1, id: "adchimneys:metal_pump" }
+					type: "item"
+				}
+				{
+					id: "5DC128CE1AFB742D"
+					item: { count: 1, id: "adpother:aerometer" }
+					type: "item"
+				}
+			]
+			x: 264.0d
+			y: -112.0d
+		}
+	]
+	tags: ["theme_stainless_digital_chapter"]
+}

@@ -1,0 +1,32 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 240,
+  "item_inputs": [
+    {
+      "item": "minecraft:glass_bottle",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:copper_fine_wire",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:copper_fine_wire",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 144
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:vacuum_tube",
+      "amount": 2
+    }
+  ]
+}

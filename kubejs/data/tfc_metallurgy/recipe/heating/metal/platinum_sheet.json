@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/platinum"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/platinum",
+    "amount": 200
+  },
+  "temperature": 1730,
+  "use_durability": false
+}

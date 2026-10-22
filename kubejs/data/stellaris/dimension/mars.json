@@ -1,0 +1,144 @@
+{
+  "type": "stellaris:mars",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "stellaris:mars",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:mars_gravel_desert",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -1,
+            "continentalness": -0.3,
+            "erosion": 0.4,
+            "weirdness": -0.6,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_rocky_mountains",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": -0.8,
+            "continentalness": 0.2,
+            "erosion": 0.2,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_painted_mountains",
+          "parameters": {
+            "temperature": -1,
+            "humidity": -1,
+            "continentalness": 0.4,
+            "erosion": 0.5,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_gravel_desert",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": -1,
+            "continentalness": -0.2,
+            "erosion": 0.9,
+            "weirdness": -0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_desert_canyon",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -1,
+            "continentalness": 0.3,
+            "erosion": -0.8,
+            "weirdness": -0.6,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_rocky_mountains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.8,
+            "continentalness": 0.6,
+            "erosion": -1,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_painted_mountains",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": -0.7,
+            "continentalness": 0.8,
+            "erosion": -0.6,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_stony_spires",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.8,
+            "continentalness": 0.5,
+            "erosion": 0.3,
+            "weirdness": 1.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_ancient_delta",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "weirdness": -0.9,
+            "depth": 0.85,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:mars_redstone_caves",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": -0.4,
+            "weirdness": 0.2,
+            "depth": 1,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

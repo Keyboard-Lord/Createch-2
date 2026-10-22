@@ -1,0 +1,14 @@
+{
+  "type": "survivorsdelight:clean_food_container",
+  "input_item": {
+    "tag": "survivorsdelight:washable"
+  },
+  "input_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  },
+  "output_item": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

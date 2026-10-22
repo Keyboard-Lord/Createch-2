@@ -1,0 +1,38 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.client.gui.screens.options.MouseSettingsScreen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1784312239768
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:47b1b1b0-0e0c-5dc1-b259-d6b7e7d42e44] = [groups:][instances:]
+}
+
+menu_background {
+  panorama_name = createch2_planet_space
+  instance_identifier = 85912b75-768c-5a0f-adaa-163c237ae4ee
+  background_type = panorama
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = true
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}

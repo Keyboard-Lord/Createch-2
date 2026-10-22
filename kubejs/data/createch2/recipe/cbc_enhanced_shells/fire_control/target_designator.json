@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AS",
+    "PDC",
+    " HR"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "minecraft:spyglass"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "R": {
+      "item": "create_radar:radar_receiver_block"
+    }
+  },
+  "result": {
+    "id": "cbc_enhanced_shells:target_designator",
+    "count": 1
+  }
+}

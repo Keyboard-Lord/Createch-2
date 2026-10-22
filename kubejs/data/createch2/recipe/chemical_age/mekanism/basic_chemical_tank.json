@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "PBP",
+    "ECE"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/aluminum"
+    },
+    "E": {
+      "item": "chemica:cured_epoxy_sheet"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "B": {
+      "item": "modern_industrialization:advanced_machine_casing"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    }
+  },
+  "result": {
+    "id": "mekanism:basic_chemical_tank",
+    "count": 1
+  }
+}

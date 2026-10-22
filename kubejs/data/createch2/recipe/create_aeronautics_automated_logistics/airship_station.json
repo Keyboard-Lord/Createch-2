@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "SPS",
+    "CAC"
+  ],
+  "key": {
+    "T": {
+      "item": "create:track_station"
+    },
+    "S": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "P": {
+      "item": "simulated:physics_assembler"
+    },
+    "C": {
+      "item": "tfmg:cable_connector"
+    },
+    "A": {
+      "tag": "createch2:control/factory/digital"
+    }
+  },
+  "result": {
+    "id": "create_aeronautics_automated_logistics:airship_station",
+    "count": 1
+  }
+}

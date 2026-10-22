@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "   N   ",
+    "  NDN  ",
+    " NDQDN ",
+    "  NDN  ",
+    "   N   "
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_pile"
+    },
+    "D": {
+      "tag": "c:music_discs"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    }
+  },
+  "result": {
+    "id": "avaritia:record_fragment",
+    "count": 4
+  },
+  "tier": 4
+}

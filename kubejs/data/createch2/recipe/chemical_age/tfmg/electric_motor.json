@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "greate:aluminium_shaft",
+      "amount": 1
+    },
+    {
+      "item": "tfmg:copper_spool",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:magnet",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 1
+    },
+    {
+      "item": "tfmg:screwdriver",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "tfmg:electric_motor",
+      "amount": 1
+    }
+  ]
+}

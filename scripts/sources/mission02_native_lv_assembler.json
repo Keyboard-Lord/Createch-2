@@ -1,0 +1,498 @@
+{
+  "scope": "Installed native LV assembler admission, partial energy/progress and dedicated finite native EU network; no game/server/world is run.",
+  "nativeClasses": {
+    "crafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CrafterComponent",
+      false
+    ],
+    "behavior": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CrafterComponent$Behavior",
+      false
+    ],
+    "electric": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.blockentities.ElectricCraftingMachineBlockEntity",
+      false
+    ],
+    "energy": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.EnergyComponent",
+      false
+    ],
+    "upgrades": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.UpgradeComponent",
+      false
+    ],
+    "registration": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      false
+    ],
+    "tier": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.MachineTier",
+      false
+    ],
+    "casing": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CasingComponent",
+      false
+    ],
+    "cable": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.api.energy.CableTier",
+      false
+    ],
+    "cablePart": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.materials.part.CablePart",
+      false
+    ],
+    "materials": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.materials.MIMaterials",
+      false
+    ],
+    "network": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.electricity.ElectricityNetwork",
+      false
+    ],
+    "networkBootstrap": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.electricity.ElectricityNetwork",
+      true
+    ],
+    "networkNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.electricity.ElectricityNetworkNode",
+      false
+    ],
+    "recipe": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.recipe.MachineRecipe",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "crafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+    "behavior": "9b0a42685f6dacff29e1334a99b6de9bea8ebf94c57f7021f1ba390e4c9f5683",
+    "electric": "76ead9b8226a84b654965e8903c12552beec781509394d37313f9c263bb66fd4",
+    "energy": "d01eec6de0554f8cf8b9256a5593953678ffdc618ff605b24fcd8b3725d8d763",
+    "upgrades": "b2c87532986646b1aaf86cbc393fe457ae8c113c99098f44d37895f19cc9cbd6",
+    "registration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+    "tier": "98a53961ea2565fe2626c3608172fdcdc76f01493a29880ddc417d4cce93775f",
+    "casing": "8f9be7e4e85d13721d59aa64c840ccf71b839dd569f6e15c761a72c7ee413de0",
+    "cable": "b7419bba67a7433663f3fd67ae458195e3306c32ede9c885bb08d68467e38111",
+    "cablePart": "43f0a956c3047267b1dc87deb682eb91f4b615f3fecce321323c5c1e4f4f9205",
+    "materials": "ff014b008a867f19d7935c3d02ed2cf7b4293df5b0eb84c5cb761b8b64f9be8d",
+    "network": "a71252c150a211892fc4beaea32e7907fb696c4dddb24ad1538134b85edd7e44",
+    "networkBootstrap": "0bef5ebaf991804da0117710efe6f20aac1d2db097b7ca8e1b06be30c28a48a3",
+    "networkNode": "ebec8b8e26bfc8489b538844a4eaeb6fb39bd86de06c1322cef7b19963943e61",
+    "recipe": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0"
+  },
+  "upgradeMap": {
+    "values": {
+      "modern_industrialization:advanced_upgrade": {
+        "extraMaxEu": 16
+      },
+      "modern_industrialization:basic_upgrade": {
+        "extraMaxEu": 2
+      },
+      "modern_industrialization:highly_advanced_upgrade": {
+        "extraMaxEu": 512
+      },
+      "modern_industrialization:quantum_upgrade": {
+        "extraMaxEu": 999999999
+      },
+      "modern_industrialization:turbo_upgrade": {
+        "extraMaxEu": 64
+      }
+    }
+  },
+  "recipes": {
+    "modern_industrialization:electric_age/upgrades/basic": {
+      "type": "modern_industrialization:assembler",
+      "eu": 8,
+      "duration": 200,
+      "item_inputs": [
+        {
+          "item": "modern_industrialization:conveyor",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:motor",
+          "amount": 4
+        },
+        {
+          "item": "modern_industrialization:robot_arm",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:analog_circuit_board",
+          "amount": 1
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "modern_industrialization:basic_upgrade",
+          "amount": 4
+        }
+      ]
+    },
+    "modern_industrialization:materials/mixer/lubricant": {
+      "type": "modern_industrialization:mixer",
+      "eu": 2,
+      "duration": 100,
+      "item_inputs": {
+        "item": "minecraft:redstone",
+        "amount": 1
+      },
+      "fluid_inputs": {
+        "tag": "c:creosote",
+        "amount": 500
+      },
+      "fluid_outputs": {
+        "fluid": "modern_industrialization:lubricant",
+        "amount": 500
+      }
+    },
+    "modern_industrialization:materials/tin/packer/cable": {
+      "type": "modern_industrialization:packer",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 6,
+          "item": "modern_industrialization:rubber_sheet"
+        },
+        {
+          "amount": 3,
+          "item": "modern_industrialization:tin_wire"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 3,
+          "item": "modern_industrialization:tin_cable"
+        }
+      ]
+    },
+    "createch2:advanced_electric/mi/advanced_motor_lubricated_assembly": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 64,
+      "duration": 400,
+      "item_inputs": [
+        {
+          "item": "electroenergetics:hanging_glass_insulator",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:annealed_copper_wire",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:electrum_wire",
+          "amount": 2
+        },
+        {
+          "item": "tfmg:magnetic_alloy_sheet",
+          "amount": 1
+        },
+        {
+          "tag": "c:rods/aluminum",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:electronic_circuit",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:motor",
+          "amount": 1
+        }
+      ],
+      "fluid_inputs": {
+        "fluid": "modern_industrialization:lubricant",
+        "amount": 100
+      },
+      "item_outputs": [
+        {
+          "item": "modern_industrialization:advanced_motor",
+          "amount": 1
+        }
+      ]
+    },
+    "createch2:advanced_electric/mi/advanced_pump_lubricated_assembly": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 64,
+      "duration": 500,
+      "item_inputs": [
+        {
+          "tag": "modern_industrialization:fluid_pipes",
+          "amount": 3
+        },
+        {
+          "item": "modern_industrialization:aluminum_rotor",
+          "amount": 2
+        },
+        {
+          "item": "modern_industrialization:advanced_motor",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:aluminum_bolt",
+          "amount": 2
+        },
+        {
+          "item": "stellaris:tharsite_ingot",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:electronic_circuit",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:pump",
+          "amount": 1
+        }
+      ],
+      "fluid_inputs": {
+        "fluid": "modern_industrialization:lubricant",
+        "amount": 250
+      },
+      "item_outputs": [
+        {
+          "item": "modern_industrialization:advanced_pump",
+          "amount": 1
+        }
+      ]
+    },
+    "modern_industrialization:materials/coal/compressor/coal": {
+      "type": "modern_industrialization:compressor",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:dusts/coal"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "minecraft:coal"
+        }
+      ]
+    },
+    "modern_industrialization:materials/coal/packer/block": {
+      "type": "modern_industrialization:packer",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 9,
+          "item": "minecraft:coal"
+        },
+        {
+          "amount": 1,
+          "item": "modern_industrialization:packer_block_template",
+          "probability": 0
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "minecraft:coal_block"
+        }
+      ]
+    },
+    "modern_industrialization:vanilla_recipes/compressor/diamond_from_coal": {
+      "type": "modern_industrialization:compressor",
+      "eu": 4,
+      "duration": 6000,
+      "item_inputs": {
+        "item": "minecraft:coal_block",
+        "amount": 16
+      },
+      "item_outputs": {
+        "item": "minecraft:diamond",
+        "amount": 1
+      }
+    },
+    "modern_industrialization:steam_age/bronze/cutting_machine_asbl": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "gdg",
+        "GCG",
+        "ppp"
+      ],
+      "key": {
+        "d": {
+          "item": "minecraft:diamond"
+        },
+        "G": {
+          "tag": "c:gears/copper"
+        },
+        "C": {
+          "item": "modern_industrialization:bronze_machine_casing"
+        },
+        "p": {
+          "tag": "modern_industrialization:fluid_pipes"
+        },
+        "g": {
+          "tag": "c:glass_blocks"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:bronze_cutting_machine",
+        "count": 1
+      }
+    },
+    "modern_industrialization:materials/aluminum/cutting_machine/rod": {
+      "type": "modern_industrialization:cutting_machine",
+      "duration": 200,
+      "eu": 2,
+      "fluid_inputs": [
+        {
+          "amount": 1,
+          "fluid": "modern_industrialization:lubricant"
+        }
+      ],
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:rods/aluminum"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 2,
+          "item": "modern_industrialization:aluminum_bolt"
+        }
+      ]
+    },
+    "modern_industrialization:materials/aluminum/craft/rotor": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "modern_industrialization:aluminum_blade"
+        },
+        "R": {
+          "item": "modern_industrialization:aluminum_ring"
+        },
+        "b": {
+          "item": "modern_industrialization:aluminum_bolt"
+        }
+      },
+      "pattern": [
+        "bBb",
+        "BRB",
+        "bBb"
+      ],
+      "result": {
+        "count": 1,
+        "id": "modern_industrialization:aluminum_rotor"
+      }
+    },
+    "modern_industrialization:materials/aluminum/craft/ring": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "R": {
+          "tag": "c:rods/aluminum"
+        },
+        "b": {
+          "item": "modern_industrialization:aluminum_bolt"
+        }
+      },
+      "pattern": [
+        "bRb",
+        "R R",
+        "bRb"
+      ],
+      "result": {
+        "count": 2,
+        "id": "modern_industrialization:aluminum_ring"
+      }
+    },
+    "modern_industrialization:materials/aluminum/craft/blade": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:rods/aluminum"
+        },
+        "P": {
+          "item": "modern_industrialization:aluminum_curved_plate"
+        }
+      },
+      "pattern": [
+        "P",
+        "P",
+        "I"
+      ],
+      "result": {
+        "count": 4,
+        "id": "modern_industrialization:aluminum_blade"
+      }
+    },
+    "createch2:chemical_age/mi/coal_dust_from_geological_coal": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:macerator",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "createch2:geology/coking_coal"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:coal_dust"
+        }
+      ]
+    },
+    "createch2:low_voltage/mi/electric_compressor_prototype": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "MAM",
+        "WHW",
+        "SBS"
+      ],
+      "key": {
+        "M": {
+          "item": "modern_industrialization:motor"
+        },
+        "A": {
+          "tag": "createch2:control/factory/analog"
+        },
+        "W": {
+          "item": "electroenergetics:insulated_wire"
+        },
+        "H": {
+          "item": "modern_industrialization:basic_machine_hull"
+        },
+        "S": {
+          "item": "tfmg:steel_mechanism"
+        },
+        "B": {
+          "item": "modern_industrialization:bronze_compressor"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:electric_compressor",
+        "count": 1
+      }
+    }
+  }
+}

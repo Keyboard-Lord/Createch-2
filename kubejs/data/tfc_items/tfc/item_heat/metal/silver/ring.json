@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/silver"
+    },
+    {
+      "tag": "c:physical_rings/silver"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 577,
+  "welding_temperature": 769
+}

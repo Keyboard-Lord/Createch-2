@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/manganese",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/manganese",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/manganese",
+      "required": false
+    }
+  ]
+}

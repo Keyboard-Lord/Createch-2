@@ -1,0 +1,98 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -27.5,
+        2.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -27.25,
+        2.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -12,
+        0,
+        0
+      ],
+      "translation": [
+        5,
+        -9.5,
+        2.25
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -11,
+        0,
+        0
+      ],
+      "translation": [
+        4.25,
+        -12,
+        2
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        161.47,
+        34.31,
+        -162.98
+      ],
+      "translation": [
+        -1.75,
+        -7,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "head": {
+      "rotation": [
+        11,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -33.5,
+        -7.75
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -27.75,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "particle": "death_angels:item/meteorstaff"
+  }
+}

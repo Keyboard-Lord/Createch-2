@@ -1,0 +1,101 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bountifulfares:apple_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:orange_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:lemon_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:plum_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:golden_apple_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:palm_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:apple_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:orange_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:lemon_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:plum_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:golden_apple_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:palm_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_apple_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_orange_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_lemon_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_plum_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_golden_apple_log",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_palm_log",
+      "required": false
+    },
+        {
+      "id": "bountifulfares:stripped_apple_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_orange_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_lemon_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_plum_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_golden_apple_wood",
+      "required": false
+    },
+    {
+      "id": "bountifulfares:stripped_palm_wood",
+      "required": false
+    }
+  ]
+}

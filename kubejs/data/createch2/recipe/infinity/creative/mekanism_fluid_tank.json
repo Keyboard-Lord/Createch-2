@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "QQQQQ",
+    "QIIIQ",
+    "QIXIQ",
+    "QIIIQ",
+    "QQQQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "id": "mekanism:creative_fluid_tank",
+    "count": 1
+  },
+  "tier": 4
+}

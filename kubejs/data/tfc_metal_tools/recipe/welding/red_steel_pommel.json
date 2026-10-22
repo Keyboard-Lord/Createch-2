@@ -1,0 +1,14 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:physical_rings/red_steel"
+  },
+  "second_input": {
+    "tag": "c:physical_rings/red_steel"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_metal_tools:red_steel_pommel"
+  }
+}

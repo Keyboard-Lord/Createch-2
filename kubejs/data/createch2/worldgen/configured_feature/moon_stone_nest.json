@@ -1,0 +1,52 @@
+{
+  "type": "productivebees:stone_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "stellaris:moon_stone"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "rocketnautics:lunar_rock"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "rocketnautics:lunar_regolith"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "rocketnautics:lunar_shattered_regolith"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "rocketnautics:lunar_loose_regolith"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "NI IN",
+    "NI IN",
+    "NN NN"
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_boots",
+    "count": 1
+  },
+  "tier": 4
+}

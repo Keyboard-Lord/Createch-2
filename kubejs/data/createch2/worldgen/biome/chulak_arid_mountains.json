@@ -1,0 +1,69 @@
+{
+  "carvers": {},
+  "creature_spawn_probability": 0.03,
+  "downfall": 0,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.badlands"
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "tfc:plant/barrel_cactus_patch",
+      "tfc:plant/dead_bush",
+      "tfc:plant/dry_grass_patch",
+      "tfc:plant/wild_crop/pumpkin_patch",
+      "tfc:plant/wild_crop/sugarcane_patch"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "tfc:armadillo",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

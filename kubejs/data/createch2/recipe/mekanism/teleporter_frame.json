@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OHO",
+    "HGH",
+    "OHO"
+  ],
+  "key": {
+    "O": {
+      "tag": "c:ingots/refined_obsidian"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "G": {
+      "tag": "c:ingots/refined_glowstone"
+    }
+  },
+  "result": {
+    "id": "mekanism:teleporter_frame",
+    "count": 4
+  }
+}

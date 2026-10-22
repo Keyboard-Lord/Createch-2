@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_tollan",
+  "features": [
+    "createch2:planetary_tollan_trinium_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_monazite/tuff",
+      "required": false
+    }
+  ]
+}

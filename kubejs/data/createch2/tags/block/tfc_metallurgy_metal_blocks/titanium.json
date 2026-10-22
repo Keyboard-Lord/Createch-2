@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/titanium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/titanium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/titanium",
+      "required": false
+    }
+  ]
+}

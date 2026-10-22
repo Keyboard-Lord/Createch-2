@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLB",
+    "LPL",
+    "SCS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "P": {
+      "tag": "c:ender_pearls"
+    },
+    "S": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "sgjourney:transfer_crystal"
+    }
+  },
+  "result": {
+    "id": "enderstorage:ender_pouch",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variants": {
+    "vertical_direction=up,thickness=base": {
+      "model": "createch2core:block/pointed_redstone_base"
+    },
+    "vertical_direction=down,thickness=base": {
+      "model": "createch2core:block/pointed_redstone_base",
+      "x": 180
+    },
+    "vertical_direction=up,thickness=middle": {
+      "model": "createch2core:block/pointed_redstone_middle"
+    },
+    "vertical_direction=down,thickness=middle": {
+      "model": "createch2core:block/pointed_redstone_middle",
+      "x": 180
+    },
+    "vertical_direction=up,thickness=frustum": {
+      "model": "createch2core:block/pointed_redstone_frustum"
+    },
+    "vertical_direction=down,thickness=frustum": {
+      "model": "createch2core:block/pointed_redstone_frustum",
+      "x": 180
+    },
+    "vertical_direction=up,thickness=tip": {
+      "model": "createch2core:block/pointed_redstone_tip"
+    },
+    "vertical_direction=down,thickness=tip": {
+      "model": "createch2core:block/pointed_redstone_tip",
+      "x": 180
+    },
+    "vertical_direction=up,thickness=tip_merge": {
+      "model": "createch2core:block/pointed_redstone_tip_merge"
+    },
+    "vertical_direction=down,thickness=tip_merge": {
+      "model": "createch2core:block/pointed_redstone_tip_merge",
+      "x": 180
+    }
+  }
+}

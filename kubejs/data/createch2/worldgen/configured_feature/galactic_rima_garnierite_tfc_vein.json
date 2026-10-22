@@ -1,0 +1,50 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -48,
+    "max_y": 32,
+    "size": 30,
+    "density": 0.6,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:orange_terracotta",
+          "minecraft:purple_terracotta",
+          "minecraft:red_terracotta",
+          "minecraft:yellow_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc:ore/poor_garnierite/quartzite"
+          },
+          {
+            "weight": 25,
+            "block": "tfc:ore/normal_garnierite/quartzite"
+          },
+          {
+            "weight": 60,
+            "block": "tfc:ore/rich_garnierite/quartzite"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_rima_garnierite_tfc_vein",
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_garnierite"
+        }
+      ]
+    }
+  }
+}

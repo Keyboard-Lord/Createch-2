@@ -1,0 +1,116 @@
+{
+  "jar": "eternalstarlight-0.9.1+1.21.1+neoforge.jar",
+  "sha256": "e77369ad1a779036b243ef0f7b24776640a3ff84968e6f3be1931bc953e92b09",
+  "worldClasses": {
+    "golem": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.golem.StarlightGolem",
+      "verbose": false,
+      "sha256": "6081fb7b72bc238a572c3e8b4af15636ce30302c9cc78687285e128e06132ab1"
+    },
+    "lunar": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.monstrosity.LunarMonstrosity",
+      "verbose": false,
+      "sha256": "9c77d994d70f9f0764427855130b5b9fdb137020168945d3d215a16559a2711c"
+    },
+    "boss": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.ESBoss",
+      "verbose": false,
+      "sha256": "dbcf74db2489a7d53d657d9a525af4d444eae011478c9787c1e0a7696cdf8323"
+    },
+    "golemSpawner": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.spawner.StarlightGolemSpawnerBlockEntity",
+      "verbose": false,
+      "sha256": "3b197a221372957911e3fe2d31848424c1dcdfc8d0345fcef2fc3d2389c147be"
+    },
+    "lunarSpawner": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.spawner.LunarMonstrositySpawnerBlockEntity",
+      "verbose": false,
+      "sha256": "37dc935860238f602a35d74b7b9890f78d18ec953aa59b1677fef00f8d6efda4"
+    },
+    "spawner": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.spawner.BossSpawnerBlockEntity",
+      "verbose": false,
+      "sha256": "4c80705e90442cd902d759ee1712e3bafa8c86250451f3df1219ee48c82153c7"
+    },
+    "garden": {
+      "class": "cn.leolezury.eternalstarlight.common.world.gen.structure.garden.CursedGardenStructure",
+      "verbose": false,
+      "sha256": "89182fbc495e33654762ebde65e27bb6e5e5164daeaa0f8f0910ccc07791d8b0"
+    },
+    "gardenPiece": {
+      "class": "cn.leolezury.eternalstarlight.common.world.gen.structure.garden.CursedGardenMazePiece",
+      "verbose": false,
+      "sha256": "5d65c7e884027e54825d02dc50baaa7e2a7d1a3e500187e0a4a465c03c83f4a4"
+    },
+    "landmark": {
+      "class": "cn.leolezury.eternalstarlight.common.world.gen.structure.placement.LandmarkStructurePlacement",
+      "verbose": false,
+      "sha256": "0137f6482d4485a8c696d27521ae288ec0f58de22f4fec8ddf7053eb08439112"
+    },
+    "energy": {
+      "class": "cn.leolezury.eternalstarlight.common.block.EnergyBlock",
+      "verbose": false,
+      "sha256": "8f8fcbfca05a4bcdcb7a8da9df103cadd9fb4a8a1406f546b40f39fa6b208dd0"
+    },
+    "chargeStart": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.golem.StarlightGolemChargeStartPhase",
+      "verbose": false,
+      "sha256": "6a5d5c912bbaa2d18fe009c7e4f1f6336f275ad8f335994cb2d1e3ea48188885"
+    },
+    "charge": {
+      "class": "cn.leolezury.eternalstarlight.common.entity.living.boss.golem.StarlightGolemChargePhase",
+      "verbose": false,
+      "sha256": "a2dae22f4539825a9460b707317c91286458b29e2be3a812ecc1df569f3b7cd8"
+    },
+    "golemBlock": {
+      "class": "cn.leolezury.eternalstarlight.common.block.spawner.StarlightGolemSpawnerBlock",
+      "verbose": false,
+      "sha256": "ca7553122f2f66272393358e7b125ba95a2d31f1cdde3fc2e8e4ce67f852f6d7"
+    },
+    "lunarBlock": {
+      "class": "cn.leolezury.eternalstarlight.common.block.spawner.LunarMonstrositySpawnerBlock",
+      "verbose": false,
+      "sha256": "fd42c32c5949a088f23a2bdb9995001f7964d6dfcd65a8e2a1f5a9cbd410ffb0"
+    },
+    "golemBlockV": {
+      "class": "cn.leolezury.eternalstarlight.common.block.spawner.StarlightGolemSpawnerBlock",
+      "verbose": true,
+      "sha256": "d6ae19cf5ccffb4a1c18f8b4dc9c2a11a8878319cee1becdc4beefce9425ab10"
+    },
+    "lunarBlockV": {
+      "class": "cn.leolezury.eternalstarlight.common.block.spawner.LunarMonstrositySpawnerBlock",
+      "verbose": true,
+      "sha256": "0ec3528e0b4db4e03ed9881e7b4cb09bec0f07b8f0f0256d323613598ca565b2"
+    },
+    "lootChest": {
+      "class": "cn.leolezury.eternalstarlight.common.block.entity.LootChestBlockEntity",
+      "verbose": false,
+      "sha256": "960157c8ace1849ba6e5f611c1b81d7936552894ab969f90fa5581d44e6f6c8a"
+    },
+    "lootChestBlock": {
+      "class": "cn.leolezury.eternalstarlight.common.block.LootChestBlock",
+      "verbose": false,
+      "sha256": "768e0411cbb9f43b3ef87dfb877bd27dc22b7d0454e61f51535b18983a93af2a"
+    }
+  },
+  "killClasses": {
+    "killTask": {
+      "class": "dev.ftb.mods.ftbquests.quest.task.KillTask",
+      "verbose": false,
+      "sha256": "06f5da804e9c82a8d7792bc29b7fcf00988b6d9a03eca19900b8a109c81b9254",
+      "jar": "ftb-quests-neoforge-2101.1.36.jar"
+    },
+    "killHandler": {
+      "class": "dev.ftb.mods.ftbquests.FTBQuestsEventHandler",
+      "verbose": false,
+      "sha256": "25b47faac084af7405245c61d90e2641a57e9153b3c85d56b3a444633de619ce",
+      "jar": "ftb-quests-neoforge-2101.1.36.jar"
+    },
+    "killHandlerV": {
+      "class": "dev.ftb.mods.ftbquests.FTBQuestsEventHandler",
+      "verbose": true,
+      "sha256": "6a1a1cf7648c990a09a8bea64bc8895e28c2344452d310b7195cc1505941a8d4",
+      "jar": "ftb-quests-neoforge-2101.1.36.jar"
+    }
+  }
+}

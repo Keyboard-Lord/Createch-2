@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/manganese"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/manganese",
+    "amount": 200
+  },
+  "temperature": 1250,
+  "use_durability": false
+}

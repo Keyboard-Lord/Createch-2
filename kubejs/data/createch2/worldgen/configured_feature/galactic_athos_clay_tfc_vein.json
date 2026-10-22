@@ -1,0 +1,28 @@
+{
+  "type": "tfc:disc_vein",
+  "config": {
+    "rarity": 59,
+    "min_y": -40,
+    "max_y": 40,
+    "size": 24,
+    "density": 0.5,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:calcite"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "minecraft:clay"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_athos_clay_tfc_vein",
+    "height": 3
+  }
+}

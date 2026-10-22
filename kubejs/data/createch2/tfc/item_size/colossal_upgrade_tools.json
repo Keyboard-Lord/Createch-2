@@ -1,0 +1,12 @@
+{
+  "ingredient": [
+    {
+      "item": "colossalchests:upgrade_tool"
+    },
+    {
+      "item": "colossalchests:upgrade_tool_reverse"
+    }
+  ],
+  "size": "normal",
+  "weight": "light"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 120,
+    "min_y": -32,
+    "max_y": 16,
+    "size": 20,
+    "density": 0.28,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:smooth_basalt",
+          "minecraft:calcite"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "sgjourney:trinium_ore"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 128,
+      "underground_rarity": 6,
+      "underground_count": 1,
+      "depth": 52,
+      "blocks": [
+        {
+          "block": "minecraft:small_amethyst_bud"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_tollan_trinium_tfc_vein"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:stargate_industrial_remnant",
+    "#createch2:stargate_radioactive",
+    "#createch2:stargate_pgm",
+    "#createch2:stargate_crystal",
+    "#createch2:stargate_naquadah"
+  ]
+}

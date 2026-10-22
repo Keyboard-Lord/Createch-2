@@ -1,0 +1,612 @@
+{
+	autofocus_id: "077A010000000001"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_19_offworld_archaeology"
+	group: "0A85000000000004"
+	id: "077A000000000001"
+	images: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "0822000000000015"
+		linked_quest: "2A5F97ADA7B3186A"
+		shape: "rsquare"
+		size: 1.15d
+		x: -4.2d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["2A5F97ADA7B3186A"]
+			icon: {
+				id: "sgjourney:stone_symbol"
+			}
+			id: "077A010000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0100000000F1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					advancement: "createch2:offworld_archaeology/lunar_anomaly"
+					criterion: ""
+					id: "077A010000000011"
+					type: "advancement"
+				}
+				{
+					id: "077A010000000012"
+					item: { count: 1, id: "sgjourney:stone_symbol" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A010000000001"]
+			icon: {
+				id: "sgjourney:archeologist_notebook"
+			}
+			id: "077A020000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0200000000F1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "077A020000000011"
+				item: { count: 1, id: "sgjourney:archeologist_notebook" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"077A020000000001"
+				"05E487281942D4A6"
+			]
+			icon: {
+				id: "sgjourney:sandstone_hieroglyphs"
+			}
+			id: "077A030000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0300000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					advancement: "createch2:offworld_archaeology/martian_complex"
+					criterion: ""
+					id: "077A030000000011"
+					type: "advancement"
+				}
+				{
+					id: "077A030000000012"
+					item: { count: 1, id: "sgjourney:sandstone_hieroglyphs" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A030000000001"]
+			icon: {
+				id: "sgjourney:memory_crystal"
+			}
+			id: "077A040000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0400000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "077A040000000011"
+				item: { count: 1, id: "sgjourney:memory_crystal" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"077A040000000001"
+				"231AAA8D46F0E522"
+			]
+			icon: {
+				id: "sgjourney:red_sandstone_symbol"
+			}
+			id: "077A050000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0500000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					advancement: "createch2:offworld_archaeology/venusian_field_station"
+					criterion: ""
+					id: "077A050000000011"
+					type: "advancement"
+				}
+				{
+					id: "077A050000000012"
+					item: { count: 1, id: "sgjourney:red_sandstone_symbol" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A050000000001"]
+			icon: {
+				id: "sgjourney:energy_crystal"
+			}
+			id: "077A060000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0600000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "077A060000000011"
+				item: { count: 1, id: "sgjourney:energy_crystal" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"077A060000000001"
+				"728B2E2AB28A5C4E"
+			]
+			icon: {
+				id: "sgjourney:red_sandstone_cartouche"
+			}
+			id: "077A070000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0700000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					advancement: "createch2:offworld_archaeology/mercurian_relay"
+					criterion: ""
+					id: "077A070000000011"
+					type: "advancement"
+				}
+				{
+					id: "077A070000000012"
+					item: { count: 1, id: "sgjourney:red_sandstone_cartouche" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A070000000001"]
+			icon: {
+				id: "sgjourney:communication_crystal"
+			}
+			id: "077A080000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0800000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "077A080000000011"
+				item: { count: 1, id: "sgjourney:communication_crystal" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"077A080000000001"
+				"0F6BE12A29E46669"
+			]
+			icon: {
+				id: "sgjourney:classic_stargate"
+			}
+			id: "077A090000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0900000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_capstone"
+			size: 2.25d
+			tags: [
+				"theme_quantum_capstone"
+				"role_capstone"
+			]
+			tasks: [
+				{
+					id: "077A090000000011"
+					item: { count: 1, id: "sgjourney:classic_stargate" }
+					type: "item"
+				}
+				{
+					id: "077A090000000012"
+					item: { count: 1, id: "sgjourney:classic_dhd" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A090000000001"]
+			icon: {
+				id: "sgjourney:milky_way_stargate"
+			}
+			id: "077A0A0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0A00000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_capstone"
+			size: 2.25d
+			tags: [
+				"theme_quantum_capstone"
+				"role_capstone"
+			]
+			tasks: [
+				{
+					advancement: "sgjourney:adventure/use_stargate"
+					criterion: ""
+					id: "077A0A0000000011"
+					type: "advancement"
+				}
+				{
+					advancement: "sgjourney:adventure/visit_abydos"
+					criterion: ""
+					id: "077A0A0000000012"
+					type: "advancement"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A0A0000000001"]
+			icon: {
+				id: "sgjourney:sandstone_cartouche"
+			}
+			id: "077A0B0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0B00000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					advancement: "createch2:offworld_archaeology/abydos_cartouche"
+					criterion: ""
+					id: "077A0B0000000011"
+					type: "advancement"
+				}
+				{
+					id: "077A0B0000000012"
+					item: { count: 1, id: "sgjourney:sandstone_cartouche" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A0B0000000001"]
+			icon: {
+				id: "sgjourney:jaffa_staff_head"
+			}
+			id: "077A0C0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0C00000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				id: "077A0C0000000011"
+				type: "dimension"
+			}]
+			x: 33.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["077A0B0000000001"]
+			icon: {
+				id: "sgjourney:naquadah_iron_block"
+			}
+			id: "077A0D0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0D00000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				id: "077A0D0000000011"
+				type: "dimension"
+			}]
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["077A0C0000000001"]
+			id: "077A0E0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0E00000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "sgjourney:rima"
+				id: "077A0E0000000011"
+				type: "dimension"
+			}]
+			x: 36.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["077A0D0000000001"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:iridium_ingot"
+			}
+			id: "077A0F0000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A0F00000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_quantum_required"
+				"role_required"
+			]
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				id: "077A0F0000000011"
+				type: "dimension"
+			}]
+			x: 36.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"077A0E0000000001"
+				"077A0F0000000001"
+			]
+			icon: {
+				id: "sgjourney:tollan_stargate"
+			}
+			id: "077A100000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "077A1000000000F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "077A1000000000F2"
+					item: {
+						count: 1
+						id: "sgjourney:advanced_memory_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 2.25d
+			tags: [
+				"theme_quantum_capstone"
+				"role_capstone"
+			]
+			tasks: [{
+				dimension: "sgjourney:tollan"
+				id: "077A100000000011"
+				type: "dimension"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A100000000001"]
+			icon: {
+				id: "sgjourney:advanced_control_crystal"
+			}
+			id: "077A110000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A1100000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_capstone"
+			size: 2.25d
+			tags: [
+				"theme_quantum_capstone"
+				"role_capstone"
+			]
+			tasks: [
+				{
+					id: "077A110000000011"
+					item: { count: 1, id: "sgjourney:advanced_control_crystal" }
+					type: "item"
+				}
+				{
+					id: "077A110000000012"
+					item: { count: 1, id: "sgjourney:pegasus_dhd" }
+					type: "item"
+				}
+			]
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A110000000001"]
+			icon: {
+				id: "sgjourney:pegasus_dhd"
+			}
+			id: "077A120000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A1200000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_quantum_main"
+				"role_main"
+			]
+			tasks: [{
+				dimension: "sgjourney:athos"
+				id: "077A120000000011"
+				type: "dimension"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077A120000000001"]
+			icon: {
+				id: "sgjourney:pegasus_stargate"
+			}
+			id: "077A130000000001"
+			rewards: [{
+				auto: "enabled"
+				id: "077A1300000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_capstone"
+			size: 2.25d
+			tags: [
+				"theme_quantum_capstone"
+				"role_capstone"
+			]
+			tasks: [
+				{
+					dimension: "sgjourney:lantea"
+					id: "077A130000000011"
+					type: "dimension"
+				}
+				{
+					advancement: "createch2:offworld_archaeology/lantean_outpost"
+					criterion: ""
+					id: "077A130000000012"
+					type: "advancement"
+				}
+			]
+			x: 48.0d
+			y: 0.0d
+		}
+	]
+	tags: ["theme_quantum_chapter"]
+}

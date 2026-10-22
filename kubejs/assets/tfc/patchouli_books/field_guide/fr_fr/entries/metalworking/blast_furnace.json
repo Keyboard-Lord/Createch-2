@@ -1,0 +1,40 @@
+{
+  "name": "Haut fourneau TFMG",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG remplace le haut fourneau TFC. Le four électrique ultérieur de MI garde son rôle.$(br2)Construisez le haut fourneau, la prise d'air, le réchauffeur d'air et le bassin de coulée TFMG. Ses briques réfractaires proviennent des briques cuites de TFC. Consultez la scène Ponder de la trappe pour assembler la structure."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chargez de la poudre de coke comme combustible et fournissez de l'air chaud. Le fondant TFC va dans l'entrée de fondant, pas dans le combustible. Séparez métal, laitier et gaz ; videz le réservoir de métal avant de changer de produit."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "Un lingot de fonte TFC et un fondant TFC produisent 100 mB de fonte brute TFC, à couler en un lingot. La qualité du minerai détermine toujours la quantité de fonte obtenue par chauffage selon les règles TFC."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "Le fer concassé ou en poudre avec du fondant TFC produit de l'acier fondu TFMG. Coulez 144 mB pour obtenir un lingot. Ces recettes et la passerelle de fonte brute partagent la recherche existante Chaleur industrielle."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "L'installation TFMG fournit la fonte brute aux recettes d'enclume et de soudage TFC. Les aciers à haute teneur en carbone, noir, rouge et bleu conservent leurs exigences de forge et d'alliage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Les anciens fours TFC conservent inventaires et réservoirs, mais ne traitent plus de recettes. Fabriquez avec l'isolant retiré pour récupérer trois tôles de fer forgé ; les briques isolées rendent aussi leur bloc réfractaire."
+    }
+  ]
+}

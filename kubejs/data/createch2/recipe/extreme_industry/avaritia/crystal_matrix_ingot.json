@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "NEN",
+    "LAL"
+  ],
+  "key": {
+    "L": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "E": {
+      "item": "eternal_starlight:crystalborn_catalyst"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "result": {
+    "id": "avaritia:crystal_matrix_ingot",
+    "count": 1
+  }
+}

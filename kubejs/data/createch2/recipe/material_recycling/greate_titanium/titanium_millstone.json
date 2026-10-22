@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "greate:titanium_millstone",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:titanium_dust",
+      "amount": 2
+    }
+  ]
+}

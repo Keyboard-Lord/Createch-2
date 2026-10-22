@@ -1,0 +1,12 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/protein_soup"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 2,
+  "vegetables": 0.5,
+  "protein": 1.5,
+  "water": 15,
+  "decay_modifier": 4.5
+}

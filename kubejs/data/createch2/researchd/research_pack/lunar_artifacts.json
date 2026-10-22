@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 166,
+    "g": 178,
+    "b": 196
+  },
+  "sorting_value": 101,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.lunar_artifacts.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.lunar_artifacts.description"
+    }
+  }
+}

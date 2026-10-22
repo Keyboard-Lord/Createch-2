@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "chemica:purified_graphite_flakes"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:sucrose_solution"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfc_metallurgy:metal/ingot/graphite"
+    },
+    {
+      "id": "tfc_metallurgy:metal/ingot/graphite",
+      "chance": 0.15
+    }
+  ]
+}

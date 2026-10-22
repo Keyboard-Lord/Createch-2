@@ -1,0 +1,79 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:infinity_catalyst",
+  "group": "eternal_singularity",
+  "ingredients": [
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "avaritia:eternal_singularity"
+    },
+    {
+      "item": "avaritia:crystal_matrix"
+    },
+    {
+      "item": "avaritia:star_fuel"
+    },
+    {
+      "item": "modern_industrialization:uu_matter_bucket"
+    },
+    {
+      "item": "oritech:still_strange_matter_bucket"
+    },
+    {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    {
+      "item": "justdirethings:time_crystal"
+    },
+    {
+      "item": "gtceu:opv_electric_motor"
+    },
+    {
+      "item": "gtceu:uxv_electric_motor"
+    },
+    {
+      "item": "gtceu:opv_electric_pump"
+    },
+    {
+      "item": "gtceu:uxv_electric_pump"
+    },
+    {
+      "item": "gtceu:opv_electric_piston"
+    },
+    {
+      "item": "gtceu:uxv_electric_piston"
+    },
+    {
+      "item": "gtceu:opv_conveyor_module"
+    },
+    {
+      "item": "gtceu:uxv_conveyor_module"
+    },
+    {
+      "item": "gtceu:opv_robot_arm"
+    },
+    {
+      "item": "gtceu:uxv_robot_arm"
+    },
+    {
+      "item": "gtceu:opv_sensor"
+    },
+    {
+      "item": "gtceu:uxv_sensor"
+    },
+    {
+      "item": "gtceu:opv_emitter"
+    },
+    {
+      "item": "gtceu:uxv_emitter"
+    },
+    {
+      "item": "gtceu:opv_field_generator"
+    },
+    {
+      "item": "gtceu:uxv_field_generator"
+    }
+  ]
+}

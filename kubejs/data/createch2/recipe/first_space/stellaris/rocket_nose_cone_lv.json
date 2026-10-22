@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "SAS",
+    "SBS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "A": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    }
+  },
+  "result": {
+    "id": "stellaris:rocket_nose_cone",
+    "count": 1
+  }
+}

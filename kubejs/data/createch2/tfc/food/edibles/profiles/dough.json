@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/dough"
+  },
+  "edible": true,
+  "decay_modifier": 3,
+  "hunger": 4
+}

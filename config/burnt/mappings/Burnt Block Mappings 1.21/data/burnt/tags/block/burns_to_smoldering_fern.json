@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:giant_fern",
+      "required": false
+    },
+    {
+      "id": "yourmod:forest_fern",
+      "required": false
+    }
+  ]
+}

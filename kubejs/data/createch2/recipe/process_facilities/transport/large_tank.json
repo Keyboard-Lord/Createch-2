@@ -1,0 +1,38 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:steel_tank",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:pump",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:steel_machine_casing",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:tin_rotor",
+      "amount": 2
+    },
+    {
+      "item": "greate:steel_mechanical_pump",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:large_tank",
+      "amount": 1
+    }
+  ]
+}

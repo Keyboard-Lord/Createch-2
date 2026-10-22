@@ -1,0 +1,14 @@
+{
+  "id": "champions:skeleton_line",
+  "weight": 0,
+  "tier_range": {
+    "min": 6
+  },
+  "entity_filter": {
+    "type": "mob_category",
+    "categories": [
+      "monster"
+    ]
+  },
+  "affix_pools": []
+}

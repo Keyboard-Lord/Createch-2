@@ -1,0 +1,55 @@
+{
+  "nativeClasses": {
+    "task": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.ItemTask"
+    ],
+    "matching": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.integration.item_filtering.ItemMatchingSystem"
+    ],
+    "mode": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.integration.item_filtering.ItemMatchingSystem$ComponentMatchType"
+    ],
+    "names": [
+      "ftb-library-neoforge-2101.1.37.jar",
+      "dev.ftb.mods.ftblibrary.config.NameMap"
+    ]
+  },
+  "nativeCodeSha256": {
+    "task": "7736e7195ba81dad3f92b0769182f932306e5e5347ff177474250a5c31fcd7fb",
+    "matching": "d180258fb5a329231f7a2be411d83b0950f37299f5f0c03ad93e30c4c995cc8b",
+    "mode": "afa62ac2ab028d597ea9dc35bc166f6d31b9af336f97ef922314175def617aea",
+    "names": "2a704803024c6fcf84bfb18ee275cc4421d25a8d267548875351c2c83f20ff48"
+  },
+  "reviewedLiteralItems": [
+    "create:andesite_alloy",
+    "create:brass_ingot",
+    "create:brass_sheet",
+    "createbigcannons:bronze_ingot",
+    "electroenergetics:copper_wire",
+    "modern_industrialization:aluminum_ingot",
+    "modern_industrialization:bronze_gear",
+    "modern_industrialization:bronze_ingot",
+    "modern_industrialization:bronze_plate",
+    "modern_industrialization:copper_wire",
+    "modern_industrialization:iridium_ingot",
+    "modern_industrialization:platinum_ingot",
+    "modern_industrialization:steel_gear",
+    "modern_industrialization:steel_plate",
+    "modern_industrialization:steel_rod",
+    "modern_industrialization:titanium_dust",
+    "modern_industrialization:titanium_ingot",
+    "modern_industrialization:uranium_dust",
+    "railcraft:steel_ingot",
+    "tfc:metal/anvil/copper",
+    "tfc:metal/double_ingot/copper",
+    "tfc:metal/hammer/copper",
+    "tfc:metal/ingot/copper",
+    "tfc:metal/ingot/steel",
+    "tfc:metal/ingot/wrought_iron",
+    "tfc:powder/flux",
+    "tfmg:steel_ingot"
+  ]
+}

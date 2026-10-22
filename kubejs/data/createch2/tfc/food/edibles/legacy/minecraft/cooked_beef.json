@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:cooked_beef"
+  },
+  "edible": true,
+  "protein": 2.5,
+  "decay_modifier": 1.5,
+  "hunger": 4,
+  "saturation": 2
+}

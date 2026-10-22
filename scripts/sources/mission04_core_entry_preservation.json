@@ -1,0 +1,96 @@
+{
+  "truth": "STATIC_MISSION04_RUNTIME_REPAIR_CORE_ENTRY_PRESERVATION",
+  "before": "b5844649675e45d8bf30132fa7797cca79f76439f8f04d9cbee961ff5fb7089e",
+  "after": "ee4070f1a49f2428ba4615b601eaa2509ec9185c526173cd082f7ced3b21f096",
+  "added": [
+    "createch2/core/mixin/compat/DeepSeasSailCollisionMixin.class",
+    "createch2/core/mixin/compat/DeepSeasSailMixin.class",
+    "createch2/core/mixin/compat/TfcColdSweatWorldMixin.class",
+    "createch2/core/mixin/compat/client/WoodenCogBasinCategoryMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2/core/compat/GtComputationRecipeIdentity.class",
+    "createch2/core/compat/GtStationResearchRecipes$1.class",
+    "createch2/core/compat/GtStationResearchRecipes.class",
+    "createch2/core/mixin/Createch2MixinConfigPlugin$IntField.class",
+    "createch2/core/mixin/Createch2MixinConfigPlugin.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 355,
+  "unchangedEntriesSha256": "cc9921b2df47205a526ba90f7bbb125bdc6c4bbf497b141eb5a3488c8191593c",
+  "sourceCheckpoints": [
+    "816c93b",
+    "e62ce45"
+  ],
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-b5844649675e45d8bf30132fa7797cca79f76439f8f04d9cbee961ff5fb7089e.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/DeepSeasSailCollisionMixin.class": {
+      "before": null,
+      "after": "24a5e91c96bb0a089a2740ae99738651250f2b7556a334f32596862067c7d387"
+    },
+    "createch2/core/mixin/compat/DeepSeasSailMixin.class": {
+      "before": null,
+      "after": "84e409598e8f393a4906ce3109f71ccea071f00417f5f972e31266aeaf9e2abf"
+    },
+    "createch2/core/mixin/compat/TfcColdSweatWorldMixin.class": {
+      "before": null,
+      "after": "751bf860a2fb1602f0371eed97473d4a117568cf10241483c3d5eb3eeb4d4370"
+    },
+    "createch2/core/mixin/compat/client/WoodenCogBasinCategoryMixin.class": {
+      "before": null,
+      "after": "65f7145bfa1fc4c65f9d27caa008966c9d7d5dcce13e830c7d6c490af01f777b"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "3ea601288ff5357cc5767f25070e8aa86cdadb555b9e3036d57e01ee28180a22",
+      "after": "0584172414812e9a54a35806496ccaff0314e48304b92664c751fd9dbad59181"
+    },
+    "createch2/core/compat/GtComputationRecipeIdentity.class": {
+      "before": "f4a4d15a78a7a63ad4b2590fe666efe8ce162cee8acadb31cbd61264c9d2de86",
+      "after": "a2a0892b9a1eb14708e3993ddebeae66b84f5387f0f89dd27b49e2d62fb3c7d6"
+    },
+    "createch2/core/compat/GtStationResearchRecipes$1.class": {
+      "before": "969fb23da4f67510fa0a4eb403494a89862ab072428debf050a54f4c91ce25a2",
+      "after": "263286766b028a085d3bdeb4121bd8801d494ae69dbb302027fab9726b1b2fb0"
+    },
+    "createch2/core/compat/GtStationResearchRecipes.class": {
+      "before": "0d7ab29e7d22d76a5e72fdf191f535edfaf87dc1d2f6d06752c9817b2781dd43",
+      "after": "d392b0d1ecaaba1c41dd5205b241264850b1f877716e09abc9cf850060f3e3ff"
+    },
+    "createch2/core/mixin/Createch2MixinConfigPlugin$IntField.class": {
+      "before": "2ef4171a19a7be1f0f229d10219fc6172e1151d39339aedfb2e9d01f82d2f71b",
+      "after": "87130d26c9fccdb90c97c6a7f7d89e53b5e869e81388b54d7d35ff7a48d4e91c"
+    },
+    "createch2/core/mixin/Createch2MixinConfigPlugin.class": {
+      "before": "bc6cb07d24cdeccd9e4fae14b18f94e1d1cd9e4cfe68c0529a94127bf9e143c7",
+      "after": "e55109df656f03cf76087451b696140b1502e5a3d73970a0b3aaa46384d63ea6"
+    },
+    "createch2core.mixins.json": {
+      "before": "3204e15c641dfb19187774961a4826453383c4b5222337395121b35508a85fba",
+      "after": "a06549aa283a2f371096908e1ec466e30b5045ad3e303f71ece7713567b6b420"
+    }
+  },
+  "bytecode": {
+    "createch2.core.compat.GtStationResearchRecipes": {
+      "before": "d9b38cff960d7ef35c8d6efad92d2099ba54135782b26daf5ff8016720f48803",
+      "after": "43364e86813b69cc1f20af1173e112aecf92c2d843cb4c3f409424763162a0da"
+    },
+    "createch2.core.compat.GtStationResearchRecipes$1": {
+      "before": "c92c734227b5acc47231192375bfeee5a3f9464eab73c121143eea740f2fb320",
+      "after": "c92c734227b5acc47231192375bfeee5a3f9464eab73c121143eea740f2fb320"
+    },
+    "createch2.core.compat.GtComputationRecipeIdentity": {
+      "before": "41c9ffc3e99d6391cb4ed5bbe1cbfd56ece68c711e0d6e2b80a81acffa2834d2",
+      "after": "69734f54612dbab3e15278d3d89eddefcfaa3e58e44e0b995c431d36b92133c7"
+    }
+  },
+  "scriptHelpers": {
+    "stationDelivery": {
+      "before": "4738b33f292d1e73cb89bb4936210cb8b251a8021886eda0b5325060258f3a1f",
+      "after": "c7594218709d7c2130e7afa1624aaecdadc9d4939be8549c534794be0a1bb698"
+    }
+  },
+  "scope": "JAR-entry and reviewed bytecode continuity only. Physical mechanics and full mission remain unqualified."
+}

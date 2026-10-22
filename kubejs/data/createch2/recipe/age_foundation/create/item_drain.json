@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "C",
+    "L"
+  ],
+  "key": {
+    "B": {
+      "tag": "createch2:bars/bronze_tier"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "L": {
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  },
+  "result": {
+    "id": "create:item_drain",
+    "count": 1
+  }
+}

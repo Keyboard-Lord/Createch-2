@@ -1,0 +1,77 @@
+[Gem]
+	#How far from a player in horizontal plane ores can be found
+	# Default: 6
+	# Range: 1 ~ 64
+	scanRadius = 4
+	#How far from a player in vertical plane ore veins can be found
+	# Default: 32
+	# Range: 1 ~ 384
+	pingDepth = 16
+	#Minimal size of an ore vein to be found
+	# Default: 1
+	# Range: 1 ~ 128
+	veinMinSize = 2
+	#Minimal size of an ore deposit to get alarm
+	# Default: 16
+	# Range: 1 ~ 1024
+	depositMinSize = 12
+	#How many hits the finder can withstand
+	# Default: 4
+	# Range: 0 ~ 65535
+	durability = 24
+	#List of allowed targets. If set, forbidden targets will be ignored
+	allowedTargets = []
+	#List of forbidden targets
+	forbiddenTargets = []
+
+[Metal]
+	#How far from a player in horizontal plane ores can be found
+	# Default: 8
+	# Range: 1 ~ 64
+	scanRadius = 5
+	#How far from a player in vertical plane ore veins can be found
+	# Default: 48
+	# Range: 1 ~ 384
+	pingDepth = 20
+	#Minimal size of an ore vein to be found
+	# Default: 1
+	# Range: 1 ~ 128
+	veinMinSize = 3
+	#Minimal size of an ore deposit to get alarm
+	# Default: 24
+	# Range: 1 ~ 1024
+	depositMinSize = 24
+	#How many hits the finder can withstand
+	# Default: 4
+	# Range: 0 ~ 65535
+	durability = 32
+	#List of allowed targets. If set, forbidden targets will be ignored
+	allowedTargets = []
+	#List of forbidden targets
+	forbiddenTargets = []
+
+[Mineral]
+	#How far from a player in horizontal plane ores can be found
+	# Default: 7
+	# Range: 1 ~ 64
+	scanRadius = 4
+	#How far from a player in vertical plane ore veins can be found
+	# Default: 40
+	# Range: 1 ~ 384
+	pingDepth = 16
+	#Minimal size of an ore vein to be found
+	# Default: 1
+	# Range: 1 ~ 128
+	veinMinSize = 3
+	#Minimal size of an ore deposit to get alarm
+	# Default: 32
+	# Range: 1 ~ 1024
+	depositMinSize = 24
+	#How many hits the finder can withstand
+	# Default: 4
+	# Range: 0 ~ 65535
+	durability = 32
+	#List of allowed targets. If set, forbidden targets will be ignored
+	allowedTargets = []
+	#List of forbidden targets
+	forbiddenTargets = []

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/invar",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/invar",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/invar",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/invar",
+      "required": false
+    }
+  ]
+}

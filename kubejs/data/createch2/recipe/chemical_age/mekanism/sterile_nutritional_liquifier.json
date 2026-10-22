@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PFP",
+    "THT",
+    "ECE"
+  ],
+  "key": {
+    "P": {
+      "item": "chemica:polytetrafluoroethylene_sheet"
+    },
+    "F": {
+      "item": "create:blaze_burner"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "E": {
+      "item": "chemica:cured_epoxy_sheet"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    }
+  },
+  "result": {
+    "id": "mekanism:nutritional_liquifier",
+    "count": 1
+  }
+}

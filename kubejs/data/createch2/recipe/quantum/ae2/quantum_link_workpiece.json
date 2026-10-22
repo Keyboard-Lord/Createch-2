@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 1200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:singularity",
+      "amount": 1
+    },
+    {
+      "item": "ae2:quartz_vibrant_glass",
+      "amount": 4
+    },
+    {
+      "item": "ae2:fluix_pearl",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "ae2:quantum_ring",
+      "amount": 1
+    }
+  ]
+}

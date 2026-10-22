@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "PHP",
+    "TDT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "electroenergetics:current_transformer"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_fluid_input_hatch"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "gtceu:iv_input_hatch",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 241,
+    "g": 203,
+    "b": 67
+  },
+  "sorting_value": 40,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.grid_telemetry.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.grid_telemetry.description"
+    }
+  }
+}

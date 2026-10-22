@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/magnesium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/magnesium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/magnesium",
+      "required": false
+    }
+  ]
+}

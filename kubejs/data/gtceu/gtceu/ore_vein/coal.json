@@ -1,0 +1,66 @@
+{
+  "biomes": "#minecraft:is_overworld",
+  "cluster_size": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 80,
+    "min_inclusive": 70
+  },
+  "density": 1.0,
+  "dimension_filter": [
+    "minecraft:overworld"
+  ],
+  "discard_chance_on_air_exposure": 0.0,
+  "generator": {
+    "type": "gtceu:veined",
+    "edge_roundoff_begin": 20,
+    "filler_block": {
+      "Name": "minecraft:air"
+    },
+    "max_edge_roundoff": 0.2,
+    "max_richness": 1.0,
+    "max_richness_threshold": 0.05,
+    "max_y": 140,
+    "min_richness": 1.0,
+    "min_y": 10,
+    "ore_blocks": [
+      {
+        "block": [
+          {
+            "state": {
+              "Name": "minecraft:coal_block"
+            },
+            "target": {
+              "predicate_type": "minecraft:always_true"
+            }
+          }
+        ],
+        "weight": 50
+      }
+    ],
+    "rare_block_chance": 0.02,
+    "rare_blocks": [],
+    "veininess_threshold": 0.01
+  },
+  "height_range": {
+    "height": {
+      "type": "minecraft:uniform",
+      "max_inclusive": {
+        "absolute": 140
+      },
+      "min_inclusive": {
+        "absolute": 10
+      }
+    }
+  },
+  "indicators": [
+    {
+      "type": "gtceu:surface",
+      "block": "gtceu:coal",
+      "density": 0.2,
+      "placement": "surface",
+      "radius": 5
+    }
+  ],
+  "layer": "stone",
+  "weight": 0
+}

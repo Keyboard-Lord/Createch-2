@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_component_recycling.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 1600,
+  "item_inputs": [
+    {
+      "item": "crowns:heat_exchanger",
+      "amount": 4
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:lead_dust",
+      "amount": 1
+    }
+  ]
+}

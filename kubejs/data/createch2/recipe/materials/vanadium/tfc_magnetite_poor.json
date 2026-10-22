@@ -1,0 +1,26 @@
+{
+  "type": "modern_industrialization:centrifuge",
+  "eu": 64,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "tfc:ore/poor_magnetite",
+      "amount": 9
+    },
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:iron_tiny_dust",
+      "amount": 8
+    },
+    {
+      "item": "gtceu:tiny_vanadium_magnetite_dust",
+      "amount": 1
+    }
+  ]
+}

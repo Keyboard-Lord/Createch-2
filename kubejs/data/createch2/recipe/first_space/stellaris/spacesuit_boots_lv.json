@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "S S",
+    "R R"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:space_suit_boots",
+    "count": 1
+  }
+}

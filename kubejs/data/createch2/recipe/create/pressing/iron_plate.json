@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:iron_plate"
+    }
+  ],
+  "recipe_tier": 0
+}

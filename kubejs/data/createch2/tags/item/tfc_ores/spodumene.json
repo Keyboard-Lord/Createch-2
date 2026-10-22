@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/spodumene/small",
+    "#createch2:tfc_ores/spodumene/poor",
+    "#createch2:tfc_ores/spodumene/normal",
+    "#createch2:tfc_ores/spodumene/rich"
+  ]
+}

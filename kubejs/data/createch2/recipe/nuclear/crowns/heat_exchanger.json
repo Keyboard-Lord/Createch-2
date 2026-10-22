@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TNT",
+    "LCL",
+    "TNT"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:elite_thermodynamic_conductor"
+    },
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "L": {
+      "tag": "c:ingots/lead"
+    },
+    "C": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "result": {
+    "id": "crowns:heat_exchanger",
+    "count": 4
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "truth": "INSTALLED_NATIVE_STARGATE_TRAVEL_BINDINGS",
+  "jar": "Stargate.Journey-1.21.1-0.6.52.jar",
+  "classes": {
+    "StargateBlockItem": {
+      "class": "net.povstalec.sgjourney.common.items.blocks.StargateBlockItem",
+      "sha256": "7ddb6853c6cf5fa55114654ed39cdd22ed8268cde579d4a94f0f3e02a2f239ee",
+      "terms": [
+        "getParts:",
+        "StargatePart.getRingPos:",
+        "BlockState.canBeReplaced:",
+        "Method setupBlockEntity:",
+        "AbstractStargateEntity.setupServerAutoCache:"
+      ]
+    },
+    "AbstractStargateEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.stargate.AbstractStargateEntity",
+      "sha256": "41ab2232aafe0d68dd58dcb784d2a4cf6183feae7756ed1566bb9a35e8a54849",
+      "terms": [
+        "protected_stargate_permissions",
+        "end_connection_from_both_ends:",
+        "dhdEngageStargate(",
+        "public long getEnergyCapacity();",
+        "public boolean isCorrectEnergySide("
+      ]
+    },
+    "ClassicStargateEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.stargate.ClassicStargateEntity",
+      "sha256": "910e31e31936549e5dcfad7e4210fe557084ab6b7a30f1a27edbc30a195d143c",
+      "terms": [
+        "ClassicStargateEntity",
+        "RotatingStargateEntity"
+      ]
+    },
+    "ClassicDHDEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.ClassicDHDEntity",
+      "sha256": "f2f2db2e1bb8fcdcdf017725752c457df5da1d852bfa63298dd3ded865c5dd14",
+      "terms": [
+        "extends net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity",
+        "classic_dhd_energy_buffer_capacity:",
+        "classic_dhd_button_press_energy_cost:",
+        "Method setSymbolsFromStargate:",
+        "Method setLocalSymbols:",
+        "CrystalCache.recalculateCrystals:"
+      ]
+    },
+    "AbstractDHDEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.AbstractDHDEntity",
+      "sha256": "2265beb483fa4194af44e03097ff8186aff444ae8a0f0dd1d44576fe04378bd1",
+      "terms": [
+        "public long minStoredEnergy();",
+        "long 2l",
+        "long 3l",
+        "IEnergyCore.generateEnergy:",
+        "SGJourneyEnergy.depleteEnergy:",
+        "SGJourneyEnergy.receiveLongEnergy:",
+        "protected_dhd_permissions",
+        "public int autocloseTicks();",
+        "sipush        200",
+        "SymbolMap.remapToRandomSymbol:",
+        "AbstractStargateEntity.indirectEngageSymbol:",
+        "AbstractStargateEntity.dhdEngageStargate:"
+      ]
+    },
+    "MilkyWayDHDEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.MilkyWayDHDEntity",
+      "sha256": "a3c2a08f649b602807bbb24dfcce5039857a186596396df8a3e1c58c199cc303",
+      "terms": [
+        "protected void generateEnergyCore();",
+        "fusion_core_fuel_capacity:",
+        "iconst_3",
+        "idiv",
+        "FusionCoreItem.randomFusionCore:",
+        "ItemInit.LARGE_CONTROL_CRYSTAL:",
+        "ItemInit.ENERGY_CRYSTAL:",
+        "ItemInit.COMMUNICATION_CRYSTAL:",
+        "ItemInit.TRANSFER_CRYSTAL:",
+        "Method setSymbolsFromStargate:",
+        "Method setLocalSymbols:",
+        "CrystalCache.recalculateCrystals:"
+      ]
+    },
+    "CrystalDHDEntity": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity",
+      "sha256": "4bb1294f429760ad0b7fb75165f3fd8326fcde154eac0201c2d16944935753f6",
+      "terms": [
+        "isValidCrystal(",
+        "ControlCrystalItem.isLarge:",
+        "CrystalCache.isSupported:",
+        "public void generate();",
+        "Method generateCrystals:",
+        "AbstractDHDEntity.generate:"
+      ]
+    },
+    "CrystalDHDEntity$1": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity$1",
+      "sha256": "26039151c970ceae56a2f9ba568730b4f04564a6b7cf5c03e5637b1b2d2824cd",
+      "terms": [
+        "CrystalCache.recalculateCrystals:",
+        "protected void onContentsChanged(int);"
+      ]
+    },
+    "CrystalDHDEntity$2": {
+      "class": "net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity$2",
+      "sha256": "7dd202cc840f8c1f5299d3730478ed781a9b7f399586e41240d03644f3d5a850",
+      "terms": [
+        "protected void updateFromCrystals();",
+        "CrystalDHDEntity.enableAdvancedProtocols:",
+        "CrystalCache.energyCrystals:",
+        "CrystalCache$Crystals.count:",
+        "iconst_4",
+        "long -1l",
+        "CrystalDHDEntity.energyTarget:",
+        "CrystalDHDEntity.maxEnergyTransfer:",
+        "TransferCrystalItem.getMaxTransfer:"
+      ]
+    },
+    "SGJourneyEnergy": {
+      "class": "net.povstalec.sgjourney.common.capabilities.SGJourneyEnergy",
+      "sha256": "fa1996aeb996fbdf4a5cace8af285ad013e86d5dead679e289523eb166106af2",
+      "terms": [
+        "public long depleteEnergy(",
+        "public long receiveLongEnergy(",
+        "public int receiveEnergy("
+      ]
+    },
+    "FusionCoreItem": {
+      "class": "net.povstalec.sgjourney.common.items.energy_cores.FusionCoreItem",
+      "sha256": "792a54a1c39c64fa35f297443e312564385bfeb8b7763c7eaa929bcee9703f37",
+      "terms": [
+        "SyncedConfig.fusion_core_energy_from_fuel:",
+        "DataComponentInit.FUSION_FUEL:",
+        "iconst_1",
+        "isub",
+        "public long generateEnergy(",
+        "public static net.minecraft.world.item.ItemStack randomFusionCore("
+      ]
+    },
+    "SGJourneyStructure": {
+      "class": "net.povstalec.sgjourney.common.structures.SGJourneyStructure",
+      "sha256": "897032d6309aed29a302970c1d12e06542c7e93399954be932059e9af539af60",
+      "terms": [
+        "StructureGenEntity.generateInStructure:",
+        "protected void generateBlockEntity("
+      ]
+    },
+    "StargateStructure": {
+      "class": "net.povstalec.sgjourney.common.structures.StargateStructure",
+      "sha256": "8588440a70c05207fff6b0f164842124ff448ed0e9e7782737f8ecd28d9f0f93",
+      "terms": [
+        "CommonGenerationConfig.generate_obstructed_stargates:",
+        "StargateModifiers.modifyStargate:",
+        "DHDModifiers.modifyDHD:"
+      ]
+    },
+    "UniqueStructurePlacement": {
+      "class": "net.povstalec.sgjourney.common.world.UniqueStructurePlacement",
+      "sha256": "7ac2b2f754dbf2adfe3ff61bbd75a858cfbc1180eb0efbfb3703251edd2a8047",
+      "terms": [
+        "getPotentialStructureChunk(",
+        "isPlacementChunk(",
+        "Method getChunkX:",
+        "Method getChunkZ:"
+      ]
+    },
+    "UniqueStructurePlacement$Stargate": {
+      "class": "net.povstalec.sgjourney.common.world.UniqueStructurePlacement$Stargate",
+      "sha256": "3e3788e997c49e55f100fbb408f261cb98ee78d60448dd675089b309e57a7b07",
+      "terms": [
+        "getChunkBoundMinX();",
+        "getChunkBoundMaxX();",
+        "StructurePlacementInit.STARGATE_PLACEMENT:"
+      ]
+    },
+    "StructurePlacementInit": {
+      "class": "net.povstalec.sgjourney.common.init.StructurePlacementInit",
+      "sha256": "cff0cabe5f2b93a9b3a3910d0f2ec602d836df4d2afb5f29e8a88b526e554528",
+      "terms": [
+        "String stargate_placement",
+        "UniqueStructurePlacement$Stargate.CODEC:"
+      ]
+    },
+    "Dialing": {
+      "class": "net.povstalec.sgjourney.common.sgjourney.Dialing",
+      "sha256": "c67ccc384f832e4dda49d8ca981271cac2f7c9a8291c5ec784f5ce260bc0c73d",
+      "terms": [
+        "ADDRESS_7_CHEVRON:",
+        "StargateNetwork.hasStargatesInRegion:",
+        "StargateNetwork.findStargatesInLevel:",
+        "SpaceLocation.getDimension:",
+        "StargateNetwork.createConnection:"
+      ]
+    },
+    "StargateNetwork": {
+      "class": "net.povstalec.sgjourney.common.data.StargateNetwork",
+      "sha256": "8c1bb3fa734b785fcbc4eebb816db3a759714d2dc35be912e9e9934fd22102ed",
+      "terms": [
+        "ServerLevel.findNearestMapStructure:",
+        "Method searchEdges:",
+        "AbstractStargateEntity.onLoad:",
+        "public net.povstalec.sgjourney.common.sgjourney.StargateInfo$FeedbackMessage createConnection("
+      ]
+    },
+    "StargateConnection": {
+      "class": "net.povstalec.sgjourney.common.sgjourney.StargateConnection",
+      "sha256": "6001dcaddfc6703c23495a2da7c8a539db7094054c18d96856ebf8fc51c01712",
+      "terms": [
+        "private boolean depleteEnergy(long);",
+        "Stargate.canExtract:",
+        "Stargate.extractEnergy:",
+        "Stargate.canPowerFromOtherSide:",
+        "private boolean shouldAutoclose();",
+        "Stargate.shouldAutoclose:",
+        "CONNECTION_ENDED_BY_AUTOCLOSE:",
+        "interstellar_connection_energy_cost:",
+        "interstellar_connection_energy_draw:",
+        "two_way_wormholes:"
+      ]
+    },
+    "BlockEntityStargate": {
+      "class": "net.povstalec.sgjourney.common.sgjourney.stargate.BlockEntityStargate",
+      "sha256": "545dccae5f312f66be183e7fa2c5950082f77d71ec039706650db67b452e0047",
+      "terms": [
+        "lambda$shouldAutoclose$29(",
+        "StargateConnection.getTimeSinceLastTraveler:",
+        "AbstractStargateEntity.dhdCache:"
+      ]
+    },
+    "Wormhole": {
+      "class": "net.povstalec.sgjourney.common.sgjourney.Wormhole",
+      "sha256": "4fc0da3fea6fe064d579fa56ce3841ea24293009b66ef9679d22eaa9f669cd18",
+      "terms": [
+        "public net.minecraft.world.entity.Entity transportPlayer(",
+        "ServerPlayer.teleportTo:",
+        "ServerPlayer.setDeltaMovement:",
+        "Method triggerAdvancement:"
+      ]
+    }
+  },
+  "providerReview": {
+    "previousJar": "Stargate.Journey-1.21.1-0.6.51.jar",
+    "currentJar": "Stargate.Journey-1.21.1-0.6.52.jar",
+    "unchangedClassBodies": 17,
+    "changedClasses": {
+      "AbstractStargateEntity": "Direction enum moves from StargateInfo to StargateConnection; bytecode otherwise identical after that type rename.",
+      "AbstractDHDEntity": "Removes isNew field/save/load and redundant onLoad symbol assignment. Native Classic/MilkyWay crystal-change handlers still initialize symbols after installing the separately supplied crystals. Energy, admission, finite core, transfer and autoclose methods unchanged.",
+      "BlockEntityStargate": "Adds connection-direction/open queries, shifting lambda suffixes by2. Same actor/energy/autoclose implementation; native Wormhole call forwards source gate.",
+      "Wormhole": "Public transport helpers and explicit source-gate argument for passenger handling/events. The single-player branch still calls ServerPlayer.teleportTo, retains the same player object, motion and advancements. No passenger/vehicle transport credited."
+    },
+    "newCrystalsMustBeInstalledAfterPlacement": true,
+    "oldSaveOrRuntimeMigrationNotObserved": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 12,
+    "heat": 12
+  },
+  "item": {
+    "items": [
+      "rocketnautics:copper_anchor_boots"
+    ]
+  }
+}

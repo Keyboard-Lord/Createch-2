@@ -1,0 +1,11 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "appflux:redstone_crystal"
+  },
+  "result": {
+    "count": 1,
+    "id": "appflux:charged_redstone"
+  }
+}

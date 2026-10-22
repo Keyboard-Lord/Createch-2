@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_rugged_land",
+    "#createch2:tfc_structure_volcanic_land",
+    "createch2:unitas_warped_mesa",
+    "createch2:unitas_gravel_desert",
+    "createch2:unitas_ashen_woodland",
+    "createch2:unitas_granite_cliffs",
+    "createch2:cavum_deep_caves",
+    "createch2:cavum_infested_caves",
+    "createch2:cavum_mantle_caves",
+    "createch2:cavum_hyacinth_deeps",
+    "createch2:cavum_redstone_caves",
+    "createch2:unitas_ancient_delta",
+    "createch2:unitas_prismachasm",
+    "createch2:unitas_redstone_caves",
+    "createch2:cavum_inferno",
+    "createch2:cavum_scorching_caves",
+    "createch2:cavum_prismachasm",
+    "createch2:cavum_bioshroom_caves",
+    "createch2:cavum_ancient_delta"
+  ]
+}

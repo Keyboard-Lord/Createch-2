@@ -1,0 +1,92 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "ae2:controller"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:com_03_networked_control",
+    "createch2:mat_03_space_aluminum"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.com_04_digital_fabrication.title"
+    },
+    "desc": {
+      "translate": "research.createch2.com_04_digital_fabrication.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:stainless_digital/ae2/inscriber",
+      "createch2:stainless_digital/ae2/controller_workpiece",
+      "createch2:stainless_digital/ae2/controller_assembly",
+      "createch2:stainless_digital/ae2/drive",
+      "createch2:stainless_digital/ae2/terminal",
+      "createch2:greate/tier_3/cogwheel",
+      "createch2:greate/tier_3/crushing_wheel",
+      "createch2:greate/tier_3/encased_fan",
+      "createch2:greate/tier_3/gearbox",
+      "createch2:greate/tier_3/horizontal_gearbox",
+      "createch2:greate/tier_3/large_cogwheel",
+      "createch2:greate/tier_3/mechanical_mixer",
+      "createch2:greate/tier_3/mechanical_press",
+      "createch2:greate/tier_3/mechanical_pump",
+      "createch2:greate/tier_3/mechanical_saw",
+      "createch2:greate/tier_3/millstone",
+      "createch2:greate/tier_3/shaft_cutting",
+      "createch2:greate/tier_3/vertical_gearbox",
+      "createch2:factory_scaling/components/highly_advanced_machine_hull",
+      "createch2:factory_scaling/mass_processing/processing_array",
+      "createch2:factory_scaling/factory_control/machine_chainer",
+      "createch2:factory_scaling/factory_control/machine_chainer_relay",
+      "createch2:hnn/deep_learner",
+      "createch2:hnn/blank_data_model",
+      "createch2:hnn/prediction_matrix",
+      "createch2:hnn/sim_chamber",
+      "createch2:hnn/loot_fabricator",
+      "createch2:factory_scaling/controls/digital_circuit_board_batch",
+      "createch2:material_recycling/mi_hull/highly_advanced_machine_hull",
+      "createch2:material_recycling/mi_process/hv_steam_turbine",
+      "createch2:material_recycling/mi_process/large_steam_turbine",
+      "createch2:material_recycling/mi_process/turbo_machine_casing",
+      "createch2:material_recycling/mi_process/turbo_machine_hull",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_cogwheel",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_crushing_wheel",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_encased_fan",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_gearbox",
+      "createch2:material_recycling/greate_stainless_steel/large_stainless_steel_cogwheel",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_mechanical_mixer",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_mechanical_press",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_mechanical_pump",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_mechanical_saw",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_millstone",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_shaft",
+      "createch2:material_recycling/greate_stainless_steel/stainless_steel_vertical_gearbox",
+      "createch2:bees/stainless_digital/advanced_oak_beehive",
+      "createch2:bees/stainless_digital/powered_centrifuge",
+      "createch2:bees/stainless_digital/modular_beehive_core",
+      "createch2:bees/stainless_digital/modular_centrifuge_core",
+      "createch2:bees/stainless_digital/modular_export",
+      "createch2:bees/stainless_digital/me_beehive_export",
+      "createch2:bees/stainless_digital/me_centrifuge_export"
+    ]
+  }
+}

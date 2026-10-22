@@ -1,0 +1,43 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "tfmg:hydrogen"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "tfmg:ethylene"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "chemica:ammonia"
+    },
+    {
+      "item": "chemica:nickel_catalyst"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:hexamethylenediamine_solution"
+    },
+    {
+      "id": "chemica:nickel_catalyst"
+    }
+  ],
+  "processing_time": 600,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

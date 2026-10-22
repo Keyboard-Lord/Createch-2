@@ -1,0 +1,107 @@
+{
+  "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+  "nativeClasses": {
+    "recipe": "mods.railcraft.world.item.crafting.RollingRecipe",
+    "serializer": "mods.railcraft.world.item.crafting.RollingRecipe$Serializer",
+    "manual": "mods.railcraft.world.level.block.entity.ManualRollingMachineBlockEntity",
+    "block": "mods.railcraft.world.level.block.ManualRollingMachineBlock",
+    "blockV": "mods.railcraft.world.level.block.ManualRollingMachineBlock",
+    "menu": "mods.railcraft.world.inventory.ManualRollingMachineMenu",
+    "previewSlot": "mods.railcraft.world.inventory.ManualRollingMachineMenu$SlotRollingMachine",
+    "previewResult": "mods.railcraft.world.inventory.ManualRollingMachineMenu$1",
+    "unmodifiable": "mods.railcraft.world.inventory.slot.UnmodifiableSlot",
+    "baseMenu": "mods.railcraft.world.inventory.RailcraftMenu",
+    "resultSlot": "mods.railcraft.world.inventory.slot.RollingResultSlot"
+  },
+  "nativeCodeSha256": {
+    "recipe": "315b12da1963767a991e3491404ee5380818c49506c1494b21c5efb69e7b0d84",
+    "serializer": "d20ac50c8cc72690815e3aa6673753768ea7da69b5123efe668b4e8cf3792386",
+    "manual": "7208a1b9a4844531f60c086d067529fa7aef4248ce93f5a11ad56d8978426791",
+    "block": "773eeeb435455fca3d67baca1bd6d39d7ec28c100e795dbc9ca7f927b2e255c2",
+    "blockV": "5dded433f3eb1d61d687f2c0a3312f1a6a33bd633a32e7543954c393ad7b4930",
+    "menu": "4fa9e8327e910769b56d98e22462ec304f0c0ab00cc6288b90327e2a5506a4cc",
+    "previewSlot": "b3d3f4a3d9466719b5c544c4cdf4df6762e154970e568128d83f2628946b8b21",
+    "previewResult": "f8fb99ffaf6715804dff3c0a0a91114db93146573ca04337877fb37cf114f7f7",
+    "unmodifiable": "9577f3ef9d1e7fafd706fa26f9f93a3d87b3a41598107b7179d466a9b16f3bc0",
+    "baseMenu": "838107a03c2d0cfe53a2379bfd4b136556b6ebd59514ce064fe7daf095328a7b",
+    "resultSlot": "6d9fa055afc9997e8f143878a1d0c7110a922f3b1cc92c68eb5f10d70a2688cf"
+  },
+  "ids": {
+    "machine": "createch2:railway/rolling/manual_rolling_machine",
+    "rebar": "railcraft:rolling/rebar_bronze"
+  },
+  "recipes": {
+    "createch2:railway/rolling/manual_rolling_machine": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GPG",
+        "PCP",
+        "GAG"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:heavy_gears/bronze"
+        },
+        "P": {
+          "item": "create:mechanical_press"
+        },
+        "C": {
+          "item": "railcraft:coke_oven_bricks"
+        },
+        "A": {
+          "item": "create:andesite_casing"
+        }
+      },
+      "result": {
+        "id": "railcraft:manual_rolling_machine",
+        "count": 1
+      }
+    },
+    "railcraft:rolling/rebar_bronze": {
+      "type": "railcraft:rolling",
+      "key": {
+        "a": {
+          "tag": "c:ingots/bronze"
+        }
+      },
+      "pattern": [
+        "  a",
+        " a ",
+        "a  "
+      ],
+      "result": {
+        "count": 4,
+        "id": "railcraft:rebar"
+      }
+    }
+  },
+  "nativeRebarRows": [
+    {
+      "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+      "data": {
+        "type": "railcraft:rolling",
+        "key": {
+          "a": {
+            "tag": "c:ingots/bronze"
+          }
+        },
+        "pattern": [
+          "  a",
+          " a ",
+          "a  "
+        ],
+        "result": {
+          "count": 4,
+          "id": "railcraft:rebar"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Exact installed manual RollingRecipe processor, codec and preview/output handling. Existing native and authored rolling recipes retain their real input patterns, outputs, processTime and research owners.",
+    "A selected first bronze-rebar batch uses earlier non-steel workshop bronze. The rolling machine consumes three entry mechanical presses, four heavy bronze gears, one coke-oven brick and one andesite casing. Complete earlier non-steel metallurgy, construction parts and aggregate stock remain boundaries.",
+    "The machine preserves the final item per occupied pattern slot until its preview is clicked with an empty cursor. Keep the menu open, wait for processing and collect the separate real output. Native recipe cache/GUI hooks/research/registration, input/output room, inventory and elapsed time remain runtime qualification.",
+    "Rail-grade steel blasting, controller-circuit lapis/slime, native TFCwood stripping/recovery and the complete terminal/locomotive supplier remain open. No electric/powered-machine requirement or extra steel stock is invented; no gameplay recipe/tag/config/gate/P0/Core/world or save edit."
+  ]
+}

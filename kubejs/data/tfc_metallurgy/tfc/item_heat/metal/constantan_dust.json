@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:physical_dusts/constantan"
+    }
+  ],
+  "heat_capacity": 0.1,
+  "forging_temperature": 720,
+  "welding_temperature": 960
+}

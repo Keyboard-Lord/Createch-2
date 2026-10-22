@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"tfc"}],"type":"tfc:anvil","ingredient":{"tag":"c:sheets/cast_iron"},"result":{"id":"tfc_items:cast_iron_foil","count":2},"tier":1,"rules":["hit_last","hit_second_last","hit_third_last"]}

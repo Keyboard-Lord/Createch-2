@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_dusts/constantan"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/constantan",
+    "amount": 5
+  },
+  "temperature": 1200,
+  "use_durability": false
+}

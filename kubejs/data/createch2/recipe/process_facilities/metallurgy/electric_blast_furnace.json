@@ -1,0 +1,38 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 8,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:cupronickel_wire_magnetic",
+      "amount": 7
+    },
+    {
+      "item": "modern_industrialization:basic_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "minecraft:blast_furnace",
+      "amount": 1
+    },
+    {
+      "item": "greate:steel_encased_fan",
+      "amount": 1
+    },
+    {
+      "item": "tfmg:fireproof_bricks",
+      "amount": 2
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:electric_blast_furnace",
+      "amount": 1
+    }
+  ]
+}

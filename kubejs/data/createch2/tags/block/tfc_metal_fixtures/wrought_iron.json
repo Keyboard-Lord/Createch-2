@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/anvil/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/bars/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/chain/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/lamp/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/trapdoor/wrought_iron",
+      "required": false
+    }
+  ]
+}

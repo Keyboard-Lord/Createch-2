@@ -1,0 +1,42 @@
+{
+  "feature": {
+    "type": "minecraft:lake",
+    "config": {
+      "fluid": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "barrier": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cobbled_deepslate"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

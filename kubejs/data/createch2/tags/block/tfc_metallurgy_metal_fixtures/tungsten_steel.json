@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/tungsten_steel",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -8,
+    "max_y": 40,
+    "size": 28,
+    "density": 0.4,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:end_stone"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_monazite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_monazite/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/rich_monazite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 42,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_monazite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_end_monazite_tfc_vein"
+  }
+}

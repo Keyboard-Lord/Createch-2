@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:rubber_planks"
+    }
+  },
+  "result": {
+    "id": "gtceu:rubber_trapdoor",
+    "count": 2
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "HMS",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "G": {
+      "item": "greate:andesite_alloy_mechanical_saw"
+    },
+    "H": {
+      "item": "tfmg:steel_casing"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "S": {
+      "item": "greate:steel_cogwheel"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "greate:steel_mechanical_saw",
+    "count": 1
+  }
+}

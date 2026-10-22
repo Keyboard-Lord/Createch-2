@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "GTG",
+    "IRI"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "C": {
+      "tag": "createch2:mekanism_basic_control"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "I": {
+      "tag": "c:ingots/tin"
+    },
+    "R": {
+      "item": "rubberworks:rubber_block"
+    }
+  },
+  "result": {
+    "id": "mekanism:jetpack",
+    "count": 1
+  }
+}

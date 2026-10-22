@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/galena/small",
+    "#createch2:tfc_ores/galena/poor",
+    "#createch2:tfc_ores/galena/normal",
+    "#createch2:tfc_ores/galena/rich"
+  ]
+}

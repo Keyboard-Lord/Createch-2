@@ -1,0 +1,66 @@
+{
+  "feature": {
+    "type": "minecraft:disk",
+    "config": {
+      "half_height": 2,
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 8
+      },
+      "target": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "createch2:geology/weathered_surface/venus"
+      },
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:noise_provider",
+          "seed": 8521,
+          "noise": {
+            "firstOctave": -4,
+            "amplitudes": [
+              1
+            ]
+          },
+          "scale": 1,
+          "states": [
+            {
+              "Name": "minecraft:basalt"
+            },
+            {
+              "Name": "minecraft:smooth_basalt"
+            },
+            {
+              "Name": "minecraft:blackstone"
+            },
+            {
+              "Name": "minecraft:magma_block"
+            }
+          ]
+        },
+        "rules": []
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": -1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

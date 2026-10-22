@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/small_cassiterite",
+      "required": false
+    },
+    "#c:ores/tin/poor",
+    "#c:ores/tin/normal",
+    "#c:ores/tin/rich"
+  ]
+}

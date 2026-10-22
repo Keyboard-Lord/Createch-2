@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/wrought_iron"
+    },
+    {
+      "tag": "c:rivets/wrought_iron"
+    },
+    {
+      "tag": "c:screws/wrought_iron"
+    },
+    {
+      "tag": "c:physical_screws/wrought_iron"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

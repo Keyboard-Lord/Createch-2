@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": "railcraft:tin_ore_large",
+  "step": "underground_ores"
+}

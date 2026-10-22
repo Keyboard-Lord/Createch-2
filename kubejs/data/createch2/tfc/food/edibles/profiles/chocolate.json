@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/chocolate"
+  },
+  "edible": true,
+  "dairy": 0.5,
+  "grain": 0.5,
+  "decay_modifier": 1,
+  "hunger": 4,
+  "saturation": 0.3
+}

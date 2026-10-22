@@ -1,0 +1,1145 @@
+{
+	autofocus_id: "05C95B0C6F679A3F"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_00_welcome"
+	group: "0A85000000000001"
+	id: "0E552FF8F4187510"
+	images: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "0822000000000001"
+		linked_quest: "05D7794894BC51C0"
+		shape: "rsquare"
+		size: 1.35d
+		x: -11.04d
+		y: -5.736d
+	}]
+	quests: [
+		{
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "minecraft:stick"
+			}
+			id: "05C95B0C6F679A3F"
+			rewards: [{
+				auto: "enabled"
+				id: "6A12E3338E368C77"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 1.72d
+			tags: [
+				"theme_first_shift_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 2L
+				id: "07C7F496475CCC4D"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -11.04d
+			y: -9.936d
+		}
+		{
+			dependencies: ["05C95B0C6F679A3F"]
+			icon: {
+				id: "tfc:rock/loose/schist"
+			}
+			icon_scale: 0.88d
+			id: "0F51EECF30BEB39F"
+			rewards: [{
+				auto: "enabled"
+				id: "791DCD8235A2F33B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/find_rock"
+				criterion: ""
+				id: "0355A377811600B9"
+				type: "advancement"
+			}]
+			x: -8.004d
+			y: -9.936d
+		}
+		{
+			dependencies: ["0F51EECF30BEB39F"]
+			icon: {
+				id: "tfc:firestarter"
+			}
+			id: "0D047BB664502A58"
+			rewards: [{
+				auto: "enabled"
+				id: "4C7C80A3B1007D20"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0D5522E5ED6913D5"
+				item: { count: 1, id: "tfc:firestarter" }
+				type: "item"
+			}]
+			x: -4.968d
+			y: -9.936d
+		}
+		{
+			dependencies: ["0D047BB664502A58"]
+			icon: {
+				id: "tfc:stone/axe/sedimentary"
+			}
+			id: "08F811F25BA3B5C3"
+			rewards: [{
+				auto: "enabled"
+				id: "766854BEB6BC1E17"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 1.38d
+			tags: [
+				"theme_first_shift_main"
+				"role_main"
+			]
+			tasks: [{
+				advancement: "tfc:story/stone_age"
+				criterion: ""
+				id: "4CBF0D30038B31E1"
+				type: "advancement"
+			}]
+			x: -1.932d
+			y: -9.936d
+		}
+		{
+			dependencies: ["08F811F25BA3B5C3"]
+			icon: {
+				id: "tfc:straw"
+			}
+			icon_scale: 0.88d
+			id: "420635CAA0586410"
+			rewards: [{
+				auto: "enabled"
+				id: "72D753D6F8D58162"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/get_straw"
+				criterion: ""
+				id: "6B47F98581677F0E"
+				type: "advancement"
+			}]
+			x: 1.104d
+			y: -9.936d
+		}
+		{
+			dependencies: ["420635CAA0586410"]
+			icon: {
+				id: "tfc:wood/log/oak"
+			}
+			icon_scale: 0.88d
+			id: "3A9307368862BF6F"
+			rewards: [{
+				auto: "enabled"
+				id: "4CE14D0789705843"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/logging"
+				criterion: ""
+				id: "719AA4F9233DD6A9"
+				type: "advancement"
+			}]
+			x: 4.14d
+			y: -9.936d
+		}
+		{
+			dependencies: ["3A9307368862BF6F"]
+			icon: {
+				id: "tfc:firepit"
+			}
+			icon_scale: 0.88d
+			id: "4E13EAE9192BD82B"
+			rewards: [{
+				auto: "enabled"
+				id: "7CB65C21FBD09281"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/firepit"
+				criterion: ""
+				id: "7DE29D1BE00E8C00"
+				type: "advancement"
+			}]
+			x: 4.14d
+			y: -6.762d
+		}
+		{
+			dependencies: ["4E13EAE9192BD82B"]
+			icon: {
+				id: "minecraft:clay_ball"
+			}
+			icon_scale: 0.88d
+			id: "0ABD6A56F73EBB80"
+			rewards: [{
+				auto: "enabled"
+				id: "2512646EA6C1C2FF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/find_clay"
+				criterion: ""
+				id: "53F8800A0BEB79CF"
+				type: "advancement"
+			}]
+			x: 2.139d
+			y: -3.657d
+		}
+		{
+			dependencies: ["0ABD6A56F73EBB80"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:ceramic/unfired_vessel"
+			}
+			icon_scale: 0.96d
+			id: "15F24AC290B8494F"
+			rewards: [{
+				auto: "enabled"
+				id: "6EB8CFCA8C6814D2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 3.15d
+			tags: [
+				"theme_first_shift_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "tfc:story/knap_clay"
+				criterion: ""
+				id: "67BAEA45904D4A28"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/large_vessel"
+			}
+			icon_scale: 0.96d
+			id: "1F70969F461B95CF"
+			rewards: [{
+				auto: "enabled"
+				id: "6D1C69B34D1F3B8F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "601EDC567F94B0E7"
+				item: { count: 1, id: "tfc:ceramic/large_vessel" }
+				type: "item"
+			}]
+			x: -11.188d
+			y: 6.991d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/large_vessel"
+			}
+			icon_scale: 0.95d
+			id: "38A46C29E6B8C326"
+			rewards: [{
+				auto: "enabled"
+				id: "384DFD64FAA32DA8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "5DED64A287D38618"
+				item: { count: 1, id: "tfc:ceramic/large_vessel" }
+				type: "item"
+			}]
+			x: -1.39d
+			y: 7.883d
+		}
+		{
+			dependencies: ["38A46C29E6B8C326"]
+			icon: {
+				id: "tfc:ceramic/vessel"
+			}
+			icon_scale: 0.95d
+			id: "3056C9234C434D61"
+			rewards: [{
+				auto: "enabled"
+				id: "22A3CFA2E72A3BC2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "71054B621DF61187"
+				item: { count: 1, id: "tfc:ceramic/vessel" }
+				type: "item"
+			}]
+			x: -3.262d
+			y: 10.041d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/jug"
+			}
+			icon_scale: 0.95d
+			id: "7A3B40776103D3CF"
+			rewards: [{
+				auto: "enabled"
+				id: "4764557051B200BC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "09676A1B5DADB9E4"
+				item: { count: 1, id: "tfc:ceramic/jug" }
+				type: "item"
+			}]
+			x: -4.002d
+			y: 6.932d
+		}
+		{
+			dependencies: ["7A3B40776103D3CF"]
+			icon: {
+				id: "tfc:ceramic/vessel"
+			}
+			icon_scale: 0.94d
+			id: "2E972E08E5AC8ADB"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7C2542B74898D44C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "3440FE3F6F6669CC"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_first_shift_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "31F86625236BD0F5"
+				item: { count: 1, id: "tfc:ceramic/vessel" }
+				type: "item"
+			}]
+			x: -5.299d
+			y: 9.178d
+		}
+		{
+			dependencies: ["1F70969F461B95CF"]
+			icon: {
+				id: "tfc:ceramic/large_vessel"
+			}
+			icon_scale: 0.96d
+			id: "428CDDD722FE3A29"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "512E224702D52B64"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5E4FA0CCAAD3CE2D"
+					item: {
+						count: 1
+						id: "create:brown_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "4CDEC7762FC9E858"
+					item: { count: 1, id: "tfc:ceramic/large_vessel" }
+					type: "item"
+				}
+				{
+					id: "41A739471819E463"
+					item: { count: 1, id: "tfc:ceramic/ingot_mold" }
+					type: "item"
+				}
+			]
+			x: -13.389d
+			y: 8.366d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/jug"
+			}
+			icon_scale: 0.95d
+			id: "1F23B873D8E85661"
+			rewards: [{
+				auto: "enabled"
+				id: "3C21F6C114CDC43D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_shift_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "1CB017D754B618C2"
+				item: { count: 1, id: "tfc:ceramic/jug" }
+				type: "item"
+			}]
+			x: -7.612d
+			y: 2.473d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/ingot_mold"
+			}
+			icon_scale: 0.95d
+			id: "0E65C7EB59CF6F35"
+			rewards: [{
+				auto: "enabled"
+				id: "41D01C247B3CB2F6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					advancement: "tfc:story/charcoal"
+					criterion: ""
+					id: "5551B3A9E9D6EA2D"
+					type: "advancement"
+				}
+				{
+					id: "52C3D0508257333F"
+					item: { count: 1, id: "tfc:ceramic/ingot_mold" }
+					type: "item"
+				}
+			]
+			x: -2.738d
+			y: 7.521d
+		}
+		{
+			dependencies: ["38A46C29E6B8C326"]
+			icon: {
+				id: "tfc:powder/charcoal"
+			}
+			icon_scale: 0.95d
+			id: "2757259238B5031E"
+			rewards: [{
+				auto: "enabled"
+				id: "06CDB56CF17CFF62"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_shift_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "4B1272F84F182D46"
+				item: { count: 1, id: "tfc:powder/charcoal" }
+				type: "item"
+			}]
+			x: -1.833d
+			y: 10.397d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/jug"
+			}
+			icon_scale: 0.95d
+			id: "2C3AEE09F6CC95D8"
+			rewards: [{
+				auto: "enabled"
+				id: "42A3B73CD26505D7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_shift_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "0A9FA0F956814F41"
+					item: { count: 1, id: "tfc:ceramic/jug" }
+					type: "item"
+				}
+				{
+					id: "1B653700848A0156"
+					item: { count: 1, id: "tfc:ceramic/vessel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.004d
+		}
+		{
+			dependencies: ["2E972E08E5AC8ADB"]
+			icon: {
+				id: "tfc:powder/charcoal"
+			}
+			icon_scale: 0.94d
+			id: "5F836AC2A24B786A"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7251F402778BFA10"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "31788EC078AFA123"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_first_shift_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 16L
+				id: "05BF1A987938A06E"
+				item: { count: 1, id: "tfc:powder/charcoal" }
+				type: "item"
+			}]
+			x: -6.596d
+			y: 11.425d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:firestarter"
+			}
+			icon_scale: 0.94d
+			id: "0F7F5B1B0E844BAA"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3A32897A4CC6997A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1DC1ACF11D2F2D50"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_first_shift_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "6B51DC9EBB8B7B75"
+					item: { count: 1, id: "tfc:firestarter" }
+					type: "item"
+				}
+				{
+					id: "33CC43271A36B1D0"
+					item: { count: 1, id: "tfc:ceramic/ingot_mold" }
+					type: "item"
+				}
+			]
+			x: 1.39d
+			y: 7.883d
+		}
+		{
+			dependencies: [
+				"2757259238B5031E"
+				"2C3AEE09F6CC95D8"
+				"0F7F5B1B0E844BAA"
+			]
+			icon: {
+				id: "tfc:ceramic/jug"
+			}
+			icon_scale: 0.96d
+			id: "42D28CFB07C5D125"
+			rewards: [{
+				auto: "enabled"
+				id: "775610FCF1F1C9F0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.55d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "73EADC7983E209D1"
+				item: { count: 1, id: "tfc:ceramic/jug" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.179d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:powder/charcoal"
+			}
+			icon_scale: 0.92d
+			id: "2CDB9919B8D34D32"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "498AB1626B333663"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4CBB26E60F88F286"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_first_shift_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2FA7D644DC9A1CC4"
+					item: { count: 1, id: "tfc:powder/charcoal" }
+					type: "item"
+				}
+				{
+					id: "12829689E79129DD"
+					item: { count: 1, id: "tfc:ceramic/ingot_mold" }
+					type: "item"
+				}
+			]
+			x: 6.788d
+			y: 4.242d
+		}
+		{
+			dependencies: ["2CDB9919B8D34D32"]
+			icon: {
+				id: "tfc:ceramic/large_vessel"
+			}
+			icon_scale: 0.92d
+			id: "31728F122222FA9D"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3DFDDE33E1BF731F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "42BFB00418836155"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_first_shift_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "75307A2978C63F4F"
+					item: { count: 1, id: "tfc:ceramic/large_vessel" }
+					type: "item"
+				}
+				{
+					id: "31AF711648DF8427"
+					item: { count: 1, id: "tfc:ceramic/vessel" }
+					type: "item"
+				}
+			]
+			x: 8.988d
+			y: 5.617d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc:ceramic/jug"
+			}
+			icon_scale: 0.92d
+			id: "395C953C30A53C29"
+			rewards: [{
+				auto: "enabled"
+				id: "2B825F81880F1279"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "103EDCF771306ACF"
+					item: { count: 1, id: "tfc:ceramic/jug" }
+					type: "item"
+				}
+				{
+					id: "6FB644F652462C81"
+					item: { count: 1, id: "tfc:ceramic/large_vessel" }
+					type: "item"
+				}
+			]
+			x: 5.56d
+			y: 5.757d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			icon_scale: 0.98d
+			id: "686364804E127E6C"
+			rewards: [{
+				auto: "enabled"
+				id: "2EF1675D5F43BEA4"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_first_shift_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "3421285553ACDF2D"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 50000
+			}]
+			x: -7.985d
+			y: 0.559d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "rnr:base_course"
+			}
+			icon_scale: 0.96d
+			id: "0BD20729F29B9FED"
+			rewards: [{
+				auto: "enabled"
+				id: "4734730897601C79"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "1CD4086A46190506"
+				item: { count: 1, id: "rnr:base_course" }
+				type: "item"
+			}]
+			x: 7.612d
+			y: 2.473d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/shield/copper"
+			}
+			icon_scale: 0.96d
+			id: "03C02147C62E2D84"
+			rewards: [{
+				auto: "enabled"
+				id: "2FEC1D396925F330"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "70E33B75CC38FF84"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/shield/copper" }
+				type: "item"
+			}]
+			x: 7.985d
+			y: 0.559d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 14400L
+					}
+					"tfc:heat": { }
+				}
+				id: "tfc:food/barley_bread"
+			}
+			icon_scale: 0.96d
+			id: "6C5C4C513A1DAC2C"
+			rewards: [{
+				auto: "enabled"
+				id: "11A402021C3ED597"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 4L
+				id: "3739418A18256E14"
+				item: { components: { "tfc:food": { creation_date: 14400L }, "tfc:heat": { } }, count: 1, id: "tfc:food/barley_bread" }
+				type: "item"
+			}]
+			x: 4.002d
+			y: 6.932d
+		}
+		{
+			dependencies: ["6C5C4C513A1DAC2C"]
+			icon: {
+				id: "tfc:ceramic/vessel"
+			}
+			icon_scale: 0.96d
+			id: "5BEC7BB0801E27B3"
+			rewards: [{
+				auto: "enabled"
+				id: "40262F39F9372558"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "228BD1A9F9DACBA6"
+				item: { count: 1, id: "tfc:ceramic/vessel" }
+				type: "item"
+			}]
+			x: 5.299d
+			y: 9.178d
+		}
+		{
+			dependencies: ["5BEC7BB0801E27B3"]
+			icon: {
+				id: "tfc:ceramic/large_vessel"
+			}
+			icon_scale: 0.96d
+			id: "5FE2FB7C29E62744"
+			rewards: [{
+				auto: "enabled"
+				id: "00D53E1ACB613244"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 2L
+				id: "247B553CCACA7384"
+				item: { count: 1, id: "tfc:ceramic/large_vessel" }
+				type: "item"
+			}]
+			x: 6.596d
+			y: 11.425d
+		}
+		{
+			dependencies: ["15F24AC290B8494F"]
+			icon: {
+				id: "tfc_items:leather_sheet"
+			}
+			id: "5CF5229278545894"
+			rewards: [{
+				auto: "enabled"
+				id: "3355DB77A57A6DF8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2E2C6E2874EAFA6C"
+					item: { count: 1, id: "tfc_items:leather_sheet" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "335440065A70E6D4"
+					item: { count: 1, id: "tfc_items:plant_fiber" }
+					type: "item"
+				}
+			]
+			x: -5.56d
+			y: 5.757d
+		}
+		{
+			dependencies: ["5CF5229278545894"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 14400L
+					}
+				}
+				id: "tfc:food/garlic"
+			}
+			id: "2AEC09AC926E8471"
+			rewards: [{
+				auto: "enabled"
+				id: "2200A6A575F13211"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_first_shift_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 4L
+				id: "4C776C7E1DB5452B"
+				item: { components: { "tfc:food": { creation_date: 14400L } }, count: 1, id: "tfc:food/garlic" }
+				type: "item"
+			}]
+			x: -7.362d
+			y: 7.625d
+		}
+		{
+			dependencies: ["5FE2FB7C29E62744"]
+			icon: {
+				id: "tfc:wood/barrel/oak"
+			}
+			icon_scale: 0.95d
+			id: "209788A5CC6C6DC6"
+			rewards: [{
+				auto: "enabled"
+				id: "457508BC16AE34EF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "7011B6A40F4472E2"
+				stat: "minecraft:open_barrel"
+				type: "stat"
+				value: 10
+			}]
+			x: 7.894d
+			y: 13.672d
+		}
+		{
+			dependencies: ["209788A5CC6C6DC6"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 14400L
+					}
+					"tfc:heat": { }
+				}
+				id: "tfc:food/barley_bread"
+			}
+			icon_scale: 0.94d
+			id: "1E5C13466716A5F3"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5773B3CF63C353A2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "0722C344068B28A5"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_survival_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "407EDFD6C6E6DC46"
+					item: { components: { "tfc:food": { creation_date: 14400L }, "tfc:heat": { } }, count: 1, id: "tfc:food/barley_bread" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32BB3C0A178DD469"
+					item: { components: { "tfc:food": { creation_date: 14400L } }, count: 1, id: "tfc:food/garlic" }
+					type: "item"
+				}
+			]
+			x: 9.191d
+			y: 15.918d
+		}
+	]
+	tags: ["theme_first_shift_chapter"]
+}

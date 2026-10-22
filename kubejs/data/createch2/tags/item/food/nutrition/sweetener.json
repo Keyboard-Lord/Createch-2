@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "extended_industrialization:crystallized_honey",
+    "minecraft:honey_bottle",
+    "productivebees:sugarbag_honeycomb",
+    "supplementaries:candy",
+    "the_bumblezone:honey_crystal_shards"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "BGB",
+    "WPL"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "B": {
+      "tag": "createch2:materials/bronze/machine_grade"
+    },
+    "G": {
+      "item": "greate:andesite_alloy_cogwheel"
+    },
+    "W": {
+      "tag": "tfc:lumber"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "L": {
+      "tag": "c:leathers"
+    }
+  },
+  "result": {
+    "id": "rubberworks:sapper",
+    "count": 1
+  }
+}

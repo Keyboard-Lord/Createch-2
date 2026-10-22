@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:mars_biomes",
+  "features": [
+    "createch2:planetary_mars_bauxite_tfc_vein",
+    "createch2:planetary_mars_rutile_tfc_vein",
+    "createch2:planetary_mars_spodumene_tfc_vein",
+    "createch2:planetary_mars_zircon_tfc_vein",
+    "createch2:planetary_mars_cobaltite_tfc_vein",
+    "createch2:planetary_mars_kernite_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,144 @@
+{
+  "truth": "REVIEWED_FINITE_MEK_CUBE_TO_NATIVE_GT_IV_SUPPLY",
+  "nativeJars": {
+    "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680"
+  },
+  "classes": {
+    "cube": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.TileEntityEnergyCube",
+      "sha256": "ac29566fdf661f1eec9398f3341a9023cfc29c8e4737f762542055c55230eeb1"
+    },
+    "cubeContainer": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.capabilities.energy.EnergyCubeEnergyContainer",
+      "sha256": "5c98e131d397734e42318643c87e93996bb1eb176dae5b5a2d67456112b9c323"
+    },
+    "cubeTier": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tier.EnergyCubeTier",
+      "sha256": "2b874116b9b1e476351b9392a2d1a4c1c6d7937e6e880c7a9d5fcec90ef5a5e5"
+    },
+    "ejector": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.component.TileComponentEjector",
+      "sha256": "1418c96aa9197c17d2449edc8a88d5875cf9a62c45c597e32daef846a2ee03f5"
+    },
+    "cable": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.util.CableUtils",
+      "sha256": "e9c30488838dada97f967a3ccfdc3e8318797c68472280a643e0fa767c7d8e01"
+    },
+    "feHandler": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.integration.energy.forgeenergy.ForgeStrictEnergyHandler",
+      "sha256": "573678779da1226051d06755aab64fc9f65eca6d913f62468a3bb6924a482ef5"
+    },
+    "gpHandler": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.integration.energy.grandpower.GPStrictEnergyHandler",
+      "sha256": "da5d1cc1277c756d4e368779b06eb6b797cdcb911780833ba464cf2480cb2674"
+    },
+    "energyCompat": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.integration.energy.EnergyCompatUtils",
+      "sha256": "29f685968a7d13b9217cfdc1d8255e67d7d73b3eecfb8942fcdae21420a46f55"
+    },
+    "unit": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.util.UnitDisplayUtils$EnergyUnit",
+      "sha256": "9c7261c7be2c79d602fc8ce06e4f4a4fc2b790487eb425c6430429918cfc138b"
+    },
+    "converter": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.trait.ConverterTrait",
+      "sha256": "ecbd10d62d8c1875aabbab35d87b5aad5e07e88804e6996035a2b170fc0cf6cb"
+    },
+    "fe": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.trait.ConverterTrait$FEContainer",
+      "sha256": "73bd49a015948e7cca2ea4ddd3c7f9b2cd04c82add345376afd19285e5683dd2"
+    },
+    "converterMachine": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.machine.electric.ConverterMachine",
+      "sha256": "92d8aefdc2d0e2231130081b3bae54e6d2841d08656ad0fdbb88354d911a432e"
+    },
+    "container": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.NotifiableEnergyContainer",
+      "sha256": "b54138d2b7dee8fcc1e6d9addd974ae38b71c68b8ebbc30fa1aad2cf89333dad"
+    },
+    "workable": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.WorkableTieredMachine",
+      "sha256": "b41b1800952384af36bd7e5f480f9fb41387308691bc0e665e771bcb021c8c10"
+    },
+    "block": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.block.IMachineBlock",
+      "sha256": "c9c8d475b19703f0c700c38493e985be8901e6b6adacb3b646ee130886f78d2c"
+    },
+    "trait": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.machine.trait.MachineTrait",
+      "sha256": "48898103ad4be28f63fddbc99a773ef0a360f3fb7b1533d058609befa8053e8d"
+    },
+    "values": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.GTValues",
+      "sha256": "e9011966cd21d9d2af6c579e28336d3df9fd918d4c9ed78b679c940715f36379"
+    },
+    "tools": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.CustomToolRecipes",
+      "sha256": "4de83f2dbac43168563bc6c9b068cd8a3c089c2ee5cb7de632fca99ea8e82493"
+    },
+    "toolHandler": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.ToolRecipeHandler",
+      "sha256": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77"
+    },
+    "toolHelper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.item.tool.ToolHelper",
+      "sha256": "f1e949312213fabde1370b786c0858625419b149a3d865492438ba0f7253b0d5"
+    },
+    "toolType": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.item.tool.GTToolType",
+      "sha256": "2d385c2f38adacdb7fa6a00d24c2c5449772c4ee0e7bda930fd0ecf17f11e44f"
+    },
+    "common": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.CommonInit",
+      "sha256": "25cc09a0a58f945c85a46d605967d4b32370f6029b975c035df8330687e141ed"
+    },
+    "materialItems": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.item.GTMaterialItems",
+      "sha256": "052fa048d860d0db1189a62bdd49e9e1ff0f6664bc127f5261f6bc3d21705e78"
+    },
+    "abilities": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.item.GTItemAbilities",
+      "sha256": "e013370a03a4284d3acc605dbe2962f619501c8b1b7e0754772382185e758059"
+    },
+    "woodMaterial": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.material.UnknownCompositionMaterials",
+      "sha256": "074187f33bb50c873362a06b6af1ddbe56f80dbfcb3e47cc1f1d6ff29faee13c"
+    },
+    "vanillaHelper": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.VanillaRecipeHelper",
+      "sha256": "9bc951e7fdafae15bb81fe1b85ed2f939a092d5356e1554064abb5c38e70ee24"
+    },
+    "shapedBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.common.recipe.builder.ShapedRecipeBuilder",
+      "sha256": "dc77fed18b499d5d0b5dfb204edfd60f131d58b6ac82485c57780ee2c49e507a"
+    }
+  }
+}

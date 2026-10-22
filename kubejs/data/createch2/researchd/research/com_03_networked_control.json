@@ -1,0 +1,65 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "computercraft:wired_modem"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:computational_models",
+      "createch2:grid_telemetry",
+      "createch2:kinetic_data"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:com_02_programmable_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:power_computation",
+  "display": {
+    "name": {
+      "translate": "research.createch2.com_03_networked_control.title"
+    },
+    "desc": {
+      "translate": "research.createch2.com_03_networked_control.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:and",
+    "effects": [
+      {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:computing/age_09/network_cable",
+          "createch2:computing/age_09/wired_modem",
+          "createch2:research/pack/computational_models_advanced",
+          "createch2:mobility/hologenica/neurolink",
+          "createch2:mobility/hologenica/bioscanner",
+          "createch2:mobility/hologenica/hologram",
+          "createch2:synaxis/network/controller_cable",
+          "createch2:synaxis/control/circuit",
+          "createch2:synaxis/control/circuit_diagram",
+          "createch2:synaxis/telemetry/camera",
+          "createch2:synaxis/control/chair",
+          "createch2:synaxis/actuation/compact_flap",
+          "createch2:synaxis/actuation/revolute_motor",
+          "createch2:synaxis/actuation/joint_motor",
+          "createch2:synaxis/actuation/hydraulic_linear",
+          "createch2:synaxis/control/kinetic_resistor"
+        ]
+      },
+      {
+        "type": "researchd:multiply_value",
+        "value": "researchd:research_lab_productivity",
+        "amount": 1.15
+      }
+    ]
+  }
+}

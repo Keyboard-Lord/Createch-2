@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "C C",
+    "N N"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "N": {
+      "item": "rocketnautics:copper_nozzle"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:copper_leg_thrusters",
+    "count": 1
+  }
+}

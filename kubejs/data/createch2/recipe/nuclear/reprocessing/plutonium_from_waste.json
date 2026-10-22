@@ -1,0 +1,12 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "mekanism:centrifuging",
+  "input": {
+    "amount": 10,
+    "chemical": "mekanism:nuclear_waste"
+  },
+  "output": {
+    "amount": 1,
+    "id": "mekanism:plutonium"
+  }
+}

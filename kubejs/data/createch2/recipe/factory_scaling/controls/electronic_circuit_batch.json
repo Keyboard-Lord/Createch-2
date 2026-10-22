@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 700,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 4
+    },
+    {
+      "item": "tfmg:transistor_item",
+      "amount": 8
+    },
+    {
+      "item": "tfmg:capacitor_item",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit_board",
+      "amount": 2
+    },
+    {
+      "item": "tfc:gem/sapphire",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 2000
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 4
+    }
+  ]
+}

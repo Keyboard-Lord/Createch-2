@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 18,
+    "heat": 18
+  },
+  "item": {
+    "items": [
+      "rocketnautics:copper_leg_thrusters"
+    ]
+  }
+}

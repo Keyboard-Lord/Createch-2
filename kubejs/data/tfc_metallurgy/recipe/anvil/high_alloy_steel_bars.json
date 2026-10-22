@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/high_alloy_steel"
+  },
+  "result": {
+    "count": 8,
+    "id": "tfc_metallurgy:high_alloy_steel_bars"
+  },
+  "rules": [
+    "upset_last",
+    "punch_second_last",
+    "punch_third_last"
+  ],
+  "tier": 3,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "tfc_metallurgy:high_alloy_steel_bars"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 128,
+    "g": 147,
+    "b": 164
+  },
+  "sorting_value": 60,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.logistics_reports.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.logistics_reports.description"
+    }
+  }
+}

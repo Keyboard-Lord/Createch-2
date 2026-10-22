@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 240,
+  "item_inputs": [
+    {
+      "item": "gtceu:phenolic_printed_circuit_board",
+      "amount": 1
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "amount": 1
+    },
+    {
+      "item": "create_radar:radar_bearing",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:transistor",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 288
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:lv_emitter",
+      "amount": 1
+    }
+  ]
+}

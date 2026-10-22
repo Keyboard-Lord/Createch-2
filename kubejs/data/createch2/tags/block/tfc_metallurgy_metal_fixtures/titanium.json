@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/titanium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/titanium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/titanium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/titanium",
+      "required": false
+    }
+  ]
+}

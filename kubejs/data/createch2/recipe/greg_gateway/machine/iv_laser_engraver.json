@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EPE",
+    "LHL",
+    "TDT"
+  ],
+  "key": {
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "P": {
+      "item": "electroenergetics:transformer_core"
+    },
+    "L": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "gtceu:iv_laser_engraver",
+    "count": 1
+  }
+}

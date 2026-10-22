@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "CBC",
+    " M "
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_radar:fire_controller",
+    "count": 1
+  }
+}

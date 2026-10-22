@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "GCG",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "item": "create:iron_sheet"
+    },
+    "G": {
+      "tag": "createbigcannons:gunpowder"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:fixed_cannon_mount",
+    "count": 1
+  }
+}

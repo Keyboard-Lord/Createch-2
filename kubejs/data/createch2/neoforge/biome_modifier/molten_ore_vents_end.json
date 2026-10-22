@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:end_outer_vent_biomes",
+  "features": [
+    "createch2:end_cracked_molten_vent"
+  ],
+  "step": "underground_ores"
+}

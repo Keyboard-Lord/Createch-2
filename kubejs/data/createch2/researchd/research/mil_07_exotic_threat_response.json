@@ -1,0 +1,50 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "cbc_enhanced_shells:singularity_shell_mk1"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:frontier_observations",
+      "createch2:nuclear_assays",
+      "createch2:esoteric_records"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:mil_06_strategic_deterrence",
+    "createch2:frn_05_exotic_particle_physics",
+    "createch2:nuc_06_controlled_fusion",
+    "createch2:eso_04_occult_synthesis"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_07_exotic_threat_response.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_07_exotic_threat_response.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "cbc_enhanced_shells:plasma_shell_mk1",
+      "cbc_enhanced_shells:gravitational_shell_mk1",
+      "cbc_enhanced_shells:vortex_shell_mk1",
+      "cbc_enhanced_shells:disintegration_shell_mk1",
+      "cbc_enhanced_shells:singularity_shell_mk1",
+      "cbc_enhanced_shells:h_bomb_shell",
+      "cbc_enhanced_shells:h_bomb_mini_shell"
+    ]
+  }
+}

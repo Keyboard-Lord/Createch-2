@@ -1,0 +1,41 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 2000,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 48
+    },
+    {
+      "item": "modern_industrialization:plutonium_battery",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:processing_unit_board",
+      "amount": 4
+    },
+    {
+      "tag": "c:plates/iridium",
+      "amount": 24
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit_board",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:helium_3",
+      "amount": 200
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:quantum_circuit_board",
+      "amount": 4
+    }
+  ]
+}

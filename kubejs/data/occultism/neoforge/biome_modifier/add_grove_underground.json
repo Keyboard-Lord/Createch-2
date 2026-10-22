@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:occultism_grove_biomes",
+  "features": "occultism:grove_underground",
+  "step": "underground_structures"
+}

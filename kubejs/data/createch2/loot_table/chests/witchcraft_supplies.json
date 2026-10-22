@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:belladonna_seeds",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:belladonna_flower",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:mandrake_seeds",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:mandrake_root",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:snowbell_seeds",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:water_artichoke_seeds",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:water_artichoke",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:wolfsbane_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:wolfsbane_flower",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:garlic",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:garlic",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

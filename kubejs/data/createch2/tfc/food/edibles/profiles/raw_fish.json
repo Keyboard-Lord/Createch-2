@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/raw_fish"
+  },
+  "edible": true,
+  "protein": 1,
+  "decay_modifier": 3,
+  "hunger": 4
+}

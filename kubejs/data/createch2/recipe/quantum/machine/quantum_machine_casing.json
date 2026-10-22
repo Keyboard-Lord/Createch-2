@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "IHI",
+    "SMS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:superconductor_plate"
+    },
+    "M": {
+      "item": "eternal_starlight:malarite"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:quantum_machine_casing",
+    "count": 1
+  }
+}

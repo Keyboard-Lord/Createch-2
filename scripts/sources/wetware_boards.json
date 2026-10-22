@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "routes": [
+    {
+      "nativeName": "multilayer_fiber_board",
+      "type": "large_chemical_reactor",
+      "eu": 480,
+      "duration": 500,
+      "itemInputs": [
+        "2x modern_industrialization:quantum_circuit_board",
+        "2x gtceu:rhodium_plated_palladium_plate"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:sulfuric_acid",
+          "amount": 500
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:multilayer_fiber_reinforced_circuit_board"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM"
+    },
+    {
+      "nativeName": "wetware_board",
+      "type": "large_chemical_reactor",
+      "eu": 30720,
+      "duration": 1200,
+      "itemInputs": [
+        "16x gtceu:multilayer_fiber_reinforced_circuit_board",
+        "gtceu:petri_dish",
+        "gtceu:luv_electric_pump",
+        "gtceu:iv_sensor",
+        "gtceu:crystal_processor",
+        "4x modern_industrialization:superconductor_plate"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:sterilized_growth_medium",
+          "amount": 4000
+        }
+      ],
+      "itemOutputs": [
+        "16x gtceu:wetware_circuit_board"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM"
+    },
+    {
+      "nativeName": "wetware_circuit_board_iron3",
+      "type": "large_chemical_reactor",
+      "eu": 480,
+      "duration": 1800,
+      "itemInputs": [
+        "gtceu:wetware_circuit_board",
+        "8x modern_industrialization:superconductor_plate"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:iron_iii_chloride",
+          "amount": 5000
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:wetware_printed_circuit_board"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM"
+    },
+    {
+      "nativeName": "iron_3_chloride",
+      "type": "large_chemical_reactor",
+      "eu": 30,
+      "duration": 400,
+      "itemInputs": [
+        "#c:dusts/iron"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:hydrochloric_acid",
+          "amount": 3000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:iron_iii_chloride",
+          "amount": 1000
+        },
+        {
+          "fluid": "modern_industrialization:hydrogen",
+          "amount": 3000
+        }
+      ],
+      "circuit": 1
+    }
+  ],
+  "authoredMappings": {
+    "multilayer": "Two existing quantum boards replace two native fiber boards. Two RPP plates retain the 200-unit contact budget of eight palladium foils; this is an authored material integration.",
+    "wetware": "Shared superconductor plates replace NbTi foils at 100:25 units; counts become 4 and 8 plates. Existing crystal processors are members of the native IV circuit tag."
+  }
+}

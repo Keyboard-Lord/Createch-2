@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/trapdoor/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/willow",
+      "required": false
+    }
+  ]
+}

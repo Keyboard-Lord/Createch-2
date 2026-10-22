@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "authority": "Native GLSL only; repair stage interfaces and parser-declaration compatibility. Exact helper bodies, uniforms, color, geometry, widths, timing and shader math preserved.",
+  "providers": [
+    {
+      "jar": "mods/lodestone-1.21.1-1.8.2.jar",
+      "sha256": "cc961af6a77391628378c1c838e521415fa895062b13def493d27234ca527f3e",
+      "repairs": [
+        {
+          "resource": "assets/lodestone/shaders/core/nineslice/nine_slice.vsh",
+          "nativeSha256": "77fc64752945cec92f615736ebb792082e73f192973f26d1877a98a9d27f42cd",
+          "replacements": [
+            {
+              "before": "out DATA {",
+              "after": "struct DATA {",
+              "count": 1
+            },
+            {
+              "before": "} data_out;",
+              "after": "};\nout DATA data_out;",
+              "count": 1
+            }
+          ],
+          "lineEnding": "CRLF"
+        },
+        {
+          "resource": "assets/lodestone/shaders/core/nineslice/nine_slice.gsh",
+          "nativeSha256": "ca0fd249a0efea7bbc3f5420fafc95015c21fba754e3fc5b284eff2f513e29f0",
+          "replacements": [
+            {
+              "before": "data_in",
+              "after": "data_out",
+              "count": 8
+            },
+            {
+              "before": "in DATA {",
+              "after": "struct DATA {",
+              "count": 1
+            },
+            {
+              "before": "} data_out[];",
+              "after": "};\nin DATA data_out[];",
+              "count": 1
+            }
+          ],
+          "lineEnding": "CRLF"
+        },
+        {
+          "resource": "assets/lodestone/shaders/core/nineslice/distorted/distorted_nine_slice_texture.vsh",
+          "nativeSha256": "b332f72a35a0f46fac1ae942f5c8bdf01fc2a2541d0c2985473f2e2860535203",
+          "replacements": [
+            {
+              "before": "out DATA {",
+              "after": "struct DATA {",
+              "count": 1
+            },
+            {
+              "before": "} data_out;",
+              "after": "};\nout DATA data_out;",
+              "count": 1
+            }
+          ],
+          "lineEnding": "CRLF"
+        },
+        {
+          "resource": "assets/lodestone/shaders/core/nineslice/distorted/distorted_nine_slice_texture.gsh",
+          "nativeSha256": "ca0fd249a0efea7bbc3f5420fafc95015c21fba754e3fc5b284eff2f513e29f0",
+          "replacements": [
+            {
+              "before": "data_in",
+              "after": "data_out",
+              "count": 8
+            },
+            {
+              "before": "in DATA {",
+              "after": "struct DATA {",
+              "count": 1
+            },
+            {
+              "before": "} data_out[];",
+              "after": "};\nin DATA data_out[];",
+              "count": 1
+            }
+          ],
+          "lineEnding": "CRLF"
+        }
+      ]
+    },
+    {
+      "jar": "mods/the-shooting-star-demo-1.4.4-neoforge.jar",
+      "sha256": "3d2e55458480a53724c8b3742e2dbb89b2dd737d11b74e5c434a4a133fe89b7e",
+      "repairs": [
+        {
+          "resource": "assets/shooting_star_demo/shaders/core/white_space.fsh",
+          "nativeSha256": "aa2eabc31ea11b9b396ceed09451089f914049cf15c5fffc8db5ed12677f4145",
+          "replacements": [
+            {
+              "before": "    float edge = exp(-sqr(d / (cracking ? 2.4 : 1.5)));",
+              "after": "    float edgeWidth = cracking ? 2.4 : 1.5;\n    float edge = exp(-sqr(d / edgeWidth));",
+              "count": 1
+            },
+            {
+              "before": "    float edge = exp(-sqr(d / ((flags & 1) != 0 ? 2.2 : 1.4)));",
+              "after": "    float edgeWidth = (flags & 1) != 0 ? 2.2 : 1.4;\n    float edge = exp(-sqr(d / edgeWidth));",
+              "count": 1
+            }
+          ],
+          "lineEnding": "LF"
+        }
+      ]
+    },
+    {
+      "jar": "mods/Mekanism-1.21.1-10.7.19.85.jar",
+      "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+      "repairs": [
+        {
+          "resource": "assets/mekanism/shaders/core/rendertype_mekasuit.fsh",
+          "nativeSha256": "a679b3e14742d037df9211bc7636b656d916901691de39bb2e7dc2a77332c3f2",
+          "replacements": [],
+          "lineEnding": "LF",
+          "definitionMove": {
+            "declaration": "bool shouldTint(float red, float green, float blue);",
+            "suffix": "bool shouldTint(float red, float green, float blue) {\n    float min = min(min(red, green), blue);\n    float max = max(max(red, green), blue);\n    float delta = max - min;\n    //Calculate Saturation and Value components of HSV\n    float saturation = max == 0.0 ? 0.0 : delta / max;\n    float value = max;\n    return value >= 0.48 && saturation <= 0.15;\n}"
+          }
+        }
+      ]
+    },
+    {
+      "jar": "mods/darkmodeeverywhere-1.21-1.3.5.jar",
+      "sha256": "482b5b714bfe3efc883c1e5f0234014c9c6db50c8a6d512ee275c46c8382a174",
+      "repairs": [
+        {
+          "resource": "assets/darkmodeeverywhere/shaders/core/dark_position_tex.fsh",
+          "nativeSha256": "d4b0596fc98f01ac2a9ae0405783ed96338e5128f82bc9cb0480ace9d88b98c5",
+          "replacements": [],
+          "lineEnding": "LF",
+          "definitionMove": {
+            "declaration": "float sum(vec3 v);\nvoid vanillaPreProcess();\nvoid vanillaPostProcess();\nvoid modMixin();",
+            "suffix": "float sum(vec3 v) {\n    return v.r + v.g + v.b;\n}\n",
+            "unusedPrototypes": [
+              "vanillaPreProcess",
+              "vanillaPostProcess",
+              "modMixin"
+            ]
+          }
+        },
+        {
+          "resource": "assets/darkmodeeverywhere/shaders/core/dark_position_tex_color.fsh",
+          "nativeSha256": "fb518c3adcb840ba83fcd378ff2e6b403ec2f50e01c39a6ff212543528a27c6b",
+          "replacements": [],
+          "lineEnding": "LF",
+          "definitionMove": {
+            "declaration": "float sum(vec3 v);\nvoid vanillaPreProcess();\nvoid vanillaPostProcess();\nvoid modMixin();",
+            "suffix": "float sum(vec3 v) {\n    return v.r + v.g + v.b;\n}\n",
+            "unusedPrototypes": [
+              "vanillaPreProcess",
+              "vanillaPostProcess",
+              "modMixin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "jar": "mods/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "sha256": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
+      "repairs": [
+        {
+          "resource": "assets/avaritia/shaders/core/hell.fsh",
+          "nativeSha256": "56c47367f5af59838183787a5a4e2dd4572b7cc2110f7732d0f18bcb5d2ec14a",
+          "replacements": [
+            {
+              "before": "void main (void)",
+              "after": "void main ()",
+              "count": 1
+            }
+          ],
+          "lineEnding": "LF"
+        },
+        {
+          "resource": "assets/avaritia/shaders/core/unstable.fsh",
+          "nativeSha256": "33f7b1c10ac1327e769d837f9ae6d78e624b29c9c8b0e7338a8742ba39f94495",
+          "replacements": [
+            {
+              "before": "void main (void)",
+              "after": "void main ()",
+              "count": 1
+            }
+          ],
+          "lineEnding": "LF"
+        },
+        {
+          "resource": "assets/avaritia/shaders/core/cosmic.fsh",
+          "nativeSha256": "db4cacc189fe616d419bf70cf22d4e0cbb857ba7bcba612115e60b5ba1131989",
+          "replacements": [
+            {
+              "before": "void main (void)",
+              "after": "void main ()",
+              "count": 1
+            }
+          ],
+          "lineEnding": "LF"
+        },
+        {
+          "resource": "assets/avaritia/shaders/core/eternal.fsh",
+          "nativeSha256": "66f6ed048d6863e7165a1d300d1de35706e606c0b389453ba209ea94ff33be49",
+          "replacements": [
+            {
+              "before": "void main (void)",
+              "after": "void main ()",
+              "count": 1
+            }
+          ],
+          "lineEnding": "LF"
+        }
+      ]
+    }
+  ]
+}

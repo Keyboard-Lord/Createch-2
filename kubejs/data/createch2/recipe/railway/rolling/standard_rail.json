@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:rolling",
+  "key": {
+    "A": {
+      "item": "railcraft:steel_ingot"
+    },
+    "C": {
+      "item": "railcraft:track_parts"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "A A",
+    "ACA"
+  ],
+  "result": {
+    "count": 16,
+    "id": "railcraft:standard_rail"
+  }
+}

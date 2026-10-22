@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:rhodium_plated_palladium_cogwheel"
+    },
+    {
+      "item": "greate:naquadah_alloy_shaft"
+    },
+    {
+      "tag": "c:plates/naquadah_alloy"
+    }
+  ],
+  "result": {
+    "id": "greate:naquadah_alloy_cogwheel",
+    "count": 1
+  }
+}

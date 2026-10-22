@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:sail_frame",
+      "required": false
+    },
+    {
+      "id": "yourmod:rigging_frame",
+      "required": false
+    }
+  ]
+}

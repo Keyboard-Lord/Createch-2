@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 150,
+  "item_inputs": [
+    {
+      "item": "tfc:rock/raw/chalk",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:calcite_dust",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:stone_dust",
+      "amount": 1,
+      "probability": 0.0025
+    }
+  ]
+}

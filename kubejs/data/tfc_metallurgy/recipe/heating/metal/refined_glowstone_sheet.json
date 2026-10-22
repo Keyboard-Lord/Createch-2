@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/refined_glowstone"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/refined_glowstone",
+    "amount": 200
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

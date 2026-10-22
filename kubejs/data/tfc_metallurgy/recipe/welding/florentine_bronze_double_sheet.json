@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/florentine_bronze"
+  },
+  "second_input": {
+    "tag": "c:sheets/florentine_bronze"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/florentine_bronze"
+  }
+}

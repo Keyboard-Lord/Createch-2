@@ -1,0 +1,29 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 115,
+    "min_y": -56,
+    "max_y": 34,
+    "size": 12,
+    "density": 0.25,
+    "random_name": "createch2_malum_brilliant_crystals",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/quartzite",
+          "tfc:rock/raw/slate",
+          "tfc:rock/raw/phyllite",
+          "tfc:rock/raw/schist",
+          "tfc:rock/raw/gneiss",
+          "tfc:rock/raw/marble"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "malum:brilliant_stone"
+          }
+        ]
+      }
+    ]
+  }
+}

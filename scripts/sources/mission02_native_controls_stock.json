@@ -1,0 +1,381 @@
+{
+  "truth": "REVIEWED_NATIVE_CONDITIONAL_LOCOMOTIVE_CONTROLS",
+  "loader": "21.1.256",
+  "nativeClasses": {
+    "mixer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.mixer.MechanicalMixerBlockEntity"
+    ],
+    "tieredMixer": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.mixer.TieredMechanicalMixerBlockEntity"
+    ],
+    "basin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.basin.TieredBasinRecipe"
+    ],
+    "conversion": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "factoryCode": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues"
+    ],
+    "factory": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues",
+      true
+    ],
+    "heat": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.HeatCondition"
+    ],
+    "burner": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity"
+    ],
+    "burnerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlock"
+    ],
+    "kubeManager": [
+      "kubejs-neoforge-2101.7.2-build.377.jar",
+      "dev.latvian.mods.kubejs.core.mixin.RecipeManagerMixin"
+    ],
+    "kubeManagerV": [
+      "kubejs-neoforge-2101.7.2-build.377.jar",
+      "dev.latvian.mods.kubejs.core.mixin.RecipeManagerMixin",
+      true
+    ],
+    "kubeEvent": [
+      "kubejs-neoforge-2101.7.2-build.377.jar",
+      "dev.latvian.mods.kubejs.recipe.RecipesKubeEvent"
+    ],
+    "greateManager": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager"
+    ],
+    "greateManagerV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinRecipeManager",
+      true
+    ],
+    "conversionV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      true
+    ],
+    "params": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipeParams"
+    ],
+    "basinBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlock"
+    ],
+    "basinEntity": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlockEntity"
+    ],
+    "manual": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ManualApplicationRecipe"
+    ],
+    "applicationParams": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipeParams"
+    ],
+    "casingBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.decoration.encasing.CasingBlock"
+    ],
+    "allBlocks": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.AllBlocks",
+      "signature"
+    ],
+    "wrenchable": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchable"
+    ],
+    "output": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput"
+    ],
+    "tieredMixing": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.mixer.TieredMixingRecipe",
+      "signature"
+    ],
+    "tieredStandard": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.recipe.TieredStandardProcessingRecipe",
+      "signature"
+    ],
+    "tieredProcessing": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.processing.recipe.TieredProcessingRecipe",
+      "signature"
+    ],
+    "log": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.LogBlock",
+      false
+    ],
+    "woodType": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.Wood$BlockType",
+      false
+    ],
+    "axe": [
+      "@loader",
+      "net.minecraft.world.item.AxeItem"
+    ],
+    "createRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.CreateRecipeRemoval"
+    ]
+  },
+  "nativeCodeSha256": {
+    "mixer": "02fead8d8efd98ed23ee7a2ddb45b0d5d018745ddf7e3021939289d2887c7201",
+    "tieredMixer": "d8eb2de64a7106e1fbec5aef2c40c8735338e77ccd6c79fc4323ad4869a1a4d2",
+    "basin": "099173638d0b2b6870c8f155da637a3a477fa45d6f7df849894420e16bd3b3bf",
+    "conversion": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "factoryCode": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "factory": "2adb4be912ed372db9ea6c536854ce3951fc032821563300614f1b89916da2f7",
+    "heat": "319fc5fe8f5960caa8840bf2dbc550733d2797101b647335108aa6e9d55c625b",
+    "burner": "91abba0cca6ba6fc4d0b449b221d767ffe8f4f12418ccaec6755800d3d73e038",
+    "burnerBlock": "0180a20e55ec1898d2500845bb7dc7c205206b4472942c1a14662ae5104115db",
+    "kubeManager": "7964ca70eac075e324a941d3faf005224f14b0f48dff157553a8226adc5d0f2d",
+    "kubeManagerV": "4c20198714a86cd6b0e3be17d670ec4aeaafa84edde7aa179d0829c51d165295",
+    "kubeEvent": "382eca1122d86542be1342401a94b988cc4060b30a42963624c237961754d2a5",
+    "greateManager": "614496013c03cdf2ddeb3256cea91a927627f4fdb544356627ee6256595a9251",
+    "greateManagerV": "ae199a823a935a817a0a2f47c2269a69f89985cfa9a8897ceeee901e049e719e",
+    "conversionV": "b6831e2a5a1ebbe2ea7632c38f006d983e97be3ea608f925a2db78fea5332518",
+    "params": "ffcc3404e4b7f824d7eae8b1038920af73cbf3870e9902ee2c5c773a433e839c",
+    "basinBlock": "a56f06a149800e0cc0f4517fb9de3ac6327d6c49eff8e05a4a6946a8f671fb92",
+    "basinEntity": "7e90ced4daec284d3e2bf63c44d4510e918f22bf0381e312a355adfa0f819db8",
+    "manual": "8a49239281cfc07cfd0baa75467df76c3500a2e14e8c64a756239dd8c0d69af0",
+    "applicationParams": "57a67173046a9d962dc45dc741b7a7c046f434fc3154b7f487d014d5c8746dc4",
+    "casingBlock": "83fd6a3ed74f5d6ce17bacf6d08dc5ac2fc26284be95233f485278f2b09cd6f0",
+    "allBlocks": "7c925b07d50174d2afdc65648d6f04eeef2e6003b5a495a06c537df4677f3df3",
+    "wrenchable": "998b6d79b453ecd16b9e7f3af4949f7d0d20c4557a5156a6f0d96bc7848037cc",
+    "output": "44cae193648fc75cd62159eb8edeb5b52bf737fbf604f583b0e7473eb37bb758",
+    "tieredMixing": "16e6b1e379714aa141e023d245251059cdece5a616c0cb4496994aced549e603",
+    "tieredStandard": "f67e3032cff0883758a15229bd6cefcbb5d2dcc518b89e2208de8a4b7418d0cb",
+    "tieredProcessing": "ca726d906a1e9afece2ec27fe9a7cb7920651be7b1de8569d27003819825b405",
+    "log": "fb3dbe21af9bd0965ca32dccbcd94965e3effeed66b0874728063814737034f5",
+    "woodType": "6edc03fef75a1a692ecbacded952c1b0fa09c5200c77c81ed385aead14408f3a",
+    "axe": "c848abdeb71105eb50acabe5b24e78099a51b691cf0149846bf822329ae2e64e",
+    "createRemoval": "d2fdbd4de9297398d4572a3ea6bd3d18281b34d4a755596d239bc67bf5c076dc"
+  },
+  "allBlocksClassSha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0",
+  "ids": {
+    "lid": "createch2:age_foundation/foundry/basin_foundry_lid",
+    "brass": "createch2:age_foundation/foundry/brass_foundry_batch",
+    "casing": "createch2:age_foundation/foundry/brass_casing_from_foundry_brass",
+    "railway": "create:item_application/railway_casing",
+    "controls": "create:crafting/kinetics/controls"
+  },
+  "recipes": {
+    "createch2:age_foundation/foundry/basin_foundry_lid": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CCC",
+        "ABA",
+        "BBB"
+      ],
+      "key": {
+        "C": {
+          "tag": "c:ingots/copper"
+        },
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "tag": "createch2:ceramic/foundry_masonry"
+        }
+      },
+      "result": {
+        "id": "createbigcannons:basin_foundry_lid",
+        "count": 1
+      }
+    },
+    "createch2:age_foundation/foundry/brass_foundry_batch": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:mixing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/zinc"
+        },
+        {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_ingot",
+          "count": 4
+        },
+        {
+          "id": "createbigcannons:basin_foundry_lid"
+        }
+      ],
+      "heat_requirement": "heated",
+      "recipe_tier": 0
+    },
+    "createch2:age_foundation/foundry/brass_casing_from_foundry_brass": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "tag": "c:stripped_logs"
+        },
+        {
+          "tag": "createch2:materials/brass/foundry"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    },
+    "create:item_application/railway_casing": {
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        },
+        {
+          "tag": "c:plates/obsidian"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:railway_casing"
+        }
+      ]
+    },
+    "create:crafting/kinetics/controls": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "minecraft:lever"
+        },
+        "C": {
+          "item": "create:railway_casing"
+        },
+        "I": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:controls"
+      }
+    }
+  },
+  "kinds": {
+    "createch2:age_foundation/foundry/basin_foundry_lid": "authored",
+    "createch2:age_foundation/foundry/brass_foundry_batch": "authored",
+    "createch2:age_foundation/foundry/brass_casing_from_foundry_brass": "authored",
+    "create:item_application/railway_casing": "native",
+    "create:crafting/kinetics/controls": "native"
+  },
+  "nativeRows": {
+    "create:item_application/railway_casing": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "create:item_application",
+          "ingredients": [
+            {
+              "item": "create:brass_casing"
+            },
+            {
+              "tag": "c:plates/obsidian"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:railway_casing"
+            }
+          ]
+        }
+      }
+    ],
+    "create:crafting/kinetics/controls": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "item": "minecraft:lever"
+            },
+            "C": {
+              "item": "create:railway_casing"
+            },
+            "I": {
+              "item": "create:precision_mechanism"
+            }
+          },
+          "pattern": [
+            "B",
+            "C",
+            "I"
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:controls"
+          }
+        }
+      }
+    ]
+  },
+  "recovery": {
+    "provider": "create-1.21.1-6.0.10.jar",
+    "resource": "data/create/loot_table/blocks/railway_casing.json",
+    "item": "create:railway_casing",
+    "data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "create:railway_casing"
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "create:blocks/railway_casing"
+    }
+  }
+}

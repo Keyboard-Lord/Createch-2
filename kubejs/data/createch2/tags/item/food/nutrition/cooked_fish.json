@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "eternal_starlight:cooked_luminaris",
+    "eternal_starlight:cooked_luminofish",
+    "eternal_starlight:cooked_rookfish",
+    "eternal_starlight:cooked_shadow_snail_meat",
+    "eternal_starlight:rookfish_skewer",
+    "eternal_starlight:shadow_escargot",
+    "htm:cooked_fish_fillet",
+    "quark:cooked_crab_leg"
+  ]
+}

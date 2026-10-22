@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 30,
+  "duration": 160,
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:oxygen",
+      "amount": 1000
+    },
+    {
+      "fluid": "gtceu:tetrafluoroethylene",
+      "amount": 144
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gtceu:polytetrafluoroethylene",
+      "amount": 216
+    }
+  ]
+}

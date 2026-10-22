@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    " EEEEEEE ",
+    "EPPPPPPPE",
+    "EPPQCQPPE",
+    "EPPQNQPPE",
+    "EPPQCQPPE",
+    "EPPPPPPPE",
+    " EEEEEEE "
+  ],
+  "key": {
+    "E": {
+      "tag": "c:end_stones"
+    },
+    "P": {
+      "tag": "c:ender_pearls"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "C": {
+      "item": "ae2:quantum_link"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:endest_pearl",
+    "count": 1
+  },
+  "tier": 4
+}

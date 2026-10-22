@@ -1,0 +1,29 @@
+{
+  "type": "tfc:disc_vein",
+  "config": {
+    "rarity": 172,
+    "min_y": -40,
+    "max_y": 32,
+    "size": 50,
+    "density": 0.9,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "tfc:bituminous_coal"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_unitas_bituminous_coal_tfc_vein",
+    "height": 3,
+    "project": true,
+    "project_offset": true
+  }
+}

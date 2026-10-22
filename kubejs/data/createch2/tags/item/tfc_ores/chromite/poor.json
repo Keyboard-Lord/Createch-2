@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "firmalife:ore/poor_chromite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/andesite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/basalt",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/chalk",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/chert",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/claystone",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/dacite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/diorite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/dolomite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/gabbro",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/gneiss",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/granite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/limestone",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/marble",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/phyllite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/quartzite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/schist",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/shale",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/slate",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/poor_chromite/tuff",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "ids": {
+    "crush": "createch2:materials/galena/crushing/normal",
+    "wash": "createch2:materials/galena/concentrating/crushed",
+    "dust": "modern_industrialization:materials/lead/craft/dust_from_tiny_dust",
+    "smelt": "modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting",
+    "plate": "modern_industrialization:materials/lead/compressor/main",
+    "fan": "createch2:greate/tier_0/encased_fan"
+  },
+  "kinds": {
+    "createch2:materials/galena/crushing/normal": "authored",
+    "createch2:materials/galena/concentrating/crushed": "authored",
+    "modern_industrialization:materials/lead/craft/dust_from_tiny_dust": "native",
+    "modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting": "native",
+    "modern_industrialization:materials/lead/compressor/main": "native",
+    "createch2:greate/tier_0/encased_fan": "authored"
+  },
+  "recipes": {
+    "createch2:materials/galena/crushing/normal": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "tag": "createch2:geology/ores/galena/normal"
+        }
+      ],
+      "processing_time": 250,
+      "results": [
+        {
+          "id": "create:crushed_raw_lead",
+          "count": 2
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:materials/galena/concentrating/crushed": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:splashing",
+      "ingredients": [
+        {
+          "item": "create:crushed_raw_lead"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:lead_tiny_dust"
+        },
+        {
+          "id": "modern_industrialization:silver_tiny_dust",
+          "chance": 0.05
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "modern_industrialization:materials/lead/craft/dust_from_tiny_dust": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "x": {
+          "tag": "c:tiny_dusts/lead"
+        },
+        "y": {
+          "item": "modern_industrialization:lead_tiny_dust"
+        }
+      },
+      "pattern": [
+        "xxx",
+        "xyx",
+        "xxx"
+      ],
+      "result": {
+        "count": 1,
+        "id": "modern_industrialization:lead_dust"
+      }
+    },
+    "modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.7,
+      "ingredient": {
+        "item": "modern_industrialization:lead_dust"
+      },
+      "result": {
+        "count": 1,
+        "id": "modern_industrialization:lead_ingot"
+      }
+    },
+    "modern_industrialization:materials/lead/compressor/main": {
+      "type": "modern_industrialization:compressor",
+      "duration": 200,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:ingots/lead"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:lead_plate"
+        }
+      ]
+    },
+    "createch2:greate/tier_0/encased_fan": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        "SCS",
+        " W "
+      ],
+      "key": {
+        "G": {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "W": {
+          "tag": "c:plates/tin"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_encased_fan",
+        "count": 1
+      }
+    }
+  },
+  "nativeRows": {
+    "modern_industrialization:materials/lead/craft/dust_from_tiny_dust": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "x": {
+              "tag": "c:tiny_dusts/lead"
+            },
+            "y": {
+              "item": "modern_industrialization:lead_tiny_dust"
+            }
+          },
+          "pattern": [
+            "xxx",
+            "xyx",
+            "xxx"
+          ],
+          "result": {
+            "count": 1,
+            "id": "modern_industrialization:lead_dust"
+          }
+        }
+      }
+    ],
+    "modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "minecraft:smelting",
+          "category": "misc",
+          "cookingtime": 200,
+          "experience": 0.7,
+          "ingredient": {
+            "item": "modern_industrialization:lead_dust"
+          },
+          "result": {
+            "count": 1,
+            "id": "modern_industrialization:lead_ingot"
+          }
+        }
+      }
+    ],
+    "modern_industrialization:materials/lead/compressor/main": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "modern_industrialization:compressor",
+          "duration": 200,
+          "eu": 2,
+          "item_inputs": [
+            {
+              "amount": 1,
+              "tag": "c:ingots/lead"
+            }
+          ],
+          "item_outputs": [
+            {
+              "amount": 1,
+              "item": "modern_industrialization:lead_plate"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "fan": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.TieredEncasedFanBlockEntity"
+    ],
+    "block": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.TieredEncasedFanBlock"
+    ],
+    "registry": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.registry.EncasedFans"
+    ],
+    "air": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.TieredAirCurrent"
+    ],
+    "processing": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.TieredFanProcessing"
+    ],
+    "splash": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.processing.GreateFanProcessingTypes$TieredSplashingType"
+    ],
+    "types": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.fan.processing.GreateFanProcessingTypes"
+    ],
+    "baseFan": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity"
+    ],
+    "baseAir": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.fan.AirCurrent"
+    ],
+    "convert": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes"
+    ],
+    "applier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeApplier"
+    ],
+    "helper": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeHelper"
+    ],
+    "conditions": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.TieredRecipeConditions"
+    ],
+    "airMixin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinAirCurrent",
+      true
+    ],
+    "airInvoker": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinAirCurrentInvoker",
+      true
+    ],
+    "source": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.fan.IAirCurrentSource"
+    ],
+    "tankSize": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.data.machine.GTMachineUtils"
+    ],
+    "tankSizeV": [
+      "gtceu-1.21.1-8.1.0.jar",
+      "com.gregtechceu.gtceu.data.machine.GTMachineUtils",
+      true
+    ],
+    "fluidHelper": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.FluidHelper"
+    ],
+    "baseFanBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.fan.EncasedFanBlock"
+    ],
+    "directional": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.DirectionalKineticBlock"
+    ],
+    "blockEntitiesV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.registry.ModBlockEntityTypes",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "fan": "f198cc93df38db61c59cd06bbdeedefd60448b9ccdce373d38202e667a4a42a7",
+    "block": "e0fb92cfbf9553078e73062130902de4628c8cba716e0ddbca4012f1703f1762",
+    "registry": "a390e105d60463386e9f27566faee9d8a77379ef0d34604b6da87205e3daa9be",
+    "air": "91cee2d790434a964c14bb715992719f51ab980ecb7447105d8ecacb7cfdfda0",
+    "processing": "c50f52d1a1fd5ab74fc243b1266c5c84d8d396f34ddfd10323f6ebf3a769a22e",
+    "splash": "0423a946b2d582e55748f8c1efaab63e5137c4850fb9dd8d78e722c4aa054d41",
+    "types": "aee09a49396580e73ce41cc455334a6bc7cb7e11824b8e526383d49d9b9d8b15",
+    "baseFan": "cfe362d0f0e0009fb715b4b8848d147985ad174dce5dcf6f6f0d914eb325961d",
+    "baseAir": "6540fb9abe55e9b19b556e0639cfc4def279c171381fa11c2967610aa2dc4391",
+    "convert": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f",
+    "applier": "fc08cbccd7b0047b964eea65fe63e8191bd2f9967cce2aa116c0b8529b22d536",
+    "helper": "5e1f2ff0e9a5e83dc426ae6faf37b19080081b011a821a3a4fb37fa9ccc56e91",
+    "conditions": "d19111bdd6524f12a0c54e1f2d876435741e0738c82076d37e3729d144dda246",
+    "airMixin": "b4af5dcf1a352e7651d59711fa3d9fabba813240ea62ae2a33f8b6399a72d43f",
+    "airInvoker": "8a38c7111e886290c6c624b5868b9fb099ce83d78a8dd1a8827225b015189c96",
+    "source": "5bca9a79782ba5f90386454a347e82bfa0d526bc52d020bea8381c59761416ad",
+    "tankSize": "8d6d88af5adf3ab618154b84272ed7462e21cfc4af77909765d13ded1813f581",
+    "tankSizeV": "6a2f7a1c1b8c34833ce539e5625e1198532bd99576d9ce0428580e4908082799",
+    "fluidHelper": "6d1b2b7780cd1ba08f6c0e1faf9c0918b7c64fc174215ae364531c89cf2b1802",
+    "baseFanBlock": "0b93561b8a116b9f0e35bdb48dbae9385452c4973664883dbb5b856331a63fae",
+    "directional": "9038d4bf3f8811f742706d441996b4f73a0d904d1d387990ab7c610078d1b853",
+    "blockEntitiesV": "11c856f6a99ba3c003afa6cb0b873e34bb890726e4d73f4f1e82e739d4372229"
+  },
+  "worldResources": {
+    "worldgen/configured_feature|tfc_metallurgy:vein/normal_galena": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 17,
+        "min_y": -5,
+        "max_y": 50,
+        "size": 13,
+        "density": 0.6,
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/shale"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/shale"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/shale"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/shale"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/shale"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/claystone"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/claystone"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/claystone"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/claystone"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/claystone"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/limestone"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/limestone"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/limestone"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/limestone"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/limestone"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/conglomerate"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/conglomerate"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/conglomerate"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/conglomerate"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/conglomerate"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/dolomite"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/dolomite"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/dolomite"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/dolomite"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/dolomite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/chert"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/chert"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/chert"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/chert"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/chert"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/chalk"
+            ],
+            "with": [
+              {
+                "weight": 15,
+                "block": "tfc:ore/poor_native_silver/chalk"
+              },
+              {
+                "weight": 25,
+                "block": "tfc_metallurgy:ore/poor_galena/chalk"
+              },
+              {
+                "weight": 40,
+                "block": "tfc_metallurgy:ore/normal_galena/chalk"
+              },
+              {
+                "weight": 20,
+                "block": "tfc_metallurgy:ore/rich_galena/chalk"
+              }
+            ]
+          }
+        ],
+        "indicator": {
+          "rarity": 12,
+          "underground_rarity": 1,
+          "underground_count": 0,
+          "depth": 35,
+          "blocks": [
+            {
+              "block": "tfc_metallurgy:ore/small_galena"
+            }
+          ]
+        },
+        "random_name": "normal_galena"
+      }
+    },
+    "worldgen/placed_feature|tfc_metallurgy:vein/normal_galena": {
+      "feature": "tfc_metallurgy:vein/normal_galena",
+      "placement": []
+    },
+    "loot_table|tfc_metallurgy:blocks/ore/normal_galena/limestone": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc_metallurgy:ore/normal_galena"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "excludedNativeRows": {
+    "tfc_metallurgy:heating/ore/normal_galena": [
+      {
+        "provider": "TFC Metallurgy 1.21.1-1.1.1.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "item": "tfc_metallurgy:ore/normal_galena"
+          },
+          "result_fluid": {
+            "id": "tfc_metallurgy:metal/lead",
+            "amount": 25
+          },
+          "temperature": 328
+        }
+      }
+    ],
+    "tfcorewashing:ores/galena/galena_normal_hammer": [
+      {
+        "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc_ie_addon"
+            },
+            {
+              "type": "neoforge:not",
+              "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/piece/galena/normal"
+              }
+            }
+          ],
+          "type": "tfc:advanced_shapeless_crafting",
+          "primary_ingredient": {
+            "tag": "c:tools/hammer"
+          },
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "ingredients": [
+            {
+              "tag": "c:ores/piece/galena/normal"
+            },
+            {
+              "tag": "c:tools/hammer"
+            }
+          ],
+          "result": {
+            "id": "tfcorewashing:rocky_chunks_galena",
+            "count": 5
+          }
+        }
+      }
+    ],
+    "tfcorewashing:tfc/heating/powder/galena": [
+      {
+        "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc_ie_addon"
+            }
+          ],
+          "type": "tfc:heating",
+          "ingredient": {
+            "tag": "c:ores/clean_dusts/lead"
+          },
+          "result_fluid": {
+            "id": "tfc_ie_addon:metal/lead",
+            "amount": 5
+          },
+          "temperature": 330
+        }
+      }
+    ]
+  }
+}

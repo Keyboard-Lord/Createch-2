@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/florentine_bronze"
+    },
+    {
+      "tag": "c:physical_dusts/florentine_bronze"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 240,
+  "welding_temperature": 320
+}

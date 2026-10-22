@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "NTN",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "tfmg:heavy_plate"
+    },
+    "N": {
+      "tag": "c:plates/nickel"
+    },
+    "T": {
+      "item": "tfmg:steel_fluid_tank"
+    }
+  },
+  "result": {
+    "id": "tfmg:steel_chemical_vat",
+    "count": 2
+  }
+}

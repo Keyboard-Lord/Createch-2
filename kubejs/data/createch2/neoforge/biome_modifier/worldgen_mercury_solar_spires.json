@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "createch2:mercury_inferno",
+    "createch2:mercury_scorching_caves"
+  ],
+  "features": [
+    "createch2:mercury_solar_spires"
+  ],
+  "step": "local_modifications"
+}

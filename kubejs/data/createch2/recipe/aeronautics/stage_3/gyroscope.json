@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "MFM",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "gtceu:lv_sensor"
+    },
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "F": {
+      "item": "create:flywheel"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "aeroworks:gyroscope",
+    "count": 1
+  }
+}

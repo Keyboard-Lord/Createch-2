@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 128,
+  "duration": 600,
+  "item_inputs": [
+    {
+      "item": "tfc_metallurgy:ore/normal_uraninite",
+      "amount": 9
+    },
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:uranium_dust",
+      "amount": 2
+    }
+  ]
+}

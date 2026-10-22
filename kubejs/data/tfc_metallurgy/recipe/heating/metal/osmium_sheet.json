@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/osmium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/osmium",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

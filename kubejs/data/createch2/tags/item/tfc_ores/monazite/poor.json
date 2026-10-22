@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_monazite/tuff",
+      "required": false
+    }
+  ]
+}

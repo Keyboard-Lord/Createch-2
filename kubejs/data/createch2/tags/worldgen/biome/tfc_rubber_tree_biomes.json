@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:plains",
+    "tfc:lowlands",
+    "tfc:rolling_hills",
+    "tfc:hills",
+    "tfc:highlands",
+    "tfc:plateau",
+    "tfc:plateau_wide",
+    "tfc:terrace_lower",
+    "tfc:terrace_upper",
+    "tfc:river_valley",
+    "tfc:drumlins",
+    "tfc:knob_and_kettle",
+    "tfc:doline_plains",
+    "tfc:doline_rolling_hills",
+    "tfc:cenote_plains",
+    "tfc:cenote_rolling_hills",
+    "tfc:tower_karst_plains",
+    "tfc:tower_karst_hills"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/magnesium"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:magnesium_dust"
+    }
+  ],
+  "processing_time": 100
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NPN",
+    "PIP",
+    "NPN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_tiny_dust"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:turbine_casing",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:petroleum_surface_basin",
+  "features": "tfmg:oil_well",
+  "step": "fluid_springs"
+}

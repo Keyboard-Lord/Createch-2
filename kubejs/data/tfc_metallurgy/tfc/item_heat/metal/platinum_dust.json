@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:physical_dusts/platinum"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 1038,
+  "welding_temperature": 1384
+}

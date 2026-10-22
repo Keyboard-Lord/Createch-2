@@ -1,0 +1,50 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 128,
+  "duration": 2200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:monazite_crushed_dust",
+      "amount": 4
+    },
+    {
+      "item": "stellaris:corronium_ingot",
+      "amount": 4
+    },
+    {
+      "item": "stellaris:solerium",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:sulfuric_acid",
+      "amount": 16000
+    },
+    {
+      "fluid": "modern_industrialization:purified_platinum_sulfuric_solution",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:raw_platinum",
+      "amount": 5
+    },
+    {
+      "item": "modern_industrialization:platinum_tiny_dust",
+      "amount": 10
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:platinum_sulfuric_solution",
+      "amount": 5000
+    },
+    {
+      "fluid": "modern_industrialization:purified_platinum_sulfuric_solution",
+      "amount": 250
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AS",
+    "ETI",
+    "PI "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "minecraft:spyglass"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "item": "create:framed_glass_pane"
+    }
+  },
+  "result": {
+    "id": "cbc_ballistics:rangefinder",
+    "count": 1
+  }
+}

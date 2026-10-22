@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "BCB",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "P": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "B": {
+      "item": "greate:rubber_belt_connector"
+    },
+    "C": {
+      "tag": "createch2:wooden_storage_chests"
+    }
+  },
+  "result": {
+    "id": "backpacked:backpack",
+    "count": 1
+  }
+}

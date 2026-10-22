@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "c:dusts/magnesium"
+  },
+  "result": {
+    "id": "tfc_metallurgy:metal/ingot/magnesium"
+  }
+}

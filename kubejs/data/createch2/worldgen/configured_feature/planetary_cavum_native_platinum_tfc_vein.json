@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 56,
+    "min_y": -56,
+    "max_y": 16,
+    "size": 30,
+    "density": 0.45,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:calcite",
+          "minecraft:red_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_native_platinum/granite"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_platinum/granite"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/rich_native_platinum/granite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 10,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 38,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_platinum"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_cavum_native_platinum_tfc_vein"
+  }
+}

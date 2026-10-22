@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "createch2:offworld_archaeology/mercurian_relay",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20770214,
+    "spacing": 64,
+    "separation": 48
+  }
+}

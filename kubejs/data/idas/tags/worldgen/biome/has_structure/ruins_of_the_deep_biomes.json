@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_settled_land",
+    "#createch2:tfc_structure_karst_land",
+    "createch2:lantea_deep_warm_ocean",
+    "createch2:lantea_rocky_reef"
+  ]
+}

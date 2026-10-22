@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:casting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 144,
+      "fluid": "tfmg:molten_steel"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "id": "tfmg:steel_ingot"
+    }
+  ]
+}

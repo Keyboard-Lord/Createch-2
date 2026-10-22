@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/fish_hook/lumium"
+  },
+  "tier": 4,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "ingredient": {
+    "tag": "c:sheets/lumium"
+  },
+  "apply_bonus": true
+}

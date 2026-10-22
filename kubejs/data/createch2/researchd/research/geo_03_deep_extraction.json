@@ -1,0 +1,73 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "oritech:deep_drill_block"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:geological_surveys",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:geo_02_mechanized_extraction",
+    "createch2:ele_03_industrial_power"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.geo_03_deep_extraction.title"
+    },
+    "desc": {
+      "translate": "research.createch2.geo_03_deep_extraction.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:oritech_jdt/age_11/oritech/deep_drill",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_coal",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_copper",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_iron",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_nickel",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_platinum",
+      "createch2:oritech_jdt/age_11/deep_drill/cartridge_uranium",
+      "createch2:oritech_jdt/age_11/deep_drill/route_coal",
+      "createch2:oritech_jdt/age_11/deep_drill/route_copper",
+      "createch2:oritech_jdt/age_11/deep_drill/route_iron",
+      "createch2:oritech_jdt/age_11/deep_drill/route_nickel",
+      "createch2:oritech_jdt/age_11/deep_drill/route_platinum",
+      "createch2:oritech_jdt/age_11/deep_drill/route_uranium",
+      "createch2:utility_authority/mining_gadgets/mk1",
+      "createch2:utility_authority/mining_gadgets/mk2",
+      "createch2:utility_authority/mining_gadgets/modification_table",
+      "createch2:identity/quarryplus/quarry",
+      "createch2:research/pack/geological_surveys_deep",
+      "createch2:materials/vanadium/tfc_magnetite_poor",
+      "createch2:materials/vanadium/tfc_magnetite_normal",
+      "createch2:materials/vanadium/tfc_magnetite_rich",
+      "createch2:materials/molybdenum/tfc_molybdenite_poor",
+      "createch2:materials/molybdenum/tfc_molybdenite_normal",
+      "createch2:materials/molybdenum/tfc_molybdenite_rich",
+      "createch2:greate/suppliers/lithium_crushed_stock",
+      "createch2:greate/suppliers/uraninite_recovery_poor",
+      "createch2:greate/suppliers/uraninite_recovery_normal",
+      "createch2:greate/suppliers/uraninite_recovery_rich",
+      "createch2:greate/suppliers/vanadium_mineral_consolidation",
+      "mekanism:crystallizing/lithium",
+      "mekanism_tfmg_compat:lithium/lithium_ore_enriching",
+      "mekanism_tfmg_compat:lithium/lithium_deepslate_ore_enriching",
+      "mekanism_tfmg_compat:lithium/lithium_raw_ore_enriching"
+    ]
+  }
+}

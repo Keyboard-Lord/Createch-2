@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_structure_dry_land",
+    "#createch2:tfc_structure_flat_land",
+    "#createch2:tfc_structure_shore",
+    "#createch2:tfc_structure_wetland",
+    "stellaris:mars_desert",
+    "stellaris:mars_rocky_plains",
+    "createch2:unitas_gravel_desert",
+    "createch2:unitas_ashen_woodland",
+    "createch2:unitas_granite_cliffs",
+    "createch2:unitas_ancient_delta"
+  ]
+}

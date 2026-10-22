@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "createch2core:raw_redstone_formation"
+  },
+  "result": {
+    "id": "minecraft:redstone",
+    "count": 1
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

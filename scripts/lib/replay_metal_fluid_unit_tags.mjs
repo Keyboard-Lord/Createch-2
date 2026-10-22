@@ -1,0 +1,11 @@
+// Replay the already shipped P0unit-isolation callback into model fluid layers.
+// This is not a new gameplay tag policy or an execution of Minecraft.
+import fs from 'node:fs';import path from 'node:path';import vm from 'node:vm';import crypto from 'node:crypto';import assert from 'node:assert/strict';
+export function replayMetalFluidUnitTags(root,layers){
+ const source=fs.readFileSync(path.join(root,'kubejs/server_scripts/core/tag_authority.js'),'utf8'),block=/\/\/ BEGIN GENERATED METAL FLUID UNIT TAGS[\s\S]*?\/\/ END GENERATED METAL FLUID UNIT TAGS/.exec(source)?.[0];assert(block,'Missing authoritative fluid-unit tag block');
+ const tags=new Map([...layers].map(([id,rows])=>{let values=[];for(const row of rows){if(row.replace)values=[];values.push(...row.values);}return [id,new Set(values)];})),changed=new Set(),get=id=>{if(!tags.has(id))tags.set(id,new Set());return tags.get(id);};
+ vm.runInNewContext(block,{ServerEvents:{tags:(kind,handler)=>{assert.equal(kind,'fluid');handler({add:(id,values)=>{changed.add(id);[values].flat().forEach(v=>get(id).add(v));},remove:(id,values)=>{changed.add(id);[values].flat().forEach(v=>get(id).delete(v));},removeAll:id=>{changed.add(id);tags.set(id,new Set());}});}}});
+ const forms=JSON.parse(fs.readFileSync(path.join(root,'kubejs/data/createch2/material_contracts/form_units.json'),'utf8')).fluidUnitTags;for(const f of forms){assert.deepEqual(get(f.ordinaryTag),new Set(f.ordinaryFluids),f.ordinaryTag);assert.deepEqual(get(f.physicalTag),new Set(f.physicalFluids),f.physicalTag);for(const x of f.otherUnitTags??[])assert.deepEqual(get(x.tag),new Set(x.fluids),x.tag);}
+ for(const id of changed)layers.set(id,[{replace:true,values:[...get(id)]}]);
+ return {truth:'STATIC_SHIPPED_METAL_FLUID_UNIT_TAG_REPLAY',callbackSha256:crypto.createHash('sha256').update(block).digest('hex'),forms:forms.map(f=>({material:f.material,ordinaryTag:f.ordinaryTag,ordinaryFluids:[...get(f.ordinaryTag)],ordinaryMillibuckets:f.ordinaryMillibuckets,physicalTag:f.physicalTag,physicalFluids:[...get(f.physicalTag)],physicalMillibuckets:f.physicalMillibuckets,otherUnitTags:f.otherUnitTags??[]})),changedTags:[...changed],limits:['Only the delimited existing P0metal-unit fluid callback is replayed; other dynamic fluid-tag callbacks and loaded tags remain qualification. No gameplay tag/recipe/unit or Core change.']};
+}

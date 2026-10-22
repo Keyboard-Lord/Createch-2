@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "HBH",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "greate:titanium_shaft"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "B": {
+      "item": "create:mechanical_bearing"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "aeronautics_utility_objects:hydraulic_hinge_head",
+    "count": 1
+  }
+}

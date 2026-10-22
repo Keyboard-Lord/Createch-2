@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SUS",
+    "RCR",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "item": "railcraft:steel_plate"
+    },
+    "U": {
+      "item": "minecraft:hopper"
+    },
+    "R": {
+      "item": "railcraft:standard_rail"
+    },
+    "C": {
+      "item": "railcraft:controller_circuit"
+    },
+    "L": {
+      "item": "railcraft:item_detector"
+    }
+  },
+  "result": {
+    "id": "railcraft:item_loader",
+    "count": 1
+  }
+}

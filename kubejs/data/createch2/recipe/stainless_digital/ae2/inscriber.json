@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "PMP",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "ae2:inscriber",
+    "count": 1
+  }
+}

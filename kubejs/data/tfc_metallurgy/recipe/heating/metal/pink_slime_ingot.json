@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/pink_slime"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/pink_slime",
+    "amount": 100
+  },
+  "temperature": 1000,
+  "use_durability": false
+}

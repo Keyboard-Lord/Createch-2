@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 32,
+  "duration": 320,
+  "item_inputs": [
+    {
+      "tag": "createch2:tfc_ores/bauxite/rich",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:bauxite_crushed_dust",
+      "amount": 3
+    }
+  ]
+}

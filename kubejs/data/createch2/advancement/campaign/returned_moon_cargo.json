@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "returned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              },
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "createch2:planetary_visit/moon": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "stellaris:raw_desh_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "returned"
+    ]
+  ]
+}

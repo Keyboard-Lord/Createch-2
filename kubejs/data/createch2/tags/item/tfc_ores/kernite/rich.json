@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_kernite/tuff",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/tuff",
+      "required": false
+    }
+  ]
+}

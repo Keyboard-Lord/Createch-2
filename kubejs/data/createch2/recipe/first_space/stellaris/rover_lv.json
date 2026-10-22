@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "MHM",
+    "SPS"
+  ],
+  "key": {
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "B": {
+      "item": "electroenergetics:accumulator"
+    },
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "P": {
+      "item": "modern_industrialization:pump"
+    }
+  },
+  "result": {
+    "id": "stellaris:rover",
+    "count": 1
+  }
+}

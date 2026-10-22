@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/native_iridium/small",
+    "#createch2:tfc_ores/native_iridium/poor",
+    "#createch2:tfc_ores/native_iridium/normal",
+    "#createch2:tfc_ores/native_iridium/rich"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:rolling",
+  "key": {
+    "A": {
+      "item": "railcraft:steel_ingot"
+    }
+  },
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "result": {
+    "count": 4,
+    "id": "railcraft:steel_plate"
+  }
+}

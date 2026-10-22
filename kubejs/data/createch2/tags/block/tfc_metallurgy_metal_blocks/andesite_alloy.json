@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/andesite_alloy",
+      "required": false
+    }
+  ]
+}

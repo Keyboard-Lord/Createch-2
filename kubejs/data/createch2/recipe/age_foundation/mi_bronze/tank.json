@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "RGR",
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "R": {
+      "item": "modern_industrialization:copper_ring"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:bronze_tank",
+    "count": 1
+  }
+}

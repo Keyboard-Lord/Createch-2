@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "bonus": "copy_best",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_boots/tungsten_steel"
+  },
+  "second_input": {
+    "tag": "c:sheets/tungsten_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/boots/tungsten_steel"
+  }
+}

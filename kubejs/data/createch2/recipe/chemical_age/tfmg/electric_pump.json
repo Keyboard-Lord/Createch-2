@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MQK",
+    "CPW",
+    "MQK"
+  ],
+  "key": {
+    "M": {
+      "item": "tfmg:magnet"
+    },
+    "Q": {
+      "item": "tfmg:capacitor_item"
+    },
+    "K": {
+      "item": "tfmg:electromagnetic_coil"
+    },
+    "C": {
+      "item": "tfmg:circuit_board"
+    },
+    "P": {
+      "item": "greate:steel_mechanical_pump"
+    },
+    "W": {
+      "tag": "c:wires/copper"
+    }
+  },
+  "result": {
+    "id": "tfmg:electric_pump",
+    "count": 1
+  }
+}

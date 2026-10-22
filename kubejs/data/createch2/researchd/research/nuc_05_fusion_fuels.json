@@ -1,0 +1,44 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:tritium_bucket"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:nuclear_assays",
+      "createch2:process_samples",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:nuc_04_reactor_instrumentation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_05_fusion_fuels.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_05_fusion_fuels.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:nuclear/reprocessing/plutonium_from_waste",
+      "createch2:nuclear/reprocessing/recovered_fissile_fuel",
+      "createch2:nuclear/reprocessing/spent_fuel_fragment",
+      "createch2:nuclear/reprocessing/plutonium_pellet"
+    ]
+  }
+}

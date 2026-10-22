@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/scythe_blade/beryllium_copper"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/beryllium_copper"
+  },
+  "apply_bonus": true
+}

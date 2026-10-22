@@ -1,0 +1,31 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "item": "chemica:coal_dust"
+    }
+  ],
+  "machines": [],
+  "results": [
+    {
+      "amount": 250,
+      "id": "chemica:carbon_monoxide"
+    },
+    {
+      "id": "chemica:ash"
+    }
+  ],
+  "processing_time": 400,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chemica:glass_vial",
+    "chemica:graduated_cylinder",
+    "chemica:petri_dish",
+    "chemica:platinum_electrode"
+  ]
+}

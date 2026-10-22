@@ -1,0 +1,317 @@
+{
+  "ages": [
+    {
+      "age": 0,
+      "purpose": "Build a settlement that can survive while the first metal is being made.",
+      "connections": "Keep food, clean drinking water, firewood and charcoal close to the pottery and casting area. Fired molds and vessels are the workshop's first reusable infrastructure.",
+      "reliefAndRecovery": "The payoff is dependable copper tools and storage. Keep a firestarter, spare molds and fuel aside so an empty stockpile does not strand the next workshop.",
+      "instructions": [
+        "Dig a one-block hole and Place up to four unfired items inside. Add eight straw or two thatch blocks, then eight logs.",
+        "Light the top with a Firestarter or tossed torch. The stack burns for about six in-game hours and reaches roughly 1400 °C."
+      ]
+    },
+    {
+      "age": 1,
+      "purpose": "Turn scattered surface finds into a mapped mining camp and a repeatable copper workshop.",
+      "connections": "Use prospecting and the first copper tools to supply tin, zinc and copper. Bring fired vessels, charcoal and ore back to one workshop; establish the Research Laboratory alongside it.",
+      "reliefAndRecovery": "Research records what the workshop has learned. The next foundry consumes real metal output, so keep mining, casting and paper production working instead of spending the entire reserve on tools.",
+      "instructions": [
+        "Use the earlier stone hammer to prepare flux and weld seven copper double ingots on a stone anvil. Heat the pairs in a charcoal forge until they can weld; a campfire is insufficient. Craft and place the copper anvil before making the fitted copper hammer.",
+        "On the copper anvil, use the stone hammer to forge one copper ingot into two rods. Work one rod into two copper stamens, then one stamen into five rivets, keeping each workpiece hot enough for the native forging steps. This leaves one rod and one stamen for later tools.",
+        "Fire the hammer-head mold, cast 100 mB copper into it and let the head cool. Have a copper rivet and glue ready for the installed metal-tool recipe; a stick is valid for its medium handle and for the stock head-and-stick recipe. The tool overlay uses one rivet, leaving four from the batch. Complete the copper hammer before proving the mining camp."
+      ]
+    },
+    {
+      "age": 2,
+      "purpose": "Build the powered forming floor that the next several ages will continue to use.",
+      "connections": "Feed copper, tin and zinc from the mining camp into the alloy works. Install a dependable drive, Andesite Alloy Press and material handling; use the same floor for plates, precision parts and the bronze machine bridge.",
+      "reliefAndRecovery": "The payoff is repeatable shaping instead of repeated hand work. Keep the original casting tools and a small stock of shafts and alloy for repairs; rail preparation can grow beside the foundry.",
+      "instructions": [
+        "Craft one four-unit batch of andesite alloy.",
+        "The live alloy recipe uses TFC-compatible andesite with copper, tin, and zinc, so both mineral surveys and real metal production must be working first."
+      ]
+    },
+    {
+      "age": 3,
+      "purpose": "Make steam a working machine hall, supplied by the kinetic foundry.",
+      "connections": "Bring certified bronze and brass, formed plates, water and fuel to the hall. Route ore preparation and pumping through the steam machines while the foundry continues making mechanical stock.",
+      "reliefAndRecovery": "Scale the proven ore line with the Large Steam Macerator when demand warrants it. Keep water, fuel and a starter stock isolated from export so the hall can restart after a supply interruption.",
+      "instructions": [
+        "Build the bronze machine casing from MI bronze plates around a foundry-brass casing.",
+        "This pack uses Create/CBC-certified bronze and brass here; primitive TFC alloys do not satisfy the machine bridge.",
+        "MEC-03 lets the tier-0 Greate saw machine one heavy Railcraft invar gear into two MI industrial gears. Use those smaller gears for the heatproof casings needed by the first electric blast furnace."
+      ]
+    },
+    {
+      "age": 4,
+      "purpose": "Build a district that supplies industrial fuel and chemistry to every later factory.",
+      "connections": "Connect coke and refractory production to iron processing, then establish petroleum separation, rubber and lubricant storage. Give every process output a destination before increasing throughput.",
+      "reliefAndRecovery": "The first distillation controller still assembles on the existing foundry. Steel machinery must not be required to obtain its own petroleum support. Keep ordinary rubber, coke and lubricant in production after advanced polymers arrive.",
+      "instructions": [
+        "Assemble and place the TFMG coke oven, then observe a sealed coal-carbonization batch.",
+        "Route coke and carbon-dioxide process gas before loading the oven. TFMG does not make creosote in Createch 2.",
+        "Use a TFC workbench in the mechanical crafter recipe, alongside one brass casing and one electron tube. Each craft yields one crafter; prepare enough for the pattern you intend to assemble.",
+        "For the first crushing-wheel pattern, arrange nine mechanical crafters in a 3 by 3 grid. Point each row toward the right column and that column toward the bottom-right output. A dedicated small water wheel supplies 8 SU at 8 RPM: use five small-to-large cog reductions to reach 0.25 RPM, where nine crafters consume 4.5 SU within the andesite limit. Keep other loads outside this drive.",
+        "Place the crushing-wheel pair one block apart with parallel axes and opposite inward rotation. Give each wheel its own 8 RPM small-water-wheel drive: each wheel consumes 4 SU of its source’s 8 SU. Feed and collect through chutes. The first quartz route uses the andesite millstone instead: drive its bottom shaft at 8 RPM through an andesite gearbox from another small wheel, leaving 4 SU of capacity. Feed raw quartzite from above and collect the result with an empty hand.",
+        "Survey native quartzite, clear the six adjacent spaces and let TFC drop the isolated raw block automatically; ordinary direct mining produces loose rock. Mill raw quartzite for quartz at a 5% chance per 50-tick run, allowing repeated zero-result runs. Quartz from the crushing recipe is an optional secondary output reserved for stainless-steel-tier or higher wheels.",
+        "Use the native TFMG silicon furnace after establishing the mined-coal coking line. Build three complete 3 by 3 layers: twelve fireproof-brick corner supports, twelve fireproof-brick wall blocks including the floor center, one outward-facing bottom-side output and one hatch above the top center. Leave the two upper center cells clear. This quartz recipe needs coke dust fuel and no hot-air tuyere. Recover three quartz through the earlier quartzite milling route, process them into 120 mB liquid silicon, and pipe 90 mB to the casting basin for one ingot; retain the remaining 30 mB."
+      ]
+    },
+    {
+      "age": 5,
+      "purpose": "Use industrial steel to turn local machinery and bulk hauling into reliable services.",
+      "connections": "Upgrade the forming line to a Steel Greate Press. It finishes steel mechanisms, steam locomotives and the supported engine assemblies; the same press later finishes the first rocket. It needs precision mechanisms to build, so commission it before its steel-mechanism output.",
+      "reliefAndRecovery": "Connect fuel, loading, unloading and cargo buffers into a serviced freight route. As demand grows, use the existing steel- and precision-mechanism assembler batches; retain the first assembly line for repairs and restart stock.",
+      "instructions": [
+        "Cast sixteen TFMG steel ingots through the live industrial-blasting route.",
+        "Feed crushed raw iron or iron dust with TFMG coal coke, collect molten steel separately from slag and furnace gas, then cast 144 mB per ingot."
+      ]
+    },
+    {
+      "age": 6,
+      "purpose": "Give the factory a protected electrical service, then attach useful loads.",
+      "connections": "Keep the refinery supplying insulation and lubricant and the foundry supplying conductors and motor parts. Meter the EE supply, protect its conductors, and place the converter at the boundary to FE machinery.",
+      "reliefAndRecovery": "Electric circuit and motor batches relieve repeated component crafting. Commission one load at a time and reserve a way to restart generation; owning a converter does not make a safe or functioning grid.",
+      "instructions": [
+        "Produce four MI analog circuits through COM-01 using TFMG transistors and copper spools, tin and industrial rubber.",
+        "Keep transistor and conductor inputs buffered for motors, machine hulls and launch support. Electronic boards require returned aluminum and follow the first expedition."
+      ],
+      "title": "Analog Control Line"
+    },
+    {
+      "age": 7,
+      "purpose": "Turn the steel, petroleum and electrical districts into an expedition that brings useful cargo home.",
+      "connections": "Finish the rocket on the Steel Greate Press, supply fuel, oxygen, power and cargo handling, and keep a return reserve on both ends of the route.",
+      "reliefAndRecovery": "First access becomes valuable when it supplies later industry: desh and subsequent planetary tharsite feed aluminum reduction. Retain the terrestrial steel line and conventional return craft while remote supply is still fragile.",
+      "instructions": [
+        "Place and inspect the Stellaris rocket launch pad at the chosen launch site.",
+        "Keep its approach clear, separate ignition from fuel storage, and leave room for the station, cable, cargo, and an emergency exit.",
+        "Process returned raw desh and tharsite in the 32 EU/t cupronickel-coil blast furnace: each retained coke-assisted ingot batch takes 1,000 ticks. Build its full heatproof-casing body, two coil rings, item input/output hatches and LV energy input."
+      ]
+    },
+    {
+      "age": 8,
+      "purpose": "Spend returned space resources on a more capable factory floor.",
+      "connections": "Aluminum, advanced hulls, motors and pumps build the Aluminum Greate Press and commission the Oritech machine cell. The same press later finishes the pressure-reaction chamber for the chemical works.",
+      "reliefAndRecovery": "Move repeated motor and pump demand to the existing lubricated batches and scale ore preparation with the Large Electric Macerator. Keep the earlier hull and motor lines supplying these upgrades; reserve enough returned feedstock to repair the expedition and the new floor.",
+      "instructions": [
+        "Reduce bauxite through the live MI blast-furnace recipe to obtain aluminum.",
+        "The pack recipe consumes bauxite dust, TFMG coke, and returned desh and tharsite; direct aluminum smelting is not the intended route.",
+        "The first bauxite reduction runs at 32 EU/t for 4,800 ticks. Its eight bauxite dust, one desh ingot, one tharsite ingot and two coke still yield two aluminum ingots and four bauxite tiny dust. Keep three steel boilers above 1,300 C, supplied with water and charcoal, and feeding the LV turbine for this long batch.",
+        "Establish Beneath’s native Nether route for magnetic-alloy production. Cast and assemble a bronze scythe with its required handle, rivet and glue. At a prepared site away from the settlement, place eight copper anvils within five blocks horizontally and two below to three above a native TFC sheep, then deliver the final blow with the scythe in your main hand. The native event creates a portal with a strength-10 explosion, eight zoglins and damaging lightning; prepare protection and a clear approach before triggering it.",
+        "Mark the portal and return route. Isolate Nether netherrack on all sides and let TFC drop the whole block automatically; direct mining gives pebbles. Return with that block to craft an empty blaze burner with four iron plates. On a later expedition, use it on a living vanilla blaze in a Nether Fortress, then bring the captured burner home alive. Ember Skeletons and Soul Blaze variants are not the required capture.",
+        "Place the captured burner directly below a basin, with an andesite mixer two blocks above the basin. Feed the burner fresh charcoal. A dedicated small water wheel drives the mixer at 8 RPM through an andesite gearbox and adjacent vertical cog: the mixer consumes 4 SU of the source’s 8 SU. Greate accepts this slow drive. Mix two nickel ingots, two steel ingots and one TFMG silicon ingot for two magnetic-alloy ingots, then press the sheets for advanced motors. Keep the burner fueled and the output space clear.",
+        "Run four basic-upgrade batches in the MI assembler before installing upgrades. Each batch consumes two conveyors, four ordinary motors, two robot arms and one analog circuit board, producing four basic upgrades at 8 EU/t for 200 ticks. Use the completed stack of sixteen on the assembler to raise its recipe limit from 32 to 64 EU/t. Connect the assembler to the LV steam turbine with MI tin cable, using a dedicated circuit with no other consumers.",
+        "Mix one redstone with 500 mB creosote in an MI mixer to make 500 mB lubricant. The first bronze cutting machine needs one diamond. The existing compression route uses sixteen coal blocks: macerate 144 geological coal into coal dust, compress the dust to coal, and pack nine coal into each block with the reusable block template. Run the 4 EU/t, 6,000-tick diamond batch in the electric compressor on the dedicated LV circuit; its 24,000 EU budget needs steam refilling. Craft the bronze cutter with the diamond, copper gears, bronze casing, glass and fluid pipes. Cut seven aluminum rods with 7 mB lubricant to make fourteen bolts: eight for the two rotors, four for their pair of rings and two for the pump.",
+        "To retain an advanced motor as well as a pump, make two advanced motors, then spend one in the pump: the three batches use 450 mB lubricant. Reserve another 7 mB for the fourteen bolts, leaving 43 mB. Each motor needs 25,600 EU; the pump needs 32,000 EU. Fully charge the turbine with 16,000 mB steam, run one batch at a time, then refill its steam tank while the assembler pauses. Two full steam charges cover each batch; the LV supply advances these 64 EU/t recipes more slowly. Keep the upgrades installed, the machine intact and output space clear while refilling. The boiler needs fuel, water and time to rebuild the steam reserve."
+      ]
+    },
+    {
+      "age": 9,
+      "purpose": "Make the refinery the chemical supplier for materials, electronics and advanced mechanics.",
+      "connections": "Commission the pressure-reaction chamber on the Aluminum Greate Press. Separate reagent supply from product storage, and connect polymers, acids, seals and electronic substrates to their consumers. Chlorine, recovered methane and fluorite-derived acid also feed the later PTFE belt line, so keep the chemical district connected to the Quantum forming floor.",
+      "reliefAndRecovery": "Automate recurring reagent demand and supervise the plant with instruments. Keep ordinary rubber and the older petroleum cuts available: higher polymers add capability without replacing every earlier consumer.",
+      "instructions": [
+        "The refinery now branches into a chemical works. Build a steel chemical vat so petroleum feedstocks become measured reagents for electrical reactors and larger Greate lines. CHE-01 unlocks the native two-vat batch: six TFMG heavy plates, two nickel plates and one steel fluid tank. Cast-iron vats start lower-temperature work; use the steel or fireproof vessel required by each polymer recipe. Survey chalk-hosted saltpeter and deep granite-hosted sulfur, then use a quern and handstone to grind their ores. In a steel or fireproof vat with an installed mixer blade, CHE-01 combines three sulfur powders, one saltpeter powder and 1,000 mB water into the native 500 mB sulfuric-acid batch. Supply the mixer from thirteen coupled small water wheels at 8 RPM, using aluminum transmission and two large-to-small gear stages to reach 32 RPM. This dedicated drive supplies 104 SU for the 96 SU mixer with 8 SU reserved; the aluminum network limit is 128 SU. Keep other factory loads outside it, establish flow at every wheel, and keep fluid inputs and outputs separate. THM-02 divides one ordinary steel ingot into nine canonical TFMG steel nuggets; the native cable connector consumes three of these fractions, a fired ceramic insulator and a copper ingot.",
+        "Supply the MI silicone precursor reaction with silicon dust, chlorine, water, and methane recovered from cracked naphtha. Store both acid outputs separately. Cure nine precursor dust with sulfur to make 1,296 mB silicone rubber; heated Greate aluminum-or-higher compacting uses 864 mB for one belt connector. Keep the earlier rubber works supplying lower-tier lines and seals.",
+        "After Wet Chemistry (CHE-02), mine native underground halite for salt powder. The MI electrolyzer accepts two units of the established chemistry salt at 8 EU/t for 400 ticks, producing 125 mB chlorine and one sodium dust. Supply the LV steam turbine from a boiler, water and charcoal; retain output space for both products.",
+        "At Polymer Materials (CHE-03), use the MI chemical reactor to steam-crack naphtha, then distill it for acetylene. Hydrogen and chlorine supply hydrochloric acid for the vinyl-chloride step; lead tiny dust assists PVC polymerization. Cast 144 mB PVC per sheet in the TFMG basin. Three sheets and light-gray dye make a blank board; deploy a silver plate onto it, then etch it with 250 mB sulfuric acid in a compatible vat. Heat the boiler and precharge the LV turbine steam tank between batches; run one consumer at a time."
+      ]
+    },
+    {
+      "age": 10,
+      "purpose": "Turn stored parts into requested production while keeping geographical freight in service.",
+      "connections": "Use the existing digital-circuit line to build a Stainless Steel Greate Press before finishing the AE2 controller. Connect processor production, item and fluid buffers, and the machines that fulfil requests.",
+      "reliefAndRecovery": "Use the existing processor batches and Processing Array where they fit. AE2 coordinates local production; trains and expeditions still deliver bulk feedstock. Reserve essential circuit and motor stock outside a request chain that could consume its own restart parts.",
+      "instructions": [
+        "Produce sixteen MI stainless-steel ingots through the installed alloy and blast-furnace chain.",
+        "Survey claystone pyrolusite for manganese and retain the native electronic-control catalyst during ore preparation. The stainless dust batch uses six iron, one chromium, one nickel and one manganese dust for nine dust. Use the cupronickel blast furnace and then vacuum-freeze the hot ingots before forming plates.",
+        "Obtain antimony from the existing Venus stibnite deposits. The basic full 3,000 mB tank admits the native trip; carry two additional 1,000 mB fuel buckets and return-launch equipment. Wear the complete oxygen-filled pressure suit, carry reserve oxygen and provisions, and monitor exposure. Process normal stibnite with the retained electronic control, then make lead-antimony battery alloy and the native silicon battery.",
+        "Assemble the first vacuum freezer from three electronic circuits, an advanced hull, three large pumps and two large aluminum plates. Follow its native 3 by 3 by 4 plan: thirty frostproof casings, the controller, steel item input/output hatches and one LV energy hatch. Use stainless plates, the silicon battery, the earlier circuit board, aluminum cables and polyethylene for the first digital circuit board.",
+        "Macerate mined bituminous coal under CHE-01: one coal gives one coal dust. The native resistor batch combines one dust, two paper and two fine copper wires for three resistors; charcoal is not this feedstock.",
+        "Use silicon plates, steel plates, glass and fine electrum wire for native transistors and diodes. Combine four resistors, four transistors and one diode per op-amp. Finish one digital circuit from one OR gate, two NOT gates, one AND gate, four electronic circuits and the digital circuit board. Keep the circuit line supplied before committing parts to AE2.",
+        "Prepare Eyes of Ender through the existing dry-region Skeleton Dungeons: retained spawners can produce Ember Skeletons for blaze powder and Ender Skeletons for pearls. Search dune, mesa or badlands terrain with mining and combat equipment, light and provisions. Each native drop can be zero; keep useful spawners intact. Reserve at least twelve eyes for portal frames plus extras for locating the stronghold.",
+        "Check your Overworld respawn before entering the completed stronghold portal. Bring the native flint bow, ordinary arrows from the same skeleton hunts, spare pearls for gateways, bronze mining tools, light, building stock and provisions. Defeat the dragon to activate the exit fountain and create a gateway to the outer islands.",
+        "Certus is in the outer End biomes, not the main island. Use the gateway to reach them and its linked gateway to return to the central island before leaving through the fountain. Mine ordinary TFC Metallurgy certus ore, then run one ore with a reusable MI digital circuit at 32 EU/t for 300 ticks: two AE2 crystals and a 25% chance of one dust. Precharge the LV turbine for the 9,600 EU batch.",
+        "Make the silicon press from seven stainless plates, one silicon plate and one digital circuit. Use the MI electric packer for printed silicon from silicon ingots, and the other three stencils with gold, certus or diamond for their printed processors. The stencils are retained. Assemble each printed processor with printed silicon and 90 mB molten redstone in the MI assembler. Wafers belong to the later monocrystalline line. Macerate a certus crystal for guaranteed dust; the ore separator’s chance dust is a bonus. The native MI electrolyzer charges certus, and its mixer combines charged certus, quartz and redstone with water present to make two fluix crystals.",
+        "COM-04 also provides the physical AE2 inscriber. Build it from four stainless plates, three advanced pumps, one advanced hull and one digital circuit. Use a dedicated LV steam turbine and MI tin cable to power a rear, side, top or bottom face. Leave its speed-card slots empty for commissioning, precharge the turbine with 16,000 mB steam and keep the boiler supplied. Each unupgraded operation needs 2,020 AE, equivalent to 404 EU at the pack settings; the 1,600 AE internal buffer needs replenishing during work. Keep the cable connected, inputs in place and output space clear through power pauses.",
+        "Use processed AE2 silicon for the inscriber line. Macerate three guaranteed certus crystals into three dust, then smelt the dust in the earlier furnace with one fresh charcoal for three silicon. The three 200-tick smelts fit its fuel budget. Print three silicon parts, then one gold, one certus and one diamond processor part with the matching stencils. Printing retains the four stencils. For each finished processor, press its printed part with one printed silicon and one ordinary redstone; finishing consumes those three inputs. These nine printing and finishing operations need 3,636 delivered EU with continuing FE supply. Reserve five certus crystals for this start: one for the calculation stencil, one for its print and three for silicon. Three ordinary ore-separator batches guarantee six crystals, leaving one; chance dust is a bonus.",
+        "Commission the forming line with one small water wheel and five successive small-to-large cog reductions, using andesite shafts and cogs throughout the reducer. The 8 RPM source becomes 0.25 RPM in magnitude. An upward-facing steel saw on this drive cuts one aluminum plate into six shafts; five shafts, five steel cogs and five more aluminum plates make five aluminum cogs. Collect the output and use the empty steel saw in the aluminum-saw upgrade. Cut one stainless plate into six stainless shafts, then use two shafts for the two stainless cogs needed by the stainless press. Retain the other four. The aluminum saw, stainless press and ordinary deployer can share this reduced drive: their combined load is 2.75 SU within its 8 SU limit. Keep the shafts aligned, give the wheel continuous flow and keep other factory loads outside the line.",
+        "Reserve three logic processors, one calculation processor and one engineering processor. Printing five silicon parts, three logic parts, one calculation part and one engineering part, then finishing them, takes fifteen inscriber operations and 6,060 delivered EU. Spend two logic processors in the formation-core and annihilation-core crafts; each craft makes two cores, leaving one spare of each after the controller assembly. Prepare the controller workpiece in the MI assembler from an advanced hull, four stainless large plates, three fluix crystals and 144 mB soldering alloy. Make its control chip through the existing 72 mB soldering batch. Five native soldering-dust blast-furnace batches yield 450 mB: allocate three batches to the assembler jobs and two to the spout, leaving 54 mB in the assembler and 36 mB in the spout after use.",
+        "Place separate depots two blocks below the deployer, spout and stainless press. Point the deployer down in USE mode and connect its shaft to the reduced drive. Keep one controller workpiece and feed exactly one component at each deployment, in this order: logic processor, calculation processor, engineering processor, formation core, annihilation core, digital circuit, energy acceptor, control chip, fluix glass cable and EE converter. Transfer that same marked workpiece to the supplied spout for 144 mB soldering alloy, then to the tier-3 stainless press for the controller. Configure an MI fluid-pipe connection from prepared soldering stock into the spout and wait until its tank has enough fluid. Preserve the workpiece progress while moving between stations; keep its output space clear.",
+        "Make the Synaxis circuit diagram from the existing circuit, paper and blue dye after its research unlock. Native TFC graphite supplies the dye: prospect the metamorphic rock districts, mine graphite ore with a bronze pick or better, then grind one ore in a quern with a usable handstone for four graphite powder. Craft each powder into one blue dye with the native TFC recipe. One four-dye batch supplies one diagram and leaves three dye for later work. This route keeps regional mining and the early quern useful beside the digital factory."
+      ]
+    },
+    {
+      "age": 11,
+      "purpose": "Use high-pressure chemistry and vacuum processing to relieve large material and extraction workloads.",
+      "connections": "Finish the first titanium lifecycle before upgrading to the Titanium Greate Press. That press manufactures the deep-drill installation and later reactor instrumentation; stronger mechanics now serve extraction and containment.",
+      "reliefAndRecovery": "The mature titanium, PGM and aerospace batches reward the established reagent, heat and power supply. Keep the first reactor and vacuum route available, and isolate deep extraction from the power and spare parts needed to recover it.",
+      "instructions": [
+        "Run the original three-feed Chemical Reactor route first. It proves rutile, carbon, sodium, hydrochloric acid, and chlorine before the retained purified-PGM batch charge is trusted.",
+        "The mature chlorination run processes eight raw titanium into ten dust, improving yield and machine utilization without replacing the initial route."
+      ]
+    },
+    {
+      "age": 12,
+      "purpose": "Make remote cargo a scheduled industrial input instead of a sequence of one-off trips.",
+      "connections": "Connect planetary extraction, life support, flight control and return storage to the terrestrial PGM separation works. Establish buffers at both ends before scaling downstream precision production.",
+      "reliefAndRecovery": "Repeat shipments support specialist materials and larger aerospace batches. Keep local isolation, conventional return capacity and a spare cargo reserve; advanced spatial equipment appears later and is not a substitute for establishing these routes.",
+      "instructions": [
+        "Prove the complete mixed-concentrate, purified-solution, electrolysis, mixed-feed, Centrifuge, packing, blast, and forming route.",
+        "The batch line retains purified solution, prepares four of the same mixed-iridium feeds, and recovers extra trace iridium at higher power."
+      ]
+    },
+    {
+      "age": 13,
+      "purpose": "Build a closed fuel-cycle nuclear complex with a controllable path from fuel to useful output.",
+      "connections": "The chemical works prepares fuel; the Titanium Greate Press finishes reactor instrumentation. Connect coolant and heat transfer, turbine output, dosimetry, waste storage and reprocessing before increasing power.",
+      "reliefAndRecovery": "Use the existing fuel, heat-exchanger and turbine batches once the first installation works. Test isolation and restart procedures, keep waste capacity ahead of production, and retain enough independent power to recover pumps and controls.",
+      "instructions": [
+        "Establish the Mekanism reactor shell as the start of the nuclear installation. Mekanism supplies radiation, fuel, waste, reactor control and turbine systems; CROWNS adds Create thermal hardware."
+      ],
+      "title": "Establish the Nuclear Complex"
+    },
+    {
+      "age": 14,
+      "purpose": "Push the established nuclear and chemical industries into neutron production and Starlight materials.",
+      "connections": "Secure the native Starlight expedition and return feedstocks to the existing refinery and precision works. The neutron collector uses the Titanium Greate Press, keeping its mechanical commissioning before Quantum research.",
+      "reliefAndRecovery": "Stage replenishable extreme-material supplies for superconductors and fusion preparation. Preserve the earlier nuclear, chemical and mechanical services; the new frontier consumes them instead of replacing them with a single exotic machine.",
+      "instructions": [
+        "Find an Eternal Starlight Portal Ruins structure and speak with its Gatekeeper. Accept and pass the Gatekeeper’s trial to unlock the native portal.",
+        "Enter through the ruins portal and secure a return route. Seeking Eyes are not portal keys; they are crafted later for structure and boss navigation."
+      ]
+    },
+    {
+      "age": 15,
+      "purpose": "Combine the existing districts into controlled fusion, precision manufacturing and distributed control.",
+      "connections": "The Tungsten-Steel Greate Press finishes the fusion reactor. Supply it from the superconductor, isotope, coolant and quantum-circuit lines, then expand the earned GT precision campus and its research facilities. After controlled fusion, build the RPP forming floor from the PGM refinery, Alchemistry rhodium cell and cleanroom LuV circuit campus. Its press finishes Quantum Links and the first Classic Stargate; the earlier tungsten-steel floor makes its first stock. Return Tollan trinium to the PGM/hot-metal district, upgrade to the Naquadah/ZPM forming floor and use it for the particle accelerator. Reuse lunar monazite and tin in the fusion cell for Darmstadtium, then extend the same crystal-circuit campus into UV mainframes. Its forming floor turns existing Dyson packages into beams and sails; PBI chemistry supplies its belts.",
+      "reliefAndRecovery": "Use the existing quantum-circuit, superconductor and spatial-component batches as sustained demand grows. Keep prototype routes and independent restart power; a larger batch line is useful only when its complete supplier network can sustain it.",
+      "instructions": [
+        "Build the standard Superconductor Dust route first, then form its ingot, wire, cable, and coil lifecycle.",
+        "The metered MI Assembler feed proves Iridium, Platinum, Corronium, Solerium, Lithium, Starcore, Aethersent, Deepsilver, Deuterium, and Tritium."
+      ]
+    },
+    {
+      "age": 16,
+      "purpose": "Complete a civilization that can sustain its final projects and recover from their shutdown.",
+      "connections": "Bring the established singularity, stellar-power, matter-engineering and reality-infrastructure branches together. ESO-04 and FRN-06 are deliberate final convergence; maintain the industries that supply those branches.",
+      "reliefAndRecovery": "Trace each final ingredient to a running production line and keep replacement controllers, transport and restart energy accessible. The ending is a working, recoverable industrial system, with optional military, aviation, apiary and exploration mastery still available.",
+      "instructions": [
+        "Create an Eternal Singularity through Re:Avaritia’s installed singularity recipe type.",
+        "Audit every contributing singularity line before convergence so a missing input is found at its source."
+      ]
+    }
+  ],
+  "productionQuests": [
+    {
+      "id": "7C1CEA2091E54BD7",
+      "instructions": [
+        "Complete a TFMG steel mechanism through the live three-loop Create sequence.",
+        "Each loop uses a steel casing, 250 mB lubricant, nickel plate, lead plate, and pressing on a heavy-plate base."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish this sequence with a Steel Greate Press or higher. Build the press with the existing precision-mechanism line first; its construction does not consume the steel mechanism it will produce. Use the existing assembler batch when recurring demand grows."
+    },
+    {
+      "id": "2F33DA300848472E",
+      "instructions": [
+        "Roll the coke-brick, steel-plate, rail, and minecart underframe in Railcraft before moving it to the Create line.",
+        "Install firebox, boiler, drive, running gear, water tank and pump, control circuit, cab controls, steam pipe, and closure plate on the thirteen-operation Create line; then charge the workpiece with lubricant.",
+        "Bring four TFC steel ingots from the pig-iron and decarburization workshop for this freight milestone, alongside the rolling machine and finished locomotive. Keep ore preparation, coke and the steel district supplying the freight line."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish the locomotive on a Steel Greate Press or higher, supplied by the steel and lubricant district. Commission the loader, unloader and fuel service as part of the freight route."
+    },
+    {
+      "id": "5E3F772C7739928D",
+      "instructions": [
+        "Build a Stellaris rocket through the current pack recipe.",
+        "Do not load it until launch fuel, oxygen, destination supplies, and a return reserve are separate and accounted for."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: the final rocket press operation requires Steel Greate or higher. The terrestrial foundry can finish the first rocket before any returned-space aluminum machinery exists."
+    },
+    {
+      "id": "74FA21F67BB06A5D",
+      "instructions": [
+        "Build frame, core, acceptor, extender, addon, assembler, and the controlled Oritech processing-unit recipe."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish Machine Core 1 on an Aluminum Greate Press or higher. The returned-space aluminum line supplies its hull and drive; keep that same floor available for expansion cores and repair stock."
+    },
+    {
+      "id": "02FA22723578F334",
+      "instructions": [
+        "Inspect the chemical washer, pressurized reaction chamber, and electrolytic separator in their operating lines.",
+        "Label every gas and fluid route and ensure one blocked output cannot silently stop fuel or coolant preparation."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish the pressure-reaction chamber on an Aluminum Greate Press or higher. This is a production duty for the Advanced Electric floor you have already established."
+    },
+    {
+      "id": "0EB6B5C1CAC5426E",
+      "instructions": [
+        "Preassemble the stainless network chassis in the MI Assembler with an advanced hull, fluix crystals, and soldering alloy.",
+        "Install all three processors, formation and annihilation cores, network power, control chip, digital supervision, Fluix cabling, and the protected grid interface on the twelve-operation Create line before powering the native Controller."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: build the Stainless Steel Greate Press from the existing digital-circuit line, then use it to finish the AE2 controller. No AE2 controller is required to construct that press. Higher presses also work."
+    },
+    {
+      "id": "13AD566A7B53B4A9",
+      "instructions": [
+        "Build the permanent drill through its sixteen-operation quarry, pressure, drive, sensing, control, routing, grid, lubrication, and closure line; consume a processed sample for a cartridge, run a bounded batch, and recover after power loss."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish the deep drill on a Titanium Greate Press or higher. Feed the installation from the existing high-pressure material, lubricant and control lines; preserve ordinary extraction for recovery."
+    },
+    {
+      "id": "06B2B66E78C40CBC",
+      "instructions": [
+        "Place the Re:Avaritia neutron collector after returning Starlight samples.",
+        "Its live craft requires matrix, plutonium, starcore, fission hardware, and a rocket thruster; protect the output route."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: the neutron collector finishes on a Titanium Greate Press or higher. Keep the mature aerospace forming floor operating; Quantum research and tungsten-steel machinery are not needed for this press step."
+    },
+    {
+      "id": "0A817EE2BA7D85FB",
+      "instructions": [
+        "Integrate the fusion chambers, Quantum hull, Quantum circuit, superconductor cable, and cryofluid in the MI Assembler to create the chamber-bank workpiece.",
+        "Install the second Quantum circuit, plutonium battery, coil bank, chamber, hull, heat exchanger, grid breaker, TFMG generator, cryogenic service, and final containment closure on the Create line before placing the native reactor."
+      ],
+      "mechanicalDuty": "Mechanical commissioning: finish the fusion reactor on a Tungsten-Steel Greate Press or higher. Supply the sequence from the existing quantum-circuit, superconductor, nuclear-alloy and heat-exchanger industries. Keep the previous reactor and power system available for commissioning."
+    },
+    {
+      "id": "0823DFC8C79A1D46",
+      "instructions": [
+        "Contain the singularity with vibrant glass, fluix pearls, and the first Quantum circuit in the MI Assembler.",
+        "Install the second Quantum circuit and Engineering Processor, stabilize the workpiece with UU Matter on the Create line, and test both sides before trusting remote storage."
+      ],
+      "mechanicalDuty": "Finish the Quantum Link sequence on a Rhodium-Plated Palladium Press or higher. Controlled fusion now feeds a sulfur-and-copper rhodium cell; the PGM refinery supplies palladium and platinum. Form the first RPP stock on the tungsten-steel floor, and obtain LuV control computers from the cleanroom circuit campus. Keep those suppliers running for additional links."
+    },
+    {
+      "id": "29A4FE6FE875AE7E",
+      "instructions": [
+        "After Tier 15 opens, assemble and inspect the SGJourney classic Stargate.",
+        "The live pack recipe builds its base, ring, and chevrons from already-mastered late materials; verify dialing and a safe receiving side."
+      ],
+      "mechanicalDuty": "Finish the first Classic Stargate on the Rhodium-Plated Palladium Press. The RPP floor and Quantum Link exist before gate travel. Bring trinium back from Tollan to supply the next Naquadah-alloy machinery tier; do not wait for that tier to build your first gate."
+    },
+    {
+      "id": "6A07A3475120D3A7",
+      "instructions": [
+        "Run the five independent accelerator-component lines for controller, rings, motors, sensors, and collectors; each integrates ZPM precision, Eclipse Alloy, Starlight, nuclear structure, AE2 Quantum, UU Matter, and closure before the authored collision.",
+        "Operate the physical accelerator under CC monitoring and route its specialized energy interface through Electro Energetics."
+      ],
+      "mechanicalDuty": "Finish all five accelerator component sequences on a Naquadah Alloy Press or higher. Tollan trinium, the synthetic Naquadah route and the PGM refinery supply the alloy. Make its first plates and shafts on the RPP floor. The shared GT campus builds ZPM mainframes from LuV computers; established MI-qualified ZPM components continue supplying the machine parts."
+    },
+    {
+      "id": "39E6E46769DBE39D",
+      "instructions": [
+        "Run beam packages through the Create sequenced line to finish two structural beams."
+      ],
+      "mechanicalDuty": "Finish beams on a Darmstadtium Greate Press or higher. Return monazite to the centrifuge for neodymium, fuse it with tin, and make the first Darmstadtium stock on the Naquadah tools. The existing cleanroom and Assembly Line supply UV crystal mainframes. Keep titanium, iridium, superconductors and the earlier electronics line feeding the beam packages."
+    },
+    {
+      "id": "55AF35DE3CC8C10D",
+      "instructions": [
+        "Run a solar-sail package through the Create sequenced line to tension and finish the sail."
+      ],
+      "mechanicalDuty": "Finish sails on a Darmstadtium Greate Press or higher. Retain the quartz-fiber, iridium, superconductor and Starlight lines that supply the laminate. Install the first press over a depot, then use the chemical plant to supply 864 mB PBI per belt connector. Keep a separate restart-power reserve while scaling the stellar array."
+    }
+  ]
+}

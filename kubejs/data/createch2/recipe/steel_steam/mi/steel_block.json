@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "createch2:industrial_steel"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:steel_block",
+    "count": 1
+  }
+}

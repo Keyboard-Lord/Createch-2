@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/constantan"
+    },
+    {
+      "tag": "c:physical_rings/constantan"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 450,
+  "welding_temperature": 600
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SNS",
+    "NIN",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:fission_reactor_casing",
+    "count": 4
+  }
+}

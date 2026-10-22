@@ -1,0 +1,178 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:unfinished_generator"
+  },
+  "transitional_item": {
+    "id": "tfmg:unfinished_generator"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:quantum_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:plutonium_battery"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:superconductor_coil"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:fusion_chamber"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:quantum_machine_hull"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "modern_industrialization:large_heat_exchanger"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "electroenergetics:sulfur_hexafluoride_breaker"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "item": "tfmg:generator"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "modern_industrialization:cryofluid"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_generator"
+        }
+      ],
+      "results": [
+        {
+          "id": "tfmg:unfinished_generator"
+        }
+      ],
+      "recipe_tier": 5
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:fusion_reactor"
+    }
+  ]
+}

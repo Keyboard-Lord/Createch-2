@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 512,
+  "duration": 2500,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:singularity",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:helium_plasma",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:deuterium",
+      "amount": 1000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:uu_matter",
+      "amount": 250
+    }
+  ]
+}

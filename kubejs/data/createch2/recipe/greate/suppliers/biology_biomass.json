@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:mixer",
+  "eu": 3,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "tag": "minecraft:saplings",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gtceu:biomass",
+      "amount": 100
+    }
+  ]
+}

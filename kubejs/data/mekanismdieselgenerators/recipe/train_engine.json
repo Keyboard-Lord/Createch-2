@@ -1,0 +1,37 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mekanismdieselgenerators:air_intake"
+    },
+    "C": {
+      "item": "mekanismdieselgenerators:cylinder_block"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "S": {
+      "tag": "c:shafts/andesite_alloy"
+    },
+    "P": {
+      "item": "mekanismdieselgenerators:control_panel"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CFC",
+    "PS "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:train_engine"
+  }
+}

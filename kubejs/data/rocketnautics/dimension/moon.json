@@ -1,0 +1,216 @@
+{
+  "type": "rocketnautics:moon",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:moon_redstone_caves",
+          "parameters": {
+            "continentalness": [
+              -0.05,
+              2
+            ],
+            "depth": [
+              -2,
+              0
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": [
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_ancient_delta",
+          "parameters": {
+            "continentalness": [
+              -2,
+              -0.05
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": [
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_prismachasm",
+          "parameters": {
+            "continentalness": [
+              0.01,
+              2
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0.01,
+            "temperature": 0,
+            "weirdness": [
+              -2,
+              -1
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_prismachasm",
+          "parameters": {
+            "continentalness": [
+              -2,
+              -0.05
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0.01,
+            "temperature": 0,
+            "weirdness": [
+              -2,
+              -1
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_redstone_caves",
+          "parameters": {
+            "continentalness": [
+              0.01,
+              2
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_redstone_caves",
+          "parameters": {
+            "continentalness": [
+              -2,
+              -0.05
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_redstone_caves",
+          "parameters": {
+            "continentalness": [
+              -0.05,
+              2
+            ],
+            "depth": [
+              0,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": [
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "createch2:moon_ancient_delta",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "weirdness": -0.9,
+            "depth": 0.85,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:moon_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:moon_redstone_caves",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": -0.4,
+            "weirdness": 0.2,
+            "depth": 1,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "settings": "rocketnautics:moon"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tantalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:tantalum_dust"
+    }
+  ],
+  "processing_time": 100
+}

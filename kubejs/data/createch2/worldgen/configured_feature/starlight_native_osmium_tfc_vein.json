@@ -1,0 +1,44 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 90,
+    "min_y": -56,
+    "max_y": 16,
+    "size": 22,
+    "density": 0.32,
+    "blocks": [
+      {
+        "replace": [
+          "eternal_starlight:grimstone",
+          "eternal_starlight:voidstone"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/poor_native_osmium/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_osmium/basalt"
+          },
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/rich_native_osmium/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 16,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 46,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_osmium"
+        }
+      ]
+    },
+    "random_name": "createch2_starlight_native_osmium_tfc_vein"
+  }
+}

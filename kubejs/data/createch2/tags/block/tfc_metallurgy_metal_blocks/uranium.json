@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/uranium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/uranium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/uranium",
+      "required": false
+    }
+  ]
+}

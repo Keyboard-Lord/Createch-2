@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 80,
+    "min_y": 0,
+    "max_y": 32,
+    "size": 24,
+    "density": 0.55,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mars_stone"
+        ],
+        "with": [
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/poor_cobaltite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_cobaltite/basalt"
+          },
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/rich_cobaltite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_cobaltite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_mars_cobaltite_tfc_vein"
+  }
+}

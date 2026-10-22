@@ -1,0 +1,193 @@
+{
+  "globalSpawnWeightMultiplier": 0.8,
+  "dungeonReplacementChance": 0.25,
+  "dungeonThemedReplacementChance": 0.45,
+  "mineshaftReplacementChance": 0.3,
+  "fortressSpawnerReplacementChance": 0.6,
+  "mobs": {
+    "sprinter_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.1
+    },
+    "armored_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.0
+    },
+    "venomous_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.85
+    },
+    "plague_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.6
+    },
+    "builder_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.85
+    },
+    "frozen_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.75
+    },
+    "infernal_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.7
+    },
+    "wither_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.42
+    },
+    "ender_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.15
+    },
+    "blossom_zombie": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.7
+    },
+    "spitting_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "web_spinner_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "ice_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.72
+    },
+    "magma_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.75
+    },
+    "jumping_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "wither_spider": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.42
+    },
+    "multishot_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.0
+    },
+    "sniper_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.72
+    },
+    "poison_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.82
+    },
+    "ember_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.88
+    },
+    "ender_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.1
+    },
+    "blossom_skeleton": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.7
+    },
+    "lightning_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.42
+    },
+    "burrowing_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.55
+    },
+    "toxic_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.58
+    },
+    "frost_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.55
+    },
+    "magma_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.65
+    },
+    "wither_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.3
+    },
+    "ender_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.62
+    },
+    "sculk_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.36
+    },
+    "blossom_creeper": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.45
+    },
+    "assassin_enderman": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.95
+    },
+    "enraged_enderman": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.78
+    },
+    "blossom_enderman": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.5
+    },
+    "blast_blaze": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.0
+    },
+    "storm_blaze": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "wither_blaze": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.72
+    },
+    "soul_blaze": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "brand_blaze": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.0
+    },
+    "great_mother_ghast": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.55
+    },
+    "delta_ghast": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "wither_ghast": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.66
+    },
+    "rageling": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.05
+    },
+    "skitterling": {
+      "enabled": true,
+      "spawnWeightMultiplier": 1.05
+    },
+    "obsidling": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.9
+    },
+    "blightling": {
+      "enabled": true,
+      "spawnWeightMultiplier": 0.78
+    }
+  }
+}

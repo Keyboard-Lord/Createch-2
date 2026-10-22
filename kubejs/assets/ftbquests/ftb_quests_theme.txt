@@ -1,0 +1,1164 @@
+[*]
+# Calm industrial UI: no full-screen background override, no custom line texture, no custom quest silhouettes.
+text_color: #FFF8FAFB
+hover_text_color: #FFFFFFFF
+disabled_text_color: #FFF8FAFB
+widget_border: #FF65727C
+widget_background: #D9181E24
+button: color:#D9222930; border=#FF4C5861; border_round_edges=true
+disabled_button: color:#B5191E23; border=#FF3D464D; border_round_edges=true
+hover_button: color:#EC29323A; border=#FF71818B; border_round_edges=true
+panel: color:#E7192027; border=#FF46515A; border_round_edges=true
+context_menu: color:#F5161C22; border=#FF59656E; border_round_edges=true
+scroll_bar_background: color:#FF171D22
+scroll_bar: color:#FF66737C
+container_slot: color:#D91B2228; border=#FF4A555E; border_round_edges=true
+text_box: color:#ED171D22; border=#FF4E5962; border_round_edges=true
+quest_view_background: color:#ED171E24; border=#FF515C65; border_round_edges=true
+quest_view_border: #FF71808A
+quest_view_title: #FFF7F9FA
+tasks_text_color: #FFE5E9EC
+rewards_text_color: #FFF2D99D
+quest_completed_color: #FFA9D7B8
+quest_started_color: #FFAFC9D5
+quest_not_started_color: #FFD5DDE2
+quest_locked_color: #FFBBC6CD
+dependency_line_completed_color: #FF85C99D
+dependency_line_uncompleted_color: #FFF0B86F
+dependency_line_unavailable_color: #FF77838C
+dependency_line_requires_color: #FFF3D083
+dependency_line_required_for_color: #FF91CFE3
+dependency_line_selected_speed: 2.0
+dependency_line_unselected_speed: 0.0
+dependency_line_thickness: 0.08
+quest_spacing: 1.0
+selected_chapter_highlight_1: #887FA4B6
+selected_chapter_highlight_2: #44586D79
+
+[#ui_first_shift_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_first_shift_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_first_shift_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_first_shift_main]
+quest_not_started_color: #FFFFD25F
+quest_started_color: #FFFFDD85
+quest_view_border: #FFFFD25F
+quest_view_title: #FFFFE39B
+
+[#ui_first_shift_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_first_shift_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_first_shift_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_first_shift_required]
+quest_not_started_color: #FFFFD25F
+quest_started_color: #FFFFDD85
+quest_view_border: #FFFFD25F
+quest_view_title: #FFFFE39B
+
+[#ui_stone_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_stone_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_stone_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_stone_main]
+quest_not_started_color: #FFD8C6AD
+quest_started_color: #FFE1D4C1
+quest_view_border: #FFD8C6AD
+quest_view_title: #FFE6DCCC
+
+[#ui_stone_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_stone_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_stone_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_stone_required]
+quest_not_started_color: #FFD8C6AD
+quest_started_color: #FFE1D4C1
+quest_view_border: #FFD8C6AD
+quest_view_title: #FFE6DCCC
+
+[#ui_copper_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_copper_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_copper_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_copper_main]
+quest_not_started_color: #FFF09B70
+quest_started_color: #FFF4B392
+quest_view_border: #FFF09B70
+quest_view_title: #FFF6C1A6
+
+[#ui_copper_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_copper_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_copper_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_copper_required]
+quest_not_started_color: #FFF09B70
+quest_started_color: #FFF4B392
+quest_view_border: #FFF09B70
+quest_view_title: #FFF6C1A6
+
+[#ui_alloy_foundry_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_alloy_foundry_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_alloy_foundry_main]
+quest_not_started_color: #FFF1BC69
+quest_started_color: #FFF4CC8D
+quest_view_border: #FFF1BC69
+quest_view_title: #FFF6D5A2
+
+[#ui_alloy_foundry_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_alloy_foundry_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_alloy_foundry_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_alloy_foundry_required]
+quest_not_started_color: #FFF1BC69
+quest_started_color: #FFF4CC8D
+quest_view_border: #FFF1BC69
+quest_view_title: #FFF6D5A2
+
+[#ui_bronze_steam_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_bronze_steam_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_bronze_steam_main]
+quest_not_started_color: #FFEFA26F
+quest_started_color: #FFF3B892
+quest_view_border: #FFEFA26F
+quest_view_title: #FFF5C5A6
+
+[#ui_bronze_steam_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_bronze_steam_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_bronze_steam_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_bronze_steam_required]
+quest_not_started_color: #FFEFA26F
+quest_started_color: #FFF3B892
+quest_view_border: #FFEFA26F
+quest_view_title: #FFF5C5A6
+
+[#ui_heavy_industry_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_heavy_industry_main]
+quest_not_started_color: #FFD2D9DF
+quest_started_color: #FFDDE2E7
+quest_view_border: #FFD2D9DF
+quest_view_title: #FFE3E7EB
+
+[#ui_heavy_industry_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_heavy_industry_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_heavy_industry_required]
+quest_not_started_color: #FFD2D9DF
+quest_started_color: #FFDDE2E7
+quest_view_border: #FFD2D9DF
+quest_view_title: #FFE3E7EB
+
+[#ui_steel_steam_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_steel_steam_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_steel_steam_main]
+quest_not_started_color: #FFE2E7EA
+quest_started_color: #FFE9EDEF
+quest_view_border: #FFE2E7EA
+quest_view_title: #FFEDF0F2
+
+[#ui_steel_steam_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_steel_steam_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_steel_steam_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_steel_steam_required]
+quest_not_started_color: #FFE2E7EA
+quest_started_color: #FFE9EDEF
+quest_view_border: #FFE2E7EA
+quest_view_title: #FFEDF0F2
+
+[#ui_low_voltage_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_low_voltage_main]
+quest_not_started_color: #FFFFBC5D
+quest_started_color: #FFFFCC84
+quest_view_border: #FFFFBC5D
+quest_view_title: #FFFFD59A
+
+[#ui_low_voltage_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_low_voltage_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_low_voltage_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_low_voltage_required]
+quest_not_started_color: #FFFFBC5D
+quest_started_color: #FFFFCC84
+quest_view_border: #FFFFBC5D
+quest_view_title: #FFFFD59A
+
+[#ui_first_space_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_first_space_main]
+quest_not_started_color: #FF7CC4FF
+quest_started_color: #FF9BD2FF
+quest_view_border: #FF7CC4FF
+quest_view_title: #FFADDAFF
+
+[#ui_first_space_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_first_space_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_first_space_required]
+quest_not_started_color: #FF7CC4FF
+quest_started_color: #FF9BD2FF
+quest_view_border: #FF7CC4FF
+quest_view_title: #FFADDAFF
+
+[#ui_advanced_electric_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_advanced_electric_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_advanced_electric_main]
+quest_not_started_color: #FF83D7E8
+quest_started_color: #FFA1E1EE
+quest_view_border: #FF83D7E8
+quest_view_title: #FFB2E6F1
+
+[#ui_advanced_electric_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_advanced_electric_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_advanced_electric_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_advanced_electric_required]
+quest_not_started_color: #FF83D7E8
+quest_started_color: #FFA1E1EE
+quest_view_border: #FF83D7E8
+quest_view_title: #FFB2E6F1
+
+[#ui_chemical_arcane_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_chemical_arcane_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_chemical_arcane_main]
+quest_not_started_color: #FFC49AF4
+quest_started_color: #FFD2B2F7
+quest_view_border: #FFC49AF4
+quest_view_title: #FFDAC0F8
+
+[#ui_chemical_arcane_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_chemical_arcane_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_chemical_arcane_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_chemical_arcane_required]
+quest_not_started_color: #FFC49AF4
+quest_started_color: #FFD2B2F7
+quest_view_border: #FFC49AF4
+quest_view_title: #FFDAC0F8
+
+[#ui_stainless_digital_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_stainless_digital_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_stainless_digital_main]
+quest_not_started_color: #FF79E0DC
+quest_started_color: #FF99E7E4
+quest_view_border: #FF79E0DC
+quest_view_title: #FFABEBE9
+
+[#ui_stainless_digital_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_stainless_digital_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_stainless_digital_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_stainless_digital_required]
+quest_not_started_color: #FF79E0DC
+quest_started_color: #FF99E7E4
+quest_view_border: #FF79E0DC
+quest_view_title: #FFABEBE9
+
+[#ui_high_pressure_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_high_pressure_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_high_pressure_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_high_pressure_main]
+quest_not_started_color: #FF8BB8FF
+quest_started_color: #FFA7C9FF
+quest_view_border: #FF8BB8FF
+quest_view_title: #FFB7D3FF
+
+[#ui_high_pressure_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_high_pressure_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_high_pressure_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_high_pressure_required]
+quest_not_started_color: #FF8BB8FF
+quest_started_color: #FFA7C9FF
+quest_view_border: #FF8BB8FF
+quest_view_title: #FFB7D3FF
+
+[#ui_cosmonautics_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_cosmonautics_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_cosmonautics_main]
+quest_not_started_color: #FFA6A2FF
+quest_started_color: #FFBBB8FF
+quest_view_border: #FFA6A2FF
+quest_view_title: #FFC7C5FF
+
+[#ui_cosmonautics_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_cosmonautics_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_cosmonautics_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_cosmonautics_required]
+quest_not_started_color: #FFA6A2FF
+quest_started_color: #FFBBB8FF
+quest_view_border: #FFA6A2FF
+quest_view_title: #FFC7C5FF
+
+[#ui_nuclear_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_nuclear_main]
+quest_not_started_color: #FFF0E36C
+quest_started_color: #FFF4EA8F
+quest_view_border: #FFF0E36C
+quest_view_title: #FFF6EEA3
+
+[#ui_nuclear_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_nuclear_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_nuclear_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_nuclear_required]
+quest_not_started_color: #FFF0E36C
+quest_started_color: #FFF4EA8F
+quest_view_border: #FFF0E36C
+quest_view_title: #FFF6EEA3
+
+[#ui_extreme_starlight_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_extreme_starlight_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_extreme_starlight_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_extreme_starlight_main]
+quest_not_started_color: #FFF096EF
+quest_started_color: #FFF4AFF3
+quest_view_border: #FFF096EF
+quest_view_title: #FFF6BDF5
+
+[#ui_extreme_starlight_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_extreme_starlight_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_extreme_starlight_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_extreme_starlight_required]
+quest_not_started_color: #FFF096EF
+quest_started_color: #FFF4AFF3
+quest_view_border: #FFF096EF
+quest_view_title: #FFF6BDF5
+
+[#ui_quantum_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_quantum_main]
+quest_not_started_color: #FF85E0FF
+quest_started_color: #FFA2E7FF
+quest_view_border: #FF85E0FF
+quest_view_title: #FFB3EBFF
+
+[#ui_quantum_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_quantum_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_quantum_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_quantum_required]
+quest_not_started_color: #FF85E0FF
+quest_started_color: #FFA2E7FF
+quest_view_border: #FF85E0FF
+quest_view_title: #FFB3EBFF
+
+[#ui_infinity_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_infinity_main]
+quest_not_started_color: #FFD09AFF
+quest_started_color: #FFDBB2FF
+quest_view_border: #FFD09AFF
+quest_view_title: #FFE1C0FF
+
+[#ui_infinity_required]
+quest_not_started_color: #FFD09AFF
+quest_started_color: #FFDBB2FF
+quest_view_border: #FFD09AFF
+quest_view_title: #FFE1C0FF
+
+[#ui_survival_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_survival_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_survival_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_survival_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_survival_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_survival_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_survival_required]
+quest_not_started_color: #FFE5D178
+quest_started_color: #FFEBDC98
+quest_view_border: #FFE5D178
+quest_view_title: #FFEFE2AB
+
+[#ui_logistics_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_logistics_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_logistics_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_logistics_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_logistics_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_logistics_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_electrical_grid_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_electrical_grid_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_electrical_grid_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_electrical_grid_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_electrical_grid_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_electrical_grid_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_electrical_grid_required]
+quest_not_started_color: #FFFFC15B
+quest_started_color: #FFFFD082
+quest_view_border: #FFFFC15B
+quest_view_title: #FFFFD898
+
+[#ui_megastructures_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_megastructures_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_megastructures_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_megastructures_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_megastructures_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_megastructures_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_megastructures_required]
+quest_not_started_color: #FFC7D2DF
+quest_started_color: #FFD4DDE7
+quest_view_border: #FFC7D2DF
+quest_view_title: #FFDCE3EB
+
+[#ui_mass_processing_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_mass_processing_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_mass_processing_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_mass_processing_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_mass_processing_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_mass_processing_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_mass_processing_required]
+quest_not_started_color: #FFA1DFBF
+quest_started_color: #FFB8E7CE
+quest_view_border: #FFA1DFBF
+quest_view_title: #FFC5EBD7
+
+[#ui_oil_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_oil_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_oil_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_oil_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_oil_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_oil_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_oil_required]
+quest_not_started_color: #FFD1A77E
+quest_started_color: #FFDCBC9D
+quest_view_border: #FFD1A77E
+quest_view_title: #FFE2C8AF
+
+[#ui_ae2_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_ae2_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_ae2_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_ae2_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_ae2_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_ae2_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_ae2_required]
+quest_not_started_color: #FF93E6EE
+quest_started_color: #FFADECF2
+quest_view_border: #FF93E6EE
+quest_view_title: #FFBCEFF4
+
+[#ui_space_race_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_space_race_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_space_race_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_space_race_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_space_race_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_space_race_required]
+quest_not_started_color: #FF9AC7FF
+quest_started_color: #FFB2D4FF
+quest_view_border: #FF9AC7FF
+quest_view_title: #FFC0DCFF
+
+[#ui_nuclear_safety_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_nuclear_safety_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_nuclear_safety_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_nuclear_safety_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_nuclear_safety_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_nuclear_safety_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_nuclear_safety_required]
+quest_not_started_color: #FFEAE47D
+quest_started_color: #FFEFEA9C
+quest_view_border: #FFEAE47D
+quest_view_title: #FFF2EEAE
+
+[#ui_arcane_research_capstone]
+quest_not_started_color: #FFFFD76A
+quest_started_color: #FFFFE49A
+quest_view_border: #FFFFD76A
+quest_view_title: #FFFFE9AC
+
+[#ui_arcane_research_efficiency]
+quest_not_started_color: #FF9BD99F
+quest_started_color: #FFC2EDC5
+quest_view_border: #FF9BD99F
+quest_view_title: #FFCDF0CF
+
+[#ui_arcane_research_info]
+quest_not_started_color: #FF9DDDF3
+quest_started_color: #FFC9F0FC
+quest_view_border: #FF9DDDF3
+quest_view_title: #FFD3F3FD
+
+[#ui_arcane_research_optional]
+quest_not_started_color: #FF8EDBD5
+quest_started_color: #FFB9EEE9
+quest_view_border: #FF8EDBD5
+quest_view_title: #FFC6F1ED
+
+[#ui_arcane_research_production]
+quest_not_started_color: #FFF0BD55
+quest_started_color: #FFFFD98B
+quest_view_border: #FFF0BD55
+quest_view_title: #FFFFE0A0
+
+[#ui_arcane_research_recovery]
+quest_not_started_color: #FF91C3FF
+quest_started_color: #FFBDD9FF
+quest_view_border: #FF91C3FF
+quest_view_title: #FFC9E0FF
+
+[#ui_arcane_research_required]
+quest_not_started_color: #FFD497F0
+quest_started_color: #FFDEB0F4
+quest_view_border: #FFD497F0
+quest_view_title: #FFE4BEF6

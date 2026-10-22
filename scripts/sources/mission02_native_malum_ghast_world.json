@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "netherGenerator": {
+    "type": "minecraft:the_nether",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "preset": "minecraft:nether"
+      },
+      "settings": "minecraft:nether"
+    }
+  },
+  "biome": {
+    "id": "minecraft:nether_wastes",
+    "provider": "1.21.1.jar",
+    "data": {
+      "carvers": {
+        "air": "minecraft:nether_cave"
+      },
+      "downfall": 0.0,
+      "effects": {
+        "additions_sound": {
+          "sound": "minecraft:ambient.nether_wastes.additions",
+          "tick_chance": 0.0111
+        },
+        "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+        "fog_color": 3344392,
+        "mood_sound": {
+          "block_search_extent": 8,
+          "offset": 2.0,
+          "sound": "minecraft:ambient.nether_wastes.mood",
+          "tick_delay": 6000
+        },
+        "music": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.nether.nether_wastes"
+        },
+        "sky_color": 7254527,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+      },
+      "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "minecraft:spring_open",
+          "minecraft:patch_fire",
+          "minecraft:patch_soul_fire",
+          "minecraft:glowstone_extra",
+          "minecraft:glowstone",
+          "minecraft:brown_mushroom_nether",
+          "minecraft:red_mushroom_nether",
+          "minecraft:ore_magma",
+          "minecraft:spring_closed",
+          "minecraft:ore_gravel_nether",
+          "minecraft:ore_blackstone",
+          "minecraft:ore_gold_nether",
+          "minecraft:ore_quartz_nether",
+          "minecraft:ore_ancient_debris_large",
+          "minecraft:ore_debris_small"
+        ],
+        [],
+        [
+          "minecraft:spring_lava",
+          "minecraft:brown_mushroom_normal",
+          "minecraft:red_mushroom_normal"
+        ]
+      ],
+      "has_precipitation": false,
+      "spawn_costs": {},
+      "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 60
+          }
+        ],
+        "misc": [],
+        "monster": [
+          {
+            "type": "minecraft:ghast",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 50
+          },
+          {
+            "type": "minecraft:zombified_piglin",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 100
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 2
+          },
+          {
+            "type": "minecraft:enderman",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 1
+          },
+          {
+            "type": "minecraft:piglin",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 15
+          }
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+      },
+      "temperature": 2.0
+    }
+  },
+  "spawn": {
+    "type": "minecraft:ghast",
+    "maxCount": 4,
+    "minCount": 4,
+    "weight": 50
+  },
+  "spiritData": {
+    "id": "malum:ghast",
+    "data": {
+      "registry_name": "minecraft:ghast",
+      "primary_type": "malum:arcane",
+      "spirits": [
+        {
+          "spirit": "malum:arcane",
+          "count": 1
+        },
+        {
+          "spirit": "malum:infernal",
+          "count": 2
+        },
+        {
+          "spirit": "malum:aqueous",
+          "count": 2
+        },
+        {
+          "spirit": "malum:aerial",
+          "count": 1
+        }
+      ]
+    },
+    "provider": "malum-1.21.1-1.8.2.jar"
+  },
+  "spawnClass": {
+    "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+    "class": "net.minecraft.world.entity.monster.Ghast",
+    "sha256": "1ecc691e338aab22d5685f4ca0c72a3b6635e610e5d1862646ab51e1f53cf507"
+  },
+  "presetClass": {
+    "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+    "class": "net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterList$Preset",
+    "sha256": "f1bf158386ab4743c7d5946a422d509715af266f2d4771134e019c5488239778"
+  },
+  "presetSourceClass": {
+    "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+    "class": "net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterList$Preset$1",
+    "sha256": "916933a1a61cf5c636d7d18c627c9b61ae41f7427423d57d08e322fc4fa7b4ae"
+  }
+}

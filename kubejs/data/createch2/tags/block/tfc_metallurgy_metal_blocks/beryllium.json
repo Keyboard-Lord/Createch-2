@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/beryllium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/beryllium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/beryllium",
+      "required": false
+    }
+  ]
+}

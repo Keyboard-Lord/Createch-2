@@ -1,0 +1,60 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfmg:steel_mechanism"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:mec_02_automated_manipulation",
+    "createch2:mat_01_bronze_metallurgy"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mec_03_steel_mechanisms.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mec_03_steel_mechanisms.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "create:crafting/kinetics/mechanical_drill",
+      "createch2:steel_steam/tfmg/steel_casing",
+      "createch2:steel_steam/tfmg/steel_mechanism",
+      "createch2:deep_seas/instrument/fathometer",
+      "createch2:deep_seas/hull/copper_pressurizer",
+      "createch2:deep_seas/hull/steel_pressurizer",
+      "createch2:deep_seas/instrument/hull_barometer",
+      "createch2:deep_seas/ballast/tank",
+      "createch2:deep_seas/ballast/vent",
+      "createch2:deep_seas/propulsion/propeller",
+      "createch2:deep_seas/propulsion/water_thruster",
+      "createch2:deep_seas/rigging/steel_cable",
+      "createch2:deep_seas/rigging/pulley",
+      "createch2:factory_scaling/components/steel_mechanism_batch",
+      "createch2:steel_steam/mi/invar_gear_from_heavy",
+      "createch2:material_recycling/tfmg_stock/heavy_plate",
+      "createch2:material_recycling/tfmg_stock/steel_casing",
+      "createch2:material_recycling/tfmg_stock/steel_mechanism",
+      "createch2:bees/steel/sturdy_bee_cage",
+      "createch2:bees/create/manual_centrifuge"
+    ]
+  }
+}

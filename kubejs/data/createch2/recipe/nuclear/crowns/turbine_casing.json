@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NLN",
+    "LCL",
+    "NLN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "L": {
+      "tag": "c:ingots/lead"
+    },
+    "C": {
+      "item": "mekanismgenerators:turbine_casing"
+    }
+  },
+  "result": {
+    "id": "crowns:turbine_casing",
+    "count": 4
+  }
+}

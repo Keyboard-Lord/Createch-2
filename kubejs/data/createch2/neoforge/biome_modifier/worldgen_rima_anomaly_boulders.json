@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_rima",
+  "features": [
+    "createch2:rima_anomaly_boulders"
+  ],
+  "step": "local_modifications"
+}

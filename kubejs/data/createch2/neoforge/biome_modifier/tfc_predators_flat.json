@@ -1,0 +1,36 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:tfc_structure_flat_land",
+  "spawners": [
+    {
+      "type": "tfc:cougar",
+      "weight": 20,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "tfc:lion",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "tfc:hyena",
+      "weight": 14,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "tfc:wolf",
+      "weight": 14,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "tfc:black_bear",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

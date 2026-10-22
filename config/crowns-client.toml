@@ -1,0 +1,12 @@
+#.
+#See temperature
+thermal_visualisation = false
+#.
+#Visualisation threshold
+# Default: 10.0
+# Range: 9.999999747378752E-6 ~ 3.4028234663852886E38
+visualisation_threshold = 10.0
+#.
+#How the fluid state is rendered
+#Allowed Values: TPX, PH, PS, PHTSX
+fluid_state_visual_mode = "TPX"

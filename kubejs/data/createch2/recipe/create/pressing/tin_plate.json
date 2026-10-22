@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tin"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:tin_plate"
+    }
+  ],
+  "recipe_tier": 0
+}

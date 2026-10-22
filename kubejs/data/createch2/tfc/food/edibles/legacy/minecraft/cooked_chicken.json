@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:cooked_chicken"
+  },
+  "edible": true,
+  "protein": 2.5,
+  "decay_modifier": 2.25,
+  "hunger": 4,
+  "saturation": 2
+}

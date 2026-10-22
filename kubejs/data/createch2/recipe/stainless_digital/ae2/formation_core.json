@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CFL",
+    " D "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/certus_quartz"
+    },
+    "F": {
+      "tag": "c:dusts/fluix"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "ae2:formation_core",
+    "count": 2
+  }
+}

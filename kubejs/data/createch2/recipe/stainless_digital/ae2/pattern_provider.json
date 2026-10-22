@@ -1,0 +1,39 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "AIF",
+    "PMR"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "C": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "I": {
+      "item": "ae2:interface"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "P": {
+      "tag": "createch2:control/factory/processing"
+    },
+    "M": {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    "R": {
+      "item": "extended_industrialization:machine_chainer_relay"
+    }
+  },
+  "result": {
+    "id": "ae2:pattern_provider",
+    "count": 1
+  }
+}

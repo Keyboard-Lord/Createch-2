@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:heavy_sheets/cast_iron"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/cast_iron",
+    "amount": 600
+  },
+  "temperature": 1535
+
+}

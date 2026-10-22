@@ -1,0 +1,40 @@
+{
+  "name": "TFMG Blast Furnace",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG replaces TFC's blast furnace. MI's later electric furnace remains separate.$(br2)Build the native TFMG furnace, air intake, blast stove and casting basin. Its fireproof bricks come from TFC-fired fire bricks. Use the hatch's Ponder scene for the actual multiblock."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Charge coke dust as furnace fuel and supply hot air. TFC flux goes in the flux slot, not the fuel stock. Keep separate output paths for metal, slag and furnace gas; empty the metal tank before switching products."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "For TFC pig iron, charge one TFC cast-iron ingot and one TFC flux. The furnace produces 100 mB of pig iron; cast that into one TFC pig-iron ingot. Ore grades still determine the cast iron obtained through TFC heating."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "Crushed iron or iron dust with TFC flux produces TFMG molten steel. Cast 144 mB into one TFMG steel ingot. These recipes and the pig-iron bridge share the existing Industrial Heat research."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The TFMG plant now supplies the pig iron used by TFC's anvil and welding recipes. High-carbon, black, red and blue steel retain their native TFC forging and alloy requirements."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Old TFC furnace blocks retain their inventories and tanks but no longer process recipes. Retired insulation can be crafted into three wrought-iron sheets; insulated bricks also return their fire-brick block."
+    }
+  ]
+}

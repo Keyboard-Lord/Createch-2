@@ -1,0 +1,72 @@
+{
+  "type": "sgjourney:abydos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:abydos",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:abydos_ancient_sands",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:abydos_desert_spires",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": -1,
+            "continentalness": 0.3,
+            "erosion": 0.8,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:abydos_desert_oasis",
+          "parameters": {
+            "temperature": 1.5,
+            "humidity": 0.2,
+            "continentalness": -0.2,
+            "erosion": -0.2,
+            "weirdness": -0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:abydos_ancient_delta",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "weirdness": -0.9,
+            "depth": 0.85,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:abydos_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

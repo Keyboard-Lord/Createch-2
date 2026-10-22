@@ -1,0 +1,26 @@
+{
+  "nativeClasses": {
+    "registration": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.MIPipes"
+    ],
+    "network": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "node": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "connection": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode$FluidConnection"
+    ]
+  },
+  "nativeCodeSha256": {
+    "registration": "ca5c776d973fa5c27a31226fb1737c719b429df1884d69d07fd7f46c282cd05b",
+    "network": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "node": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "connection": "7a0bfcbf29f7439f0c4b6eff307322e58d80449a62038a32e3c7532c1d72b670"
+  }
+}

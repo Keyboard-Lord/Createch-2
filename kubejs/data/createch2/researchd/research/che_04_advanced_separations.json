@@ -1,0 +1,50 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:basic_chemical_tank"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:che_03_synthetic_polymers",
+    "createch2:mat_03_space_aluminum"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_04_advanced_separations.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_04_advanced_separations.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:chemical_age/mekanism/basic_chemical_tank",
+      "createch2:chemical_age/mekanism/basic_pressurized_tube",
+      "createch2:chemical_age/mekanism/electrolytic_core",
+      "createch2:chemical_age/mekanism/electrolytic_separator",
+      "createch2:chemical_age/mekanism/chemical_infuser",
+      "createch2:chemical_age/mekanism/chemical_oxidizer",
+      "createch2:chemical_age/mekanism/purification_chamber",
+      "createch2:process_facilities/separation/distillation_tower",
+      "createch2:material_recycling/mi_process/distillation_tower",
+      "createch2:bees/planetary/heated_centrifuge"
+    ]
+  }
+}

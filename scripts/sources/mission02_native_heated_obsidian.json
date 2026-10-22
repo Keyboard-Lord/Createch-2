@@ -1,0 +1,593 @@
+{
+  "truth": "REVIEWED_NATIVE_HEATED_OBSIDIAN_FIXTURE",
+  "nativeClasses": {
+    "compressor": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlockEntity",
+      false
+    ],
+    "compressorBlock": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlock",
+      false
+    ],
+    "compDirection": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressorBlockEntity$1",
+      false
+    ],
+    "compressingRecipe": [
+      "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "io.github.hadron13.rubberworks.blocks.compressor.CompressingRecipe",
+      false
+    ],
+    "horizontal": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.HorizontalKineticBlock",
+      false
+    ],
+    "basinBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.basin.BasinBlock",
+      false
+    ],
+    "depotBE": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBlockEntity",
+      false
+    ],
+    "depot": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBehaviour",
+      false
+    ],
+    "processingParams": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipeParams",
+      false
+    ],
+    "processingOutput": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingOutput",
+      false
+    ],
+    "burner": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity"
+    ],
+    "burnerItem": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlockItem"
+    ],
+    "kinetic": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.KineticBlock"
+    ],
+    "rotate": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.IRotate"
+    ],
+    "wrenchable": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchable"
+    ],
+    "greateRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.GreateRecipeRemoval"
+    ],
+    "createRemoval": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.removal.CreateRecipeRemoval"
+    ],
+    "miRegistration": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.init.SingleBlockCraftingMachines",
+      false
+    ],
+    "miSteamHelper": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.helper.SteamHelper",
+      false
+    ],
+    "miCrafter": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.components.CrafterComponent",
+      false
+    ],
+    "machineRecipe": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.recipe.MachineRecipe"
+    ],
+    "burnerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.burner.BlazeBurnerBlock"
+    ],
+    "tankBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour"
+    ],
+    "tankSegment": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour$TankSegment"
+    ],
+    "internalHandler": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour$InternalFluidHandler"
+    ],
+    "miItemOutput": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.recipe.MachineRecipe$ItemOutput"
+    ],
+    "network": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FluidNetwork"
+    ],
+    "pump": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.pump.PumpBlockEntity"
+    ],
+    "tieredPump": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.fluids.pump.TieredPumpBlockEntity"
+    ],
+    "handlerSource": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.FlowSource$FluidHandler"
+    ],
+    "tank": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.tank.FluidTankBlockEntity"
+    ],
+    "fluidTank": [
+      "@neoforge",
+      "net.neoforged.neoforge.fluids.capability.templates.FluidTank"
+    ],
+    "rotation": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.RotationPropagator"
+    ],
+    "combined": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.fluid.CombinedTankWrapper"
+    ]
+  },
+  "nativeCodeSha256": {
+    "compressor": "2f68dab1d2942e46dd8d3b3932689cc14474614992ac56e041fc1dd2a5463f23",
+    "compressorBlock": "ef98adcb889304dbc41cdeea6af651e44d2e0e836addd2828f4541a624c2bd8a",
+    "compDirection": "836080457ebdef3bc42aa790cce328aee6f17ba53f3b743f350f7c465282e82c",
+    "compressingRecipe": "246f6627aa7ad40625ce2c26e3e8a3f651f808c4da878d43f4f6e39ac3bcc0a0",
+    "horizontal": "596df63de1ddf154380a59d86e29b7b63c984ff18d6f7fcdde71921ac65ad3e0",
+    "basinBlock": "a56f06a149800e0cc0f4517fb9de3ac6327d6c49eff8e05a4a6946a8f671fb92",
+    "depotBE": "668315617753011e3a5905b77e66d02c8664007bdf0201660030b6cd8dc9bb28",
+    "depot": "4743a24fac8ef345f014a6995fec4f817592cd1dd5b7962c630fe5e2c31dc016",
+    "processingParams": "ffcc3404e4b7f824d7eae8b1038920af73cbf3870e9902ee2c5c773a433e839c",
+    "processingOutput": "44cae193648fc75cd62159eb8edeb5b52bf737fbf604f583b0e7473eb37bb758",
+    "burner": "91abba0cca6ba6fc4d0b449b221d767ffe8f4f12418ccaec6755800d3d73e038",
+    "burnerItem": "06227daca5b2f4f2fa1645f9be0d4306eed6808ebd1514e9209edc253394d201",
+    "kinetic": "c62f905dc62d972803080cb7965911675b21f862b28e4420af9b893009092efa",
+    "rotate": "810b7d0ae48d1b8e4695a20105683877b9b0f87055a43f52c5de973826eb8f47",
+    "wrenchable": "998b6d79b453ecd16b9e7f3af4949f7d0d20c4557a5156a6f0d96bc7848037cc",
+    "greateRemoval": "4ef712145db17bed6bf7fb3bdf687038d69550ccc7a7f6b0e6cdd3813b3e689c",
+    "createRemoval": "d2fdbd4de9297398d4572a3ea6bd3d18281b34d4a755596d239bc67bf5c076dc",
+    "miRegistration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+    "miSteamHelper": "434348c4dfa11c8664a733675726d8ba79a459e583018d3b8d76c1f7103390fd",
+    "miCrafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+    "machineRecipe": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0",
+    "burnerBlock": "0180a20e55ec1898d2500845bb7dc7c205206b4472942c1a14662ae5104115db",
+    "tankBehaviour": "c9222c75089e1799aa1832a84cc13f80f8a68bc356761fcc6baf4fbe8a874f90",
+    "tankSegment": "1e75144601695aae649154582235b3da234c5ba9cd9704a35265a3b1bbd23408",
+    "internalHandler": "0a10f0c84ac835fa5152bc2fa786cfa39fca08ef5b3a6c229b74959669d96a85",
+    "miItemOutput": "9a296a81b66205340f583494310b8d3f8fc1131c89cea696ef67265adf2f302d",
+    "network": "76561275b938fa5f99cafd1f7b257bfe719db3bc45161fa9da264dc4fe01edcb",
+    "pump": "43bdb8bda845e0e3e735f976c25caab96032055f018c44c20ae2d99d03430620",
+    "tieredPump": "a8adecb850a8095e6772d70f8c3fe5b124c10fe439bb35db7155795e3aec4141",
+    "handlerSource": "dd695c70979e09ff6ad752eac1ae82046c741c24f85579e08fd6fd1daf82eb19",
+    "tank": "1dc7c148b50b8bce24a3d0dc798490e9e44ab0dfdcf94bc9dae1cca7fdb7753f",
+    "fluidTank": "965069a770472259c6cdfae73f47a824baa193eda5d8b5f26d092f037d3819be",
+    "rotation": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+    "combined": "d9e77beb27d3311c4d3bdd372ae8dbd155448b7f0bb6c474b1506931861cebf0"
+  },
+  "ids": {
+    "obsidian": "rubberworks:compressing/obsidian",
+    "powder": "modern_industrialization:compat/create/macerator/obsidian_to_powdered_obsidian",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "cog": "createch2:greate/tier_0/cogwheel",
+    "large": "createch2:greate/tier_0/large_cogwheel",
+    "planks": "tfc:crafting/wood/planks/oak",
+    "casing": "createch2:age_foundation/create/andesite_casing",
+    "depot": "create:crafting/kinetics/depot"
+  },
+  "recipes": {
+    "rubberworks:compressing/obsidian": {
+      "type": "rubberworks:compressing",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:obsidian"
+        }
+      ],
+      "heat_requirement": "heated"
+    },
+    "modern_industrialization:compat/create/macerator/obsidian_to_powdered_obsidian": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "create"
+        }
+      ],
+      "type": "modern_industrialization:macerator",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "item": "minecraft:obsidian"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "create:powdered_obsidian"
+        },
+        {
+          "amount": 1,
+          "item": "minecraft:obsidian",
+          "probability": 0.75
+        }
+      ]
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/large_cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:large_andesite_alloy_cogwheel",
+        "count": 1
+      }
+    },
+    "tfc:crafting/wood/planks/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "XX",
+        "XX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/planks/oak"
+      }
+    },
+    "createch2:age_foundation/create/andesite_casing": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "AAA",
+        "ALA",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "tag": "minecraft:logs"
+        }
+      },
+      "result": {
+        "id": "create:andesite_casing",
+        "count": 1
+      }
+    },
+    "create:crafting/kinetics/depot": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:depot"
+      }
+    }
+  },
+  "kinds": {
+    "rubberworks:compressing/obsidian": "native",
+    "modern_industrialization:compat/create/macerator/obsidian_to_powdered_obsidian": "native",
+    "createch2:age_foundation/create/shaft": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored",
+    "createch2:greate/tier_0/large_cogwheel": "authored",
+    "tfc:crafting/wood/planks/oak": "native",
+    "createch2:age_foundation/create/andesite_casing": "authored",
+    "create:crafting/kinetics/depot": "native"
+  },
+  "nativeRows": {
+    "rubberworks:compressing/obsidian": [
+      {
+        "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+        "data": {
+          "type": "rubberworks:compressing",
+          "ingredients": [
+            {
+              "type": "neoforge:single",
+              "amount": 1000,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "minecraft:obsidian"
+            }
+          ],
+          "heat_requirement": "heated"
+        }
+      }
+    ],
+    "modern_industrialization:compat/create/macerator/obsidian_to_powdered_obsidian": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "create"
+            }
+          ],
+          "type": "modern_industrialization:macerator",
+          "duration": 100,
+          "eu": 2,
+          "item_inputs": [
+            {
+              "amount": 1,
+              "item": "minecraft:obsidian"
+            }
+          ],
+          "item_outputs": [
+            {
+              "amount": 1,
+              "item": "create:powdered_obsidian"
+            },
+            {
+              "amount": 1,
+              "item": "minecraft:obsidian",
+              "probability": 0.75
+            }
+          ]
+        }
+      }
+    ],
+    "tfc:crafting/wood/planks/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/lumber/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:wood/planks/oak"
+          }
+        }
+      }
+    ],
+    "create:crafting/kinetics/depot": [
+      {
+        "provider": "create-1.21.1-6.0.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "item": "create:andesite_alloy"
+            },
+            {
+              "item": "create:andesite_casing"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "create:depot"
+          }
+        }
+      }
+    ]
+  },
+  "recoveryTables": [
+    {
+      "provider": "rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "resource": "data/rubberworks/loot_table/blocks/compressor.json",
+      "item": "rubberworks:compressor",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "rubberworks:compressor"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "rubberworks:blocks/compressor"
+      }
+    },
+    {
+      "provider": "create-1.21.1-6.0.10.jar",
+      "resource": "data/create/loot_table/blocks/blaze_burner.json",
+      "item": "create:blaze_burner",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "block": "create:blaze_burner",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                      "blaze": "none"
+                    }
+                  }
+                ],
+                "name": "create:empty_blaze_burner"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "block": "create:blaze_burner",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                      "blaze": "smouldering"
+                    }
+                  }
+                ],
+                "name": "create:blaze_burner"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "block": "create:blaze_burner",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                      "blaze": "fading"
+                    }
+                  }
+                ],
+                "name": "create:blaze_burner"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "block": "create:blaze_burner",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                      "blaze": "kindled"
+                    }
+                  }
+                ],
+                "name": "create:blaze_burner"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "block": "create:blaze_burner",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                      "blaze": "seething"
+                    }
+                  }
+                ],
+                "name": "create:blaze_burner"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "create:blocks/blaze_burner"
+      }
+    }
+  ]
+}

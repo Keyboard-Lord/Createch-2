@@ -1,0 +1,97 @@
+{
+  "source_policy": "kubejs/config/createch2_food_authority.json",
+  "normalizations": [
+    {
+      "source": "minecraft:apple",
+      "output": "tfc:food/red_apple"
+    },
+    {
+      "source": "minecraft:bread",
+      "output": "tfc:food/wheat_bread"
+    },
+    {
+      "source": "minecraft:beef",
+      "output": "tfc:food/beef"
+    },
+    {
+      "source": "minecraft:cooked_beef",
+      "output": "tfc:food/cooked_beef"
+    },
+    {
+      "source": "minecraft:porkchop",
+      "output": "tfc:food/pork"
+    },
+    {
+      "source": "minecraft:cooked_porkchop",
+      "output": "tfc:food/cooked_pork"
+    },
+    {
+      "source": "minecraft:chicken",
+      "output": "tfc:food/chicken"
+    },
+    {
+      "source": "minecraft:cooked_chicken",
+      "output": "tfc:food/cooked_chicken"
+    },
+    {
+      "source": "minecraft:mutton",
+      "output": "tfc:food/mutton"
+    },
+    {
+      "source": "minecraft:cooked_mutton",
+      "output": "tfc:food/cooked_mutton"
+    },
+    {
+      "source": "minecraft:rabbit",
+      "output": "tfc:food/rabbit"
+    },
+    {
+      "source": "minecraft:cooked_rabbit",
+      "output": "tfc:food/cooked_rabbit"
+    },
+    {
+      "source": "minecraft:cod",
+      "output": "tfc:food/cod"
+    },
+    {
+      "source": "minecraft:cooked_cod",
+      "output": "tfc:food/cooked_cod"
+    },
+    {
+      "source": "minecraft:salmon",
+      "output": "tfc:food/salmon"
+    },
+    {
+      "source": "minecraft:cooked_salmon",
+      "output": "tfc:food/cooked_salmon"
+    },
+    {
+      "source": "minecraft:tropical_fish",
+      "output": "tfc:food/tropical_fish"
+    },
+    {
+      "source": "minecraft:carrot",
+      "output": "tfc:food/carrot"
+    },
+    {
+      "source": "minecraft:potato",
+      "output": "tfc:food/potato"
+    },
+    {
+      "source": "minecraft:beetroot",
+      "output": "tfc:food/beet"
+    },
+    {
+      "source": "minecraft:melon_slice",
+      "output": "tfc:food/melon_slice"
+    },
+    {
+      "source": "minecraft:dried_kelp",
+      "output": "tfc:food/dried_kelp"
+    },
+    {
+      "source": "minecraft:baked_potato",
+      "output": "tfc:food/baked_potato"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "create:layered_ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "layer_patterns": [
+      [
+        {
+          "max_size": 2,
+          "min_size": 1,
+          "targets": [
+            [
+              {
+                "state": {
+                  "Name": "minecraft:end_stone"
+                },
+                "target": {
+                  "block": "minecraft:end_stone",
+                  "predicate_type": "minecraft:block_match"
+                }
+              }
+            ]
+          ],
+          "weight": 2
+        },
+        {
+          "max_size": 3,
+          "min_size": 1,
+          "targets": [
+            [
+              {
+                "state": {
+                  "Name": "tfmg:galena"
+                },
+                "target": {
+                  "block": "minecraft:end_stone",
+                  "predicate_type": "minecraft:block_match"
+                }
+              }
+            ]
+          ],
+          "weight": 3
+        },
+        {
+          "max_size": 1,
+          "min_size": 1,
+          "targets": [
+            [
+              {
+                "state": {
+                  "Name": "minecraft:deepslate"
+                },
+                "target": {
+                  "block": "minecraft:end_stone",
+                  "predicate_type": "minecraft:block_match"
+                }
+              }
+            ]
+          ],
+          "weight": 1
+        }
+      ]
+    ],
+    "size": 48
+  }
+}

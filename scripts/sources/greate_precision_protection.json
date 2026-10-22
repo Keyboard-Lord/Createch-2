@@ -1,0 +1,111 @@
+{
+  "truth": "CAPTURED_NATIVE_POST_UNIFICATION_PRECISION_SUPPLIER",
+  "id": "greate:sequenced_assembly/precision_mechanism",
+  "greateJarSha256": "0389586c829af6eea9e7e1bbba77413c79d8b8f8ca51cbed0f072c5a1c812548",
+  "source": "Native pre-policy recipe event during controlled diagnostic reload; no recipe mutations by diagnostic.",
+  "recipe": {
+    "sequence": [
+      {
+        "ingredients": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          },
+          {
+            "tag": "c:createch2_kinetics/cogwheel/andesite_alloy"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:incomplete_precision_mechanism"
+          }
+        ],
+        "type": "create:deploying"
+      },
+      {
+        "ingredients": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          },
+          {
+            "tag": "c:createch2_kinetics/large_cogwheel/andesite_alloy"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:incomplete_precision_mechanism"
+          }
+        ],
+        "type": "create:deploying"
+      },
+      {
+        "ingredients": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          },
+          {
+            "tag": "c:nuggets/iron"
+          }
+        ],
+        "results": [
+          {
+            "id": "create:incomplete_precision_mechanism"
+          }
+        ],
+        "type": "create:deploying"
+      }
+    ],
+    "results": [
+      {
+        "id": "create:precision_mechanism",
+        "chance": 120
+      },
+      {
+        "id": "create:golden_sheet",
+        "chance": 8
+      },
+      {
+        "id": "create:andesite_alloy",
+        "components": {
+          "tfc:heat": {}
+        },
+        "chance": 8
+      },
+      {
+        "id": "greate:andesite_alloy_cogwheel",
+        "chance": 5
+      },
+      {
+        "id": "minecraft:gold_nugget",
+        "components": {
+          "tfc:heat": {}
+        },
+        "chance": 3
+      },
+      {
+        "id": "greate:andesite_alloy_shaft",
+        "chance": 2
+      },
+      {
+        "id": "create:crushed_raw_gold",
+        "chance": 2
+      },
+      {
+        "id": "tfc:metal/ingot/wrought_iron"
+      },
+      {
+        "id": "minecraft:clock"
+      }
+    ],
+    "loops": 5,
+    "ingredient": {
+      "tag": "c:plates/gold"
+    },
+    "transitional_item": {
+      "id": "create:incomplete_precision_mechanism"
+    },
+    "type": "create:sequenced_assembly"
+  },
+  "limits": [
+    "This is an observed native fixture, not a substitute gameplay recipe. Native post-fix startup/reload/acquisition still require verification."
+  ]
+}

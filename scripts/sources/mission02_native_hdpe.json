@@ -1,0 +1,670 @@
+{
+  "classes": {
+    "surfaceState": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.surface.SurfaceState",
+      false,
+      [
+        "InterfaceMethod getState:",
+        "ChunkAccess.setBlockState:"
+      ]
+    ],
+    "forgeCompat": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.integration.energy.forgeenergy.ForgeEnergyCompat",
+      false,
+      [
+        "Capabilities.ENERGY:",
+        "ForgeEnergyIntegration",
+        "EnergyUnit.isEnabled:"
+      ]
+    ],
+    "wrap": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.recipe.WrappedShapedRecipe",
+      false,
+      [
+        "extends net.minecraft.world.item.crafting.ShapedRecipe",
+        "ShapedRecipe.matches:"
+      ]
+    ],
+    "compostBlockV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.TFCComposterBlock",
+      true,
+      [
+        "ComposterBlockEntity.randomTick:"
+      ]
+    ],
+    "surfaceContext": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.surface.SurfaceBuilderContext",
+      false,
+      [
+        "SurfaceState.setState:",
+        "ChunkAccess.setBlockState:"
+      ]
+    ],
+    "lightning": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.utilities.polarizer.PolarizeByLightningEvent",
+      false,
+      [
+        "ItemEntity",
+        "RandomSource.nextInt:",
+        "PolarizerCommons.getRecipe:",
+        "PolarizerCommons.assembleResult:",
+        "ItemEntity.setItem:",
+        "setCanceled:",
+        "LightningBolt.discard:"
+      ]
+    ],
+    "lightningV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.utilities.polarizer.PolarizeByLightningEvent",
+      true,
+      [
+        "SubscribeEvent",
+        "EventBusSubscriber",
+        "RecipeHolder.value:"
+      ]
+    ],
+    "polarCommons": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.electricity.utilities.polarizer.PolarizerCommons",
+      false,
+      [
+        "TFMGRecipeTypes.POLARIZING:",
+        "ProcessingOutput.rollOutput:",
+        "TFMGRecipeTypes.find:"
+      ]
+    ],
+    "server": [
+      "@runtime",
+      "net.minecraft.server.level.ServerLevel",
+      false,
+      [
+        "tickChunk(",
+        "Method isThundering:",
+        "int 100000",
+        "Method findLightningTargetAround:",
+        "Method isRainingAt:",
+        "LightningBolt.setVisualOnly:",
+        "PoiTypes.LIGHTNING_ROD:"
+      ]
+    ],
+    "bolt": [
+      "@runtime",
+      "net.minecraft.world.entity.LightningBolt",
+      false,
+      [
+        "Field visualOnly:",
+        "double 3.0d",
+        "EventHooks.onEntityStruckByLightning:",
+        "Entity.thunderHit:"
+      ]
+    ],
+    "hooks": [
+      "@runtime",
+      "net.neoforged.neoforge.event.EventHooks",
+      false,
+      [
+        "onEntityStruckByLightning(",
+        "EntityStruckByLightningEvent",
+        "IEventBus.post:"
+      ]
+    ],
+    "tfcEvents": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler",
+      false,
+      [
+        "EntityJoinLevelEvent",
+        "ServerConfig.enableLightning:",
+        "EntityJoinLevelEvent.setCanceled:"
+      ]
+    ],
+    "soil": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.surface.SoilSurfaceState",
+      false,
+      [
+        "buildMidType(",
+        "SoilBlockType$Variant.ARIDISOL:",
+        "Method soil:"
+      ]
+    ],
+    "surfaces": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.surface.SurfaceStates",
+      false,
+      [
+        "SoilBlockType.DIRT:",
+        "SoilSurfaceState.buildMidType:",
+        "Field MID_DIRT_TO_GRAVEL:"
+      ]
+    ],
+    "surfaceBuilder": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.surface.builder.NormalSurfaceBuilder",
+      false,
+      [
+        "SurfaceStates.MID_DIRT_TO_GRAVEL:",
+        "SurfaceBuilderContext.setBlockState:"
+      ]
+    ],
+    "composter": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.ComposterBlockEntity",
+      false,
+      [
+        "COMPOST_GREENS_MEDIUM:",
+        "COMPOST_BROWNS_HIGH:",
+        "FoodCapability.isRotten:",
+        "ServerConfig.composterTicks:",
+        "ICalendar.getTicks:",
+        "TFCItems.COMPOST:",
+        "CompostType.READY:",
+        "ItemStack.shrink:",
+        "ItemStackHandler.extractItem:"
+      ]
+    ],
+    "compostBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.TFCComposterBlock",
+      false,
+      [
+        "ComposterBlockEntity.use:",
+        "TFCBlockEntities.COMPOSTER:"
+      ]
+    ],
+    "enricher": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.tile.machine.TileEntityEnrichmentChamber",
+      false,
+      [
+        "sipush        200",
+        "MekanismRecipeType.ENRICHING:"
+      ]
+    ],
+    "shaped": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.recipe.upgrade.MekanismShapedRecipe",
+      false,
+      [
+        "extends mekanism.common.recipe.WrappedShapedRecipe",
+        "ItemStack.copy:",
+        "ItemStack.isComponentsPatchEmpty:"
+      ]
+    ],
+    "prc": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.tile.machine.TileEntityPressurizedReactionChamber",
+      false,
+      [
+        "PressurizedReactionRecipe.getDuration:",
+        "PressurizedReactionRecipe.getEnergyRequired:",
+        "long 10000l",
+        "setEnergyRequirements:",
+        "setRequiredTicks:",
+        "inputFluidTank:",
+        "outputGasTank:"
+      ]
+    ],
+    "prcEnergy": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.capabilities.energy.PRCEnergyContainer",
+      false,
+      [
+        "MachineEnergyContainer.getBaseEnergyPerTick:",
+        "getRecipeEnergyRequired:",
+        "ladd"
+      ]
+    ],
+    "prcCache": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.api.recipes.cache.PressurizedReactionCachedRecipe",
+      false,
+      [
+        "itemInputHandler:",
+        "fluidInputHandler:",
+        "chemicalInputHandler:",
+        "IInputHandler.use:",
+        "IOutputHandler.handleOutput:"
+      ]
+    ],
+    "rotary": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.tile.machine.TileEntityRotaryCondensentrator",
+      false,
+      [
+        "RotaryCachedRecipe",
+        "setEnergyRequirements:",
+        "setBaselineMaxOperations:",
+        "long 10000l",
+        "FluidTankHelper.forSideWithConfig:",
+        "ChemicalTankHelper.forSideWithConfig:"
+      ]
+    ],
+    "rotaryCache": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.api.recipes.cache.RotaryCachedRecipe",
+      false,
+      [
+        "RotaryRecipe.hasChemicalToFluid:",
+        "RotaryRecipe.hasFluidToChemical:",
+        "IInputHandler.use:",
+        "IOutputHandler.handleOutput:",
+        "modeSupplier:"
+      ]
+    ],
+    "cached": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.api.recipes.cache.CachedRecipe",
+      false,
+      [
+        "Field operatingTicks:",
+        "Method useEnergy:",
+        "Method finishProcessing:",
+        "ifge          286"
+      ]
+    ],
+    "tracker": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.api.recipes.cache.CachedRecipe$OperationTracker",
+      false,
+      [
+        "capAtMaxForEnergy(",
+        "Field maxForEnergy:",
+        "Method updateOperations:"
+      ]
+    ],
+    "fe": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.integration.energy.forgeenergy.ForgeEnergyIntegration",
+      false,
+      [
+        "IEnergyStorage",
+        "IEnergyConversion.convertFrom:",
+        "IStrictEnergyHandler.insertEnergy:",
+        "IEnergyConversion.convertToAsInt:"
+      ]
+    ],
+    "energyCompat": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.integration.energy.EnergyCompatUtils",
+      false,
+      [
+        "addBlockCapabilities(",
+        "BlockEntityTypeBuilder.with:"
+      ]
+    ],
+    "types": [
+      "Mekanism-1.21.1-10.7.19.85.jar",
+      "mekanism.common.registries.MekanismTileEntityTypes",
+      false,
+      [
+        "EnergyCompatUtils.addBlockCapabilities:",
+        "Field PRESSURIZED_REACTION_CHAMBER:",
+        "Field ROTARY_CONDENSENTRATOR:"
+      ]
+    ]
+  },
+  "nativeCodeSha256": {
+    "surfaceState": "73781e23503fdc9466f33cb5bc8d96224e27b30e555bd802a9cb65e155963f5b",
+    "forgeCompat": "f9bf8377de2975554e1b455f6b24206c9b597360070f203dabe771beb02011b7",
+    "wrap": "468088621addb26c8d15b13705375268659f9d451513f45465f56cf212f29a0e",
+    "compostBlockV": "6e22971712116d06d2ce0ecda142259aa21f7fc73fad8d3acf6189b8e67cdc76",
+    "surfaceContext": "f524d0d948b001b2243ec4a206ec47ae873995a4e654a8276882022e7593c736",
+    "lightning": "db6edebb76ef29d5b85ef6cc757e05039de8abd152369789909395e8c36a86ff",
+    "lightningV": "956f80723354c5c78096bfd42d31900ea1dd686d4eb822868b9e177ea23e4ff9",
+    "polarCommons": "254ec28a3155063fbd6a0df6a07f84d7360a9d975f9d947df7b0f4d3ada1b072",
+    "server": "6f30d77ead1a0b0feea5e6df58777d0fce578fefe94cfc5c8a77db503f1e2fac",
+    "bolt": "bfa8f2c843544d750bb2192b1b6883cc4cfc5e9586797c5e02bd72af49e20e86",
+    "hooks": "498214b430f26e0d6f77c679455a2e42d17c57f4ea827374b4251b484942ef16",
+    "tfcEvents": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "soil": "058bd597b6da65fb0fd64d7cc78e8c24356b099b62f389d0f4e3504eced163c9",
+    "surfaces": "b135d3d85b3011f058103a33a7e19d78712f76a64c1372d787619dc137cb16c8",
+    "surfaceBuilder": "89041b15ef9714a6b312b1f1e08685b2f8bc12a80525a11c4b4f6800edf09f53",
+    "composter": "d7ec1509ebfac2a77beb0198b91758fa5cf612a8f24ce110d331dfd9edee462a",
+    "compostBlock": "ae75d74879a804761e9fb39aacb2b8c75dd4a94a01140f907cf3b56057173066",
+    "enricher": "b8edb48ed5bfef82a46b483b54e01e6e973b2b9003ea73e288fb963e20deb334",
+    "shaped": "4b7705b9b83cce07c0dd8661b6bbe210822196432a5b99b310bcdb4f2c29b60d",
+    "prc": "0a18ad999b5669d77e7917431c62046f356f36ceda0ff330d3ef535ff84f5c56",
+    "prcEnergy": "3b2bb82505b354d886c638a04bb1a20914854a983a896023165f43de0217a4e1",
+    "prcCache": "029ba1262093b141984a4ec615a24cedd0d9d467fcc09c020a5d70eafca66028",
+    "rotary": "b979771280505d0a5706de8e21e60640fe492873855a491664f9acf18f88ae05",
+    "rotaryCache": "6c0d04da7d38fc52c2e2badf742d888239bbd6faa778b7a5854338ad66a81dde",
+    "cached": "30ec6b2844b1c8aa82075edfacdc18ae9b275c18c0d06e49442ab89ef567fe6a",
+    "tracker": "bb8141f11ffd3755c4879487c19aec22a1f6f0e457369e0e8a4b412b71117df5",
+    "fe": "346c87c7548221ac26900cd8ae4675b8347620c15246d0b0bc28fdc947eb003b",
+    "energyCompat": "29f685968a7d13b9217cfdc1d8255e67d7d73b3eecfb8942fcdae21420a46f55",
+    "types": "0c18bfe962d31ca52879bf822ff8d8876a42a9c807298a3935f05a73cc2af26e"
+  },
+  "recipes": {
+    "tfmg:polarizing/magnet": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "tfmg:polarizing",
+          "ingredients": [
+            {
+              "item": "tfmg:magnetic_alloy_ingot"
+            }
+          ],
+          "results": [
+            {
+              "id": "tfmg:magnet"
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:lightning_rod": [
+      {
+        "provider": "neoforge-21.1.256-universal.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "key": {
+            "#": {
+              "tag": "c:ingots/copper"
+            }
+          },
+          "pattern": [
+            "#",
+            "#",
+            "#"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:lightning_rod"
+          }
+        }
+      },
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "tag": "c:rods/copper"
+            }
+          },
+          "pattern": [
+            "X",
+            "X",
+            "X"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:lightning_rod"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "key": {
+            "#": {
+              "item": "minecraft:copper_ingot"
+            }
+          },
+          "pattern": [
+            "#",
+            "#",
+            "#"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:lightning_rod"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/composter": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "D": {
+              "tag": "minecraft:dirt"
+            },
+            "L": {
+              "tag": "tfc:lumber"
+            }
+          },
+          "pattern": [
+            "L L",
+            "LDL",
+            "LLL"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:composter"
+          }
+        }
+      }
+    ],
+    "mekanism:rotary_condensentrator": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:mek_data",
+          "category": "misc",
+          "key": {
+            "#": {
+              "item": "mekanism:basic_fluid_tank"
+            },
+            "C": {
+              "tag": "c:circuits/basic"
+            },
+            "E": {
+              "item": "mekanism:energy_tablet"
+            },
+            "G": {
+              "tag": "c:glass_blocks/cheap"
+            },
+            "T": {
+              "item": "mekanism:basic_chemical_tank"
+            }
+          },
+          "pattern": [
+            "GCG",
+            "TE#",
+            "GCG"
+          ],
+          "result": {
+            "count": 1,
+            "id": "mekanism:rotary_condensentrator"
+          }
+        }
+      }
+    ],
+    "mekanism:rotary/hydrogen": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:rotary",
+          "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:hydrogen"
+          },
+          "chemical_output": {
+            "amount": 1,
+            "id": "mekanism:hydrogen"
+          },
+          "fluid_input": {
+            "amount": 1,
+            "tag": "c:hydrogen"
+          },
+          "fluid_output": {
+            "amount": 1,
+            "id": "mekanism:hydrogen"
+          }
+        }
+      }
+    ],
+    "mekanism:rotary/oxygen": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:rotary",
+          "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:oxygen"
+          },
+          "chemical_output": {
+            "amount": 1,
+            "id": "mekanism:oxygen"
+          },
+          "fluid_input": {
+            "amount": 1,
+            "tag": "c:oxygen"
+          },
+          "fluid_output": {
+            "amount": 1,
+            "id": "mekanism:oxygen"
+          }
+        }
+      }
+    ],
+    "mekanism:rotary/ethene": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:rotary",
+          "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:ethene"
+          },
+          "chemical_output": {
+            "amount": 1,
+            "id": "mekanism:ethene"
+          },
+          "fluid_input": {
+            "amount": 1,
+            "tag": "c:ethene"
+          },
+          "fluid_output": {
+            "amount": 1,
+            "id": "mekanism:ethene"
+          }
+        }
+      }
+    ],
+    "mekanism:reaction/substrate/water_hydrogen": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:reaction",
+          "chemical_input": {
+            "amount": 100,
+            "chemical": "mekanism:hydrogen"
+          },
+          "chemical_output": {
+            "amount": 100,
+            "id": "mekanism:ethene"
+          },
+          "duration": 100,
+          "fluid_input": {
+            "amount": 10,
+            "tag": "minecraft:water"
+          },
+          "item_input": {
+            "count": 2,
+            "tag": "c:fuels/bio"
+          },
+          "item_output": {
+            "count": 1,
+            "id": "mekanism:substrate"
+          }
+        }
+      }
+    ],
+    "mekanism:reaction/substrate/ethene_oxygen": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:reaction",
+          "chemical_input": {
+            "amount": 10,
+            "chemical": "mekanism:oxygen"
+          },
+          "duration": 60,
+          "energy_required": 1000,
+          "fluid_input": {
+            "amount": 50,
+            "tag": "c:ethene"
+          },
+          "item_input": {
+            "count": 1,
+            "item": "mekanism:substrate"
+          },
+          "item_output": {
+            "count": 1,
+            "id": "mekanism:hdpe_pellet"
+          }
+        }
+      }
+    ],
+    "mekanism:enriching/hdpe_sheet": [
+      {
+        "provider": "Mekanism-1.21.1-10.7.19.85.jar",
+        "data": {
+          "type": "mekanism:enriching",
+          "input": {
+            "count": 3,
+            "item": "mekanism:hdpe_pellet"
+          },
+          "output": {
+            "count": 1,
+            "id": "mekanism:hdpe_sheet"
+          }
+        }
+      }
+    ]
+  },
+  "retainedProcessor": "modern_industrialization:compressor",
+  "finishedSheet": {
+    "type": "modern_industrialization:compressor",
+    "eu": 2,
+    "duration": 200,
+    "item_inputs": {
+      "item": "mekanism:hdpe_pellet",
+      "amount": 3
+    },
+    "item_outputs": {
+      "item": "mekanism:hdpe_sheet",
+      "amount": 1
+    }
+  },
+  "finite": {
+    "compostBatches": 4,
+    "barleyGrain": 32,
+    "paper": 16,
+    "compost": 4,
+    "biomassCentrifugeCompost": 4,
+    "biomassOutput": 8,
+    "biomassUsed": 6,
+    "hydrogenFluidMb": 300,
+    "oxygenFluidMb": 30,
+    "waterMb": 30,
+    "etheneChemical": 300,
+    "etheneCondensed": 150,
+    "substrate": 3,
+    "pellets": 3,
+    "sheets": 1
+  },
+  "limits": [
+    "Natural nonvisual storm strikes and native positive polarization rolls are existential sources, not observed storms or a finite weather/yield guarantee. Credit only one magnet from one alloy; ignore the native inclusive-loop excess-output branch.",
+    "TFC native soil, current gathered barley and paper feed a fresh balanced composter. Wait beyond its climate-adjusted calendar period and collect one new compost per cycle. No old compost or biomass is seeded.",
+    "Three unupgraded PRC substrate batches plus hydrogen/oxygen/ethene phase exchange produce three pellets; keep fluid and chemical phases distinct and isolate input/output storage. Selected machine energy and output capacities are checked.",
+    "The existing retired Enrichment Chamber stays retired. Its exact 3-to-1 sheet recipe keeps its identity and uses MI compression at 400EU, equal to 10000J through current 10FE/EU and 2.5J/FE ratios. No research identity, prerequisite, material amount, quest task or reward changes."
+  ]
+}

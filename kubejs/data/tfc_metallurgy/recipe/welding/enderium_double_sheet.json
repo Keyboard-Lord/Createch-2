@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/enderium"
+  },
+  "second_input": {
+    "tag": "c:sheets/enderium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/enderium"
+  }
+}

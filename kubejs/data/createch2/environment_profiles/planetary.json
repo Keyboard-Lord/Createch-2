@@ -1,0 +1,96 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "ambient_radiation_svh": 0,
+      "pressure_gameplay": false,
+      "pressure_class": "safe"
+    },
+    "rocketnautics:moon": {
+      "ambient_radiation_svh": 0.000025,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:moon": {
+      "ambient_radiation_svh": 0.000025,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:mars": {
+      "ambient_radiation_svh": 0.000035,
+      "pressure_gameplay": true,
+      "pressure_class": "thin"
+    },
+    "stellaris:venus": {
+      "ambient_radiation_svh": 0.00002,
+      "pressure_gameplay": true,
+      "pressure_class": "dense"
+    },
+    "stellaris:mercury": {
+      "ambient_radiation_svh": 0.0025,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:jupiter": {
+      "ambient_radiation_svh": 0.005,
+      "pressure_gameplay": true,
+      "pressure_class": "dense"
+    },
+    "stellaris:earth_orbit": {
+      "ambient_radiation_svh": 0.000075,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:mars_orbit": {
+      "ambient_radiation_svh": 0.0001,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:venus_orbit": {
+      "ambient_radiation_svh": 0.0001,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "stellaris:mercury_orbit": {
+      "ambient_radiation_svh": 0.002,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    },
+    "rocketnautics:deep_space": {
+      "ambient_radiation_svh": 0.00025,
+      "pressure_gameplay": true,
+      "pressure_class": "vacuum"
+    }
+  },
+  "radiation_shielding": {
+    "stellaris:space_suit_helmet": 0.15,
+    "stellaris:space_suit_chestplate": 0.3,
+    "stellaris:space_suit_leggings": 0.2,
+    "stellaris:space_suit_boots": 0.1,
+    "stellaris:jet_suit_helmet": 0.2,
+    "stellaris:jet_suit_chestplate": 0.35,
+    "stellaris:jet_suit_leggings": 0.25,
+    "stellaris:jet_suit_boots": 0.15
+  },
+  "pressure_suits": [
+    {
+      "head": "stellaris:space_suit_helmet",
+      "chest": "stellaris:space_suit_chestplate",
+      "legs": "stellaris:space_suit_leggings",
+      "feet": "stellaris:space_suit_boots"
+    },
+    {
+      "head": "stellaris:jet_suit_helmet",
+      "chest": "stellaris:jet_suit_chestplate",
+      "legs": "stellaris:jet_suit_leggings",
+      "feet": "stellaris:jet_suit_boots"
+    }
+  ],
+  "pressure": {
+    "vacuum_max_atm": 0.001,
+    "safe_min_atm": 0.5,
+    "safe_max_atm": 2,
+    "damage_interval_ticks": 40,
+    "low_pressure_damage": 1,
+    "high_pressure_damage": 2
+  }
+}

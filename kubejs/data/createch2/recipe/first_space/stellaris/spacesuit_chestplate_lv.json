@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WTW",
+    "CBC",
+    "SRS"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "stellaris:oxygen_tank"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "B": {
+      "item": "stellaris:battery"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "R": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "stellaris:space_suit_chestplate",
+    "count": 1
+  }
+}

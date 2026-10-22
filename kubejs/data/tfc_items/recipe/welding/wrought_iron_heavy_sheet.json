@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/wrought_iron"
+  },
+  "second_input": {
+    "tag": "c:sheets/wrought_iron"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:wrought_iron_heavy_sheet"
+  }
+}

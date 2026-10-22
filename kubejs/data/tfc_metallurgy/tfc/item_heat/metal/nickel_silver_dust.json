@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/nickel_silver"
+    },
+    {
+      "tag": "c:physical_dusts/nickel_silver"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 870,
+  "welding_temperature": 1160
+}

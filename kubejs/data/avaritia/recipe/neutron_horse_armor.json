@@ -1,0 +1,32 @@
+{
+  "type": "avaritia:extreme_smithing",
+  "addition": [
+    {
+      "type": "neoforge:components",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:swiftness"
+        }
+      },
+      "items": "minecraft:potion"
+    },
+    {
+      "item": "avaritia:enhancement_core"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "base": {
+    "item": "tfc:metal/horse_armor/blue_steel",
+    "id": "tfc:metal/horse_armor/blue_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "avaritia:neutron_horse_armor"
+  },
+  "template": {
+    "item": "avaritia:upgrade_smithing_template",
+    "id": "avaritia:upgrade_smithing_template"
+  }
+}

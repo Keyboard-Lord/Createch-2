@@ -1,0 +1,312 @@
+{
+  "schema": 1,
+  "truth": "NATIVE_TFC_WEEPING_WELL_AND_EXISTING_VOID_FAVOR",
+  "classes": {
+    "well": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.worldgen.well.WeepingWellStructure",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "b79303c1b203e5141a451384d3480ea22921d6cceccab196f30b939226836ae9"
+    },
+    "piece": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.worldgen.well.WeepingWellStructurePiece",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "fd934e378e6f1e4ed0ac278dd284d1221b05f39922557bdee3bdad678113081a"
+    },
+    "generator": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.TFCChunkGenerator",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "8290d169e54b229d1a79449435cb6afec42eb374312cd708c9b456df66aa1a67"
+    },
+    "biomeSource": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.biome.RegionBiomeSource",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "444175c584298516fe796b335493c424badc7f6ae2955bd4b6289f5e89fa9f1e"
+    },
+    "column": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.level.NoiseColumn",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "a9bf465703106c5215b1e19c4ad4960c59cfd2cb9fc16dbfa4ca34fe61ab749b"
+    },
+    "compat": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/createch2core.jar",
+      "class": "createch2.core.mixin.compat.MalumTfcWeepingWellMixin",
+      "flags": [
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "sha256": "2cf76c7d02b567c99eeb04d6efcdb0d2cab553e4d3e8bde4dd59a66a0b57c4ed"
+    },
+    "filler": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.worldgen.LodestoneBlockFiller$LodestoneBlockFillerLayer",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "bf4bd46e1e852000b87c7ab1887a357ab11015e5bd35102a1e6813add4745439"
+    },
+    "entry": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.worldgen.LodestoneBlockFiller$BlockStateEntry",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "db4358fe2a7ac5dd0f660b4562c2be787d79b81bfe96b006bda796f7415d32d1"
+    },
+    "conduit": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.curiosities.weeping_well.VoidConduitBlockEntity",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "8036fc41673cf7bc9c717c86624900e2f7a93518c408aad3809e1c18d3d69ebb"
+    },
+    "voidRecipe": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.recipe.VoidFavorRecipe",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "386af89c7501b7615f73f15bd736713c606a551ef2aef5a4d6e91173fbe698f1"
+    },
+    "soup": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.curiosities.weeping_well.PrimordialSoupBlock",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "f39033f5ef03798c577c73fe92593a69d267e581c5fd72e97a5570ebc4aa82c8"
+    },
+    "contact": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.core.handlers.WeepingWellRejectionHandler",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "0d0b30e2451c024800a226df1c16fafec5990b6b19409ce463060e7d1a1c2c30"
+    },
+    "item": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.entity.item.ItemEntity",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "dfd0cecf5c580dcec9c248256e2b8101ada3b2f157765d9ce6e1e5aab3b2b5ec"
+    },
+    "player": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.entity.player.Player",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "6f8b3093bd8ba0b5b86df9f16704f35bb2011765e32e62abb446978a26d3191d"
+    },
+    "lookup": {
+      "classpath": "/Users/mcrae/Documents/curseforge/minecraft/Instances/Createch 2/mods/lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.recipe.LodestoneRecipeType",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "874cfa0b54bcdb2c5a8311cd247ddd5675c36e48e6176dc9af00f112a1454ffe"
+    }
+  },
+  "resources": [
+    {
+      "kind": "worldgen/structure",
+      "id": "malum:weeping_well",
+      "data": {
+        "type": "malum:weeping_well",
+        "biomes": "#malum:has_weeping_well",
+        "spawn_overrides": {},
+        "step": "underground_structures"
+      },
+      "provider": "malum-1.21.1-1.8.2.jar"
+    },
+    {
+      "kind": "worldgen/structure_set",
+      "id": "malum:weeping_well",
+      "data": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "salt": 546451665,
+          "separation": 48,
+          "spacing": 80,
+          "spread_type": "triangular"
+        },
+        "structures": [
+          {
+            "structure": "malum:weeping_well",
+            "weight": 1
+          }
+        ]
+      },
+      "provider": "kubejs/data/malum/worldgen/structure_set/weeping_well.json"
+    }
+  ],
+  "biomes": [
+    "tfc:cenote_canyons",
+    "tfc:cenote_highlands",
+    "tfc:cenote_hills",
+    "tfc:cenote_plains",
+    "tfc:cenote_plateau",
+    "tfc:cenote_rolling_hills",
+    "tfc:doline_canyons",
+    "tfc:doline_highlands",
+    "tfc:doline_hills",
+    "tfc:doline_plains",
+    "tfc:doline_plateau",
+    "tfc:doline_rolling_hills",
+    "tfc:embayments",
+    "tfc:glacially_carved_mountains",
+    "tfc:glacially_carved_volcanic_mountains",
+    "tfc:glaciated_mountains",
+    "tfc:glaciated_volcanic_mountains",
+    "tfc:ice_sheet",
+    "tfc:ice_sheet_edge",
+    "tfc:ice_sheet_mountains",
+    "tfc:ice_sheet_mountains_edge",
+    "tfc:ice_sheet_shield_volcano",
+    "tfc:ice_sheet_tuyas",
+    "tfc:ice_sheet_tuyas_edge",
+    "tfc:ice_sheet_volcanic_mountains",
+    "tfc:inverted_patterned_ground",
+    "tfc:lake",
+    "tfc:meltwater_lake",
+    "tfc:mountain_lake",
+    "tfc:mud_flats",
+    "tfc:old_mountain_lake",
+    "tfc:patterned_ground",
+    "tfc:plateau_lake",
+    "tfc:rift_lake",
+    "tfc:river",
+    "tfc:river_valley",
+    "tfc:salt_marsh",
+    "tfc:shilin_canyons",
+    "tfc:shilin_highlands",
+    "tfc:shilin_hills",
+    "tfc:shilin_plains",
+    "tfc:shilin_plateau",
+    "tfc:shore",
+    "tfc:subglacial_lake",
+    "tfc:tidal_flats",
+    "tfc:tower_karst_bay",
+    "tfc:tower_karst_canyons",
+    "tfc:tower_karst_highlands",
+    "tfc:tower_karst_hills",
+    "tfc:tower_karst_lake",
+    "tfc:tower_karst_plains"
+  ],
+  "worldFiles": [
+    "kubejs/data/malum/tags/worldgen/biome/has_weeping_well.json",
+    "kubejs/data/malum/worldgen/structure_set/weeping_well.json"
+  ],
+  "coreEntryPreservation": {
+    "truth": "STATIC_MALUM_TFC_WELL_CORE_ENTRY_PRESERVATION",
+    "before": "aa8af72482a2cdc1e3f9c3c6de6beb79cb68a57022243331525371040c2af1ab",
+    "after": "a674b5e2d23eb85c868fc85aca0aeddc1a18ee132d7fff778c513b4e90e1981f",
+    "added": [
+      "createch2/core/mixin/compat/MalumTfcWeepingWellMixin.class"
+    ],
+    "changed": [
+      "createch2core.mixins.json"
+    ],
+    "removed": [],
+    "allOtherEntriesByteIdentical": true
+  },
+  "programs": [
+    {
+      "id": "malum:void_favor/malignant_lead",
+      "provider": "malum-1.21.1-1.8.2.jar",
+      "original": {
+        "type": "malum:void_favor",
+        "input": {
+          "item": "malum:cthonic_gold"
+        },
+        "result": {
+          "count": 1,
+          "id": "malum:malignant_lead"
+        }
+      },
+      "data": {
+        "type": "malum:void_favor",
+        "input": {
+          "item": "malum:cthonic_gold"
+        },
+        "result": {
+          "count": 1,
+          "id": "malum:malignant_lead"
+        }
+      }
+    },
+    {
+      "id": "malum:void_favor/null_slate",
+      "provider": "malum-1.21.1-1.8.2.jar",
+      "original": {
+        "type": "malum:void_favor",
+        "input": {
+          "item": "malum:refined_soulstone"
+        },
+        "result": {
+          "count": 1,
+          "id": "malum:null_slate"
+        }
+      },
+      "data": {
+        "type": "malum:void_favor",
+        "input": {
+          "item": "malum:refined_soulstone"
+        },
+        "result": {
+          "count": 1,
+          "id": "malum:null_slate"
+        }
+      }
+    }
+  ],
+  "subsequentCoreEntryPreservation": [
+    {
+      "truth": "STATIC_TFC_ALPHA_CORE_ENTRY_PRESERVATION",
+      "before": "a674b5e2d23eb85c868fc85aca0aeddc1a18ee132d7fff778c513b4e90e1981f",
+      "after": "58639ca2f2d502d5f1c7983027ad67b6fef4f40f1931aaed59173aafa2a67215",
+      "added": [
+        "createch2/core/mixin/compat/WerewolfTfcAlphaSpawnMixin.class"
+      ],
+      "changed": [
+        "createch2core.mixins.json"
+      ],
+      "removed": [],
+      "allOtherEntriesByteIdentical": true,
+      "unchangedEntries": 359,
+      "unchangedEntriesSha256": "33923602a4f981801e117a56106546f8dfbb68003587e55d99190501d05e73bd"
+    }
+  ]
+}

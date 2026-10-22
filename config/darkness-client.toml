@@ -1,0 +1,24 @@
+#Only Affect Block Light
+only_affect_block_light = false
+#Ignore Moon Phase
+ignore_moon_phase = false
+#Should the Overworld have True Darkness
+dark_overworld = true
+#Should the default for worlds be True Darkness
+dark_default = true
+#Should the nether have True Darkness
+dark_nether = true
+#Nether Fog Darkness
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+dark_nether_fog = 0.5
+#Should the end have True Darkness
+dark_end = true
+#Nether Fog Darkness
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+dark_end_fog = 0.0
+#Should skyless dimensions have True Darkness
+dark_skyless = true
+#Should the Darkness Biome behavior be inverted? Aka should biomes in the json be the only dark ones instead of the only bright ones?
+invert_biome_darkness = false

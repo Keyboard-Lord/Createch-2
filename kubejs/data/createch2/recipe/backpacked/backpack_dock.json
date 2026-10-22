@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "PCP",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:steel_plate"
+    },
+    "B": {
+      "item": "backpacked:backpack"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "backpacked:backpack_dock",
+    "count": 1
+  }
+}

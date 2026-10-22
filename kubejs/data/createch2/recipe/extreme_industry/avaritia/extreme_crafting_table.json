@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "MHM",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "M": {
+      "item": "tfmg:heavy_machinery_casing"
+    },
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "H": {
+      "item": "rocketnautics:hologram_block"
+    },
+    "R": {
+      "item": "rocketnautics:magnetic_stabilizer"
+    }
+  },
+  "result": {
+    "id": "avaritia:extreme_crafting_table",
+    "count": 1
+  }
+}

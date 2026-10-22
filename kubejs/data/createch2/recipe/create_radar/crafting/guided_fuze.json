@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "FCF",
+    " E "
+  ],
+  "key": {
+    "R": {
+      "item": "create_radar:radar_receiver_block"
+    },
+    "F": {
+      "item": "createbigcannons:proximity_fuze"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "create_radar:guided_fuze",
+    "count": 2
+  }
+}

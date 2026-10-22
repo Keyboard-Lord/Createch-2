@@ -1,0 +1,128 @@
+{
+  "jar": "greate-createch-1.21.1.jar",
+  "greateJarSha256": "0389586c829af6eea9e7e1bbba77413c79d8b8f8ca51cbed0f072c5a1c812548",
+  "routes": [
+    {
+      "item": "greate:andesite_alloy_shaft",
+      "legacyResource": "data/greate/loot_tables/blocks/andesite_alloy_shaft.json",
+      "resource": "data/greate/loot_table/blocks/andesite_alloy_shaft.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "greate:andesite_alloy_shaft"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "greate:blocks/andesite_alloy_shaft"
+      }
+    },
+    {
+      "item": "greate:andesite_alloy_cogwheel",
+      "legacyResource": "data/greate/loot_tables/blocks/andesite_alloy_cogwheel.json",
+      "resource": "data/greate/loot_table/blocks/andesite_alloy_cogwheel.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "greate:andesite_alloy_cogwheel"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "greate:blocks/andesite_alloy_cogwheel"
+      }
+    },
+    {
+      "item": "greate:andesite_alloy_mechanical_pump",
+      "legacyResource": "data/greate/loot_tables/blocks/andesite_alloy_mechanical_pump.json",
+      "resource": "data/greate/loot_table/blocks/andesite_alloy_mechanical_pump.json",
+      "native": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0,
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "greate:andesite_alloy_mechanical_pump"
+              }
+            ],
+            "rolls": 1
+          }
+        ],
+        "random_sequence": "greate:blocks/andesite_alloy_mechanical_pump"
+      }
+    }
+  ],
+  "nativeClasses": {
+    "shaft": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.simpleRelays.TieredShaftBlock"
+    ],
+    "cog": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.simpleRelays.TieredCogwheelBlock"
+    ],
+    "pump": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.fluids.pump.TieredPumpBlock"
+    ],
+    "kinetic": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.KineticBlock"
+    ],
+    "rotate": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.IRotate"
+    ],
+    "wrenchable": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.equipment.wrench.IWrenchable"
+    ],
+    "registry": [
+      "@client",
+      "net.minecraft.core.registries.Registries"
+    ],
+    "fileIds": [
+      "@client",
+      "net.minecraft.resources.FileToIdConverter"
+    ]
+  },
+  "nativeCodeSha256": {
+    "shaft": "4c10f7de8904811ed017682c20da03fc9680ef8fdffd288e7d597013be5dca06",
+    "cog": "a832c1ca5b952059cc8d5d3b6e08685ba9263869401b1aa1cc8f103c62b7978e",
+    "pump": "86e161b42ff7ffd883de35da82f2ff6af0bba2a75850d3602bdcb196cddace30",
+    "kinetic": "c62f905dc62d972803080cb7965911675b21f862b28e4420af9b893009092efa",
+    "rotate": "810b7d0ae48d1b8e4695a20105683877b9b0f87055a43f52c5de973826eb8f47",
+    "wrenchable": "998b6d79b453ecd16b9e7f3af4949f7d0d20c4557a5156a6f0d96bc7848037cc",
+    "registry": "517e727e0921dd44be8af27a7c32e9aaa999de2b3e5befbbe5456ba6d3abfaa7",
+    "fileIds": "f4f0003c2c4437bb49d74fca86eec3ec0968825c022b4815124b1700edf0e900"
+  }
+}

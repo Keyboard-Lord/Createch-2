@@ -1,0 +1,40 @@
+{
+  "name": "TFMG 高炉",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG 取代 TFC 高炉。MI 后期电力高炉保留原有定位。$(br2)建造 TFMG 高炉、进气装置、热风炉和铸造盆。耐火砖由 TFC 烧制的耐火砖转换而来。完整结构请查看高炉舱口的 Ponder 演示。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "以焦炭粉作为炉内燃料并供应热风。TFC 助熔剂放入助熔剂入口，不要当作燃料。分别处理金属、熔渣和高炉煤气；切换产品前先排空金属储罐。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "将一个 TFC 铸铁锭和一份 TFC 助熔剂送入高炉，可得到 100 mB TFC 生铁，再铸成一个生铁锭。矿石品位仍通过 TFC 加热规则决定铸铁产量。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "粉碎铁矿石或铁粉配合 TFC 助熔剂，产出 TFMG 熔融钢。每 144 mB 铸成一个 TFMG 钢锭。这些配方与生铁兼容配方共用现有的“工业热能”研究。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "TFMG 设备为 TFC 铁砧和焊接配方供应生铁。高碳钢、黑钢、红钢和蓝钢保留原有的 TFC 锻造及合金要求。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "旧 TFC 高炉保留物品与储液，但不再执行配方。将退役隔热材料单独放入合成栏可回收三张锻铁板；隔热耐火砖还会返还耐火砖方块。"
+    }
+  ]
+}

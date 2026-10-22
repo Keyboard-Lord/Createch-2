@@ -1,0 +1,35 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "      III",
+    "     III ",
+    "    III  ",
+    " C III   ",
+    "CCXII    ",
+    " CGN     ",
+    " NG      "
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "G": {
+      "item": "avaritia:neutron_gear"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_sword",
+    "count": 1
+  },
+  "tier": 4
+}

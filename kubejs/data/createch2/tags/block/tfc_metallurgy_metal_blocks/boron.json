@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/boron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/boron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/boron",
+      "required": false
+    }
+  ]
+}

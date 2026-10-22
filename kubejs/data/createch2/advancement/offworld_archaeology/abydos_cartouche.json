@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_abydos_cartouche": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "sgjourney:cartouche/abydos_cartouche"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_abydos_cartouche"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

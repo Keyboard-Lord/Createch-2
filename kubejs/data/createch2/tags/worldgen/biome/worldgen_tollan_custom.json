@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:tollan_caldera",
+    "createch2:tollan_volcanic_peaks",
+    "createch2:tollan_basalt_cliffs",
+    "createch2:tollan_ancient_delta",
+    "createch2:tollan_inferno",
+    "createch2:tollan_scorching_caves"
+  ]
+}

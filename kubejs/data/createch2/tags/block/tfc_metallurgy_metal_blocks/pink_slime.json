@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/pink_slime",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/pink_slime",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/pink_slime",
+      "required": false
+    }
+  ]
+}

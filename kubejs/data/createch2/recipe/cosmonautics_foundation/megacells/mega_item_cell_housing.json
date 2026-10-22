@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QIQ",
+    "P P",
+    "SDS"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "megacells:mega_item_cell_housing",
+    "count": 1
+  }
+}

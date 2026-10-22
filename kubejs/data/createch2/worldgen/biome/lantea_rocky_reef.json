@@ -1,0 +1,95 @@
+{
+  "carvers": {},
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": -11617740,
+    "grass_color": -11225797,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.grove"
+    },
+    "sky_color": 7776511,
+    "water_color": -13255466,
+    "water_fog_color": -11171160
+  },
+  "features": [
+    [],
+    [],
+    [
+      "createch2:offworld/formations/rocky_reef_pillars"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "tfc:plant/giant_kelp_patch",
+      "tfc:plant/dry_grass_patch",
+      "tfc:plant/wild_crop/pumpkin_patch",
+      "tfc:plant/wild_crop/sugarcane_patch",
+      "minecraft:sea_pickle",
+      "tfc:plant/turtle_grass_patch",
+      "createch2:offworld/flora/broadleaf_dense",
+      "createch2:offworld/flora/shrubs_rocky_reef",
+      "createch2:offworld/decoration/magnolia_flowers",
+      "createch2:offworld/flora/trees_rocky_reef"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [
+      {
+        "type": "tfc:octopoteuthis",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "tfc:tropical_fish",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 25
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "tfc:squid",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "tfc:dolphin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ]
+  },
+  "temperature": 0.8
+}

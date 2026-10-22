@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BB",
+    "TBB",
+    " TT"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "T": {
+      "tag": "c:plates/tin"
+    }
+  },
+  "result": {
+    "id": "tfmg:oil_can",
+    "count": 1
+  }
+}

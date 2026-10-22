@@ -1,0 +1,84 @@
+{
+  "type": "createch2core:arch",
+  "biomes": "#createch2:end_celestial_arch_biomes",
+  "config": {
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 64,
+      "max_inclusive": 220
+    },
+    "length": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 80,
+      "max_inclusive": 260
+    },
+    "thickness": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 30,
+      "min_inclusive": 10
+    },
+    "noise_frequency": {
+      "type": "minecraft:uniform",
+      "max_exclusive": 0.1,
+      "min_inclusive": 0.05
+    },
+    "palette": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:purpur_block"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:end_stone"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:obsidian"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "accents": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:amethyst_block"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:crying_obsidian"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:purpur_pillar"
+          },
+          "weight": 4
+        }
+      ]
+    },
+    "accent_chance": 0.4,
+    "replaceable": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:water",
+        "minecraft:lava"
+      ]
+    }
+  },
+  "spawn_overrides": {},
+  "step": "raw_generation"
+}

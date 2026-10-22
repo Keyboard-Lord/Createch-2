@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 20,
+    "heat": 20
+  },
+  "item": {
+    "items": [
+      "create:netherite_backtank"
+    ]
+  }
+}

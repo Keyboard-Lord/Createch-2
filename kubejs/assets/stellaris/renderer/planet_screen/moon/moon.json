@@ -1,0 +1,12 @@
+{
+  "texture": "stellaris:textures/environment/solar_system/moon.png",
+  "name": "Cosmonautics Moon",
+  "distance": 30,
+  "period": 2000,
+  "width": 6.0,
+  "height": 6.0,
+  "parent": "stellaris:earth",
+  "dimensionId": "rocketnautics:moon",
+  "translatable": "text.stellaris.planetscreen.moon",
+  "id": "stellaris:moon"
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "PFP",
+    "TPT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "F": {
+      "item": "modern_industrialization:clean_stainless_steel_machine_casing"
+    }
+  },
+  "result": {
+    "id": "gtceu:filter_casing",
+    "count": 4
+  }
+}

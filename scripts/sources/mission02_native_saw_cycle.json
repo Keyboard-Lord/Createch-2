@@ -1,0 +1,369 @@
+{
+  "truth": "REVIEWED_GREATE_SAW_PERSISTED_RECIPE_INDEX",
+  "nativeClasses": {
+    "saw": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlockEntity"
+    ],
+    "accessor": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinSawBlockEntityAccessor"
+    ],
+    "baseSaw": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlockEntity"
+    ],
+    "overlay": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.GreateSawRecipeCycleMixin"
+    ],
+    "overlayV": [
+      "createch2core.jar",
+      "createch2.core.mixin.compat.GreateSawRecipeCycleMixin",
+      "-v"
+    ],
+    "helper": [
+      "createch2core.jar",
+      "createch2.core.compat.SawRecipeCycle"
+    ],
+    "runtime": [
+      "createch2core.jar",
+      "createch2.core.CoreRuntimeValidation"
+    ]
+  },
+  "nativeCodeSha256": {
+    "saw": "122df7507678f2d2fb6ce9b5fbe043cf9e7d4bac09594327026674bbfa839a07",
+    "accessor": "9d4de5611cc977b1f265960492b2cfcbc3b35a5c53d31ad0b89ce83de750664f",
+    "baseSaw": "ec223c2745e4b53f1f24b94d6039b240a3ec04eb1d3a3f378c0f279ebb2dc7b7",
+    "overlay": "b688b23c822940de36aeda2a98d65e1aa71b93df1bac190cc2610653d302f852",
+    "overlayV": "3768e16a22c28a88d1b8863b0ec07881218e0b4033facc20dc067c4badbffbd6",
+    "helper": "18b72e7279aeee0e98b44eb891d4fc07c4e4cc659b12875e5010029b67898836",
+    "runtime": "9e304db8967b08de99835dadcca4a783cfd392753ac4526d85614f8c2ef111f0"
+  },
+  "coreDelta": {
+    "oldSha256": "e6d20f612d3cadd4e04b10644653d0eb04ca0c3c098e64eaa4c161a2508359fc",
+    "newSha256": "c44a3a0fb6543ec4b42e26a35d6c7198afb05d4b07315e5afdd83d3985ad2924",
+    "changed": [
+      "createch2/core/CoreRuntimeValidation.class",
+      "createch2core.mixins.json"
+    ],
+    "added": [
+      "createch2/core/compat/SawRecipeCycle.class",
+      "createch2/core/mixin/compat/GreateSawRecipeCycleMixin.class"
+    ],
+    "removed": [],
+    "unchangedFiles": 342
+  },
+  "coreMixinsBefore": {
+    "required": true,
+    "minVersion": "0.8",
+    "package": "createch2.core.mixin",
+    "plugin": "createch2.core.mixin.Createch2MixinConfigPlugin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+      "compat.FirmalifeCreativeTabsMixin",
+      "compat.ArchitecturyModDiscoveryMixin",
+      "compat.AvaritiaExtremeSmithingSchemaMixin",
+      "compat.GtceuInvalidBoilerFuelMixin",
+      "compat.GtceuSteamBoilerFuelMixin",
+      "compat.KubeJsRecipeDeletionSentinelMixin",
+      "compat.QuarkCreatureSpawnCategoryMixin",
+      "compat.ResearchTeamDataSnapshotMixin",
+      "compat.ResearchSingleTeamSnapshotMixin",
+      "compat.ResearchEffectDataSnapshotMixin",
+      "compat.ResearchTeamEffectDataSnapshotMixin",
+      "compat.ManualApplicationResearchMixin",
+      "compat.MiCrafterLongEnergyMixin",
+      "compat.ServerRecipeBookMixin",
+      "compat.StellarisRecipeResultMixin",
+      "compat.StellarisRocketFuelMixin",
+      "compat.TfmgCokingFluidOutputMixin",
+      "compat.TfmgCastingBatchMixin",
+      "compat.TfmgVatFluidNbtMixin",
+      "compat.TfmgVatPressureNbtMixin",
+      "compat.TfmgExhaustChimneyMixin",
+      "compat.ChimneyCeExhaustActivityMixin",
+      "compat.TfcRegistryDiscoveryMixin",
+      "compat.TfcDefinitionIngredientMixin",
+      "compat.RecipeSnapshotFoodCodecMixin",
+      "compat.TracksTagFileMixin",
+      "compat.TfcMetallumCreativeTabsMixin",
+      "compat.TfcRetiredBlastFurnaceMixin",
+      "compat.VillageSavedOffersMixin",
+      "compat.StructurePaletteMixin",
+      "compat.VillageCatSpawnerMixin",
+      "compat.StructurePiecePaletteMixin",
+      "compat.MineshaftSupportPaletteMixin",
+      "compat.MineshaftSavedStatesMixin",
+      "compat.DungeonCrawlPaletteMixins$Default",
+      "compat.DungeonCrawlPaletteMixins$Gardens",
+      "compat.DungeonCrawlPaletteMixins$Pots",
+      "compat.DungeonCrawlPaletteMixins$Piece",
+      "compat.DungeonCrawlPaletteMixins$Pillars",
+      "compat.DungeonCrawlPaletteMixins$Graves",
+      "compat.DungeonCrawlPaletteMixins$Stairs",
+      "compat.DungeonCrawlPaletteMixins$Sewers",
+      "compat.DungeonCrawlPaletteMixins$Crops",
+      "compat.DungeonCrawlPaletteMixins$Scattered",
+      "compat.DungeonCrawlPaletteMixins$Floors",
+      "compat.DungeonCrawlPaletteMixins$Vines",
+      "compat.DungeonCrawlPaletteMixins$Smoker",
+      "compat.DungeonCrawlPaletteMixins$Spawner",
+      "compat.MobEquipmentLootMixin",
+      "compat.DungeonMaterialLootMixin",
+      "compat.YungStructurePaletteMixin",
+      "compat.BetterDungeonsPaletteMixins$DirectChunks",
+      "compat.BetterDungeonsPaletteMixins$SurfaceStairs",
+      "compat.BetterDungeonsPaletteMixins$SpiderPieces",
+      "compat.BetterDungeonsPaletteMixins$SpiderDecor",
+      "compat.AncientCityPaletteMixin",
+      "compat.IntegratedApiStructurePaletteMixin",
+      "compat.IntegratedApiFloatingCleanupMixin",
+      "compat.BurntWaterGuardMixins$Spread",
+      "compat.BurntWaterGuardMixins$Ignition",
+      "food.CreateRecipeApplierFoodMixin",
+      "food.CreateHarvesterMixin",
+      "food.CraftingRecipeFoodMixin",
+      "food.SingleRecipeFoodMixin",
+      "food.FurnaceFoodMergeMixin",
+      "food.MekanismCraftingFoodMixin",
+      "food.MekanismFormulaTemplateMixin",
+      "food.AeRecipeTemplateMixin",
+      "food.AeCraftingFoodMixin",
+      "food.AeCraftingInputFoodMixin",
+      "food.AeStonecuttingFoodMixin",
+      "food.AeStonecuttingInputFoodMixin",
+      "food.AeSmithingFoodMixin",
+      "food.AeSmithingInputFoodMixin",
+      "food.AeProcessingFoodMixin",
+      "food.AeProcessingInputFoodMixin",
+      "food.AeFoodCatalogMixin",
+      "food.AeFoodLookupMixin",
+      "food.AeFoodCalculationMixin",
+      "food.AeFoodTreeNodeMixin",
+      "food.AeFoodTreeProcessMixin",
+      "food.AeFoodCpuMixin",
+      "food.AeFoodRequestMixin",
+      "food.AeCraftingTrackerAccessor",
+      "food.AeInterfaceFoodMixin",
+      "food.QioCraftingFoodMixin",
+      "food.QioOutputFoodMixin",
+      "food.QioRemainderFoodMixin",
+      "food.CreateMillstoneFoodMixin",
+      "food.CreateBulkProcessingFoodMixin",
+      "food.CreateProcessingOutputFoodMixin",
+      "food.CreateSpoutFoodMixin",
+      "food.CreateBasinFoodMixin",
+      "food.KitchenOvenFoodMixin",
+      "food.KitchenCraftingFoodMixin",
+      "food.NeuralFoodManufactureMixin",
+      "food.FoodDefaultsMixin",
+      "food.MekanismLiquifierFoodMixin",
+      "food.MekanismCanteenFoodMixin",
+      "food.MekanismPasteBucketFoodMixin",
+      "food.MekanismInjectionFoodMixin",
+      "food.MekanismCachedFoodMixin",
+      "food.MekanismConstantChemicalFoodMixin",
+      "food.MekanismReactionFoodMixin",
+      "food.EvilCraftFleshFoodMixin",
+      "food.MiCrafterFoodMixin",
+      "food.EiCanningFoodMixin",
+      "food.EiFarmerDropAdmissionMixin",
+      "food.EiFarmerLootContextMixin",
+      "food.EiFarmerFertilizerMixin",
+      "food.EiFarmerWaterMixin",
+      "food.EiFarmerHydrationMixin",
+      "food.TfcControlledHydrationMixin",
+      "food.EiFarmerPlantingMixin",
+      "food.TfcCropBlockAccessor",
+      "food.EiComposterRecipeAccessor",
+      "food.MiLegacyComposterRecipeMixin",
+      "food.HniFoodSelectionMixin",
+      "food.MiFoodLockAccessor",
+      "storage.FoodKeySnapshotMixin",
+      "storage.HeatKeySnapshotMixin",
+      "storage.AeItemKeySnapshotMixin",
+      "storage.AeGenericSlotFoodMixin",
+      "storage.AeInternalInventoryFoodMixin",
+      "storage.AeInternalStackFoodMixin",
+      "storage.MiItemVariantSnapshotMixin",
+      "storage.MekanismSlotFoodMixin",
+      "storage.MekanismPlayerSlotFoodMixin",
+      "storage.MekanismComponentSlotFoodMixin",
+      "storage.MekanismBinFoodMixin",
+      "storage.MekanismHashedItemSnapshotMixin",
+      "storage.NestedFoodKeyComparisonMixin",
+      "storage.ItemContainerContentsAccessor",
+      "storage.BundleContentsAccessor",
+      "storage.BackpackPhysicalityMixin",
+      "storage.ToolBeltPhysicalityMixin",
+      "storage.ToolBeltCapabilityMixin",
+      "environment.FallPhysicsLandingMixin",
+      "environment.HorseCrankBlockMixin",
+      "environment.HorseCrankTileEntityMixin",
+      "environment.FallPhysicsParachuteMixin",
+      "environment.FallRagdollMixins$FallStateOwner",
+      "environment.FallRagdollMixins$Launch",
+      "environment.FallRagdollMixins$Impact",
+      "environment.FallRagdollMixins$Crash",
+      "environment.MekanismRadiationManagerMixin",
+      "environment.TfcBurntFireMixins$Firepit",
+      "environment.TfcBurntFireMixins$Forge",
+      "environment.TfcBurntFireMixins$PitKiln",
+      "environment.TfcBurntFireMixins$LogPile",
+      "environment.TfcFireboxPollutionMixin",
+      "performance.SubLevelPhysicsSystemMixin",
+      "compat.JdtExtraTickLifecycleMixin",
+      "compat.VanillaRegistryLookupMixin",
+      "compat.SupernaturalVanillaPresetMixin",
+      "compat.ProjectEExchangeTaxMixins$QuickMove",
+      "compat.ProjectEExchangeTaxMixins$ConsumeSlot",
+      "compat.DigitalMinerDimensionMixin",
+      "compat.ParadoxEntityIdentityMixin",
+      "compat.VanillaElytraDimensionMixin",
+      "compat.MiReplicatorStorageCellMixin",
+      "compat.TravelAnchorArrivalMixin",
+      "compat.GreateSplashingFluidInputMixin",
+      "compat.GreateBasinFluidBindingMixin",
+      "compat.BasinFluidCapabilityAccessor"
+    ],
+    "client": [
+      "compat.client.VeilCclShaderResourceMixin",
+      "compat.client.MoonlightAtlasStackMixin",
+      "compat.client.SupplementariesTfcSignTextureMixin",
+      "compat.client.CartoucheSubtypeMixin",
+      "compat.client.StargateSubtypeMixin",
+      "compat.client.TfmgCokingCategoryMixin",
+      "compat.client.EmiReloadStateAccess",
+      "compat.client.EmiReloadLifecycleMixin",
+      "compat.client.EmiReloadWorkerMixin",
+      "compat.client.EmiSearchLifecycleMixin",
+      "compat.client.PhantomSpriteLifecycleMixin",
+      "compat.client.PhantomSpriteManagerMixin",
+      "compat.client.DistractionFreeLabelsMixin",
+      "compat.client.FtbQuestEmiHelperMixin",
+      "compat.client.FtbQuestEmiViewMixin",
+      "environment.client.FallPresentationMixins$Camera",
+      "environment.client.FallPresentationMixins$Body",
+      "environment.client.FallPresentationMixins$Limbs",
+      "compat.client.CookingPotEmiInputsMixin",
+      "compat.client.CookingPotEmiTransferMixin",
+      "compat.client.EmptyResourceLocationMixin",
+      "compat.client.PotatoCannonTooltipMixin",
+      "compat.client.RegionsFoodCreativeTabsMixin",
+      "environment.client.FallPhysicsClientControllerMixin",
+      "performance.client.IngredientManagerBuilderMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  },
+  "mixinName": "compat.GreateSawRecipeCycleMixin",
+  "selectionProgram": [
+    {
+      "address": 101,
+      "op": "aload_0",
+      "argument": ""
+    },
+    {
+      "address": 102,
+      "op": "checkcast",
+      "argument": "#259"
+    },
+    {
+      "address": 105,
+      "op": "invokeinterface",
+      "argument": "#440,  1",
+      "call": "getRecipeIndex:()I"
+    },
+    {
+      "address": 110,
+      "op": "istore",
+      "argument": "5"
+    },
+    {
+      "address": 112,
+      "op": "iload_3",
+      "argument": ""
+    },
+    {
+      "address": 113,
+      "op": "ifeq",
+      "argument": "140"
+    },
+    {
+      "address": 116,
+      "op": "iinc",
+      "argument": "5, 1"
+    },
+    {
+      "address": 119,
+      "op": "iload",
+      "argument": "5"
+    },
+    {
+      "address": 121,
+      "op": "aload_2",
+      "argument": ""
+    },
+    {
+      "address": 122,
+      "op": "invokeinterface",
+      "argument": "#427,  1",
+      "call": "size:()I"
+    },
+    {
+      "address": 127,
+      "op": "if_icmplt",
+      "argument": "140"
+    },
+    {
+      "address": 130,
+      "op": "aload_0",
+      "argument": ""
+    },
+    {
+      "address": 131,
+      "op": "checkcast",
+      "argument": "#259"
+    },
+    {
+      "address": 134,
+      "op": "iconst_0",
+      "argument": ""
+    },
+    {
+      "address": 135,
+      "op": "invokeinterface",
+      "argument": "#557,  2",
+      "call": "setRecipeIndex:(I)V"
+    },
+    {
+      "address": 140,
+      "op": "aload_2",
+      "argument": ""
+    },
+    {
+      "address": 141,
+      "op": "aload_0",
+      "argument": ""
+    },
+    {
+      "address": 142,
+      "op": "checkcast",
+      "argument": "#259"
+    },
+    {
+      "address": 145,
+      "op": "invokeinterface",
+      "argument": "#440,  1",
+      "call": "getRecipeIndex:()I"
+    },
+    {
+      "address": 150,
+      "op": "invokeinterface",
+      "argument": "#431,  2",
+      "call": "get:(I)Ljava/lang/Object;"
+    }
+  ]
+}

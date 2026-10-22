@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tantalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:tantalum_plate"
+    }
+  ]
+}

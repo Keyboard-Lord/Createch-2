@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 3
+    },
+    {
+      "structure": "idas:apothecary_abode",
+      "weight": 2
+    },
+    {
+      "structure": "idas:haunted_manor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480683,
+    "spacing": 96,
+    "separation": 56,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 5,
+      "other_set": "#idas:common_avoid"
+    }
+  }
+}

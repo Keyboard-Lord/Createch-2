@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "createch2:entities/vampirism_advanced_hunter_safe"
+        }
+      ]
+    }
+  ]
+}

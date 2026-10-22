@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:advanced_item_output_hatch"
+    }
+  ],
+  "result": {
+    "id": "modern_industrialization:advanced_item_input_hatch",
+    "count": 1
+  }
+}

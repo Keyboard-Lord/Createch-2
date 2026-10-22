@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = createch2_planet_space
+  speed = 0.06
+  fov = 96.0
+  angle = 0.0
+  start_rotation = 0.0
+}

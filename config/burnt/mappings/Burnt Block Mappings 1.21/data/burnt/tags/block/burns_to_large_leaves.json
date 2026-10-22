@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:palm_leaves",
+      "required": false
+    },
+    {
+      "id": "yourmod:giant_jungle_leaves",
+      "required": false
+    }
+  ]
+}

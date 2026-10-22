@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "ICI",
+    "LSL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "S": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "C": {
+      "item": "stellaris:rocket_station"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:sputnik",
+    "count": 1
+  }
+}

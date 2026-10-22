@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "create:golden_sheet",
+      "amount": 1
+    },
+    {
+      "item": "create:electron_tube",
+      "amount": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "amount": 2
+    },
+    {
+      "item": "create:precision_mechanism",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 72
+  },
+  "item_outputs": [
+    {
+      "item": "create_connected:control_chip",
+      "amount": 1
+    }
+  ]
+}

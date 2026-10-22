@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:rolling",
+  "key": {
+    "C": {
+      "item": "railcraft:coke_oven_bricks"
+    },
+    "S": {
+      "item": "railcraft:steel_plate"
+    },
+    "M": {
+      "item": "minecraft:minecart"
+    },
+    "R": {
+      "item": "railcraft:standard_rail"
+    }
+  },
+  "pattern": [
+    "C C",
+    "SMS",
+    "R R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "railcraft:frame"
+  }
+}

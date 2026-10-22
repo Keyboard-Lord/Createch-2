@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/blutonium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/blutonium",
+    "amount": 50
+  },
+  "temperature": 1500,
+  "use_durability": false
+}

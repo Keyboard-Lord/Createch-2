@@ -1,0 +1,144 @@
+{
+  "truth": "REVIEWED_NATIVE_OCCULTISM_FIRST_SUPPLIERS",
+  "nativeJars": {
+    "occultism-1.21.1-neoforge-1.224.5.jar": "d08b1c776221a32190ec09878b10fac9c19582d4173a8c0b3f25e8f6bccbd44d",
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440",
+    "malum-1.21.1-1.8.2.jar": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8",
+    "FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "animaltraptfc-1.21.1-neoforge-1.0.3.jar": "997c08f4122de30979abd0a172c5afc7ecf2928a39d808639f43e9f9bc9f2ea4"
+  },
+  "classes": {
+    "grove": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.level.cave.UndergroundGroveDecorator",
+      "sha256": "1b9478f9e6433c1ce870d61d0b06e9a3100d726747de63bd19b19e6d18694b10"
+    },
+    "cave": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.level.cave.CaveDecorator",
+      "sha256": "17f395b7ba9d3200500134cb6962a269ee61bfcfeb1720587a1d40cc0faff074"
+    },
+    "sphere": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.level.cave.SphericalCaveSubFeature",
+      "sha256": "7e24531d9826aace729d68479f9f1eee9e160f4eec5668cb5a57da5d3d6bfcb6"
+    },
+    "multi": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.level.multichunk.MultiChunkFeature",
+      "sha256": "8c4fcf284f4534c1011fe4a6594c39cb4b3eeec3b675eed6d2ae11a2fe0568de"
+    },
+    "features": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.registry.OccultismFeatures",
+      "sha256": "51e2d179c47375d7802baa25f2f509323d16e4d2b970506b7b6dbd2922fec708"
+    },
+    "lootAdd": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.loot.AddItemModifier",
+      "sha256": "d459f1c78a4a076b685414f18df5207c26be55c45a8244e7a4bb56975e553547"
+    },
+    "crop": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.block.crops.ReplantableCropsBlock",
+      "sha256": "2ec1fb93f1f62dcb06e9c71ecd63e22a544a83b7b9f2643c9bacc5a3b05482f6"
+    },
+    "playerEvents": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.handlers.PlayerEventHandler",
+      "sha256": "5db5883337ba2d9687001ab9153049420c22a47a2a791a0acbba1eede049e821"
+    },
+    "spiritFire": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.common.block.SpiritFireBlock",
+      "sha256": "25b361e48f8d753cc10ead7dc03b451c8177cd88ee371f7059ea35b015caf891"
+    },
+    "binding": {
+      "jar": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "class": "com.klikli_dev.occultism.crafting.recipe.BoundBookOfBindingRecipe",
+      "sha256": "52a6d54e6fc6c196f20e02dcf00601d7394f50274012fdd050554cdfb2a1cc72"
+    },
+    "tfcHoe": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.items.TFCHoeItem",
+      "sha256": "392e2bd367f3e535ed960a08733dcc1f1b2611b48b462eba2d8dc5af05e65386"
+    },
+    "stoneTypes": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.rock.RockCategory$ItemType",
+      "sha256": "56f19aa61c0743def6b4096e28cf82cfe631d166bdff981cb2830b93083bac23"
+    },
+    "mcCrop": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.level.block.CropBlock",
+      "sha256": "ccb7e1fc9effd1dceca95f49084f5f359fbd814eb7cfc328529dc7bd47685613"
+    },
+    "mcHoe": {
+      "jar": "@minecraft",
+      "class": "net.minecraft.world.item.HoeItem",
+      "sha256": "99c556574ce48f2e0b7d5a677c18e4b48a30449cf840a51f4e01a4a0cf2b8749"
+    },
+    "blockExtension": {
+      "jar": "@minecraft",
+      "class": "net.neoforged.neoforge.common.extensions.IBlockExtension",
+      "sha256": "3491abd4c8dece66f152a2303a2c3fa1d3a5a3cb303de7e929918e044dc13d59"
+    },
+    "cuttingBoard": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.block.CuttingBoardBlock",
+      "sha256": "58bcd52b0a81c380de0aee436375eb44d6c8e1bfe4859fffe30f32c6e2f477ac"
+    },
+    "cuttingEntity": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity",
+      "sha256": "8c550da5a84f887a8285b9bb5da25ef5fbafa6659ad4c51534534af3bc76501f"
+    },
+    "cuttingRecipe": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe",
+      "sha256": "7bde343d20aff31b9e2dd3e28be59cc37749479013e7bdb01017ce11b29b7e1e"
+    },
+    "chanceResult": {
+      "jar": "FarmersDelight-1.21.1-1.3.4.jar",
+      "class": "vectorwing.farmersdelight.common.crafting.ingredient.ChanceResult",
+      "sha256": "3505c3241ba5eff34e260257ae7512c9aaba38b6fdc4a4896ae9c60c0f431b37"
+    },
+    "notRotten": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.ingredients.NotRottenIngredient",
+      "sha256": "744576807ade8b1f3dd854de2e260a9c5a3ef9cf253950f20220c5f8613ec19c"
+    }
+  },
+  "modifier": "occultism:add_grove_underground",
+  "biomeTag": "createch2:occultism_grove_biomes",
+  "selectedBiome": "tfc:plains",
+  "newSpiritResource": "createch2:tfc_quail",
+  "nativeSpiritReference": "malum:chicken",
+  "worldFiles": [
+    "kubejs/data/occultism/neoforge/biome_modifier/add_grove_underground.json",
+    "kubejs/data/createch2/tags/worldgen/biome/occultism_grove_biomes.json",
+    "kubejs/data/createch2/spirit_data/entity/tfc_quail.json"
+  ],
+  "restoredNativeRecipe": "occultism:crafting/dictionary_of_spirits",
+  "preservedDiscovery": "createch2:magic_research/discover/occultism",
+  "selectedConversions": [
+    "taboo_book",
+    "awakened_feather",
+    "purified_ink",
+    "book_of_binding_empty",
+    "otherstone",
+    "chalk_white",
+    "chalk_purple",
+    "chalk_light_gray",
+    "chalk_lime",
+    "otherworld_ashes",
+    "otherworld_sapling_natural"
+  ],
+  "biomeTagPath": "kubejs/data/createch2/tags/worldgen/biome/occultism_grove_biomes.json",
+  "biomeTagDefinition": {
+    "replace": false,
+    "values": [
+      "tfc:plains"
+    ]
+  }
+}

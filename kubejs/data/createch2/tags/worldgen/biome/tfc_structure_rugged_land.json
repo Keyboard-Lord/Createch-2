@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:hills",
+    "tfc:highlands",
+    "tfc:mountains",
+    "tfc:old_mountains",
+    "tfc:collisional_mountains",
+    "tfc:rocky_plateau",
+    "tfc:plateau",
+    "tfc:buttes",
+    "tfc:canyons",
+    "tfc:low_canyons",
+    "tfc:whorled_canyons",
+    "tfc:stair_step_canyons",
+    "tfc:setback_cliffs",
+    "tfc:badlands",
+    "tfc:mesas",
+    "tfc:hoodoos"
+  ]
+}

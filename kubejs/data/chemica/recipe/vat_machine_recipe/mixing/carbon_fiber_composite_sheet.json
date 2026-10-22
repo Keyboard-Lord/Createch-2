@@ -1,0 +1,28 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "item": "chemica:carbon_fiber_strands"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "chemica:epoxy_resin"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "id": "chemica:carbon_fiber_composite_sheet"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

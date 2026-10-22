@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:plains",
+    "tfc:lowlands",
+    "tfc:rolling_hills",
+    "tfc:plateau_wide",
+    "tfc:terrace_lower",
+    "tfc:terrace_upper",
+    "tfc:river_valley",
+    "tfc:grassy_dunes"
+  ]
+}

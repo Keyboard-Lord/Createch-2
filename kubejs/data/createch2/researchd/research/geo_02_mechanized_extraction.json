@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:electric_quarry"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:geological_surveys",
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:geo_01_field_geology",
+    "createch2:mec_02_automated_manipulation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.geo_02_mechanized_extraction.title"
+    },
+    "desc": {
+      "translate": "research.createch2.geo_02_mechanized_extraction.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:logistics_mining/age_08/mi_electric_quarry",
+      "createch2:mining_machine/mi/bulk_terra_strata",
+      "createch2:research/pack/geological_surveys_crushing",
+      "greate:integration/createch2/research/pack/geological_surveys_crushing",
+      "greate:integration/createch_2_/research/pack/geological_surveys_crushing"
+    ]
+  }
+}

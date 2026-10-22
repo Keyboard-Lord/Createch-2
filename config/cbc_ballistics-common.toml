@@ -1,0 +1,3 @@
+["Common configs for CBC_Ballistics"]
+	#Maximum range for rangefinder (Increasing this value will lag servers)
+	"Maximum rangefinder range in blocks" = 640

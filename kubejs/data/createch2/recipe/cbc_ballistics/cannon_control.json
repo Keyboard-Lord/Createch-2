@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RTS",
+    "SPG",
+    "ABA"
+  ],
+  "key": {
+    "R": {
+      "item": "create:redstone_contact"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "S": {
+      "item": "greate:steel_shaft"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "G": {
+      "item": "greate:steel_gearbox"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "cbc_ballistics:cannon_control",
+    "count": 1
+  }
+}

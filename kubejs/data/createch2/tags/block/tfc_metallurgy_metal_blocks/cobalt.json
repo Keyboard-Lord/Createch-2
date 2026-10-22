@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/cobalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/cobalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/cobalt",
+      "required": false
+    }
+  ]
+}

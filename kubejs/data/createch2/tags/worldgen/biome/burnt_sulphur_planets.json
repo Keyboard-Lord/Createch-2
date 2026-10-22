@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:venus_volcanic_crater",
+    "createch2:venus_yellowstone",
+    "createch2:venus_caldera",
+    "createch2:venus_inferno",
+    "createch2:venus_scorching_caves",
+    "createch2:tollan_caldera",
+    "createch2:tollan_inferno",
+    "createch2:tollan_scorching_caves"
+  ]
+}

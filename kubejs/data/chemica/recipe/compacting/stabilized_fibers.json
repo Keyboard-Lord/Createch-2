@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:oxygen"
+    },
+    {
+      "item": "chemica:pan_fibers"
+    },
+    {
+      "item": "chemica:pan_fibers"
+    }
+  ],
+  "results": [
+    {
+      "id": "chemica:stabilized_fibers"
+    }
+  ]
+}

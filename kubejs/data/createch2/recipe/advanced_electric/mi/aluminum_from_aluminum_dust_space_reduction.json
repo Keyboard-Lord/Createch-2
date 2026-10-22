@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 32,
+  "duration": 1600,
+  "item_inputs": [
+    {
+      "amount": 1,
+      "tag": "c:dusts/aluminum"
+    },
+    {
+      "amount": 1,
+      "item": "stellaris:desh_ingot"
+    },
+    {
+      "amount": 1,
+      "item": "tfmg:coal_coke"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "tfmg:aluminum_ingot"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:paper_lantern",
+      "required": false
+    },
+    {
+      "id": "yourmod:hanging_vines_decor",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create_aeronautics_automated_logistics:airship_station"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:logistics_reports",
+      "createch2:computational_models",
+      "createch2:material_specimens"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:spc_10_booster_systems",
+    "createch2:log_04_extraplanetary_logistics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_11_reusable_orbital_transport.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_11_reusable_orbital_transport.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:cosmonautics/mechanisms/vector_thruster",
+      "createch2:factory_scaling/aerospace/vector_thruster_batch"
+    ]
+  }
+}

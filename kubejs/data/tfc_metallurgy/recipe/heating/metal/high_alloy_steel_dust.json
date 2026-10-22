@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_dusts/high_alloy_steel"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/high_alloy_steel",
+    "amount": 5
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

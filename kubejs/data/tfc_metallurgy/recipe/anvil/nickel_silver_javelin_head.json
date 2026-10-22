@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/javelin_head/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "draw_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "apply_bonus": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:buried_treasure",
+  "biomes": "#minecraft:has_structure/buried_treasure",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "bury",
+  "probability": 0.0
+}

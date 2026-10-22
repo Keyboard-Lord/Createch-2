@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "BAB",
+    "WCW"
+  ],
+  "key": {
+    "T": {
+      "item": "tfmg:transistor_item"
+    },
+    "G": {
+      "item": "tfc:gem/sapphire"
+    },
+    "B": {
+      "item": "modern_industrialization:electronic_circuit_board"
+    },
+    "A": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "W": {
+      "item": "electroenergetics:insulated_wire"
+    },
+    "C": {
+      "item": "tfmg:capacitor_item"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:electronic_circuit",
+    "count": 1
+  }
+}

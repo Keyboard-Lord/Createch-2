@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:steam"
+    }
+  ],
+  "results": [
+    {
+      "id": "chemica:steam_bucket"
+    }
+  ]
+}

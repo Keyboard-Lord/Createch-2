@@ -1,0 +1,60 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "stellaris:jet_suit_chestplate"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:propulsion_telemetry",
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:spc_05_planetary_operations",
+    "createch2:mat_03_space_aluminum",
+    "createch2:pre_02_machine_instrumentation"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.spc_06_advanced_space_hardware.title"
+    },
+    "desc": {
+      "translate": "research.createch2.spc_06_advanced_space_hardware.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:advanced_electric/mi/advanced_machine_casing_space_aluminum",
+      "createch2:advanced_electric/mi/advanced_machine_hull_space_aluminum",
+      "createch2:advanced_electric/mi/advanced_motor_lubricated_assembly",
+      "createch2:advanced_electric/mi/advanced_pump_lubricated_assembly",
+      "createch2:factory_scaling/components/advanced_motor_batch",
+      "createch2:factory_scaling/components/advanced_pump_batch",
+      "createch2:factory_scaling/components/mi_large_motor_batch",
+      "createch2:factory_scaling/components/mi_large_pump_batch",
+      "createch2:material_recycling/mi_motion/advanced_motor",
+      "createch2:material_recycling/mi_motion/advanced_pump",
+      "createch2:material_recycling/mi_hull/advanced_machine_casing",
+      "createch2:material_recycling/mi_hull/advanced_machine_hull",
+      "createch2:material_recycling/mi_process/large_motor",
+      "createch2:material_recycling/mi_process/large_pump",
+      "createch2:material_recycling/mi_process/chemical_reactor",
+      "createch2:material_recycling/mi_process/electrolyzer",
+      "createch2:material_recycling/mi_process/distillery",
+      "createch2:material_recycling/mi_process/oil_drilling_rig",
+      "createch2:material_recycling/mi_process/centrifuge"
+    ]
+  }
+}

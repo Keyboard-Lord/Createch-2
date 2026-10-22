@@ -1,0 +1,114 @@
+#.
+#Parameters and abilities of CROWNS's kinetic mechanisms
+[kinetics]
+
+	#.
+	#.
+	#Fine tune the parameters of turbine stages
+	[kinetics.turbineValues]
+		#.
+		#turbine capacity factor
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		turbineCoefficient = 1.0
+		#.
+		#turbine yield
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		turbineIsentropicYield = 1.0
+		#.
+		#Doesn't allow pressure to go lower than this value
+		# Default: 2000.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		turbineLowPressureBound = 2000.0
+		#.
+		#In some cases lag can prevent a continuous flow, make the turbine ignore the overflow and run at constant flow. WARNING does allow some exploits
+		overflowIgnored = false
+		#.
+		#turbine speed
+		# Default: 256
+		# Range: > 1
+		turbineSpeed = 256
+
+	#.
+	#Fine tune the parameters of the compressor
+	[kinetics.compressorValues]
+		#.
+		#compressor yield
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		turbineIsentropicYield = 1.0
+		#.
+		#q_ref in : deltaP = P_ref * (w/w_ref)**2 * (1- (q/q_ref)**2)
+		# Default: 512.0
+		# Range: 1.0 ~ 3.4028234663852886E38
+		compressorFlowRef = 512.0
+		#.
+		#P_ref in : deltaP = P_ref * (w/w_ref)**2 * (1- (q/q_ref)**2)
+		# Default: 1000000.0
+		# Range: 1.0 ~ 3.4028234663852886E38
+		compressorPressureRef = 1000000.0
+		#.
+		#w_ref in : deltaP = P_ref * (w/w_ref)**2 * (1- (q/q_ref)**2)
+		# Default: 64.0
+		# Range: 1.0 ~ 3.4028234663852886E38
+		compressorSpeedRef = 64.0
+
+#.
+#Parameter and constants for nuclear reactors
+[nuclear_v2]
+	#.
+	#.
+	#activate explosion
+	explosion = false
+	#.
+	#the maximum distance for radiation influence on fission, the bigger the range,the better big reactor will perform. Huge performance impact don't make it higher than 10
+	# Default: 4.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	radiationRange = 4.0
+	#.
+	# decrease it to make reactor less reactive, control how much neutron each fission gives out (neutronFluxMultiplicator * 2.5)
+	# Default: 0.800000011920929
+	# Range: 0.0 ~ 3.4028234663852886E38
+	neutronFluxMultiplicator = 0.800000011920929
+	#.
+	#increase it to decrease the temperature, make neutron less likely to impact when temperature is higher ((temperature - 200) * negativeThermalCoef)
+	# Default: 0.007499999832361937
+	# Range: 0.0 ~ 3.4028234663852886E38
+	negativeThermalCoef = 0.007499999832361937
+
+#.
+#How heat is transferred. Changes can create instability and world corruption, HERE BE DRAGONS 
+[thermal]
+
+	#.
+	#.
+	#Configure the conduction coefficient
+	[thermal.conductionValues]
+		#.
+		#conduction coefficient between the heat exchanger and the exterior
+		# Default: 50000.0
+		# Range: 0.0 ~ 100000.0
+		heatExchangerExternal = 50000.0
+		#.
+		#conduction coefficient between the heat exchanger and the water flowing through it
+		# Default: 500000.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		heatExchangerInternal = 500000.0
+		#.
+		#the heating of water happen by step, increase this to multiply the number of step and increase the precision (also slow down your computer of course)
+		# Default: 1
+		# Range: > 1
+		heatExchangerIterations = 1
+		#.
+		#conduction coefficient between the assembly block and the exterior
+		# Default: 50000.0
+		# Range: 0.0 ~ 100000.0
+		assemblyBlock = 50000.0
+
+	#.
+	#gameplay config related to temperature
+	[thermal.gameplay]
+		#.
+		#does heat inflict damage (too cold you freeze, too hot you're on fire)
+		heatDamage = true

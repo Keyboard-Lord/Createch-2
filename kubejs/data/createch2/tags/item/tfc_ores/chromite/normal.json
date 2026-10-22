@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "firmalife:ore/normal_chromite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/andesite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/basalt",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/chalk",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/chert",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/claystone",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/dacite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/diorite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/dolomite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/gabbro",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/gneiss",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/granite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/limestone",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/marble",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/phyllite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/quartzite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/schist",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/shale",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/slate",
+      "required": false
+    },
+    {
+      "id": "firmalife:ore/normal_chromite/tuff",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:forestry/trunks/tfc_logging",
+    "#createch2:compatibility/tfc_logs_that_log"
+  ]
+}

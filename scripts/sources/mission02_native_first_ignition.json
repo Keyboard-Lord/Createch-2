@@ -1,0 +1,2546 @@
+{
+  "loader": "21.1.256",
+  "nativeClasses": {
+    "master": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity"
+    ],
+    "hatch": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlockEntity"
+    ],
+    "menu": [
+      "@minecraft",
+      "net.minecraft.world.inventory.StonecutterMenu"
+    ],
+    "recipe": [
+      "@minecraft",
+      "net.minecraft.world.item.crafting.StonecutterRecipe"
+    ],
+    "singleItem": [
+      "@minecraft",
+      "net.minecraft.world.item.crafting.SingleItemRecipe"
+    ],
+    "slot": [
+      "@minecraft",
+      "net.minecraft.world.inventory.StonecutterMenu$2"
+    ]
+  },
+  "nativeCodeSha256": {
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "hatch": "e255850fcd09e066e7c44d42fb7b956ef966ddef92459e0562bd9fafaa701e74",
+    "menu": "3646cf2886a53e518c24eacc1cdf37eb92faa426337099884bed5b9860c6f80c",
+    "recipe": "2ba1fcaa878add6ecb26cd1975ca847a961adef15b3f5f5ed6e21fc213048178",
+    "singleItem": "aeea15da84c4edc3b4b5d1349eea65aad7c63ceb31abe08e2a9b3e282c2b9a06",
+    "slot": "f5fdfd14cd823676e317c97b4d104c97240584f63e97ac40792f172861f7e989"
+  },
+  "ids": {
+    "rebar": "tfmg:rebar_from_ingots_steel_stonecutting",
+    "ignition": "minecraft:flint_and_steel",
+    "bow": "burnt_additions:flint_bow"
+  },
+  "recipes": {
+    "tfmg:rebar_from_ingots_steel_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "tag": "c:ingots/steel"
+      },
+      "result": {
+        "count": 2,
+        "id": "tfmg:rebar"
+      }
+    },
+    "minecraft:flint_and_steel": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "c:rods/steel"
+        },
+        {
+          "item": "minecraft:flint"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:flint_and_steel"
+      }
+    },
+    "burnt_additions:flint_bow": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "pattern": [
+        " ab",
+        "a c",
+        " ab"
+      ],
+      "key": {
+        "a": {
+          "item": "minecraft:iron_ingot"
+        },
+        "b": {
+          "item": "minecraft:string"
+        },
+        "c": {
+          "item": "minecraft:flint_and_steel"
+        }
+      },
+      "result": {
+        "id": "burnt_additions:flint_bow",
+        "count": 1
+      }
+    }
+  },
+  "nativeRows": {
+    "tfmg:rebar_from_ingots_steel_stonecutting": [
+      {
+        "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+        "data": {
+          "type": "minecraft:stonecutting",
+          "ingredient": {
+            "tag": "c:ingots/steel"
+          },
+          "result": {
+            "count": 2,
+            "id": "tfmg:rebar"
+          }
+        }
+      }
+    ],
+    "minecraft:flint_and_steel": [
+      {
+        "provider": "neoforge-21.1.256-universal.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "equipment",
+          "ingredients": [
+            {
+              "tag": "c:ingots/iron"
+            },
+            {
+              "item": "minecraft:flint"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:flint_and_steel"
+          }
+        }
+      },
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "ingredients": [
+            {
+              "tag": "c:rods/steel"
+            },
+            {
+              "item": "minecraft:flint"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:flint_and_steel"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "equipment",
+          "ingredients": [
+            {
+              "item": "minecraft:iron_ingot"
+            },
+            {
+              "item": "minecraft:flint"
+            }
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:flint_and_steel"
+          }
+        }
+      }
+    ],
+    "burnt_additions:flint_bow": [
+      {
+        "provider": "burnt-1.10.5.2-neoforge-1.21.1.jar!META-INF/jarjar/burnt_additions-0.1.4-neoforge-1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "pattern": [
+            " ab",
+            "a c",
+            " ab"
+          ],
+          "key": {
+            "a": {
+              "item": "minecraft:iron_ingot"
+            },
+            "b": {
+              "item": "minecraft:string"
+            },
+            "c": {
+              "item": "minecraft:flint_and_steel"
+            }
+          },
+          "result": {
+            "id": "burnt_additions:flint_bow",
+            "count": 1
+          }
+        }
+      }
+    ]
+  },
+  "gasBanks": [
+    [
+      44,
+      6,
+      3
+    ],
+    [
+      46,
+      6,
+      3
+    ],
+    [
+      48,
+      6,
+      3
+    ],
+    [
+      50,
+      6,
+      3
+    ],
+    [
+      52,
+      6,
+      3
+    ],
+    [
+      54,
+      6,
+      3
+    ],
+    [
+      56,
+      6,
+      3
+    ],
+    [
+      58,
+      6,
+      3
+    ],
+    [
+      60,
+      6,
+      3
+    ],
+    [
+      62,
+      6,
+      3
+    ],
+    [
+      64,
+      6,
+      3
+    ],
+    [
+      66,
+      6,
+      3
+    ],
+    [
+      68,
+      6,
+      3
+    ],
+    [
+      70,
+      6,
+      3
+    ],
+    [
+      72,
+      6,
+      3
+    ],
+    [
+      74,
+      6,
+      3
+    ],
+    [
+      76,
+      6,
+      3
+    ],
+    [
+      78,
+      6,
+      3
+    ],
+    [
+      80,
+      6,
+      3
+    ],
+    [
+      82,
+      6,
+      3
+    ],
+    [
+      84,
+      6,
+      3
+    ],
+    [
+      86,
+      6,
+      3
+    ],
+    [
+      88,
+      6,
+      3
+    ],
+    [
+      90,
+      6,
+      3
+    ],
+    [
+      92,
+      6,
+      3
+    ],
+    [
+      94,
+      6,
+      3
+    ],
+    [
+      96,
+      6,
+      3
+    ],
+    [
+      98,
+      6,
+      3
+    ],
+    [
+      100,
+      6,
+      3
+    ],
+    [
+      102,
+      6,
+      3
+    ],
+    [
+      104,
+      6,
+      3
+    ],
+    [
+      106,
+      6,
+      3
+    ],
+    [
+      108,
+      6,
+      3
+    ],
+    [
+      110,
+      6,
+      3
+    ],
+    [
+      112,
+      6,
+      3
+    ],
+    [
+      114,
+      6,
+      3
+    ]
+  ],
+  "co2Banks": [
+    [
+      8,
+      0,
+      10
+    ],
+    [
+      10,
+      0,
+      10
+    ],
+    [
+      12,
+      0,
+      10
+    ],
+    [
+      14,
+      0,
+      10
+    ],
+    [
+      16,
+      0,
+      10
+    ],
+    [
+      18,
+      0,
+      10
+    ],
+    [
+      20,
+      0,
+      10
+    ],
+    [
+      22,
+      0,
+      10
+    ],
+    [
+      24,
+      0,
+      10
+    ],
+    [
+      26,
+      0,
+      10
+    ]
+  ],
+  "networks": {
+    "air": [
+      [
+        0,
+        4,
+        3
+      ],
+      [
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        6,
+        3
+      ],
+      [
+        1,
+        6,
+        3
+      ],
+      [
+        2,
+        6,
+        3
+      ],
+      [
+        3,
+        6,
+        3
+      ],
+      [
+        4,
+        6,
+        3
+      ],
+      [
+        5,
+        6,
+        3
+      ],
+      [
+        6,
+        2,
+        3
+      ],
+      [
+        6,
+        3,
+        3
+      ],
+      [
+        6,
+        4,
+        3
+      ],
+      [
+        6,
+        5,
+        3
+      ],
+      [
+        6,
+        6,
+        3
+      ],
+      [
+        7,
+        0,
+        3
+      ],
+      [
+        7,
+        1,
+        3
+      ],
+      [
+        7,
+        2,
+        3
+      ]
+    ],
+    "creosote": [
+      [
+        -13,
+        1,
+        4
+      ],
+      [
+        -13,
+        2,
+        4
+      ],
+      [
+        -13,
+        3,
+        4
+      ],
+      [
+        -13,
+        4,
+        4
+      ],
+      [
+        -13,
+        5,
+        4
+      ],
+      [
+        -13,
+        6,
+        4
+      ],
+      [
+        -13,
+        7,
+        4
+      ],
+      [
+        -13,
+        8,
+        4
+      ],
+      [
+        -13,
+        9,
+        4
+      ],
+      [
+        -13,
+        10,
+        4
+      ],
+      [
+        -12,
+        10,
+        4
+      ],
+      [
+        -11,
+        10,
+        4
+      ],
+      [
+        -10,
+        10,
+        4
+      ],
+      [
+        -9,
+        10,
+        4
+      ],
+      [
+        -8,
+        10,
+        4
+      ],
+      [
+        -7,
+        10,
+        4
+      ],
+      [
+        -6,
+        10,
+        4
+      ],
+      [
+        -5,
+        10,
+        4
+      ],
+      [
+        -4,
+        10,
+        4
+      ],
+      [
+        -3,
+        10,
+        4
+      ],
+      [
+        -2,
+        10,
+        4
+      ],
+      [
+        -1,
+        10,
+        4
+      ],
+      [
+        0,
+        10,
+        4
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        2,
+        10,
+        4
+      ],
+      [
+        3,
+        10,
+        4
+      ],
+      [
+        4,
+        10,
+        4
+      ],
+      [
+        5,
+        10,
+        4
+      ],
+      [
+        6,
+        10,
+        4
+      ],
+      [
+        7,
+        10,
+        4
+      ],
+      [
+        8,
+        4,
+        3
+      ],
+      [
+        8,
+        5,
+        3
+      ],
+      [
+        8,
+        6,
+        3
+      ],
+      [
+        8,
+        7,
+        3
+      ],
+      [
+        8,
+        8,
+        3
+      ],
+      [
+        8,
+        9,
+        3
+      ],
+      [
+        8,
+        10,
+        3
+      ],
+      [
+        8,
+        10,
+        4
+      ]
+    ],
+    "hotAir": [
+      [
+        8,
+        -4,
+        3
+      ],
+      [
+        8,
+        -3,
+        3
+      ],
+      [
+        8,
+        -2,
+        3
+      ],
+      [
+        8,
+        -1,
+        3
+      ],
+      [
+        9,
+        -4,
+        3
+      ],
+      [
+        10,
+        -4,
+        3
+      ],
+      [
+        11,
+        -4,
+        3
+      ],
+      [
+        12,
+        -4,
+        3
+      ],
+      [
+        13,
+        -4,
+        3
+      ],
+      [
+        14,
+        -4,
+        3
+      ],
+      [
+        15,
+        -4,
+        3
+      ],
+      [
+        16,
+        -4,
+        3
+      ],
+      [
+        16,
+        -3,
+        3
+      ],
+      [
+        17,
+        -4,
+        3
+      ],
+      [
+        18,
+        -4,
+        3
+      ],
+      [
+        18,
+        -3,
+        3
+      ],
+      [
+        19,
+        -4,
+        3
+      ],
+      [
+        20,
+        -4,
+        3
+      ],
+      [
+        20,
+        -3,
+        3
+      ],
+      [
+        21,
+        -4,
+        3
+      ],
+      [
+        22,
+        -4,
+        3
+      ],
+      [
+        23,
+        -4,
+        3
+      ],
+      [
+        24,
+        -4,
+        3
+      ],
+      [
+        25,
+        -4,
+        3
+      ],
+      [
+        26,
+        -4,
+        3
+      ],
+      [
+        27,
+        -4,
+        3
+      ],
+      [
+        28,
+        -4,
+        3
+      ],
+      [
+        29,
+        -4,
+        3
+      ],
+      [
+        30,
+        -4,
+        3
+      ],
+      [
+        31,
+        -4,
+        3
+      ],
+      [
+        32,
+        -4,
+        3
+      ],
+      [
+        33,
+        -4,
+        3
+      ],
+      [
+        34,
+        -4,
+        3
+      ],
+      [
+        35,
+        -4,
+        3
+      ],
+      [
+        36,
+        -4,
+        3
+      ],
+      [
+        37,
+        -4,
+        3
+      ],
+      [
+        38,
+        -4,
+        3
+      ],
+      [
+        38,
+        -3,
+        3
+      ],
+      [
+        38,
+        -2,
+        3
+      ],
+      [
+        38,
+        -1,
+        3
+      ],
+      [
+        38,
+        0,
+        3
+      ],
+      [
+        38,
+        1,
+        3
+      ]
+    ],
+    "co2": [
+      [
+        8,
+        -1,
+        8
+      ],
+      [
+        8,
+        -1,
+        9
+      ],
+      [
+        8,
+        -1,
+        10
+      ],
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        8,
+        0,
+        5
+      ],
+      [
+        8,
+        0,
+        6
+      ],
+      [
+        8,
+        0,
+        7
+      ],
+      [
+        8,
+        0,
+        8
+      ],
+      [
+        9,
+        -1,
+        10
+      ],
+      [
+        10,
+        -1,
+        10
+      ],
+      [
+        11,
+        -1,
+        10
+      ],
+      [
+        12,
+        -1,
+        10
+      ],
+      [
+        13,
+        -1,
+        10
+      ],
+      [
+        14,
+        -1,
+        10
+      ],
+      [
+        15,
+        -1,
+        10
+      ],
+      [
+        16,
+        -1,
+        10
+      ],
+      [
+        17,
+        -1,
+        10
+      ],
+      [
+        18,
+        -1,
+        10
+      ],
+      [
+        19,
+        -1,
+        10
+      ],
+      [
+        20,
+        -1,
+        10
+      ],
+      [
+        21,
+        -1,
+        10
+      ],
+      [
+        22,
+        -1,
+        10
+      ],
+      [
+        23,
+        -1,
+        10
+      ],
+      [
+        24,
+        -1,
+        10
+      ],
+      [
+        25,
+        -1,
+        10
+      ],
+      [
+        26,
+        -1,
+        10
+      ]
+    ],
+    "furnaceGas": [
+      [
+        44,
+        7,
+        3
+      ],
+      [
+        44,
+        8,
+        3
+      ],
+      [
+        45,
+        8,
+        3
+      ],
+      [
+        46,
+        7,
+        3
+      ],
+      [
+        46,
+        8,
+        3
+      ],
+      [
+        47,
+        8,
+        3
+      ],
+      [
+        48,
+        7,
+        3
+      ],
+      [
+        48,
+        8,
+        3
+      ],
+      [
+        49,
+        8,
+        3
+      ],
+      [
+        50,
+        7,
+        3
+      ],
+      [
+        50,
+        8,
+        3
+      ],
+      [
+        51,
+        8,
+        3
+      ],
+      [
+        52,
+        7,
+        3
+      ],
+      [
+        52,
+        8,
+        3
+      ],
+      [
+        53,
+        8,
+        3
+      ],
+      [
+        54,
+        7,
+        3
+      ],
+      [
+        54,
+        8,
+        3
+      ],
+      [
+        55,
+        8,
+        3
+      ],
+      [
+        56,
+        7,
+        3
+      ],
+      [
+        56,
+        8,
+        3
+      ],
+      [
+        57,
+        8,
+        3
+      ],
+      [
+        58,
+        7,
+        3
+      ],
+      [
+        58,
+        8,
+        3
+      ],
+      [
+        59,
+        8,
+        3
+      ],
+      [
+        60,
+        7,
+        3
+      ],
+      [
+        60,
+        8,
+        3
+      ],
+      [
+        61,
+        8,
+        3
+      ],
+      [
+        62,
+        7,
+        3
+      ],
+      [
+        62,
+        8,
+        3
+      ],
+      [
+        63,
+        8,
+        3
+      ],
+      [
+        64,
+        7,
+        3
+      ],
+      [
+        64,
+        8,
+        3
+      ],
+      [
+        65,
+        8,
+        3
+      ],
+      [
+        66,
+        7,
+        3
+      ],
+      [
+        66,
+        8,
+        3
+      ],
+      [
+        67,
+        8,
+        3
+      ],
+      [
+        68,
+        7,
+        3
+      ],
+      [
+        68,
+        8,
+        3
+      ],
+      [
+        69,
+        8,
+        3
+      ],
+      [
+        70,
+        7,
+        3
+      ],
+      [
+        70,
+        8,
+        3
+      ],
+      [
+        71,
+        8,
+        3
+      ],
+      [
+        72,
+        7,
+        3
+      ],
+      [
+        72,
+        8,
+        3
+      ],
+      [
+        73,
+        8,
+        3
+      ],
+      [
+        74,
+        7,
+        3
+      ],
+      [
+        74,
+        8,
+        3
+      ],
+      [
+        75,
+        8,
+        3
+      ],
+      [
+        76,
+        7,
+        3
+      ],
+      [
+        76,
+        8,
+        3
+      ],
+      [
+        77,
+        8,
+        3
+      ],
+      [
+        78,
+        7,
+        3
+      ],
+      [
+        78,
+        8,
+        3
+      ],
+      [
+        40,
+        3,
+        4
+      ],
+      [
+        40,
+        4,
+        4
+      ],
+      [
+        40,
+        5,
+        4
+      ],
+      [
+        40,
+        6,
+        4
+      ],
+      [
+        40,
+        7,
+        4
+      ],
+      [
+        40,
+        8,
+        4
+      ],
+      [
+        41,
+        8,
+        4
+      ],
+      [
+        42,
+        8,
+        4
+      ],
+      [
+        43,
+        8,
+        4
+      ],
+      [
+        44,
+        8,
+        4
+      ],
+      [
+        79,
+        8,
+        3
+      ],
+      [
+        80,
+        8,
+        3
+      ],
+      [
+        81,
+        8,
+        3
+      ],
+      [
+        82,
+        8,
+        3
+      ],
+      [
+        83,
+        8,
+        3
+      ],
+      [
+        84,
+        8,
+        3
+      ],
+      [
+        85,
+        8,
+        3
+      ],
+      [
+        86,
+        8,
+        3
+      ],
+      [
+        87,
+        8,
+        3
+      ],
+      [
+        88,
+        8,
+        3
+      ],
+      [
+        89,
+        8,
+        3
+      ],
+      [
+        90,
+        8,
+        3
+      ],
+      [
+        91,
+        8,
+        3
+      ],
+      [
+        92,
+        8,
+        3
+      ],
+      [
+        93,
+        8,
+        3
+      ],
+      [
+        94,
+        8,
+        3
+      ],
+      [
+        95,
+        8,
+        3
+      ],
+      [
+        96,
+        8,
+        3
+      ],
+      [
+        97,
+        8,
+        3
+      ],
+      [
+        98,
+        8,
+        3
+      ],
+      [
+        99,
+        8,
+        3
+      ],
+      [
+        100,
+        8,
+        3
+      ],
+      [
+        101,
+        8,
+        3
+      ],
+      [
+        102,
+        8,
+        3
+      ],
+      [
+        103,
+        8,
+        3
+      ],
+      [
+        104,
+        8,
+        3
+      ],
+      [
+        105,
+        8,
+        3
+      ],
+      [
+        106,
+        8,
+        3
+      ],
+      [
+        107,
+        8,
+        3
+      ],
+      [
+        108,
+        8,
+        3
+      ],
+      [
+        109,
+        8,
+        3
+      ],
+      [
+        110,
+        8,
+        3
+      ],
+      [
+        111,
+        8,
+        3
+      ],
+      [
+        112,
+        8,
+        3
+      ],
+      [
+        113,
+        8,
+        3
+      ],
+      [
+        114,
+        8,
+        3
+      ],
+      [
+        80,
+        7,
+        3
+      ],
+      [
+        82,
+        7,
+        3
+      ],
+      [
+        84,
+        7,
+        3
+      ],
+      [
+        86,
+        7,
+        3
+      ],
+      [
+        88,
+        7,
+        3
+      ],
+      [
+        90,
+        7,
+        3
+      ],
+      [
+        92,
+        7,
+        3
+      ],
+      [
+        94,
+        7,
+        3
+      ],
+      [
+        96,
+        7,
+        3
+      ],
+      [
+        98,
+        7,
+        3
+      ],
+      [
+        100,
+        7,
+        3
+      ],
+      [
+        102,
+        7,
+        3
+      ],
+      [
+        104,
+        7,
+        3
+      ],
+      [
+        106,
+        7,
+        3
+      ],
+      [
+        108,
+        7,
+        3
+      ],
+      [
+        110,
+        7,
+        3
+      ],
+      [
+        112,
+        7,
+        3
+      ],
+      [
+        114,
+        7,
+        3
+      ]
+    ],
+    "steel": [
+      [
+        40,
+        0,
+        -1
+      ],
+      [
+        40,
+        0,
+        0
+      ],
+      [
+        40,
+        0,
+        1
+      ]
+    ]
+  },
+  "ports": [
+    {
+      "network": "air",
+      "node": [
+        0,
+        4,
+        3
+      ],
+      "block": [
+        0,
+        3,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:air"
+    },
+    {
+      "network": "air",
+      "node": [
+        7,
+        0,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:air",
+      "enabled": false
+    },
+    {
+      "network": "creosote",
+      "node": [
+        -13,
+        1,
+        4
+      ],
+      "block": [
+        -14,
+        1,
+        4
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "railcraft:creosote"
+    },
+    {
+      "network": "creosote",
+      "node": [
+        8,
+        4,
+        3
+      ],
+      "block": [
+        8,
+        3,
+        3
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "railcraft:creosote",
+      "enabled": false
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        8,
+        -1,
+        3
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        0,
+        4
+      ],
+      "block": [
+        8,
+        0,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        16,
+        -3,
+        3
+      ],
+      "block": [
+        16,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        18,
+        -3,
+        3
+      ],
+      "block": [
+        18,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        20,
+        -3,
+        3
+      ],
+      "block": [
+        20,
+        -2,
+        3
+      ],
+      "mode": "BLOCK_OUT",
+      "fluid": "tfmg:hot_air"
+    },
+    {
+      "network": "co2",
+      "node": [
+        8,
+        -1,
+        10
+      ],
+      "block": [
+        8,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        10,
+        -1,
+        10
+      ],
+      "block": [
+        10,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "co2",
+      "node": [
+        12,
+        -1,
+        10
+      ],
+      "block": [
+        12,
+        0,
+        10
+      ],
+      "mode": "BLOCK_IN",
+      "fluid": "tfmg:carbon_dioxide"
+    },
+    {
+      "network": "hotAir",
+      "node": [
+        38,
+        1,
+        3
+      ],
+      "block": [
+        39,
+        1,
+        3
+      ],
+      "fluid": "tfmg:hot_air",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        40,
+        3,
+        4
+      ],
+      "block": [
+        40,
+        3,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_OUT"
+    },
+    {
+      "network": "steel",
+      "node": [
+        40,
+        0,
+        1
+      ],
+      "block": [
+        40,
+        0,
+        2
+      ],
+      "fluid": "tfmg:molten_steel",
+      "mode": "BLOCK_OUT"
+    },
+    {
+      "network": "steel",
+      "node": [
+        40,
+        0,
+        -1
+      ],
+      "block": [
+        40,
+        0,
+        -2
+      ],
+      "fluid": "tfmg:molten_steel",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        44,
+        7,
+        3
+      ],
+      "block": [
+        44,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        46,
+        7,
+        3
+      ],
+      "block": [
+        46,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        48,
+        7,
+        3
+      ],
+      "block": [
+        48,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        50,
+        7,
+        3
+      ],
+      "block": [
+        50,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        52,
+        7,
+        3
+      ],
+      "block": [
+        52,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        54,
+        7,
+        3
+      ],
+      "block": [
+        54,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        56,
+        7,
+        3
+      ],
+      "block": [
+        56,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        58,
+        7,
+        3
+      ],
+      "block": [
+        58,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        60,
+        7,
+        3
+      ],
+      "block": [
+        60,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        62,
+        7,
+        3
+      ],
+      "block": [
+        62,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        64,
+        7,
+        3
+      ],
+      "block": [
+        64,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        66,
+        7,
+        3
+      ],
+      "block": [
+        66,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        68,
+        7,
+        3
+      ],
+      "block": [
+        68,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        70,
+        7,
+        3
+      ],
+      "block": [
+        70,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        72,
+        7,
+        3
+      ],
+      "block": [
+        72,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        74,
+        7,
+        3
+      ],
+      "block": [
+        74,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        76,
+        7,
+        3
+      ],
+      "block": [
+        76,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        78,
+        7,
+        3
+      ],
+      "block": [
+        78,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        80,
+        7,
+        3
+      ],
+      "block": [
+        80,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        82,
+        7,
+        3
+      ],
+      "block": [
+        82,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        84,
+        7,
+        3
+      ],
+      "block": [
+        84,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        86,
+        7,
+        3
+      ],
+      "block": [
+        86,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        88,
+        7,
+        3
+      ],
+      "block": [
+        88,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        90,
+        7,
+        3
+      ],
+      "block": [
+        90,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        92,
+        7,
+        3
+      ],
+      "block": [
+        92,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        94,
+        7,
+        3
+      ],
+      "block": [
+        94,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        96,
+        7,
+        3
+      ],
+      "block": [
+        96,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        98,
+        7,
+        3
+      ],
+      "block": [
+        98,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        100,
+        7,
+        3
+      ],
+      "block": [
+        100,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        102,
+        7,
+        3
+      ],
+      "block": [
+        102,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        104,
+        7,
+        3
+      ],
+      "block": [
+        104,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        106,
+        7,
+        3
+      ],
+      "block": [
+        106,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        108,
+        7,
+        3
+      ],
+      "block": [
+        108,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        110,
+        7,
+        3
+      ],
+      "block": [
+        110,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        112,
+        7,
+        3
+      ],
+      "block": [
+        112,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "furnaceGas",
+      "node": [
+        114,
+        7,
+        3
+      ],
+      "block": [
+        114,
+        6,
+        3
+      ],
+      "fluid": "tfmg:furnace_gas",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        14,
+        -1,
+        10
+      ],
+      "block": [
+        14,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        16,
+        -1,
+        10
+      ],
+      "block": [
+        16,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        18,
+        -1,
+        10
+      ],
+      "block": [
+        18,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        20,
+        -1,
+        10
+      ],
+      "block": [
+        20,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        22,
+        -1,
+        10
+      ],
+      "block": [
+        22,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        24,
+        -1,
+        10
+      ],
+      "block": [
+        24,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    },
+    {
+      "network": "co2",
+      "node": [
+        26,
+        -1,
+        10
+      ],
+      "block": [
+        26,
+        0,
+        10
+      ],
+      "fluid": "tfmg:carbon_dioxide",
+      "mode": "BLOCK_IN"
+    }
+  ]
+}

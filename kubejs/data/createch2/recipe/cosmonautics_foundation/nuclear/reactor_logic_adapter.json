@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "GPG",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    },
+    "C": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "G": {
+      "item": "mekanism:geiger_counter"
+    },
+    "P": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "mekanismgenerators:fission_reactor_logic_adapter",
+    "count": 1
+  }
+}

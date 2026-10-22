@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/wheat_grain",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/wheat_bread",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ceramic/bowl",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_items:wrought_iron_nail",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:rope",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

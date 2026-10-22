@@ -1,0 +1,45 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -32,
+    "max_y": 48,
+    "size": 26,
+    "density": 0.38,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:venus_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/poor_galena/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_galena/basalt"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_galena/basalt"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_venus_galena_tfc_vein",
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_galena"
+        }
+      ]
+    }
+  }
+}

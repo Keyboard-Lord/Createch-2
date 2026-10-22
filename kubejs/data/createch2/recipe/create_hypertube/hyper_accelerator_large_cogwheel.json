@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "BEB",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "tag": "createch2:control/factory/analog"
+    },
+    "E": {
+      "item": "create_hypertube:hypertube_entrance"
+    },
+    "C": {
+      "item": "greate:large_andesite_alloy_cogwheel"
+    }
+  },
+  "result": {
+    "id": "create_hypertube:hypertube_accelerator",
+    "count": 2
+  }
+}

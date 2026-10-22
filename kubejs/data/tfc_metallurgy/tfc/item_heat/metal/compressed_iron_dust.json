@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/compressed_iron"
+    },
+    {
+      "tag": "c:physical_dusts/compressed_iron"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_clay_recycling.mjs",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "tfc:clay_knapping"
+    },
+    {
+      "tag": "tfc:clay_knapping"
+    },
+    {
+      "tag": "tfc:clay_knapping"
+    },
+    {
+      "tag": "tfc:clay_knapping"
+    },
+    {
+      "tag": "tfc:clay_knapping"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfc:ceramic/unfired_shovel_head_mold"
+    }
+  ]
+}

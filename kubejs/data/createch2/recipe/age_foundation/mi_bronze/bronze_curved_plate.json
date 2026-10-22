@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:bronze_plate"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:bronze_curved_plate"
+    }
+  ],
+  "recipe_tier": 0
+}

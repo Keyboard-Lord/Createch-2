@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TIT",
+    "PBP",
+    "TIT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "I": {
+      "item": "minecraft:blue_ice"
+    },
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "cargoboats:motorboat"
+    }
+  },
+  "result": {
+    "id": "cargoboats:icebreaker_upgrade",
+    "count": 1
+  }
+}

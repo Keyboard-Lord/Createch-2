@@ -1,0 +1,260 @@
+{
+  "ids": {
+    "chests": "modern_industrialization:vanilla_recipes/easy_chest",
+    "hopper": "modern_industrialization:vanilla_recipes/steel_hopper_asbl",
+    "plate": "createch2:create/pressing/steel_plate",
+    "loader": "createch2:railway/terminal/item_loader",
+    "unloader": "createch2:railway/terminal/item_unloader",
+    "advancedLoader": "createch2:railway/terminal/advanced_item_loader"
+  },
+  "kinds": {
+    "modern_industrialization:vanilla_recipes/easy_chest": "native",
+    "modern_industrialization:vanilla_recipes/steel_hopper_asbl": "native",
+    "createch2:create/pressing/steel_plate": "authored",
+    "createch2:railway/terminal/item_loader": "authored",
+    "createch2:railway/terminal/item_unloader": "authored",
+    "createch2:railway/terminal/advanced_item_loader": "authored"
+  },
+  "recipes": {
+    "modern_industrialization:vanilla_recipes/easy_chest": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "lll",
+        "l l",
+        "lll"
+      ],
+      "key": {
+        "l": {
+          "tag": "minecraft:logs"
+        }
+      },
+      "result": {
+        "id": "minecraft:chest",
+        "count": 4
+      }
+    },
+    "modern_industrialization:vanilla_recipes/steel_hopper_asbl": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "p p",
+        "pcp",
+        " p "
+      ],
+      "key": {
+        "c": {
+          "item": "minecraft:chest"
+        },
+        "p": {
+          "tag": "c:plates/steel"
+        }
+      },
+      "result": {
+        "id": "minecraft:hopper",
+        "count": 2
+      }
+    },
+    "createch2:create/pressing/steel_plate": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "modern_industrialization:steel_plate"
+        }
+      ],
+      "recipe_tier": 0
+    },
+    "createch2:railway/terminal/item_loader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SUS",
+        "RCR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "U": {
+          "item": "minecraft:hopper"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "L": {
+          "item": "railcraft:item_detector"
+        }
+      },
+      "result": {
+        "id": "railcraft:item_loader",
+        "count": 1
+      }
+    },
+    "createch2:railway/terminal/item_unloader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SUS",
+        "RCR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "U": {
+          "item": "railcraft:item_detector"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "L": {
+          "item": "minecraft:hopper"
+        }
+      },
+      "result": {
+        "id": "railcraft:item_unloader",
+        "count": 1
+      }
+    },
+    "createch2:railway/terminal/advanced_item_loader": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SCS",
+        "RBR",
+        "SLS"
+      ],
+      "key": {
+        "S": {
+          "item": "railcraft:steel_plate"
+        },
+        "C": {
+          "item": "railcraft:controller_circuit"
+        },
+        "R": {
+          "item": "railcraft:standard_rail"
+        },
+        "B": {
+          "item": "railcraft:item_loader"
+        },
+        "L": {
+          "item": "railcraft:steel_crowbar"
+        }
+      },
+      "result": {
+        "id": "railcraft:advanced_item_loader",
+        "count": 1
+      }
+    }
+  },
+  "nativeRows": {
+    "modern_industrialization:vanilla_recipes/easy_chest": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "lll",
+            "l l",
+            "lll"
+          ],
+          "key": {
+            "l": {
+              "tag": "minecraft:logs"
+            }
+          },
+          "result": {
+            "id": "minecraft:chest",
+            "count": 4
+          }
+        }
+      }
+    ],
+    "modern_industrialization:vanilla_recipes/steel_hopper_asbl": [
+      {
+        "provider": "Modern-Industrialization-2.5.10.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "pattern": [
+            "p p",
+            "pcp",
+            " p "
+          ],
+          "key": {
+            "c": {
+              "item": "minecraft:chest"
+            },
+            "p": {
+              "tag": "c:plates/steel"
+            }
+          },
+          "result": {
+            "id": "minecraft:hopper",
+            "count": 2
+          }
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "master": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity",
+      false
+    ],
+    "utilityV": [
+      "Quark-4.1-487.jar",
+      "org.violetmoon.quark.content.tweaks.module.UtilityRecipesModule",
+      true
+    ]
+  },
+  "nativeCodeSha256": {
+    "master": "35445675bf85c27eb60f8510710acd1f4a0b8ead1ec8a13198758943ef008cc1",
+    "utilityV": "916d20db4d020d35db343660fcec8a24703ddd4e804cd36c625c8bf0f141971b"
+  },
+  "excludedEasyHopperRows": [
+    {
+      "provider": "Quark-4.1-487.jar",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "zeta:flag",
+            "flag": "easy_hopper"
+          }
+        ],
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "c:ingots/iron"
+          },
+          "W": {
+            "tag": "minecraft:logs"
+          }
+        },
+        "pattern": [
+          "IWI",
+          "IWI",
+          " I "
+        ],
+        "result": {
+          "count": 1,
+          "id": "minecraft:hopper"
+        }
+      }
+    }
+  ],
+  "scope": "Selected native MI handcraft hoppers and owned rail terminals, composed from additional paid steel and the prior rail/controller/detector packets. No gameplay resource edits."
+}

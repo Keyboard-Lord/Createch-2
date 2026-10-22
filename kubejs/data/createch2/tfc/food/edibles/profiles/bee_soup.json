@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/bee_soup"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 1,
+  "protein": 0.8,
+  "water": 10,
+  "decay_modifier": 4.5
+}

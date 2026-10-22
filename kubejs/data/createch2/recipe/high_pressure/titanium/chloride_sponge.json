@@ -1,0 +1,40 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 64,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "tag": "c:raw_materials/titanium",
+      "amount": 2
+    },
+    {
+      "tag": "c:dusts/carbon",
+      "amount": 2
+    },
+    {
+      "tag": "c:dusts/sodium",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:chlorine",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:titanium_dust",
+      "amount": 2
+    }
+  ],
+  "fluid_outputs": {
+    "fluid": "modern_industrialization:sulfuric_acid",
+    "amount": 250
+  }
+}

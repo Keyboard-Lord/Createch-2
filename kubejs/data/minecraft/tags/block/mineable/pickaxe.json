@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tracks:track_mount",
+    "createch2core:raw_redstone_formation",
+    "createch2core:redstone_bud",
+    "createch2core:redstone_bulb",
+    "createch2core:pointed_redstone",
+    "createch2core:prismatic_crystal",
+    "#createch2:compatibility/tfc_pickaxe_mineable"
+  ]
+}

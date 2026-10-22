@@ -1,0 +1,48 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "hostilenetworks:deep_learner"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:geological_surveys",
+      "createch2:process_samples",
+      "createch2:computational_models",
+      "createch2:material_specimens"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:geo_03_deep_extraction",
+    "createch2:com_05_distributed_computation",
+    "createch2:che_04_advanced_separations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.rsr_01_resource_simulation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.rsr_01_resource_simulation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:productivebees/quarry_bee",
+      "createch2:hni/prediction_machine_casing",
+      "createch2:hni/electric_simulation_chamber",
+      "createch2:hni/mono_loot_fabricator",
+      "createch2:hni/large_simulation_chamber",
+      "createch2:hni/large_loot_fabricator"
+    ]
+  }
+}

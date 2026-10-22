@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EUE",
+    "ATA",
+    "EUE"
+  ],
+  "key": {
+    "E": {
+      "tag": "createch2:portable_energy_cell"
+    },
+    "U": {
+      "tag": "createch2:mekanism_ultimate_control"
+    },
+    "A": {
+      "item": "create_aeronautics_automated_logistics:airship_station"
+    },
+    "T": {
+      "item": "mekanism:teleportation_core"
+    }
+  },
+  "result": {
+    "id": "mekanism:portable_teleporter",
+    "count": 1
+  }
+}

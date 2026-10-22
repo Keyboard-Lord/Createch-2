@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:salt_marsh",
+    "tfc:mud_flats",
+    "tfc:tidal_flats",
+    "tfc:lake",
+    "tfc:rift_lake",
+    "tfc:meltwater_lake",
+    "tfc:old_mountain_lake",
+    "tfc:mountain_lake",
+    "tfc:plateau_lake",
+    "tfc:river",
+    "tfc:river_valley",
+    "tfc:shore",
+    "tfc:embayments"
+  ]
+}

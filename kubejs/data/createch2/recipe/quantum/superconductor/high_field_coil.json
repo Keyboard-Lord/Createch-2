@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:iridium_plate",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:cryofluid",
+    "amount": 500
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:superconductor_coil",
+      "amount": 1
+    }
+  ]
+}

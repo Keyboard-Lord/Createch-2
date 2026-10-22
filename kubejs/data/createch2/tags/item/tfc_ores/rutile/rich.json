@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/tuff",
+      "required": false
+    }
+  ]
+}

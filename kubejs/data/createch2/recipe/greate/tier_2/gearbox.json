@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "PHP",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "greate:aluminium_cogwheel"
+    },
+    "S": {
+      "item": "greate:aluminium_shaft"
+    },
+    "P": {
+      "tag": "c:plates/aluminum"
+    },
+    "H": {
+      "item": "greate:steel_gearbox"
+    }
+  },
+  "result": {
+    "id": "greate:aluminium_gearbox",
+    "count": 1
+  }
+}

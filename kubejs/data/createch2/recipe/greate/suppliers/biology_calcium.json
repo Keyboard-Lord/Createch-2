@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:electrolyzer",
+  "eu": 60,
+  "duration": 100,
+  "item_inputs": [
+    {
+      "item": "gtceu:calcite_dust",
+      "amount": 5
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "chemlib:calcium_dust",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:carbon_dust",
+      "amount": 1
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:oxygen",
+      "amount": 3000
+    }
+  ]
+}

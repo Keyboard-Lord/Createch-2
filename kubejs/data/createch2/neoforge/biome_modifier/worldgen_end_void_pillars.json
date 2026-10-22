@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:end_landmark_biomes",
+  "features": [
+    "createch2:end_void_pillars"
+  ],
+  "step": "local_modifications"
+}

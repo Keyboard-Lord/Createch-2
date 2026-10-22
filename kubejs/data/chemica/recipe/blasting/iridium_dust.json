@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "c:dusts/iridium"
+  },
+  "result": {
+    "id": "modern_industrialization:iridium_ingot"
+  }
+}

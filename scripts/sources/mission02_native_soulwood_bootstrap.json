@@ -1,0 +1,439 @@
+{
+  "classes": {
+    "base": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.curiosities.totem.TotemBaseBlockEntity",
+      "verbose": false,
+      "sha256": "caa919f5d4cea7f2125dc4279b6c6e50ed3e8dc665ef9543d91d146a1f29e461"
+    },
+    "pole": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.curiosities.totem.TotemPoleBlockEntity",
+      "verbose": false,
+      "sha256": "83d1bde332210f24d4053eff82716cad364a71dceb3b4b919d6db8b26ca4c163"
+    },
+    "log": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.nature.MalumLogBLock",
+      "verbose": false,
+      "sha256": "995be3f15c5d144f81b222b4d5c10b5f4f3dfc12233170b06acb9cb0254443ac"
+    },
+    "poleBlock": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.block.curiosities.totem.TotemPoleBlock",
+      "verbose": false,
+      "sha256": "3bc73494d7b9384ee5d1c78f867cbb16709532855790c701d5c38efa9991dd76"
+    },
+    "blocks": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.block.MalumBlocks",
+      "verbose": true,
+      "sha256": "7753918e669f0f80a4c6ab63962af3f7a55cad11becfd1568aaba55cc5dff1bf"
+    },
+    "properties": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.block.MalumBlockProperties",
+      "verbose": false,
+      "sha256": "5c035ab8502b476f8c6e9aeb3943fa35760b6d6f675437ee64393edb566b8c6f"
+    },
+    "rites": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.magic.rite.MalumSpiritRiteTypes",
+      "verbose": true,
+      "sha256": "e493668c921472b9a50600dae47924ea31c7fd229ff7ff84217b8f7a90744597"
+    },
+    "builder": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.core.systems.rite.SpiritRiteTypeBuilder",
+      "verbose": false,
+      "sha256": "a4205c3e31c2b982aabacd9379a7a518bc6079f8721b862e49100ea6fb286e24"
+    },
+    "rite": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.core.systems.rite.SpiritRiteType",
+      "verbose": false,
+      "sha256": "145af93677f44e0309d8850048bf8211d0d3f6687722d97f783dae05a8e2ae25"
+    },
+    "undirected": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.spiritrite.effect.arcane.UndirectedRiteEffect",
+      "verbose": false,
+      "sha256": "c57c133f3fba9a2dc19e5be269eb68c41fbd2b826a61e65c124301bdbe043b20"
+    },
+    "event": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.worldevent.UnchainedTotemConversionWorldEvent",
+      "verbose": false,
+      "sha256": "f371d74dbccb8c2020e7d0e7e618742ae145afd4b59eace7ed2290e68a056b90"
+    },
+    "activeEvent": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.worldevent.ActiveBlightWorldEvent",
+      "verbose": false,
+      "sha256": "ded762489709e9d41b23f4b693bba2949e11525386f330bd9a98d7004dfbf162"
+    },
+    "effect": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.core.systems.rite.effect.SpiritRiteEffect",
+      "verbose": false,
+      "sha256": "62462898e56575d07f4795e6c1a604ca27b167a2038c562cbacde51aa20a87d9"
+    },
+    "entityBlock": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.systems.block.LodestoneEntityBlock",
+      "verbose": false,
+      "sha256": "0b3eb9f9b452639922a7acb5b7a07d52f58e68b3dfde3868f4ac41d3b0a1e4c1"
+    },
+    "worldHandler": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.handlers.WorldEventHandler",
+      "verbose": true,
+      "sha256": "6b6d6217fd5099df88d1b2e9b55fb399ab9bf98f92daa9f3f00d844fe1f472d0"
+    },
+    "attachment": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.attachment.WorldEventAttachment",
+      "verbose": false,
+      "sha256": "da262c9fe48384602763660c226b320d4b4e2235dc170608548e63bcc8b0ce08"
+    },
+    "blockEntities": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.block.MalumBlockEntities",
+      "verbose": false,
+      "sha256": "9c53c09f9a6ade69708e1a503e8a7be9bbe780d4f252591b239fcfe046b30135"
+    },
+    "dataMaps": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.MalumDataMaps",
+      "verbose": false,
+      "sha256": "cf4ea1059a2b8c6bc5ffe50732b9f1e30e63f7e32349cf14f7033f1e654e24a8"
+    },
+    "poleMap": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.common.data.map.TotemPoleMap",
+      "verbose": false,
+      "sha256": "79a058ce6ca77fd9411e2c355873788c0e52eed67741ed6307bed7d28f7cec2a"
+    },
+    "worldTypes": {
+      "jar": "malum-1.21.1-1.8.2.jar",
+      "class": "com.sammy.malum.registry.common.MalumWorldEventTypes",
+      "verbose": false,
+      "sha256": "224b79f426836267464e9c21983cc543b3e909c266813189e366e870ae7aeb84"
+    },
+    "gameEvents": {
+      "jar": "lodestone-1.21.1-1.8.2.jar",
+      "class": "team.lodestar.lodestone.events.GameEvents",
+      "verbose": true,
+      "sha256": "fe67f112568ce628a2f31c87eb49b3f02c5ba756f895ca6975e3c23ec67bc6bc"
+    }
+  },
+  "jarSha256": {
+    "malum-1.21.1-1.8.2.jar": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8",
+    "lodestone-1.21.1-1.8.2.jar": "cc961af6a77391628378c1c838e521415fa895062b13def493d27234ca527f3e",
+    "../../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+  },
+  "recipes": {
+    "malum:spirit_infusion/runewood_totem_base": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "malum:spirit_infusion",
+          "extraInputs": [
+            {
+              "count": 6,
+              "item": "malum:runewood_planks"
+            },
+            {
+              "count": 2,
+              "item": "malum:hex_ash"
+            }
+          ],
+          "input": {
+            "count": 4,
+            "item": "malum:runewood_log"
+          },
+          "result": {
+            "count": 4,
+            "id": "malum:runewood_totem_base"
+          },
+          "spirits": [
+            {
+              "type": "malum:aerial",
+              "count": 2
+            },
+            {
+              "type": "malum:aqueous",
+              "count": 2
+            },
+            {
+              "type": "malum:earthen",
+              "count": 2
+            },
+            {
+              "type": "malum:infernal",
+              "count": 2
+            },
+            {
+              "type": "malum:eldritch",
+              "count": 2
+            }
+          ]
+        }
+      }
+    ],
+    "malum:soulwood_planks": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "group": "planks",
+          "ingredients": [
+            {
+              "tag": "malum:soulwood_logs"
+            }
+          ],
+          "result": {
+            "count": 4,
+            "id": "malum:soulwood_planks"
+          }
+        }
+      }
+    ],
+    "malum:runewood_planks": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "misc",
+          "group": "planks",
+          "ingredients": [
+            {
+              "tag": "malum:runewood_logs"
+            }
+          ],
+          "result": {
+            "count": 4,
+            "id": "malum:runewood_planks"
+          }
+        }
+      }
+    ],
+    "malum:totemic_staff": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "tag": "c:rods/wooden"
+            },
+            "Y": {
+              "tag": "malum:runewood_planks"
+            }
+          },
+          "pattern": [
+            "  Y",
+            " X ",
+            "X  "
+          ],
+          "result": {
+            "count": 1,
+            "id": "malum:totemic_staff"
+          }
+        }
+      }
+    ],
+    "malum:spirit_infusion/arcana_pylon": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "malum:spirit_infusion",
+          "extraInputs": [
+            {
+              "count": 8,
+              "item": "malum:refined_soulstone"
+            },
+            {
+              "count": 4,
+              "item": "malum:hex_ash"
+            },
+            {
+              "count": 2,
+              "item": "malum:soulwood_planks"
+            }
+          ],
+          "input": {
+            "count": 1,
+            "item": "malum:runewood_obelisk"
+          },
+          "result": {
+            "count": 1,
+            "id": "malum:arcana_pylon"
+          },
+          "spirits": [
+            {
+              "type": "malum:aerial",
+              "count": 8
+            },
+            {
+              "type": "malum:aqueous",
+              "count": 8
+            },
+            {
+              "type": "malum:earthen",
+              "count": 8
+            },
+            {
+              "type": "malum:infernal",
+              "count": 8
+            }
+          ]
+        }
+      }
+    ],
+    "malum:spirit_infusion/rite_anchor": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "malum:spirit_infusion",
+          "extraInputs": [
+            {
+              "count": 8,
+              "item": "malum:refined_soulstone"
+            },
+            {
+              "count": 4,
+              "item": "malum:hex_ash"
+            },
+            {
+              "count": 2,
+              "item": "malum:soulwood_planks"
+            },
+            {
+              "count": 2,
+              "tag": "malum:tainted_rock_blocks"
+            }
+          ],
+          "input": {
+            "count": 4,
+            "item": "malum:runewood_planks"
+          },
+          "result": {
+            "count": 4,
+            "id": "malum:rite_anchor"
+          },
+          "spirits": [
+            {
+              "type": "malum:aerial",
+              "count": 4
+            },
+            {
+              "type": "malum:aqueous",
+              "count": 4
+            },
+            {
+              "type": "malum:earthen",
+              "count": 4
+            },
+            {
+              "type": "malum:infernal",
+              "count": 4
+            },
+            {
+              "type": "malum:arcane",
+              "count": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "resources": {
+    "data/malum/data_maps/block/totem_pole_conversion.json": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "values": {
+            "malum:runewood": {
+              "totemPoleVariant": "malum:runewood_totem_pole"
+            },
+            "malum:runewood_log": {
+              "totemPoleVariant": "malum:runewood_totem_pole"
+            },
+            "malum:runewood_totem_pole": {
+              "totemPoleVariant": "malum:soulwood_totem_pole"
+            },
+            "malum:soulwood": {
+              "totemPoleVariant": "malum:soulwood_totem_pole"
+            },
+            "malum:soulwood_log": {
+              "totemPoleVariant": "malum:soulwood_totem_pole"
+            }
+          }
+        }
+      }
+    ],
+    "data/malum/loot_table/blocks/soulwood_log.json": [
+      {
+        "provider": "malum-1.21.1-1.8.2.jar",
+        "data": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "bonus_rolls": 0.0,
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "malum:soulwood_log"
+                }
+              ],
+              "rolls": 1.0
+            }
+          ],
+          "random_sequence": "malum:blocks/soulwood_log"
+        }
+      }
+    ]
+  },
+  "sharedAltarNativeCodeSha256": {
+    "infusion": "9f79289266799db5dd1b237460c7158c01fac12ff4e75c970c7ec25ee63fd847",
+    "spiritIngredient": "79f84b97e2b51ca31f3c1f2a59f6b8c95e04702ebfd6b1dd20d791b631e5971f",
+    "spiritInventory": "498be824fd7154b4c6d286375a84e0aa47cc13d4d692b71a9f9ff7587c705483",
+    "inventory": "ba7786e017d6da188ab458c26874bf6b0db9d4ef85583183de837c4b8605fe04",
+    "altar": "1a610139e6d96724a4096e8bf703090227ae9d646ca40bee1a5314bc8aeaeab0",
+    "helper": "c5b13a569cba58e6787cc2f9cf9da15606998af59d1054efca34fdad4b00fbb1",
+    "ranking": "f6e1c23ad418420e1d54e5d799f1d80e01cd6203965e5a2730e3ad4cb740e3d6",
+    "types": "99a7a1c5f1a4749415f3dd770c537ec90fa67d72911bb020fd3d7ca4c6771ee8"
+  },
+  "sharedArcaneNativeCodeSha256": {
+    "harvest": "5e4b9dae1e08d2f5d0019af037ad39fd8cf539918c65ffc0254623d4c675042f",
+    "soulData": "7e54c1415857216eedd526437928558af85da1ab14dff567a0b43d82ba0af451",
+    "soul": "f804ae5b62e544ad44bdf3b3d101b957517e3da394e567af20c05b95db7435ad",
+    "spawner": "aceb343ec8e8ea2b335ef372d425e788a5e4c4fd2f1fe3181720276fe2e41bb6",
+    "spiritEntity": "eb81dd03bc1061fa63858a91a6d0a39045af4fc55e29e947bc63b2330ee3ee11",
+    "altar": "1a610139e6d96724a4096e8bf703090227ae9d646ca40bee1a5314bc8aeaeab0",
+    "altarHelper": "c5b13a569cba58e6787cc2f9cf9da15606998af59d1054efca34fdad4b00fbb1",
+    "infusion": "9f79289266799db5dd1b237460c7158c01fac12ff4e75c970c7ec25ee63fd847",
+    "runeTree": "e6b0fa97eb2b3c684f1870a0dd46dfa81a34845e8647876bb2c130a7be643ab8",
+    "sapling": "48a2015b60d06420d6b30ff623b35d04bc5e1bf1a2b8c5031546ede2686a6aec",
+    "pedestal": "4fec0f775597e978ccec40036319da7f643e928c739915b00c7a01c1427310f6",
+    "events": "cb3fe2c9bbd75b3b72d8603bfc4767b46a959503c7e097009e9886c54573ce8a",
+    "dropData": "01444be625f393145d25bc7b82d698c691c46263a5bb022b2bc5a8c605050d4d",
+    "features": "c3ff8110f7f89419bee8baee596abf8ef85bb1afd34dd2293632e0006caf8aae",
+    "spiritTypes": "99a7a1c5f1a4749415f3dd770c537ec90fa67d72911bb020fd3d7ca4c6771ee8",
+    "spiritLoader": "d7a58e0d3de82c5f43b14521ef31b644393764aaa296fafc64cfeca8f1f075b9"
+  },
+  "engineResetReview": {
+    "clientJar": "../../../Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+    "blockBehaviourCodeSha256": "077333eb04da0c4b59f9ba079aa04f19e67c2939e3e32cd9777369b7ab141386",
+    "requiredBranch": "Changing RunewoodBase to distinct SoulwoodBase removes old blockentity in inherited BlockBehaviour.onRemove. New TotemBaseBlockEntity constructor reads corrupted=true and startsINACTIVE;no prior ritual timer is retained.",
+    "wholeClientJarPinnedByNativeModule": true
+  }
+}

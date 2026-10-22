@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/graphite"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/graphite",
+    "amount": 50
+  },
+  "temperature": 500,
+  "use_durability": false
+}

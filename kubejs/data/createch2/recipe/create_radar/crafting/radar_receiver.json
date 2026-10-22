@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "HCH",
+    " E "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:lightning_rod"
+    },
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "C": {
+      "item": "create:industrial_iron_block"
+    },
+    "E": {
+      "tag": "createch2:control/factory/analog"
+    }
+  },
+  "result": {
+    "id": "create_radar:radar_receiver_block",
+    "count": 1
+  }
+}

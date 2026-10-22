@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/aluminum"
+    },
+    {
+      "tag": "c:physical_rings/aluminum"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 390,
+  "welding_temperature": 520
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FTF",
+    "CAC",
+    "FMF"
+  ],
+  "key": {
+    "F": {
+      "item": "mekanism:teleporter_frame"
+    },
+    "T": {
+      "item": "mekanism:teleportation_core"
+    },
+    "C": {
+      "tag": "createch2:mekanism_ultimate_control"
+    },
+    "A": {
+      "item": "create_aeronautics_automated_logistics:airship_station"
+    },
+    "M": {
+      "item": "tfmg:heavy_machinery_casing"
+    }
+  },
+  "result": {
+    "id": "mekanism:teleporter",
+    "count": 1
+  }
+}

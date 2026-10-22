@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/wolframite/small",
+    "#createch2:tfc_ores/wolframite/poor",
+    "#createch2:tfc_ores/wolframite/normal",
+    "#createch2:tfc_ores/wolframite/rich"
+  ]
+}

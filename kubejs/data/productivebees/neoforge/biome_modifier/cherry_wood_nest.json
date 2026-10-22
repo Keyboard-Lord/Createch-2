@@ -1,0 +1,7 @@
+{
+  "type": "productivebees:nest",
+  "biomes": "#createch2:productive_bees/disabled",
+  "generation_stage": "TOP_LAYER_MODIFICATION",
+  "features": "productivebees:cherry_wood_nest",
+  "maxTemperature": 100
+}

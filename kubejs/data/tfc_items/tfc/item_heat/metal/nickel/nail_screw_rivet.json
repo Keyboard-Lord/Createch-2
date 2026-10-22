@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/nickel"
+    },
+    {
+      "tag": "c:rivets/nickel"
+    },
+    {
+      "tag": "c:screws/nickel"
+    },
+    {
+      "tag": "c:physical_screws/nickel"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 872,
+  "welding_temperature": 1162
+}

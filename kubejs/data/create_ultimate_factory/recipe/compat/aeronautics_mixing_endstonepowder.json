@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aeronautics"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:cobblestones"
+    },
+    {
+      "item": "aeronautics:end_stone_powder"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 25,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:end_stone"
+    }
+  ]
+}

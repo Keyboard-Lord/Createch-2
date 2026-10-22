@@ -1,0 +1,44 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 84,
+    "min_y": -48,
+    "max_y": 48,
+    "size": 22,
+    "density": 0.34,
+    "blocks": [
+      {
+        "replace": [
+          "eternal_starlight:grimstone",
+          "eternal_starlight:voidstone"
+        ],
+        "with": [
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/poor_uraninite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_uraninite/basalt"
+          },
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/rich_uraninite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 16,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 44,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_uraninite"
+        }
+      ]
+    },
+    "random_name": "createch2_starlight_uraninite_tfc_vein"
+  }
+}

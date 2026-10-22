@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 96,
+    "min_y": 8,
+    "max_y": 68,
+    "size": 20,
+    "density": 0.3,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:calcite",
+          "minecraft:red_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/poor_native_iridium/granite"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_iridium/granite"
+          },
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/rich_native_iridium/granite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 18,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 48,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_iridium"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_cavum_native_iridium_tfc_vein"
+  }
+}

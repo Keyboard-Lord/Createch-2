@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/cast_iron"
+    },
+    {
+      "tag": "c:rivets/cast_iron"
+    },
+    {
+      "tag": "c:screws/cast_iron"
+    },
+    {
+      "tag": "c:physical_screws/cast_iron"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

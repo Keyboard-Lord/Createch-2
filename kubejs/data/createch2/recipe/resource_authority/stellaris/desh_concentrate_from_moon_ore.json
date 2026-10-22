@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 16,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "stellaris:moon_desh_ore",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "stellaris:raw_desh_ingot",
+      "amount": 2
+    },
+    {
+      "item": "stellaris:ice_shard",
+      "amount": 1,
+      "probability": 0.15
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:wires/brass"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/brass",
+    "amount": 25
+  },
+  "temperature": 930
+}

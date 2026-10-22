@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 0,
+  "processing_time": 200,
+  "ingredients": [
+    {
+      "item": "railcraft:invar_gear"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:invar_gear",
+      "count": 2
+    }
+  ]
+}

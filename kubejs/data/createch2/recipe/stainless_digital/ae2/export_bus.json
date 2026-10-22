@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "SPS",
+    " C "
+  ],
+  "key": {
+    "F": {
+      "item": "ae2:formation_core"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "result": {
+    "id": "ae2:export_bus",
+    "count": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 2200,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_item_input_hatch",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_item_output_hatch",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:highly_advanced_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:configurable_tank",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 4
+    },
+    {
+      "tag": "createch2:control/factory/processing",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker",
+      "amount": 2
+    },
+    {
+      "tag": "createch2:factory/fluid_hatches",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyethylene",
+      "amount": 2000
+    },
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 2000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "extended_industrialization:processing_array",
+      "amount": 1
+    }
+  ]
+}

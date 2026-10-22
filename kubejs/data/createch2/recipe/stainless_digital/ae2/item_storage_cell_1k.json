@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QRQ",
+    "RCR",
+    "SIS"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "C": {
+      "item": "ae2:cell_component_1k"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "I": {
+      "item": "ae2:item_cell_housing"
+    }
+  },
+  "result": {
+    "id": "ae2:item_storage_cell_1k",
+    "count": 1
+  }
+}

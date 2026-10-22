@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item": "mekanism:pellet_plutonium",
+      "amount": 1
+    },
+    {
+      "item": "electroenergetics:transformer_core",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:battery_alloy_curved_plate",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:iridium_plate",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:plutonium_battery",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/sweet_drink"
+  },
+  "edible": true,
+  "hunger": 1,
+  "saturation": 0.1,
+  "water": 10,
+  "decay_modifier": 1
+}

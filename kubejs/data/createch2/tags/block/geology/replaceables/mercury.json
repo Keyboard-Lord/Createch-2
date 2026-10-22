@@ -1,0 +1,12 @@
+{
+
+  "replace": true,
+  "values": [
+    "stellaris:mercury_stone",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:smooth_basalt",
+    "minecraft:calcite",
+    "minecraft:tuff"
+  ]
+}

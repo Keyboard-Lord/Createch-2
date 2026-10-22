@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_mercurian_relay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "createch2:offworld_archaeology/mercurian_relay"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_mercurian_relay"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,44 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 70,
+    "min_y": -40,
+    "max_y": 72,
+    "size": 24,
+    "density": 0.38,
+    "blocks": [
+      {
+        "replace": [
+          "eternal_starlight:grimstone",
+          "eternal_starlight:voidstone"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_bertrandite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_bertrandite/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/rich_bertrandite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 42,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_bertrandite"
+        }
+      ]
+    },
+    "random_name": "createch2_starlight_bertrandite_tfc_vein"
+  }
+}

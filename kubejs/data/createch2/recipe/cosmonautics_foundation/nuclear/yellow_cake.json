@@ -1,0 +1,34 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 96,
+  "duration": 900,
+  "item_inputs": [
+    {
+      "item": "mekanism:dust_uranium",
+      "amount": 2
+    },
+    {
+      "item": "chemlib:fluorine",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:sulfuric_acid",
+    "amount": 2000
+  },
+  "item_outputs": [
+    {
+      "item": "mekanism:yellow_cake_uranium",
+      "amount": 3
+    },
+    {
+      "item": "chemlib:uranium_dust",
+      "amount": 1
+    }
+  ],
+  "fluid_outputs": {
+    "fluid": "modern_industrialization:sulfuric_acid",
+    "amount": 500
+  }
+}

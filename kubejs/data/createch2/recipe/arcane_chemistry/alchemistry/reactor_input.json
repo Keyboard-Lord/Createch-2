@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "C",
+    "T"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "C": {
+      "item": "alchemistry:reactor_casing"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  },
+  "result": {
+    "id": "alchemistry:reactor_input",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/axe_head/compressed_iron"
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "hit_second_last",
+    "upset_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "apply_bonus": true
+}

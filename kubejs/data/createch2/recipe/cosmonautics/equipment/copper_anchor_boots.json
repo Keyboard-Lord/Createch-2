@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "C C",
+    "T T"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    }
+  },
+  "result": {
+    "id": "rocketnautics:copper_anchor_boots",
+    "count": 1
+  }
+}

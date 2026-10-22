@@ -1,0 +1,721 @@
+{
+  "truth": "REVIEWED_NATIVE_FOUR_TFC_BRASS_SHEETS",
+  "ids": {
+    "brass": "createch2:age_foundation/foundry/brass_foundry_batch",
+    "weld": "tfc:welding/metal/double_ingot/brass",
+    "sheet": "tfc:anvil/metal/sheet/brass",
+    "tongs": "tfchotornot:crafting/tongs/wood",
+    "knifeHead": "tfc:knapping/stone/knife_head/sedimentary",
+    "knife": "tfc:crafting/stone/knife/sedimentary",
+    "hammerHead": "tfc:knapping/stone/hammer_head/igneous_intrusive",
+    "hammer": "tfc:crafting/stone/hammer/igneous_intrusive",
+    "flux": "tfc:crafting/powder/flux",
+    "firestarter": "tfc:crafting/firestarter",
+    "brassHeat": "tfc:heating/metal/ingot/brass",
+    "doubleHeat": "tfc:heating/metal/double_ingot/brass",
+    "sheetHeat": "tfc:heating/metal/sheet/brass",
+    "tongsHeat": "tfchotornot:heating/wood_tongs_torch"
+  },
+  "recipes": {
+    "createch2:age_foundation/foundry/brass_foundry_batch": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:mixing",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "tag": "c:ingots/zinc"
+        },
+        {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_ingot",
+          "count": 4
+        },
+        {
+          "id": "createbigcannons:basin_foundry_lid"
+        }
+      ],
+      "heat_requirement": "heated",
+      "recipe_tier": 0
+    },
+    "tfc:welding/metal/double_ingot/brass": {
+      "type": "tfc:welding",
+      "first_input": {
+        "tag": "c:ingots/brass"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:metal/double_ingot/brass"
+      },
+      "second_input": {
+        "tag": "c:ingots/brass"
+      }
+    },
+    "tfc:anvil/metal/sheet/brass": {
+      "type": "tfc:anvil",
+      "ingredient": {
+        "tag": "c:double_ingots/brass"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:metal/sheet/brass"
+      },
+      "rules": [
+        "hit_last",
+        "hit_second_last",
+        "hit_third_last"
+      ]
+    },
+    "tfchotornot:crafting/tongs/wood": {
+      "type": "tfchotornot:advanced_damage_inputs_shaped_crafting",
+      "pattern": [
+        "XX",
+        "Y "
+      ],
+      "key": {
+        "X": {
+          "tag": "c:rods/wooden"
+        },
+        "Y": {
+          "tag": "c:tools/knife"
+        }
+      },
+      "result": {
+        "stack": {
+          "count": 1,
+          "id": "tfchotornot:tongs/wood"
+        },
+        "modifiers": [
+          {
+            "type": "tfc:copy_forging_bonus"
+          }
+        ]
+      }
+    },
+    "tfc:knapping/stone/knife_head/sedimentary": {
+      "type": "tfc:knapping",
+      "default_on": false,
+      "ingredient": {
+        "tag": "tfc:stones/loose/sedimentary"
+      },
+      "knapping_type": "tfc:rock",
+      "pattern": [
+        "# ",
+        "##",
+        "##",
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/knife_head/sedimentary"
+      }
+    },
+    "tfc:crafting/stone/knife/sedimentary": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": [
+          {
+            "tag": "c:rods/wooden"
+          },
+          {
+            "item": "minecraft:bone"
+          }
+        ],
+        "X": {
+          "item": "tfc:stone/knife_head/sedimentary"
+        }
+      },
+      "pattern": [
+        "X",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/knife/sedimentary"
+      }
+    },
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": {
+      "type": "tfc:knapping",
+      "default_on": false,
+      "ingredient": {
+        "tag": "tfc:stones/loose/igneous_intrusive"
+      },
+      "knapping_type": "tfc:rock",
+      "pattern": [
+        "#####",
+        "#####",
+        "  #  "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer_head/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/stone/hammer/igneous_intrusive": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": [
+          {
+            "tag": "c:rods/wooden"
+          },
+          {
+            "item": "minecraft:bone"
+          }
+        ],
+        "X": {
+          "item": "tfc:stone/hammer_head/igneous_intrusive"
+        }
+      },
+      "pattern": [
+        "X",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:stone/hammer/igneous_intrusive"
+      }
+    },
+    "tfc:crafting/powder/flux": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "tag": "tfc:fluxstone"
+        },
+        {
+          "tag": "c:tools/hammer"
+        }
+      ],
+      "primary_ingredient": {
+        "tag": "c:tools/hammer"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "result": {
+        "count": 2,
+        "id": "tfc:powder/flux"
+      }
+    },
+    "tfc:crafting/firestarter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        " S",
+        "S "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:firestarter"
+      }
+    },
+    "tfc:heating/metal/ingot/brass": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:ingots/brass"
+      },
+      "result_fluid": {
+        "amount": 100,
+        "id": "tfc:metal/brass"
+      },
+      "temperature": 930
+    },
+    "tfc:heating/metal/double_ingot/brass": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:double_ingots/brass"
+      },
+      "result_fluid": {
+        "amount": 200,
+        "id": "tfc:metal/brass"
+      },
+      "temperature": 930
+    },
+    "tfc:heating/metal/sheet/brass": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "tag": "c:sheets/brass"
+      },
+      "result_fluid": {
+        "amount": 200,
+        "id": "tfc:metal/brass"
+      },
+      "temperature": 930
+    },
+    "tfchotornot:heating/wood_tongs_torch": {
+      "type": "tfc:heating",
+      "ingredient": {
+        "item": "tfchotornot:tongs/wood"
+      },
+      "result_item": {
+        "id": "tfc:torch",
+        "count": 2
+      },
+      "temperature": 350,
+      "use_durability": true
+    }
+  },
+  "nativeRows": {
+    "createch2:age_foundation/foundry/brass_foundry_batch": [],
+    "tfc:welding/metal/double_ingot/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:welding",
+          "first_input": {
+            "tag": "c:ingots/brass"
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:metal/double_ingot/brass"
+          },
+          "second_input": {
+            "tag": "c:ingots/brass"
+          }
+        }
+      }
+    ],
+    "tfc:anvil/metal/sheet/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:anvil",
+          "ingredient": {
+            "tag": "c:double_ingots/brass"
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:metal/sheet/brass"
+          },
+          "rules": [
+            "hit_last",
+            "hit_second_last",
+            "hit_third_last"
+          ]
+        }
+      }
+    ],
+    "tfchotornot:crafting/tongs/wood": [
+      {
+        "provider": "TFCHotOrNot-1.21.1-1.2.jar",
+        "data": {
+          "type": "tfchotornot:advanced_damage_inputs_shaped_crafting",
+          "pattern": [
+            "XX",
+            "Y "
+          ],
+          "key": {
+            "X": {
+              "tag": "c:rods/wooden"
+            },
+            "Y": {
+              "tag": "c:tools/knife"
+            }
+          },
+          "result": {
+            "stack": {
+              "count": 1,
+              "id": "tfchotornot:tongs/wood"
+            },
+            "modifiers": [
+              {
+                "type": "tfc:copy_forging_bonus"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "tfc:knapping/stone/knife_head/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "default_on": false,
+          "ingredient": {
+            "tag": "tfc:stones/loose/sedimentary"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            "# ",
+            "##",
+            "##",
+            "##",
+            "##"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/knife_head/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/knife/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/knife_head/sedimentary"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/knife/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "default_on": false,
+          "ingredient": {
+            "tag": "tfc:stones/loose/igneous_intrusive"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            "#####",
+            "#####",
+            "  #  "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer_head/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/hammer/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/hammer_head/igneous_intrusive"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/powder/flux": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shapeless_crafting",
+          "ingredients": [
+            {
+              "tag": "tfc:fluxstone"
+            },
+            {
+              "tag": "c:tools/hammer"
+            }
+          ],
+          "primary_ingredient": {
+            "tag": "c:tools/hammer"
+          },
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "result": {
+            "count": 2,
+            "id": "tfc:powder/flux"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/firestarter": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            " S",
+            "S "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:firestarter"
+          }
+        }
+      }
+    ],
+    "tfc:heating/metal/ingot/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "tag": "c:ingots/brass"
+          },
+          "result_fluid": {
+            "amount": 100,
+            "id": "tfc:metal/brass"
+          },
+          "temperature": 930
+        }
+      }
+    ],
+    "tfc:heating/metal/double_ingot/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "tag": "c:double_ingots/brass"
+          },
+          "result_fluid": {
+            "amount": 200,
+            "id": "tfc:metal/brass"
+          },
+          "temperature": 930
+        }
+      }
+    ],
+    "tfc:heating/metal/sheet/brass": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "tag": "c:sheets/brass"
+          },
+          "result_fluid": {
+            "amount": 200,
+            "id": "tfc:metal/brass"
+          },
+          "temperature": 930
+        }
+      }
+    ],
+    "tfchotornot:heating/wood_tongs_torch": [
+      {
+        "provider": "TFCHotOrNot-1.21.1-1.2.jar",
+        "data": {
+          "type": "tfc:heating",
+          "ingredient": {
+            "item": "tfchotornot:tongs/wood"
+          },
+          "result_item": {
+            "id": "tfc:torch",
+            "count": 2
+          },
+          "temperature": 350,
+          "use_durability": true
+        }
+      }
+    ]
+  },
+  "nativeClasses": {
+    "anvil": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.AnvilBlockEntity"
+    ],
+    "anvilBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.AnvilBlock"
+    ],
+    "anvilRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.AnvilRecipe"
+    ],
+    "welding": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.WeldingRecipe"
+    ],
+    "steps": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.forge.ForgeStep"
+    ],
+    "rules": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.forge.ForgeRule"
+    ],
+    "forging": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.forge.Forging"
+    ],
+    "tiers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTiers"
+    ],
+    "items": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems"
+    ],
+    "hnItems": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.common.items.HNItems"
+    ],
+    "hnTongs": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.common.items.TongsItem"
+    ],
+    "hnCraft": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.common.recipes.AdvancedDamageInputsShapedRecipe"
+    ],
+    "hnDamage": [
+      "TFCHotOrNot-1.21.1-1.2.jar",
+      "tfchotornot.common.recipes.AdvancedDamageInputsShapelessRecipe"
+    ],
+    "tieredItem": [
+      "@minecraft",
+      "net.minecraft.world.item.TieredItem"
+    ],
+    "vanillaTiers": [
+      "@minecraft",
+      "net.minecraft.world.item.Tiers"
+    ],
+    "forgingComponent": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.component.forge.ForgingComponent"
+    ]
+  },
+  "nativeCodeSha256": {
+    "anvil": "57bced1600033241dd3f7d202cab2f1269112f79ed025a56ffaa206eaf80ae6c",
+    "anvilBlock": "ed5191edae77aec9afa505bc7a5f946db348e476cafd808b7aad61278edb884b",
+    "anvilRecipe": "d789dc9510e730c753e1dd3ec6554b8b27162de703131bfe2e468fe6c11baeae",
+    "welding": "71c5b43138b5b9fe45f599aa697559b74dfc77bc5b7492edc81b099cac739ae1",
+    "steps": "35715005515f40434eb725f3bf9da19d2113204358b042665fe2b577458dc409",
+    "rules": "c029b1abec828c4f21d14b2fe88a5b58777539cfc038ce80e6a031ce3e4fc9be",
+    "forging": "41d51c6da931e704e7dc2f94fca458edc0a2b7d23c528db68a910f395320f61a",
+    "tiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "items": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "hnItems": "b112cd5187dd267bfd2a6a22eb374dc6482fde6f94bdaf066ee3f2129384113e",
+    "hnTongs": "95a8a263c98b04ad7f84fb4281425b2a0b41fc1b3edacdc02e87a6f8dc304a3a",
+    "hnCraft": "fe2ea0f30186e991a1217c48c3d330049d77983e167f608ee2a62ed335a96715",
+    "hnDamage": "997ad463196f5babebbf2d85db15a996ede1d8a98fcdcd893484ca35748604fa",
+    "tieredItem": "2458dd21a184c0102a580a17f47805f4dca83673e5ed3e9688ece4784451a465",
+    "vanillaTiers": "fd4243e16b8940641ef14fa92eda23c92dc60bb49ada78f343a12b2ddb309501",
+    "forgingComponent": "17670a916ddd66f184040e5a7bf0c86827bbb8036f77d24d7ddf2164766fec42"
+  },
+  "resources": {
+    "data/tfc/tfc/item_heat/brass/ingot.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "forging_temperature": 558,
+        "heat_capacity": 2.857143,
+        "ingredient": {
+          "tag": "c:ingots/brass"
+        },
+        "welding_temperature": 744
+      }
+    },
+    "data/tfc/tfc/item_heat/brass/double_ingot.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "forging_temperature": 558,
+        "heat_capacity": 5.714286,
+        "ingredient": {
+          "tag": "c:double_ingots/brass"
+        },
+        "welding_temperature": 744
+      }
+    },
+    "data/tfc/tfc/item_heat/brass/sheet.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "forging_temperature": 558,
+        "heat_capacity": 5.714286,
+        "ingredient": {
+          "tag": "c:sheets/brass"
+        },
+        "welding_temperature": 744
+      }
+    },
+    "data/tfchotornot/tfc/item_heat/tongs/wood.json": {
+      "provider": "TFCHotOrNot-1.21.1-1.2.jar",
+      "data": {
+        "ingredient": {
+          "item": "tfchotornot:tongs/wood"
+        },
+        "heat_capacity": 8
+      }
+    },
+    "data/tfc/tfc/knapping_type/rock.json": {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "amount_to_consume": 1,
+        "click_sound": "tfc:item.knapping.stone",
+        "consume_after_complete": false,
+        "has_off_texture": false,
+        "icon": {
+          "count": 1,
+          "id": "tfc:rock/loose/granite"
+        },
+        "input": {
+          "count": 2,
+          "tag": "tfc:rock_knapping"
+        },
+        "spawns_particles": true
+      }
+    }
+  }
+}

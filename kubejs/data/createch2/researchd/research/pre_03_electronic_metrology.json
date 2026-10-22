@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "computercraft:computer_normal"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:computational_models"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:pre_02_machine_instrumentation",
+    "createch2:com_02_programmable_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_03_electronic_metrology.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_03_electronic_metrology.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:chemical_age/mi/electronic_circuit_from_chemica",
+      "createch2:factory_scaling/controls/electronic_circuit_batch",
+      "createch2:mekanism/advanced_control_circuit_gem_lattice"
+    ]
+  }
+}

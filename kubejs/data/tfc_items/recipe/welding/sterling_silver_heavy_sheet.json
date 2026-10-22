@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/sterling_silver"
+  },
+  "second_input": {
+    "tag": "c:sheets/sterling_silver"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:sterling_silver_heavy_sheet"
+  }
+}

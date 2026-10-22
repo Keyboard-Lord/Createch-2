@@ -1,0 +1,58 @@
+{
+  "id": "railcraft:item_detector",
+  "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+  "nativePath": "data/railcraft/recipe/item_detector.json",
+  "before": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "a": {
+        "item": "minecraft:stripped_acacia_wood"
+      },
+      "b": {
+        "item": "minecraft:stone_pressure_plate"
+      }
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "result": {
+      "count": 1,
+      "id": "railcraft:item_detector"
+    }
+  },
+  "after": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "a": [
+        {
+          "item": "minecraft:stripped_acacia_wood"
+        },
+        {
+          "tag": "c:stripped_woods"
+        }
+      ],
+      "b": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        },
+        {
+          "tag": "c:stones/pressure_plate"
+        }
+      ]
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "result": {
+      "count": 1,
+      "id": "railcraft:item_detector"
+    }
+  },
+  "scope": "Retain native identity,eight full stripped-wood blocks,one stone pressure plate,pattern,one-detector yield and research owners. Preserve original vanilla acacia/stone-plate alternatives;also accept existing common stripped-woods and stone-pressure-plate tags. Raw/stripped logs,raw stone and wooden pressure plates remain excluded. Ingredient compatibility only;no wood/plate/circuit/rolling stock or operation admission."
+}

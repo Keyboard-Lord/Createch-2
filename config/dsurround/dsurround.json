@@ -1,0 +1,233 @@
+{
+  // Configuration options for modifying Minecraft's Sound System behavior
+  "soundSystem": {
+    // The number of sound channels to reserve for streaming sounds (music, biome sounds, records, etc.)
+    // Range: 8 - 16, default: 12
+    "streamingChannels": 12,
+    // Ticks between culled sound events (0 to disable culling)
+    // Range: 0 - 200, default: 20
+    "cullInterval": 20,
+    // Enables/disables cancellation of sound that a player will not hear
+    // Default: true
+    "enableSoundPruning": true
+  },
+  // Configuration options for enhanced sound processing
+  "enhancedSounds": {
+    // Enable/disable enhanced sound processing (reverb, occlusion, etc)
+    // Default: true
+    "enableEnhancedSounds": false,
+    // Number of background threads to use for enhanced sound processing (0 means use internal default)
+    // Range: 0 - 8, default: 0
+    "backgroundThreadWorkers": 0,
+    // Enable/disable sound occlusion processing (sound muffling behind blocks)
+    // Default: false
+    "enableOcclusionProcessing": false,
+    // Check whether reflections reach the player only from each reverb ray's last reflection, instead of from every reflection. Cheaper; may sound different
+    // Default: false
+    "simplifiedSharedAirspace": false,
+    // The number of rays to project around a sound location to calculate reverb effect
+    // Range: 16 - 64, default: 32
+    "reverbRays": 32,
+    // The number of reflections the ray calculation will perform before ending a ray calculation
+    // Range: 2 - 8, default: 4
+    "reverbBounces": 4,
+    // Total distance a reverb ray will traverse before ending calculation
+    // Range: 64 - 256, default: 128
+    "reverbRayTraceDistance": 256
+  },
+  // Configuration options for sounds in general
+  "soundOptions": {
+    // Discard sounds that are played from a non-client thread
+    // Default: true
+    "discardNonClientSoundPlays": true,
+    // Emit stack trace when discarding sounds
+    // Default: false
+    "logStacktraceWhenDiscarding": false,
+    // Ambient sounds played by the mod will be multiplied by this factor
+    // Range: 0 - 400, default: 100
+    "ambientVolumeScaling": 0,
+    // Enables replacement of thunder sounds with Dynamic Surroundings' version
+    // Default: true
+    "replaceThunderSounds": false,
+    // Enables playing sounds that are considered scary
+    // Default: true
+    "allowScarySounds": true,
+    // Enables playing biome background music while in creative
+    // Default: false
+    "playBiomeMusicWhileCreative": false,
+    // Enables display of toast messages for credited music
+    // Default: true
+    "displayToastMessagesForMusic": true,
+    // Enables sound remapping when sounds are played
+    // Default: true
+    "remapSounds": false
+  },
+  // Configuration options for block effects
+  "blockEffects": {
+    // Distance that will be scanned when generating block effects
+    // Range: 16 - 64, default: 32
+    "blockEffectRange": 20,
+    // Enable/disable steam column effect when liquids are adjacent to hot sources, like lava and magma
+    // Default: true
+    "steamColumnEnabled": true,
+    // Enable/disable flame jets produced over lava, etc.
+    // Default: true
+    "flameJetEnabled": true,
+    // Enable/disable bubble columns generated underwater
+    // Default: true
+    "bubbleColumnEnabled": true,
+    // The style of water ripple to render when a drop hits a fluid
+    // Values: NONE, PIXELATED_CIRCLE, default: "PIXELATED_CIRCLE"
+    "waterRippleStyle": "PIXELATED_CIRCLE"
+  },
+  // Configuration options for waterfalls
+  "waterfallOptions": {
+    // Enable/disable waterfall effects where flowing water lands
+    // Default: true
+    "enableWaterfalls": true,
+    // Enable/disable sounds from waterfalls, and from water stepping down a block
+    // Default: true
+    "enableSounds": false,
+    // Enable/disable particles from waterfalls: their splashes, and the mist and foam where they land
+    // Default: true
+    "enableParticles": true,
+    // Enable/disable waterfall mist: many small puffs of mist thrown up where a waterfall lands
+    // Default: true
+    "enableMist": true,
+    // Enable/disable water froth: foam where flowing water drops one block (with a gentle sound) and around where waterfalls land
+    // Default: true
+    "enableFroth": true
+  },
+  // Configuration options for fireflies
+  "fireflyOptions": {
+    // Enable/disable fireflies
+    // Default: true
+    "enableFireflies": false,
+    // Enable/disable a soft glow around fireflies
+    // Default: true
+    "enableGlow": true,
+    // Enable/disable fireflies lighting the grass, leaves and ground close to them. Not shown while a shader pack is in use
+    // Default: true
+    "enableLight": true
+  },
+  // Configuration options for entity effects
+  "entityEffects": {
+    // The maximum range at which entity special effects are applied
+    // Range: 16 - 64, default: 24
+    "entityEffectRange": 16,
+    // Enable/disable bow pull sound effect
+    // Default: true
+    "enableBowPull": true,
+    // Enable/disable breath effect in cold biomes and underwater
+    // Default: true
+    "enableBreathEffect": false,
+    // Enable/disable player toolbar sound effects
+    // Default: true
+    "enablePlayerToolbarEffect": false,
+    // Enable/disable sound effects for blocks on the toolbar
+    // Default: false
+    "enableToolbarBlockSounds": false,
+    // Enable/disable item swing sound effects from players and mobs
+    // Default: true
+    "enableSwingEffect": false,
+    // Enable/disable sound effect when walking through dense brush
+    // Default: true
+    "enableBrushStepEffect": false
+  },
+  // Configuration options for footstep accent effects
+  "footstepAccents": {
+    // Enable/disable foot step accents globally
+    // Default: true
+    "enableAccents": false,
+    // Enable/disable accents for armor that is worn
+    // Default: true
+    "enableArmorAccents": false,
+    // Enable/disable accents when it is raining or blocks are waterlogged
+    // Default: true
+    "enableWetSurfaceAccents": false,
+    // Enable/disable accents when the player is walking on squeaky blocks
+    // Default: true
+    "enableFloorSqueaks": false
+  },
+  // Configuration options for tweaking particle behavior
+  "particleTweaks": {
+    // Enable/disable showing of projectile particle trails
+    // Default: false
+    "suppressProjectileParticleTrails": false
+  },
+  // Configuration options for the compass and clock overlay
+  "compassAndClockOptions": {
+    // Enable/disable display of the clock display when holding a clock item
+    // Default: true
+    "enableClock": true,
+    // Enable/disable display of the compass display when holding a compass item
+    // Default: true
+    "enableCompass": true,
+    // Style of compass rendering
+    // Values: OPAQUE, TRANSPARENT, OPAQUE_WITH_INDICATOR, TRANSPARENT_WITH_INDICATOR, default: "TRANSPARENT_WITH_INDICATOR"
+    "compassStyle": "TRANSPARENT_WITH_INDICATOR",
+    // Scales the display by the specified amount
+    // Range: 0.5 - 4, step: 0.1, default: 1.0
+    "scale": 1.0
+  },
+  // Configuration options for fog effects
+  "fogOptions": {
+    // Enable/disable fog effects
+    // Default: true
+    "enableFogEffects": true,
+    // Enable/disable morning fog effect
+    // Default: true
+    "enableMorningFog": true,
+    // Enable/disable biome fog effect
+    // Default: true
+    "enableBiomeFog": true,
+    // Enable/disable weather fog effect
+    // Default: true
+    "enableWeatherFog": true
+  },
+  // Configuration options for auroras
+  "auroraOptions": {
+    // Enable/disable auroras: curtains of light in the night sky, on some nights, over cold biomes
+    // Default: true
+    "enableAuroras": true,
+    // Percent of nights with an aurora
+    // Range: 0 - 100, default: 33
+    "chance": 33,
+    // The most curtains of light an aurora can have
+    // Range: 1 - 3, default: 3
+    "maxBands": 3
+  },
+  // Configuration options for modded Music Manager
+  "musicManagerOptions": {
+    // Replace Minecraft's music manager with modded version
+    // Default: true
+    "replaceMusicManager": true,
+    // Reduce the wait time between music plays by a percentage
+    // Range: 0 - 100, default: 0
+    "reduceWaitTime": 0
+  },
+  // Configuration options for modifying diagnostic behavior
+  "logging": {
+    // Enables/disables debug logging of the mod
+    // Default: false
+    "enableDebugLogging": false,
+    // Bitmask for toggling various debug traces
+    // Default: 0
+    "traceMask": 0,
+    // Enable/disable chat window notification of newer updates available
+    // Default: true
+    "enableModUpdateChatMessage": true,
+    // Enable/disable filtering display of tags in the diagnostics overlay
+    // Default: true
+    "filteredTagView": true,
+    // Enable/disable registration of client side commands
+    // Default: true
+    "registerCommands": true
+  },
+  // Configuration options for other things
+  "otherOptions": {
+    // Enable/disable playing random sound at the Minecraft finish loading to main screen
+    // Default: true
+    "playRandomSoundOnStartup": false
+  }
+}

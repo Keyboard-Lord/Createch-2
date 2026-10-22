@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "railcraft:crusher",
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "outputs": [
+    {
+      "probability": 1,
+      "result": {
+        "item": "railcraft:coal_dust"
+      }
+    }
+  ]
+}

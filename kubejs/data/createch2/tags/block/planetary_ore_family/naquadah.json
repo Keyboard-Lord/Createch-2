@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sgjourney:naquadah_ore",
+      "required": false
+    },
+    {
+      "id": "sgjourney:deepslate_naquadah_ore",
+      "required": false
+    }
+  ]
+}

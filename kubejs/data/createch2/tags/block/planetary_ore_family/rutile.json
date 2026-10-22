@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_rutile/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_rutile/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_rutile/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_rutile/granite",
+      "required": false
+    }
+  ]
+}

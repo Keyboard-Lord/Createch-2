@@ -1,0 +1,22 @@
+#Allow graphics mode on non-color (standard) computers and monitors with grayscale rendering.
+#When false (default), graphics mode is blocked on non-color computers and monitors (CraftOS-PC compatible).
+allow_grayscale_graphics = false
+#Compression algorithm for graphics data sent over the network.
+#Allowed Values: RAW, LZ4, LZ4_DELTA, LZ4_DIFF, LZ4_ADIFF
+compression = "LZ4_DIFF"
+#Enable token-bucket throttling on graphics broadcasts.
+#When disabled, refill rate and capacity are ignored and every frame is sent.
+bandwidth_throttling_enabled = true
+#Token-bucket refill rate for graphics broadcasts, in bytes per game tick.
+#Sustained throughput is approximately this value * 20 bytes/second.
+#Only used when bandwidth_throttling_enabled = true.
+# Default: 131072
+# Range: 0 ~ 9223372036854775807
+bandwidth_refill_bytes_per_tick = 131072
+#Token-bucket capacity for graphics broadcasts, in bytes.
+#A single burst can consume up to this many bytes instantly.
+#New-viewer keyframes always bypass the bucket.
+#Only used when bandwidth_throttling_enabled = true.
+# Default: 2097152
+# Range: 0 ~ 9223372036854775807
+bandwidth_capacity_bytes = 2097152

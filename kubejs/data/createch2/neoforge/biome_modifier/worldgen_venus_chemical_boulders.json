@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:venus_biomes",
+  "features": [
+    "createch2:venus_chemical_boulders"
+  ],
+  "step": "local_modifications"
+}

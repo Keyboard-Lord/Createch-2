@@ -1,0 +1,44 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfc:metal/javelin/copper"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:material_specimens",
+      "createch2:kinetic_data"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:mil_01_organized_defense",
+    "createch2:mat_01_bronze_metallurgy",
+    "createch2:mec_01_rotary_mechanics"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_02_metallurgical_arms.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_02_metallurgical_arms.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/ordnance_reports_workshop",
+      "createch2:military/infantry/gun_smith_table",
+      "createch2:military/infantry/gun/m1911"
+    ]
+  }
+}

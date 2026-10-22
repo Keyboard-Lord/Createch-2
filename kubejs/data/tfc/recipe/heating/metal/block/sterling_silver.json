@@ -1,0 +1,12 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:plated_blocks/sterling_silver"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc:metal/sterling_silver"
+  },
+  "temperature": 950
+}

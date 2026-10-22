@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cloth_sail",
+      "required": false
+    },
+    {
+      "id": "yourmod:canvas_sail",
+      "required": false
+    }
+  ]
+}

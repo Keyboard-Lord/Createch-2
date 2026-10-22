@@ -1,0 +1,242 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "avaritia:crystal_matrix"
+  },
+  "transitional_item": {
+    "id": "avaritia:crystal_matrix"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "avaritia:crystal_matrix_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "mekanism:pellet_plutonium"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "eternal_starlight:starcore"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "mekanismgenerators:fission_fuel_assembly"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "gtceu:luv_field_generator"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "rocketnautics:rocket_thruster"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "crowns:fuel_assembly"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "mekanism:elite_control_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "mekanismgenerators:control_rod_assembly"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "electroenergetics:sulfur_hexafluoride_breaker"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "modern_industrialization:nuclear_alloy_large_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "item": "rocketnautics:magnetic_stabilizer"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "fluid": "modern_industrialization:lubricant"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ]
+    },
+    {
+      "type": "greate:pressing",
+      "ingredients": [
+        {
+          "item": "avaritia:crystal_matrix"
+        }
+      ],
+      "results": [
+        {
+          "id": "avaritia:crystal_matrix"
+        }
+      ],
+      "recipe_tier": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "avaritia:neutron_collector"
+    }
+  ]
+}

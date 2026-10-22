@@ -1,0 +1,84 @@
+{
+  "type": "sgjourney:rima",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sgjourney:rima",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "createch2:rima_yellowstone",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": -0.4,
+            "continentalness": -0.2,
+            "erosion": 0.4,
+            "weirdness": -0.6,
+            "depth": -0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:rima_mauve_hills",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.6,
+            "continentalness": 0.2,
+            "erosion": 0.1,
+            "weirdness": 0.2,
+            "depth": -0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:rima_amethyst_canyon",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.2,
+            "continentalness": 0.5,
+            "erosion": -0.8,
+            "weirdness": 0.7,
+            "depth": 0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:rima_painted_mountains",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": -0.3,
+            "continentalness": 0.8,
+            "erosion": -0.5,
+            "weirdness": 1,
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:rima_bioshroom_caves",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0.4,
+            "weirdness": -0.3,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "createch2:rima_prismachasm",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": -0.3,
+            "weirdness": 1,
+            "depth": 0.95,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

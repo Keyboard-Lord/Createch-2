@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.27,
+    "frequency_reduction_method": "default",
+    "salt": 20130816,
+    "separation": 24,
+    "spacing": 72
+  },
+  "structures": [
+    {
+      "structure": "createch2:basalt_volcano",
+      "weight": 1
+    }
+  ]
+}

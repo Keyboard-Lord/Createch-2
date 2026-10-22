@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "createch2:offworld_archaeology/venusian_field_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20770213,
+    "spacing": 64,
+    "separation": 48
+  }
+}

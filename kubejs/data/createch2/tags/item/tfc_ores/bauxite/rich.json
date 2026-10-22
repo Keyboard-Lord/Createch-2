@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/tuff",
+      "required": false
+    }
+  ]
+}

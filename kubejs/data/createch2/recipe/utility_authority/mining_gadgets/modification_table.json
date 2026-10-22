@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "HMH",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "electroenergetics:converter"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "mininggadgets:modificationtable",
+    "count": 1
+  }
+}

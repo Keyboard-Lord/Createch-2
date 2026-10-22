@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cac",
+    "BrB",
+    "BrB"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/lead"
+    },
+    "c": {
+      "item": "modern_industrialization:tin_cable"
+    },
+    "B": {
+      "tag": "c:plates/lead"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:redstone_battery"
+  }
+}

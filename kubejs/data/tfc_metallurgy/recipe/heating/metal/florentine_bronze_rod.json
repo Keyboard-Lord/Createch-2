@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/florentine_bronze"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/florentine_bronze",
+    "amount": 50
+  },
+  "temperature": 400,
+  "use_durability": false
+}

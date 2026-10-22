@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "GHC",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "greate:aluminium_mechanical_pump"
+    },
+    "H": {
+      "tag": "c:plates/stainless_steel"
+    },
+    "C": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "S": {
+      "item": "greate:stainless_steel_cogwheel"
+    }
+  },
+  "result": {
+    "id": "greate:stainless_steel_mechanical_pump",
+    "count": 1
+  }
+}

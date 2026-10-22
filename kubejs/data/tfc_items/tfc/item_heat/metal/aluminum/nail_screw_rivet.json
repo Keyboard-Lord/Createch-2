@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:nails/aluminum"
+    },
+    {
+      "tag": "c:rivets/aluminum"
+    },
+    {
+      "tag": "c:screws/aluminum"
+    },
+    {
+      "tag": "c:physical_screws/aluminum"
+    }
+  ],
+  "heat_capacity": 0.171,
+  "forging_temperature": 390,
+  "welding_temperature": 520
+}

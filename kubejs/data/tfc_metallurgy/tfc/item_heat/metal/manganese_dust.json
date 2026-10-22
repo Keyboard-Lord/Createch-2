@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/manganese"
+    },
+    {
+      "tag": "c:physical_dusts/manganese"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 750,
+  "welding_temperature": 1000
+}

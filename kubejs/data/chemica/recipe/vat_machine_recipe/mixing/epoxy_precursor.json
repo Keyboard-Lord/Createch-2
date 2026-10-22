@@ -1,0 +1,30 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 400,
+      "fluid": "chemica:aromatic_mix"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 100,
+      "tag": "c:chlorine"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "chemica:epoxy_precursor"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 3
+}

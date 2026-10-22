@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "count": 2,
+    "id": "tfc_metallurgy:metal/rod/nickel_silver"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel_silver"
+  },
+  "apply_bonus": false
+}

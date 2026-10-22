@@ -1,0 +1,15 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:pressing",
+  "ingredients": [
+    {
+      "tag": "c:plates/battery_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:battery_alloy_curved_plate"
+    }
+  ],
+  "recipe_tier": 1
+}

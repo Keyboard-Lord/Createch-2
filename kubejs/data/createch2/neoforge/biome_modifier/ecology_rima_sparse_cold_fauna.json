@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:rima_amethyst_canyon",
+    "createch2:rima_mauve_hills",
+    "createch2:rima_painted_mountains"
+  ],
+  "spawners": [
+    {
+      "type": "tfc:penguin",
+      "weight": 1,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "tfc:lemming",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

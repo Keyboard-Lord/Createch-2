@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/compressed_iron"
+  },
+  "second_input": {
+    "tag": "c:sheets/compressed_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/compressed_iron"
+  }
+}

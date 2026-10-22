@@ -1,0 +1,85 @@
+{
+  "parent": "overworld",
+  "acceleration_at_surface": 1.62,
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": true,
+    "atmosphere_composition": {
+      "21000": [
+        "low_density",
+        "drowning"
+      ]
+    },
+    "dimension_day_time_controller_name": "sol",
+    "dimension_transfer_height": 20000,
+    "entity_drag_multiplier": [
+      {
+        "altitude": 4000.0,
+        "slope": 0.0,
+        "value": 1.0
+      },
+      {
+        "altitude": 7000.0,
+        "slope": -6.0E-4,
+        "value": 0.0
+      }
+    ],
+    "linked_dimension": "rocketnautics:moon",
+    "render_universe_in_dimension": true
+  },
+  "name": "moon",
+  "planet_extras": {
+    "light_source_name": "sol"
+  },
+  "planet_texture": {
+    "type": "biome_sampler",
+    "colors": [
+      {
+        "blue": 70,
+        "green": 150,
+        "matching_tags": [
+          "rocketnautics:lunar_chasm"
+        ],
+        "priority": 10,
+        "red": 220
+      },
+      {
+        "blue": 190,
+        "green": 190,
+        "matching_tags": [
+          "rocketnautics:lunar_highlands"
+        ],
+        "red": 190
+      },
+      {
+        "blue": 90,
+        "flags": [
+          "ocean"
+        ],
+        "green": 90,
+        "matching_tags": [
+          "rocketnautics:lunar_maria"
+        ],
+        "red": 90
+      }
+    ],
+    "fallback_blue": 160,
+    "fallback_green": 160,
+    "fallback_red": 160
+  },
+  "position": {
+    "type": "circular_orbit_period",
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 28800.0
+  },
+  "priority": 0,
+  "radius": 750000.0,
+  "rotation": {
+    "type": "tidal_lock",
+    "rotations_per_orbit": -1.0
+  }
+}

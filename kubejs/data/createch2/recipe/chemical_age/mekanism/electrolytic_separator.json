@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ATA",
+    "CEC",
+    "APA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/aluminum"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "E": {
+      "item": "mekanism:electrolytic_core"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    }
+  },
+  "result": {
+    "id": "mekanism:electrolytic_separator",
+    "count": 1
+  }
+}

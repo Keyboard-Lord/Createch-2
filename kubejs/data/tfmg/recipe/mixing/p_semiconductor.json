@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/reconcile_static_campaign_semantics.mjs",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "item": "tfmg:silicon_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfmg:p_semiconductor"
+    }
+  ]
+}

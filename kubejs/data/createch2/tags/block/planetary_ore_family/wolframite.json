@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_wolframite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_wolframite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_wolframite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_wolframite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_wolframite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_wolframite/granite",
+      "required": false
+    }
+  ]
+}

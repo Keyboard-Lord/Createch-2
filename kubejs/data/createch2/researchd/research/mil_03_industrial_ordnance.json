@@ -1,0 +1,49 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "createbigcannons:cannon_builder"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:ordnance_reports",
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mil_02_metallurgical_arms",
+    "createch2:mec_03_steel_mechanisms",
+    "createch2:che_01_process_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:military_science",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mil_03_industrial_ordnance.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mil_03_industrial_ordnance.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:createbigcannons/cannon_builder",
+      "createch2:createbigcannons/solid_shot",
+      "createch2:military/infantry/ammo_workbench",
+      "createch2:military/infantry/gun/ak47",
+      "createch2:military/infantry/gun/m16a1",
+      "createch2:military/mounted/machinegun",
+      "createch2:military/naval/underwater_mine",
+      "createch2:research/pack/ordnance_reports_range"
+    ]
+  }
+}

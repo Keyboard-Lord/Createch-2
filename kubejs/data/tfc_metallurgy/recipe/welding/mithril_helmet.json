@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "bonus": "copy_best",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_helmet/mithril"
+  },
+  "second_input": {
+    "tag": "c:sheets/mithril"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/helmet/mithril"
+  }
+}

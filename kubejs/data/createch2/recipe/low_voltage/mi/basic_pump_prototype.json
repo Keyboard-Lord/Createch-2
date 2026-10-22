@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRF",
+    "PMP",
+    "FSF"
+  ],
+  "key": {
+    "F": {
+      "tag": "modern_industrialization:fluid_pipes"
+    },
+    "R": {
+      "item": "modern_industrialization:tin_rotor"
+    },
+    "P": {
+      "tag": "createch2:rubber_sheets"
+    },
+    "M": {
+      "item": "modern_industrialization:motor"
+    },
+    "S": {
+      "tag": "createch2:control/factory/analog"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:pump",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/compressed_iron"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/compressed_iron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

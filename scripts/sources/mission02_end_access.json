@@ -1,0 +1,135 @@
+{
+  "scope": "Native static End route witness; no runtime world or gameplay override.",
+  "provider": "integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
+  "structure": "integrated_stronghold:stronghold",
+  "path": [
+    {
+      "pool": "integrated_stronghold:fountain/fountain",
+      "location": "integrated_stronghold:fountain/fountain",
+      "processors": "integrated_stronghold:stronghold_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:fountain/intersection",
+      "location": "integrated_stronghold:fountain/intersection",
+      "processors": "integrated_stronghold:intersection_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:maze/maze_entrance",
+      "location": "integrated_stronghold:maze/maze_entrance",
+      "processors": "integrated_stronghold:stronghold_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:maze/maze_ladder",
+      "location": "integrated_stronghold:maze/maze_ladder",
+      "processors": "integrated_stronghold:stronghold_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:maze/maze",
+      "location": "integrated_stronghold:maze/maze1",
+      "processors": "integrated_stronghold:maze_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:portal_room/portal_room_hallway",
+      "location": "integrated_stronghold:portal_room/portal_room_hallway",
+      "processors": "integrated_stronghold:portal_room_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:portal_room/portal_room_gate",
+      "location": "integrated_stronghold:portal_room/portal_room_gate",
+      "processors": "integrated_stronghold:portal_room_processor",
+      "weight": 1
+    },
+    {
+      "pool": "integrated_stronghold:portal_room/portal_room",
+      "location": "integrated_stronghold:portal_room/portal_room",
+      "processors": "integrated_stronghold:portal_room_processor",
+      "weight": 1
+    }
+  ],
+  "nbtTextFixture": {
+    "path": "data/integrated_stronghold/structure/grand_library/grand_library.nbt",
+    "sha256": "0c9b396d2b44b80b38451e1b05654254d7bed59ac30df105f01a47e0df080722",
+    "size": [
+      65,
+      46,
+      37
+    ]
+  },
+  "nbtTextReference": "OpenJDK21 DataInputStream.readUTF; independent12-vector comparison passed",
+  "nbtTextVectors": [
+    {
+      "hex": "4153434949",
+      "codepoints": [
+        65,
+        83,
+        67,
+        73,
+        73
+      ]
+    },
+    {
+      "hex": "61c08062",
+      "codepoints": [
+        97,
+        0,
+        98
+      ]
+    },
+    {
+      "hex": "eda0bdedb880",
+      "codepoints": [
+        128512
+      ]
+    },
+    {
+      "hex": "eda080",
+      "codepoints": [
+        55296
+      ]
+    },
+    {
+      "hex": "c180",
+      "codepoints": [
+        64
+      ]
+    },
+    {
+      "hex": "e08080",
+      "codepoints": [
+        0
+      ]
+    },
+    {
+      "hex": "00",
+      "codepoints": [
+        0
+      ]
+    },
+    {
+      "hex": "80",
+      "reject": true
+    },
+    {
+      "hex": "eda0",
+      "reject": true
+    },
+    {
+      "hex": "ff",
+      "reject": true
+    },
+    {
+      "hex": "f09f9880",
+      "reject": true
+    },
+    {
+      "hex": "e04180",
+      "reject": true
+    }
+  ]
+}

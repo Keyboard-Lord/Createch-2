@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RHR",
+    "WCW",
+    "RHR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:rods/wooden"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "result": {
+    "id": "productivebees:bee_cage",
+    "count": 4
+  }
+}

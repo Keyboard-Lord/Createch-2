@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/tungsten_steel",
+      "required": false
+    }
+  ]
+}

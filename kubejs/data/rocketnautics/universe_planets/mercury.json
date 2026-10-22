@@ -1,0 +1,39 @@
+{
+  "parent": "sol",
+  "acceleration_at_surface": 3.7,
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": true,
+    "linked_dimension": "stellaris:mercury",
+    "render_universe_in_dimension": true,
+    "dimension_transfer_height": 20000
+  },
+  "name": "mercury",
+  "planet_extras": {
+    "light_source_name": "sol"
+  },
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "stellaris:textures/environment/solar_system/mercury.png"
+  },
+  "position": {
+    "type": "circular_orbit_period",
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 302400.0
+  },
+  "priority": 0,
+  "radius": 1220000.0,
+  "rotation": {
+    "type": "period",
+    "period_seconds": 2930.0,
+    "rotation_axis": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    }
+  }
+}

@@ -1,0 +1,1134 @@
+{
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "template_prefixes": [
+    "minecraft:village/"
+  ],
+  "imported_soil_fallback": "ENTISOL",
+  "native_civic_cat_spawns": true,
+  "entity_rules": [
+    {
+      "source": "minecraft:cow",
+      "target": "tfc:cow",
+      "fauna": "tfc:cow"
+    },
+    {
+      "source": "minecraft:pig",
+      "target": "tfc:pig",
+      "fauna": "tfc:pig"
+    },
+    {
+      "source": "minecraft:sheep",
+      "target": "tfc:sheep",
+      "fauna": "tfc:sheep"
+    },
+    {
+      "source": "minecraft:horse",
+      "target": "tfc:horse",
+      "fauna": "tfc:horse"
+    },
+    {
+      "source": "minecraft:camel",
+      "target": "tfc:dromedary_camel",
+      "fauna": "tfc:dromedary_camel"
+    },
+    {
+      "source": "minecraft:cat",
+      "target": "tfc:cat"
+    }
+  ],
+  "rules": [
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/wheat",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:wheat"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/carrot",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:carrots"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/potato",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:potatoes"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/beet",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:beetroots"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/melon",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:melon_stem",
+        "minecraft:attached_melon_stem"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/pumpkin",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:pumpkin_stem",
+        "minecraft:attached_pumpkin_stem"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/cabbage",
+      "preserve_shape": false,
+      "sources": [
+        "farmersdelight:cabbages"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/onion",
+      "preserve_shape": false,
+      "sources": [
+        "farmersdelight:onions"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:crop/tomato",
+      "preserve_shape": false,
+      "sources": [
+        "farmersdelight:tomatoes",
+        "farmersdelight:budding_tomatoes"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:melon",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:melon"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:pumpkin",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:pumpkin"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:thatch",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:hay_block"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:composter",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:composter"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:torch",
+      "sources": [
+        "minecraft:torch"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wall_torch",
+      "sources": [
+        "minecraft:wall_torch"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:firepit",
+      "sources": [
+        "minecraft:campfire"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:charcoal_forge",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:metal/lamp/wrought_iron",
+      "sources": [
+        "minecraft:lantern"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:metal/bars/wrought_iron",
+      "sources": [
+        "minecraft:iron_bars"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "retain_below_average_temperature": -2,
+      "sources": [
+        "minecraft:packed_ice",
+        "minecraft:blue_ice"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "retain_below_average_temperature": -2,
+      "sources": [
+        "minecraft:snow_block"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "minecraft:air",
+      "retain_below_instant_temperature": 2,
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:snow"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/dandelion",
+      "sources": [
+        "minecraft:dandelion"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/poppy",
+      "sources": [
+        "minecraft:poppy"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/oxeye_daisy",
+      "sources": [
+        "minecraft:oxeye_daisy"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/lady_fern",
+      "sources": [
+        "minecraft:fern"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/ostrich_fern",
+      "sources": [
+        "minecraft:large_fern"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/bluegrass",
+      "sources": [
+        "minecraft:short_grass"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/tall_fescue_grass",
+      "sources": [
+        "minecraft:tall_grass"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/dead_bush",
+      "sources": [
+        "minecraft:dead_bush"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/saguaro_plant",
+      "sources": [
+        "minecraft:cactus"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/potted/barrel_cactus",
+      "sources": [
+        "minecraft:potted_cactus"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/potted/dead_bush",
+      "sources": [
+        "minecraft:potted_dead_bush"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/potted/dandelion",
+      "sources": [
+        "minecraft:potted_dandelion"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:plant/potted/poppy",
+      "sources": [
+        "minecraft:potted_poppy"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "FARMLAND",
+      "preserve_shape": false,
+      "sources": [
+        "minecraft:farmland"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "DIRT",
+      "sources": [
+        "minecraft:dirt"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "GRASS",
+      "sources": [
+        "minecraft:grass_block"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "GRASS_PATH",
+      "sources": [
+        "minecraft:dirt_path"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "CLAY",
+      "sources": [
+        "minecraft:clay"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "COARSE_DIRT",
+      "sources": [
+        "minecraft:coarse_dirt"
+      ]
+    },
+    {
+      "kind": "SOIL",
+      "target": "ROOTED_DIRT",
+      "sources": [
+        "minecraft:rooted_dirt"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "sources": [
+        "minecraft:cobblestone"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:cobblestone_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:cobblestone_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "COBBLE",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:cobblestone_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "MOSSY_COBBLE",
+      "sources": [
+        "minecraft:mossy_cobblestone"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "MOSSY_COBBLE",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:mossy_cobblestone_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "MOSSY_COBBLE",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:mossy_cobblestone_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "MOSSY_COBBLE",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:mossy_cobblestone_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "sources": [
+        "minecraft:stone",
+        "minecraft:smooth_stone",
+        "minecraft:diorite",
+        "minecraft:granite",
+        "minecraft:andesite",
+        "minecraft:polished_diorite",
+        "minecraft:polished_granite",
+        "minecraft:polished_andesite"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:stone_slab",
+        "minecraft:smooth_stone_slab",
+        "minecraft:diorite_slab",
+        "minecraft:granite_slab",
+        "minecraft:andesite_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:stone_stairs",
+        "minecraft:diorite_stairs",
+        "minecraft:granite_stairs",
+        "minecraft:andesite_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "SMOOTH",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:diorite_wall",
+        "minecraft:granite_wall",
+        "minecraft:andesite_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "sources": [
+        "minecraft:stone_bricks"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:stone_brick_slab"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:stone_brick_stairs"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BRICKS",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:stone_brick_wall"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "MOSSY_BRICKS",
+      "sources": [
+        "minecraft:mossy_stone_bricks"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "CRACKED_BRICKS",
+      "sources": [
+        "minecraft:cracked_stone_bricks"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "CHISELED",
+      "sources": [
+        "minecraft:chiseled_stone_bricks"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "GRAVEL",
+      "sources": [
+        "minecraft:gravel"
+      ]
+    },
+    {
+      "kind": "ROCK",
+      "target": "BUTTON",
+      "sources": [
+        "minecraft:stone_button"
+      ]
+    },
+    {
+      "kind": "SAND",
+      "sources": [
+        "minecraft:sand",
+        "minecraft:red_sand"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "RAW",
+      "sources": [
+        "minecraft:sandstone",
+        "minecraft:red_sandstone"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "CUT",
+      "sources": [
+        "minecraft:cut_sandstone",
+        "minecraft:cut_red_sandstone",
+        "minecraft:chiseled_sandstone",
+        "minecraft:chiseled_red_sandstone"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "SMOOTH",
+      "sources": [
+        "minecraft:smooth_sandstone",
+        "minecraft:smooth_red_sandstone"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "RAW",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:sandstone_slab",
+        "minecraft:red_sandstone_slab"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "RAW",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:sandstone_stairs",
+        "minecraft:red_sandstone_stairs"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "RAW",
+      "shape": "WALL",
+      "sources": [
+        "minecraft:sandstone_wall",
+        "minecraft:red_sandstone_wall"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "CUT",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:cut_sandstone_slab",
+        "minecraft:cut_red_sandstone_slab"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "SMOOTH",
+      "shape": "SLAB",
+      "sources": [
+        "minecraft:smooth_sandstone_slab",
+        "minecraft:smooth_red_sandstone_slab"
+      ]
+    },
+    {
+      "kind": "SANDSTONE",
+      "target": "SMOOTH",
+      "shape": "STAIR",
+      "sources": [
+        "minecraft:smooth_sandstone_stairs",
+        "minecraft:smooth_red_sandstone_stairs"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/log/oak",
+      "sources": [
+        "minecraft:oak_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wood/oak",
+      "sources": [
+        "minecraft:oak_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_log/oak",
+      "sources": [
+        "minecraft:stripped_oak_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_wood/oak",
+      "sources": [
+        "minecraft:stripped_oak_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/oak",
+      "sources": [
+        "minecraft:oak_planks"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/oak_stairs",
+      "sources": [
+        "minecraft:oak_stairs"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/oak_slab",
+      "sources": [
+        "minecraft:oak_slab"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence/oak",
+      "sources": [
+        "minecraft:oak_fence"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence_gate/oak",
+      "sources": [
+        "minecraft:oak_fence_gate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/door/oak",
+      "sources": [
+        "minecraft:oak_door"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/trapdoor/oak",
+      "sources": [
+        "minecraft:oak_trapdoor"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/button/oak",
+      "sources": [
+        "minecraft:oak_button"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/pressure_plate/oak",
+      "sources": [
+        "minecraft:oak_pressure_plate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sapling/oak",
+      "sources": [
+        "minecraft:oak_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/leaves/oak",
+      "sources": [
+        "minecraft:oak_leaves"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/potted_sapling/oak",
+      "sources": [
+        "minecraft:potted_oak_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sign/oak",
+      "sources": [
+        "minecraft:oak_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wall_sign/oak",
+      "sources": [
+        "minecraft:oak_wall_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/log/spruce",
+      "sources": [
+        "minecraft:spruce_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wood/spruce",
+      "sources": [
+        "minecraft:spruce_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_log/spruce",
+      "sources": [
+        "minecraft:stripped_spruce_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_wood/spruce",
+      "sources": [
+        "minecraft:stripped_spruce_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/spruce",
+      "sources": [
+        "minecraft:spruce_planks"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/spruce_stairs",
+      "sources": [
+        "minecraft:spruce_stairs"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/spruce_slab",
+      "sources": [
+        "minecraft:spruce_slab"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence/spruce",
+      "sources": [
+        "minecraft:spruce_fence"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence_gate/spruce",
+      "sources": [
+        "minecraft:spruce_fence_gate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/door/spruce",
+      "sources": [
+        "minecraft:spruce_door"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/trapdoor/spruce",
+      "sources": [
+        "minecraft:spruce_trapdoor"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/button/spruce",
+      "sources": [
+        "minecraft:spruce_button"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/pressure_plate/spruce",
+      "sources": [
+        "minecraft:spruce_pressure_plate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sapling/spruce",
+      "sources": [
+        "minecraft:spruce_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/leaves/spruce",
+      "sources": [
+        "minecraft:spruce_leaves"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/potted_sapling/spruce",
+      "sources": [
+        "minecraft:potted_spruce_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sign/spruce",
+      "sources": [
+        "minecraft:spruce_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wall_sign/spruce",
+      "sources": [
+        "minecraft:spruce_wall_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/log/acacia",
+      "sources": [
+        "minecraft:acacia_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wood/acacia",
+      "sources": [
+        "minecraft:acacia_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_log/acacia",
+      "sources": [
+        "minecraft:stripped_acacia_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_wood/acacia",
+      "sources": [
+        "minecraft:stripped_acacia_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/acacia",
+      "sources": [
+        "minecraft:acacia_planks"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/acacia_stairs",
+      "sources": [
+        "minecraft:acacia_stairs"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/acacia_slab",
+      "sources": [
+        "minecraft:acacia_slab"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence/acacia",
+      "sources": [
+        "minecraft:acacia_fence"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence_gate/acacia",
+      "sources": [
+        "minecraft:acacia_fence_gate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/door/acacia",
+      "sources": [
+        "minecraft:acacia_door"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/trapdoor/acacia",
+      "sources": [
+        "minecraft:acacia_trapdoor"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/button/acacia",
+      "sources": [
+        "minecraft:acacia_button"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/pressure_plate/acacia",
+      "sources": [
+        "minecraft:acacia_pressure_plate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sapling/acacia",
+      "sources": [
+        "minecraft:acacia_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/leaves/acacia",
+      "sources": [
+        "minecraft:acacia_leaves"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/potted_sapling/acacia",
+      "sources": [
+        "minecraft:potted_acacia_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sign/acacia",
+      "sources": [
+        "minecraft:acacia_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wall_sign/acacia",
+      "sources": [
+        "minecraft:acacia_wall_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/log/kapok",
+      "sources": [
+        "minecraft:jungle_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wood/kapok",
+      "sources": [
+        "minecraft:jungle_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_log/kapok",
+      "sources": [
+        "minecraft:stripped_jungle_log"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/stripped_wood/kapok",
+      "sources": [
+        "minecraft:stripped_jungle_wood"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/kapok",
+      "sources": [
+        "minecraft:jungle_planks"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/kapok_stairs",
+      "sources": [
+        "minecraft:jungle_stairs"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/planks/kapok_slab",
+      "sources": [
+        "minecraft:jungle_slab"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence/kapok",
+      "sources": [
+        "minecraft:jungle_fence"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/fence_gate/kapok",
+      "sources": [
+        "minecraft:jungle_fence_gate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/door/kapok",
+      "sources": [
+        "minecraft:jungle_door"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/trapdoor/kapok",
+      "sources": [
+        "minecraft:jungle_trapdoor"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/button/kapok",
+      "sources": [
+        "minecraft:jungle_button"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/pressure_plate/kapok",
+      "sources": [
+        "minecraft:jungle_pressure_plate"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sapling/kapok",
+      "sources": [
+        "minecraft:jungle_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/leaves/kapok",
+      "sources": [
+        "minecraft:jungle_leaves"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/potted_sapling/kapok",
+      "sources": [
+        "minecraft:potted_jungle_sapling"
+      ]
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/sign/kapok",
+      "sources": [
+        "minecraft:jungle_sign"
+      ],
+      "preserve_sign_text": true
+    },
+    {
+      "kind": "FIXED",
+      "target": "tfc:wood/wall_sign/kapok",
+      "sources": [
+        "minecraft:jungle_wall_sign"
+      ],
+      "preserve_sign_text": true
+    }
+  ]
+}

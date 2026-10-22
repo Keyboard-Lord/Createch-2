@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20760331,
+    "separation": 3,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "createch2:helheim_arches",
+      "weight": 1
+    }
+  ]
+}

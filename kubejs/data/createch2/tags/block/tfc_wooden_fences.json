@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/fence/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence/willow",
+      "required": false
+    }
+  ]
+}

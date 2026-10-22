@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "PRP",
+    "TET"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "item": "stellaris:corronium_ingot"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "R": {
+      "item": "stellaris:rocket_engine"
+    },
+    "E": {
+      "item": "modern_industrialization:processing_unit"
+    }
+  },
+  "result": {
+    "id": "stellaris:normal_rocket_upgrade",
+    "count": 1
+  }
+}

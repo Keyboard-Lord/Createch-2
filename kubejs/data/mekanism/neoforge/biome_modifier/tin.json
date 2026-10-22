@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": [
+    "mekanism:ore_tin_small",
+    "mekanism:ore_tin_large"
+  ],
+  "step": "underground_ores"
+}

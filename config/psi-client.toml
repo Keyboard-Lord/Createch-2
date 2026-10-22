@@ -1,0 +1,9 @@
+[client]
+	#Controls whether the Psi Bar should be rendered on the right of the screen or not.
+	psiBarOnRight = true
+	#Controls whether the Psi Bar should be hidden if it's full and the player is holding an item that uses Psi.
+	contextSensitiveBar = true
+	#Controls whether the Spell Programmer screen will pause the game in singleplayer.
+	pauseGameInProgrammer = true
+	#Controls whether or not the Programmer will display the coordinates as a pair of two numbers or as a letter and a number
+	changeGridCoordinatesToLetterNumber = false

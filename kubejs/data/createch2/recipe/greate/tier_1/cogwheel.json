@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:andesite_alloy_cogwheel"
+    },
+    {
+      "item": "greate:steel_shaft"
+    },
+    {
+      "tag": "c:plates/steel"
+    }
+  ],
+  "result": {
+    "id": "greate:steel_cogwheel",
+    "count": 1
+  }
+}

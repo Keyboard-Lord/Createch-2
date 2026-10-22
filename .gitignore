@@ -1,0 +1,42 @@
+# Installed binaries and launcher/profile metadata
+/mods/
+/minecraftinstance.json
+/.curseclient
+/user-prefs.json
+/live-instance.json
+
+# Worlds, local data, and generated output
+/saves/
+/logs/
+/crash-reports/
+/screenshots/
+/backups/
+/downloads/
+/libraries/
+/assets/
+/kubejs/exported/
+/kubejs/export/
+/kubejs/logs/
+/createch-dev/runtime-state/
+/live-pack.git/
+/preserved-local/
+/node_modules/
+**/__pycache__/
+**/.DS_Store
+*.pyc
+*.class
+*.hprof
+*.jfr
+*.log
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

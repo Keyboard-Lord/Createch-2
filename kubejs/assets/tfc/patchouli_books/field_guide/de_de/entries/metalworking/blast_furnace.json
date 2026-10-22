@@ -1,0 +1,40 @@
+{
+  "name": "TFMG-Hochofen",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG ersetzt den TFC-Hochofen. Der spätere elektrische MI-Hochofen behält seine eigene Rolle.$(br2)Baue den TFMG-Hochofen samt Lufteinlass, Winderhitzer und Gussbecken. Seine feuerfesten Ziegel stammen aus gebrannten TFC-Schamottziegeln. Die Ponder-Szene der Ofenluke zeigt den Aufbau."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fülle Koksstaub als Brennstoff ein und versorge den Ofen mit Heißluft. TFC-Flussmittel gehört in den Flussmitteleingang, nicht in den Brennstoffvorrat. Trenne Metall, Schlacke und Ofengas; leere den Metalltank vor einem Produktwechsel."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "Ein TFC-Gusseisenbarren und ein TFC-Flussmittel ergeben 100 mB TFC-Roheisen. Daraus lässt sich ein Roheisenbarren gießen. Die Erzqualität bestimmt weiterhin die Gusseisenmenge beim Erhitzen nach TFC-Regeln."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "Zerkleinertes Eisen oder Eisenstaub ergibt mit TFC-Flussmittel flüssigen TFMG-Stahl. Gieße 144 mB zu einem Barren. Diese Rezepte und die Roheisen-Anbindung nutzen die vorhandene Forschung Industrielle Hitze."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Die TFMG-Anlage liefert das Roheisen für TFC-Amboss- und Schweißrezepte. Kohlenstoffreicher, schwarzer, roter und blauer Stahl behalten ihre TFC-Schmiede- und Legierungsanforderungen."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Alte TFC-Ofenblöcke behalten Inventar und Tanks, verarbeiten aber keine Rezepte mehr. Aus alter Isolierung lassen sich drei Schmiedeeisenbleche zurückgewinnen; isolierte Ziegel geben zusätzlich ihren Schamottziegelblock zurück."
+    }
+  ]
+}

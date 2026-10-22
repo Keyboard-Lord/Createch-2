@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/mithril"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/mithril",
+    "amount": 50
+  },
+  "temperature": 940,
+  "use_durability": false
+}

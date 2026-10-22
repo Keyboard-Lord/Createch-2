@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:light_wires/iron"
+    },
+    {
+      "tag": "c:light_wires/iron"
+    },
+    {
+      "tag": "c:light_wires/iron"
+    }
+  ],
+  "result": {
+    "id": "createaddition:iron_wire",
+    "count": 2
+  }
+}

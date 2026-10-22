@@ -1,0 +1,26 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:mixing",
+  "recipe_tier": 5,
+  "processing_time": 400,
+  "ingredients": [
+    {
+      "item": "chemlib:palladium_dust"
+    },
+    {
+      "item": "chemlib:palladium_dust"
+    },
+    {
+      "item": "chemlib:palladium_dust"
+    },
+    {
+      "item": "chemlib:rhodium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:rhodium_plated_palladium_dust",
+      "count": 4
+    }
+  ]
+}

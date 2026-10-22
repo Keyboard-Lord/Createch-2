@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:stones/raw"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1
+  }
+}

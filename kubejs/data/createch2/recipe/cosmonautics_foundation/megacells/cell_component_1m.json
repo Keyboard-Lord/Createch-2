@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "BIB",
+    "CAC"
+  ],
+  "key": {
+    "C": {
+      "item": "ae2:cell_component_256k"
+    },
+    "A": {
+      "item": "megacells:accumulation_processor"
+    },
+    "B": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "I": {
+      "item": "modern_industrialization:iridium_plate"
+    }
+  },
+  "result": {
+    "id": "megacells:cell_component_1m",
+    "count": 1
+  }
+}

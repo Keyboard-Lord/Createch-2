@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:chulak_prismachasm",
+    "createch2:chulak_bioshroom_caves",
+    "createch2:cavum_infested_caves",
+    "createch2:cavum_deep_caves",
+    "createch2:cavum_prismachasm",
+    "createch2:mars_redstone_caves",
+    "createch2:mercury_redstone_caves"
+  ]
+}

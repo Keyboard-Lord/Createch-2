@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "mekanismdieselgenerators:cooling_tower_casing"
+    },
+    "X": {
+      "tag": "c:circuits/basic"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BXB",
+    " C "
+  ],
+  "result": {
+    "count": 2,
+    "id": "mekanismdieselgenerators:cooling_tower_valve"
+  }
+}

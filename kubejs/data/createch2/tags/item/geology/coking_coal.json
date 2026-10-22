@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coal",
+    "tfc:ore/bituminous_coal"
+  ]
+}

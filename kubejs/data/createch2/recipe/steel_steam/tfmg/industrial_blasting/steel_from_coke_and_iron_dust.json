@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "tfmg:industrial_blasting",
+  "hot_air_usage": 40,
+  "ingredients": [
+    {
+      "tag": "c:dusts/iron"
+    },
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "processing_time": 80,
+  "results": [
+    {
+      "amount": 144,
+      "id": "tfmg:molten_steel"
+    },
+    {
+      "amount": 144,
+      "id": "tfmg:molten_slag"
+    },
+    {
+      "amount": 100,
+      "id": "tfmg:furnace_gas"
+    }
+  ]
+}

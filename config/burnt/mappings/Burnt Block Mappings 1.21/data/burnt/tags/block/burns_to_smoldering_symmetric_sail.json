@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:square_sail",
+      "required": false
+    },
+    {
+      "id": "yourmod:lateen_sail",
+      "required": false
+    }
+  ]
+}

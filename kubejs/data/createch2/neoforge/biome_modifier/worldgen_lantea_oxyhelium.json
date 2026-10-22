@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "createch2:lantea_bioshroom_caves",
+    "createch2:lantea_prismachasm"
+  ],
+  "features": [
+    "createch2:lantea_oxyhelium"
+  ],
+  "step": "vegetal_decoration"
+}

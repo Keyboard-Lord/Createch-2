@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CLC",
+    "PHP",
+    "CLC"
+  ],
+  "key": {
+    "C": {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    "L": {
+      "item": "modern_industrialization:nuclear_alloy_large_plate"
+    },
+    "P": {
+      "item": "modern_industrialization:plasma_handling_iridium_machine_casing"
+    },
+    "H": {
+      "item": "modern_industrialization:large_heat_exchanger"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:fusion_chamber",
+    "count": 1
+  }
+}

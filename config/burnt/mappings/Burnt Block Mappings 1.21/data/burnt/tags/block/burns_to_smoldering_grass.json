@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:lush_grass_block",
+      "required": false
+    },
+    {
+      "id": "yourmod:meadow_turf",
+      "required": false
+    }
+  ]
+}

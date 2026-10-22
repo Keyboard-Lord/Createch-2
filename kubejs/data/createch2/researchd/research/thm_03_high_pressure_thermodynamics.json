@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:implosion_compressor"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:thm_02_industrial_heat",
+    "createch2:ele_03_industrial_power"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.thm_03_high_pressure_thermodynamics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.thm_03_high_pressure_thermodynamics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:high_pressure/mi/implosion_compressor",
+      "createch2:deep_seas/pressure/decompression_chamber"
+    ]
+  }
+}

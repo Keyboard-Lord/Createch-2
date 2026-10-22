@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:replicator"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:frontier_observations",
+      "createch2:grid_telemetry",
+      "createch2:nuclear_assays",
+      "createch2:computational_models"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:mtr_03_encoded_transmutation",
+    "createch2:frn_05_exotic_particle_physics",
+    "createch2:nuc_05_fusion_fuels"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mtr_04_matter_replication.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mtr_04_matter_replication.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/matter/controlled_singularity",
+      "createch2:quantum/matter/uu_matter_from_singularity",
+      "createch2:quantum/matter/replicator"
+    ]
+  }
+}

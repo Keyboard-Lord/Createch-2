@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/zirconium"
+    },
+    {
+      "tag": "c:physical_dusts/zirconium"
+    }
+  ],
+  "heat_capacity": 0.143,
+  "forging_temperature": 1110,
+  "welding_temperature": 1480
+}

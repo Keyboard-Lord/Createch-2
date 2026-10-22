@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:old_growth_pine_taiga",
+    "#createch2:tfc_structure_rugged_land"
+  ]
+}

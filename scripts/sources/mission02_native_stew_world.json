@@ -1,0 +1,3468 @@
+{
+  "classes": {
+    "fruitFeature": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.feature.plant.FruitTreeFeature",
+      "sha256": "642ef3cd037f972da68a418ebc6ddb78e02136f684979ebd1e9d620c8525e57e"
+    },
+    "fruitGrowth": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.plant.fruit.GrowingFruitTreeBranchBlock",
+      "sha256": "e7cef5f44560b1ccae955a8f090cfc9c75f9a0272fca1f9a6127a0703d576c0e"
+    },
+    "seasonal": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.plant.fruit.SeasonalPlantBlock",
+      "sha256": "c91fea06d23006218099b2f0e156a7902fbd9491e4a71e673d188ec613134d70"
+    },
+    "fruitTree": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.plant.fruit.FruitBlocks$Tree",
+      "sha256": "0b2e6863febb8c1721d0b3b2174f45ab0a241f451e5cfeaadef99952226fb56b"
+    },
+    "leaves": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.plant.fruit.FruitTreeLeavesBlock",
+      "sha256": "782c6e09f9a6a896fdfeb7cfa4d976f24fd208400949960f4372d64b04d7fec5"
+    },
+    "wildCrop": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.crop.WildCropBlock",
+      "sha256": "0ee512379f66862980ddf9319350d47bb975d6aa1b3f0a61822fd70c2e988168"
+    },
+    "tallCropFeature": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.feature.plant.TallWildCropFeature",
+      "sha256": "e093031d353ee0e1aa021e20b196007023f5ef4ed47fae25a03afcdae6a001f0"
+    },
+    "melonFeature": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.feature.plant.SpreadingCropFeature",
+      "sha256": "1c256d2d724f0311441c9c83ce3cea98eebfefdf579d8e9d5a30b00e09fcbe2e"
+    },
+    "crops": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.crop.Crop",
+      "sha256": "1f94078df2f5857ccbf16ff382d7334232b85edb2b80f4b5a94be09c0ab851e2"
+    },
+    "tfcBlocks": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.TFCBlocks",
+      "sha256": "258f585831ee201ea858141651a711dec596b872c3800819e158f986ee79612b"
+    },
+    "decayBlock": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.blocks.crop.DecayingBlock",
+      "sha256": "78e9ff4d7039295ab87a81261b190d198a016d4c6de84084ba9c65ce8caed565"
+    },
+    "bamboo": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.world.feature.plant.TFCBambooFeature",
+      "sha256": "3d23b3f3f2c49570727cefcef7bcee98e510c8c1f15eb82510148c8292c988d8"
+    },
+    "wellKnownHive": {
+      "jar": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
+      "class": "com.eerussianguy.firmalife.common.worldgen.BeehiveFeature",
+      "sha256": "8c7ff5e9af17262854e97282b417699a55cdf7b3f40baa95566c1e65d252fc31"
+    },
+    "bzProjectile": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.entities.teleportation.ProjectileImpact",
+      "sha256": "99cce41a19fd790f01ba66376a38a1d7c16ab39c7fb49380362e72aaf25aa331"
+    },
+    "bzHook": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.entities.teleportation.EntityTeleportationHookup",
+      "sha256": "6b01fc9fcb0bd43f339aa62f1517b3f6dac53bcddff57aaa240bbb0b70a548c0"
+    },
+    "bzBackend": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.entities.teleportation.EntityTeleportationBackend",
+      "sha256": "e37e8f4239df2737878bfea6a895b9b5da518b708a24976f532b23530734ce3f"
+    },
+    "bzQueue": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.entities.teleportation.BzWorldSavedData",
+      "sha256": "3aeb29857b788c645f7ec36a1889f77b4cc3572e117000b2975ebe33336eba20"
+    },
+    "bzEvents": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.neoforge.NeoForgeEventManager",
+      "sha256": "78e045fb13f2db3eb4da3c1e080f506a0b296c9ef60849114dfbae0eb0f189cd"
+    },
+    "bzEventSetup": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.Bumblezone",
+      "sha256": "1475eacdb36a8af7ea88f87b5569144163f3e44f86debb40ee26ba49f54d6202"
+    },
+    "bzPosition": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.modules.EntityPosAndDimModule",
+      "sha256": "367a469a9fc67823677a3125d251d583d34e4e6bb11acc3823cb632dabf13473"
+    },
+    "bzHoney": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.blocks.FilledPorousHoneycomb",
+      "sha256": "5ee1a39ca40b2e61e374db1ebf43bdbdf9eb38449a522191e82a6da941cbb733"
+    },
+    "bzGive": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.utils.GeneralUtils",
+      "sha256": "f038299f89a5b5706fc943920ce0fba40d5192f0cc52d902be6b8821ebf7bb5c"
+    },
+    "bzCaves": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.worldgen.features.HoneycombCaves",
+      "sha256": "33eb624664d68e92ff10d872383c6d1721f4cf8cd9882acdc8ef76dbd10eed8d"
+    },
+    "bzBoundary": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.worldgen.features.BeehiveBeewaxBoundaries",
+      "sha256": "d35c03f40771a7d42f2c3fd22bf6793134a0eac442425efa1fbb808eda079ab7"
+    },
+    "bzBlocks": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.modinit.BzBlocks",
+      "sha256": "20057da925aaa72236646154951b96f4bcaf81bbc78a5a95e8f930d12d579f4e"
+    },
+    "bzModule": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.modules.neoforge.NeoForgeModuleInitializer",
+      "sha256": "485ef697c0e1f703e03c9b7fa38941f922567e8602bb5b472dbafbcf2ba9e308"
+    },
+    "bzService": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.services.neoforge.NeoPlatformService",
+      "sha256": "570181a604ea81d48f9b0574c8c14568ad649b9fb3dc67e57cdc5e90e6ae6003"
+    },
+    "chorus": {
+      "jar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.level.levelgen.feature.ChorusPlantFeature",
+      "sha256": "4e768ab6f1fdc01a764687cc1c49fbf6b4987e28d85d9c0650617d51b829a5f9"
+    },
+    "wart": {
+      "jar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.level.block.NetherWartBlock",
+      "sha256": "b378485a73a5fd079fe1c7396cbfeafe6b6d25c9b011c979194b0d7258f157e4"
+    },
+    "hiveBlock": {
+      "jar": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
+      "class": "com.eerussianguy.firmalife.common.blocks.bee.WildBeehiveBlock",
+      "sha256": "97e384e08f107aced5bcc43ffe5a4c102b10c0b44200b20a7d5eb88f120b063f"
+    },
+    "bzBoot": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.neoforge.BumblezoneNeoForge",
+      "sha256": "2d267ef33b6fc8f72ffdd935ff01244e0334dca3b18f577400033d5a7b7763be"
+    },
+    "bzModuleRegistry": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.modules.registry.ModuleRegistry",
+      "sha256": "bbe02021aa79129f6558177d159cc2b982a27ffe7146bfeec236dbdff6ee1bdf"
+    },
+    "bzWax": {
+      "jar": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+      "class": "com.telepathicgrunt.the_bumblezone.blocks.BeehiveBeeswax",
+      "sha256": "88885920c39b0815630c97f255872fd46036b9db2307f21789c65b0d2430251e"
+    },
+    "wartProcessor": {
+      "jar": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "class": "com.yungnickyoung.minecraft.betterfortresses.world.processor.NetherWartProcessor",
+      "sha256": "e375a9ed935d44c8b8ab2b215653dd0f8cad23ba565dffd59c1fef7b064f3199"
+    },
+    "melonRecipe": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.AdvancedShapelessRecipe",
+      "sha256": "0b750aefa3037e2adb08593e9405110ab0cbac92af5499f389b4329bcb44fba7"
+    },
+    "andIngredient": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.ingredients.AndIngredient",
+      "sha256": "038c494ff2ced8b88e812c6646a3efb29474b3db9701252e44bd119a19ea13ce"
+    },
+    "notRotten": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.ingredients.NotRottenIngredient",
+      "sha256": "744576807ade8b1f3dd854de2e260a9c5a3ef9cf253950f20220c5f8613ec19c"
+    },
+    "stackProvider": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.outputs.ItemStackProvider",
+      "sha256": "d51a6f3c56b7c97d710d4e01604ad9b494422975a961b7e463773ac4fc4e8287"
+    },
+    "knifeRemainder": {
+      "jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "class": "net.dries007.tfc.common.recipes.outputs.DamageCraftingRemainderModifier",
+      "sha256": "ac0f4932b795f523d3d22c5f09576013d88bd6af7399c88f3eca294fc2df1eab"
+    },
+    "shapeless": {
+      "jar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "class": "net.minecraft.world.item.crafting.ShapelessRecipe",
+      "sha256": "523e7fc3bbb97eed1781a129bff13ee4bb7e20247c4df132a977c64bc780a157"
+    }
+  },
+  "resources": {
+    "worldgen/biome|tfc:plains": {
+      "data": {
+        "has_precipitation": true,
+        "temperature": 0.5,
+        "downfall": 0.5,
+        "effects": {
+          "fog_color": 12638463,
+          "sky_color": 8709887,
+          "water_color": 4159204,
+          "water_fog_color": 329011
+        },
+        "carvers": {
+          "air": [
+            "tfc:cave",
+            "tfc:deep_cave",
+            "tfc:canyon"
+          ],
+          "liquid": []
+        },
+        "features": [
+          "#tfc:in_biome/erosion",
+          "#tfc:in_biome/all_lakes",
+          "#tfc:in_biome/soil_discs/plains",
+          "#tfc:in_biome/underground_structures",
+          "#tfc:in_biome/surface_structures",
+          "#tfc:in_biome/strongholds",
+          "#tfc:in_biome/veins",
+          "#tfc:in_biome/underground_decoration",
+          "#tfc:in_biome/large_features/plains",
+          "#tfc:in_biome/surface_decoration/plains",
+          "#tfc:in_biome/top_layer_modification"
+        ],
+        "spawners": {
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 95,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:creeper",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:slime",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 4
+            }
+          ],
+          "creature": [
+            {
+              "type": "tfc:crocodile",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:pig",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:cow",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:goat",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:yak",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:alpaca",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:sheep",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:musk_ox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:chicken",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:duck",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:quail",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:polar_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:grizzly_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:black_bear",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:lion",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:sabertooth",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:cougar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panther",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:tiger",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:rabbit",
+              "weight": 3,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:fox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:panda",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 5
+            },
+            {
+              "type": "tfc:boar",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "tfc:wildebeest",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:bison",
+              "weight": 2,
+              "minCount": 3,
+              "maxCount": 6
+            },
+            {
+              "type": "tfc:moose",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "tfc:bongo",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:caribou",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:deer",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:gazelle",
+              "weight": 3,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:grouse",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:pheasant",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:turkey",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:peafowl",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:wolf",
+              "weight": 1,
+              "minCount": 6,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:hyena",
+              "weight": 1,
+              "minCount": 5,
+              "maxCount": 9
+            },
+            {
+              "type": "tfc:direwolf",
+              "weight": 1,
+              "minCount": 3,
+              "maxCount": 7
+            },
+            {
+              "type": "tfc:donkey",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:horse",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:dromedary_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:bactrian_camel",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:ocelot",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "tfc:frog",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 4
+            },
+            {
+              "type": "tfc:armadillo",
+              "weight": 1,
+              "minCount": 2,
+              "maxCount": 3
+            }
+          ]
+        },
+        "creature_spawn_probability": 0.1,
+        "spawn_costs": {}
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/red_apple": {
+      "data": {
+        "feature": "tfc:plant/red_apple",
+        "placement": [
+          {
+            "type": "tfc:climate",
+            "min_temperature": -10.6,
+            "max_temperature": 10.4,
+            "min_groundwater": 190,
+            "max_groundwater": 310,
+            "max_forest": 3
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 50
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/green_apple": {
+      "data": {
+        "feature": "tfc:plant/green_apple",
+        "placement": [
+          {
+            "type": "tfc:climate",
+            "min_temperature": -10.6,
+            "max_temperature": 10.4,
+            "min_groundwater": 130,
+            "max_groundwater": 280,
+            "max_forest": 3
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 50
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/carrot_patch": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/carrot_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": -13,
+            "max_temperature": 23.0,
+            "min_groundwater": 100,
+            "max_groundwater": 400
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/potato_patch": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/potato_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": -9.4,
+            "max_temperature": 15.8,
+            "min_groundwater": 200,
+            "max_groundwater": 420
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/sugarcane_patch": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/sugarcane_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 17.6,
+            "max_temperature": 40,
+            "min_groundwater": 160,
+            "max_groundwater": 500
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/red_bell_pepper_patch": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/red_bell_pepper_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 12.2,
+            "max_temperature": 40,
+            "min_groundwater": 190,
+            "max_groundwater": 450
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/melon_patch": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/melon_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 5,
+            "max_temperature": 40,
+            "min_groundwater": 200,
+            "max_groundwater": 500
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/barrel_cactus_patch": {
+      "data": {
+        "feature": "tfc:plant/barrel_cactus_patch",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 5
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 6.8,
+            "max_temperature": 19.4,
+            "min_groundwater": 0,
+            "max_groundwater": 85,
+            "min_rain_variance": -1,
+            "max_rain_variance": 1,
+            "rain_variance_absolute": false,
+            "min_forest": 1,
+            "max_forest": 4,
+            "min_elevation": -64,
+            "max_elevation": 320
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:rare_bamboo_golden": {
+      "data": {
+        "feature": "tfc:rare_bamboo_golden",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 30
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 11,
+            "max_temperature": 21.5,
+            "min_groundwater": 300,
+            "max_groundwater": 500,
+            "min_forest": 3,
+            "fuzzy": true
+          },
+          {
+            "type": "minecraft:noise_based_count",
+            "noise_to_count_ratio": 80,
+            "noise_factor": 80.0,
+            "noise_offset": 0.3
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:clamped_normal",
+              "min_inclusive": -8,
+              "max_inclusive": 15,
+              "mean": 3,
+              "deviation": 4
+            },
+            "y_spread": 0
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|firmalife:beehive": {
+      "data": {
+        "feature": "firmalife:beehive",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "tfc:climate",
+            "min_temperature": 5,
+            "max_temperature": 30,
+            "min_groundwater": 150,
+            "max_groundwater": 450,
+            "min_forest": 2
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 5
+          }
+        ]
+      },
+      "provider": "Firmalife-NeoForge-1.21.1-3.0.15.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/red_apple": {
+      "data": {
+        "type": "tfc:fruit_trees",
+        "config": {
+          "state": "tfc:plant/red_apple_growing_branch"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/green_apple": {
+      "data": {
+        "type": "tfc:fruit_trees",
+        "config": {
+          "state": "tfc:plant/green_apple_growing_branch"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/carrot_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfc:plant/wild_crop/carrot"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/carrot": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/carrot",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:wild_crop/carrot"
+              }
+            }
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/carrot": {
+      "data": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "tfc:wild_crop/carrot"
+            }
+          }
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/potato_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfc:plant/wild_crop/potato"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/potato": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/potato",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:wild_crop/potato"
+              }
+            }
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/potato": {
+      "data": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "tfc:wild_crop/potato"
+            }
+          }
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/sugarcane_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfc:plant/wild_crop/sugarcane"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/sugarcane": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/sugarcane",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:wild_crop/sugarcane",
+                "Properties": {
+                  "part": "bottom"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/sugarcane": {
+      "data": {
+        "type": "tfc:tall_wild_crop",
+        "config": {
+          "block": "tfc:wild_crop/sugarcane"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/red_bell_pepper_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfc:plant/wild_crop/red_bell_pepper"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/red_bell_pepper": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/red_bell_pepper",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:wild_crop/red_bell_pepper"
+              }
+            }
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/red_bell_pepper": {
+      "data": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "tfc:wild_crop/red_bell_pepper"
+            }
+          }
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/melon_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfc:plant/wild_crop/melon"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/wild_crop/melon": {
+      "data": {
+        "feature": "tfc:plant/wild_crop/melon",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:wild_crop/melon"
+              }
+            }
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/wild_crop/melon": {
+      "data": {
+        "type": "tfc:spreading_crop",
+        "config": {
+          "block": "tfc:wild_crop/melon"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/barrel_cactus_patch": {
+      "data": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 10,
+          "xz_spread": 15,
+          "y_spread": 1,
+          "feature": "tfc:plant/barrel_cactus"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/placed_feature|tfc:plant/barrel_cactus": {
+      "data": {
+        "feature": "tfc:plant/barrel_cactus",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "tfc:air_or_empty_fluid"
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfc:plant/barrel_cactus",
+                "Properties": {
+                  "age": "1",
+                  "stage": "1",
+                  "part": "lower"
+                }
+              }
+            }
+          },
+          {
+            "type": "tfc:no_solid_neighbors"
+          },
+          {
+            "type": "tfc:intertidal",
+            "min_elevation": 1,
+            "max_elevation": 512
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:plant/barrel_cactus": {
+      "data": {
+        "type": "tfc:tall_plant",
+        "config": {
+          "block": "tfc:plant/barrel_cactus"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|tfc:rare_bamboo_golden": {
+      "data": {
+        "type": "tfc:bamboo",
+        "config": {
+          "probability": 0.2,
+          "state": "tfc:plant/golden_bamboo"
+        }
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "worldgen/configured_feature|firmalife:beehive": {
+      "data": {
+        "type": "firmalife:beehive",
+        "config": {}
+      },
+      "provider": "Firmalife-NeoForge-1.21.1-3.0.15.jar"
+    },
+    "loot_table|tfc:blocks/plant/red_apple_leaves": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/red_apple",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:plant/red_apple_leaves",
+                    "properties": {
+                      "lifecycle": "fruiting"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:plant/red_apple_leaves",
+                "conditions": [
+                  {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#c:tools/shear"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "minecraft:silk_touch",
+                                "levels": {
+                                  "min": 1
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#tfc:tools/sharp"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.2
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.05
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:any_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "minecraft:enchantments": [
+                                {
+                                  "enchantments": "minecraft:silk_touch",
+                                  "levels": {
+                                    "min": 1
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/plant/green_apple_leaves": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/green_apple",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:plant/green_apple_leaves",
+                    "properties": {
+                      "lifecycle": "fruiting"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:plant/green_apple_leaves",
+                "conditions": [
+                  {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#c:tools/shear"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "minecraft:silk_touch",
+                                "levels": {
+                                  "min": 1
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#tfc:tools/sharp"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.2
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.05
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:any_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "items": "#c:tools/shear"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "minecraft:enchantments": [
+                                {
+                                  "enchantments": "minecraft:silk_touch",
+                                  "levels": {
+                                    "min": 1
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/wild_crop/carrot": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/carrot",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/carrot",
+                    "properties": {
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:seeds/carrot"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/wild_crop/potato": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/potato",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/potato",
+                    "properties": {
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:seeds/potato"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/wild_crop/sugarcane": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/sugarcane",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/sugarcane",
+                    "properties": {
+                      "part": "bottom",
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:seeds/sugarcane",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/sugarcane",
+                    "properties": {
+                      "part": "bottom"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/wild_crop/red_bell_pepper": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:food/red_bell_pepper",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfc:wild_crop/red_bell_pepper",
+                    "properties": {
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:seeds/red_bell_pepper"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/plant/barrel_cactus": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:plant/barrel_cactus",
+                "conditions": [
+                  {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#tfc:tools/sharp"
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": "#c:tools/shear"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|tfc:blocks/plant/golden_bamboo": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfc:plant/golden_bamboo"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    },
+    "loot_table|minecraft:blocks/chorus_plant": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "minecraft:chorus_fruit"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:blocks/chorus_plant"
+      },
+      "provider": "1.21.1.jar"
+    },
+    "loot_table|minecraft:blocks/nether_wart": {
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:sequence",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "max": 3.0,
+                          "min": 1.0
+                        },
+                        "function": "minecraft:set_count"
+                      }
+                    ],
+                    "name": "beneath:seeds/nether_wart"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "minecraft:nether_wart",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "3"
+                        }
+                      }
+                    ],
+                    "name": "minecraft:nether_wart"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          }
+        ],
+        "random_sequence": "minecraft:blocks/nether_wart"
+      },
+      "provider": "Beneath-NeoForge-1.21.1-2.0.4.jar"
+    },
+    "worldgen/biome|minecraft:end_highlands": {
+      "data": {
+        "carvers": {
+          "air": [
+            "endercon:cave"
+          ]
+        },
+        "downfall": 0.0,
+        "effects": {
+          "fog_color": 10518688,
+          "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+          },
+          "sky_color": 0,
+          "water_color": 4159204,
+          "water_fog_color": 329011,
+          "ambient_sound": "minecraft:ambient.warped_forest.loop"
+        },
+        "features": [
+          [],
+          [],
+          [],
+          [],
+          [
+            "minecraft:end_gateway_return",
+            "minecraft:end_spike"
+          ],
+          [],
+          [],
+          [],
+          [
+            "endercon:glow_lichen"
+          ],
+          [
+            "minecraft:end_platform",
+            "minecraft:chorus_plant"
+          ]
+        ],
+        "has_precipitation": false,
+        "spawn_costs": {},
+        "spawners": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [
+            {
+              "type": "minecraft:enderman",
+              "maxCount": 2,
+              "minCount": 1,
+              "weight": 10
+            }
+          ],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        },
+        "temperature": 0.5
+      },
+      "provider": "endercon-3.3.jar"
+    },
+    "worldgen/placed_feature|minecraft:chorus_plant": {
+      "data": {
+        "feature": "minecraft:chorus_plant",
+        "placement": [
+          {
+            "type": "minecraft:count_on_every_layer",
+            "count": {
+              "type": "minecraft:uniform",
+              "max_inclusive": 8,
+              "min_inclusive": 4
+            }
+          },
+          {
+            "type": "block_predicate_filter",
+            "predicate": {
+              "type": "all_of",
+              "predicates": [
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    2,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    1,
+                    4,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    -1,
+                    4,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    4,
+                    1
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    4,
+                    -1
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    2,
+                    6,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    -2,
+                    6,
+                    0
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    6,
+                    2
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    6,
+                    -2
+                  ]
+                },
+                {
+                  "type": "matching_block_tag",
+                  "tag": "replaceable",
+                  "offset": [
+                    0,
+                    8,
+                    0
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "provider": "endercon-3.3.jar"
+    },
+    "worldgen/configured_feature|minecraft:chorus_plant": {
+      "data": {
+        "type": "minecraft:chorus_plant",
+        "config": {}
+      },
+      "provider": "1.21.1.jar"
+    },
+    "worldgen/template_pool|betterfortresses:keep": {
+      "data": {
+        "name": "betterfortresses:keep",
+        "fallback": "minecraft:empty",
+        "elements": [
+          {
+            "weight": 1,
+            "element": {
+              "location": "betterfortresses:keep/keep_well",
+              "processors": "betterfortresses:main",
+              "projection": "rigid",
+              "ignore_bounds": true,
+              "enhanced_terrain_adaptation": {
+                "type": "yungsapi:none"
+              },
+              "element_type": "yungsapi:yung_single_element"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "location": "betterfortresses:keep/keep_left_side",
+              "processors": "betterfortresses:main",
+              "projection": "rigid",
+              "ignore_bounds": false,
+              "element_type": "yungsapi:yung_single_element"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "location": "betterfortresses:keep/keep_right_side",
+              "processors": "betterfortresses:main",
+              "projection": "rigid",
+              "ignore_bounds": false,
+              "element_type": "yungsapi:yung_single_element"
+            }
+          }
+        ]
+      },
+      "provider": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+    },
+    "worldgen/processor_list|betterfortresses:main": {
+      "data": {
+        "processors": [
+          {
+            "processor_type": "betterfortresses:stair_pillar_processor"
+          },
+          {
+            "processor_type": "betterfortresses:item_frame_processor"
+          },
+          {
+            "processor_type": "betterfortresses:bridge_arch_processor"
+          },
+          {
+            "processor_type": "betterfortresses:nether_wart_processor"
+          },
+          {
+            "processor_type": "betterfortresses:red_sandstone_stairs_processor"
+          },
+          {
+            "processor_type": "betterfortresses:pillar_processor",
+            "target_block": {
+              "Name": "minecraft:orange_terracotta"
+            },
+            "target_block_output": {
+              "defaultBlockState": {
+                "Name": "minecraft:red_nether_bricks"
+              },
+              "entries": []
+            },
+            "pillar_states": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:magma_block"
+                  },
+                  "probability": 0.5,
+                  "condition": {
+                    "type": "yungsapi:altitude",
+                    "top_cutoff_y": 31
+                  }
+                },
+                {
+                  "blockState": {
+                    "Name": "minecraft:cracked_nether_bricks"
+                  },
+                  "probability": 0.4,
+                  "condition": {
+                    "type": "yungsapi:altitude",
+                    "top_cutoff_y": 33
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "processor_type": "betterfortresses:pillar_processor",
+            "target_block": {
+              "Name": "minecraft:yellow_terracotta"
+            },
+            "target_block_output": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": []
+            },
+            "pillar_states": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:magma_block"
+                  },
+                  "probability": 0.5,
+                  "condition": {
+                    "type": "yungsapi:altitude",
+                    "top_cutoff_y": 31
+                  }
+                },
+                {
+                  "blockState": {
+                    "Name": "minecraft:cracked_nether_bricks"
+                  },
+                  "probability": 0.4,
+                  "condition": {
+                    "type": "yungsapi:altitude",
+                    "top_cutoff_y": 33
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "processor_type": "betterfortresses:pillar_processor",
+            "target_block": {
+              "Name": "minecraft:orange_wool"
+            },
+            "target_block_output": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:magma_block"
+                  },
+                  "probability": 0.75
+                }
+              ]
+            },
+            "pillar_states": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:cracked_nether_bricks"
+                  },
+                  "probability": 0.4
+                }
+              ]
+            }
+          },
+          {
+            "processor_type": "betterfortresses:pillar_processor",
+            "target_block": {
+              "Name": "minecraft:orange_concrete"
+            },
+            "target_block_output": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:magma_block"
+                  },
+                  "probability": 0.75
+                }
+              ]
+            },
+            "pillar_states": {
+              "defaultBlockState": {
+                "Name": "minecraft:nether_bricks"
+              },
+              "entries": [
+                {
+                  "blockState": {
+                    "Name": "minecraft:cracked_nether_bricks"
+                  },
+                  "probability": 0.4
+                }
+              ]
+            }
+          },
+          {
+            "processor_type": "betterfortresses:liquid_block_processor",
+            "target_block": {
+              "Name": "minecraft:diorite"
+            },
+            "target_block_output": {
+              "Name": "minecraft:lava"
+            }
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "input_predicate": {
+                  "block": "minecraft:purple_terracotta",
+                  "predicate_type": "minecraft:random_block_match",
+                  "probability": 0.75
+                },
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:obsidian"
+                }
+              },
+              {
+                "input_predicate": {
+                  "block": "minecraft:purple_terracotta",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:crying_obsidian"
+                }
+              },
+              {
+                "input_predicate": {
+                  "block": "minecraft:red_sandstone",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:tnt"
+                }
+              },
+              {
+                "input_predicate": {
+                  "block": "minecraft:nether_bricks",
+                  "predicate_type": "minecraft:random_block_match",
+                  "probability": 0.1
+                },
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "output_state": {
+                  "Name": "minecraft:cracked_nether_bricks"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "provider": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+    },
+    "dimension|the_bumblezone:the_bumblezone": {
+      "data": {
+        "type": "the_bumblezone:the_bumblezone",
+        "generator": {
+          "type": "the_bumblezone:chunk_generator",
+          "settings": "the_bumblezone:bz_noise_settings",
+          "biome_source": {
+            "type": "the_bumblezone:biome_source",
+            "main_biomes": "#the_bumblezone:the_bumblezone",
+            "blob_biomes": "#the_bumblezone:blob_biomes",
+            "rare_blob_biomes": "#the_bumblezone:rare_blob_biomes"
+          }
+        }
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    },
+    "worldgen/biome|the_bumblezone:hive_wall": {
+      "data": {
+        "player_spawn_friendly": false,
+        "has_precipitation": false,
+        "temperature": 1.85,
+        "downfall": 0.5,
+        "effects": {
+          "ambient_sound": "the_bumblezone:biomes.beehive_ambience",
+          "music": {
+            "sound": "the_bumblezone:biomes.general_music",
+            "min_delay": 6000,
+            "max_delay": 8000,
+            "replace_current_music": false
+          },
+          "particle": {
+            "options": {
+              "type": "the_bumblezone:pollen_puff_particle"
+            },
+            "probability": 0.002
+          },
+          "sky_color": 16759808,
+          "foliage_color": 7593531,
+          "grass_color": 7600187,
+          "fog_color": 12638463,
+          "water_color": 13429759,
+          "water_fog_color": 12351267
+        },
+        "carvers": {},
+        "features": [
+          [
+            "the_bumblezone:beehive_beeswax_boundaries",
+            "the_bumblezone:honeycomb_caves",
+            "the_bumblezone:honeycomb_holes"
+          ],
+          [],
+          [],
+          [
+            "the_bumblezone:bee_dungeon",
+            "the_bumblezone:spider_infested_bee_dungeon",
+            "the_bumblezone:tree_dungeon"
+          ],
+          [
+            "the_bumblezone:fungus_spore_rare_flooring",
+            "the_bumblezone:fungus_spore_rare_ceiling"
+          ],
+          [
+            "the_bumblezone:web_wall",
+            "the_bumblezone:web_bridge_lower",
+            "the_bumblezone:web_bridge_upper"
+          ],
+          [
+            "the_bumblezone:giant_honey_crystals_cave",
+            "the_bumblezone:honey_crystals_common",
+            "the_bumblezone:sticky_honey_residue_feature"
+          ],
+          [],
+          [
+            "the_bumblezone:cave_sugar_waterfall",
+            "the_bumblezone:sugar_waterfall_high",
+            "the_bumblezone:sugar_waterfall_low"
+          ],
+          []
+        ],
+        "creature_spawn_probability": 0.17,
+        "spawners": {
+          "monster": [
+            {
+              "type": "minecraft:slime",
+              "weight": 20,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:spider",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:cave_spider",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:enderman",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:phantom",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:bee",
+              "weight": 50,
+              "minCount": 5,
+              "maxCount": 8
+            },
+            {
+              "type": "the_bumblezone:honey_slime",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "the_bumblezone:beehemoth",
+              "weight": 5,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "the_bumblezone:variant_bee",
+              "weight": 5,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ],
+          "ambient": [],
+          "axolotls": [],
+          "underground_water_creature": [],
+          "water_creature": [],
+          "water_ambient": [],
+          "misc": []
+        },
+        "spawn_costs": {
+          "minecraft:spider": {
+            "energy_budget": 0.03,
+            "charge": 8
+          },
+          "minecraft:cave_spider": {
+            "energy_budget": 0.02,
+            "charge": 8
+          },
+          "minecraft:enderman": {
+            "energy_budget": 0.02,
+            "charge": 3.0
+          },
+          "minecraft:phantom": {
+            "energy_budget": 0.01,
+            "charge": 2.5
+          },
+          "minecraft:slime": {
+            "energy_budget": 0.1,
+            "charge": 1.0
+          }
+        }
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    },
+    "worldgen/placed_feature|the_bumblezone:honeycomb_caves": {
+      "data": {
+        "feature": "the_bumblezone:honeycomb_caves",
+        "placement": [
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    },
+    "worldgen/configured_feature|the_bumblezone:honeycomb_caves": {
+      "data": {
+        "config": {},
+        "type": "the_bumblezone:honeycomb_caves"
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    },
+    "worldgen/placed_feature|the_bumblezone:beehive_beeswax_boundaries": {
+      "data": {
+        "feature": "the_bumblezone:beehive_beeswax_boundaries",
+        "placement": []
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    },
+    "worldgen/configured_feature|the_bumblezone:beehive_beeswax_boundaries": {
+      "data": {
+        "config": {},
+        "type": "the_bumblezone:beehive_beeswax_boundaries"
+      },
+      "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar"
+    }
+  },
+  "tags": {
+    "tags/worldgen/placed_feature|tfc:in_biome/surface_decoration/plains": [
+      "firmalife:beehive",
+      "firmalife:plant/basil_patch",
+      "firmalife:plant/bay_laurel_patch",
+      "firmalife:plant/cardamom_patch",
+      "firmalife:plant/cilantro_patch",
+      "firmalife:plant/cocoa",
+      "firmalife:plant/cumin_patch",
+      "firmalife:plant/fig",
+      "firmalife:plant/nightshade_bush_patch",
+      "firmalife:plant/oregano_patch",
+      "firmalife:plant/pimento_patch",
+      "firmalife:plant/pineapple_bush_patch",
+      "firmalife:plant/vanilla_patch",
+      "firmalife:wild_red_grapes_patch",
+      "firmalife:wild_white_grapes_patch",
+      "textile:plant/wild_crop/cotton_patch",
+      "textile:plant/wild_crop/flax_patch",
+      "tfc:bone_patch",
+      "tfc:humus_patch",
+      "tfc:pinecone_patch",
+      "tfc:plant/allium_patch",
+      "tfc:plant/anthurium_patch",
+      "tfc:plant/arrowhead_patch",
+      "tfc:plant/artists_conk_patch",
+      "tfc:plant/arundo",
+      "tfc:plant/arundo_forest",
+      "tfc:plant/azalea_patch",
+      "tfc:plant/badderlocks_patch",
+      "tfc:plant/banana",
+      "tfc:plant/barrel_cactus_patch",
+      "tfc:plant/bear_grass_patch",
+      "tfc:plant/bird_nest_fern_patch",
+      "tfc:plant/black_orchid_patch",
+      "tfc:plant/blackberry_bush",
+      "tfc:plant/blue_ginger_patch",
+      "tfc:plant/blue_orchid_patch",
+      "tfc:plant/blueberry_bush",
+      "tfc:plant/bunchberry_bush_patch",
+      "tfc:plant/bur_reed_patch",
+      "tfc:plant/buttercup_patch",
+      "tfc:plant/butterfly_milkweed_patch",
+      "tfc:plant/calendula_patch",
+      "tfc:plant/cattail_patch",
+      "tfc:plant/cherry",
+      "tfc:plant/cloudberry_bush_patch",
+      "tfc:plant/cobblestone_lichen_patch",
+      "tfc:plant/coontail_patch",
+      "tfc:plant/cornflower_patch",
+      "tfc:plant/cranberry_bush_patch",
+      "tfc:plant/cycad",
+      "tfc:plant/dandelion_patch",
+      "tfc:plant/dead_bush_patch",
+      "tfc:plant/desert_flame_patch",
+      "tfc:plant/dry_grass_patch",
+      "tfc:plant/duckweed_patch",
+      "tfc:plant/edelweiss_patch",
+      "tfc:plant/eel_grass_patch",
+      "tfc:plant/elderberry_bush",
+      "tfc:plant/elegant_sunburst_lichen_patch",
+      "tfc:plant/fan_palm_patch",
+      "tfc:plant/field_horsetail_patch",
+      "tfc:plant/flame_vine",
+      "tfc:plant/foxglove_patch",
+      "tfc:plant/gooseberry_bush_patch",
+      "tfc:plant/grape_hyacinth_patch",
+      "tfc:plant/green_algae_patch",
+      "tfc:plant/green_apple",
+      "tfc:plant/guzmania_patch",
+      "tfc:plant/hanging_vines",
+      "tfc:plant/hanging_vines_cave",
+      "tfc:plant/heather_patch",
+      "tfc:plant/heliconia_patch",
+      "tfc:plant/hibiscus_patch",
+      "tfc:plant/houstonia_patch",
+      "tfc:plant/ivy_patch",
+      "tfc:plant/jungle_vines",
+      "tfc:plant/kangaroo_paw_patch",
+      "tfc:plant/king_fern_patch",
+      "tfc:plant/kinnikinnick_patch",
+      "tfc:plant/labrador_tea_patch",
+      "tfc:plant/lady_fern_patch",
+      "tfc:plant/lemon",
+      "tfc:plant/liana",
+      "tfc:plant/licorice_fern_patch",
+      "tfc:plant/lilac_patch",
+      "tfc:plant/lily_of_the_valley_patch",
+      "tfc:plant/lotus_patch",
+      "tfc:plant/maiden_pink_patch",
+      "tfc:plant/marigold_patch",
+      "tfc:plant/meads_milkweed_patch",
+      "tfc:plant/milfoil_patch",
+      "tfc:plant/morning_glory_cover",
+      "tfc:plant/morning_glory_patch",
+      "tfc:plant/moss_campion_patch",
+      "tfc:plant/moss_cover",
+      "tfc:plant/moss_patch",
+      "tfc:plant/mountain_hullwort_patch",
+      "tfc:plant/nasturtium_patch",
+      "tfc:plant/olive",
+      "tfc:plant/orange",
+      "tfc:plant/ostrich_fern_patch",
+      "tfc:plant/oxeye_daisy_patch",
+      "tfc:plant/palash_patch",
+      "tfc:plant/peach",
+      "tfc:plant/penwortel_patch",
+      "tfc:plant/philodendron_cover",
+      "tfc:plant/philodendron_patch",
+      "tfc:plant/phragmite_patch",
+      "tfc:plant/pickerelweed_patch",
+      "tfc:plant/pistia_patch",
+      "tfc:plant/plum",
+      "tfc:plant/poppy_patch",
+      "tfc:plant/prickly_pear_patch",
+      "tfc:plant/prickly_pear_purple_patch",
+      "tfc:plant/primrose_patch",
+      "tfc:plant/pulsatilla_patch",
+      "tfc:plant/purple_water_lily_patch",
+      "tfc:plant/qantu_patch",
+      "tfc:plant/ramirezella_patch",
+      "tfc:plant/ramunda_patch",
+      "tfc:plant/raspberry_bush",
+      "tfc:plant/red_apple",
+      "tfc:plant/red_sealing_wax_palm_patch",
+      "tfc:plant/reindeer_lichen_cover",
+      "tfc:plant/reindeer_lichen_patch",
+      "tfc:plant/rose_patch",
+      "tfc:plant/sacred_datura_patch",
+      "tfc:plant/sagebrush_patch",
+      "tfc:plant/sago_patch",
+      "tfc:plant/saguaro_patch",
+      "tfc:plant/sapphire_tower_patch",
+      "tfc:plant/shawiash_patch",
+      "tfc:plant/silken_pincushion_cactus_patch",
+      "tfc:plant/silver_bromeliad_patch",
+      "tfc:plant/silver_spurflower_patch",
+      "tfc:plant/snapdragon_pink_patch",
+      "tfc:plant/snapdragon_red_patch",
+      "tfc:plant/snapdragon_white_patch",
+      "tfc:plant/snapdragon_yellow_patch",
+      "tfc:plant/snowberry_bush_patch",
+      "tfc:plant/spanish_moss",
+      "tfc:plant/strawberry_bush_patch",
+      "tfc:plant/strelitzia_patch",
+      "tfc:plant/sunflower_patch",
+      "tfc:plant/switchgrass_patch",
+      "tfc:plant/sword_fern_patch",
+      "tfc:plant/tall_fescue_grass_patch",
+      "tfc:plant/tank_bromeliad_patch",
+      "tfc:plant/toquilla_palm_patch",
+      "tfc:plant/tree_fern",
+      "tfc:plant/trillium_patch",
+      "tfc:plant/tropical_milkweed_patch",
+      "tfc:plant/tulip_orange_patch",
+      "tfc:plant/tulip_pink_patch",
+      "tfc:plant/tulip_red_patch",
+      "tfc:plant/tulip_white_patch",
+      "tfc:plant/vriesea_patch",
+      "tfc:plant/water_taro_patch",
+      "tfc:plant/white_water_lily_patch",
+      "tfc:plant/wild_crop/alfalfa_patch",
+      "tfc:plant/wild_crop/barley_patch",
+      "tfc:plant/wild_crop/beet_patch",
+      "tfc:plant/wild_crop/cabbage_patch",
+      "tfc:plant/wild_crop/canola_patch",
+      "tfc:plant/wild_crop/carrot_patch",
+      "tfc:plant/wild_crop/cassava_patch",
+      "tfc:plant/wild_crop/garlic_patch",
+      "tfc:plant/wild_crop/green_bean_patch",
+      "tfc:plant/wild_crop/jute_patch",
+      "tfc:plant/wild_crop/lentil_patch",
+      "tfc:plant/wild_crop/maize_patch",
+      "tfc:plant/wild_crop/melon_patch",
+      "tfc:plant/wild_crop/oat_patch",
+      "tfc:plant/wild_crop/onion_patch",
+      "tfc:plant/wild_crop/papyrus_patch",
+      "tfc:plant/wild_crop/peanut_patch",
+      "tfc:plant/wild_crop/potato_patch",
+      "tfc:plant/wild_crop/pumpkin_patch",
+      "tfc:plant/wild_crop/radish_patch",
+      "tfc:plant/wild_crop/red_bell_pepper_patch",
+      "tfc:plant/wild_crop/rice_patch",
+      "tfc:plant/wild_crop/rye_patch",
+      "tfc:plant/wild_crop/soybean_patch",
+      "tfc:plant/wild_crop/squash_patch",
+      "tfc:plant/wild_crop/sugarcane_patch",
+      "tfc:plant/wild_crop/tomato_patch",
+      "tfc:plant/wild_crop/wheat_patch",
+      "tfc:plant/wild_crop/yellow_bell_pepper_patch",
+      "tfc:plant/wintergreen_berry_bush_patch",
+      "tfc:plant/yellow_saxifrage_patch",
+      "tfc:plant/yellow_water_lily_patch",
+      "tfc:plant/yucca_patch",
+      "tfc:rotten_flesh_patch",
+      "tfc:salt_lick_patch",
+      "tfc:sticks_forest_patch",
+      "tfc:surface_grasses"
+    ],
+    "tags/worldgen/placed_feature|tfc:in_biome/large_features/plains": [
+      "tfc:bamboo",
+      "tfc:bamboo_golden",
+      "tfc:cave_vegetation",
+      "tfc:flood_fill_lake",
+      "tfc:forest",
+      "tfc:rare_bamboo",
+      "tfc:rare_bamboo_golden"
+    ],
+    "tags/block|tfc:tools/sharp": [],
+    "tags/item|tfc:tools/sharp": [
+      "ae2:certus_quartz_hoe",
+      "ae2:fluix_hoe",
+      "ae2:nether_quartz_hoe",
+      "avaritia:blaze_hoe",
+      "avaritia:crystal_hoe",
+      "avaritia:infinity_hoe",
+      "eternal_starlight:amaramber_hoe",
+      "eternal_starlight:amaramber_sickle",
+      "eternal_starlight:aurora_deer_antler",
+      "eternal_starlight:deepsilver_hoe",
+      "eternal_starlight:deepsilver_sickle",
+      "eternal_starlight:flowglaze_hoe",
+      "eternal_starlight:flowglaze_scythe",
+      "eternal_starlight:glacite_hoe",
+      "eternal_starlight:glacite_scythe",
+      "eternal_starlight:malarite_hoe",
+      "eternal_starlight:malarite_sickle",
+      "eternal_starlight:petal_scythe",
+      "eternal_starlight:starfire_hoe",
+      "eternal_starlight:starfire_scythe",
+      "eternal_starlight:starlit_diamond_hoe",
+      "eternal_starlight:thermal_springstone_hoe",
+      "eternal_starlight:thermal_springstone_scythe",
+      "eternal_starlight:unrealium_hoe",
+      "eternal_starlight:unrealium_sickle",
+      "extended_industrialization:electric_chainsaw",
+      "extended_industrialization:steam_chainsaw",
+      "extended_industrialization:ultimate_laser_drill",
+      "farmersdelight:diamond_knife",
+      "farmersdelight:flint_knife",
+      "farmersdelight:golden_knife",
+      "farmersdelight:iron_knife",
+      "farmersdelight:netherite_knife",
+      "htm:bone_knife",
+      "htm:flint_knife",
+      "justdirethings:blazegold_hoe",
+      "justdirethings:celestigem_hoe",
+      "justdirethings:eclipsealloy_hoe",
+      "justdirethings:ferricore_hoe",
+      "malum:crude_scythe",
+      "malum:edge_of_deliverance",
+      "malum:soul_stained_steel_hoe",
+      "malum:soul_stained_steel_knife",
+      "malum:soul_stained_steel_scythe",
+      "malum:sundering_anchor",
+      "minecraft:diamond_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:wooden_hoe",
+      "modern_industrialization:diesel_chainsaw",
+      "occultism:butcher_knife",
+      "occultism:iesnium_butcher_knife",
+      "projecte:dm_hoe",
+      "projecte:rm_hoe",
+      "railcraft:steel_hoe",
+      "sgjourney:naquadah_hoe",
+      "sgjourney:trinium_hoe",
+      "tfc:metal/hoe/bismuth_bronze",
+      "tfc:metal/hoe/black_bronze",
+      "tfc:metal/hoe/black_steel",
+      "tfc:metal/hoe/blue_steel",
+      "tfc:metal/hoe/bronze",
+      "tfc:metal/hoe/copper",
+      "tfc:metal/hoe/red_steel",
+      "tfc:metal/hoe/steel",
+      "tfc:metal/hoe/wrought_iron",
+      "tfc:metal/knife/bismuth_bronze",
+      "tfc:metal/knife/black_bronze",
+      "tfc:metal/knife/black_steel",
+      "tfc:metal/knife/blue_steel",
+      "tfc:metal/knife/bronze",
+      "tfc:metal/knife/copper",
+      "tfc:metal/knife/red_steel",
+      "tfc:metal/knife/steel",
+      "tfc:metal/knife/wrought_iron",
+      "tfc:metal/scythe/bismuth_bronze",
+      "tfc:metal/scythe/black_bronze",
+      "tfc:metal/scythe/black_steel",
+      "tfc:metal/scythe/blue_steel",
+      "tfc:metal/scythe/bronze",
+      "tfc:metal/scythe/copper",
+      "tfc:metal/scythe/red_steel",
+      "tfc:metal/scythe/steel",
+      "tfc:metal/scythe/wrought_iron",
+      "tfc:obsidian_hoe",
+      "tfc:obsidian_knife",
+      "tfc:stone/hoe/igneous_extrusive",
+      "tfc:stone/hoe/igneous_intrusive",
+      "tfc:stone/hoe/metamorphic",
+      "tfc:stone/hoe/sedimentary",
+      "tfc:stone/knife/igneous_extrusive",
+      "tfc:stone/knife/igneous_intrusive",
+      "tfc:stone/knife/metamorphic",
+      "tfc:stone/knife/sedimentary",
+      "tfc_metallurgy:metal/knife/aluminum",
+      "tfc_metallurgy:metal/knife/beryllium_copper",
+      "tfc_metallurgy:metal/knife/boron",
+      "tfc_metallurgy:metal/knife/cobalt",
+      "tfc_metallurgy:metal/knife/compressed_iron",
+      "tfc_metallurgy:metal/knife/enderium",
+      "tfc_metallurgy:metal/knife/ferroboron",
+      "tfc_metallurgy:metal/knife/florentine_bronze",
+      "tfc_metallurgy:metal/knife/invar",
+      "tfc_metallurgy:metal/knife/lumium",
+      "tfc_metallurgy:metal/knife/mithril",
+      "tfc_metallurgy:metal/knife/nickel_silver",
+      "tfc_metallurgy:metal/knife/osmiridium",
+      "tfc_metallurgy:metal/knife/osmium",
+      "tfc_metallurgy:metal/knife/pewter",
+      "tfc_metallurgy:metal/knife/refined_glowstone",
+      "tfc_metallurgy:metal/knife/refined_obsidian",
+      "tfc_metallurgy:metal/knife/signalum",
+      "tfc_metallurgy:metal/knife/thorium",
+      "tfc_metallurgy:metal/knife/titanium",
+      "tfc_metallurgy:metal/knife/tungsten",
+      "tfc_metallurgy:metal/knife/tungsten_steel",
+      "tfc_metallurgy:metal/knife/uranium",
+      "tfc_metallurgy:metal/scythe/aluminum",
+      "tfc_metallurgy:metal/scythe/beryllium_copper",
+      "tfc_metallurgy:metal/scythe/boron",
+      "tfc_metallurgy:metal/scythe/cobalt",
+      "tfc_metallurgy:metal/scythe/compressed_iron",
+      "tfc_metallurgy:metal/scythe/enderium",
+      "tfc_metallurgy:metal/scythe/ferroboron",
+      "tfc_metallurgy:metal/scythe/florentine_bronze",
+      "tfc_metallurgy:metal/scythe/invar",
+      "tfc_metallurgy:metal/scythe/lumium",
+      "tfc_metallurgy:metal/scythe/mithril",
+      "tfc_metallurgy:metal/scythe/nickel_silver",
+      "tfc_metallurgy:metal/scythe/osmiridium",
+      "tfc_metallurgy:metal/scythe/osmium",
+      "tfc_metallurgy:metal/scythe/pewter",
+      "tfc_metallurgy:metal/scythe/refined_glowstone",
+      "tfc_metallurgy:metal/scythe/refined_obsidian",
+      "tfc_metallurgy:metal/scythe/signalum",
+      "tfc_metallurgy:metal/scythe/thorium",
+      "tfc_metallurgy:metal/scythe/titanium",
+      "tfc_metallurgy:metal/scythe/tungsten",
+      "tfc_metallurgy:metal/scythe/tungsten_steel",
+      "tfc_metallurgy:metal/scythe/uranium",
+      "tfmg:aluminum_hoe",
+      "tfmg:lead_hoe",
+      "tfmg:steel_hoe",
+      "werewolves:silver_hoe"
+    ],
+    "tags/item|c:tools/knife": [
+      "farmersdelight:diamond_knife",
+      "farmersdelight:flint_knife",
+      "farmersdelight:golden_knife",
+      "farmersdelight:iron_knife",
+      "farmersdelight:netherite_knife",
+      "htm:bone_knife",
+      "htm:flint_knife",
+      "malum:soul_stained_steel_knife",
+      "malum:sundering_anchor",
+      "occultism:butcher_knife",
+      "occultism:iesnium_butcher_knife",
+      "tfc:metal/knife/bismuth_bronze",
+      "tfc:metal/knife/black_bronze",
+      "tfc:metal/knife/black_steel",
+      "tfc:metal/knife/blue_steel",
+      "tfc:metal/knife/bronze",
+      "tfc:metal/knife/copper",
+      "tfc:metal/knife/red_steel",
+      "tfc:metal/knife/steel",
+      "tfc:metal/knife/wrought_iron",
+      "tfc:obsidian_knife",
+      "tfc:stone/knife/igneous_extrusive",
+      "tfc:stone/knife/igneous_intrusive",
+      "tfc:stone/knife/metamorphic",
+      "tfc:stone/knife/sedimentary",
+      "tfc_metallurgy:metal/knife/aluminum",
+      "tfc_metallurgy:metal/knife/beryllium_copper",
+      "tfc_metallurgy:metal/knife/boron",
+      "tfc_metallurgy:metal/knife/cobalt",
+      "tfc_metallurgy:metal/knife/compressed_iron",
+      "tfc_metallurgy:metal/knife/enderium",
+      "tfc_metallurgy:metal/knife/ferroboron",
+      "tfc_metallurgy:metal/knife/florentine_bronze",
+      "tfc_metallurgy:metal/knife/invar",
+      "tfc_metallurgy:metal/knife/lumium",
+      "tfc_metallurgy:metal/knife/mithril",
+      "tfc_metallurgy:metal/knife/nickel_silver",
+      "tfc_metallurgy:metal/knife/osmiridium",
+      "tfc_metallurgy:metal/knife/osmium",
+      "tfc_metallurgy:metal/knife/pewter",
+      "tfc_metallurgy:metal/knife/refined_glowstone",
+      "tfc_metallurgy:metal/knife/refined_obsidian",
+      "tfc_metallurgy:metal/knife/signalum",
+      "tfc_metallurgy:metal/knife/thorium",
+      "tfc_metallurgy:metal/knife/titanium",
+      "tfc_metallurgy:metal/knife/tungsten",
+      "tfc_metallurgy:metal/knife/tungsten_steel",
+      "tfc_metallurgy:metal/knife/uranium"
+    ],
+    "tags/block|tfc:spreading_fruit_grows_on": [
+      "burnt:burnt_dirt",
+      "burnt:recovering_grass",
+      "burnt:semi_burnt_dirt",
+      "burnt:smoldering_grass",
+      "burnt:smoldering_grass_start",
+      "eternal_starlight:blue_crystal_moss_block",
+      "eternal_starlight:fantasy_grass_block",
+      "eternal_starlight:glowing_nightfall_mud",
+      "eternal_starlight:golden_grass_block",
+      "eternal_starlight:muddy_banyin_roots",
+      "eternal_starlight:nightfall_dirt",
+      "eternal_starlight:nightfall_grass_block",
+      "eternal_starlight:nightfall_mud",
+      "eternal_starlight:nightfall_podzol",
+      "eternal_starlight:red_crystal_moss_block",
+      "eternal_starlight:tenacious_nightfall_grass_block",
+      "farmersdelight:rich_soil",
+      "farmersdelight:rich_soil_farmland",
+      "minecraft:coarse_dirt",
+      "minecraft:dirt",
+      "minecraft:farmland",
+      "minecraft:grass_block",
+      "minecraft:moss_block",
+      "minecraft:mud",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "minecraft:rooted_dirt",
+      "tfc:clay/alfisol",
+      "tfc:clay/andisol",
+      "tfc:clay/aridisol",
+      "tfc:clay/entisol",
+      "tfc:clay/fluvisol",
+      "tfc:clay/mollisol",
+      "tfc:clay/oxisol",
+      "tfc:clay/podzol",
+      "tfc:clay_duff/alfisol",
+      "tfc:clay_duff/andisol",
+      "tfc:clay_duff/aridisol",
+      "tfc:clay_duff/entisol",
+      "tfc:clay_duff/fluvisol",
+      "tfc:clay_duff/mollisol",
+      "tfc:clay_duff/oxisol",
+      "tfc:clay_duff/podzol",
+      "tfc:clay_grass/alfisol",
+      "tfc:clay_grass/andisol",
+      "tfc:clay_grass/aridisol",
+      "tfc:clay_grass/entisol",
+      "tfc:clay_grass/fluvisol",
+      "tfc:clay_grass/mollisol",
+      "tfc:clay_grass/oxisol",
+      "tfc:clay_grass/podzol",
+      "tfc:coarse_dirt/alfisol",
+      "tfc:coarse_dirt/andisol",
+      "tfc:coarse_dirt/aridisol",
+      "tfc:coarse_dirt/entisol",
+      "tfc:coarse_dirt/fluvisol",
+      "tfc:coarse_dirt/mollisol",
+      "tfc:coarse_dirt/oxisol",
+      "tfc:coarse_dirt/podzol",
+      "tfc:dirt/alfisol",
+      "tfc:dirt/andisol",
+      "tfc:dirt/aridisol",
+      "tfc:dirt/entisol",
+      "tfc:dirt/fluvisol",
+      "tfc:dirt/mollisol",
+      "tfc:dirt/oxisol",
+      "tfc:dirt/podzol",
+      "tfc:duff/alfisol",
+      "tfc:duff/andisol",
+      "tfc:duff/aridisol",
+      "tfc:duff/entisol",
+      "tfc:duff/fluvisol",
+      "tfc:duff/mollisol",
+      "tfc:duff/oxisol",
+      "tfc:duff/podzol",
+      "tfc:farmland/alfisol",
+      "tfc:farmland/andisol",
+      "tfc:farmland/aridisol",
+      "tfc:farmland/entisol",
+      "tfc:farmland/fluvisol",
+      "tfc:farmland/mollisol",
+      "tfc:farmland/oxisol",
+      "tfc:farmland/podzol",
+      "tfc:grass/alfisol",
+      "tfc:grass/andisol",
+      "tfc:grass/aridisol",
+      "tfc:grass/entisol",
+      "tfc:grass/fluvisol",
+      "tfc:grass/mollisol",
+      "tfc:grass/oxisol",
+      "tfc:grass/podzol",
+      "tfc:kaolin_clay_grass",
+      "tfc:mud/alfisol",
+      "tfc:mud/andisol",
+      "tfc:mud/aridisol",
+      "tfc:mud/entisol",
+      "tfc:mud/fluvisol",
+      "tfc:mud/mollisol",
+      "tfc:mud/oxisol",
+      "tfc:mud/podzol",
+      "tfc:pink_kaolin_clay",
+      "tfc:red_kaolin_clay",
+      "tfc:rooted_dirt/alfisol",
+      "tfc:rooted_dirt/andisol",
+      "tfc:rooted_dirt/aridisol",
+      "tfc:rooted_dirt/entisol",
+      "tfc:rooted_dirt/fluvisol",
+      "tfc:rooted_dirt/mollisol",
+      "tfc:rooted_dirt/oxisol",
+      "tfc:rooted_dirt/podzol",
+      "tfc:white_kaolin_clay",
+      "vampirism:cursed_earth",
+      "vampirism:cursed_grass"
+    ],
+    "tags/worldgen/biome|the_bumblezone:the_bumblezone": [
+      "the_bumblezone:bumbling_beepartments",
+      "the_bumblezone:crystal_canyon",
+      "the_bumblezone:floral_meadow",
+      "the_bumblezone:hive_pillar",
+      "the_bumblezone:hive_wall",
+      "the_bumblezone:howling_constructs",
+      "the_bumblezone:pollinated_fields",
+      "the_bumblezone:pollinated_pillar",
+      "the_bumblezone:sugar_water_floor"
+    ],
+    "tags/entity_type|the_bumblezone:dimension_teleportation/teleport_projectiles": [
+      "ars_nouveau:arcing_spell_proj",
+      "ars_nouveau:follow_proj",
+      "ars_nouveau:homing_spell_proj",
+      "ars_nouveau:spell_proj",
+      "bosses_of_mass_destruction:charged_ender_pearl",
+      "endermanoverhaul:bubble_pearl",
+      "endermanoverhaul:crimson_pearl",
+      "endermanoverhaul:icy_pearl",
+      "endermanoverhaul:warped_pearl",
+      "evilcraft:blood_pearl",
+      "minecraft:ender_pearl",
+      "nock_enough_arrows:teleportation_arrow",
+      "origins:enderian_pearl",
+      "unusualend:projectile_creative_wandering_pearl",
+      "xtraarrows:diamond_ender_arrow",
+      "xtraarrows:flint_ender_arrow",
+      "xtraarrows:golden_ender_arrow",
+      "xtraarrows:iron_ender_arrow",
+      "xtraarrows:netherite_ender_arrow"
+    ],
+    "tags/block|the_bumblezone:dimension_teleportation/forced_allowed_teleportable_blocks": [
+      "firmalife:wild_beehive"
+    ],
+    "tags/block|the_bumblezone:dimension_teleportation/disallowed_teleportable_beehive_blocks": [],
+    "tags/block|the_bumblezone:dimension_teleportation/required_blocks_under_beehive_to_teleport": []
+  },
+  "jarSha256": {
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440",
+    "Firmalife-NeoForge-1.21.1-3.0.15.jar": "eddaca0112ce316d75e48f9f19a0e3e3489ddeab3c4b3daa05c6a4cd1bb013a7",
+    "the_bumblezone-7.17.0+1.21.1-neoforge.jar": "08f1590fbfa16fb00cc2ddb4a7fabd1a34e71ebb80c963fcde1fe6db6e99a0e7",
+    "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4",
+    "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff"
+  },
+  "fieldPaths": {
+    "tfc:plant/red_apple": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/red_apple"
+      ]
+    ],
+    "tfc:plant/green_apple": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/green_apple"
+      ]
+    ],
+    "tfc:plant/wild_crop/carrot_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/wild_crop/carrot_patch"
+      ]
+    ],
+    "tfc:plant/wild_crop/potato_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/wild_crop/potato_patch"
+      ]
+    ],
+    "tfc:plant/wild_crop/sugarcane_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/wild_crop/sugarcane_patch"
+      ]
+    ],
+    "tfc:plant/wild_crop/red_bell_pepper_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/wild_crop/red_bell_pepper_patch"
+      ]
+    ],
+    "tfc:plant/wild_crop/melon_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/wild_crop/melon_patch"
+      ]
+    ],
+    "tfc:plant/barrel_cactus_patch": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:plant/barrel_cactus_patch"
+      ]
+    ],
+    "tfc:rare_bamboo_golden": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/large_features/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "tfc:rare_bamboo_golden"
+      ]
+    ],
+    "firmalife:beehive": [
+      [
+        "worldgen/biome",
+        "tfc:plains"
+      ],
+      [
+        "tags/worldgen/placed_feature",
+        "tfc:in_biome/surface_decoration/plains"
+      ],
+      [
+        "worldgen/placed_feature",
+        "firmalife:beehive"
+      ]
+    ]
+  },
+  "dimensionType": {
+    "effects": "the_bumblezone:dimension_special_effects",
+    "ultrawarm": false,
+    "natural": true,
+    "ambient_light": 0.15,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "logical_height": 256,
+    "height": 256,
+    "min_y": 0,
+    "has_raids": false,
+    "respawn_anchor_works": false,
+    "bed_works": true,
+    "fixed_time": 6000,
+    "piglin_safe": true,
+    "coordinate_scale": 4.0,
+    "monster_spawn_block_light_limit": 12,
+    "monster_spawn_light_level": 11
+  },
+  "melonSliceRecipe": {
+    "id": "tfc:crafting/food/melon_slice",
+    "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+    "data": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "tag": "c:tools/knife"
+        },
+        {
+          "type": "tfc:and",
+          "children": [
+            {
+              "item": "tfc:melon"
+            },
+            {
+              "type": "tfc:not_rotten"
+            }
+          ]
+        }
+      ],
+      "primary_ingredient": {
+        "tag": "c:tools/knife"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "result": {
+        "count": 4,
+        "id": "tfc:food/melon_slice"
+      }
+    }
+  },
+  "fruitClimate": {
+    "red_apple": {
+      "max_hydration": 75,
+      "max_temperature": 11.6,
+      "min_hydration": 16,
+      "min_temperature": -11.8
+    },
+    "green_apple": {
+      "max_hydration": 75,
+      "max_temperature": 11.6,
+      "min_hydration": 10,
+      "min_temperature": -11.8
+    }
+  },
+  "fruitClimateBytesSha256": {
+    "red_apple": "f91f93535361a5612664eaca3bdb102428cef3c458bbfcba8ed2c8a213ca6802",
+    "green_apple": "1086788d24e6488711c9b7bad37bf3da8d4628dd7794a669a0ae78c623d3711b"
+  },
+  "fortressTemplates": {
+    "mod_integration/keep_create": {
+      "jar": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "sha256": "b98c3044bfb7e49d3739e098efbeb23a12790475c3922846682dad90d613cf52",
+      "size": [
+        37,
+        32,
+        25
+      ]
+    },
+    "keep/keep_left_side": {
+      "jar": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "sha256": "613aee466f0717a543bfe83166d516b56df49bd15f648d559bac2c4394195422",
+      "size": [
+        10,
+        32,
+        9
+      ]
+    }
+  },
+  "sourceSha256": {
+    "config/tfc-server.toml": "e62ded29f143a8ff30a6cf23c6f93259208ebf6b770b0520b5a769cb9336cc47",
+    "config/the_bumblezone/dimension.toml": "83588b4c725e6459573d3e8f9ac0694c4d4757d4e14f8cba2844f89686ba80f5",
+    "kubejs/server_scripts/resources/loot_authority.js": "963661ead5a870632ebec035612ff347c3359136cd9cb8d42fae9f05bbd94387",
+    "kubejs/config/createch2_loot_cleanup.json": "2f162af08072aeeddf704bdc584f089aa8a4156b15d26c1e58586f47229b8456",
+    "kubejs/config/createch2_food_authority.json": "b89736bfb1b14df11f3c0545ccb5898b7e562821b67e7358b6f7333df6f5ecb4"
+  },
+  "sharedEndMechanicHashes": {
+    "eye": "1b1a0293d844d6555624dd58aff543e5e0b0ee9436bd0ba6b1e24bb92bd2065f",
+    "frame": "326552f2308408aa16e95d1b8f053e680f8ebc7d5ef1713a786f08b6e1c1ddf1",
+    "portal": "4511e3d601b872e196edf95239f2e251ea2cffe129689c45ca092c4b3ae845e6",
+    "fight": "52f1b3925755f791f463c94d25320726b60f9d35da7d8859b196e218a7c9c554",
+    "dragon": "80ba118de7fa3cd3d28e072880dc10ef0edcc016682a66f4f334d57ebded24a0",
+    "features": "b5968b814e7af0abe21d2187253987a75204d294c7f1ded293c5aacc66be7c66",
+    "gateway": "ef4ac5cebe1b412366c538573e18ade3e47106db846b8fbe6c23f25e12ca346a",
+    "gatewayBlock": "3e28c1aa57da80f8413102e1faf7f1c0afc06fab3804f736d641c2173444514d",
+    "pearl": "850a43b9e43ef900bee2787af3c545f9f6d780faaf985d130cb9eac4d7a827cf",
+    "podium": "a03ca0f9f688735cf1f0318570b98b5af5d0b841605784ddb906c2bffb89d42d",
+    "packet": "9aed3b1549e1f723b379ba39942c607e05a6a7167c1bf747f7340fe07983c047",
+    "players": "87add07569ceac5344dc5d3ba32d463ada2d493bf5bdf21a6d2c7eab1fd1310f",
+    "player": "94e4b06e2fb4184faf0bc8916eb9994a24b7a09ee506a92704f7faa4e0d36764",
+    "inventory": "0e578ae1b8e1956de191e23ce3e877986d0c4d57852423201a931eed1900e4d1",
+    "bow": "7e32568125aa999f0355f80a9215b63c45acefe20afa79138191aa9f0568edec",
+    "weapon": "4d667ec169ba463de6629006138be6bebc86b09f2b6683545b1d426bde04be96",
+    "flintBow": "d37507a1ed9d9a989235e87c6996274e253d9ced633bcd5f4d127c97401509ce"
+  },
+  "sharedNetherCodeSha256": {
+    "ritual": "524b2d2253f6a265ae3e256412e8c710ad3298bf37ffb6338ffb2edd8f612d09",
+    "events": "2cb79d12563d5e29a594ed015c7062471fbe61c2dd93f23884f7f3ae3e4e8f72",
+    "entrypoint": "9588419d4b95d2f9a1c30e14551c98405a78214b9c7a2eae6fee679f3867c79d",
+    "portalConfig": "d4d45534b6ca605a230661b10e163d24106f56a1f7bf15e167733b77ba6bb4b7",
+    "portal": "3018f03497bf08c9e7b69e698798b905d0626c3b3d3a4a13db5dd2bb6cf7a9d1",
+    "population": "84d38e4fe2be894540b9091304809d8864f081bab1d8b59b3ece3b5e8fd289dc"
+  },
+  "uniqueResourcePaths": {
+    "data/tfc/tfc/climate_range/plant/red_apple_tree.json": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "max_hydration": 75,
+          "max_temperature": 11.6,
+          "min_hydration": 16,
+          "min_temperature": -11.8
+        }
+      }
+    ],
+    "data/tfc/tfc/climate_range/plant/green_apple_tree.json": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "max_hydration": 75,
+          "max_temperature": 11.6,
+          "min_hydration": 10,
+          "min_temperature": -11.8
+        }
+      }
+    ],
+    "data/the_bumblezone/dimension_type/the_bumblezone.json": [
+      {
+        "provider": "the_bumblezone-7.17.0+1.21.1-neoforge.jar",
+        "data": {
+          "effects": "the_bumblezone:dimension_special_effects",
+          "ultrawarm": false,
+          "natural": true,
+          "ambient_light": 0.15,
+          "has_skylight": false,
+          "has_ceiling": true,
+          "infiniburn": "#minecraft:infiniburn_overworld",
+          "logical_height": 256,
+          "height": 256,
+          "min_y": 0,
+          "has_raids": false,
+          "respawn_anchor_works": false,
+          "bed_works": true,
+          "fixed_time": 6000,
+          "piglin_safe": true,
+          "coordinate_scale": 4.0,
+          "monster_spawn_block_light_limit": 12,
+          "monster_spawn_light_level": 11
+        }
+      }
+    ]
+  }
+}

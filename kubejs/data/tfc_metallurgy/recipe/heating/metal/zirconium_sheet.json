@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/zirconium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/zirconium",
+    "amount": 200
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

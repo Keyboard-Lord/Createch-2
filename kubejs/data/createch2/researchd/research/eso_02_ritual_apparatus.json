@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "enchanted:distillery"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:esoteric_records",
+      "createch2:process_samples"
+    ],
+    "count": 5,
+    "duration": 180
+  },
+  "parents": [
+    "createch2:eso_01_botanical_observation",
+    "createch2:che_01_process_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:esoteric_studies",
+  "display": {
+    "name": {
+      "translate": "research.createch2.eso_02_ritual_apparatus.title"
+    },
+    "desc": {
+      "translate": "research.createch2.eso_02_ritual_apparatus.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "enchanted:kettle",
+      "enchanted:distillery",
+      "enchanted:spinning_wheel",
+      "enchanted:arthana"
+    ]
+  }
+}

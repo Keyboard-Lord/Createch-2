@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CHC",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/darmstadtium"
+    },
+    "G": {
+      "item": "greate:naquadah_alloy_mechanical_mixer"
+    },
+    "C": {
+      "item": "greate:darmstadtium_cogwheel"
+    },
+    "H": {
+      "item": "gtceu:uv_machine_hull"
+    },
+    "M": {
+      "tag": "gtceu:circuits/uv"
+    }
+  },
+  "result": {
+    "id": "greate:darmstadtium_mechanical_mixer",
+    "count": 1
+  }
+}

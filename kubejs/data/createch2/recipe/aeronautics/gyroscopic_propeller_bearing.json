@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "AGA",
+    " H "
+  ],
+  "key": {
+    "C": {
+      "item": "tfmg:capacitor_item"
+    },
+    "A": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "G": {
+      "item": "simulated:gyroscopic_mechanism"
+    },
+    "H": {
+      "item": "tfmg:heavy_machinery_casing"
+    }
+  },
+  "result": {
+    "id": "aeronautics:gyroscopic_propeller_bearing",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "PHP",
+    "TET"
+  ],
+  "key": {
+    "B": {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker"
+    },
+    "C": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "P": {
+      "item": "electroenergetics:transformer_core"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "E": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    }
+  },
+  "result": {
+    "id": "gtceu:iv_energy_input_hatch",
+    "count": 1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_cobaltite/tuff",
+      "required": false
+    }
+  ]
+}

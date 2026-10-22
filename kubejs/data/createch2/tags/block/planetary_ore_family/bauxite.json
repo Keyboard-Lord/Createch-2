@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_bauxite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bauxite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_bauxite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_bauxite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_bauxite/granite",
+      "required": false
+    }
+  ]
+}

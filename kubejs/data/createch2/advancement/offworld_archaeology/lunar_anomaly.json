@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "inside_lunar_anomaly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "createch2:offworld_archaeology/lunar_anomaly"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inside_lunar_anomaly"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

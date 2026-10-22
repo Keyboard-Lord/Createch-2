@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "createch2:quartz_marble_blobs_lower",
+    "createch2:quartz_marble_blobs_upper"
+  ],
+  "step": "underground_ores"
+}

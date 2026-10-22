@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "farmersdelight:tomato"
+  },
+  "hunger": 2,
+  "saturation": 0.3,
+  "water": 10,
+  "decay_modifier": 3.0,
+  "vegetables": 1.0
+}

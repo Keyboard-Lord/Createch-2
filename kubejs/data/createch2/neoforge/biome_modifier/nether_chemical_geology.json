@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:nether_chemical_deposits",
+  "features": [
+    "createch2:malum_nether_blazing_quartz",
+    "createch2:occultism_nether_iesnium"
+  ],
+  "step": "underground_ores"
+}

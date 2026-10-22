@@ -1,0 +1,86 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "simulated:red_portable_engine"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:air_01_lighter_than_air",
+    "createch2:ele_02_electromechanical_conversion",
+    "createch2:log_03_locomotive_systems",
+    "createch2:che_01_process_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.air_02_powered_airframes.title"
+    },
+    "desc": {
+      "translate": "research.createch2.air_02_powered_airframes.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:aeronautics/stage_2/engine_assembly",
+      "createch2:aeronautics/stage_2/docking_connector",
+      "createch2:aeronautics/stage_2/tempered_wing",
+      "createch2:aeronautics/stage_2/liquid_burner",
+      "morepropulsion:mechanical_crafting/afterburner",
+      "morepropulsion:mechanical_crafting/centrifuge",
+      "morepropulsion:mechanical_crafting/combustion_chamber",
+      "morepropulsion:mechanical_crafting/compressor",
+      "morepropulsion:mechanical_crafting/engine_inlet",
+      "morepropulsion:mechanical_crafting/engine_mount",
+      "morepropulsion:mechanical_crafting/engine_nozzle",
+      "morepropulsion:mechanical_crafting/large_afterburner",
+      "morepropulsion:mechanical_crafting/large_combustion_chamber",
+      "morepropulsion:mechanical_crafting/large_compressor",
+      "morepropulsion:mechanical_crafting/large_engine_inlet",
+      "morepropulsion:mechanical_crafting/large_engine_nozzle",
+      "morepropulsion:mechanical_crafting/large_turbine",
+      "morepropulsion:mechanical_crafting/large_turbojet_combustion_chamber",
+      "morepropulsion:mechanical_crafting/large_turbojet_compressor",
+      "morepropulsion:mechanical_crafting/large_turbojet_engine_nozzle",
+      "morepropulsion:mechanical_crafting/monstrous_afterburner",
+      "morepropulsion:mechanical_crafting/monstrous_combustion_chamber",
+      "morepropulsion:mechanical_crafting/monstrous_compressor",
+      "morepropulsion:mechanical_crafting/monstrous_engine_inlet",
+      "morepropulsion:mechanical_crafting/monstrous_engine_nozzle",
+      "morepropulsion:mechanical_crafting/monstrous_turbine",
+      "morepropulsion:mechanical_crafting/monstrous_turbojet_combustion_chamber",
+      "morepropulsion:mechanical_crafting/monstrous_turbojet_compressor",
+      "morepropulsion:mechanical_crafting/monstrous_turbojet_engine_nozzle",
+      "morepropulsion:mechanical_crafting/small_afterburner",
+      "morepropulsion:mechanical_crafting/small_combustion_chamber",
+      "morepropulsion:mechanical_crafting/small_compressor",
+      "morepropulsion:mechanical_crafting/small_engine_inlet",
+      "morepropulsion:mechanical_crafting/small_engine_nozzle",
+      "morepropulsion:mechanical_crafting/small_turbine",
+      "morepropulsion:mechanical_crafting/small_turbojet_combustion_chamber",
+      "morepropulsion:mechanical_crafting/small_turbojet_compressor",
+      "morepropulsion:mechanical_crafting/small_turbojet_engine_nozzle",
+      "morepropulsion:mechanical_crafting/turbine",
+      "morepropulsion:mechanical_crafting/turbojet_combustion_chamber",
+      "morepropulsion:mechanical_crafting/turbojet_compressor",
+      "morepropulsion:mechanical_crafting/turbojet_engine_nozzle",
+      "createch2:mekanism/jetpack_glowstone",
+      "createch2:mekanism/jetpack_armored_refined_glowstone"
+    ]
+  }
+}

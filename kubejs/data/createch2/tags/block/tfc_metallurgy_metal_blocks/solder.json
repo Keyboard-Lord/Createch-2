@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/solder",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/solder",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/solder",
+      "required": false
+    }
+  ]
+}

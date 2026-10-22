@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:venus_yellowstone",
+    "createch2:rima_yellowstone",
+    "createch2:tollan_caldera",
+    "createch2:mercury_ejecta_basin"
+  ]
+}

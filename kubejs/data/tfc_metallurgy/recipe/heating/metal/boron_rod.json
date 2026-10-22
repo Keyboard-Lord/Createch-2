@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/boron"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/boron",
+    "amount": 50
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

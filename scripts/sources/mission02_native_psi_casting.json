@@ -1,0 +1,456 @@
+{
+  "schema": 1,
+  "truth": "NATIVE_PSI_BARE_CAD_TO_FIRST_PSIGEM",
+  "jar": "Psi-neoforge-1.21.1-110.jar",
+  "jarSha256": "25b2e19bb9433bf5e462dfd9906dcd7b07b6dcb208e243ca936a007dc6e14033",
+  "classes": {
+    "cad": {
+      "class": "vazkii.psi.common.item.ItemCAD",
+      "sha256": "5eb91bde65a7ff680ce7047cc7571c98737a82f98d5d1d6e4ba05f30b23a3d91"
+    },
+    "assembler": {
+      "class": "vazkii.psi.common.block.tile.TileCADAssembler",
+      "sha256": "037928d5166b253726b02ce37d6354f41d3a870eee7b69ebd588bb96cf37861d"
+    },
+    "cadData": {
+      "class": "vazkii.psi.common.core.handler.capability.CADData",
+      "sha256": "0120725985cfe93478cbd44ccb0617635ea8e612e4e7d7eaa6972418ca358f9c"
+    },
+    "cadInterface": {
+      "class": "vazkii.psi.api.cad.ICAD",
+      "sha256": "317aae17a0126c43bd8941875d898c7fb307ffd512e91fc57e3ee9cedc9121f8"
+    },
+    "lookup": {
+      "class": "vazkii.psi.api.cad.CADComponentLookup",
+      "sha256": "9ed49abb039034720fbd802c1ad2a048f5f34f43e42a294bdff46de7b93cfc8e"
+    },
+    "definition": {
+      "class": "vazkii.psi.api.cad.CADComponentDefinition",
+      "sha256": "3c4121bc200388381cd7d77d1281555387f1ddb7e61b8dda520439e319cda303"
+    },
+    "player": {
+      "class": "vazkii.psi.common.core.handler.PlayerData",
+      "sha256": "518c095f5d0ae2454e7c5dec865dfa7539b45359f57110017dbb875719b48607"
+    },
+    "attributes": {
+      "class": "vazkii.psi.common.attribute.base.ModAttributes",
+      "sha256": "35f056033093536dceb9372a5baf7fe139c5105e26302b0074525575d4c8b35f"
+    },
+    "regen": {
+      "class": "vazkii.psi.api.cad.RegenPsiEvent",
+      "sha256": "c9103526a026f923440fe86adc449da2f4f7d2410e7edd015c4d79f345d86d1b"
+    },
+    "recipe": {
+      "class": "vazkii.psi.common.crafting.recipe.TrickRecipe",
+      "sha256": "aa9aa30043592fccbb7d3f53c27077380e738a37a1fb5fee1b81cef92d3cc841"
+    },
+    "normal": {
+      "class": "vazkii.psi.common.spell.trick.infusion.PieceTrickInfusion",
+      "sha256": "bde6d52d35122b18d3b30d2e3a986c702202373ed2959fb9ffc64ed51956ecbc"
+    },
+    "greater": {
+      "class": "vazkii.psi.common.spell.trick.infusion.PieceTrickGreaterInfusion",
+      "sha256": "bc4ba81b9078c6239ad41defcc3ce4b06080bce69765e1522b51a204c0524ca8"
+    },
+    "crafting": {
+      "class": "vazkii.psi.api.spell.piece.PieceCraftingTrick",
+      "sha256": "a3357852b635e3c052e7a2d6e275cfa897a3b12434c328cfa5d0f771d26ca9cb"
+    },
+    "compiler": {
+      "class": "vazkii.psi.common.spell.SpellCompiler",
+      "sha256": "123b8c3985ae591107a43208c848a6311b780ef8a55d5040f8ffc04eacd272a3"
+    },
+    "metadata": {
+      "class": "vazkii.psi.api.spell.SpellMetadata",
+      "sha256": "04444b9c5297dfd2735ee62d7d55e7441d83e63599ef41e19802910ea81b1c20"
+    },
+    "api": {
+      "class": "vazkii.psi.api.PsiAPI",
+      "sha256": "ebfac7b6e97584b59b018dce81d8414c4e206aeb835495f62ac959aea6526b4e"
+    },
+    "group": {
+      "class": "vazkii.psi.api.spell.SpellPieceGroup",
+      "sha256": "5e9b5c7c565bf9865abafbd0cb5d7b13d8d5e857b16a36141dc46c898fde3921"
+    },
+    "programmerBlock": {
+      "class": "vazkii.psi.common.block.BlockProgrammer",
+      "sha256": "3ff92eb9dae9217918ef3507d5b0181c56d9428592e2db129098de0263bf0343"
+    },
+    "programmer": {
+      "class": "vazkii.psi.common.block.tile.TileProgrammer",
+      "sha256": "009db7a9297423bbe35cfd47c325476e31178a3f5d6df7156676c39acc357eb0"
+    },
+    "edit": {
+      "class": "vazkii.psi.common.network.message.MessageSpellModified",
+      "sha256": "bb91b625b06acb0671e5f3012f064c8c0d8433f1a56b33c1479672b8f71efae2"
+    },
+    "bullet": {
+      "class": "vazkii.psi.common.item.ItemSpellBullet$SpellAcceptor",
+      "sha256": "d06f1aebb273b51ae8bd00a73b5b2989357eb0866c6a740358465fa1472020c5"
+    },
+    "acceptor": {
+      "class": "vazkii.psi.api.spell.ISpellAcceptor",
+      "sha256": "207fd3942d237768248f3a52dde53b2afac4b92a0a5b618d248a2f5e2a43cabe"
+    },
+    "attributeService": {
+      "class": "vazkii.psi.neoforge.platform.NeoForgePsiAttributeService",
+      "sha256": "013843c247e5b3e008e22c05d5fd776f49373f9e5057f6b001b00da6623937bf"
+    },
+    "compiled": {
+      "class": "vazkii.psi.api.spell.CompiledSpell",
+      "sha256": "cdcb9f0a31b99a618dbf0e5c0afbd8529ab2bfc508b9349f7cb438f6df87601a"
+    },
+    "grid": {
+      "class": "vazkii.psi.api.spell.SpellGrid",
+      "sha256": "79db705004cb3e8843652efa5523f8520e88b388f00a5c2b87129966eed594f4"
+    },
+    "trick": {
+      "class": "vazkii.psi.api.spell.piece.PieceTrick",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "2abf6d199e3668980a3aa55b1b6e75962146937faa1b31deec03b938f527d0da"
+    },
+    "enumSpell": {
+      "class": "vazkii.psi.api.spell.EnumSpellStat",
+      "sha256": "965a842e34d4e8ea0a2ff262ecd719900f46619f55467d82fcafd52d9ea34a9c"
+    },
+    "enumCad": {
+      "class": "vazkii.psi.api.cad.EnumCADStat",
+      "sha256": "c8e1608f3d318448d372426e210899bc30c69b8b59eaad5a1198a45692cc04c1"
+    },
+    "components": {
+      "class": "vazkii.psi.common.item.base.ModCADComponents",
+      "sha256": "c628cde76738c1a742b188897240cb438307c7ba5d03950b0a378cf3cd246be0"
+    },
+    "componentSlot": {
+      "class": "vazkii.psi.api.cad.CADComponentSlot",
+      "sha256": "aec373510e507acdad406d0d148bd8784463faa88f8f628e8e33d023d4d30348"
+    },
+    "tick": {
+      "class": "vazkii.psi.mixin.MixinPlayer",
+      "flags": [
+        "-v",
+        "-c",
+        "-p"
+      ],
+      "sha256": "382fa9f344882bb727f1caa1eab86cea6088939281a1aa437b5aefd0cb4ce3ec"
+    },
+    "dataHandler": {
+      "class": "vazkii.psi.common.core.handler.PlayerDataHandler",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "d974cd5aa4b83adba3f042ad8a1270010037c259f5080aef5501f2d5f50e71b2"
+    },
+    "drive": {
+      "class": "vazkii.psi.common.item.ItemSpellDrive",
+      "flags": [
+        "-c",
+        "-p"
+      ],
+      "sha256": "e869dc2492e14897df46fc150dc02ea0771158960ddd8612476e20aa18da6f08"
+    },
+    "serializer": {
+      "class": "vazkii.psi.common.crafting.recipe.TrickRecipe$Serializer",
+      "sha256": "11a78555cb242fc21bf142afb0ae8e91539d7a55427b2d957ef323d9d7860758"
+    },
+    "bulletItem": {
+      "class": "vazkii.psi.common.item.ItemSpellBullet",
+      "sha256": "195885bcacaa5936bcd7de4e27b4a393cf5d268ca935ac995a747fa3cf5d972b"
+    },
+    "context": {
+      "class": "vazkii.psi.api.spell.SpellContext",
+      "sha256": "1b8cecc9e5e418606f43f75a0183f0845ed2bb7c073943f040cd5b9ae5e6dac9"
+    }
+  },
+  "resources": {
+    "data/psi/psi/cad_component/cad_assembly_iron.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "assembly",
+        "model": "psi:item/cad_iron",
+        "stats": {
+          "efficiency": 70,
+          "potency": 100
+        }
+      }
+    },
+    "data/psi/psi/cad_component/cad_assembly_psimetal.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "assembly",
+        "model": "psi:item/cad_psimetal",
+        "stats": {
+          "efficiency": 85,
+          "potency": 250
+        }
+      }
+    },
+    "data/psi/psi/cad_component/cad_core_basic.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "core",
+        "stats": {
+          "complexity": 14,
+          "projection": 1
+        }
+      }
+    },
+    "data/psi/psi/cad_component/cad_socket_basic.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "socket",
+        "stats": {
+          "bandwidth": 5,
+          "saved_vectors": 7,
+          "sockets": 4
+        }
+      }
+    },
+    "data/psi/psi/spell_piece_group/infusion.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "main": "psi:trick_infusion",
+        "pieces": []
+      }
+    },
+    "data/psi/psi/spell_piece_group/greater_infusion.json": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "main": "psi:trick_greater_infusion",
+        "pieces": [
+          "psi:trick_ebony_ivory"
+        ]
+      }
+    }
+  },
+  "recipes": {
+    "psi:psidust": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "psi:trick_crafting",
+        "cad": {
+          "count": 1,
+          "id": "psi:cad_assembly_iron"
+        },
+        "input": {
+          "tag": "c:dusts/redstone"
+        },
+        "output": {
+          "count": 1,
+          "id": "psi:psidust"
+        }
+      }
+    },
+    "psi:psimetal": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "psi:trick_crafting",
+        "cad": {
+          "count": 1,
+          "id": "psi:cad_assembly_iron"
+        },
+        "input": {
+          "tag": "c:ingots/gold"
+        },
+        "output": {
+          "count": 1,
+          "id": "psi:psimetal"
+        },
+        "piece": "psi:trick_infusion"
+      }
+    },
+    "psi:psigem": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "psi:trick_crafting",
+        "cad": {
+          "count": 1,
+          "id": "psi:cad_assembly_psimetal"
+        },
+        "input": {
+          "tag": "c:gems/diamond"
+        },
+        "output": {
+          "count": 1,
+          "id": "psi:psigem"
+        },
+        "piece": "psi:trick_greater_infusion"
+      }
+    },
+    "psi:cad_assembly_iron": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          "III",
+          "I  "
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:cad_assembly_iron"
+        }
+      }
+    },
+    "psi:cad_assembly_psimetal": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "I": {
+            "tag": "c:ingots/psimetal"
+          }
+        },
+        "pattern": [
+          "III",
+          "I  "
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:cad_assembly_psimetal"
+        }
+      }
+    },
+    "psi:cad_core_basic": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "D": {
+            "tag": "psi:psidust"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          " I ",
+          "IDI",
+          " I "
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:cad_core_basic"
+        }
+      }
+    },
+    "psi:cad_socket_basic": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "D": {
+            "tag": "psi:psidust"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          "DI ",
+          "I  "
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:cad_socket_basic"
+        }
+      }
+    },
+    "psi:programmer": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "D": {
+            "tag": "psi:psidust"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          "IDI",
+          "I I",
+          " I "
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:programmer"
+        }
+      }
+    },
+    "psi:spell_bullet_basic": {
+      "provider": "Psi-neoforge-1.21.1-110.jar",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "D": {
+            "tag": "psi:psidust"
+          },
+          "I": {
+            "tag": "c:ingots/iron"
+          }
+        },
+        "pattern": [
+          "ID"
+        ],
+        "result": {
+          "count": 1,
+          "id": "psi:spell_bullet"
+        }
+      }
+    }
+  },
+  "nativePsidustInputs": 7,
+  "newCastingCadIronAssemblies": 2,
+  "newCastingCadPsimetalAssemblies": 1,
+  "worldChanged": false,
+  "settings": {
+    "data/psi/psi/spell_piece_settings/trick_infusion.json": [],
+    "data/psi/psi/spell_piece_settings/trick_greater_infusion.json": []
+  },
+  "mixinConfig": {
+    "required": true,
+    "minVersion": "0.8.3",
+    "compatibilityLevel": "JAVA_21",
+    "package": "vazkii.psi.mixin",
+    "mixins": [
+      "AccessorServerGamePacketListenerImpl",
+      "MixinArmorStand",
+      "MixinItemStack",
+      "MixinLivingEntity",
+      "MixinPlayer",
+      "ServerPlaceRecipeMixin"
+    ],
+    "client": [
+      "client.AccessorAbstractTexture",
+      "client.AccessorChatComponent",
+      "client.AccessorClientAdvancements",
+      "client.AccessorGui",
+      "client.AccessorKeyMapping",
+      "client.AccessorRenderBuffers",
+      "client.AccessorScreen",
+      "client.MixinAbstractClientPlayer",
+      "client.MixinItemRenderer",
+      "client.MixinKeyboardHandler"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  },
+  "modMetadataSha256": "016ffa90173b8e8f70abc6af76412b020d2726a57bbe6a29892fe3e2a1e53f0a"
+}

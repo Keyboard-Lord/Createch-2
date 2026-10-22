@@ -1,0 +1,43 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 60,
+    "min_y": 8,
+    "max_y": 48,
+    "size": 28,
+    "density": 0.45,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mars_stone"
+        ],
+        "with": [
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/poor_kernite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_kernite/basalt"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_kernite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 10,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_kernite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_mars_kernite_tfc_vein"
+  }
+}

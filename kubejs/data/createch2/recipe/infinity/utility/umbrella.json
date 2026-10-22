@@ -1,0 +1,29 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:shaped_table",
+  "pattern": [
+    "IIIII",
+    "NCXCN",
+    "  N  ",
+    "  N  "
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "N": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "id": "avaritia:infinity_umbrella",
+    "count": 1
+  },
+  "tier": 4
+}

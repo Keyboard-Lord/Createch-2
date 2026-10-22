@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/red_steel"
+    },
+    {
+      "tag": "c:physical_rings/red_steel"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

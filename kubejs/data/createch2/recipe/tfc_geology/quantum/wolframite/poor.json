@@ -1,0 +1,23 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:macerator",
+  "eu": 128,
+  "duration": 640,
+  "item_inputs": [
+    {
+      "tag": "createch2:tfc_ores/wolframite/poor",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:tungsten_dust",
+      "amount": 1
+    }
+  ]
+}

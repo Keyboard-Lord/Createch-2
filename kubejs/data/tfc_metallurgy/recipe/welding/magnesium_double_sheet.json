@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/magnesium"
+  },
+  "second_input": {
+    "tag": "c:sheets/magnesium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_sheet/magnesium"
+  }
+}

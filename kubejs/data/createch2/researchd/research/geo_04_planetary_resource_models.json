@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanism:digital_miner"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:geological_surveys",
+      "createch2:computational_models",
+      "createch2:logistics_reports",
+      "createch2:propulsion_telemetry"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:geo_03_deep_extraction",
+    "createch2:com_05_distributed_computation",
+    "createch2:spc_05_planetary_operations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.geo_04_planetary_resource_models.title"
+    },
+    "desc": {
+      "translate": "research.createch2.geo_04_planetary_resource_models.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:logistics_mining/age_12/deep_space_digital_miner",
+      "createch2:utility_authority/mining_gadgets/mk3",
+      "createch2:identity/quarryplus/adv_quarry",
+      "createch2:research/pack/geological_surveys_planetary"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "tag": "c:dusts/gold"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "occultism:chalk_gold"
+  ]
+}

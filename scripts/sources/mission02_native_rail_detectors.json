@@ -1,0 +1,764 @@
+{
+  "loader": "21.1.256",
+  "ids": {
+    "wood": "tfc:crafting/wood/wood/oak",
+    "brick": "tfc:crafting/brick/granite",
+    "plate": "tfc:crafting/rock/pressure_plate/granite",
+    "chiselHead": "tfc:anvil/metal/chisel_head/copper",
+    "chisel": "tfc:crafting/metal/chisel/copper",
+    "axeHead": "tfc:knapping/stone/axe_head/sedimentary",
+    "axe": "tfc:crafting/stone/axe/sedimentary",
+    "rod": "tfc:anvil/metal/rod/copper",
+    "stamen": "tfc_items:anvil/copper_stamen",
+    "rivet": "tfc_items:anvil/copper_rivet",
+    "detector": "railcraft:item_detector"
+  },
+  "recipes": {
+    "tfc:crafting/wood/wood/oak": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "X": {
+              "item": "tfc:wood/log/oak"
+            }
+          },
+          "pattern": [
+            "XX",
+            "XX"
+          ],
+          "result": {
+            "count": 3,
+            "id": "tfc:wood/wood/oak"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/brick/granite": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shapeless_crafting",
+          "ingredients": [
+            [
+              {
+                "item": "tfc:rock/loose/granite"
+              },
+              {
+                "item": "tfc:rock/mossy_loose/granite"
+              }
+            ],
+            {
+              "tag": "c:tools/chisel"
+            }
+          ],
+          "primary_ingredient": {
+            "tag": "c:tools/chisel"
+          },
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:brick/granite"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/rock/pressure_plate/granite": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "input_column": 1,
+          "key": {
+            "C": {
+              "tag": "c:tools/chisel"
+            },
+            "X": {
+              "item": "tfc:brick/granite"
+            }
+          },
+          "pattern": [
+            " C",
+            "XX"
+          ],
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:rock/pressure_plate/granite"
+          }
+        }
+      }
+    ],
+    "tfc:anvil/metal/chisel_head/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:anvil",
+          "apply_bonus": true,
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 1,
+            "id": "tfc:metal/chisel_head/copper"
+          },
+          "rules": [
+            "hit_last",
+            "draw_not_last",
+            "hit_not_last"
+          ],
+          "tier": 1
+        }
+      }
+    ],
+    "tfc:crafting/metal/chisel/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "key": {
+            "S": {
+              "tag": "c:rods/wooden"
+            },
+            "X": {
+              "item": "tfc:metal/chisel_head/copper"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "modifiers": [
+              {
+                "type": "tfc:copy_forging_bonus"
+              }
+            ],
+            "stack": {
+              "count": 1,
+              "id": "tfc:metal/chisel/copper"
+            }
+          }
+        }
+      },
+      {
+        "provider": "tfc_metal_tools-1.21.1-neoforge-1.0.7.jar",
+        "data": {
+          "type": "tfc:advanced_shaped_crafting",
+          "pattern": [
+            "NX",
+            "HG"
+          ],
+          "key": {
+            "N": {
+              "tag": "c:rivets/copper"
+            },
+            "X": {
+              "item": "tfc:metal/chisel_head/copper"
+            },
+            "G": {
+              "tag": "c:glue"
+            },
+            "H": {
+              "tag": "c:handle/medium"
+            }
+          },
+          "result": {
+            "stack": {
+              "count": 1,
+              "id": "tfc:metal/chisel/copper"
+            },
+            "modifiers": [
+              {
+                "type": "tfc:copy_forging_bonus"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "tfc:knapping/stone/axe_head/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "ingredient": {
+            "tag": "tfc:stones/loose/sedimentary"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            " #   ",
+            "#### ",
+            "#####",
+            "#### ",
+            " #   "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/axe_head/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/axe/sedimentary": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/axe_head/sedimentary"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/axe/sedimentary"
+          }
+        }
+      }
+    ],
+    "tfc:anvil/metal/rod/copper": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:anvil",
+          "ingredient": {
+            "tag": "c:ingots/copper"
+          },
+          "result": {
+            "count": 2,
+            "id": "tfc:metal/rod/copper"
+          },
+          "rules": [
+            "hit_last",
+            "hit_second_last",
+            "hit_third_last"
+          ],
+          "tier": 1
+        }
+      }
+    ],
+    "tfc_items:anvil/copper_stamen": [
+      {
+        "provider": "TFC-items-1.21.1-neoforge-1.2.1.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc"
+            }
+          ],
+          "type": "tfc:anvil",
+          "ingredient": {
+            "tag": "c:rods/copper"
+          },
+          "result": {
+            "id": "tfc_items:copper_stamen",
+            "count": 2
+          },
+          "tier": 1,
+          "rules": [
+            "bend_last",
+            "draw_second_last",
+            "draw_third_last"
+          ]
+        }
+      }
+    ],
+    "tfc_items:anvil/copper_rivet": [
+      {
+        "provider": "TFC-items-1.21.1-neoforge-1.2.1.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "tfc"
+            }
+          ],
+          "type": "tfc:anvil",
+          "ingredient": {
+            "item": "tfc_items:copper_stamen"
+          },
+          "result": {
+            "id": "tfc_items:copper_rivet",
+            "count": 5
+          },
+          "tier": 1,
+          "rules": [
+            "draw_not_last",
+            "bend_any",
+            "hit_any"
+          ]
+        }
+      }
+    ],
+    "railcraft:item_detector": [
+      {
+        "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "a": {
+              "item": "minecraft:stripped_acacia_wood"
+            },
+            "b": {
+              "item": "minecraft:stone_pressure_plate"
+            }
+          },
+          "pattern": [
+            "aaa",
+            "aba",
+            "aaa"
+          ],
+          "result": {
+            "count": 1,
+            "id": "railcraft:item_detector"
+          }
+        }
+      }
+    ]
+  },
+  "worldResources": {
+    "loot_table|tfc:blocks/rock/raw/granite": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:rock/raw/granite",
+                  "conditions": [
+                    {
+                      "condition": "tfc:is_isolated"
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:rock/loose/granite",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 4,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfc:blocks/wood/wood/oak": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#c:tools/hammer"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 4,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:wood/wood/oak",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfc:wood/wood/oak",
+                      "properties": {
+                        "branch_direction": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:wood/log/oak"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "loot_table|tfc:blocks/wood/stripped_wood/oak": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#c:tools/hammer"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 4,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:wood/stripped_wood/oak",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfc:wood/stripped_wood/oak",
+                      "properties": {
+                        "branch_direction": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "tfc:wood/stripped_log/oak"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/knapping_type|tfc:rock": {
+      "amount_to_consume": 1,
+      "click_sound": "tfc:item.knapping.stone",
+      "consume_after_complete": false,
+      "has_off_texture": false,
+      "icon": {
+        "count": 1,
+        "id": "tfc:rock/loose/granite"
+      },
+      "input": {
+        "count": 2,
+        "tag": "tfc:rock_knapping"
+      },
+      "spawns_particles": true
+    }
+  },
+  "nativeClasses": {
+    "log": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.LogBlock",
+      false
+    ],
+    "woodType": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.Wood$BlockType",
+      false
+    ],
+    "woodTypeV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.Wood$BlockType",
+      true
+    ],
+    "rockItemType": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RockCategory$ItemType",
+      false
+    ],
+    "rockItemTypeV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RockCategory$ItemType",
+      true
+    ],
+    "rockCategory": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RockCategory",
+      false
+    ],
+    "tiers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTiers",
+      false
+    ],
+    "axeLogging": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.AxeLoggingHelper",
+      false
+    ],
+    "forgeEvents": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler",
+      false
+    ],
+    "rawRock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RawRockBlock",
+      false
+    ],
+    "isolated": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.loot.IsIsolatedCondition",
+      false
+    ],
+    "anvil": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.AnvilBlockEntity",
+      false
+    ],
+    "anvilRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.AnvilRecipe",
+      false
+    ],
+    "anvilBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.devices.AnvilBlock",
+      false
+    ],
+    "metal": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Metal",
+      false
+    ],
+    "metalItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Metal$ItemType",
+      false
+    ],
+    "helpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Helpers",
+      false
+    ],
+    "damageRemainder": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.outputs.DamageCraftingRemainderModifier",
+      false
+    ],
+    "advancedShaped": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.AdvancedShapedRecipe",
+      false
+    ],
+    "advancedShapeless": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.AdvancedShapelessRecipe",
+      false
+    ],
+    "item": [
+      "@loader",
+      "net.minecraft.world.item.Item"
+    ],
+    "tier": [
+      "@minecraft",
+      "net.minecraft.world.item.Tier"
+    ],
+    "tiered": [
+      "@minecraft",
+      "net.minecraft.world.item.TieredItem"
+    ],
+    "tool": [
+      "@minecraft",
+      "net.minecraft.world.item.component.Tool"
+    ],
+    "block": [
+      "@loader",
+      "net.minecraft.world.level.block.Block"
+    ],
+    "blockBehaviour": [
+      "@loader",
+      "net.minecraft.world.level.block.state.BlockBehaviour"
+    ],
+    "pillarBase": [
+      "@minecraft",
+      "net.minecraft.world.level.block.RotatedPillarBlock"
+    ],
+    "axe": [
+      "@loader",
+      "net.minecraft.world.item.AxeItem"
+    ],
+    "blockItem": [
+      "@loader",
+      "net.minecraft.world.item.BlockItem"
+    ],
+    "digger": [
+      "@minecraft",
+      "net.minecraft.world.item.DiggerItem"
+    ],
+    "chiselItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.ChiselItem",
+      false
+    ],
+    "toolItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.ToolItem",
+      false
+    ],
+    "recipeHelpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.RecipeHelpers",
+      false
+    ],
+    "metalItemV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Metal$ItemType",
+      true
+    ],
+    "itemExtension": [
+      "@universal",
+      "net.neoforged.neoforge.common.extensions.IItemExtension"
+    ]
+  },
+  "nativeCodeSha256": {
+    "log": "fb3dbe21af9bd0965ca32dccbcd94965e3effeed66b0874728063814737034f5",
+    "woodType": "6edc03fef75a1a692ecbacded952c1b0fa09c5200c77c81ed385aead14408f3a",
+    "woodTypeV": "9c0431c5b464d924c387c00cd2fd2c2e42a77db8231d67cd6778a93df05d05d3",
+    "rockItemType": "56f19aa61c0743def6b4096e28cf82cfe631d166bdff981cb2830b93083bac23",
+    "rockItemTypeV": "f98d838f21314c0c1cfa091306544ef111df6e4dd4113cdbaf7e966308a4f40b",
+    "rockCategory": "0d5a13f3970f4b6e403b869f5767295c7c2c3e0412fc747d056e72ed5e9f6f38",
+    "tiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "axeLogging": "68af05f6da2a4b2f0b5287ded54fdecdf64cacdfb1ea6623ec5adcd6e9265315",
+    "forgeEvents": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "rawRock": "8516e57eb88f61016cfd7887b77388e236c9c73708ce70622239e517cf79b4d0",
+    "isolated": "659c94a3935ba4dec98f0020bddd48868a3d2c68bcc763467691d0aca4dd7c3a",
+    "anvil": "57bced1600033241dd3f7d202cab2f1269112f79ed025a56ffaa206eaf80ae6c",
+    "anvilRecipe": "d789dc9510e730c753e1dd3ec6554b8b27162de703131bfe2e468fe6c11baeae",
+    "anvilBlock": "ed5191edae77aec9afa505bc7a5f946db348e476cafd808b7aad61278edb884b",
+    "metal": "79b6265feb7303074ccd44cfad7cd219673468a10a904f975f19751b243b907f",
+    "metalItem": "bc2ba2a748e1dd9cb739fee10ae4f515097c5b5927ba094f913af13aa8f04bdc",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "damageRemainder": "ac0f4932b795f523d3d22c5f09576013d88bd6af7399c88f3eca294fc2df1eab",
+    "advancedShaped": "ba980551e609100527d557806976175106fb32655d11723bdaf414af170b097b",
+    "advancedShapeless": "0b750aefa3037e2adb08593e9405110ab0cbac92af5499f389b4329bcb44fba7",
+    "item": "c8ff2f95c5a75610d5622a4a073db0d974265914584d82cf37f0f3d52f50169c",
+    "tier": "17150de21b8f05c0e66078f957b0e913be0d8d7d402fcf331ca974603cb0ac61",
+    "tiered": "2458dd21a184c0102a580a17f47805f4dca83673e5ed3e9688ece4784451a465",
+    "tool": "2132916e5c9db52cf8706f89a9a907a1cb4967b79bcff2999d86f7adaed78d05",
+    "block": "a0638610e3f3d3bb2987006862386c6fbdb67a94e1118c50accbeaae90ce9ea8",
+    "blockBehaviour": "98e886fb82b0ab1facaf06a6800b0726c53b589729cfaf37e5fb5ff53462076c",
+    "pillarBase": "a2319bfbaf52493cbb48983369075167b95836515b4685da159fcabd3472c611",
+    "axe": "c848abdeb71105eb50acabe5b24e78099a51b691cf0149846bf822329ae2e64e",
+    "blockItem": "d1bc75db013eddd3c446840bf3ca2b6d9490806afae5bb375deb79a54093db26",
+    "digger": "2b1e121a490b286b9ef21b9032a78a5427bfeffeadcc010fd60c69296d5548fd",
+    "chiselItem": "9bbb5de1cc89ad9881ff655bbf63ed57835679584fae6f21a4abeeca5d1e613e",
+    "toolItem": "836a16e523c5f7d5bc232f23f1fcf3063ea7d2a4229b5a19e35e3aea8a306a83",
+    "recipeHelpers": "89bd1c686003f28bbbc9ddce35a4fc61225bc95904994a4522667377d4c7384f",
+    "metalItemV": "57df3011bebae33b21d524a3b1263e481cc2566be1e8342852bdbf98d975a329",
+    "itemExtension": "d937efaed3c1e741d59ce3b6aaddf21e1bcb4e8f919d90694322d09ffc9cc29f"
+  },
+  "detectorAfter": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "a": [
+        {
+          "item": "minecraft:stripped_acacia_wood"
+        },
+        {
+          "tag": "c:stripped_woods"
+        }
+      ],
+      "b": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        },
+        {
+          "tag": "c:stones/pressure_plate"
+        }
+      ]
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "result": {
+      "count": 1,
+      "id": "railcraft:item_detector"
+    }
+  }
+}

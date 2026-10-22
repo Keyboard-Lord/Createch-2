@@ -1,0 +1,469 @@
+{
+  "scope": "Exact TFC barrel/stone substitutions for the existing first TFMG intake/stove hardware. No air/hot-air/steel operation admission.",
+  "repairs": {
+    "tfmg:crafting/materials/cast_iron_fluid_tank": {
+      "nativeRows": [
+        {
+          "provider": "tfmg-1.21.1-1.3.2a-community.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "B": {
+                "item": "minecraft:barrel"
+              },
+              "P": {
+                "tag": "c:plates/cast_iron"
+              }
+            },
+            "pattern": [
+              " P ",
+              " B ",
+              " P "
+            ],
+            "result": {
+              "count": 1,
+              "id": "tfmg:cast_iron_fluid_tank"
+            }
+          }
+        }
+      ],
+      "before": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "minecraft:barrel"
+          },
+          "P": {
+            "tag": "c:plates/cast_iron"
+          }
+        },
+        "pattern": [
+          " P ",
+          " B ",
+          " P "
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfmg:cast_iron_fluid_tank"
+        }
+      },
+      "after": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": [
+            {
+              "item": "minecraft:barrel"
+            },
+            {
+              "tag": "c:barrels/wooden"
+            }
+          ],
+          "P": {
+            "tag": "c:plates/cast_iron"
+          }
+        },
+        "pattern": [
+          " P ",
+          " B ",
+          " P "
+        ],
+        "result": {
+          "count": 1,
+          "id": "tfmg:cast_iron_fluid_tank"
+        }
+      },
+      "changedKey": "B",
+      "tag": "c:barrels/wooden"
+    },
+    "minecraft:stonecutter": {
+      "nativeRows": [
+        {
+          "provider": "neoforge-21.1.256-universal.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "#": {
+                "item": "minecraft:stone"
+              },
+              "I": {
+                "tag": "c:ingots/iron"
+              }
+            },
+            "pattern": [
+              " I ",
+              "###"
+            ],
+            "result": {
+              "count": 1,
+              "id": "minecraft:stonecutter"
+            }
+          }
+        },
+        {
+          "provider": "1.21.1.jar",
+          "data": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+              "#": {
+                "item": "minecraft:stone"
+              },
+              "I": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "pattern": [
+              " I ",
+              "###"
+            ],
+            "result": {
+              "count": 1,
+              "id": "minecraft:stonecutter"
+            }
+          }
+        }
+      ],
+      "before": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "#": {
+            "item": "minecraft:stone"
+          },
+          "I": {
+            "item": "minecraft:iron_ingot"
+          }
+        },
+        "pattern": [
+          " I ",
+          "###"
+        ],
+        "result": {
+          "count": 1,
+          "id": "minecraft:stonecutter"
+        }
+      },
+      "after": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "#": [
+            {
+              "item": "minecraft:stone"
+            },
+            {
+              "tag": "c:stones"
+            }
+          ],
+          "I": {
+            "item": "minecraft:iron_ingot"
+          }
+        },
+        "pattern": [
+          " I ",
+          "###"
+        ],
+        "result": {
+          "count": 1,
+          "id": "minecraft:stonecutter"
+        }
+      },
+      "changedKey": "#",
+      "tag": "c:stones"
+    }
+  },
+  "ids": {
+    "tank": "tfmg:crafting/materials/cast_iron_fluid_tank",
+    "stonecutter": "minecraft:stonecutter",
+    "intake": "tfmg:crafting/materials/air_intake",
+    "stove": "tfmg:crafting/materials/blast_stove",
+    "ironPipe": "tfmg:crafting/materials/cast_iron_pipe",
+    "wall": "tfmg:crafting/materials/fireproof_bricks",
+    "bars": "create:andesite_bars_from_andesite_alloy_stonecutting",
+    "ironBlock": "create:industrial_iron_block_from_ingots_iron_stonecutting",
+    "propeller": "create:crafting/kinetics/propeller",
+    "barrel": "tfc:crafting/wood/barrel/oak",
+    "shaft": "createch2:age_foundation/create/shaft",
+    "cog": "createch2:greate/tier_0/cogwheel"
+  },
+  "recipes": {
+    "tfmg:crafting/materials/cast_iron_fluid_tank": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": [
+          {
+            "item": "minecraft:barrel"
+          },
+          {
+            "tag": "c:barrels/wooden"
+          }
+        ],
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        " P ",
+        " B ",
+        " P "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:cast_iron_fluid_tank"
+      }
+    },
+    "minecraft:stonecutter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": [
+          {
+            "item": "minecraft:stone"
+          },
+          {
+            "tag": "c:stones"
+          }
+        ],
+        "I": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        " I ",
+        "###"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:stonecutter"
+      }
+    },
+    "tfmg:crafting/materials/air_intake": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:andesite_bars"
+        },
+        "C": {
+          "item": "create:industrial_iron_block"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        },
+        "P": {
+          "item": "create:propeller"
+        },
+        "S": {
+          "item": "create:shaft"
+        },
+        "T": {
+          "item": "tfmg:cast_iron_pipe"
+        }
+      },
+      "pattern": [
+        "SPT",
+        "GCG",
+        " B "
+      ],
+      "result": {
+        "count": 3,
+        "id": "tfmg:air_intake"
+      }
+    },
+    "tfmg:crafting/materials/blast_stove": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "item": "tfmg:cast_iron_pipe"
+        },
+        "F": {
+          "item": "tfmg:fireproof_bricks"
+        },
+        "T": {
+          "item": "tfmg:cast_iron_fluid_tank"
+        }
+      },
+      "pattern": [
+        "CC ",
+        "TT ",
+        "FF "
+      ],
+      "result": {
+        "count": 2,
+        "id": "tfmg:blast_stove"
+      }
+    },
+    "tfmg:crafting/materials/cast_iron_pipe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:ingots/cast_iron"
+        },
+        "P": {
+          "tag": "c:plates/cast_iron"
+        }
+      },
+      "pattern": [
+        "   ",
+        "PIP",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfmg:cast_iron_pipe"
+      }
+    },
+    "tfmg:crafting/materials/fireproof_bricks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "tfmg:fireproof_brick"
+        }
+      },
+      "pattern": [
+        "BB ",
+        "BB ",
+        "   "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:fireproof_bricks"
+      }
+    },
+    "create:andesite_bars_from_andesite_alloy_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "item": "create:andesite_alloy"
+      },
+      "result": {
+        "count": 4,
+        "id": "create:andesite_bars"
+      }
+    },
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": {
+      "type": "minecraft:stonecutting",
+      "ingredient": {
+        "tag": "c:ingots/iron"
+      },
+      "result": {
+        "count": 2,
+        "id": "create:industrial_iron_block"
+      }
+    },
+    "create:crafting/kinetics/propeller": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "S": {
+          "tag": "c:plates/iron"
+        }
+      },
+      "pattern": [
+        " S ",
+        "SCS",
+        " S "
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:propeller"
+      }
+    },
+    "tfc:crafting/wood/barrel/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "item": "tfc:wood/lumber/oak"
+        }
+      },
+      "pattern": [
+        "L L",
+        "L L",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/barrel/oak"
+      }
+    },
+    "createch2:age_foundation/create/shaft": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "L",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "greate:andesite_alloy_shaft",
+        "count": 8
+      }
+    },
+    "createch2:greate/tier_0/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:andesite_alloy_cogwheel",
+        "count": 1
+      }
+    }
+  },
+  "kinds": {
+    "tfmg:crafting/materials/cast_iron_fluid_tank": "authored",
+    "minecraft:stonecutter": "authored",
+    "tfmg:crafting/materials/air_intake": "native",
+    "tfmg:crafting/materials/blast_stove": "native",
+    "tfmg:crafting/materials/cast_iron_pipe": "native",
+    "tfmg:crafting/materials/fireproof_bricks": "native",
+    "create:andesite_bars_from_andesite_alloy_stonecutting": "native",
+    "create:industrial_iron_block_from_ingots_iron_stonecutting": "native",
+    "create:crafting/kinetics/propeller": "native",
+    "tfc:crafting/wood/barrel/oak": "native",
+    "createch2:age_foundation/create/shaft": "authored",
+    "createch2:greate/tier_0/cogwheel": "authored"
+  },
+  "plan": {
+    "nativeIntakeCrafts": 1,
+    "intakesProduced": 3,
+    "nativeStoveCrafts": 2,
+    "stovesProduced": 4,
+    "castIronTanksForFourStoves": 4,
+    "oakBarrels": 4,
+    "oakLumberForBarrels": 28,
+    "castIronPlatesForFourTanks": 8,
+    "stonecutterCrafts": 1,
+    "rawQuartziteForStonecutter": 3,
+    "ordinaryIronForStonecutter": 1,
+    "scope": "Selected hardware recipe quantities from earlier non-steel foundry/workshop material stocks; not a full inventory or an operating air/steel factory."
+  }
+}

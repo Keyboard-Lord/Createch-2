@@ -1,0 +1,29 @@
+{
+  "type": "tfc:disc_vein",
+  "config": {
+    "rarity": 110,
+    "min_y": -40,
+    "max_y": 24,
+    "size": 35,
+    "density": 0.85,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "tfc:halite"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_unitas_halite_tfc_vein",
+    "height": 4,
+    "project": true,
+    "project_offset": true
+  }
+}

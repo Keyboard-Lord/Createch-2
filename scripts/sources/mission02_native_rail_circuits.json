@@ -1,0 +1,761 @@
+{
+  "loader": "21.1.256",
+  "ids": {
+    "hammer": "tfcorewashing:ores/cinnabar/cinnabar_hammer",
+    "quern": "tfcorewashing:chunks/quern/chunks_cinnabar_quern",
+    "circuit": "railcraft:controller_circuit",
+    "repeater": "minecraft:repeater",
+    "torch": "minecraft:redstone_torch",
+    "hammerHead": "tfc:knapping/stone/hammer_head/igneous_intrusive",
+    "hammerCraft": "tfc:crafting/stone/hammer/igneous_intrusive",
+    "handstone": "tfc:crafting/handstone",
+    "sticks": "quark:tweaks/crafting/utility/misc/easy_sticks"
+  },
+  "nativeRecipes": {
+    "tfcorewashing:ores/cinnabar/cinnabar_hammer": [
+      {
+        "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+        "data": {
+          "type": "tfc:advanced_shapeless_crafting",
+          "primary_ingredient": {
+            "tag": "c:tools/hammer"
+          },
+          "remainder": {
+            "modifiers": [
+              {
+                "type": "tfc:damage_crafting_remainder"
+              }
+            ]
+          },
+          "ingredients": [
+            {
+              "item": "tfc:ore/cinnabar"
+            },
+            {
+              "tag": "c:tools/hammer"
+            }
+          ],
+          "result": {
+            "id": "tfcorewashing:rocky_chunks_cinnabar",
+            "count": 7
+          }
+        }
+      }
+    ],
+    "tfcorewashing:chunks/quern/chunks_cinnabar_quern": [
+      {
+        "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+        "data": {
+          "type": "tfc:quern",
+          "ingredient": {
+            "item": "tfcorewashing:chunks_cinnabar"
+          },
+          "result": {
+            "id": "tfcorewashing:dirty_dust_cinnabar",
+            "count": 1
+          }
+        }
+      }
+    ],
+    "railcraft:controller_circuit": [
+      {
+        "provider": "railcraft-reborn-1.21.1-1.2.13.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:slimeballs"
+            },
+            "G": {
+              "tag": "c:ingots/gold"
+            },
+            "L": {
+              "tag": "c:gems/lapis"
+            },
+            "R": {
+              "item": "minecraft:repeater"
+            },
+            "S": {
+              "tag": "c:dusts/redstone"
+            },
+            "W": {
+              "item": "minecraft:red_wool"
+            }
+          },
+          "pattern": [
+            " RW",
+            "BGS",
+            "WSL"
+          ],
+          "result": {
+            "count": 1,
+            "id": "railcraft:controller_circuit"
+          }
+        }
+      }
+    ],
+    "minecraft:repeater": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "R": {
+              "tag": "c:dusts/redstone"
+            },
+            "S": {
+              "tag": "c:stones/raw"
+            },
+            "T": {
+              "item": "minecraft:redstone_torch"
+            }
+          },
+          "pattern": [
+            "TRT",
+            "SSS"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:repeater"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "key": {
+            "#": {
+              "item": "minecraft:redstone_torch"
+            },
+            "I": {
+              "item": "minecraft:stone"
+            },
+            "X": {
+              "item": "minecraft:redstone"
+            }
+          },
+          "pattern": [
+            "#X#",
+            "III"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:repeater"
+          }
+        }
+      }
+    ],
+    "minecraft:redstone_torch": [
+      {
+        "provider": "neoforge-21.1.256-universal.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "key": {
+            "#": {
+              "tag": "c:rods/wooden"
+            },
+            "X": {
+              "item": "minecraft:redstone"
+            }
+          },
+          "pattern": [
+            "X",
+            "#"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:redstone_torch"
+          }
+        }
+      },
+      {
+        "provider": "1.21.1.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "key": {
+            "#": {
+              "item": "minecraft:stick"
+            },
+            "X": {
+              "item": "minecraft:redstone"
+            }
+          },
+          "pattern": [
+            "X",
+            "#"
+          ],
+          "result": {
+            "count": 1,
+            "id": "minecraft:redstone_torch"
+          }
+        }
+      }
+    ],
+    "tfc:knapping/stone/hammer_head/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "tfc:knapping",
+          "default_on": false,
+          "ingredient": {
+            "tag": "tfc:stones/loose/igneous_intrusive"
+          },
+          "knapping_type": "tfc:rock",
+          "pattern": [
+            "#####",
+            "#####",
+            "  #  "
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer_head/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/stone/hammer/igneous_intrusive": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "S": [
+              {
+                "tag": "c:rods/wooden"
+              },
+              {
+                "item": "minecraft:bone"
+              }
+            ],
+            "X": {
+              "item": "tfc:stone/hammer_head/igneous_intrusive"
+            }
+          },
+          "pattern": [
+            "X",
+            "S"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:stone/hammer/igneous_intrusive"
+          }
+        }
+      }
+    ],
+    "tfc:crafting/handstone": [
+      {
+        "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+        "data": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "B": {
+              "tag": "c:stones"
+            },
+            "S": {
+              "tag": "c:rods/wooden"
+            }
+          },
+          "pattern": [
+            "S  ",
+            "BBB"
+          ],
+          "result": {
+            "count": 1,
+            "id": "tfc:handstone"
+          }
+        }
+      }
+    ],
+    "quark:tweaks/crafting/utility/misc/easy_sticks": [
+      {
+        "provider": "Quark-4.1-487.jar",
+        "data": {
+          "neoforge:conditions": [
+            {
+              "type": "zeta:flag",
+              "flag": "easy_sticks"
+            }
+          ],
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "#": {
+              "tag": "minecraft:logs"
+            }
+          },
+          "pattern": [
+            "#",
+            "#"
+          ],
+          "result": {
+            "count": 16,
+            "id": "minecraft:stick"
+          }
+        }
+      }
+    ]
+  },
+  "controllerAfter": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "B": {
+        "tag": "c:slime_balls"
+      },
+      "G": {
+        "tag": "c:ingots/gold"
+      },
+      "L": {
+        "tag": "c:gems/lapis"
+      },
+      "R": {
+        "item": "minecraft:repeater"
+      },
+      "S": {
+        "tag": "c:dusts/redstone"
+      },
+      "W": {
+        "item": "minecraft:red_wool"
+      }
+    },
+    "pattern": [
+      " RW",
+      "BGS",
+      "WSL"
+    ],
+    "result": {
+      "count": 1,
+      "id": "railcraft:controller_circuit"
+    }
+  },
+  "retiredRedstoneQuern": [
+    {
+      "provider": "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "data": {
+        "type": "tfc:quern",
+        "ingredient": [
+          {
+            "item": "tfc:ore/cinnabar"
+          },
+          {
+            "item": "tfc:ore/cryolite"
+          }
+        ],
+        "result": {
+          "count": 8,
+          "id": "minecraft:redstone"
+        }
+      }
+    },
+    {
+      "provider": "tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:false"
+          }
+        ]
+      }
+    }
+  ],
+  "worldResources": {
+    "worldgen/configured_feature|tfc:vein/normal_cinnabar": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 14,
+        "density": 0.6,
+        "min_y": -70,
+        "max_y": 10,
+        "size": 18,
+        "random_name": "normal_cinnabar",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/quartzite"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/quartzite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/phyllite"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/phyllite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/gneiss"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/gneiss"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/schist"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/schist"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldgen/configured_feature|tfc:vein/montane_cinnabar": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 14,
+        "density": 0.6,
+        "min_y": 120,
+        "max_y": 280,
+        "size": 14,
+        "random_name": "montane_cinnabar",
+        "blocks": [
+          {
+            "replace": [
+              "tfc:rock/raw/quartzite"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/quartzite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/phyllite"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/phyllite"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/gneiss"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/gneiss"
+              }
+            ]
+          },
+          {
+            "replace": [
+              "tfc:rock/raw/schist"
+            ],
+            "with": [
+              {
+                "block": "tfc:ore/cinnabar/schist"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldgen/placed_feature|tfc:vein/normal_cinnabar": {
+      "feature": "tfc:vein/normal_cinnabar",
+      "placement": []
+    },
+    "worldgen/placed_feature|tfc:vein/montane_cinnabar": {
+      "feature": "tfc:vein/montane_cinnabar",
+      "placement": []
+    },
+    "loot_table|tfc:blocks/ore/cinnabar/gneiss": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/cinnabar"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/deposit|tfcorewashing:rocky_chunk/cinnabar": {
+      "ingredient": {
+        "item": "tfcorewashing:rocky_chunks_cinnabar"
+      },
+      "loot_table": "tfcorewashing:deposit/rocky_chunk/cinnabar"
+    },
+    "loot_table|tfcorewashing:deposit/rocky_chunk/cinnabar": {
+      "type": "minecraft:empty",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:chunks_cinnabar"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/andesite"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:rock/loose/dolomite",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tfc:ore/ruby",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.001
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_cinnabar",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tfc/deposit|tfcorewashing:dirty_dust/cinnabar": {
+      "ingredient": {
+        "item": "tfcorewashing:dirty_dust_cinnabar"
+      },
+      "loot_table": "tfcorewashing:deposit/dirty_dust/cinnabar"
+    },
+    "loot_table|tfcorewashing:deposit/dirty_dust/cinnabar": {
+      "type": "minecraft:fishing",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:redstone",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:pile_red_sand",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcorewashing:dirty_pile_cinnabar",
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ],
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nativeClasses": {
+    "worldTracker": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.tracker.WorldTracker",
+      false
+    ],
+    "worldTrackerV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.tracker.WorldTracker",
+      true
+    ],
+    "forgeEvents": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler",
+      false
+    ],
+    "helpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Helpers",
+      false
+    ],
+    "isolated": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.loot.IsIsolatedCondition",
+      false
+    ],
+    "quern": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.QuernBlockEntity",
+      false
+    ],
+    "items": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      false
+    ],
+    "itemsV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      true
+    ],
+    "rockItemType": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RockCategory$ItemType",
+      false
+    ],
+    "rockItemTypeV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.rock.RockCategory$ItemType",
+      true
+    ],
+    "tiers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTiers",
+      false
+    ],
+    "utility": [
+      "Quark-4.1-487.jar",
+      "org.violetmoon.quark.content.tweaks.module.UtilityRecipesModule",
+      false
+    ],
+    "utilityV": [
+      "Quark-4.1-487.jar",
+      "org.violetmoon.quark.content.tweaks.module.UtilityRecipesModule",
+      true
+    ],
+    "flags": [
+      "Zeta-1.1-40.jar",
+      "org.violetmoon.zeta.config.ConfigFlagManager"
+    ],
+    "flagCondition": [
+      "Zeta-1.1-40.jar",
+      "org.violetmoon.zeta.config.FlagCondition"
+    ],
+    "flagMapper": [
+      "Zeta-1.1-40.jar",
+      "org.violetmoon.zeta.config.ConfigObjectMapper"
+    ],
+    "module": [
+      "Zeta-1.1-40.jar",
+      "org.violetmoon.zeta.module.ZetaModule"
+    ],
+    "moduleManager": [
+      "Zeta-1.1-40.jar",
+      "org.violetmoon.zeta.module.ZetaModuleManager"
+    ],
+    "lootParams": [
+      "@loader",
+      "net.minecraft.world.level.storage.loot.LootParams$Builder"
+    ]
+  },
+  "nativeCodeSha256": {
+    "worldTracker": "1999f8d92c4a71ebb353a68e7d1ed57db53e67bd5d29711dafb4212d289c590c",
+    "worldTrackerV": "dec1941a9dd9d0533c767ff71730e5f2c2218bda3cfb17cb4f7823e94eb52b34",
+    "forgeEvents": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "isolated": "659c94a3935ba4dec98f0020bddd48868a3d2c68bcc763467691d0aca4dd7c3a",
+    "quern": "c6da981f5694383a63703be86569dc952161b57a12934efea069109ec4749d1c",
+    "items": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "itemsV": "f08da74a18eebfd6bb9be7fca644a2dfb4fbf061dec298709790c5890e97fb21",
+    "rockItemType": "56f19aa61c0743def6b4096e28cf82cfe631d166bdff981cb2830b93083bac23",
+    "rockItemTypeV": "f98d838f21314c0c1cfa091306544ef111df6e4dd4113cdbaf7e966308a4f40b",
+    "tiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "utility": "987d04f670f991240efdf05466ef8c84d13ab23c1a50f7d3d3a243dd1cf089c7",
+    "utilityV": "916d20db4d020d35db343660fcec8a24703ddd4e804cd36c625c8bf0f141971b",
+    "flags": "370b5f665f1d1b242e00b9ab4f32f900efde111fe57b6dd0d26d8b1e699f9566",
+    "flagCondition": "ce3c0e7f2a56191eb909945502698a6bdfc29dd9ee9b2ebd5992156c84c89e7d",
+    "flagMapper": "1efb9bce92e2edd1edaca7fd3a853499aa2253159335343bc7a6a0468813152f",
+    "module": "894b4ff298b751ff5d068470322de06bbed584252e4b3db2623d2c601a0d94e8",
+    "moduleManager": "750d69a71f1fe50c9ff3d4fd7980e0e596dae7e6e2808709ed859790fbc8c3c3",
+    "lootParams": "7481318f240e05ea51ef36aac1c14df74f88c13be12d55b7c17cfc2739d12c37"
+  }
+}

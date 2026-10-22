@@ -1,0 +1,46 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "stellaris:rocket_station",
+  "ingredients": [
+    {
+      "item": "stellaris:rocket_nose_cone"
+    },
+    {
+      "item": "stellaris:cable"
+    },
+    {
+      "item": "stellaris:cable"
+    },
+    {
+      "tag": "c:plates/steel"
+    },
+    {
+      "tag": "c:plates/steel"
+    },
+    {
+      "item": "stellaris:rocket_fin"
+    },
+    {
+      "tag": "c:plates/steel"
+    },
+    {
+      "tag": "c:plates/steel"
+    },
+    {
+      "item": "stellaris:rocket_fin"
+    },
+    {
+      "item": "stellaris:rocket_fin"
+    },
+    {
+      "item": "stellaris:rocket_fin"
+    },
+    {
+      "item": "modern_industrialization:basic_machine_hull"
+    }
+  ],
+  "output": {
+    "id": "stellaris:heavy_metal_casing",
+    "count": 1
+  }
+}

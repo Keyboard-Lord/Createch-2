@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:sheets/titanium"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/titanium",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

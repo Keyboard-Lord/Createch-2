@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GPG",
+    "PTP",
+    "GPG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "P": {
+      "item": "modern_industrialization:polyvinyl_chloride_bucket"
+    },
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    }
+  },
+  "result": {
+    "id": "gtceu:cleanroom_glass",
+    "count": 8
+  }
+}

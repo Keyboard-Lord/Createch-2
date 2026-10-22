@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NBN",
+    "TAT",
+    "NPN"
+  ],
+  "key": {
+    "N": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "B": {
+      "item": "electroenergetics:accumulator"
+    },
+    "T": {
+      "item": "ae2:terminal"
+    },
+    "A": {
+      "item": "ae2:wireless_access_point"
+    },
+    "P": {
+      "item": "ae2:calculation_processor"
+    }
+  },
+  "result": {
+    "id": "ae2:wireless_terminal",
+    "count": 1
+  }
+}

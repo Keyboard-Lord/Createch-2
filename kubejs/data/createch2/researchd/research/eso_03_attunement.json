@@ -1,0 +1,47 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "enchanted:attuned_stone"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:esoteric_records",
+      "createch2:material_specimens",
+      "createch2:process_samples"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:eso_02_ritual_apparatus",
+    "createch2:mtr_01_equivalence_principles"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:esoteric_studies",
+  "display": {
+    "name": {
+      "translate": "research.createch2.eso_03_attunement.title"
+    },
+    "desc": {
+      "translate": "research.createch2.eso_03_attunement.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "enchanted:attuned_stone",
+      "enchanted:anointing_paste",
+      "enchanted:ritual_chalk",
+      "enchanted:altar",
+      "createch2:research/pack/esoteric_records_ritual",
+      "occultism:crafting/chalk_white_impure",
+      "occultism:crafting/chalk_white_impure2"
+    ]
+  }
+}

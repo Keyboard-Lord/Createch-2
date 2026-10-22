@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modern_industrialization:lead_ingot",
+      "required": false
+    }
+  ]
+}

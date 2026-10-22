@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 32,
+  "duration": 500,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_large_plate",
+      "amount": 4
+    },
+    {
+      "item": "ae2:fluix_crystal",
+      "amount": 3
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:soldering_alloy",
+    "amount": 144
+  },
+  "item_outputs": [
+    {
+      "item": "create_connected:incomplete_control_chip",
+      "amount": 1
+    }
+  ]
+}

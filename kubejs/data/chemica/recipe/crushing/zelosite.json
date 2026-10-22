@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "chemica:zelosite"
+    }
+  ],
+  "results": [
+    {
+      "id": "gtceu:tantalum_nugget",
+      "count": 3,
+      "chance": 0.21
+    },
+    {
+      "id": "modern_industrialization:iridium_dust",
+      "chance": 0.17
+    },
+    {
+      "id": "minecraft:netherite_scrap",
+      "chance": 0.02
+    }
+  ],
+  "processing_time": 400
+}

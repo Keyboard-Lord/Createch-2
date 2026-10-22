@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_component_recycling.mjs",
+  "type": "modern_industrialization:unpacker",
+  "eu": 2,
+  "duration": 400,
+  "item_inputs": [
+    {
+      "item": "gtceu:hpca_active_cooler_component",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:advanced_computer_casing",
+      "amount": 1
+    },
+    {
+      "item": "gtceu:stainless_steel_tiny_fluid_pipe",
+      "amount": 16
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TAT",
+    "PHP",
+    "CWC"
+  ],
+  "key": {
+    "T": {
+      "item": "stellaris:oxygen_tank"
+    },
+    "A": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "P": {
+      "item": "modern_industrialization:pump"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "stellaris:water_separator",
+    "count": 1
+  }
+}

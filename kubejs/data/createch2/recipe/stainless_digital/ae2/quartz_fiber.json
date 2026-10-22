@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "CCC",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "C": {
+      "tag": "c:dusts/certus_quartz"
+    }
+  },
+  "result": {
+    "id": "ae2:quartz_fiber",
+    "count": 3
+  }
+}

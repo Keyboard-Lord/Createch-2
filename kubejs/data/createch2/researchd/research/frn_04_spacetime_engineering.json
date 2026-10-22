@@ -1,0 +1,104 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "sgjourney:classic_stargate"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:frontier_observations",
+      "createch2:computational_models",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:frn_04d_address_geometry",
+    "createch2:frn_03_frontier_observation",
+    "createch2:com_06_quantum_computation",
+    "createch2:mat_07_superconductors",
+    "createch2:nuc_06_controlled_fusion",
+    "createch2:pre_05_metrology"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.frn_04_spacetime_engineering.title"
+    },
+    "desc": {
+      "translate": "research.createch2.frn_04_spacetime_engineering.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/sgjourney/fusion_naquadah",
+      "createch2:quantum/sgjourney/naquadah_alloy",
+      "createch2:quantum/sgjourney/crystal_base",
+      "createch2:quantum/sgjourney/crystallizer",
+      "createch2:quantum/sgjourney/control_crystal",
+      "createch2:quantum/sgjourney/transfer_crystal",
+      "createch2:quantum/sgjourney/materialization_crystal",
+      "createch2:magic_research/mastery/dimensional_continuity",
+      "createch2:quantum/sgjourney/classic_ring_block",
+      "createch2:quantum/sgjourney/classic_chevron_block",
+      "createch2:quantum/sgjourney/classic_base_block",
+      "createch2:quantum/sgjourney/classic_dhd",
+      "createch2:quantum/sgjourney/classic_stargate",
+      "createch2:quantum/sgjourney/milky_way_stargate",
+      "createch2:quantum/sgjourney/milky_way_dhd",
+      "createch2:research/pack/tollan_records",
+      "createch2:greate/tier_7/cogwheel",
+      "createch2:greate/tier_7/crushing_wheel",
+      "createch2:greate/tier_7/encased_fan",
+      "createch2:greate/tier_7/gearbox",
+      "createch2:greate/tier_7/horizontal_gearbox",
+      "createch2:greate/tier_7/large_cogwheel",
+      "createch2:greate/tier_7/mechanical_mixer",
+      "createch2:greate/tier_7/mechanical_press",
+      "createch2:greate/tier_7/mechanical_pump",
+      "createch2:greate/tier_7/mechanical_saw",
+      "createch2:greate/tier_7/millstone",
+      "createch2:greate/tier_7/shaft_cutting",
+      "createch2:greate/tier_7/vertical_gearbox",
+      "createch2:enderstorage/ender_chest",
+      "createch2:enderstorage/ender_tank",
+      "createch2:enderstorage/ender_pouch",
+      "createch2:factory_scaling/quantum/naquadah_refining_batch",
+      "createch2:factory_scaling/quantum/stargate_base_block_batch",
+      "createch2:factory_scaling/quantum/stargate_chevron_block_batch",
+      "createch2:factory_scaling/quantum/stargate_control_crystal_batch",
+      "createch2:factory_scaling/quantum/stargate_crystal_base_batch",
+      "createch2:factory_scaling/quantum/stargate_ring_block_batch",
+      "createch2:factory_scaling/quantum/stargate_stargate_variant_crystal_batch",
+      "createch2:factory_scaling/quantum/stargate_transfer_crystal_batch",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_cogwheel",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_crushing_wheel",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_encased_fan",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_gearbox",
+      "createch2:material_recycling/greate_naquadah_alloy/large_naquadah_alloy_cogwheel",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_mechanical_mixer",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_mechanical_press",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_mechanical_pump",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_mechanical_saw",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_millstone",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_shaft",
+      "createch2:material_recycling/greate_naquadah_alloy/naquadah_alloy_vertical_gearbox",
+      "createch2:greate/suppliers/naquadah_alloy_reprocessing",
+      "createch2:greate/suppliers/naquadah_billet",
+      "createch2:greate/suppliers/trinium_billet",
+      "createch2:greate/suppliers/naquadah_alloy",
+      "createch2:greate/suppliers/naquadah_alloy_plate",
+      "createch2:greate/suppliers/zpm_hull",
+      "createch2:circuit_assembler/greate_precision/quantum_processor_mainframe"
+    ]
+  }
+}

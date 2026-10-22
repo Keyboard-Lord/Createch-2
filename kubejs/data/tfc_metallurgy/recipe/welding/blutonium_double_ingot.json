@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/blutonium"
+  },
+  "second_input": {
+    "tag": "c:ingots/blutonium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/blutonium"
+  }
+}

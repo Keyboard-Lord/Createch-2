@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "TCT",
+    "PAP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "T": {
+      "item": "mekanism:advanced_mechanical_pipe"
+    },
+    "C": {
+      "item": "modern_industrialization:iridium_tiny_dust"
+    }
+  },
+  "result": {
+    "id": "mekanism:elite_mechanical_pipe",
+    "count": 8
+  }
+}

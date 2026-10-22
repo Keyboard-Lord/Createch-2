@@ -1,0 +1,14 @@
+{
+  "registry_name": "tfc:quail",
+  "primary_type": "malum:sacred",
+  "spirits": [
+    {
+      "spirit": "malum:sacred",
+      "count": 1
+    },
+    {
+      "spirit": "malum:aerial",
+      "count": 1
+    }
+  ]
+}

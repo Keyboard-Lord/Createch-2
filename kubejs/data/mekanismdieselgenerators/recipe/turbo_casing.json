@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "c:circuits/elite"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "S": {
+      "tag": "mekanismdieselgenerators:steel"
+    }
+  },
+  "pattern": [
+    "PEP",
+    "SFS",
+    "PEP"
+  ],
+  "result": {
+    "count": 2,
+    "id": "mekanismdieselgenerators:turbo_casing"
+  }
+}

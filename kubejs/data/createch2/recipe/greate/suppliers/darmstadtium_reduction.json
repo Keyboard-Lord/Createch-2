@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 102400,
+  "item_inputs": [
+    {
+      "item": "gtceu:darmstadtium_dust",
+      "amount": 4
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:nitrogen",
+      "amount": 4000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:darmstadtium_ingot",
+      "amount": 4
+    }
+  ]
+}

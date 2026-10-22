@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QMQ",
+    "SAS",
+    "QMQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "S": {
+      "item": "modern_industrialization:superconductor_wire"
+    },
+    "A": {
+      "item": "sgjourney:naquadah_alloy"
+    },
+    "M": {
+      "tag": "createch2:malum_reality_engineering"
+    }
+  },
+  "result": {
+    "id": "sgjourney:crystal_base",
+    "count": 1
+  }
+}

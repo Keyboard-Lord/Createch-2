@@ -1,0 +1,264 @@
+{
+	autofocus_id: "078B010000000001"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_20_aqua_mire"
+	group: "0A85000000000004"
+	id: "078B000000000001"
+	images: [ ]
+	order_index: 3
+	quest_links: [{
+		id: "078B000000000014"
+		linked_quest: "077A130000000001"
+		shape: "rsquare"
+		x: -3.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["077A130000000001"]
+			icon: {
+				id: "crush_depth:fathometer"
+			}
+			id: "078B010000000001"
+			rewards: [{
+				id: "078B0100000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					dimension: "sgjourney:lantea"
+					id: "078B010000000011"
+					type: "dimension"
+				}
+				{
+					id: "078B010000000012"
+					item: { count: 1, id: "crush_depth:fathometer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B010000000001"]
+			icon: {
+				id: "create_submarine:barometer"
+			}
+			id: "078B020000000001"
+			rewards: [{
+				id: "078B0200000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					id: "078B020000000011"
+					item: { count: 1, id: "create_submarine:iron_pressurizer" }
+					type: "item"
+				}
+				{
+					id: "078B020000000012"
+					item: { count: 1, id: "create_submarine:barometer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B020000000001"]
+			icon: {
+				id: "create_submarine:ballast_tank"
+			}
+			id: "078B030000000001"
+			rewards: [{
+				id: "078B0300000000F1"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					id: "078B030000000011"
+					item: { count: 1, id: "create_submarine:ballast_tank" }
+					type: "item"
+				}
+				{
+					id: "078B030000000012"
+					item: { count: 1, id: "create_submarine:ballast_vent" }
+					type: "item"
+				}
+				{
+					id: "078B030000000013"
+					item: { count: 1, id: "create_submarine:water_thruster" }
+					type: "item"
+				}
+				{
+					id: "078B030000000014"
+					item: { count: 1, id: "create_submarine:oxygene_diffuser" }
+					type: "item"
+				}
+				{
+					id: "078B030000000015"
+					item: { count: 1, id: "create_submarine:electrolyzer" }
+					type: "item"
+				}
+				{
+					advancement: "crush_depth:abyss/root"
+					criterion: ""
+					id: "09AA61160F1015F9"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B030000000001"]
+			icon: {
+				id: "create_submarine:steel_cable"
+			}
+			id: "078B040000000001"
+			rewards: [{
+				id: "078B0400000000F1"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					id: "078B040000000011"
+					item: { count: 1, id: "create_submarine:steel_cable" }
+					type: "item"
+				}
+				{
+					id: "078B040000000012"
+					item: { count: 1, id: "create_submarine:pulley" }
+					type: "item"
+				}
+				{
+					id: "078B040000000013"
+					item: { count: 1, id: "cargoboats:dock" }
+					type: "item"
+				}
+				{
+					id: "078B040000000014"
+					item: { count: 1, id: "cargoboats:motorboat" }
+					type: "item"
+				}
+				{
+					advancement: "createch2:campaign/returned_subsea_supply"
+					criterion: ""
+					id: "0509DA7761F25194"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B040000000001"]
+			icon: {
+				id: "aquamirae:oxyhelium"
+			}
+			id: "078B050000000001"
+			rewards: [{
+				id: "078B0500000000F1"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					advancement: "createch2:planetary_mining/sg_lantea_certus_quartz"
+					criterion: ""
+					id: "078B050000000011"
+					type: "advancement"
+				}
+				{
+					id: "078B050000000012"
+					item: { count: 1, id: "aquamirae:oxyhelium" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B050000000001"]
+			icon: {
+				id: "create_submarine:decompression_chamber"
+			}
+			id: "078B060000000001"
+			rewards: [{
+				id: "078B0600000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					id: "078B060000000011"
+					item: { count: 1, id: "create_submarine:decompression_chamber" }
+					type: "item"
+				}
+				{
+					id: "078B060000000012"
+					item: { count: 1, id: "create_submarine:industrial_alarm" }
+					type: "item"
+				}
+				{
+					id: "078B060000000013"
+					item: { count: 1, id: "aquamirae:luminescent_lamp" }
+					type: "item"
+				}
+				{
+					advancement: "createch2:campaign/subsea_base_service"
+					criterion: ""
+					id: "0A5E7558210B860B"
+					type: "advancement"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["078B060000000001"]
+			icon: {
+				id: "create_the_air_wars:sonar"
+			}
+			id: "078B070000000001"
+			rewards: [{
+				id: "078B0700000000F1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			tasks: [
+				{
+					id: "078B070000000011"
+					item: { count: 1, id: "create_the_air_wars:sonar" }
+					type: "item"
+				}
+				{
+					id: "078B070000000012"
+					item: { count: 1, id: "create_submarine:underwater_mine" }
+					type: "item"
+				}
+				{
+					id: "078B070000000013"
+					item: { count: 1, id: "shield_generators:shield_generator" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+	]
+	tags: ["theme_space_chapter"]
+}

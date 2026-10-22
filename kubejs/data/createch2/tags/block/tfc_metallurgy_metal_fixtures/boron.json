@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/boron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/boron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/boron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/boron",
+      "required": false
+    }
+  ]
+}

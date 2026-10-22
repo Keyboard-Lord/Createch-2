@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_spodumene/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_spodumene/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_spodumene/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_spodumene/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_spodumene/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_spodumene/granite",
+      "required": false
+    }
+  ]
+}

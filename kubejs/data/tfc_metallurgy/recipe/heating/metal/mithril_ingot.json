@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:ingots/mithril"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/mithril",
+    "amount": 100
+  },
+  "temperature": 940,
+  "use_durability": false
+}

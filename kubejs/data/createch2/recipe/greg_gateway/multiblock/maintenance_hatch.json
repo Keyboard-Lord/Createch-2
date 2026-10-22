@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TWT",
+    "AHA",
+    "TDT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "W": {
+      "item": "tfc_metallurgy:metal/pickaxe/titanium"
+    },
+    "A": {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "gtceu:maintenance_hatch",
+    "count": 1
+  }
+}

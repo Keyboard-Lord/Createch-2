@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "NHN",
+    "PVP"
+  ],
+  "key": {
+    "P": {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    "T": {
+      "item": "mekanism:elite_pressurized_tube"
+    },
+    "N": {
+      "item": "mekanism:elite_thermodynamic_conductor"
+    },
+    "H": {
+      "item": "crowns:heat_exchanger"
+    },
+    "V": {
+      "item": "mekanismgenerators:turbine_valve"
+    }
+  },
+  "result": {
+    "id": "crowns:steam_input",
+    "count": 1
+  }
+}

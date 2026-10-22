@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "DHD",
+    "SFS"
+  ],
+  "key": {
+    "C": {
+      "item": "stellaris:cable"
+    },
+    "A": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "D": {
+      "item": "stellaris:desh_ingot"
+    },
+    "H": {
+      "item": "modern_industrialization:basic_machine_hull"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "id": "stellaris:coal_generator",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "aeroworks:gyroscope"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:computational_models"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mec_04_rolling_systems",
+    "createch2:pre_03_electronic_metrology",
+    "createch2:com_03_networked_control"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mec_05_precision_mechatronics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mec_05_precision_mechatronics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:aeronautics/stage_3/stepper_servo",
+      "createch2:aeronautics/stage_3/gyroscope",
+      "createch2:aeronautics/stage_3/gyroscopic_propeller_bearing",
+      "createch2:research/pack/kinetic_data_mechatronics"
+    ]
+  }
+}

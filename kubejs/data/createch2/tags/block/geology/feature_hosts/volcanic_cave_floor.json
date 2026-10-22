@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:geology/replaceables/mercury",
+    "#createch2:geology/replaceables/venus"
+  ]
+}

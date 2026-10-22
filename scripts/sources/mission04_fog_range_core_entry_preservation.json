@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_FOG_RANGE_CORE_ENTRY_PRESERVATION",
+  "before": "f303c28da5fdb43fba3854bc83216773b0ef6e0b9950e8f24ddd1cd140d60c3f",
+  "after": "85ee5fcc7f3a8417611e4b46bd4fbe96ff67da03a313aa8281365911201b28be",
+  "added": [
+    "createch2/core/mixin/compat/client/DynamicSurroundingsFogRangeMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 371,
+  "unchangedEntriesSha256": "cbbc7d2dc68739bfa1a4acb6eafae03795f0a2af70934c176c15feec0efcf0a5",
+  "sourceCheckpoint": "1792af8",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-f303c28da5fdb43fba3854bc83216773b0ef6e0b9950e8f24ddd1cd140d60c3f.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/client/DynamicSurroundingsFogRangeMixin.class": {
+      "before": null,
+      "after": "99509fc086aa86d2619ae7f86a53399e77af453a9afce80a834926fb707a8a83"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "efa66d98c0cb884f01e96ddf14fc45b45804d70853e36f968553135b7bd0df42",
+      "after": "7aa99904e2774b51a2f70ea5a0c2e766e5d0e4ee2a93e8a4d19351f66d96b30f"
+    },
+    "createch2core.mixins.json": {
+      "before": "1554cbe88f0bd1bc5b555e2469c0d8b03f128fa52b8ac809fce82b2288c2b120",
+      "after": "2daeda6b24f0599ea0d132c3852d486106f503f7a7419a2428e61061914db8c1"
+    }
+  },
+  "scope": "Accept finite negative fog starts while preserving native range ordering,end bound,warning,selection and all fog features; native performance/retest recorded separately."
+}

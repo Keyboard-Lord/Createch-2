@@ -1,0 +1,79 @@
+{
+  "nativeJars": {
+    "gtceu-1.21.1-8.1.0.jar": "27c89c792a2d0232f300e07f007a03abb6eefeacf2bb25455cba26ac24883680",
+    "greate-createch-1.21.1.jar": "0389586c829af6eea9e7e1bbba77413c79d8b8f8ca51cbed0f072c5a1c812548"
+  },
+  "classes": {
+    "firstDegree": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.material.FirstDegreeMaterials",
+      "sha256": "75e155fa7c2f07312c228441240d78fa5f8f0d395b36c0de0ade869f225249de"
+    },
+    "customTools": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.CustomToolRecipes",
+      "sha256": "4de83f2dbac43168563bc6c9b068cd8a3c089c2ee5cb7de632fca99ea8e82493"
+    },
+    "customTags": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.tag.CustomTags",
+      "sha256": "e3109120160856879707314c9a17b008aca67cee60d8ba312613b3f1a6f3c698"
+    },
+    "recipeLoader": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.GTRecipes",
+      "sha256": "ba5ac4dc586466463ba1bf165ac3783726820794818c7e2bd525944714ead357"
+    },
+    "vanilla": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.VanillaStandardRecipes",
+      "sha256": "906704be37cd86e77e933a69009279ce750477e09aba6444cebf0d6d86fe0a65"
+    },
+    "frame": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.MaterialRecipeHandler",
+      "sha256": "a30e78594405f356e39c4e24b3a7373fea2beb88392a8ab65df815dfe676fb3a"
+    },
+    "tools": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.generated.ToolRecipeHandler",
+      "sha256": "96e3ab34db63625d1fab8dd1559a20eb8927e8bda29d0888544fa69e3b9f9a77"
+    },
+    "mixers": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.serialized.chemistry.MixerRecipes",
+      "sha256": "7b767f39bcfe242826b5d45a0143b4dac66b378dc72593c31afb5fdf0938d108"
+    },
+    "machines": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.data.recipe.misc.MachineRecipeLoader",
+      "sha256": "230f189c6e2d201f884ee0e4e39ca63e599b13e14355c293b9302085ecc61369"
+    },
+    "gtValues": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.GTValues",
+      "sha256": "e9011966cd21d9d2af6c579e28336d3df9fd918d4c9ed78b679c940715f36379"
+    },
+    "greateValues": {
+      "jar": "greate-createch-1.21.1.jar",
+      "class": "electrolyte.greate.GreateValues",
+      "sha256": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7"
+    },
+    "conversion": {
+      "jar": "greate-createch-1.21.1.jar",
+      "class": "electrolyte.greate.foundation.data.recipe.GreateRuntimeRecipes",
+      "sha256": "8128a7bb2a4f70290817f8dd01885daa5e3a1fb04964466354a8d134ff2b6c6f"
+    },
+    "tagHelpers": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.core.MixinHelpers",
+      "sha256": "2d176153a48969dd5244c6ef6396846f8407b2cc8e43b8bb449bc60de3c06c71"
+    },
+    "toolBuilder": {
+      "jar": "gtceu-1.21.1-8.1.0.jar",
+      "class": "com.gregtechceu.gtceu.api.item.tool.GTToolType$Builder",
+      "sha256": "b3db716a94d98523a7e4cb3860e5bdf301cfd4f4f3680cbd745bb66779bd6733"
+    }
+  },
+  "scope": "Exact native hand tools/frame, gravel maceration, clay mortar and Greate concrete; one MI Plascrete host repair."
+}

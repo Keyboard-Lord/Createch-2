@@ -1,0 +1,13 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:physical_dusts/zircaloy"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/zircaloy",
+    "amount": 5
+  },
+  "temperature": 1850,
+  "use_durability": false
+}

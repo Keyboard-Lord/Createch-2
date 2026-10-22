@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quark:oak_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:birch_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:jungle_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:acacia_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:mangrove_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:cherry_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:bamboo_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:bamboo_mosaic_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_planks_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_planks_vertical_slab",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_planks_vertical_slab",
+      "required": false
+    }
+  ]
+}

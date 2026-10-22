@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "RMR",
+    "BEB"
+  ],
+  "key": {
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "P": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "R": {
+      "item": "mekanismgenerators:control_rod_assembly"
+    },
+    "M": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "B": {
+      "item": "rocketnautics:booster_thruster"
+    },
+    "E": {
+      "item": "eternal_starlight:crystalborn_catalyst"
+    }
+  },
+  "result": {
+    "id": "avaritia:neutron_compressor",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_unitas",
+  "features": [
+    "createch2:galactic_unitas_hematite_tfc_vein",
+    "createch2:galactic_unitas_copper_tfc_vein",
+    "createch2:galactic_unitas_cassiterite_tfc_vein",
+    "createch2:galactic_unitas_sphalerite_tfc_vein",
+    "createch2:galactic_unitas_bituminous_coal_tfc_vein",
+    "createch2:galactic_unitas_lignite_tfc_vein",
+    "createch2:galactic_unitas_halite_tfc_vein",
+    "createch2:galactic_unitas_limestone_tfc_vein",
+    "createch2:galactic_unitas_clay_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

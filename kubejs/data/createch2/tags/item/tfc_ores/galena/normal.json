@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_galena",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_galena/tuff",
+      "required": false
+    }
+  ]
+}

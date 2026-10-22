@@ -1,0 +1,22 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 2400,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:superconductor_dust",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:nuclear_alloy_plate",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:superconductor_hot_ingot",
+      "amount": 1
+    }
+  ]
+}

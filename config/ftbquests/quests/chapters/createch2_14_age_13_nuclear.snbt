@@ -1,0 +1,3359 @@
+{
+	autofocus_id: "0CAB92CC888C9309"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_14_age_13_nuclear"
+	group: "0A85000000000005"
+	id: "04347F546E30FF44"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "5644CB816847340B"
+		image: "createch2:textures/quests/chapter_icons/nuclear.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.578d
+		y: -0.07d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "082200000000000F"
+		linked_quest: "264EB1BB7695FED2"
+		shape: "rsquare"
+		size: 1.35d
+		x: 16.226d
+		y: -42.048d
+	}]
+	quests: [
+		{
+			dependencies: ["1807EB5C02D2A745"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			id: "0CAB92CC888C9309"
+			rewards: [{
+				auto: "enabled"
+				id: "12EDC375BEA9253D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_nuclear_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "070786E5214F51D9"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: 20.426d
+			y: -42.048d
+		}
+		{
+			dependencies: ["0CAB92CC888C9309"]
+			icon: {
+				id: "mekanismgenerators:fission_fuel_assembly"
+			}
+			id: "0A8BCEFA2AB80684"
+			rewards: [{
+				auto: "enabled"
+				id: "733FF9C5DFF0A282"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "0768095117A81138"
+				item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+				type: "item"
+			}]
+			x: 16.35d
+			y: -37.649d
+		}
+		{
+			dependencies: ["0A8BCEFA2AB80684"]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			id: "07B149407A13A6AC"
+			rewards: [{
+				auto: "enabled"
+				id: "6B41D3E7A33E8872"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0646CFE7DD3FF72A"
+				item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+				type: "item"
+			}]
+			x: 16.743d
+			y: -35.772d
+		}
+		{
+			dependencies: ["07B149407A13A6AC"]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "02FA22723578F334"
+			rewards: [{
+				auto: "enabled"
+				id: "1FF6A2A05DA4DBB5"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_nuclear_main"
+				"role_main"
+			]
+			tasks: [
+				{
+					id: "18F5CCD4B094A642"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					id: "1CBA8C03CE1CCD1D"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					id: "3EF5A56A180F338E"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: -6.21d
+			y: -5.331d
+		}
+		{
+			dependencies: ["02FA22723578F334"]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			id: "0656012BA717BD74"
+			rewards: [{
+				auto: "enabled"
+				id: "399623D11C3D343E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_nuclear_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0CAC0DC2CAFFD0AD"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: -16.361d
+			y: -5.916d
+		}
+		{
+			dependencies: [
+				"0656012BA717BD74"
+				"2FAD2B64497B9589"
+			]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
+			icon_scale: 1.05d
+			id: "081F382E5FEA2995"
+			rewards: [{
+				auto: "enabled"
+				id: "54341694568645EB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_nuclear_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "008825BB0220F824"
+				item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+				type: "item"
+			}]
+			x: -19.19d
+			y: -7.493d
+		}
+		{
+			dependencies: ["0CAB92CC888C9309"]
+			icon: {
+				id: "mekanismgenerators:reactor_glass"
+			}
+			icon_scale: 0.95d
+			id: "6855DB5A9ACE4A1B"
+			rewards: [{
+				auto: "enabled"
+				id: "29601687B4B7F5BA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "683A786B16A27AD2"
+				item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+				type: "item"
+			}]
+			x: 0.051d
+			y: 52.607d
+		}
+		{
+			dependencies: ["6855DB5A9ACE4A1B"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_port"
+			}
+			icon_scale: 0.95d
+			id: "30A278E397F291AA"
+			rewards: [{
+				auto: "enabled"
+				id: "7BB3927A2C8E3415"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "5489E1AD82551109"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+				type: "item"
+			}]
+			x: 17.947d
+			y: -34.0d
+		}
+		{
+			dependencies: ["07B149407A13A6AC"]
+			icon: {
+				id: "mekanismgenerators:fission_fuel_assembly"
+			}
+			icon_scale: 0.95d
+			id: "1ED16D5A5C1C65D5"
+			rewards: [{
+				auto: "enabled"
+				id: "126507BE1C393C51"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "09272079BC186333"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14456CDC575610A3"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+			]
+			x: -8.541d
+			y: 35.46d
+		}
+		{
+			dependencies: ["1ED16D5A5C1C65D5"]
+			icon: {
+				id: "mekanism:hazmat_gown"
+			}
+			icon_scale: 0.95d
+			id: "5C4EFD1F1012406C"
+			rewards: [{
+				auto: "enabled"
+				id: "79C4ADB1A7859EE2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "35CA0A4D655C252F"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: -8.162d
+			y: 37.276d
+		}
+		{
+			dependencies: ["081F382E5FEA2995"]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
+			id: "145C0B0950506A3F"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "43053569D6DEFB24"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "209170CA17A2203F"
+					item: {
+						count: 1
+						id: "create:red_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "47A316089D4C94AA"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4B3534E9EC87FD9F"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+			]
+			x: -33.66d
+			y: 2.305d
+		}
+		{
+			dependencies: ["0CAB92CC888C9309"]
+			icon: {
+				id: "mekanismgenerators:reactor_glass"
+			}
+			icon_scale: 0.95d
+			id: "086B7F4E67494272"
+			rewards: [{
+				auto: "enabled"
+				id: "088D7DF1F516E1DB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "08F08C23E76EC24A"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "013282900CDBB68A"
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
+					type: "item"
+				}
+			]
+			x: -52.992d
+			y: -12.707d
+		}
+		{
+			dependencies: ["07B149407A13A6AC"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			icon_scale: 0.95d
+			id: "65EA4531B2CA6376"
+			rewards: [{
+				auto: "enabled"
+				id: "21899CFAC54357F9"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "62E5B63A46F458C8"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: -51.467d
+			y: -24.597d
+		}
+		{
+			dependencies: ["6855DB5A9ACE4A1B"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:uranium_dust"
+			}
+			icon_scale: 0.95d
+			id: "4E0AF8B19BBD94C4"
+			rewards: [{
+				auto: "enabled"
+				id: "48C6502EAD47B967"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "23FED61660A18538"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:uranium_dust" }
+				type: "item"
+			}]
+			x: -5.848d
+			y: 44.355d
+		}
+		{
+			dependencies: ["02FA22723578F334"]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			icon_scale: 0.95d
+			id: "7EB453C5398D7457"
+			rewards: [{
+				auto: "enabled"
+				id: "1B29DA347B2BCBC6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "39730380FBF3D6FE"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "29D6B990AF648328"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E92252003522A75"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "19BCB6B911DE0C8A"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A9A8CFFC8DE87D0"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+			]
+			x: -13.775d
+			y: 34.294d
+		}
+		{
+			dependencies: ["5C4EFD1F1012406C"]
+			icon: {
+				id: "mekanismgenerators:turbine_blade"
+			}
+			icon_scale: 0.95d
+			id: "0E6E769F6D06C5D5"
+			rewards: [{
+				auto: "enabled"
+				id: "35620F02B771D2A6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "5841A5620A5ACE7F"
+				item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+				type: "item"
+			}]
+			x: -7.783d
+			y: 39.085d
+		}
+		{
+			dependencies: ["0E6E769F6D06C5D5"]
+			icon: {
+				id: "mekanism:ultimate_energy_cube"
+			}
+			icon_scale: 0.95d
+			id: "077954D362FC1914"
+			rewards: [{
+				auto: "enabled"
+				id: "4401AA243FC53E73"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1132642BA3D82266"
+				max_input: 5000000L
+				type: "forge_energy"
+				value: 5000000L
+			}]
+			x: -7.407d
+			y: 40.886d
+		}
+		{
+			dependencies: [
+				"4E0AF8B19BBD94C4"
+				"077954D362FC1914"
+			]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
+			id: "68682E651913F10C"
+			rewards: [{
+				auto: "enabled"
+				id: "5BA389C05CFD1427"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "67714373045DD5CE"
+				item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+				type: "item"
+			}]
+			x: -7.032d
+			y: 42.68d
+		}
+		{
+			dependencies: ["68682E651913F10C"]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			icon_scale: 0.92d
+			id: "7CA73CADB9E37FAF"
+			rewards: [{
+				auto: "enabled"
+				id: "4A4C13F57DFC4808"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "2C4A1F8CF3AFBF94"
+				item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+				type: "item"
+			}]
+			x: -8.345d
+			y: 48.34d
+		}
+		{
+			dependencies: ["7CA73CADB9E37FAF"]
+			icon: {
+				id: "mekanismgenerators:fission_fuel_assembly"
+			}
+			icon_scale: 0.92d
+			id: "74CEEA5EED3C8A97"
+			rewards: [{
+				auto: "enabled"
+				id: "1D242209F3CDC0CA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "2989FDC7B9864D79"
+				item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+				type: "item"
+			}]
+			x: -16.617d
+			y: 36.554d
+		}
+		{
+			dependencies: ["74CEEA5EED3C8A97"]
+			icon: {
+				id: "mekanism:pellet_plutonium"
+			}
+			icon_scale: 0.92d
+			id: "21D643C45CFBA9C7"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "206F05043ABBC812"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "08D5D8AD0A5FFA20"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 4L
+				id: "5513EA5A4A240DCF"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: -14.627d
+			y: 38.152d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			icon: {
+				id: "mekanism:isotopic_centrifuge"
+			}
+			id: "7A5F2FC5739D08F9"
+			rewards: [{
+				auto: "enabled"
+				id: "6827BC11D3585DAC"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "253DE35BA4808E4B"
+					item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+					type: "item"
+				}
+				{
+					id: "4A653FAE895D4295"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "590F4BB6BF231045"
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
+					type: "item"
+				}
+				{
+					id: "7415536C11178568"
+					item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+					type: "item"
+				}
+			]
+			x: -12.4d
+			y: 34.2d
+		}
+		{
+			dependencies: [
+				"145C0B0950506A3F"
+				"086B7F4E67494272"
+				"65EA4531B2CA6376"
+				"7EB453C5398D7457"
+				"74CEEA5EED3C8A97"
+				"694BFD179A123373"
+				"417D98259AB0DEB3"
+				"571F65D53337F015"
+				"7A6302A7F53E277E"
+				"7A5F2FC5739D08F9"
+				"6F8B6903E83C0883"
+				"481EF4F8B031E0FA"
+				"54FDA5E59836E28A"
+				"3F91EB9125AD8445"
+				"4DFD86B65DEAB54C"
+				"043BFA6ACC76CB69"
+			]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
+			icon_scale: 1.1d
+			id: "4F849CB77549B587"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3405F8B98EA47AED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12493CF58E2DE1D4"
+					item: {
+						count: 1
+						id: "mekanismadditions:yellow_glow_panel"
+					}
+					type: "item"
+				}
+				{
+					id: "48ADC777FAAF3BF0"
+					item: {
+						count: 1
+						id: "chancecubes:compact_giant_chance_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "0C7B4E69C9AEE969"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_nuclear_capstone"
+				"role_capstone"
+				"canonical_age_13"
+			]
+			tasks: [{
+				id: "07A50D9A77404D2C"
+				item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+				type: "item"
+			}]
+			x: -52.229d
+			y: -17.217d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			icon: {
+				id: "mekanismgenerators:reactor_glass"
+			}
+			id: "776B592B51403BAF"
+			rewards: [{
+				auto: "enabled"
+				id: "12F6A7CAE46E2143"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 32L
+				id: "2E90272FCF63BF03"
+				item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+				type: "item"
+			}]
+			x: -54.988d
+			y: -29.912d
+		}
+		{
+			dependencies: ["776B592B51403BAF"]
+			icon: {
+				id: "mekanismgenerators:turbine_blade"
+			}
+			id: "694BFD179A123373"
+			rewards: [{
+				auto: "enabled"
+				id: "1ACFAA0E88E05DEC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5200E40C7C03EBA6"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "604F88C9793D4FD7"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+			]
+			x: -55.376d
+			y: -27.933d
+		}
+		{
+			dependencies: ["6F8B6903E83C0883"]
+			icon: {
+				id: "mekanism:module_radiation_shielding_unit"
+			}
+			icon_scale: 0.98d
+			id: "6B973FB7A893F65F"
+			rewards: [{
+				auto: "enabled"
+				id: "55D4416C0F15C59B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "7F8CB3E2BF423ED1"
+				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				type: "item"
+			}]
+			x: -34.059d
+			y: 0.401d
+		}
+		{
+			dependencies: ["086B7F4E67494272"]
+			icon: {
+				id: "modern_industrialization:hydrochloric_acid_bucket"
+			}
+			icon_scale: 0.98d
+			id: "3134FD4BAD8FC1B3"
+			rewards: [{
+				auto: "enabled"
+				id: "5DE8BEC4BA2FB9DF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "modern_industrialization:hydrochloric_acid"
+				}
+				id: "58EA41F09CEA62D9"
+				type: "fluid"
+			}]
+			x: -53.389d
+			y: -14.608d
+		}
+		{
+			dependencies: ["65EA4531B2CA6376"]
+			icon: {
+				id: "modern_industrialization:deuterium_bucket"
+			}
+			id: "417D98259AB0DEB3"
+			rewards: [{
+				auto: "enabled"
+				id: "12BAFC7545A218A0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 4000
+					id: "modern_industrialization:deuterium"
+				}
+				id: "346DD30D3AE4AA19"
+				type: "fluid"
+			}]
+			x: -56.145d
+			y: -23.963d
+		}
+		{
+			dependencies: ["06C979F2D1DC6D66"]
+			icon: {
+				id: "modern_industrialization:oxygen_bucket"
+			}
+			icon_scale: 0.96d
+			id: "77E9569D1D0BA674"
+			rewards: [{
+				auto: "enabled"
+				id: "23CE2A5352504910"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "modern_industrialization:oxygen"
+				}
+				id: "6B053E6745C9E923"
+				type: "fluid"
+			}]
+			x: 47.537d
+			y: -22.411d
+		}
+		{
+			dependencies: ["0CAB92CC888C9309"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			id: "1610577D9E2536FF"
+			rewards: [{
+				auto: "enabled"
+				id: "18E09E0F3766CA74"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "703877A6129DFD0F"
+				max_input: 1000000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: -40.328d
+			y: -10.568d
+		}
+		{
+			dependencies: ["1610577D9E2536FF"]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			id: "6F8B6903E83C0883"
+			rewards: [{
+				auto: "enabled"
+				id: "2E23CF59CD278303"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "0E144B2E854692EF"
+					max_input: 5000000L
+					type: "forge_energy"
+					value: 5000000L
+				}
+				{
+					id: "7C30D737D62042A0"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+			]
+			x: -42.799d
+			y: -14.088d
+		}
+		{
+			dependencies: ["6F8B6903E83C0883"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			id: "14DF82E9EFF563F7"
+			rewards: [{
+				auto: "enabled"
+				id: "0DA1BD06B09997DB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "18373EC5418D0F2B"
+					max_input: 10000000L
+					type: "forge_energy"
+					value: 10000000L
+				}
+				{
+					id: "34FDAE4034D631F9"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+			]
+			x: -40.027d
+			y: -12.508d
+		}
+		{
+			dependencies: ["4E0AF8B19BBD94C4"]
+			icon: {
+				id: "mekanism:geiger_counter"
+			}
+			icon_scale: 0.96d
+			id: "71A6D59766E18690"
+			rewards: [{
+				auto: "enabled"
+				id: "386618DDD0A0F3AF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "mekanism:environmental_radiation"
+				criterion: ""
+				id: "2288FCF9875DEC9F"
+				type: "advancement"
+			}]
+			x: -3.043d
+			y: 45.803d
+		}
+		{
+			dependencies: ["71A6D59766E18690"]
+			icon: {
+				id: "mekanism:pellet_plutonium"
+			}
+			icon_scale: 0.96d
+			id: "58BE1F187A8AE805"
+			rewards: [{
+				auto: "enabled"
+				id: "1C61C8DF54B99EE5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "mekanism:plutonium"
+				criterion: ""
+				id: "6D7634B8A06A45BE"
+				type: "advancement"
+			}]
+			x: -1.861d
+			y: 47.462d
+		}
+		{
+			dependencies: ["58BE1F187A8AE805"]
+			icon: {
+				id: "mekanism:radioactive_waste_barrel"
+			}
+			icon_scale: 0.98d
+			id: "30959F0D874AB7C5"
+			rewards: [{
+				auto: "enabled"
+				id: "60043C2BBA6BC408"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "mekanism:waste_removal"
+				criterion: ""
+				id: "4A06D09908CFA141"
+				type: "advancement"
+			}]
+			x: -1.493d
+			y: 49.222d
+		}
+		{
+			dependencies: ["6F8B6903E83C0883"]
+			icon: {
+				id: "mekanismgenerators:reactor_glass"
+			}
+			id: "571F65D53337F015"
+			rewards: [{
+				auto: "enabled"
+				id: "6068F01ABF50EC65"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4437CABCB2AC0F68"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6797E9D86F9816E4"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+			]
+			x: -43.986d
+			y: -15.881d
+		}
+		{
+			dependencies: ["65EA4531B2CA6376"]
+			icon: {
+				id: "mekanismgenerators:turbine_blade"
+			}
+			id: "7A6302A7F53E277E"
+			rewards: [{
+				auto: "enabled"
+				id: "5BC3FA5DE2CB9329"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6005BA22A8DE05CB"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ACFE8B728A140D9"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+			]
+			x: -55.761d
+			y: -25.95d
+		}
+		{
+			dependencies: ["06C979F2D1DC6D66"]
+			icon: {
+				id: "mekanism:module_radiation_shielding_unit"
+			}
+			icon_scale: 0.94d
+			id: "7FE0327AF90FC126"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3E8CB8D9AB53F347"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "6636A15E5E90B072"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4508FD34AB50D46A"
+					item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "59573E7EFC333CAF"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:uranium_dust" }
+					type: "item"
+				}
+			]
+			x: 45.164d
+			y: -26.004d
+		}
+		{
+			dependencies: ["14DF82E9EFF563F7"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			id: "481EF4F8B031E0FA"
+			rewards: [{
+				auto: "enabled"
+				id: "4EA17D7CD8F76A59"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "7B1EFF9C0207913F"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+				{
+					id: "3FDE610746D3E2EE"
+					item: { count: 1, id: "mekanism:geiger_counter" }
+					type: "item"
+				}
+			]
+			x: -38.835d
+			y: -10.711d
+		}
+		{
+			dependencies: ["481EF4F8B031E0FA"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_logic_adapter"
+			}
+			id: "7185EAC32461C0B1"
+			rewards: [{
+				auto: "enabled"
+				id: "4F868B45621F9092"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1F353E4858CA7979"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
+			}]
+			x: -37.642d
+			y: -8.914d
+		}
+		{
+			dependencies: ["7185EAC32461C0B1"]
+			icon: {
+				id: "mekanism:hazmat_mask"
+			}
+			id: "2FAD2B64497B9589"
+			rewards: [{
+				auto: "enabled"
+				id: "56689DBE104DCF06"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "309AA8E1A22F97CB"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "6E568A95427C55E1"
+					item: { count: 1, id: "mekanism:hazmat_gown" }
+					type: "item"
+				}
+			]
+			x: -34.856d
+			y: -7.331d
+		}
+		{
+			dependencies: ["2FAD2B64497B9589"]
+			icon: {
+				id: "mekanism:hazmat_mask"
+			}
+			id: "6A0D13F0A6E8B4C2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3E9A4B2C7D1065F8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4D229301E2930D36"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				dimension: "stellaris:mercury"
+				id: "1D7C9E40B2A865F3"
+				type: "dimension"
+			}]
+			x: -35.254d
+			y: -5.317d
+		}
+		{
+			dependencies: ["081F382E5FEA2995"]
+			hide_lock_icon: true
+			icon: {
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			icon_scale: 0.88d
+			id: "7E836FD1DBA61467"
+			rewards: [{
+				auto: "enabled"
+				id: "38964973ECAA5D53"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_megastructures_info"
+				"role_info"
+			]
+			tasks: [{
+				id: "0ED1935CDAB691EF"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: -22.054d
+			y: 6.599d
+		}
+		{
+			dependencies: ["081F382E5FEA2995"]
+			icon: {
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			id: "6861BC3B123CFE8C"
+			rewards: [{
+				auto: "enabled"
+				id: "2C020D0E2404D2DC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4EFA65CECF0C2998"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: -16.773d
+			y: -3.9d
+		}
+		{
+			dependencies: [
+				"0B5A5B1254EE88FF"
+				"6861BC3B123CFE8C"
+			]
+			icon: {
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "7CD717F767630AA3"
+			rewards: [{
+				auto: "enabled"
+				id: "2943C935DDA8CA65"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "44127F9228753EE7"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: -14.157d
+			y: 32.464d
+		}
+		{
+			dependencies: [
+				"0D7A4DBF1F2D963A"
+				"7CD717F767630AA3"
+			]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "717E8527B8A693E9"
+			rewards: [{
+				auto: "enabled"
+				id: "13C3D1D137D8B264"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6ECEAC04DF81D350"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: -13.942d
+			y: -2.324d
+		}
+		{
+			dependencies: [
+				"06C979F2D1DC6D66"
+				"717E8527B8A693E9"
+			]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			id: "330A7790A680897D"
+			rewards: [{
+				auto: "enabled"
+				id: "08E8FD0380BA8574"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3695A25719FFD031"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: -11.108d
+			y: -0.75d
+		}
+		{
+			dependencies: ["717E8527B8A693E9"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.95d
+			id: "4D7B8DF288B3AE1E"
+			rewards: [{
+				auto: "enabled"
+				id: "6EEED0948C4DDB07"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2D16C167A9D9D170"
+					item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "21B423BFDA43AA87"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+					type: "item"
+				}
+			]
+			x: -10.71d
+			y: 1.154d
+		}
+		{
+			dependencies: ["4D7B8DF288B3AE1E"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.94d
+			id: "558876074C30DD9B"
+			rewards: [{
+				auto: "enabled"
+				id: "7F9349D55944CCE5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_megastructures_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				count: 16L
+				id: "6EBD9932B01BCA9D"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.945d
+		}
+		{
+			dependencies: ["081F382E5FEA2995"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.95d
+			id: "210738A262D11D51"
+			rewards: [{
+				auto: "enabled"
+				id: "5F1106634337109B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "417E2889431B6688"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -32.466d
+			y: 4.101d
+		}
+		{
+			dependencies: ["4D7B8DF288B3AE1E"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.95d
+			id: "583E29E844D34FD3"
+			rewards: [{
+				auto: "enabled"
+				id: "455326AB69BB280A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 32L
+				id: "179731867FA4AB78"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -9.103d
+			y: 4.845d
+		}
+		{
+			dependencies: ["7E836FD1DBA61467"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:bronze_plate"
+			}
+			icon_scale: 0.96d
+			id: "4174C755B09212CA"
+			rewards: [{
+				auto: "enabled"
+				id: "5F74FF512128AF8A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_megastructures_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 32L
+				id: "1CF22B21186DBF49"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+				type: "item"
+			}]
+			x: -26.082d
+			y: 11.044d
+		}
+		{
+			dependencies: ["4174C755B09212CA"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			icon_scale: 0.94d
+			id: "75D6F232A1EB12EC"
+			rewards: [{
+				auto: "enabled"
+				id: "06FEE75B1F0FC280"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_megastructures_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "06107F43EE6A66E2"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 38844
+			}]
+			x: -26.488d
+			y: 13.043d
+		}
+		{
+			dependencies: ["75D6F232A1EB12EC"]
+			icon: {
+				id: "modern_industrialization:steel_large_plate"
+			}
+			icon_scale: 0.98d
+			id: "67C59FD4AC12D59A"
+			rewards: [{
+				auto: "enabled"
+				id: "0652089ADCB7CF53"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 16L
+				id: "139592397887A3FA"
+				item: { count: 1, id: "modern_industrialization:steel_large_plate" }
+				type: "item"
+			}]
+			x: -28.879d
+			y: 9.474d
+		}
+		{
+			dependencies: ["7E836FD1DBA61467"]
+			icon: {
+				id: "tfmg:naphtha_bucket"
+			}
+			icon_scale: 0.96d
+			id: "5304DDF3269944EA"
+			rewards: [{
+				auto: "enabled"
+				id: "31BA248F28A68FAC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_megastructures_optional"
+				"role_optional"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:naphtha"
+				}
+				id: "7EAD95331B6A5D25"
+				type: "fluid"
+			}]
+			x: -31.271d
+			y: 5.894d
+		}
+		{
+			dependencies: ["7E836FD1DBA61467"]
+			icon: {
+				id: "modern_industrialization:lubricant_bucket"
+			}
+			id: "3F5BC03DC2295AF8"
+			rewards: [{
+				auto: "enabled"
+				id: "3C1DEF96F58290ED"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_megastructures_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "modern_industrialization:lubricant"
+				}
+				id: "15493F35964C5970"
+				type: "fluid"
+			}]
+			x: -23.687d
+			y: 14.605d
+		}
+		{
+			dependencies: ["3F5BC03DC2295AF8"]
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			icon_scale: 0.98d
+			id: "4AE5F9C445FFDFBD"
+			rewards: [{
+				auto: "enabled"
+				id: "3587D8BF59E41E15"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_megastructures_production"
+				"role_production"
+			]
+			tasks: [{
+				fluid: {
+					amount: 16000
+					id: "tfmg:diesel"
+				}
+				id: "1CF97DC92311BF87"
+				type: "fluid"
+			}]
+			x: -24.885d
+			y: 12.826d
+		}
+		{
+			dependencies: [
+				"092D0BAB89F1F9E0"
+				"033679DB57674DF5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:geiger_counter"
+			}
+			icon_scale: 0.96d
+			id: "1EF84B1905C9C942"
+			rewards: [{
+				auto: "enabled"
+				id: "3CCD862D6881851F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "545C2E5D9B80126D"
+				item: { count: 1, id: "mekanism:geiger_counter" }
+				type: "item"
+			}]
+			x: 71.165d
+			y: -52.747d
+		}
+		{
+			dependencies: ["1EF84B1905C9C942"]
+			icon: {
+				id: "mekanism:hazmat_gown"
+			}
+			icon_scale: 0.96d
+			id: "24BCE22A95D9278E"
+			rewards: [{
+				auto: "enabled"
+				id: "13C888A72CF6144A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_safety_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "38517301A2234C6F"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: 34.064d
+			y: -40.049d
+		}
+		{
+			dependencies: [
+				"092D0BAB89F1F9E0"
+				"1EF84B1905C9C942"
+			]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_logic_adapter"
+			}
+			id: "7DAC27C37229DEBD"
+			rewards: [{
+				auto: "enabled"
+				id: "40039FE0F55C12DC"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4275897FD4CBFF27"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
+			}]
+			x: 67.518d
+			y: -40.715d
+		}
+		{
+			dependencies: ["7DAC27C37229DEBD"]
+			icon: {
+				id: "crowns:fuel_assembly"
+			}
+			id: "33535E22F65A1FA2"
+			rewards: [{
+				auto: "enabled"
+				id: "44334878B4C4AA8C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "31B992770CA51423"
+				item: { count: 1, id: "crowns:fuel_assembly" }
+				type: "item"
+			}]
+			x: 62.602d
+			y: -38.11d
+		}
+		{
+			dependencies: ["33535E22F65A1FA2"]
+			icon: {
+				id: "crowns:heat_exchanger"
+			}
+			icon_scale: 0.96d
+			id: "30A58683165B9B5E"
+			rewards: [{
+				auto: "enabled"
+				id: "4980DC089869D690"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "5E03E0BE5219F4E9"
+				item: { count: 1, id: "crowns:heat_exchanger" }
+				type: "item"
+			}]
+			x: 54.535d
+			y: -35.075d
+		}
+		{
+			dependencies: ["33535E22F65A1FA2"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			id: "6B9BEF3691B13A14"
+			rewards: [{
+				auto: "enabled"
+				id: "4EF9586C3BA558DA"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "581475CE3048B920"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: 60.754d
+			y: -28.116d
+		}
+		{
+			dependencies: ["6B9BEF3691B13A14"]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			id: "54FDA5E59836E28A"
+			rewards: [{
+				auto: "enabled"
+				id: "7046731E244AC920"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1E810C9523AE8C8C"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 60.383d
+			y: -26.109d
+		}
+		{
+			dependencies: ["24BCE22A95D9278E"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			icon_scale: 0.95d
+			id: "12AB1DAB04AEB7EC"
+			rewards: [{
+				auto: "enabled"
+				id: "5E1AF7A4D7C7F8EB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "2C7832EDB64AD406"
+				item: { count: 1, id: "mekanism:dosimeter" }
+				type: "item"
+			}]
+			x: 32.847d
+			y: -34.079d
+		}
+		{
+			dependencies: ["7DAC27C37229DEBD"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			icon_scale: 0.95d
+			id: "7F52D305917DC979"
+			rewards: [{
+				auto: "enabled"
+				id: "771DAB0B84FB3F07"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "6A3F20172CCD240D"
+				item: { count: 1, id: "mekanism:dosimeter" }
+				type: "item"
+			}]
+			x: 66.435d
+			y: -34.74d
+		}
+		{
+			dependencies: ["7F52D305917DC979"]
+			icon: {
+				id: "crowns:heat_exchanger"
+			}
+			icon_scale: 0.95d
+			id: "043BFA6ACC76CB69"
+			rewards: [{
+				auto: "enabled"
+				id: "7E4266862DD662E6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "24DE28C76EE746F5"
+					item: { count: 1, id: "crowns:heat_exchanger" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 16000
+						id: "minecraft:water"
+					}
+					id: "09F7F4BD974AB862"
+					type: "fluid"
+				}
+			]
+			x: 66.073d
+			y: -32.742d
+		}
+		{
+			dependencies: ["30A58683165B9B5E"]
+			icon: {
+				id: "crowns:heat_exchanger"
+			}
+			icon_scale: 0.95d
+			id: "63847E2A36130A85"
+			rewards: [{
+				auto: "enabled"
+				id: "16056B7942AE8B27"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 4L
+				id: "2A4395084E3A0100"
+				item: { count: 1, id: "crowns:heat_exchanger" }
+				type: "item"
+			}]
+			x: 52.6d
+			y: -32.866d
+		}
+		{
+			dependencies: ["63847E2A36130A85"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_logic_adapter"
+			}
+			icon_scale: 0.94d
+			id: "6F607C6089E0E378"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1C4AB1ECF1A9CCFA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "3B788BFF5572B405"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "25198E4078AF8A82"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
+			}]
+			x: 52.217d
+			y: -30.865d
+		}
+		{
+			dependencies: ["1EF84B1905C9C942"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			icon_scale: 0.95d
+			id: "4C8D0B99CFB007BA"
+			rewards: [{
+				auto: "enabled"
+				id: "40D5C11190E185C0"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "79F10EA2EC99E176"
+				item: { count: 1, id: "mekanism:dosimeter" }
+				type: "item"
+			}]
+			x: 68.666d
+			y: -38.932d
+		}
+		{
+			dependencies: ["30A58683165B9B5E"]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			icon_scale: 0.94d
+			id: "6B9628300B7A3B88"
+			rewards: [{
+				auto: "enabled"
+				id: "47DF209C45245DAB"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "321FB551EC0F55DE"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 53.774d
+			y: -31.076d
+		}
+		{
+			dependencies: ["7F52D305917DC979"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			icon_scale: 0.95d
+			id: "291F71D8F72817B0"
+			rewards: [{
+				auto: "enabled"
+				id: "5374DEB372A039B3"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "3D2ED7B2169D0575"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "16052BDC7ECE9A19"
+					item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+					type: "item"
+				}
+			]
+			x: 63.759d
+			y: -36.324d
+		}
+		{
+			dependencies: ["33535E22F65A1FA2"]
+			icon: {
+				id: "crowns:fuel_assembly"
+			}
+			icon_scale: 0.95d
+			id: "4D77F6CCE36ECF3C"
+			rewards: [{
+				auto: "enabled"
+				id: "0C147F20EDE01CBC"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "18C9EE94CCA87389"
+					item: { count: 1, id: "crowns:fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "194604CEFF8F9EB1"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+			]
+			x: 56.876d
+			y: -31.496d
+		}
+		{
+			dependencies: ["6F607C6089E0E378"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			icon_scale: 0.94d
+			id: "5055E5BF6BA5CB2C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1A2589E4E836D164"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "51504A3F49883F9C"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				count: 8L
+				id: "3E832F7A35F81524"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: 35.254d
+			y: -38.279d
+		}
+		{
+			dependencies: ["6F607C6089E0E378"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			icon_scale: 0.94d
+			id: "3F91EB9125AD8445"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "273AB228FE4C121C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3C3510B222569984"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "13337DE70A4DD5D6"
+				item: { count: 1, id: "mekanism:dosimeter" }
+				type: "item"
+			}]
+			x: 49.52d
+			y: -16.801d
+		}
+		{
+			dependencies: [
+				"3F91EB9125AD8445"
+				"5055E5BF6BA5CB2C"
+			]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			icon_scale: 0.94d
+			id: "144579534CFB1FBD"
+			rewards: [{
+				auto: "enabled"
+				id: "7C600FB2A7798A07"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "6E436F663845B072"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 48.334d
+			y: -18.601d
+		}
+		{
+			dependencies: ["144579534CFB1FBD"]
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			icon_scale: 0.92d
+			id: "044ED8C12F7EB2A5"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "76F68687446C2A16"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "17F8BE6E64CA35BA"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "3B560C1F38925715"
+				item: { count: 1, id: "mekanism:dosimeter" }
+				type: "item"
+			}]
+			x: 47.935d
+			y: -20.506d
+		}
+		{
+			dependencies: ["044ED8C12F7EB2A5"]
+			icon: {
+				id: "shield_generators:shield_generator"
+			}
+			icon_scale: 0.92d
+			id: "09935DE852B3D01A"
+			rewards: [{
+				auto: "enabled"
+				id: "7FE94551ABEEBC0E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "3CAC9D3A80C9281E"
+				item: { count: 1, id: "shield_generators:shield_generator" }
+				type: "item"
+			}]
+			x: 51.052d
+			y: -28.756d
+		}
+		{
+			dependencies: ["09935DE852B3D01A"]
+			icon: {
+				id: "crowns:fuel_assembly"
+			}
+			icon_scale: 0.92d
+			id: "4DF362D04F6B76FE"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5F5C92DF02BFDB4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "121100707BBD1828"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "20DAC4182462F85D"
+					item: { count: 1, id: "crowns:fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "75C952EF4CD7CF9A"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+			]
+			x: 47.139d
+			y: -24.315d
+		}
+		{
+			dependencies: ["24BCE22A95D9278E"]
+			icon: {
+				id: "mekanism:module_radiation_shielding_unit"
+			}
+			icon_scale: 0.98d
+			id: "16A0822F40B45BCB"
+			rewards: [{
+				auto: "enabled"
+				id: "147663A4DB179770"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 3L
+				id: "3F87CE223A5CF6E5"
+				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				type: "item"
+			}]
+			x: 28.853d
+			y: -37.412d
+		}
+		{
+			dependencies: ["16A0822F40B45BCB"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			icon_scale: 0.94d
+			id: "56DB8EFB259EC6A9"
+			rewards: [{
+				auto: "enabled"
+				id: "1F65AA3BD45C4554"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_safety_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					id: "3645157BDFA6CB9B"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2DB9C66BDCE83AE5"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: 26.461d
+			y: -40.945d
+		}
+		{
+			dependencies: ["33535E22F65A1FA2"]
+			icon: {
+				id: "modern_industrialization:uranium_235_dust"
+			}
+			icon_scale: 0.98d
+			id: "4DFD86B65DEAB54C"
+			rewards: [{
+				auto: "enabled"
+				id: "221EF5C9447F6DA9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 4L
+				id: "48933663BC3D0424"
+				item: { count: 1, id: "modern_industrialization:uranium_235_dust" }
+				type: "item"
+			}]
+			x: 55.706d
+			y: -33.287d
+		}
+		{
+			dependencies: ["12AB1DAB04AEB7EC"]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
+			icon_scale: 0.98d
+			id: "737FFDF52AD1457B"
+			rewards: [{
+				auto: "enabled"
+				id: "09C9F4666FF575AA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 4L
+				id: "49EFF313B85B6CC6"
+				item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+				type: "item"
+			}]
+			x: 32.441d
+			y: -32.082d
+		}
+		{
+			dependencies: ["737FFDF52AD1457B"]
+			icon: {
+				id: "mekanism:uranium_hexafluoride_bucket"
+			}
+			icon_scale: 0.96d
+			id: "32C29FF492CF742E"
+			rewards: [{
+				auto: "enabled"
+				id: "7B58B3FA85C5FFBE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_safety_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "19D0981669EAF1DA"
+				item: { count: 1, id: "mekanism:uranium_hexafluoride_bucket" }
+				type: "item"
+			}]
+			x: 30.049d
+			y: -35.639d
+		}
+		{
+			dependencies: ["54FDA5E59836E28A"]
+			icon: {
+				id: "modern_industrialization:tritium_bucket"
+			}
+			id: "480E915B9E2D9D6C"
+			rewards: [{
+				auto: "enabled"
+				id: "26430627F7592D58"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_safety_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 2000
+					id: "modern_industrialization:tritium"
+				}
+				id: "3F89EBCFAAC9BD1A"
+				type: "fluid"
+			}]
+			x: 58.046d
+			y: -29.703d
+		}
+		{
+			dependencies: ["1EF84B1905C9C942"]
+			icon: {
+				id: "shield_generators:shield_generator"
+			}
+			icon_scale: 0.98d
+			id: "3AE26018A1D09C5E"
+			rewards: [{
+				auto: "enabled"
+				id: "7C70F36E2BD4FF53"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "16ABD7086710C65D"
+				item: { count: 1, id: "shield_generators:shield_generator" }
+				type: "item"
+			}]
+			x: 25.266d
+			y: -42.704d
+		}
+		{
+			dependencies: ["3AE26018A1D09C5E"]
+			icon: {
+				id: "shield_generators:shield_generator"
+			}
+			icon_scale: 0.96d
+			id: "769FA85044CD698B"
+			rewards: [{
+				auto: "enabled"
+				id: "2DD837F11F2BE2B7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_nuclear_safety_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "63D50A02E9A486BE"
+				item: { count: 1, id: "shield_generators:shield_generator" }
+				type: "item"
+			}]
+			x: 24.851d
+			y: -40.727d
+		}
+		{
+			dependencies: ["6E294440E1BE97FD"]
+			icon: {
+				id: "shield_generators:shield_generator"
+			}
+			icon_scale: 0.98d
+			id: "208A26C7E43B7A45"
+			rewards: [{
+				auto: "enabled"
+				id: "4CD8A3C40DA9612C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_safety_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "5A1839D66B75399A"
+				item: { count: 1, id: "shield_generators:shield_generator" }
+				type: "item"
+			}]
+			x: 20.845d
+			y: -44.021d
+		}
+		{
+			dependencies: [
+				"2493CDC631EEC123"
+				"7D912C3360ECA295"
+				"43860A50366C0686"
+				"6B01C56711AE6B5D"
+				"7A9C813B740B6FE9"
+				"79C67DEEDE3F85A5"
+				"070B3C43DEE47186"
+				"15F09D0C13ED7C79"
+				"3880BFE832E921CB"
+				"3E1FF7B9A87E4826"
+				"1FA01E52E967CC6D"
+				"6372E877D111F349"
+				"1D359BFF2A2FC900"
+				"6072DCC0BCE6508E"
+				"1E5C13466716A5F3"
+				"7F823C3B731BF62E"
+			]
+			icon: {
+				id: "mekanism:module_radiation_shielding_unit"
+			}
+			icon_scale: 1.1d
+			id: "1587DC7E74666D26"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "50CEDCAA2CD832A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BBA8A806A53649E"
+					item: {
+						count: 1
+						id: "supplementaries:planter"
+					}
+					type: "item"
+				}
+				{
+					id: "04650FCAD4C54034"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_survival_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "09E5CF0672AEF82F"
+				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				type: "item"
+			}]
+			x: -53.748d
+			y: -8.691d
+		}
+		{
+			dependencies: [
+				"50B077819ACC1E13"
+				"0D7A4DBF1F2D963A"
+				"033679DB57674DF5"
+			]
+			icon: {
+				id: "productivebees:gene_indexer"
+			}
+			icon_scale: 0.96d
+			id: "7F823C3B731BF62E"
+			rewards: [{
+				auto: "enabled"
+				id: "791C62871A02AB2B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_survival_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "6DDE47A52A5407D0"
+				item: { count: 1, id: "productivebees:gene_indexer" }
+				type: "item"
+			}]
+			x: -53.371d
+			y: -10.7d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "adpother:diamond_filter_frame"
+			}
+			id: "14D56ABE98F3CD46"
+			rewards: [{
+				auto: "enabled"
+				id: "07B94BBD718F006C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "06A581A5F8512D8E"
+					item: { count: 1, id: "adpother:diamond_filter_frame" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FC58CE03C0C07BA"
+					item: { count: 1, id: "adpother:aerometer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2E44C2F599EF2ABF"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+			]
+			x: 160.0d
+			y: -59.75d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:iv_electric_motor"
+			}
+			id: "12384157DE04CE1C"
+			rewards: [{
+				auto: "enabled"
+				id: "11CEDE057D9711E1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "709982821FD79608"
+					item: { count: 1, id: "gtceu:iv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "0069BB5EAB148633"
+					item: { count: 1, id: "gtceu:iv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "174717A8D684AC02"
+					item: { count: 1, id: "gtceu:iv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "04FB454159848DA2"
+					item: { count: 1, id: "gtceu:iv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "1A73149D77CC5FD8"
+					item: { count: 1, id: "gtceu:iv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "204B18FE1F21FEC0"
+					item: { count: 1, id: "gtceu:iv_sensor" }
+					type: "item"
+				}
+				{
+					id: "20CE0411E9D8F8FF"
+					item: { count: 1, id: "gtceu:iv_emitter" }
+					type: "item"
+				}
+				{
+					id: "2C49F28E538463C0"
+					item: { count: 1, id: "gtceu:iv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"12384157DE04CE1C"
+				"033679DB57674DF5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:iv_electric_motor"
+			}
+			id: "62B9EF167A006F54"
+			rewards: [{
+				auto: "enabled"
+				id: "3AB1F0A8CA94E309"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3F572801A1871B1C"
+					item: { count: 1, id: "gtceu:iv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48BADB94E2468938"
+					item: { count: 1, id: "gtceu:iv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5E8E58B0A60F19F9"
+					item: { count: 1, id: "gtceu:iv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04A1E820FE37724A"
+					item: { count: 1, id: "gtceu:iv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0E54273BCE1C3454"
+					item: { count: 1, id: "gtceu:iv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0967C25884BDB75C"
+					item: { count: 1, id: "gtceu:iv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2AB8F303C02A3EED"
+					item: { count: 1, id: "gtceu:iv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3139F235C8114D0B"
+					item: { count: 1, id: "gtceu:iv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -20.75d
+		}
+		{
+			dependencies: [
+				"62B9EF167A006F54"
+				"033679DB57674DF5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:reactor_controller"
+			}
+			id: "39B3CF6E67F49D0C"
+			rewards: [{
+				auto: "enabled"
+				id: "12137C0F8255850E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4EE7D7C5D3E38AC0"
+				item: { count: 1, id: "oritech:reactor_controller" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"39B3CF6E67F49D0C"
+				"033679DB57674DF5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:iv_electric_motor"
+			}
+			id: "4576968D6C0E5F17"
+			rewards: [{
+				auto: "enabled"
+				id: "0E1633AE5861BF34"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "19CC02EBC488BBB2"
+					item: { count: 1, id: "gtceu:iv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "7F58B738EE659948"
+					item: { count: 1, id: "gtceu:iv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "62F3FD0FCEA9EAFA"
+					item: { count: 1, id: "gtceu:iv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "7D83BE277DEB560E"
+					item: { count: 1, id: "gtceu:iv_sensor" }
+					type: "item"
+				}
+				{
+					id: "55434CC6B7351FFC"
+					item: { count: 1, id: "gtceu:iv_emitter" }
+					type: "item"
+				}
+				{
+					id: "24C04B4FE437E446"
+					item: { count: 1, id: "gtceu:iv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 176.0d
+			y: -14.25d
+		}
+		{
+			dependencies: [
+				"43860A50366C0686"
+				"033679DB57674DF5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:condenser_mk2"
+			}
+			id: "22B84332B88B7FCE"
+			rewards: [{
+				auto: "enabled"
+				id: "5DC76C6DD938608C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "5D6DCB6CAD47B20A"
+				item: { count: 1, id: "projecte:condenser_mk2" }
+				type: "item"
+			}]
+			x: 194.0d
+			y: -56.5d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:uranium_crystal"
+			}
+			id: "40717E38D7706861"
+			rewards: [{
+				auto: "enabled"
+				id: "10237A0CB160C5E3"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3FB5029C9E3FFB60"
+					item: { count: 1, id: "oritech:uranium_crystal" }
+					type: "item"
+				}
+				{
+					id: "77B87E7F22833B4D"
+					item: { count: 1, id: "oritech:reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "66EC53F9A140B114"
+					item: { count: 1, id: "mekanism:geiger_counter" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -33.75d
+		}
+		{
+			dependencies: ["033679DB57674DF5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:dosimeter"
+			}
+			id: "440239E49DD1C5DB"
+			rewards: [{
+				auto: "enabled"
+				id: "4CB747DF776C912E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_nuclear_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "23C0B0EC18058EAA"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5D380DE20CDB2C46"
+					item: { count: 1, id: "gtceu:iv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6B4DB818D72CF28B"
+					item: { count: 1, id: "electroenergetics:sulfur_hexafluoride_breaker" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -30.5d
+		}
+		{
+			dependencies: [
+				"0CAB92CC888C9309"
+				"079535A07FBDF71A"
+			]
+			icon: {
+				id: "projecte:transmutation_table"
+			}
+			id: "2E3FC81437EA881A"
+			rewards: [{
+				auto: "enabled"
+				id: "6071456EFCC7E153"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "4682D55161A9644D"
+					item: { count: 1, id: "projecte:transmutation_table" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0D92EEDA41C27F77"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["2E3FC81437EA881A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:transmutation_tablet"
+			}
+			id: "2E15ED45B9D80624"
+			rewards: [{
+				auto: "enabled"
+				id: "37D51F257A005E9C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "175E6BA680D2D9F6"
+					item: { count: 1, id: "projecte:transmutation_tablet" }
+					type: "item"
+				}
+				{
+					id: "526AD51D557D7892"
+					item: { count: 1, id: "computercraft:computer_advanced" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -28.75d
+		}
+		{
+			dependencies: ["2E3FC81437EA881A"]
+			icon: {
+				id: "projecte:condenser_mk1"
+			}
+			id: "43860A50366C0686"
+			rewards: [{
+				auto: "enabled"
+				id: "2C2371EEE3C18710"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_nuclear_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "44733E20425D8206"
+				item: { count: 1, id: "projecte:condenser_mk1" }
+				type: "item"
+			}]
+			x: 210.0d
+			y: -25.5d
+		}
+	]
+	tags: ["theme_nuclear_chapter"]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/andesite_alloy"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/andesite_alloy",
+    "amount": 50
+  },
+  "temperature": 520,
+  "use_durability": false
+}

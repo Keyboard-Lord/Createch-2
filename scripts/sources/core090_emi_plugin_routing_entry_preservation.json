@@ -1,0 +1,22 @@
+{
+  "truth": "STATIC_CORE090_EMI_PLUGIN_ROUTING_ENTRY_PRESERVATION",
+  "before": "5d3f7be8766cc613194eb425d644ee9cdaf788a9f0aae5cdf3f4a6598fab6e0c",
+  "after": "7c2173e6d54ac912c4e72b1045d53d015062e63ac2bb5b4945949c22e8aeae40",
+  "added": [],
+  "changed": [
+    "createch2/core/compat/client/Createch2JeiPlugin.class"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 390,
+  "unchangedEntriesSha256": "7c261411107e07aa0efaf29a534e674afa076fdf73a941e5876cef5e6cc708ad",
+  "sourceCheckpoint": "6f07cce",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-5d3f7be8766cc613194eb425d644ee9cdaf788a9f0aae5cdf3f4a6598fab6e0c.jar",
+  "entrySha256": {
+    "createch2/core/compat/client/Createch2JeiPlugin.class": {
+      "before": "e3af53c5be4abcbd3b6753a4b59717cd62a6d101ffceddd625dbf32ba5d5191c",
+      "after": "21bbcb518955e35188155e4a4816ec16928187e241d259f7a45f71d307245173"
+    }
+  },
+  "scope": "JEI plugin UID createch2core:presentation -> pack-owned createch2:jei_presentation. Actual EMI1.1.24 PluginCallerMixin skips namespaces from getHandledMods, including existing Core EMI plugin. No JEI implementation or third-party class changes. Public runtime callback/rules and all progression guards unchanged."
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/sodium"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:sodium_dust"
+    }
+  ],
+  "processing_time": 100
+}

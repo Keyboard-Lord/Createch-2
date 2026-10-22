@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "firmalife:reinforced_glass"
+    }
+  ],
+  "results": [
+    {
+      "id": "chemica:graduated_cylinder"
+    }
+  ],
+  "processing_time": 400
+}

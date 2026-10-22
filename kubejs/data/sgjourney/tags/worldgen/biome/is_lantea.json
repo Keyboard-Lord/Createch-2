@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:lantea_deep_warm_ocean",
+    "createch2:lantea_mirage_isles",
+    "createch2:lantea_white_cliffs",
+    "createch2:lantea_rocky_reef",
+    "createch2:lantea_ancient_delta",
+    "createch2:lantea_bioshroom_caves",
+    "createch2:lantea_prismachasm"
+  ]
+}

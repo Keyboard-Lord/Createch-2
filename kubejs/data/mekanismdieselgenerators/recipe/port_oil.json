@@ -1,0 +1,28 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "F": {
+      "item": "mekanismdieselgenerators:genset_frame"
+    },
+    "O": {
+      "item": "mekanismdieselgenerators:engine_oil"
+    },
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    }
+  },
+  "pattern": [
+    " O ",
+    "CFC",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:port_oil"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CQC",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "C": {
+      "tag": "c:dusts/certus_quartz"
+    },
+    "Q": {
+      "item": "modern_industrialization:silicon_plate"
+    }
+  },
+  "result": {
+    "id": "ae2:quartz_glass",
+    "count": 4
+  }
+}

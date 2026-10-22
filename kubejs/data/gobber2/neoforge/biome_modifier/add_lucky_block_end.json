@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": "gobber2:lucky_block_end_placed",
+  "step": "underground_ores"
+}

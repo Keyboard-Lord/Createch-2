@@ -1,0 +1,168 @@
+{
+  "chapter": "config/ftbquests/quests/chapters/createch2_02_age_01_copper.snbt",
+  "previousRuntimeCheckpoint": "17aec72",
+  "before": {
+    "00F99FF4ADD7B10D": {
+      "dependencies": [
+        "07D6107F8A83258B",
+        "0F573E8D8FBAA0D6"
+      ],
+      "icon": {
+        "components": {
+          "tfc:heat": {}
+        },
+        "id": "tfc:powder/flux"
+      },
+      "id": "00F99FF4ADD7B10D",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "759FB22D4E12311C",
+          "type": "xp",
+          "xp": "5"
+        }
+      ],
+      "shape": "square",
+      "size": "1.22d",
+      "tags": [
+        "theme_copper_required",
+        "role_required"
+      ],
+      "tasks": [
+        {
+          "count": "7L",
+          "id": "0D992A299A99EA04",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "tfc:powder/flux"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "14.143d",
+      "y": "-5.538d"
+    },
+    "0F573E8D8FBAA0D6": {
+      "dependencies": [
+        "04A5BEDCF0921BC0",
+        "3FDFB82BD98A4BAC"
+      ],
+      "icon": {
+        "components": {
+          "tfc:heat": {}
+        },
+        "id": "tfc:metal/hammer/copper"
+      },
+      "id": "0F573E8D8FBAA0D6",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "1D82EFD5E0D7FDDB",
+          "type": "xp",
+          "xp": "5"
+        }
+      ],
+      "shape": "octagon",
+      "size": "3.25d",
+      "tags": [
+        "theme_copper_main",
+        "role_main"
+      ],
+      "tasks": [
+        {
+          "id": "07FA5A836E753C9B",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "tfc:metal/hammer/copper"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "-31.187d",
+      "y": "-7.427d"
+    },
+    "0DEE1DD112355C06": {
+      "dependencies": [
+        "0438A4CA3176B806",
+        "075A000000000001"
+      ],
+      "icon": {
+        "components": {
+          "tfc:heat": {}
+        },
+        "id": "tfc:metal/anvil/copper"
+      },
+      "icon_scale": "1.1d",
+      "id": "0DEE1DD112355C06",
+      "rewards": [
+        {
+          "auto": "enabled",
+          "id": "4FA2B7AC940A8D73",
+          "type": "xp",
+          "xp": "100"
+        },
+        {
+          "id": "44B30A8D114330D8",
+          "item": {
+            "count": "1",
+            "id": "supplementaries:clock_block"
+          },
+          "type": "item"
+        },
+        {
+          "id": "62B2D60905B9482B",
+          "item": {
+            "count": "1",
+            "id": "create:wrench"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "createch_capstone",
+      "size": "3.5d",
+      "tags": [
+        "theme_copper_capstone",
+        "role_capstone",
+        "canonical_age_01"
+      ],
+      "tasks": [
+        {
+          "id": "4ACCC2985D723716",
+          "item": {
+            "components": {
+              "tfc:heat": {}
+            },
+            "count": "1",
+            "id": "tfc:metal/anvil/copper"
+          },
+          "type": "item"
+        }
+      ],
+      "x": "15.183d",
+      "y": "10.033d"
+    }
+  },
+  "afterDependencies": {
+    "00F99FF4ADD7B10D": [
+      "07D6107F8A83258B",
+      "3FDFB82BD98A4BAC"
+    ],
+    "0F573E8D8FBAA0D6": [
+      "04A5BEDCF0921BC0",
+      "3FDFB82BD98A4BAC",
+      "00552EFA819E0454"
+    ],
+    "0DEE1DD112355C06": [
+      "0438A4CA3176B806",
+      "075A000000000001",
+      "0F573E8D8FBAA0D6"
+    ]
+  },
+  "requiredAnvil": "00552EFA819E0454"
+}

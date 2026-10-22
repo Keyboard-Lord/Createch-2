@@ -1,0 +1,18 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:compressor",
+  "eu": 2,
+  "duration": 300,
+  "item_inputs": [
+    {
+      "tag": "minecraft:saplings",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gtceu:plant_ball",
+      "amount": 1
+    }
+  ]
+}

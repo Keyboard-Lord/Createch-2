@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "farmersdelight:onion"
+  },
+  "hunger": 2,
+  "saturation": 0.3,
+  "water": 5,
+  "decay_modifier": 2.5,
+  "vegetables": 1.0
+}

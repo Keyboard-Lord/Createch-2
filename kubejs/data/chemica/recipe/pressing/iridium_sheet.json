@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:iridium_plate"
+    }
+  ]
+}

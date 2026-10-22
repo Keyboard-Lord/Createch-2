@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:tall_meadow_grass",
+      "required": false
+    },
+    {
+      "id": "yourmod:pampas_grass",
+      "required": false
+    }
+  ]
+}

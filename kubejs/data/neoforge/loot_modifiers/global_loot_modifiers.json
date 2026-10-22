@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "createch2:witchcraft_supplies_0",
+    "createch2:witchcraft_supplies_1",
+    "createch2:witchcraft_supplies_2",
+    "createch2:witchcraft_supplies_3",
+    "createch2:witchcraft_supplies_4",
+    "createch2:witch_herbs_bluegrass",
+    "createch2:witch_herbs_orchard_grass",
+    "createch2:witch_herbs_timothy_grass",
+    "createch2:witch_herbs_cordgrass"
+  ]
+}

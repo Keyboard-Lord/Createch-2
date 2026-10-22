@@ -1,0 +1,61 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "fog_color": -6384241,
+    "foliage_color": 15326658,
+    "grass_color": 12434605,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.005
+    },
+    "sky_color": 11644572,
+    "water_color": 9147546,
+    "water_fog_color": -11585236
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "createch2:offworld/flora/autumn_flowers",
+      "createch2:offworld/flora/shrubs_autumnal_maple_forest",
+      "createch2:offworld/flora/trees_autumnal_maple_forest"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:mars_biomes",
+  "features": [
+    "createch2:galactic_mars_hematite_tfc_vein",
+    "createch2:galactic_mars_copper_tfc_vein",
+    "createch2:galactic_mars_sulfur_tfc_vein",
+    "createch2:galactic_mars_graphite_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

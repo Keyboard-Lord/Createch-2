@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:screws/bismuth_bronze"
+      }
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:screws/bismuth_bronze"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/bismuth_bronze",
+    "amount": 11
+  },
+  "temperature": 985
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create:sweet_roll",
+    "farmersdelight:honey_cookie",
+    "farmersdelight:sweet_berry_cookie",
+    "minecraft:cookie",
+    "occultism:beaver_nugget",
+    "stellaris:cosmo_bread",
+    "the_bumblezone:bee_bread",
+    "vampirism:garlic_bread"
+  ]
+}

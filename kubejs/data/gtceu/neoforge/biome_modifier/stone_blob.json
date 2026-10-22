@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_ore_generation",
+  "features": [
+    "gtceu:red_granite_blob",
+    "gtceu:marble_blob"
+  ],
+  "step": "underground_ores"
+}

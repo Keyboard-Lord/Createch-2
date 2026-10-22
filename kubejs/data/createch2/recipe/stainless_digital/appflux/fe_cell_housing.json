@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QRQ",
+    "R R",
+    "SIS"
+  ],
+  "key": {
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "I": {
+      "tag": "createch2:rubber_sheets"
+    }
+  },
+  "result": {
+    "id": "appflux:fe_cell_housing",
+    "count": 1
+  }
+}

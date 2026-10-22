@@ -1,0 +1,41 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 28,
+    "min_y": -48,
+    "max_y": 32,
+    "size": 18,
+    "density": 0.28,
+    "blocks": [
+      {
+        "replace": [
+          "rocketnautics:lunar_rock",
+          "rocketnautics:lunar_fragmented_rock",
+          "rocketnautics:lunar_aged_basalt",
+          "rocketnautics:lunar_regolith",
+          "rocketnautics:lunar_shattered_regolith",
+          "rocketnautics:lunar_loose_regolith",
+          "stellaris:moon_stone"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "stellaris:moon_desh_ore"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 72,
+      "underground_rarity": 12,
+      "underground_count": 1,
+      "depth": 48,
+      "blocks": [
+        {
+          "block": "stellaris:moon_stone_dust"
+        }
+      ]
+    },
+    "random_name": "createch2_geology_moon_desh"
+  }
+}

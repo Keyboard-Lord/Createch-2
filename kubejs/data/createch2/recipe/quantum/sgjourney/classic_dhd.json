@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "ICI",
+    "QRQ"
+  ],
+  "key": {
+    "B": {
+      "tag": "createch2:materials/rock/buttons"
+    },
+    "I": {
+      "item": "sgjourney:naquadah_alloy"
+    },
+    "C": {
+      "item": "sgjourney:communication_crystal"
+    },
+    "Q": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "R": {
+      "item": "sgjourney:control_crystal"
+    }
+  },
+  "result": {
+    "id": "sgjourney:classic_dhd",
+    "count": 1
+  }
+}

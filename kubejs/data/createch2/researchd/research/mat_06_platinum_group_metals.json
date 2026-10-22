@@ -1,0 +1,60 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:platinum_ingot"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:process_samples",
+      "createch2:propulsion_telemetry"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:mat_05_vacuum_titanium",
+    "createch2:che_06_catalytic_processing",
+    "createch2:thm_03_high_pressure_thermodynamics",
+    "createch2:spc_05_planetary_operations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_06_platinum_group_metals.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_06_platinum_group_metals.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:high_pressure/pgm/mixed_concentrate",
+      "createch2:high_pressure/pgm/purified_solution",
+      "createch2:high_pressure/pgm/electrolysis",
+      "createch2:high_pressure/pgm/platinum_hot_ingot",
+      "createch2:high_pressure/pgm/platinum_ingot",
+      "createch2:cosmonautics_foundation/pgm/aqua_regia_feed",
+      "createch2:cosmonautics_foundation/pgm/aqua_regia_separation",
+      "createch2:cosmonautics_foundation/pgm/trace_residue_centrifuge",
+      "createch2:cosmonautics_foundation/pgm/iridium_dust_from_trace",
+      "createch2:cosmonautics_foundation/pgm/mi_iridium_ingot",
+      "createch2:cosmonautics_foundation/pgm/chemlib_iridium_ingot",
+      "createch2:cosmonautics_foundation/pgm/platinum_ingot",
+      "createch2:cosmonautics_foundation/pgm/palladium_ingot",
+      "createch2:cosmonautics_foundation/pgm/osmium_ingot",
+      "createch2:factory_scaling/pgm/mixed_concentrate_batch",
+      "createch2:factory_scaling/pgm/industrial_feed_batch",
+      "createch2:factory_scaling/pgm/industrial_separation_batch",
+      "createch2:greate/suppliers/osmium_ordinary_stock"
+    ]
+  }
+}

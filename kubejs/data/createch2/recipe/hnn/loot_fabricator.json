@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "MHM",
+    "PAP"
+  ],
+  "key": {
+    "P": {
+      "item": "hostilenetworks:prediction_matrix"
+    },
+    "C": {
+      "tag": "createch2:control/factory/digital"
+    },
+    "M": {
+      "item": "tfmg:steel_mechanism"
+    },
+    "H": {
+      "tag": "createch2:machines/casings/industrial"
+    },
+    "A": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "result": {
+    "id": "hostilenetworks:loot_fabricator",
+    "count": 1
+  }
+}

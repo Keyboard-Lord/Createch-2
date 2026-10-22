@@ -1,0 +1,40 @@
+#Base rpm creatures can spin the horse crank.
+# Default: 4
+# Range: > 1
+creatureRPMRange = 4
+#How much stress small creatures can produce for the horse crank.
+# Default: 128
+# Range: > 1
+smallCreatureStressRange = 128
+#How much stress medium creatures can produce for the horse crank.
+# Default: 256
+# Range: > 1
+mediumCreatureStressRange = 256
+#How much stress large creatures can produce for the horse crank.
+# Default: 512
+# Range: > 1
+largeCreatureStressRange = 512
+#The multiplier for "Poor" paths
+# Default: 0.5
+# Range: 0.0 ~ 1.7976931348623157E308
+poorMultiplier = 0.5
+#The multiplier for "Normal" paths
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+normalMultiplier = 1.0
+#The multiplier for "Great" paths
+# Default: 2.0
+# Range: 0.0 ~ 1.7976931348623157E308
+greatMultiplier = 2.0
+#Types of blocks valid as "Poor" quality
+poorPathBlock = ["tfc:dirt/entisol", "tfc:dirt/aridisol", "tfc:dirt/oxisol", "tfc:dirt/fluvisol", "tfc:dirt/andisol", "tfc:dirt/podzol", "tfc:dirt/alfisol", "tfc:dirt/mollisol", "tfc:grass/entisol", "tfc:grass/aridisol", "tfc:grass/oxisol", "tfc:grass/fluvisol", "tfc:grass/andisol", "tfc:grass/podzol", "tfc:grass/alfisol", "tfc:grass/mollisol"]
+#Types of blocks valid as "Normal" quality
+normalPathBlock = ["tfc:grass_path/entisol", "tfc:grass_path/aridisol", "tfc:grass_path/oxisol", "tfc:grass_path/fluvisol", "tfc:grass_path/andisol", "tfc:grass_path/podzol", "tfc:grass_path/alfisol", "tfc:grass_path/mollisol", "tfc:rock/gravel/granite", "tfc:rock/gravel/diorite", "tfc:rock/gravel/gabbro", "tfc:rock/gravel/rhyolite", "tfc:rock/gravel/basalt", "tfc:rock/gravel/andesite", "tfc:rock/gravel/dacite", "tfc:rock/gravel/quartzite", "tfc:rock/gravel/slate", "tfc:rock/gravel/phyllite", "tfc:rock/gravel/schist", "tfc:rock/gravel/gneiss", "tfc:rock/gravel/marble", "tfc:rock/gravel/chert", "tfc:rock/gravel/shale", "tfc:rock/gravel/claystone", "tfc:rock/gravel/limestone", "tfc:rock/gravel/conglomerate", "tfc:rock/gravel/dolomite", "tfc:rock/gravel/chalk", "tfc:rock/gravel/tuff"]
+#Types of blocks valid as "Great" quality
+greatPathBlock = ["tfc:rock/cobble/granite", "tfc:rock/cobble/diorite", "tfc:rock/cobble/gabbro", "tfc:rock/cobble/rhyolite", "tfc:rock/cobble/basalt", "tfc:rock/cobble/andesite", "tfc:rock/cobble/dacite", "tfc:rock/cobble/quartzite", "tfc:rock/cobble/slate", "tfc:rock/cobble/phyllite", "tfc:rock/cobble/schist", "tfc:rock/cobble/gneiss", "tfc:rock/cobble/marble", "tfc:rock/cobble/chert", "tfc:rock/cobble/shale", "tfc:rock/cobble/claystone", "tfc:rock/cobble/limestone", "tfc:rock/cobble/conglomerate", "tfc:rock/cobble/dolomite", "tfc:rock/cobble/chalk", "tfc:rock/cobble/tuff"]
+#Valid "Small" creatures
+smallCreatures = []
+#Valid "Medium" creatures
+mediumCreatures = ["tfc:cow", "tfc:yak"]
+#Valid "Large" creatures
+largeCreatures = ["tfc:horse", "tfc:donkey", "tfc:mule", "tfc:bactrian_camel", "tfc:dromedary_camel"]

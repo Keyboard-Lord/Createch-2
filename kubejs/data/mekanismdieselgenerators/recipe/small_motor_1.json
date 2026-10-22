@@ -1,0 +1,39 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "C": [
+      {
+        "tag": "c:ingots/copper"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "S": {
+      "tag": "c:shafts/andesite_alloy"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "PCP",
+    "ASA",
+    "PCP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:small_motor_1"
+  }
+}

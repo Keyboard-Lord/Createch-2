@@ -1,0 +1,45 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 44,
+    "min_y": 0,
+    "max_y": 40,
+    "size": 32,
+    "density": 0.46,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:venus_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/poor_magnesite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_magnesite/basalt"
+          },
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/rich_magnesite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 10,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 36,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_magnesite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_venus_magnesite_tfc_vein"
+  }
+}

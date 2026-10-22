@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/blue_steel",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/blue_steel_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/blue_steel_stairs",
+      "required": false
+    }
+  ]
+}

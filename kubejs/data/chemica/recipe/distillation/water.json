@@ -1,0 +1,16 @@
+{
+  "type": "tfmg:distillation",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "tfc:any_fresh_water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:distilled_water"
+    }
+  ]
+}

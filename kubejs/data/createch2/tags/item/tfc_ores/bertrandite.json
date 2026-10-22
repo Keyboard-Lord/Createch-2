@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/bertrandite/small",
+    "#createch2:tfc_ores/bertrandite/poor",
+    "#createch2:tfc_ores/bertrandite/normal",
+    "#createch2:tfc_ores/bertrandite/rich"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_COLD_SWEAT_LIFETIME_CORE_ENTRY_PRESERVATION",
+  "before": "7cff07c9d92fd11c82974fe620e1631b71e17eea631b99531e9e1168f38c896c",
+  "after": "e51221e376424f74f342dffd7bf1561703d6df390eceea77b5e8bb94ad21995c",
+  "added": [
+    "createch2/core/compat/ColdSweatEntityCacheLifecycle.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2/core/Createch2Core.class"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 381,
+  "unchangedEntriesSha256": "c747355e9cf651b0c226a3425f355289a7670b44c6d1ac2a423c6cfea5d1e569",
+  "sourceCheckpoint": "a4c8940",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-7cff07c9d92fd11c82974fe620e1631b71e17eea631b99531e9e1168f38c896c.jar",
+  "entrySha256": {
+    "createch2/core/compat/ColdSweatEntityCacheLifecycle.class": {
+      "before": null,
+      "after": "199e84c860feaaaa90498c75f6484c39341cdc7bd3996af3f1de293ca76aa57f"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "b149da97296b1c5f9f5939f7468507557df36f6e64fd1b3366c570bb04184838",
+      "after": "6c2d684b2c4da52838703a789fd32955112ecdf415590e3e70f3ef79bc268b1b"
+    },
+    "createch2/core/Createch2Core.class": {
+      "before": "8ea00feb96f38fa0bb67dfa6de86f05603c74aa9174808b74b337a7951c250a0",
+      "after": "c2e7a117b0a5b7b26af7fb15c81739e1b14c2393b65fc4ed1df8b0b5b1a983cf"
+    }
+  },
+  "scope": "At ServerStopped use native removeIf on CAP_CACHE server map and TEMP_MODIFIER_IMMUNITIES for entities whose concrete ServerLevel owns event server. No client-cache clearing, temperature rules,attachments or saved-format changes. Native retest pending."
+}

@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SOS",
+    "OCO",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "O": {
+      "tag": "c:ingots/nickel"
+    },
+    "C": {
+      "item": "tfmg:steel_casing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "mekanism:steel_casing",
+    "count": 1
+  }
+}

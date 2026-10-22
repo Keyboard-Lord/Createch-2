@@ -1,0 +1,34 @@
+import './lib/native_disassembly_cache.mjs';
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {liveRoot as root, developmentRoot} from './lib/live_paths.mjs';
+import {nativeStargateKnowledge} from './lib/native_stargate_knowledge.mjs';
+import {nativeResearchRuntimeAliases} from './lib/native_research_runtime_aliases.mjs';
+import {nativeBlastCeiling} from './lib/native_blast_ceiling.mjs';
+import {captureRecipePolicy, compileRecipeFilter} from './lib/capture_recipe_policy.mjs';
+
+const read = p => JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const state = path.join(developmentRoot, 'createch-dev/runtime-state/mission02');
+const arg = name => {const i=process.argv.indexOf(name); assert(i>=0, name+' is required'); return path.resolve(process.argv[i+1]);};
+const worldPath = arg('--world'), graphPath = arg('--graph');
+const world = read(worldPath), graph = read(graphPath);
+const walk = p => fs.readdirSync(p, {withFileTypes:true}).flatMap(e => e.isDirectory() ? walk(path.join(p,e.name)) : [path.join(p,e.name)]);
+const authored = new Map();
+for(const p of walk(path.join(root,'kubejs/data'))){const m=/\/data\/([^/]+)\/recipe\/(.+)\.json$/.exec(p); if(m) authored.set(m[1]+':'+m[2],read(p));}
+const native = read(path.join(developmentRoot,'createch-dev/runtime-state/campaign-unity/native-resources.json'));
+const ledger = read(path.join(root,'kubejs/config/createch2_research_tree.json'));
+const policy = captureRecipePolicy(root,true), removals=policy.removals.map(r=>compileRecipeFilter(r.filter));
+const knowledge=nativeStargateKnowledge({root,developmentRoot,world});
+const aliases=nativeResearchRuntimeAliases({root,native,authored,policy});
+const blast=nativeBlastCeiling({root,developmentRoot,authored,policy,removals,ledger,recipes:graph.recipes});
+const grove=world.occultismFirstWorld;
+assert.equal(grove.onlyEligibleBiome,'tfc:plains');
+assert(grove.removedBroadOverworldTargets.length>0);
+for(const[p,h]of Object.entries(grove.sourceSha256)) assert.equal(sha(path.join(root,p)),h,p);
+assert.equal(aliases.aliases.length,27);
+const output={truth:'TARGETED_089C_CORRECTIONS_PASS',knowledge:{componentCodec:knowledge.componentCodec,cards:knowledge.cards,nativeBindings:Object.keys(knowledge.nativeCodeSha256).length,negativeCases:knowledge.negativeCases.length,playerProgressCases:knowledge.playerProgressCases.length},grove:{onlyEligibleBiome:grove.onlyEligibleBiome,removedBroadOverworldTargets:grove.removedBroadOverworldTargets,nativeGenerationSettingsUnchanged:grove.nativeGenerationSettingsUnchanged},blast:{recipes:blast.recipes,nativeBindings:Object.keys(blast.nativeCodeSha256).length,negativeCases:blast.negativeCases.length},greate:{aliases:aliases.aliases.length,nativeBindings:Object.keys(aliases.nativeCodeSha256).length,nativeNegativeCases:aliases.nativeNegativeCases.length,registrationAndTeamCases:aliases.registrationAndTeamCases.length,negativeCases:aliases.negativeCases.length},inputs:{world:{path:worldPath,sha256:sha(worldPath)},graph:{path:graphPath,sha256:sha(graphPath)}},runtimeObserved:false};
+fs.writeFileSync(path.join(state,'089c-corrections-validation.json'),JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify({truth:output.truth,cartoucheBindings:output.knowledge.nativeBindings,groveBiome:grove.onlyEligibleBiome,blastRecipes:blast.recipes.length,greateAliases:aliases.aliases.length,runtimeObserved:false}));

@@ -1,0 +1,52 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfmg:steel_distillation_controller"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:process_samples",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:process_resources",
+  "display": {
+    "name": {
+      "translate": "research.createch2.che_01_process_control.title"
+    },
+    "desc": {
+      "translate": "research.createch2.che_01_process_control.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:heavy_industry/tfmg/distillation_controller",
+      "createch2:heavy_industry/tfmg/distillation_output",
+      "createch2:research/pack/process_samples_heated",
+      "createch2:process_facilities/transport/large_tank",
+      "createch2:process_facilities/transport/large_tank_hatch",
+      "createch2:heavy_industry/tfmg/steel_fluid_tank",
+      "createch2:heavy_industry/tfmg/process_gas_coking",
+      "createch2:heavy_industry/tfmg/steel_chemical_vat",
+      "createch2:heavy_industry/tfmg/sulfuric_acid_tfc_minerals",
+      "createch2:chemical_age/mi/coal_dust_from_geological_coal",
+      "tfmg:crafting/materials/steel_pipe",
+      "tfmg:crafting/materials/steel_pipe_vertical",
+      "greate:integration/createch2/research/pack/process_samples_heated",
+      "greate:integration/createch_2_/research/pack/process_samples_heated"
+    ]
+  }
+}

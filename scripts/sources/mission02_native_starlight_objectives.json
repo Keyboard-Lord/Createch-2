@@ -1,0 +1,50 @@
+{
+  "truth": "REVIEWED_NATIVE_STARLIGHT_ENTER_OBJECTIVES",
+  "classes": {
+    "task": {
+      "jar": "ftb-quests-neoforge-2101.1.36.jar",
+      "class": "dev.ftb.mods.ftbquests.quest.task.AdvancementTask",
+      "sha256": "98077272d22c1807d03e682b0e7fad082ae17906a366ea03f7c5f95fe48286a5"
+    },
+    "player": {
+      "jar": "@runtime",
+      "class": "net.minecraft.server.level.ServerPlayer",
+      "sha256": "94e4b06e2fb4184faf0bc8916eb9994a24b7a09ee506a92704f7faa4e0d36764"
+    },
+    "triggers": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.CriteriaTriggers",
+      "sha256": "830a292081c0a9e40cd3e5558979fc5abc512066635dbcadac98d8a71b8233c6"
+    },
+    "playerTrigger": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.critereon.PlayerTrigger",
+      "sha256": "531ad84a5524d022806aeb04c37f88c117b1047538d4507de704d76b208db0c8"
+    },
+    "simpleTrigger": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.critereon.SimpleCriterionTrigger",
+      "sha256": "acbb9a9867c0c0815498ee227b18c6903b1a3f19b1f2377e73878b0c9048379e"
+    },
+    "location": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.critereon.LocationPredicate",
+      "sha256": "7849c114b4823fd602dcdc0436620ffb350eebc6d510a061db1c606aefb53de9"
+    },
+    "entityCondition": {
+      "jar": "@runtime",
+      "class": "net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition",
+      "sha256": "f50a021a147147aee070ed3f9adc4479078dc49aec79cb8d9636c07556b480fa"
+    },
+    "listener": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.CriterionTrigger$Listener",
+      "sha256": "33045ca26dda59a7383a2fc54c5a5181176ebac6c3aaa1da4e7b48d3a1a6f1f9"
+    },
+    "entityPredicate": {
+      "jar": "@runtime",
+      "class": "net.minecraft.advancements.critereon.EntityPredicate",
+      "sha256": "e2743d894b228209b7e9a1ecca488ff1776783acaf4a31d1e8dac9e01c52fa50"
+    }
+  }
+}

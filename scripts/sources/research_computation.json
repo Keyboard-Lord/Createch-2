@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "gate": "FRN-06",
+  "routes": [
+    {
+      "nativeName": "biphenyl_from_oxygen",
+      "type": "large_chemical_reactor",
+      "nativeType": "chemical_reactor",
+      "eu": 480,
+      "duration": 400,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:benzene",
+          "amount": 2000
+        },
+        {
+          "fluid": "modern_industrialization:oxygen",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "2x gtceu:biphenyl_dust"
+      ],
+      "outputFluids": [
+        {
+          "fluid": "minecraft:water",
+          "amount": 1000
+        }
+      ],
+      "circuit": 1
+    },
+    {
+      "nativeName": "polychlorinated_biphenyl",
+      "type": "large_chemical_reactor",
+      "nativeType": "chemical_reactor",
+      "eu": 512,
+      "duration": 200,
+      "itemInputs": [
+        "2x gtceu:biphenyl_dust"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:chlorine",
+          "amount": 4000
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:polychlorinated_biphenyl",
+          "amount": 1000
+        },
+        {
+          "fluid": "modern_industrialization:hydrochloric_acid",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "nativeName": "pcb_coolant",
+      "type": "mixer",
+      "nativeType": "mixer",
+      "eu": 480,
+      "duration": 200,
+      "itemInputs": [],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:polychlorinated_biphenyl",
+          "amount": 750
+        },
+        {
+          "fluid": "gtceu:distilled_water",
+          "amount": 250
+        }
+      ],
+      "itemOutputs": [],
+      "outputFluids": [
+        {
+          "fluid": "gtceu:pcb_coolant",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "nativeName": "hpca_active_cooler_component",
+      "type": "assembler",
+      "nativeType": "assembler",
+      "eu": 7680,
+      "duration": 200,
+      "itemInputs": [
+        "gtceu:advanced_computer_casing",
+        "16x #c:plates/aluminum",
+        "16x gtceu:stainless_steel_tiny_fluid_pipe",
+        "8x gtceu:stainless_steel_screw"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:pcb_coolant",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:hpca_active_cooler_component"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM",
+      "hostType": "circuit_assembler"
+    },
+    {
+      "nativeName": "hpca_advanced_computation_component",
+      "type": "assembler",
+      "nativeType": "assembler",
+      "eu": 122880,
+      "duration": 200,
+      "itemInputs": [
+        "gtceu:hpca_computation_component",
+        "4x gtceu:wetware_processor_computer",
+        "gtceu:zpm_field_generator"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:pcb_coolant",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:hpca_advanced_computation_component"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM",
+      "hostType": "circuit_assembler"
+    },
+    {
+      "nativeName": "optical_pipe",
+      "type": "assembler",
+      "nativeType": "assembler",
+      "eu": 7680,
+      "duration": 100,
+      "itemInputs": [
+        "#c:glass_blocks",
+        "2x #c:plates/silver"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:polybenzimidazole",
+          "amount": 144
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:normal_optical_pipe"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM"
+    },
+    {
+      "nativeName": "hpca_bridge_component",
+      "type": "assembler",
+      "nativeType": "assembler",
+      "eu": 30720,
+      "duration": 200,
+      "itemInputs": [
+        "gtceu:advanced_computer_casing",
+        "gtceu:wetware_processor_computer",
+        "gtceu:zpm_emitter",
+        "2x gtceu:normal_optical_pipe"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "gtceu:pcb_coolant",
+          "amount": 1000
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:hpca_bridge_component"
+      ],
+      "outputFluids": [],
+      "cleanroom": "CLEANROOM",
+      "hostType": "circuit_assembler"
+    },
+    {
+      "nativeName": "network_switch",
+      "type": "assembly_line",
+      "nativeType": "assembly_line",
+      "eu": 100000,
+      "duration": 1200,
+      "itemInputs": [
+        "gtceu:advanced_computer_casing",
+        "4x gtceu:zpm_emitter",
+        "4x gtceu:zpm_sensor",
+        "4x gtceu:wetware_processor_computer",
+        "64x modern_industrialization:superconductor_wire",
+        "16x gtceu:rhodium_plated_palladium_plate",
+        "16x gtceu:rhodium_plated_palladium_plate",
+        "8x gtceu:normal_optical_pipe"
+      ],
+      "inputFluids": [
+        {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 576
+        },
+        {
+          "fluid": "gtceu:polybenzimidazole",
+          "amount": 576
+        }
+      ],
+      "itemOutputs": [
+        "gtceu:network_switch"
+      ],
+      "outputFluids": [],
+      "research": {
+        "item": "gtceu:normal_optical_pipe",
+        "cwut": 32,
+        "eu": 122880
+      }
+    }
+  ],
+  "scope": "Native research hardware and staged 16/32/96 CWU rated/cooling budgets; actual network aggregation, power and thermal operation remain runtime verification.",
+  "authoredMappings": {
+    "opticalSubstrate": "Shared glass block replaces native borosilicate fine fibers; native optical quality/material equivalence is not claimed.",
+    "opticalContacts": "Two ordinary 100-unit silver plates replace eight 25-unit silver foils.",
+    "opticalInsulation": "Earned PBI replaces PTFE at the same 144 mB volume.",
+    "networkEnclosure": "Existing advanced computer casing replaces native ordinary computer casing; shared capital integration, not a native bill equivalence.",
+    "networkContacts": "32 RPP plates retain the 3200-unit native Tritanium foil contact budget.",
+    "networkWire": "64 shared 50-unit superconductor wires retain 32 native 100-unit double-wire budget.",
+    "suppliedComputationHost": "Three existing HPCA component bills move from unavailable native GT assemblers to supplied circuit assemblers. Preserve all old assembler recipe IDs and research ownership, ingredients, quantities, EU, duration and ordinary room."
+  },
+  "commissioning": [
+    {
+      "stage": "wetware_computer",
+      "researchRecipe": "createch2:assembly_line/greate_wetware_circuits/wetware_super_computer_uv",
+      "requiredCwut": 16,
+      "arrays": 1,
+      "basicPerArray": 4,
+      "advancedPerArray": 0,
+      "activeCoolersPerArray": 5,
+      "bridgesPerArray": 0
+    },
+    {
+      "stage": "network_switch",
+      "researchRecipe": "createch2:assembly_line/greate_computation/network_switch",
+      "requiredCwut": 32,
+      "arrays": 1,
+      "basicPerArray": 0,
+      "advancedPerArray": 2,
+      "activeCoolersPerArray": 7,
+      "bridgesPerArray": 0
+    },
+    {
+      "stage": "wetware_mainframe",
+      "researchRecipe": "createch2:assembly_line/greate_wetware_circuits/wetware_mainframe_uhv",
+      "requiredCwut": 96,
+      "arrays": 3,
+      "basicPerArray": 0,
+      "advancedPerArray": 2,
+      "activeCoolersPerArray": 6,
+      "bridgesPerArray": 1
+    }
+  ]
+}

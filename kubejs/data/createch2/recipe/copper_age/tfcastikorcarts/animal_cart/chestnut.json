@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "LPL",
+    "BWB"
+  ],
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/chestnut"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "W": {
+      "item": "tfcastikorcarts:wheel/chestnut"
+    },
+    "B": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "result": {
+    "id": "tfcastikorcarts:animal_cart/chestnut",
+    "count": 1
+  }
+}

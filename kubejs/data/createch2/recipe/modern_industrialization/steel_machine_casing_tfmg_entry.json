@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "OTO",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "O": {
+      "tag": "c:ingots/nickel"
+    },
+    "T": {
+      "item": "tfmg:steel_casing"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:steel_machine_casing",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+/* Createch 2 player defaults. EMI preserves an existing player's own config. */
+#general {
+    enabled: true;
+    cheat-mode: creative;
+    help-level: normal;
+    search-tooltip-by-default: true;
+}
+
+#ui {
+    recipe-book-action: toggle-craftables;
+    fluid-unit: millibuckets;
+}
+
+#dev {
+    dev-mode: false;
+    edit-mode: false;
+    log-untranslated-tags: false;
+    log-non-tag-ingredients: false;
+    show-recipe-ids: false;
+    show-recipe-decorators: false;
+    highlight-defaulted: false;
+    highlight-exclusion-areas: false;
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rods/compressed_iron"
+  },
+  "result_fluid": {
+    "id": "tfc_metallurgy:metal/compressed_iron",
+    "amount": 50
+  },
+  "temperature": 1535,
+  "use_durability": false
+}

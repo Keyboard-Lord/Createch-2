@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#createch2:end_cosmic_ecology",
+  "spawners": {
+    "type": "unique_mobs:ender_zombie",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

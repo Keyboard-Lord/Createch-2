@@ -1,0 +1,12 @@
+{
+  "type": "armor",
+  "insulation": {
+    "cold": 14,
+    "heat": 14
+  },
+  "item": {
+    "items": [
+      "stellaris:jet_suit_boots"
+    ]
+  }
+}

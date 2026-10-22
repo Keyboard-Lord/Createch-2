@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GTG",
+    "PHP",
+    "FCF"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:gems/fluorite"
+    },
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "P": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "F": {
+      "tag": "createch2:chemical_filter_media"
+    }
+  },
+  "result": {
+    "id": "mekanism:chemical_crystallizer",
+    "count": 1
+  }
+}

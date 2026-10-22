@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -56,
+    "max_y": 40,
+    "size": 30,
+    "density": 0.6,
+    "blocks": [
+      {
+        "replace": [
+          "stellaris:mercury_stone",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:smooth_basalt",
+          "minecraft:calcite",
+          "minecraft:tuff"
+        ],
+        "with": [
+          {
+            "weight": 15,
+            "block": "tfc:ore/poor_garnierite/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc:ore/normal_garnierite/basalt"
+          },
+          {
+            "weight": 60,
+            "block": "tfc:ore/rich_garnierite/basalt"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_mercury_garnierite_tfc_vein",
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_garnierite"
+        }
+      ]
+    }
+  }
+}

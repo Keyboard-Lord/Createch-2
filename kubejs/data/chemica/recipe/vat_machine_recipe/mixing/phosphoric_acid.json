@@ -1,0 +1,34 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 600,
+      "tag": "tfc:any_fresh_water"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:oxygen"
+    },
+    {
+      "item": "chemica:phosphorus_dust"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "chemica:phosphoric_acid"
+    }
+  ],
+  "processing_time": 300,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1
+}

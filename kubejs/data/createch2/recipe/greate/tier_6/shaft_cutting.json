@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "greate:cutting",
+  "recipe_tier": 5,
+  "ingredients": [
+    {
+      "tag": "c:plates/rhodium_plated_palladium"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "greate:rhodium_plated_palladium_shaft",
+      "count": 6
+    }
+  ]
+}

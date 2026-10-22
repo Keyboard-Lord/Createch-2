@@ -1,0 +1,16 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:strings"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "result": {
+    "id": "animaltrap:twine",
+    "count": 1
+  }
+}

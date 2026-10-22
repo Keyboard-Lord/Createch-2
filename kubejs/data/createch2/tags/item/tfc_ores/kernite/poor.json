@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/poor_kernite/tuff",
+      "required": false
+    }
+  ]
+}

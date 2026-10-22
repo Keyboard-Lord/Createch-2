@@ -1,0 +1,9 @@
+	[term_sizes.terminal]
+		#Width of terminal
+		# Default: 51
+		# Range: 1 ~ 255
+		width = 51
+		#Height of terminal
+		# Default: 19
+		# Range: 1 ~ 255
+		height = 19

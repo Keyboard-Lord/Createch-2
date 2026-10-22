@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:rings/red_steel"
+      }
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:rings/red_steel"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/red_steel",
+    "amount": 25
+  },
+  "temperature": 1540
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "yourmod:fern_canopy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 172,
+    "g": 67,
+    "b": 52
+  },
+  "sorting_value": 120,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.ordnance_reports.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.ordnance_reports.description"
+    }
+  }
+}

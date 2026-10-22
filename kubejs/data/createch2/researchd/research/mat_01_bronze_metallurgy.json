@@ -1,0 +1,45 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "tfc:metal/ingot/bronze"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:kinetic_data"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_01_bronze_metallurgy.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_01_bronze_metallurgy.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:age_foundation/foundry/molten_bronze_from_copper_tin",
+      "createch2:age_foundation/foundry/cast_bronze_ingot",
+      "createch2:research/pack/material_specimens_workshop",
+      "greate:integration/createch2/age_foundation/foundry/cast_bronze_ingot",
+      "greate:integration/createch2/research/pack/material_specimens_workshop",
+      "greate:integration/createch_2_/age_foundation/foundry/cast_bronze_ingot",
+      "greate:integration/createch_2_/research/pack/material_specimens_workshop"
+    ]
+  }
+}

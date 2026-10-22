@@ -1,0 +1,41 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "researchd:research_lab"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_item",
+    "items": {
+      "item": "tfc:metal/sheet/copper"
+    },
+    "count": 4
+  },
+  "parents": [],
+  "requires_parent": false,
+  "research_page": "createch2:scientific_institutions",
+  "display": {
+    "name": {
+      "translate": "research.createch2.sci_01_empirical_method.title"
+    },
+    "desc": {
+      "translate": "research.createch2.sci_01_empirical_method.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/kinetic_data",
+      "createch2:research/pack/material_specimens",
+      "createch2:research/pack/process_samples",
+      "createch2:research/pack/logistics_reports",
+      "createch2:research/pack/geological_surveys",
+      "createch2:research/pack/esoteric_records",
+      "createch2:research/pack/ordnance_reports"
+    ]
+  }
+}

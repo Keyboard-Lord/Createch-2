@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_managed_mod_compatibility.mjs",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "c:circuits/basic"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "P": {
+      "tag": "mekanismdieselgenerators:steel"
+    },
+    "W": [
+      {
+        "tag": "c:ingots/copper"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ]
+  },
+  "pattern": [
+    "PCP",
+    "WMW",
+    "PBP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanismdieselgenerators:block_heater"
+  }
+}

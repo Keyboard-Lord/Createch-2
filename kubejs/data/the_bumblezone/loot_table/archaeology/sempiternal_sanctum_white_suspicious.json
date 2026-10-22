@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "createch2:archaeology/bee_ruin_safe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "item_settings": {
+    "display_name": {
+      "translate": "guideme.createch2.guide.title"
+    },
+    "tooltip_lines": [
+      {
+        "translate": "guideme.createch2.guide.tooltip",
+        "color": "gray"
+      }
+    ],
+    "model": "createch2:item/wiki_icon"
+  },
+  "default_language": "en_us",
+  "custom_colors": {
+    "createch2:copper": {
+      "dark_mode": "#D58A4A",
+      "light_mode": "#A85F2E"
+    },
+    "createch2:steel": {
+      "dark_mode": "#86A7B4",
+      "light_mode": "#526F7B"
+    },
+    "createch2:uranium": {
+      "dark_mode": "#8DD36C",
+      "light_mode": "#4E8F37"
+    },
+    "createch2:endgame": {
+      "dark_mode": "#C678DD",
+      "light_mode": "#8E3FA8"
+    }
+  }
+}

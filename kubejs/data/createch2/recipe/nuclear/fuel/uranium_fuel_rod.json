@@ -1,0 +1,21 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZUZ",
+    "ZUZ",
+    "ZUZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "chemlib:zirconium_plate"
+    },
+    "U": {
+      "item": "modern_industrialization:uranium_235_ingot"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:uranium_fuel_rod",
+    "count": 1
+  }
+}

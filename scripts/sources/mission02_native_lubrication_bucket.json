@@ -1,0 +1,105 @@
+{
+  "tfcLoader": "21.1.256",
+  "providerJars": {
+    "tfmg": "tfmg-1.21.1-1.3.2a-community.jar",
+    "create": "create-1.21.1-6.0.10.jar"
+  },
+  "registratePath": "META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar",
+  "nativeClasses": {
+    "tfmgFluids": [
+      "tfmg",
+      "com.drmangotea.tfmg.registry.TFMGFluids"
+    ],
+    "tfmgType": [
+      "tfmg",
+      "com.drmangotea.tfmg.registry.TFMGFluids$SolidRenderedPlaceableFluidType"
+    ],
+    "spoutFilling": [
+      "create",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout"
+    ],
+    "genericFilling": [
+      "create",
+      "com.simibubi.create.content.fluids.transfer.GenericItemFilling"
+    ],
+    "spout": [
+      "create",
+      "com.simibubi.create.content.fluids.spout.SpoutBlockEntity"
+    ],
+    "fluidBuilder": [
+      "registrate",
+      "com.tterrag.registrate.builders.FluidBuilder"
+    ],
+    "fluidBuilderVerbose": [
+      "registrateVerbose",
+      "com.tterrag.registrate.builders.FluidBuilder"
+    ],
+    "capabilityHooks": [
+      "loader",
+      "net.neoforged.neoforge.capabilities.CapabilityHooks"
+    ],
+    "bucketWrapper": [
+      "loader",
+      "net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper"
+    ],
+    "fluidType": [
+      "loader",
+      "net.neoforged.neoforge.fluids.FluidType"
+    ],
+    "baseFlowing": [
+      "loader",
+      "net.neoforged.neoforge.fluids.BaseFlowingFluid"
+    ],
+    "tintedType": [
+      "create",
+      "com.simibubi.create.AllFluids$TintedFluidType"
+    ],
+    "fluidUtil": [
+      "loader",
+      "net.neoforged.neoforge.fluids.FluidUtil"
+    ]
+  },
+  "nativeCodeSha256": {
+    "tfmgFluids": "46814421f6f3a5d88a57088a7b8d32280a42a628bce156ae08fbcf03ef2b5d90",
+    "tfmgType": "af350c1fabe590de4ee9c2daaeabda8565d47336ac92a1fcdb1738f3bc0c2983",
+    "spoutFilling": "a1241eed48a107ef1db927e5c0417f44c384db06525f057f246e4115727d7730",
+    "genericFilling": "46b6d4a4b73a2232cf6cbb2f364305e21314278ffea79ac5131ca81b90436b5a",
+    "spout": "58e301764efe3e47bf055281a08f9c4a830676c85dd0cd34591f0d606912eb72",
+    "fluidBuilder": "ee2c2399004ce57581257b3ca371b997d81363e0da4605aaaeac5d9c3c66e150",
+    "fluidBuilderVerbose": "f9d3df8a54b7cc9134326a721c0e695f882a9931ff8280a8addd684490e63166",
+    "capabilityHooks": "b0c8e2e2d0bb86691bf79b9e814bef6291d3d5d5db9516a37f1423604773fbc0",
+    "bucketWrapper": "4e82d7ea9ea75d0549fca4f08c9d434cf71c1b7a255c650b9bc3392f88b1c2f5",
+    "fluidType": "9e6ee0181c7ecdd96c434129f9c2adb51f348f3f6530b1a54bbe8775d4a7a5df",
+    "baseFlowing": "f622b23d70a92ba074a9e0cf8f9ef9b9bf3660da26538ef7bef1445c3c188229",
+    "tintedType": "0910b7fcf7d86eab9a9e14b05172b0d7e54c83fcd09e8b25dd260b1c5400b547",
+    "fluidUtil": "9ae20eb421af59b86a398888b640269ed8a9e5419097eb0aef57568207bed983"
+  },
+  "fluid": "tfmg:lubrication_oil",
+  "empty": "minecraft:bucket",
+  "filled": "tfmg:lubrication_oil_bucket",
+  "amount": 1000,
+  "nativeBucketRecipeId": "modern_industrialization:vanilla_recipes/packer/bucket",
+  "nativeBucketRecipe": [
+    {
+      "provider": "Modern-Industrialization-2.5.10.jar",
+      "data": {
+        "type": "modern_industrialization:packer",
+        "eu": 2,
+        "duration": 100,
+        "item_inputs": [
+          {
+            "item": "modern_industrialization:steel_curved_plate",
+            "amount": 3
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "minecraft:bucket",
+            "amount": 4
+          }
+        ]
+      }
+    }
+  ],
+  "registrateJarSha256": "510f4041c41739f1d8ea8850ab8364d3e3a5fada8529beed5d9f479e2523db52"
+}

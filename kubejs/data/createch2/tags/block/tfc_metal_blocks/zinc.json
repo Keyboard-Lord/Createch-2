@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/zinc",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/zinc_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/zinc_stairs",
+      "required": false
+    }
+  ]
+}

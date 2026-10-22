@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "tfc_metallurgy:metal/hammer_head/mithril"
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "shrink_not_last"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/mithril"
+  },
+  "apply_bonus": true
+}

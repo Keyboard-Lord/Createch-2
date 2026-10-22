@@ -1,0 +1,99 @@
+{
+  "carvers": {},
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": 6141763,
+    "grass_color": 7588171,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.flower_forest"
+    },
+    "sky_color": 7776511,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "tfc:plant/wild_crop/pumpkin_patch",
+      "tfc:plant/wild_crop/sugarcane_patch",
+      "createch2:offworld/flora/grass",
+      "createch2:offworld/flora/small_flowers",
+      "createch2:offworld/flora/tall_flowers",
+      "createch2:offworld/flora/aster"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "tfc:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "tfc:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "tfc:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "tfc:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "tfc:horse",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "tfc:donkey",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.975
+}

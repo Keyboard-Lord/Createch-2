@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "BHB",
+    " T "
+  ],
+  "key": {
+    "R": {
+      "item": "tfmg:cast_iron_truss"
+    },
+    "C": {
+      "item": "tfmg:pumpjack_hammer_connector"
+    },
+    "B": {
+      "tag": "createch2:materials/bronze/machine_grade"
+    },
+    "H": {
+      "item": "tfmg:pumpjack_hammer_head"
+    },
+    "T": {
+      "item": "tfmg:cast_iron_truss"
+    }
+  },
+  "result": {
+    "id": "tfmg:pumpjack_hammer",
+    "count": 1
+  }
+}

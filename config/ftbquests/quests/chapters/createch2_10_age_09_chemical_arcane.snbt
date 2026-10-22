@@ -1,0 +1,2849 @@
+{
+	autofocus_id: "0D3CCAB136834E0D"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_10_age_09_chemical_arcane"
+	group: "0A85000000000003"
+	id: "08386D304607DDD9"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "2740EE4BBC60DB79"
+		image: "createch2:textures/quests/chapter_icons/chemical_arcane.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: -0.508d
+		y: -0.02d
+	}]
+	order_index: 2
+	quest_links: [{
+		id: "082200000000000B"
+		linked_quest: "0655E46718DD0069"
+		shape: "rsquare"
+		size: 1.35d
+		x: 51.632d
+		y: 15.653d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"05F1C6028E36F345"
+				"40B9F21964564F18"
+			]
+			icon: {
+				id: "tfmg:steel_chemical_vat"
+			}
+			id: "0D3CCAB136834E0D"
+			rewards: [{
+				auto: "enabled"
+				id: "38A6028E87B31BC6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 3.25d
+			tags: [
+				"theme_chemical_arcane_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "063301377CF7A3FF"
+				item: { count: 1, id: "tfmg:steel_chemical_vat" }
+				type: "item"
+			}]
+			x: 47.432d
+			y: 15.653d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "chemica:platinum_electrode"
+			}
+			id: "033EAFA0AE07DA62"
+			rewards: [{
+				auto: "enabled"
+				id: "308F1AE226831E7E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "037C93E3D1CB8F8D"
+				item: { count: 1, id: "chemica:platinum_electrode" }
+				type: "item"
+			}]
+			x: -19.044d
+			y: 12.51d
+		}
+		{
+			dependencies: ["033EAFA0AE07DA62"]
+			icon: {
+				id: "chemica:hydrochloric_acid_bucket"
+			}
+			id: "034CEC92A93F2DFA"
+			rewards: [{
+				auto: "enabled"
+				id: "4F17F5B3950F611C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_chemical_arcane_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0F61690E9AD43579"
+				item: { count: 1, id: "chemica:hydrochloric_acid_bucket" }
+				type: "item"
+			}]
+			x: -20.231d
+			y: 10.938d
+		}
+		{
+			dependencies: ["034CEC92A93F2DFA"]
+			icon: {
+				id: "chemica:cured_epoxy_sheet"
+			}
+			id: "02A78138FF4577A2"
+			rewards: [{
+				auto: "enabled"
+				id: "53CC37A112A110D7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_chemical_arcane_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 8L
+				id: "04C63DA7C1BC9BF4"
+				item: { count: 1, id: "chemica:cured_epoxy_sheet" }
+				type: "item"
+			}]
+			x: -33.579d
+			y: 2.225d
+		}
+		{
+			dependencies: ["02A78138FF4577A2"]
+			icon: {
+				id: "chemica:carbon_fiber_composite_sheet"
+			}
+			id: "088A2813D0ACCAF2"
+			rewards: [{
+				auto: "enabled"
+				id: "41817C8E90CAFE22"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.65d
+			tags: [
+				"theme_chemical_arcane_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0A5DA82B77CD1C76"
+				item: { count: 1, id: "chemica:carbon_fiber_composite_sheet" }
+				type: "item"
+			}]
+			x: -34.875d
+			y: 0.509d
+		}
+		{
+			dependencies: ["088A2813D0ACCAF2"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 1.05d
+			id: "0DFC44DF39807CD3"
+			rewards: [{
+				auto: "enabled"
+				id: "596DD2895D673D4E"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_chemical_arcane_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0B7F8932850F5A3F"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: -36.175d
+			y: -1.21d
+		}
+		{
+			dependencies: ["033EAFA0AE07DA62"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.95d
+			id: "647DF447D714E4E6"
+			rewards: [{
+				auto: "enabled"
+				id: "264433973DC20EC7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 2L
+				id: "54F3A6A7B8A1779C"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: -20.209d
+			y: 14.549d
+		}
+		{
+			dependencies: ["647DF447D714E4E6"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.95d
+			id: "050B4A9A7B169386"
+			rewards: [{
+				auto: "enabled"
+				id: "20BEAB5575BDBFDF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 16L
+				id: "5806BFDB34D5F281"
+				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+				type: "item"
+			}]
+			x: -19.072d
+			y: 16.054d
+		}
+		{
+			dependencies: ["02A78138FF4577A2"]
+			icon: {
+				id: "mekanism:substrate"
+			}
+			icon_scale: 0.95d
+			id: "7B3474DF11467444"
+			rewards: [{
+				auto: "enabled"
+				id: "636A02225B2551F5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 8L
+				id: "57A03917871F7F9F"
+				item: { count: 1, id: "mekanism:substrate" }
+				type: "item"
+			}]
+			x: -44.978d
+			y: 34.143d
+		}
+		{
+			dependencies: ["7B3474DF11467444"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.94d
+			id: "1C5D52EED7C076D4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "76AB491AD5DAD03B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "384A88A4CFDF3808"
+					item: {
+						count: 1
+						id: "mekanism:configuration_card"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "74638D83CD33BDA3"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: -31.256d
+			y: 29.768d
+		}
+		{
+			dependencies: ["0DFC44DF39807CD3"]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "5901D481B2DAFB49"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3C6923AEA24241D7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "063E993CC18F5EDD"
+					item: {
+						count: 1
+						id: "create:purple_table_cloth"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "60D1D0C2FA9EF9C9"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "215257C731B49CAE"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+			]
+			x: -37.473d
+			y: -2.928d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			icon_scale: 0.95d
+			id: "686C0F12B0859788"
+			rewards: [{
+				auto: "enabled"
+				id: "6C1FB15331800CD5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "6213FF8606AB815B"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: -46.037d
+			y: 35.756d
+		}
+		{
+			dependencies: ["02A78138FF4577A2"]
+			icon: {
+				id: "mekanism:rotary_condensentrator"
+			}
+			icon_scale: 0.94d
+			id: "0CE508638149FAD9"
+			rewards: [{
+				auto: "enabled"
+				id: "1E337438F3A9C922"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "625750D384918C63"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: -32.06d
+			y: 7.802d
+		}
+		{
+			dependencies: ["647DF447D714E4E6"]
+			icon: {
+				id: "mekanism:hdpe_sheet"
+			}
+			icon_scale: 0.94d
+			id: "6EA1990C3A362FF6"
+			rewards: [{
+				auto: "enabled"
+				id: "1A6410588A4C6A7C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "561A8AEBBAEE7F57"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3E11FAC6B815EB87"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+			]
+			x: -12.328d
+			y: 19.606d
+		}
+		{
+			dependencies: ["0CE508638149FAD9"]
+			icon: {
+				id: "mekanism:hdpe_sheet"
+			}
+			icon_scale: 0.95d
+			id: "3E7BCC4A50B3502A"
+			rewards: [{
+				auto: "enabled"
+				id: "043A12CACFD50D32"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "50F8EADB250DDA9A"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F8714E582D1B3BC"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+			]
+			x: -28.419d
+			y: 10.837d
+		}
+		{
+			dependencies: ["1C5D52EED7C076D4"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.94d
+			id: "0331F135BE053E50"
+			rewards: [{
+				auto: "enabled"
+				id: "7389E6C3EFCFB3EB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3D7BD3362CF24AC0"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "150E8707483E5D27"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+			]
+			x: -32.207d
+			y: 28.511d
+		}
+		{
+			dependencies: ["0331F135BE053E50"]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			icon_scale: 0.94d
+			id: "1B4C281509EC6A33"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "42F52BC4C86C5EBB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "49B637B261B678EB"
+					item: {
+						count: 1
+						id: "mekanism:configuration_card"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "3682875836F882E9"
+				max_input: 500000L
+				type: "forge_energy"
+				value: 500000L
+			}]
+			x: -21.903d
+			y: 24.792d
+		}
+		{
+			dependencies: [
+				"6EA1990C3A362FF6"
+				"3E7BCC4A50B3502A"
+				"1B4C281509EC6A33"
+			]
+			icon: {
+				id: "mekanism:chemical_dissolution_chamber"
+			}
+			icon_scale: 0.96d
+			id: "40DF3B168E2E7674"
+			rewards: [{
+				auto: "enabled"
+				id: "45A8F96D49727B4F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			size: 1.55d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "268745531E72469B"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: -22.906d
+			y: 23.465d
+		}
+		{
+			dependencies: ["40DF3B168E2E7674"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.92d
+			id: "77D439E8930367B0"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "42C44B389E4B0073"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4DAE66A8BB2041B9"
+					item: {
+						count: 1
+						id: "mekanism:configuration_card"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "05CEABB6193D0168"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					id: "223E6FBCFFDBAA5B"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+			]
+			x: -26.231d
+			y: 22.596d
+		}
+		{
+			dependencies: ["77D439E8930367B0"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.92d
+			id: "7B209BE21F7C1CC3"
+			rewards: [{
+				auto: "enabled"
+				id: "4C314EEE8283D974"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4A8A8F55FD52791F"
+					item: { count: 1, id: "mekanism:basic_chemical_tank" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "377DC2F780777304"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+			]
+			x: -27.288d
+			y: 21.197d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:hdpe_sheet"
+			}
+			icon_scale: 0.92d
+			id: "0C8A197B96F944BB"
+			rewards: [{
+				auto: "enabled"
+				id: "3B88EC893113C0E1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "50AA095C46291E25"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+				{
+					id: "12F8CE6236048B14"
+					item: { count: 1, id: "alchemistry:reactor_casing" }
+					type: "item"
+				}
+			]
+			x: -36.932d
+			y: -16.526d
+		}
+		{
+			dependencies: [
+				"5901D481B2DAFB49"
+				"2BFB03FF3FD4764A"
+				"6D68FBB746A0DCCD"
+				"034CEC92A93F2DFA"
+			]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			icon_scale: 1.1d
+			id: "41F9C6DA45533FA3"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "13716EBEA6C9CF8F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48C43C4AAE28BC60"
+					item: {
+						count: 1
+						id: "mekanismadditions:purple_balloon"
+					}
+					type: "item"
+				}
+				{
+					id: "7095D1AEBD06AD5C"
+					item: {
+						count: 1
+						id: "mekanism:configuration_card"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_chemical_arcane_capstone"
+				"role_capstone"
+				"canonical_age_09"
+			]
+			tasks: [{
+				id: "6E4B3479EF3F5C71"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: -40.266d
+			y: -3.389d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.96d
+			id: "6745F495E7DE3ACC"
+			rewards: [{
+				auto: "enabled"
+				id: "72F0D3EBABA543EA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "7F4A41C03136753E"
+					item: { count: 1, id: "mekanism:basic_chemical_tank" }
+					type: "item"
+				}
+				{
+					id: "68E57BFEA4BEFCBB"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+			]
+			x: -36.936d
+			y: -20.095d
+		}
+		{
+			dependencies: ["6745F495E7DE3ACC"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.98d
+			id: "25532342110CF637"
+			rewards: [{
+				auto: "enabled"
+				id: "66BAB08483EC39BB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5DF8B07B6F287567"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					id: "7159304B84B6DD83"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+			]
+			x: -36.903d
+			y: -21.828d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:substrate"
+			}
+			icon_scale: 0.98d
+			id: "470BF65C633E1E8C"
+			rewards: [{
+				auto: "enabled"
+				id: "48C7915B401D18B3"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6700B8E16FE2C2C8"
+					item: { count: 1, id: "mekanism:substrate" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0F992132CFF341A4"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+			]
+			x: -36.846d
+			y: -23.524d
+		}
+		{
+			dependencies: ["686C0F12B0859788"]
+			icon: {
+				id: "modern_industrialization:sulfuric_acid_bucket"
+			}
+			id: "58C6D5DAA7A63734"
+			rewards: [{
+				auto: "enabled"
+				id: "20452D3D64CBA62D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "modern_industrialization:sulfuric_acid"
+				}
+				id: "7EA18EE8C6D1AC90"
+				type: "fluid"
+			}]
+			x: -48.447d
+			y: -10.333d
+		}
+		{
+			dependencies: ["58C6D5DAA7A63734"]
+			icon: {
+				id: "modern_industrialization:hydrochloric_acid_bucket"
+			}
+			id: "63F0807B067C45F3"
+			rewards: [{
+				auto: "enabled"
+				id: "06CEAD106E798010"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "modern_industrialization:hydrochloric_acid"
+				}
+				id: "299A53A657122980"
+				type: "fluid"
+			}]
+			x: -43.642d
+			y: -7.524d
+		}
+		{
+			dependencies: ["63F0807B067C45F3"]
+			icon: {
+				id: "modern_industrialization:polyethylene_bucket"
+			}
+			id: "2BFB03FF3FD4764A"
+			rewards: [{
+				auto: "enabled"
+				id: "6D87077CF12CA96D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 4000
+					id: "modern_industrialization:polyethylene"
+				}
+				id: "11CF6AEFA4572293"
+				type: "fluid"
+			}]
+			x: -41.211d
+			y: -6.089d
+		}
+		{
+			dependencies: ["6EA1990C3A362FF6"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.96d
+			id: "2B469C0BD7606F4D"
+			rewards: [{
+				auto: "enabled"
+				id: "0AA8A19126CAB828"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "mekanism:chemical_tank"
+				criterion: ""
+				id: "096A16F07CC0FA2C"
+				type: "advancement"
+			}]
+			x: -15.713d
+			y: 18.708d
+		}
+		{
+			dependencies: ["2B469C0BD7606F4D"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.96d
+			id: "3302EED8D7D31254"
+			rewards: [{
+				auto: "enabled"
+				id: "5BF0EFD7002FD56D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "mekanism:chemical_transport"
+				criterion: ""
+				id: "1F4DACC70912F4D1"
+				type: "advancement"
+			}]
+			x: -16.797d
+			y: 17.274d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:advanced_control_circuit"
+			}
+			icon_scale: 0.94d
+			id: "66F218F5467FCB96"
+			rewards: [{
+				auto: "enabled"
+				id: "2B921DBDAC4CB167"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				advancement: "mekanism:advanced_control_circuit"
+				criterion: ""
+				id: "52D7A2156884507F"
+				type: "advancement"
+			}]
+			x: -36.663d
+			y: -26.807d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			icon_scale: 0.98d
+			id: "127E3D371D14E0B5"
+			rewards: [{
+				auto: "enabled"
+				id: "2D854824514B810E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1C87C4A33486261F"
+					item: { count: 1, id: "mekanism:basic_chemical_tank" }
+					type: "item"
+				}
+				{
+					id: "4E44A01716321313"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+			]
+			x: -39.167d
+			y: -12.328d
+		}
+		{
+			dependencies: ["127E3D371D14E0B5"]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			icon_scale: 0.96d
+			id: "5DDEFF9C97845043"
+			rewards: [{
+				auto: "enabled"
+				id: "61B57FD5C0F19629"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6FFB3D36947862C9"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					id: "149B43B6368660A2"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: -39.256d
+			y: -16.026d
+		}
+		{
+			dependencies: ["5DDEFF9C97845043"]
+			icon: {
+				id: "mekanism:substrate"
+			}
+			icon_scale: 0.98d
+			id: "13AF4FDD113C2ED8"
+			rewards: [{
+				auto: "enabled"
+				id: "4CA536E17936A382"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "68785F72F49F1EE2"
+				item: { count: 1, id: "mekanism:substrate" }
+				type: "item"
+			}]
+			x: -36.896d
+			y: -14.693d
+		}
+		{
+			dependencies: ["63F0807B067C45F3"]
+			icon: {
+				id: "projecte:low_covalence_dust"
+			}
+			icon_scale: 0.96d
+			id: "629FCA4E4944846C"
+			rewards: [{
+				auto: "enabled"
+				id: "48A3F9A3A15C57B8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				count: 8L
+				id: "66425DC01E41790B"
+				item: { count: 1, id: "projecte:low_covalence_dust" }
+				type: "item"
+			}]
+			x: -47.207d
+			y: -8.692d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "projecte:philosophers_stone"
+			}
+			icon_scale: 0.96d
+			id: "3FD8C0105928E723"
+			rewards: [{
+				auto: "enabled"
+				id: "1499761C911570DD"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "4F82099E30EABF2F"
+				item: { count: 1, id: "projecte:philosophers_stone" }
+				type: "item"
+			}]
+			x: -36.537d
+			y: -28.394d
+		}
+		{
+			dependencies: ["3FD8C0105928E723"]
+			icon: {
+				id: "projecte:medium_covalence_dust"
+			}
+			icon_scale: 0.94d
+			id: "5BD282C09664750D"
+			rewards: [{
+				auto: "enabled"
+				id: "4E589A8A333A14EF"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "7C7AFA3F70C73480"
+				item: { count: 1, id: "projecte:medium_covalence_dust" }
+				type: "item"
+			}]
+			x: -36.389d
+			y: -29.944d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "modern_industrialization:sulfuric_acid_bucket"
+			}
+			id: "6D68FBB746A0DCCD"
+			rewards: [{
+				auto: "enabled"
+				id: "060F04FD5116BBF2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 4000
+					id: "modern_industrialization:sulfuric_acid"
+				}
+				id: "37FD6FEA83BDD5CB"
+				type: "fluid"
+			}]
+			x: -39.092d
+			y: -10.438d
+		}
+		{
+			dependencies: ["6D68FBB746A0DCCD"]
+			icon: {
+				id: "chemlib:ammonia_bucket"
+			}
+			icon_scale: 0.96d
+			id: "0CE287D5352A1692"
+			rewards: [{
+				auto: "enabled"
+				id: "78A38CADB15BF19C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "2F04EE0973BE8AC5"
+				item: { count: 1, id: "chemlib:ammonia_bucket" }
+				type: "item"
+			}]
+			x: -37.834d
+			y: -8.774d
+		}
+		{
+			dependencies: ["0CE287D5352A1692"]
+			icon: {
+				id: "alchemistry:dissolver"
+			}
+			icon_scale: 0.98d
+			id: "5FE8E914F9F49D37"
+			rewards: [{
+				auto: "enabled"
+				id: "3003234CC91B09D5"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "0C10B981CEFB7153"
+				item: { count: 1, id: "alchemistry:dissolver" }
+				type: "item"
+			}]
+			x: -37.726d
+			y: -6.839d
+		}
+		{
+			dependencies: ["3E7BCC4A50B3502A"]
+			icon: {
+				id: "alchemistry:combiner"
+			}
+			icon_scale: 0.96d
+			id: "39244DA3A33C848A"
+			rewards: [{
+				auto: "enabled"
+				id: "18EA3F8C1F8C2FDC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_chemical_arcane_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "21E44BAA69983E07"
+				item: { count: 1, id: "alchemistry:combiner" }
+				type: "item"
+			}]
+			x: -30.809d
+			y: 9.457d
+		}
+		{
+			dependencies: [
+				"18FEC984A51A865A"
+				"0D7A4DBF1F2D963A"
+				"0D3CCAB136834E0D"
+			]
+			icon: {
+				id: "modern_industrialization:sulfuric_acid_bucket"
+			}
+			id: "341CB893F9CBC439"
+			rewards: [{
+				auto: "enabled"
+				id: "4AECB5B1CB9870D2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_oil_required"
+				"role_required"
+			]
+			tasks: [{
+				fluid: {
+					amount: 8000
+					id: "modern_industrialization:sulfuric_acid"
+				}
+				id: "60F90A4ABE67F534"
+				type: "fluid"
+			}]
+			x: -36.22d
+			y: -31.459d
+		}
+		{
+			dependencies: [
+				"0D7A4DBF1F2D963A"
+				"341CB893F9CBC439"
+			]
+			hide_lock_icon: true
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			icon_scale: 0.88d
+			id: "256B2F542119A2FD"
+			rewards: [{
+				auto: "enabled"
+				id: "7D014F3B12323F2B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_oil_info"
+				"role_info"
+			]
+			tasks: [{
+				id: "65DFE4EB50AE2094"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: -35.822d
+			y: -34.384d
+		}
+		{
+			dependencies: ["256B2F542119A2FD"]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			icon_scale: 0.98d
+			id: "4836B24A128CD260"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "11FF3CA3E3ACEBA1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3D1C0E727A3E68C8"
+					item: {
+						count: 1
+						id: "create:orange_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_oil_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "6133EE28FD544817"
+					item: { count: 1, id: "tfmg:steel_distillation_controller" }
+					type: "item"
+				}
+				{
+					id: "5292A2C2706C331C"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+			]
+			x: -35.595d
+			y: -35.796d
+		}
+		{
+			dependencies: [
+				"2F702B914A1F1C04"
+				"5333883A51E440D6"
+				"043A38CEB7149E39"
+				"4A298C69045864C2"
+				"557C03B422A6383A"
+				"31FAB95D65AA76CD"
+				"2CF15A3A85EEDA04"
+				"6BF0E7D18F1E27C4"
+				"58D79D41B9F95039"
+				"6176537D8499A14D"
+				"0FC8DDA0D19B4A93"
+				"3CB9158B471E813E"
+				"4F0BCB44E1B87E3A"
+				"4836B24A128CD260"
+			]
+			icon: {
+				id: "modern_industrialization:sulfuric_acid_bucket"
+			}
+			icon_scale: 1.1d
+			id: "01F1A14D9C4379BA"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0F1C2DB3DF45CD67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DB98B95C8EEE3EB"
+					item: {
+						count: 1
+						id: "supplementaries:deepslate_lamp"
+					}
+					type: "item"
+				}
+				{
+					id: "528A8C136D20AAE7"
+					item: {
+						count: 1
+						id: "tfmg:surface_scanner"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_oil_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [{
+				id: "0673BC357A7617E8"
+				item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: -31.592d
+			y: -33.893d
+		}
+		{
+			dependencies: [
+				"615E2BC37267A6CD"
+				"0D3CCAB136834E0D"
+			]
+			icon: {
+				id: "projecte:philosophers_stone"
+			}
+			id: "07A31A9A4492C18F"
+			rewards: [{
+				auto: "enabled"
+				id: "647847BDB5F3F1FE"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "47C4529F5DDB179E"
+					item: { count: 1, id: "projecte:high_covalence_dust" }
+					type: "item"
+				}
+				{
+					id: "40BFA8D73B66D016"
+					item: { count: 1, id: "projecte:philosophers_stone" }
+					type: "item"
+				}
+			]
+			x: -36.766d
+			y: -25.184d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "projecte:high_covalence_dust"
+			}
+			id: "079535A07FBDF71A"
+			rewards: [{
+				auto: "enabled"
+				id: "152D671CE92980CA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "395097915407FCF0"
+					item: { count: 1, id: "projecte:high_covalence_dust" }
+					type: "item"
+				}
+				{
+					id: "04FE8DB950E19F20"
+					item: { count: 1, id: "projecte:philosophers_stone" }
+					type: "item"
+				}
+			]
+			x: 194.0d
+			y: -69.5d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "2A0EA7058CB094C9"
+			rewards: [{
+				auto: "enabled"
+				id: "4DAC6E61496FC446"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "601B90FAAD41C3B9"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40A738CD24684778"
+					item: { count: 1, id: "computercraft:wired_modem_full" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "67ACD7F9DBAA139F"
+					item: { count: 1, id: "computercraft:cable" }
+					type: "item"
+				}
+			]
+			x: 210.0d
+			y: -76.0d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "tfc:compost"
+			}
+			id: "127AA578D1BFC6A1"
+			rewards: [{
+				auto: "enabled"
+				id: "6206E66F8A052FF7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1DB62B22FD7847AE"
+					item: { count: 1, id: "tfc:compost" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "347BD5A6C2CBDCFC"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -59.75d
+		}
+		{
+			dependencies: [
+				"0D3CCAB136834E0D"
+				"127AA578D1BFC6A1"
+			]
+			icon: {
+				id: "tfc:compost"
+			}
+			id: "4E8D5C81980C9DFC"
+			rewards: [{
+				auto: "enabled"
+				id: "7BE718B67A293DD9"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "419598A90429B99E"
+					item: { count: 1, id: "tfc:compost" }
+					type: "item"
+				}
+				{
+					id: "5BF0E28A521BF4C6"
+					item: { count: 1, id: "greate:andesite_alloy_mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -56.5d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 302400L
+					}
+				}
+				id: "oritech:biomass"
+			}
+			id: "3770C8E57AAFCF47"
+			rewards: [{
+				auto: "enabled"
+				id: "4F5AA03874E50771"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "44C16237A1B0BA9B"
+					item: { components: { "tfc:food": { creation_date: 302400L } }, count: 1, id: "oritech:biomass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0AD31137C0F221E6"
+					item: { count: 1, id: "tfc:powder/wood_ash" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -53.25d
+		}
+		{
+			dependencies: [
+				"0D3CCAB136834E0D"
+				"3770C8E57AAFCF47"
+			]
+			icon: {
+				id: "oritech:solid_biofuel"
+			}
+			id: "00C86AC92A2A0FA8"
+			rewards: [{
+				auto: "enabled"
+				id: "08DC8376A11FE14B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_chemical_arcane_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "775ED5F3FD026FCD"
+					item: { count: 1, id: "oritech:solid_biofuel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50B30FED0630E060"
+					item: { count: 1, id: "oritech:raw_biopolymer" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "34084ABFD326B4F4"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "oritech:biosteel_ingot" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -50.0d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "oritech:fertilizer_block"
+			}
+			id: "55642E443C71B2BA"
+			rewards: [{
+				auto: "enabled"
+				id: "33FFD89E8490C534"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_chemical_arcane_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "7471159D31B7E505"
+					item: { count: 1, id: "oritech:fertilizer_block" }
+					type: "item"
+				}
+				{
+					id: "30669CD1B30DF7D3"
+					item: { count: 1, id: "oritech:treefeller_block" }
+					type: "item"
+				}
+				{
+					id: "71469F5CFA27C6F9"
+					item: { count: 1, id: "oritech:crop_filter_addon" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -46.75d
+		}
+		{
+			dependencies: ["0D3CCAB136834E0D"]
+			icon: {
+				id: "tfc:compost"
+			}
+			id: "729DF2B0F63284CD"
+			rewards: [{
+				auto: "enabled"
+				id: "29716B3688B49EA4"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "66DBB4D92EE32BAA"
+					item: { count: 1, id: "tfc:compost" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3AE60CA568B54539"
+					item: { components: { "tfc:food": { creation_date: 302400L } }, count: 1, id: "oritech:biomass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "13089919CD7E553E"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "oritech:biosteel_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4A925148E56E5E08"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -43.5d
+		}
+		{
+			dependencies: ["40DF3B168E2E7674"]
+			icon: {
+				id: "mekanism:crystal_copper"
+			}
+			icon_scale: 0.96d
+			id: "076C09B300000001"
+			rewards: [{
+				auto: "enabled"
+				id: "076C09B3000000F1"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_chemical_arcane_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "076C09B300000011"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:powder/tetrahedrite" }
+					type: "item"
+				}
+				{
+					id: "076C09B300000012"
+					item: { count: 1, id: "mekanism:crystal_copper" }
+					type: "item"
+				}
+				{
+					id: "076C09B300000013"
+					item: { count: 1, id: "mekanism:dust_copper" }
+					type: "item"
+				}
+				{
+					id: "076C09B300000014"
+					item: { count: 1, id: "tfmg:sulfur_dust" }
+					type: "item"
+				}
+			]
+			x: -24.5d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:lv_electric_motor"
+			}
+			id: "7A2817DD1538BF97"
+			rewards: [{
+				auto: "enabled"
+				id: "4F4847D01FE23BC1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "07159CD459517E66"
+					item: { count: 1, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "6B4DC657CA2728C7"
+					item: { count: 1, id: "gtceu:lv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "6E6F41A11436852B"
+					item: { count: 1, id: "gtceu:lv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "2586BB41740B9AFE"
+					item: { count: 1, id: "gtceu:lv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "5C979DB7CCACA752"
+					item: { count: 1, id: "gtceu:lv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "14C00D3C00FB2657"
+					item: { count: 1, id: "gtceu:lv_sensor" }
+					type: "item"
+				}
+				{
+					id: "2BD5DF62325D7A71"
+					item: { count: 1, id: "gtceu:lv_emitter" }
+					type: "item"
+				}
+				{
+					id: "79A9B32DFCB92035"
+					item: { count: 1, id: "gtceu:lv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 252.0d
+			y: -100.0d
+		}
+		{
+			dependencies: [
+				"7A2817DD1538BF97"
+				"09DA0EFC9C85F330"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:lv_electric_motor"
+			}
+			id: "118FB021E97CD161"
+			rewards: [{
+				auto: "enabled"
+				id: "6774E9A119256C25"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6AB1ED18F4756232"
+					item: { count: 1, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5D44CD371F77DB30"
+					item: { count: 1, id: "gtceu:lv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0B1C2F1CE49819D4"
+					item: { count: 1, id: "gtceu:lv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4E532F33E377113C"
+					item: { count: 1, id: "gtceu:lv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78404A270CF309C3"
+					item: { count: 1, id: "gtceu:lv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "779D01617B0FDA77"
+					item: { count: 1, id: "gtceu:lv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "33AC52BC8CBD018B"
+					item: { count: 1, id: "gtceu:lv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "46A98E331D08640A"
+					item: { count: 1, id: "gtceu:lv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 256.0d
+			y: -100.0d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:lv_electric_motor"
+			}
+			id: "5F9A23F6C80701FB"
+			rewards: [{
+				auto: "enabled"
+				id: "121ECC5E64A98B5A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "23E3FAA4BC43D349"
+					item: { count: 1, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "18723A1386024637"
+					item: { count: 1, id: "gtceu:lv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "23D88A35640D7852"
+					item: { count: 1, id: "gtceu:lv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "0F7A167CA7211300"
+					item: { count: 1, id: "gtceu:lv_sensor" }
+					type: "item"
+				}
+				{
+					id: "0A9282295265D455"
+					item: { count: 1, id: "gtceu:lv_emitter" }
+					type: "item"
+				}
+				{
+					id: "66B65CB6EC6F4328"
+					item: { count: 1, id: "gtceu:lv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 260.0d
+			y: -100.0d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"5F9A23F6C80701FB"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:mv_electric_motor"
+			}
+			id: "74F00AE5D2E9D7AB"
+			rewards: [{
+				auto: "enabled"
+				id: "3053E44F4BA6AB55"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "5F988D918726D86D"
+					item: { count: 1, id: "gtceu:mv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "3C1F69390C2B9561"
+					item: { count: 1, id: "gtceu:mv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "117B33A83EFFA234"
+					item: { count: 1, id: "gtceu:mv_electric_piston" }
+					type: "item"
+				}
+				{
+					id: "2F28A928BAFCF2E9"
+					item: { count: 1, id: "gtceu:mv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "110F7D371FCF9AF7"
+					item: { count: 1, id: "gtceu:mv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "7367B329BF4BD070"
+					item: { count: 1, id: "gtceu:mv_sensor" }
+					type: "item"
+				}
+				{
+					id: "1C4CAE094A34DF2D"
+					item: { count: 1, id: "gtceu:mv_emitter" }
+					type: "item"
+				}
+				{
+					id: "2CDFB45322397629"
+					item: { count: 1, id: "gtceu:mv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 252.0d
+			y: -104.0d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:mv_electric_motor"
+			}
+			id: "4796EB630BDEDD27"
+			rewards: [{
+				auto: "enabled"
+				id: "78FCE335EC1A150A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "682ACFF7B2605850"
+					item: { count: 1, id: "gtceu:mv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4865B49141D1CFE9"
+					item: { count: 1, id: "gtceu:mv_electric_pump" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02FB5C3C69AD30B5"
+					item: { count: 1, id: "gtceu:mv_electric_piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "078E31BC0FE36A80"
+					item: { count: 1, id: "gtceu:mv_conveyor_module" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68B264C77F242F5D"
+					item: { count: 1, id: "gtceu:mv_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "683C583DABA278C0"
+					item: { count: 1, id: "gtceu:mv_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3CABA7C4412C1BDC"
+					item: { count: 1, id: "gtceu:mv_emitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E784348BD5DB581"
+					item: { count: 1, id: "gtceu:mv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 256.0d
+			y: -104.0d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "gtceu:mv_electric_motor"
+			}
+			id: "433256F1CB8907BC"
+			rewards: [{
+				auto: "enabled"
+				id: "4CE264E6A96308D9"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_advanced_electric_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "0F28D8DAE54362A7"
+					item: { count: 1, id: "gtceu:mv_electric_motor" }
+					type: "item"
+				}
+				{
+					id: "355E3A740C1A77C2"
+					item: { count: 1, id: "gtceu:mv_electric_pump" }
+					type: "item"
+				}
+				{
+					id: "202081EA0644ADEC"
+					item: { count: 1, id: "gtceu:mv_robot_arm" }
+					type: "item"
+				}
+				{
+					id: "399E7AC114F81641"
+					item: { count: 1, id: "gtceu:mv_sensor" }
+					type: "item"
+				}
+				{
+					id: "5FFB953F6F94BFAB"
+					item: { count: 1, id: "gtceu:mv_emitter" }
+					type: "item"
+				}
+				{
+					id: "7625455F32F1695B"
+					item: { count: 1, id: "gtceu:mv_field_generator" }
+					type: "item"
+				}
+			]
+			x: 260.0d
+			y: -104.0d
+		}
+		{
+			dependencies: [
+				"4A281F81BE31D3B6"
+				"0D3CCAB136834E0D"
+			]
+			icon: {
+				id: "enchanted:altar"
+			}
+			id: "2713BDAF4934FAE7"
+			rewards: [{
+				auto: "enabled"
+				id: "4DE5767EF8BCDE73"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "5DF28D8950A63263"
+					item: { count: 1, id: "enchanted:altar" }
+					type: "item"
+				}
+				{
+					id: "0B2A2FA7938C433B"
+					item: { count: 1, id: "enchanted:arthana" }
+					type: "item"
+				}
+				{
+					id: "5D2AADBD2F80BAF5"
+					item: { count: 1, id: "enchanted:ritual_chalk" }
+					type: "item"
+				}
+				{
+					id: "0D9A56B6AFB70D01"
+					item: { count: 1, id: "enchanted:attuned_stone" }
+					type: "item"
+				}
+			]
+			x: 268.0d
+			y: -112.0d
+		}
+		{
+			dependencies: [
+				"0592767DB06D292B"
+				"0D3CCAB136834E0D"
+			]
+			icon: {
+				id: "malum:encyclopedia_arcana"
+			}
+			id: "3FF743E4040C35FE"
+			rewards: [{
+				auto: "enabled"
+				id: "75D504BFE0546A50"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [{
+				id: "46C359906ECABE7B"
+				item: { count: 1, id: "malum:encyclopedia_arcana" }
+				type: "item"
+			}]
+			x: 272.0d
+			y: -112.0d
+		}
+		{
+			dependencies: [
+				"0764F8C5D0DAC768"
+				"6391FE6B21D318A1"
+				"0D3CCAB136834E0D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:medium_covalence_dust"
+			}
+			id: "66DF7791F814FCC2"
+			rewards: [{
+				auto: "enabled"
+				id: "720AE6A07EDD257D"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_advanced_electric_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "64B2C3DDCBD35D7C"
+				item: { count: 1, id: "projecte:medium_covalence_dust" }
+				type: "item"
+			}]
+			x: 276.0d
+			y: -112.0d
+		}
+		{
+			dependencies: ["2713BDAF4934FAE7"]
+			icon: {
+				id: "enchanted:attuned_stone_charged"
+			}
+			id: "391356CCEE6C5B8A"
+			rewards: [{
+				auto: "enabled"
+				id: "4528A5EC4B739D6C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "510FFE4CB807B738"
+				item: { count: 1, id: "enchanted:attuned_stone_charged" }
+				type: "item"
+			}]
+			x: 284.0d
+			y: -124.0d
+		}
+		{
+			dependencies: ["391356CCEE6C5B8A"]
+			icon: {
+				id: "vampirism:vampire_fang"
+			}
+			id: "0592767DB06D292B"
+			rewards: [{
+				auto: "enabled"
+				id: "2AEEAE5CC78D6B8B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "71D0E00639CA7A88"
+					item: { count: 1, id: "vampirism:vampire_fang" }
+					type: "item"
+				}
+				{
+					id: "102151D6BBBAC72B"
+					item: { count: 1, id: "werewolves:werewolf_tooth" }
+					type: "item"
+				}
+			]
+			x: 288.0d
+			y: -124.0d
+		}
+		{
+			dependencies: ["3FF743E4040C35FE"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
+			id: "7FF1A0692E296D4F"
+			rewards: [{
+				auto: "enabled"
+				id: "56432E3BA2559827"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [
+				{
+					id: "73D9DCC0F87B6B3A"
+					item: { count: 1, id: "malum:refined_soulstone" }
+					type: "item"
+				}
+				{
+					id: "240D8846E89ACD02"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+			]
+			x: 292.0d
+			y: -124.0d
+		}
+		{
+			dependencies: ["7FF1A0692E296D4F"]
+			icon: {
+				id: "tarotcards:tarot_deck"
+			}
+			id: "6704D1FB271B4BC4"
+			rewards: [{
+				auto: "enabled"
+				id: "210983FE28F55288"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "7D00540D933B7A9F"
+				item: { count: 1, id: "tarotcards:tarot_deck" }
+				type: "item"
+			}]
+			x: 296.0d
+			y: -124.0d
+		}
+		{
+			dependencies: [
+				"7FF1A0692E296D4F"
+				"0805E46BFACC635A"
+			]
+			icon: {
+				id: "malum:spirit_jar"
+			}
+			id: "0DABBB719EE336B1"
+			rewards: [{
+				auto: "enabled"
+				id: "0BE9CBCE9670D394"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [
+				{
+					id: "2883FD5409810418"
+					item: { count: 1, id: "malum:spirit_jar" }
+					type: "item"
+				}
+				{
+					id: "75712F283A735D10"
+					item: { count: 1, id: "malum:runic_workbench" }
+					type: "item"
+				}
+				{
+					id: "57B6A2115A26F864"
+					item: { count: 1, id: "malum:runewood_item_pedestal" }
+					type: "item"
+				}
+			]
+			x: 284.0d
+			y: -128.0d
+		}
+		{
+			dependencies: [
+				"0DABBB719EE336B1"
+				"0C4F7FBDB9DA914D"
+			]
+			icon: {
+				id: "malum:spirit_crucible"
+			}
+			id: "73D78C6CF64BCF93"
+			rewards: [{
+				auto: "enabled"
+				id: "02E035247D8020F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [
+				{
+					id: "379FCC94574286A0"
+					item: { count: 1, id: "malum:spirit_crucible" }
+					type: "item"
+				}
+				{
+					id: "7141259A21A01D5E"
+					item: { count: 1, id: "malum:spirit_catalyzer" }
+					type: "item"
+				}
+			]
+			x: 288.0d
+			y: -128.0d
+		}
+		{
+			dependencies: ["73D78C6CF64BCF93"]
+			icon: {
+				id: "vampirism:vampire_book"
+			}
+			id: "30F22008F933612B"
+			rewards: [{
+				auto: "enabled"
+				id: "201861D8879DD9B3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "425DE969387DE8A7"
+					item: { count: 1, id: "vampirism:vampire_book" }
+					type: "item"
+				}
+				{
+					id: "7A00EB2D0B05ED6D"
+					item: { count: 1, id: "vampirism:injection_garlic" }
+					type: "item"
+				}
+			]
+			x: 292.0d
+			y: -128.0d
+		}
+		{
+			dependencies: ["73D78C6CF64BCF93"]
+			icon: {
+				id: "werewolves:injection_un_werewolf"
+			}
+			id: "767549982DA5DAC1"
+			rewards: [{
+				auto: "enabled"
+				id: "4266884D067DEF4B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "6DF41F7C7D534CBB"
+					item: { count: 1, id: "werewolves:stone_altar" }
+					type: "item"
+				}
+				{
+					id: "347FF13F3A4F1639"
+					item: { count: 1, id: "werewolves:injection_un_werewolf" }
+					type: "item"
+				}
+			]
+			x: 296.0d
+			y: -128.0d
+		}
+		{
+			dependencies: ["73D78C6CF64BCF93"]
+			icon: {
+				id: "evilcraft:blood_extractor"
+			}
+			id: "0B86C31CB0DC04C0"
+			rewards: [{
+				auto: "enabled"
+				id: "710C539956B85A99"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "484933E8B28BB58D"
+					item: { count: 1, id: "evilcraft:blood_extractor" }
+					type: "item"
+				}
+				{
+					id: "5A2291CAD839097D"
+					item: { count: 1, id: "evilcraft:hardened_blood" }
+					type: "item"
+				}
+			]
+			x: 284.0d
+			y: -132.0d
+		}
+		{
+			dependencies: [
+				"73D78C6CF64BCF93"
+				"09DA0EFC9C85F330"
+			]
+			icon: {
+				id: "malum:prismatic_focus_lens"
+			}
+			id: "34AB575C259881E8"
+			rewards: [{
+				auto: "enabled"
+				id: "4CBC4EC282D598BF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [
+				{
+					id: "71AC59DA6B33EDF6"
+					item: { count: 1, id: "malum:prismatic_focus_lens" }
+					type: "item"
+				}
+				{
+					id: "281D8F33E652FB7B"
+					item: { count: 1, id: "malum:soulbinding_brazier" }
+					type: "item"
+				}
+				{
+					id: "65F6339A8328BE53"
+					item: { count: 1, id: "malum:rite_anchor" }
+					type: "item"
+				}
+			]
+			x: 288.0d
+			y: -132.0d
+		}
+		{
+			dependencies: ["34AB575C259881E8"]
+			icon: {
+				id: "occultism:book_of_binding_foliot"
+			}
+			id: "321F85460635DA9B"
+			rewards: [{
+				auto: "enabled"
+				id: "7964D8A386FAFEE7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "42DC6A22B7AE7462"
+				item: { count: 1, id: "occultism:book_of_binding_foliot" }
+				type: "item"
+			}]
+			x: 292.0d
+			y: -132.0d
+		}
+		{
+			dependencies: [
+				"34AB575C259881E8"
+				"023F6BB2D31155A8"
+			]
+			icon: {
+				id: "aeroworks:mechanical_servo"
+			}
+			id: "7FCDACD26EAA3C0A"
+			rewards: [{
+				auto: "enabled"
+				id: "1E287CBE36626959"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "46658B2C70E5BB67"
+				item: { count: 1, id: "aeroworks:mechanical_servo" }
+				type: "item"
+			}]
+			x: 296.0d
+			y: -132.0d
+		}
+		{
+			dependencies: [
+				"7FCDACD26EAA3C0A"
+				"0764F8C5D0DAC768"
+			]
+			icon: {
+				id: "malum:arcana_pylon"
+			}
+			id: "615E2BC37267A6CD"
+			rewards: [{
+				auto: "enabled"
+				id: "0DEADB19B7A2C962"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_arcane_research_optional"
+				"role_optional"
+				"final_convergence"
+			]
+			tasks: [{
+				id: "514456E23840DAC6"
+				item: { count: 1, id: "malum:arcana_pylon" }
+				type: "item"
+			}]
+			x: 284.0d
+			y: -136.0d
+		}
+		{
+			dependencies: [
+				"4796EB630BDEDD27"
+				"0764F8C5D0DAC768"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:machine_core_1"
+			}
+			id: "7280FA4CD14A565F"
+			rewards: [{
+				auto: "enabled"
+				id: "375AFEC8270066EB"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_advanced_electric_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1C8F60A5BFD3B142"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: 288.0d
+			y: -136.0d
+		}
+	]
+	tags: ["theme_chemical_arcane_chapter"]
+}

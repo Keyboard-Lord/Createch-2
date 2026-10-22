@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/titanium"
+    }
+  ],
+  "results": [
+    {
+      "id": "modern_industrialization:titanium_dust"
+    }
+  ]
+}

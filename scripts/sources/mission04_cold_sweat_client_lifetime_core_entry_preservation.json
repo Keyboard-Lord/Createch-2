@@ -1,0 +1,38 @@
+{
+  "truth": "STATIC_MISSION04_COLD_SWEAT_CLIENT_LIFETIME_CORE_ENTRY_PRESERVATION",
+  "before": "83132cd10f2bfe152ced5ff64672457b984f76fe269129035b12f1e3dd3d2781",
+  "after": "c79a4243d8a29c3e999abf777d7782d1995cd4d7ef9dbdc01f399236691f5c63",
+  "added": [
+    "createch2/core/compat/client/ColdSweatClientCacheLifecycle.class",
+    "createch2/core/mixin/compat/client/ColdSweatClientCacheAccess.class"
+  ],
+  "changed": [
+    "createch2/core/Createch2Core.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 386,
+  "unchangedEntriesSha256": "926eae013ccd96f7b6addfaff8cbff00dc77a8e6b2a4c9be570d13a2f939905f",
+  "sourceCheckpoint": "28d6a12",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-83132cd10f2bfe152ced5ff64672457b984f76fe269129035b12f1e3dd3d2781.jar",
+  "entrySha256": {
+    "createch2/core/compat/client/ColdSweatClientCacheLifecycle.class": {
+      "before": null,
+      "after": "8d26d98bcaec551e878b2dc422dfb9bba34c07986f4c6e63d430a05ead2633a5"
+    },
+    "createch2/core/mixin/compat/client/ColdSweatClientCacheAccess.class": {
+      "before": null,
+      "after": "9da787dfc2e6e82b609469956131ee1d044a26327ae86643a7c683b79d8b85d3"
+    },
+    "createch2/core/Createch2Core.class": {
+      "before": "098fe8a60e0eac85b978ba532204f8322a8f2f07b387d86dcf51a995a0e3b0e6",
+      "after": "60c071d72e5b52d88413fb6e7d967dae25fd8595b528abd9228b710c99f1be46"
+    },
+    "createch2core.mixins.json": {
+      "before": "b03ce3c605b17cb239ce20ae1364c1527d81158dac3177879d8b1d72db75aaa2",
+      "after": "861c2f2d0e852f113a9e09790e75d90c09885abc41fe02844269c75060def976"
+    }
+  },
+  "scope": "Typed mandatory clientCache accessor; weak exact-level unload queue drains on client tick only after Minecraft.level changes. Native cache removeIf targets entities in that exact old level. No server-cache/shared-immunity/gameplay/engine/filter/recipe/heap/GC changes. Native acceptance pending."
+}

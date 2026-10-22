@@ -1,0 +1,272 @@
+{
+  "truth": "EXISTING_OPV_QUANTUM_ASSEMBLER_WITNESS",
+  "programs": [
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16d/opv_sensor",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 131072,
+        "duration": 1840,
+        "item_inputs": [
+          {
+            "item": "gtceu:uxv_sensor",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:infinity_ingot",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:infinity_catalyst",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 1008
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:opv_sensor",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 131072,
+          "duration": 1840,
+          "item_inputs": [
+            {
+              "item": "gtceu:uxv_sensor",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:infinity_ingot",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:infinity_catalyst",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 1008
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:opv_sensor",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16d/opv_emitter",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 131072,
+        "duration": 1840,
+        "item_inputs": [
+          {
+            "item": "gtceu:uxv_emitter",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:crystal_processor",
+            "amount": 2
+          },
+          {
+            "item": "avaritia:infinity_ingot",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:infinity_catalyst",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 1008
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:opv_emitter",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 131072,
+          "duration": 1840,
+          "item_inputs": [
+            {
+              "item": "gtceu:uxv_emitter",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:crystal_processor",
+              "amount": 2
+            },
+            {
+              "item": "avaritia:infinity_ingot",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:infinity_catalyst",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 1008
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:opv_emitter",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/compatibility/gregtech_components.js",
+      "id": "createch2:greg_components/age_16d/opv_field_generator",
+      "custom": {
+        "type": "modern_industrialization:assembler",
+        "eu": 131072,
+        "duration": 1840,
+        "item_inputs": [
+          {
+            "item": "gtceu:uxv_field_generator",
+            "amount": 1
+          },
+          {
+            "item": "gtceu:opv_emitter",
+            "amount": 2
+          },
+          {
+            "item": "gtceu:opv_sensor",
+            "amount": 1
+          },
+          {
+            "item": "avaritia:infinity_catalyst",
+            "amount": 1
+          }
+        ],
+        "fluid_inputs": {
+          "fluid": "modern_industrialization:soldering_alloy",
+          "amount": 1008
+        },
+        "item_outputs": [
+          {
+            "item": "gtceu:opv_field_generator",
+            "amount": 1
+          }
+        ]
+      },
+      "kind": "custom",
+      "args": [
+        {
+          "type": "modern_industrialization:assembler",
+          "eu": 131072,
+          "duration": 1840,
+          "item_inputs": [
+            {
+              "item": "gtceu:uxv_field_generator",
+              "amount": 1
+            },
+            {
+              "item": "gtceu:opv_emitter",
+              "amount": 2
+            },
+            {
+              "item": "gtceu:opv_sensor",
+              "amount": 1
+            },
+            {
+              "item": "avaritia:infinity_catalyst",
+              "amount": 1
+            }
+          ],
+          "fluid_inputs": {
+            "fluid": "modern_industrialization:soldering_alloy",
+            "amount": 1008
+          },
+          "item_outputs": [
+            {
+              "item": "gtceu:opv_field_generator",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "consumers": [
+    {
+      "file": "kubejs/server_scripts/compatibility/oritech_jdt_authority.js",
+      "id": "createch2:oritech_jdt/age_16/time/portable/time_wand",
+      "kind": "shaped",
+      "args": [
+        "justdirethings:time_wand",
+        [
+          "OIO",
+          "TCT",
+          "OFO"
+        ],
+        {
+          "O": "gtceu:opv_emitter",
+          "I": "avaritia:infinity_ingot",
+          "T": "justdirethings:time_crystal",
+          "C": "projecte:watch_of_flowing_time",
+          "F": "gtceu:opv_field_generator"
+        }
+      ]
+    },
+    {
+      "file": "kubejs/server_scripts/resources/projecte_authority.js",
+      "id": "createch2:projecte/age_16d/watch_of_flowing_time",
+      "kind": "shaped",
+      "args": [
+        "projecte:watch_of_flowing_time",
+        [
+          "OIO",
+          "TWT",
+          "OFO"
+        ],
+        {
+          "O": "gtceu:opv_field_generator",
+          "I": "avaritia:infinity_ingot",
+          "T": "gtceu:opv_sensor",
+          "W": "projecte:red_matter",
+          "F": "gtceu:opv_emitter"
+        }
+      ]
+    }
+  ],
+  "recipeEu": 131072,
+  "duration": 1840,
+  "solderMb": 1008,
+  "sourceRate": 32,
+  "sharedCapability": "capability:chronological_quantum_upgraded_uxv_assembler",
+  "researchAndGameplayRecipeChanges": false
+}

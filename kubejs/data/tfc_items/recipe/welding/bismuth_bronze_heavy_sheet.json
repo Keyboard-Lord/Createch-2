@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:double_sheets/bismuth_bronze"
+  },
+  "second_input": {
+    "tag": "c:sheets/bismuth_bronze"
+  },
+  "tier": 1,
+  "result": {
+    "id": "tfc_items:bismuth_bronze_heavy_sheet"
+  }
+}

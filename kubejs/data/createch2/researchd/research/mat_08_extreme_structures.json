@@ -1,0 +1,44 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "minecraft:reinforced_deepslate"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:process_samples",
+      "createch2:nuclear_assays"
+    ],
+    "count": 16,
+    "duration": 300
+  },
+  "parents": [
+    "createch2:mat_07_superconductors",
+    "createch2:ele_04_high_energy_grid",
+    "createch2:thm_03_high_pressure_thermodynamics",
+    "createch2:nuc_05_fusion_fuels"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_08_extreme_structures.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_08_extreme_structures.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:quantum/machine/plasma_handling_casing"
+    ]
+  }
+}

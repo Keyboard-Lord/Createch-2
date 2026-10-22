@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 44,
+    "min_y": -56,
+    "max_y": 64,
+    "size": 20,
+    "density": 0.4,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:calcite",
+          "minecraft:red_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 35,
+            "block": "tfc:ore/poor_hematite/basalt"
+          },
+          {
+            "weight": 40,
+            "block": "tfc:ore/normal_hematite/basalt"
+          },
+          {
+            "weight": 25,
+            "block": "tfc:ore/rich_hematite/basalt"
+          }
+        ]
+      }
+    ],
+    "random_name": "createch2_galactic_cavum_hematite_tfc_vein",
+    "indicator": {
+      "rarity": 24,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 35,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_hematite"
+        }
+      ]
+    }
+  }
+}

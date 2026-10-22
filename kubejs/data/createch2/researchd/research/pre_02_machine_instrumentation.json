@@ -1,0 +1,42 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "electroenergetics:energy_meter"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:grid_telemetry",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:pre_01_precision_mechanisms",
+    "createch2:ele_02_electromechanical_conversion"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.pre_02_machine_instrumentation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.pre_02_machine_instrumentation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:research/pack/grid_telemetry_advanced",
+      "createch2:modern_industrialization/electronic_circuit_gem_lattice"
+    ]
+  }
+}

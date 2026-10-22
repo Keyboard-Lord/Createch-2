@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:ore/small_native_copper",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/small_malachite",
+      "required": false
+    },
+    {
+      "id": "tfc:ore/small_tetrahedrite",
+      "required": false
+    },
+    "#c:ores/copper/poor",
+    "#c:ores/copper/normal",
+    "#c:ores/copper/rich"
+  ]
+}

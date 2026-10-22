@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/normal_stibnite/tuff",
+      "required": false
+    }
+  ]
+}

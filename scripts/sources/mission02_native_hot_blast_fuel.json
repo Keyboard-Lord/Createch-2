@@ -1,0 +1,112 @@
+{
+  "scope": "Native blast-stove Railcraft startup-fuel extension only; air production and complete steel factory remain separate.",
+  "nativeClasses": {
+    "stove": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.metallurgy.blast_stove.BlastStoveBlockEntity",
+      false
+    ],
+    "hotRecipe": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.recipes.HotBlastRecipe",
+      false
+    ],
+    "fluidTags": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGTags$Fluids",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "stove": "dab9a598aec748579b1727c5a0e1f7e7797e28a542eac282a7aed087073e63c1",
+    "hotRecipe": "67cde18644570590bb0573481ea00e1a900ef50d9db13de04e556879ecb04a8f",
+    "fluidTags": "b4882baba67f5ccc79bca941a0616018757c57f1828aa49e0af20aea8ce3d951"
+  },
+  "tagId": "tfmg:blast_stove_fuel",
+  "extension": {
+    "replace": false,
+    "values": [
+      "railcraft:creosote"
+    ]
+  },
+  "nativeTag": {
+    "values": [
+      "tfmg:flowing_furnace_gas",
+      "tfmg:furnace_gas",
+      "tfmg:flowing_creosote",
+      "tfmg:creosote"
+    ]
+  },
+  "recipes": {
+    "tfmg:hot_blast/hot_air": {
+      "type": "tfmg:hot_blast",
+      "ingredients": [
+        {
+          "type": "neoforge:single",
+          "amount": 50,
+          "fluid": "tfmg:air"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 10,
+          "tag": "tfmg:blast_stove_fuel"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "amount": 50,
+          "id": "tfmg:hot_air"
+        },
+        {
+          "amount": 50,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    },
+    "tfmg:coking/charcoal": {
+      "type": "tfmg:coking",
+      "ingredients": [
+        {
+          "tag": "minecraft:logs_that_burn"
+        }
+      ],
+      "processing_time": 600,
+      "results": [
+        {
+          "id": "minecraft:charcoal"
+        },
+        {
+          "amount": 2,
+          "id": "tfmg:creosote"
+        },
+        {
+          "amount": 20,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    },
+    "tfmg:coking/coal": {
+      "type": "tfmg:coking",
+      "ingredients": [
+        {
+          "item": "minecraft:coal"
+        }
+      ],
+      "processing_time": 1200,
+      "results": [
+        {
+          "id": "tfmg:coal_coke"
+        },
+        {
+          "amount": 1,
+          "id": "tfmg:creosote"
+        },
+        {
+          "amount": 30,
+          "id": "tfmg:carbon_dioxide"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createch2:venus_volcanic_crater",
+    "createch2:venus_caldera",
+    "createch2:tollan_caldera",
+    "createch2:tollan_volcanic_peaks"
+  ]
+}

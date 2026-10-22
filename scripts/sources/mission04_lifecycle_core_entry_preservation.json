@@ -1,0 +1,33 @@
+{
+  "truth": "STATIC_MISSION04_SERVER_LIFETIME_CORE_ENTRY_PRESERVATION",
+  "before": "ee4070f1a49f2428ba4615b601eaa2509ec9185c526173cd082f7ced3b21f096",
+  "after": "78b50e2bdca41c6f4451a3a12e40acf35b1047ad1a9f8c766a710760645ea728",
+  "added": [
+    "createch2/core/mixin/compat/BurntDelayedWorkLifecycleMixin.class"
+  ],
+  "changed": [
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 364,
+  "unchangedEntriesSha256": "b6460db44f9e0b1f44fd4ac98302a34e9e754972f91bad9f0c4773b06d17fcd4",
+  "sourceCheckpoint": "f40fc03",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-ee4070f1a49f2428ba4615b601eaa2509ec9185c526173cd082f7ced3b21f096.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/BurntDelayedWorkLifecycleMixin.class": {
+      "before": null,
+      "after": "f26c4a06ff391987571ecca6ae975ef6ca3b7e4d56b28c21fcd79ad7bda2d0eb"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "0584172414812e9a54a35806496ccaff0314e48304b92664c751fd9dbad59181",
+      "after": "283a2bae9b1ba2b024cf7c2ace4289c4a5a1e5ce6ee86c935f2c19c526b0d354"
+    },
+    "createch2core.mixins.json": {
+      "before": "a06549aa283a2f371096908e1ec466e30b5045ad3e303f71ece7713567b6b420",
+      "after": "37e3b49b7364aebfa87a391d18af5d839d1a091bbd84fb6a1554f0904ea49268"
+    }
+  },
+  "scope": "Burnt stop-only queue cleanup and required transformed binding. No existing helper, recipe, unit, world-generation, research or data entry changed. Runtime retest pending."
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bundle",
+    "backpacked:backpack",
+    "toolbelt:belt",
+    "create_aeronautics_toolgun:portable_structure_container",
+    "create_aeronautics_toolgun:disposable_vehicle_container"
+  ]
+}

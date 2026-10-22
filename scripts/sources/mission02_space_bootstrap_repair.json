@@ -1,0 +1,134 @@
+{
+  "scope": "Specific Mission02 P1 repair authorized by REQUEST.md scope limitations: space/aluminum recipes fit native cupronickel32EU coils; retain total energy, exact ingredients, products and IDs.",
+  "baselineRuntime": "20b1f7a",
+  "records": [
+    {
+      "id": "createch2:resource_authority/stellaris/desh_ingot_from_raw",
+      "file": "kubejs/data/createch2/recipe/resource_authority/stellaris/desh_ingot_from_raw.json",
+      "before": {
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 64,
+        "duration": 500,
+        "item_inputs": [
+          {
+            "item": "stellaris:raw_desh_ingot",
+            "amount": 1
+          },
+          {
+            "item": "tfmg:coal_coke",
+            "amount": 1
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "stellaris:desh_ingot",
+            "amount": 1
+          }
+        ]
+      },
+      "afterEu": 32,
+      "afterDuration": 1000,
+      "totalEu": 32000
+    },
+    {
+      "id": "createch2:resource_authority/stellaris/tharsite_ingot_from_raw",
+      "file": "kubejs/data/createch2/recipe/resource_authority/stellaris/tharsite_ingot_from_raw.json",
+      "before": {
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 64,
+        "duration": 500,
+        "item_inputs": [
+          {
+            "item": "stellaris:raw_tharsite",
+            "amount": 1
+          },
+          {
+            "item": "tfmg:coal_coke",
+            "amount": 1
+          }
+        ],
+        "item_outputs": [
+          {
+            "item": "stellaris:tharsite_ingot",
+            "amount": 1
+          }
+        ]
+      },
+      "afterEu": 32,
+      "afterDuration": 1000,
+      "totalEu": 32000
+    },
+    {
+      "id": "createch2:advanced_electric/mi/aluminum_from_bauxite_space_reduction",
+      "file": "kubejs/data/createch2/recipe/advanced_electric/mi/aluminum_from_bauxite_space_reduction.json",
+      "before": {
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 64,
+        "duration": 2400,
+        "item_inputs": [
+          {
+            "amount": 8,
+            "tag": "c:dusts/bauxite"
+          },
+          {
+            "amount": 1,
+            "item": "stellaris:desh_ingot"
+          },
+          {
+            "amount": 1,
+            "item": "stellaris:tharsite_ingot"
+          },
+          {
+            "amount": 2,
+            "item": "tfmg:coal_coke"
+          }
+        ],
+        "item_outputs": [
+          {
+            "amount": 2,
+            "item": "tfmg:aluminum_ingot"
+          },
+          {
+            "amount": 4,
+            "item": "modern_industrialization:bauxite_tiny_dust"
+          }
+        ]
+      },
+      "afterEu": 32,
+      "afterDuration": 4800,
+      "totalEu": 153600
+    },
+    {
+      "id": "createch2:advanced_electric/mi/aluminum_from_aluminum_dust_space_reduction",
+      "file": "kubejs/data/createch2/recipe/advanced_electric/mi/aluminum_from_aluminum_dust_space_reduction.json",
+      "before": {
+        "type": "modern_industrialization:blast_furnace",
+        "eu": 64,
+        "duration": 800,
+        "item_inputs": [
+          {
+            "amount": 1,
+            "tag": "c:dusts/aluminum"
+          },
+          {
+            "amount": 1,
+            "item": "stellaris:desh_ingot"
+          },
+          {
+            "amount": 1,
+            "item": "tfmg:coal_coke"
+          }
+        ],
+        "item_outputs": [
+          {
+            "amount": 1,
+            "item": "tfmg:aluminum_ingot"
+          }
+        ]
+      },
+      "afterEu": 32,
+      "afterDuration": 1600,
+      "totalEu": 51200
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WCP",
+    "HSG",
+    "WCP"
+  ],
+  "key": {
+    "W": {
+      "item": "gtceu:watertight_casing"
+    },
+    "C": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "P": {
+      "item": "gtceu:iv_electric_pump"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "S": {
+      "item": "create:spout"
+    },
+    "G": {
+      "item": "greate:titanium_mechanical_pump"
+    }
+  },
+  "result": {
+    "id": "greate:wire_coating_factory",
+    "count": 1
+  }
+}

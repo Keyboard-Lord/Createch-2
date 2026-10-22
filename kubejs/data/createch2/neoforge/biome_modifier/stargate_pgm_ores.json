@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#sgjourney:is_cavum_tenebrae",
+  "features": [
+    "createch2:planetary_cavum_native_platinum_tfc_vein",
+    "createch2:planetary_cavum_native_osmium_tfc_vein",
+    "createch2:planetary_cavum_native_iridium_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

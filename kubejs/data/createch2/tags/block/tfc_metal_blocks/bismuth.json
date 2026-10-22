@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/bismuth",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/bismuth_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/bismuth_stairs",
+      "required": false
+    }
+  ]
+}

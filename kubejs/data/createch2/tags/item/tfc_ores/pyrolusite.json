@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/pyrolusite/small",
+    "#createch2:tfc_ores/pyrolusite/poor",
+    "#createch2:tfc_ores/pyrolusite/normal",
+    "#createch2:tfc_ores/pyrolusite/rich"
+  ]
+}

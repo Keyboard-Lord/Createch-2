@@ -1,0 +1,540 @@
+{
+  "ids": {
+    "slime": "beneath:quern/slime_ball",
+    "slimeBlock": "minecraft:slime_block",
+    "glue": "tfc:crafting/glue",
+    "sandpaper": "tfc:crafting/sandpaper",
+    "lapis": "tfc:crafting/gem/lapis_lazuli",
+    "amethystPowder": "tfc:quern/powder/amethyst",
+    "redWool": "modern_industrialization:dyes/red/mixer/wool",
+    "repeater": "minecraft:repeater",
+    "torch": "minecraft:redstone_torch",
+    "mixerCraft": "createch2:age_foundation/mi_bronze/mixer",
+    "yarn": "tfc:crafting/wool_yarn",
+    "cloth": "tfc:loom/wool_cloth",
+    "whiteWool": "tfc:loom/white_wool",
+    "spindle": "tfc:crafting/spindle",
+    "loom": "tfc:crafting/wood/loom/oak"
+  },
+  "recipes": {
+    "beneath:quern/slime_ball": {
+      "type": "tfc:quern",
+      "ingredient": {
+        "item": "beneath:raw_slime"
+      },
+      "result": {
+        "count": 1,
+        "id": "minecraft:slime_ball"
+      }
+    },
+    "minecraft:slime_block": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": [
+          {
+            "item": "tfc:glue"
+          },
+          {
+            "item": "minecraft:slime_ball"
+          }
+        ]
+      },
+      "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:slime_block"
+      }
+    },
+    "tfc:crafting/glue": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "c:storage_blocks/slime"
+        }
+      ],
+      "result": {
+        "count": 9,
+        "id": "tfc:glue"
+      }
+    },
+    "tfc:crafting/sandpaper": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "tfc:powder/flux"
+        },
+        {
+          "item": "tfc:glue"
+        },
+        {
+          "tag": "c:sands"
+        },
+        {
+          "tag": "tfc:gem_powders"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:sandpaper"
+      }
+    },
+    "tfc:crafting/gem/lapis_lazuli": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "item": "tfc:sandpaper"
+        },
+        {
+          "item": "tfc:ore/lapis_lazuli"
+        }
+      ],
+      "primary_ingredient": {
+        "item": "tfc:sandpaper"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:gem/lapis_lazuli"
+      }
+    },
+    "tfc:quern/powder/amethyst": {
+      "type": "tfc:quern",
+      "ingredient": [
+        {
+          "item": "tfc:gem/amethyst"
+        },
+        {
+          "item": "tfc:ore/amethyst"
+        }
+      ],
+      "result": {
+        "count": 4,
+        "id": "tfc:powder/amethyst"
+      }
+    },
+    "modern_industrialization:dyes/red/mixer/wool": {
+      "type": "modern_industrialization:mixer",
+      "duration": 100,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "tag": "c:dyes/red"
+        },
+        {
+          "amount": 8,
+          "tag": "minecraft:wool"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 8,
+          "item": "minecraft:red_wool"
+        }
+      ]
+    },
+    "minecraft:repeater": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "R": {
+          "tag": "c:dusts/redstone"
+        },
+        "S": {
+          "tag": "c:stones/raw"
+        },
+        "T": {
+          "item": "minecraft:redstone_torch"
+        }
+      },
+      "pattern": [
+        "TRT",
+        "SSS"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:repeater"
+      }
+    },
+    "minecraft:redstone_torch": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "tag": "c:rods/wooden"
+        },
+        "X": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        "X",
+        "#"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:redstone_torch"
+      }
+    },
+    "createch2:age_foundation/mi_bronze/mixer": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "RGR",
+        "PMP",
+        "FBF"
+      ],
+      "key": {
+        "R": {
+          "item": "modern_industrialization:copper_rotor"
+        },
+        "G": {
+          "tag": "c:heavy_gears/copper"
+        },
+        "P": {
+          "item": "modern_industrialization:bronze_plate"
+        },
+        "M": {
+          "item": "modern_industrialization:bronze_machine_casing"
+        },
+        "F": {
+          "tag": "modern_industrialization:fluid_pipes"
+        },
+        "B": {
+          "item": "create:brass_casing"
+        }
+      },
+      "result": {
+        "id": "modern_industrialization:bronze_mixer",
+        "count": 1
+      }
+    },
+    "tfc:crafting/wool_yarn": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "item": "tfc:spindle"
+        },
+        {
+          "item": "tfc:wool"
+        }
+      ],
+      "primary_ingredient": {
+        "item": "tfc:spindle"
+      },
+      "remainder": {
+        "modifiers": [
+          {
+            "type": "tfc:damage_crafting_remainder"
+          }
+        ]
+      },
+      "result": {
+        "count": 8,
+        "id": "tfc:wool_yarn"
+      }
+    },
+    "tfc:loom/wool_cloth": {
+      "type": "tfc:loom",
+      "ingredient": {
+        "count": 16,
+        "item": "tfc:wool_yarn"
+      },
+      "result": {
+        "count": 1,
+        "id": "tfc:wool_cloth"
+      },
+      "steps": 16,
+      "texture": "minecraft:block/white_wool"
+    },
+    "tfc:loom/white_wool": {
+      "type": "tfc:loom",
+      "ingredient": {
+        "count": 4,
+        "item": "tfc:wool_cloth"
+      },
+      "result": {
+        "count": 8,
+        "id": "minecraft:white_wool"
+      },
+      "steps": 4,
+      "texture": "minecraft:block/white_wool"
+    },
+    "tfc:crafting/spindle": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "X": {
+          "item": "tfc:ceramic/spindle_head"
+        },
+        "Y": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        "X",
+        "Y"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:spindle"
+      }
+    },
+    "tfc:crafting/wood/loom/oak": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "L": {
+          "item": "tfc:wood/lumber/oak"
+        },
+        "S": {
+          "tag": "c:rods/wooden"
+        }
+      },
+      "pattern": [
+        "LLL",
+        "LSL",
+        "L L"
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfc:wood/loom/oak"
+      }
+    }
+  },
+  "providers": {
+    "beneath:quern/slime_ball": [
+      "Beneath-NeoForge-1.21.1-2.0.4.jar"
+    ],
+    "minecraft:slime_block": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/glue": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/sandpaper": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/gem/lapis_lazuli": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:quern/powder/amethyst": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "modern_industrialization:dyes/red/mixer/wool": [
+      "Modern-Industrialization-2.5.10.jar"
+    ],
+    "minecraft:repeater": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "minecraft:redstone_torch": [
+      "neoforge-21.1.256-universal.jar"
+    ],
+    "createch2:age_foundation/mi_bronze/mixer": [
+      "authored"
+    ],
+    "tfc:crafting/wool_yarn": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:loom/wool_cloth": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:loom/white_wool": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/spindle": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ],
+    "tfc:crafting/wood/loom/oak": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar"
+    ]
+  },
+  "nativeClasses": {
+    "vein": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.vein.VeinFeature"
+    ],
+    "cluster": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.vein.ClusterVeinFeature"
+    ],
+    "slimeBlocks": [
+      "Beneath-NeoForge-1.21.1-2.0.4.jar",
+      "com.eerussianguy.beneath.common.blocks.BeneathBlocks"
+    ],
+    "slimeBlocksV": [
+      "Beneath-NeoForge-1.21.1-2.0.4.jar",
+      "com.eerussianguy.beneath.common.blocks.BeneathBlocks",
+      true
+    ],
+    "items": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems"
+    ],
+    "itemsV": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.items.TFCItems",
+      true
+    ],
+    "damageRemainder": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.outputs.DamageCraftingRemainderModifier"
+    ],
+    "loom": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blockentities.LoomBlockEntity"
+    ],
+    "loomBlock": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.TFCLoomBlock"
+    ],
+    "loomRecipe": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.recipes.LoomRecipe"
+    ],
+    "helpers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Helpers"
+    ],
+    "veinConfig": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.world.feature.vein.IVeinConfig"
+    ]
+  },
+  "nativeCodeSha256": {
+    "vein": "705c212986bd303acd9531c0f97cd8e4ee81daf30b02407f78a47edcaa2b2498",
+    "cluster": "d0fbcf1a77244a97d968d877699b07befd3e978b57ab3962c55a08557f6ba687",
+    "slimeBlocks": "4e94a8fde7f92165e7a5cac9436d5ebf6abe47d1364b9a8ecf427221e6f25813",
+    "slimeBlocksV": "becd03e0741423874efdfd47246c48bfc41ecf5b26113756fc38196e750b296b",
+    "items": "5162021eb2228c1d16fa84110698e4efd4243e8b74bd3e32766c18894a008dd9",
+    "itemsV": "f08da74a18eebfd6bb9be7fca644a2dfb4fbf061dec298709790c5890e97fb21",
+    "damageRemainder": "ac0f4932b795f523d3d22c5f09576013d88bd6af7399c88f3eca294fc2df1eab",
+    "loom": "9ddbaf9cf34e0a5e4426afb71907504993871b4bc190b15bc741016c4ee3e5c7",
+    "loomBlock": "4f9ce724a71b9570d8997fa03719cba2850e70de0e5a16fd46e9480377979a6e",
+    "loomRecipe": "9c66233c7fc4c21185432bd85b850a1bdf7d181aea932b51297f7ba47ddbd381",
+    "helpers": "b092c706f6b8742779724ed473bb531cd7421ce124ebb6d5e861d69a228a6968",
+    "veinConfig": "1df63defb575f1f7847255657a5d3dfb4735d8b5ce70f0cc36e3bb482d6c3f37"
+  },
+  "worldResources": {
+    "worldgen/configured_feature|beneath:vein/slime": {
+      "type": "tfc:cluster_vein",
+      "config": {
+        "rarity": 55,
+        "size": 24,
+        "density": 0.7,
+        "min_y": 35,
+        "max_y": 120,
+        "random_name": "slime",
+        "blocks": [
+          {
+            "replace": [
+              "minecraft:netherrack"
+            ],
+            "with": [
+              {
+                "weight": 50,
+                "block": "beneath:ore/slimed_netherrack"
+              },
+              {
+                "weight": 2,
+                "block": "minecraft:glowstone"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldgen/placed_feature|beneath:vein/slime": {
+      "feature": "beneath:vein/slime",
+      "placement": []
+    },
+    "neoforge/biome_modifier|beneath:underground_decoration": {
+      "type": "neoforge:add_features",
+      "biomes": "#minecraft:is_nether",
+      "features": "#beneath:underground_decoration",
+      "step": "underground_decoration"
+    },
+    "loot_table|beneath:blocks/ore/slimed_netherrack": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "bonus_rolls": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "beneath:raw_slime"
+            }
+          ],
+          "rolls": 1
+        }
+      ],
+      "random_sequence": "beneath:blocks/ore/slimed_netherrack"
+    }
+  },
+  "worldTags": {
+    "beneath:veins": [
+      "beneath:vein/slime"
+    ],
+    "beneath:underground_decoration": [
+      "beneath:vein/slime"
+    ]
+  },
+  "mixerLayout": {
+    "mixer": [
+      78,
+      0,
+      -5
+    ],
+    "pipes": [
+      [
+        77,
+        0,
+        -6
+      ],
+      [
+        78,
+        0,
+        -6
+      ]
+    ],
+    "parentNode": [
+      76,
+      0,
+      -6
+    ],
+    "mixerPort": {
+      "node": [
+        78,
+        0,
+        -6
+      ],
+      "block": [
+        78,
+        0,
+        -5
+      ],
+      "mode": "BLOCK_IN"
+    }
+  }
+}

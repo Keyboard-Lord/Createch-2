@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 48,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "gtceu:steel_frame",
+      "amount": 1
+    },
+    {
+      "tag": "c:plates/polyethylene",
+      "amount": 6
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "gtceu:concrete",
+    "amount": 144
+  },
+  "item_outputs": {
+    "item": "gtceu:plascrete",
+    "amount": 2
+  }
+}

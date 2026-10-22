@@ -1,0 +1,22 @@
+{
+  "truth": "STATIC_MISSION04_RESEARCH_CACHE_EMPTY_INPUT_CORE_ENTRY_PRESERVATION",
+  "before": "07731514e3a64f50f55555a38a5f954f4b2a6c4e3c38a1ddef70d02e735e515d",
+  "after": "f303c28da5fdb43fba3854bc83216773b0ef6e0b9950e8f24ddd1cd140d60c3f",
+  "added": [],
+  "changed": [
+    "createch2/core/mixin/compat/PolymorphResearchCacheMixin.class"
+  ],
+  "removed": [],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 372,
+  "unchangedEntriesSha256": "6b2236e37309d7b6513aa3eb887b6df6eb72d62197f97b1fb262fb2cc4230965",
+  "sourceCheckpoint": "1f3793a",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-07731514e3a64f50f55555a38a5f954f4b2a6c4e3c38a1ddef70d02e735e515d.jar",
+  "entrySha256": {
+    "createch2/core/mixin/compat/PolymorphResearchCacheMixin.class": {
+      "before": "1c0dbed27345b7257933b354f9d2384c505e3092885e4cfbb32d93c64468521b",
+      "after": "a19660badba3b962b691810146ea8e0a2e1f77bed1243c4fe7eaed29478a964c"
+    }
+  },
+  "scope": "Native Polymorph empty-input early return retained within research scope. Entry continuity only; runtime acceptance recorded separately."
+}

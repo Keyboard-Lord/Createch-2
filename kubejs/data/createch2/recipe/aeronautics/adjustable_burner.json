@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSH",
+    "ICI",
+    "ARA"
+  ],
+  "key": {
+    "H": {
+      "item": "tfmg:heavy_plate"
+    },
+    "S": {
+      "item": "tfmg:steel_casing"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "tag": "aeronautics:burner_fire"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "tag": "createch2:control/factory/analog"
+    }
+  },
+  "result": {
+    "id": "aeronautics:adjustable_burner",
+    "count": 1
+  }
+}

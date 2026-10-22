@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/nickel"
+    },
+    {
+      "tag": "c:physical_rings/nickel"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 872,
+  "welding_temperature": 1162
+}

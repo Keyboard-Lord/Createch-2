@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/thorium"
+    },
+    {
+      "tag": "c:physical_dusts/thorium"
+    }
+  ],
+  "heat_capacity": 0.167,
+  "forging_temperature": 921,
+  "welding_temperature": 1228
+}

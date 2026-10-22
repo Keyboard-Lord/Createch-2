@@ -1,0 +1,51 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "tfc:any_fresh_water"
+    },
+    {
+      "tag": "createch2:chemical_salt"
+    },
+    {
+      "tag": "createch2:chemical_salt"
+    },
+    {
+      "tag": "createch2:chemical_salt"
+    },
+    {
+      "tag": "createch2:chemical_salt"
+    }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "results": [
+    {
+      "id": "chemlib:sodium_ingot"
+    },
+    {
+      "chance": 0.3,
+      "id": "modern_industrialization:sodium_dust"
+    },
+    {
+      "amount": 100,
+      "id": "minecraft:water"
+    },
+    {
+      "amount": 350,
+      "id": "chemica:chlorine"
+    }
+  ],
+  "processing_time": 100,
+  "allowed_vat_types": [
+    "tfmg:cast_iron",
+    "tfmg:steel",
+    "tfmg:fireproof"
+  ],
+  "min_size": 1,
+  "heat_level": 1
+}

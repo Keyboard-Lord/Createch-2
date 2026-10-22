@@ -1,0 +1,60 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 128,
+  "duration": 1400,
+  "item_inputs": [
+    {
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_large_plate",
+      "amount": 8
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_plate",
+      "amount": 16
+    },
+    {
+      "tag": "createch2:control/factory/processing",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 2
+    },
+    {
+      "item": "electroenergetics:hanging_glass_insulator",
+      "amount": 4
+    },
+    {
+      "item": "electroenergetics:transformer_core",
+      "amount": 2
+    },
+    {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker",
+      "amount": 1
+    },
+    {
+      "item": "greate:stainless_steel_gearbox",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 500
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:highly_advanced_machine_hull",
+      "amount": 1
+    }
+  ]
+}

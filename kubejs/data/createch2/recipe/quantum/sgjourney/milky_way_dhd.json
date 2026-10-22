@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "ICI",
+    "NXN"
+  ],
+  "key": {
+    "B": {
+      "tag": "createch2:materials/rock/buttons"
+    },
+    "R": {
+      "item": "modern_industrialization:superconductor_wire"
+    },
+    "I": {
+      "item": "sgjourney:naquadah_alloy"
+    },
+    "C": {
+      "item": "sgjourney:communication_crystal"
+    },
+    "X": {
+      "item": "sgjourney:control_crystal"
+    },
+    "N": {
+      "item": "sgjourney:refined_naquadah"
+    }
+  },
+  "result": {
+    "id": "sgjourney:milky_way_dhd",
+    "count": 1
+  }
+}

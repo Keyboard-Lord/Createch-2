@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 600,
+  "item_inputs": [
+    {
+      "tag": "c:dusts/titanium",
+      "amount": 1
+    },
+    {
+      "tag": "c:dusts/carbon",
+      "amount": 1
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:manganese_sulfuric_solution",
+    "amount": 1000
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:titanium_hot_ingot",
+      "amount": 1
+    }
+  ],
+  "fluid_outputs": {
+    "fluid": "modern_industrialization:manganese_sulfuric_solution",
+    "amount": 750
+  }
+}

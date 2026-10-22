@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "PMP",
+    "FTF"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:copper_rotor"
+    },
+    "G": {
+      "tag": "c:heavy_gears/copper"
+    },
+    "P": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "M": {
+      "item": "modern_industrialization:bronze_machine_casing"
+    },
+    "F": {
+      "tag": "modern_industrialization:fluid_pipes"
+    },
+    "T": {
+      "item": "modern_industrialization:bronze_tank"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:bronze_water_pump",
+    "count": 1
+  }
+}

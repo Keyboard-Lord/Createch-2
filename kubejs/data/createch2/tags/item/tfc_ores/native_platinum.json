@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/native_platinum/small",
+    "#createch2:tfc_ores/native_platinum/poor",
+    "#createch2:tfc_ores/native_platinum/normal",
+    "#createch2:tfc_ores/native_platinum/rich"
+  ]
+}

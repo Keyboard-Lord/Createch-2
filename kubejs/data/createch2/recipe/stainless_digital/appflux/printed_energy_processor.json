@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "appflux:charged_redstone"
+    },
+    "top": {
+      "item": "appflux:energy_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "appflux:printed_energy_processor"
+  }
+}

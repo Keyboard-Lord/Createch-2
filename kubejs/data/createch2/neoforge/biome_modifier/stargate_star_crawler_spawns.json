@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "createch2:cavum_deep_caves",
+    "createch2:cavum_infested_caves",
+    "createch2:cavum_hyacinth_deeps",
+    "createch2:cavum_mantle_caves",
+    "createch2:cavum_bioshroom_caves"
+  ],
+  "spawners": {
+    "type": "stellaris:star_crawler",
+    "weight": 24,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

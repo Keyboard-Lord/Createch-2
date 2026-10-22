@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:creosote"
+    }
+  ],
+  "results": [
+    {
+      "id": "tfmg:hardened_planks"
+    }
+  ]
+}

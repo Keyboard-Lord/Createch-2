@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [],
+  "features": [
+    "createch2:rare_jungle_tree"
+  ],
+  "step": "vegetal_decoration"
+}

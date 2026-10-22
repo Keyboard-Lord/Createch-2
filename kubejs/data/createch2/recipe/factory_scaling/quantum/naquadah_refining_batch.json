@@ -1,0 +1,46 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 512,
+  "duration": 2200,
+  "item_inputs": [
+    {
+      "item": "sgjourney:raw_naquadah",
+      "amount": 4
+    },
+    {
+      "item": "modern_industrialization:superconductor_dust",
+      "amount": 2
+    },
+    {
+      "item": "eternal_starlight:thioquartz_shard",
+      "amount": 4
+    },
+    {
+      "item": "eternal_starlight:soul_dew",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "sgjourney:refined_naquadah",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:helium_plasma",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_acid",
+      "amount": 2000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "sgjourney:refined_naquadah",
+      "amount": 6
+    }
+  ]
+}

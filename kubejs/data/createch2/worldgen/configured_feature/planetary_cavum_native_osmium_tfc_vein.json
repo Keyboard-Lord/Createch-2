@@ -1,0 +1,48 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 68,
+    "min_y": -56,
+    "max_y": 8,
+    "size": 28,
+    "density": 0.4,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:basalt",
+          "minecraft:blackstone",
+          "minecraft:calcite",
+          "minecraft:red_terracotta"
+        ],
+        "with": [
+          {
+            "weight": 20,
+            "block": "tfc_metallurgy:ore/poor_native_osmium/granite"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_native_osmium/granite"
+          },
+          {
+            "weight": 25,
+            "block": "tfc_metallurgy:ore/rich_native_osmium/granite"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 42,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_native_osmium"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_cavum_native_osmium_tfc_vein"
+  }
+}

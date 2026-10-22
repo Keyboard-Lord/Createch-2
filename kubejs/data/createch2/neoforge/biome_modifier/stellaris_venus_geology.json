@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:venus_biomes",
+  "features": [
+    "createch2:geology_venus_corronium"
+  ],
+  "step": "underground_ores"
+}

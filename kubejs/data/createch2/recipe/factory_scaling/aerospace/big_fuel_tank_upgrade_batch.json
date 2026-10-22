@@ -1,0 +1,53 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:assembler",
+  "eu": 256,
+  "duration": 1800,
+  "item_inputs": [
+    {
+      "item": "stellaris:big_fuel_tank_upgrade",
+      "amount": 1,
+      "probability": 0
+    },
+    {
+      "item": "stellaris:t4_tank",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:titanium_plate",
+      "amount": 8
+    },
+    {
+      "item": "stellaris:corronium_ingot",
+      "amount": 6
+    },
+    {
+      "item": "stellaris:solerium",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 2
+    },
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 2
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 1000
+    },
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "stellaris:big_fuel_tank_upgrade",
+      "amount": 2
+    }
+  ]
+}

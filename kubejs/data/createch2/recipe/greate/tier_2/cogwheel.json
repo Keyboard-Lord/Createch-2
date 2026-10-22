@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "greate:steel_cogwheel"
+    },
+    {
+      "item": "greate:aluminium_shaft"
+    },
+    {
+      "tag": "c:plates/aluminum"
+    }
+  ],
+  "result": {
+    "id": "greate:aluminium_cogwheel",
+    "count": 1
+  }
+}

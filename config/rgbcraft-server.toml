@@ -1,0 +1,17 @@
+[power]
+	#Whether controllers consume Forge Energy.
+	requireEnergy = true
+	#FE/t consumed by one logical pixel at full-white and full brightness.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	fullWhitePixelCost = 1.0
+
+[network]
+	#Maximum physical nodes visited during one controller graph scan.
+	# Default: 32768
+	# Range: 256 ~ 262144
+	scanBudget = 32768
+	#Maximum externally submitted frame commits per controller each second.
+	# Default: 20
+	# Range: 1 ~ 100
+	maxExternalCommitsPerSecond = 20

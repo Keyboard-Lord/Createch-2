@@ -1,0 +1,2864 @@
+{
+	autofocus_id: "09DA0EFC9C85F330"
+	default_hide_dependency_lines: false
+	default_min_width: 380
+	default_quest_shape: "circle"
+	filename: "createch2_07_age_06_low_voltage"
+	group: "0A85000000000003"
+	id: "065C522F18E2DC46"
+	images: [{
+		alpha: 22
+		height: 15.5d
+		id: "48876AAC9DE7C75F"
+		image: "createch2:textures/quests/chapter_icons/low_voltage.png"
+		order: -40
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.045d
+		y: 0.045d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "0822000000000008"
+		linked_quest: "023F6BB2D31155A8"
+		shape: "rsquare"
+		size: 1.35d
+		x: -36.346d
+		y: -32.993d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"5F76C355880F605C"
+			]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "09DA0EFC9C85F330"
+			rewards: [{
+				auto: "enabled"
+				id: "044A65EADF7AD529"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 3.25d
+			tags: [
+				"theme_low_voltage_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 4L
+				id: "0718EA9D44617864"
+				item: { count: 1, id: "modern_industrialization:analog_circuit" }
+				type: "item"
+			}]
+			x: -40.546d
+			y: -32.993d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				id: "modern_industrialization:motor"
+			}
+			id: "0EBFFB873D2AE935"
+			rewards: [{
+				auto: "enabled"
+				id: "7D7B6ADEF82B65F7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 4L
+				id: "00EE28BD91B7A432"
+				item: { count: 1, id: "modern_industrialization:motor" }
+				type: "item"
+			}]
+			x: 13.372d
+			y: -12.595d
+		}
+		{
+			dependencies: ["0EBFFB873D2AE935"]
+			icon: {
+				id: "modern_industrialization:basic_machine_hull"
+			}
+			id: "0F8EFF35F5ACA850"
+			rewards: [{
+				auto: "enabled"
+				id: "480956A4FDACE0FA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: [
+				"theme_low_voltage_main"
+				"role_main"
+			]
+			tasks: [{
+				count: 2L
+				id: "03173C044FF91537"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: 15.508d
+			y: -12.687d
+		}
+		{
+			dependencies: [
+				"0F8EFF35F5ACA850"
+				"52BB0CEF01AF4365"
+				"781B84CA4BF0B0F6"
+			]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "08ACD10B84F19375"
+			rewards: [{
+				auto: "enabled"
+				id: "79BF688AE6B526A7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_low_voltage_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0052EC804EE6A98E"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 39.418d
+			y: -7.329d
+		}
+		{
+			dependencies: ["08ACD10B84F19375"]
+			icon: {
+				id: "modern_industrialization:electric_water_pump"
+			}
+			id: "0339B09DF8C41256"
+			rewards: [{
+				auto: "enabled"
+				id: "1FA6AA28E0A13022"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "0BF7AC255C65B286"
+				item: { count: 1, id: "modern_industrialization:electric_water_pump" }
+				type: "item"
+			}]
+			x: 40.989d
+			y: -8.817d
+		}
+		{
+			dependencies: ["0339B09DF8C41256"]
+			icon: {
+				id: "modern_industrialization:analog_circuit"
+			}
+			icon_scale: 1.05d
+			id: "00E84A6CCFFC95F4"
+			rewards: [{
+				auto: "enabled"
+				id: "5F01AFDDB191C74A"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "octagon"
+			size: 2.1d
+			tags: [
+				"theme_low_voltage_main"
+				"role_main"
+			]
+			tasks: [{
+				id: "0ED1CE6DED7B4185"
+				max_input: 250000L
+				type: "forge_energy"
+				value: 250000L
+			}]
+			x: 43.125d
+			y: -8.91d
+		}
+		{
+			dependencies: ["0EBFFB873D2AE935"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:copper_wire"
+			}
+			icon_scale: 0.95d
+			id: "213FDA8694BDE2F5"
+			rewards: [{
+				auto: "enabled"
+				id: "52CBAA09F61F0B13"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "5002F2CDEBA36E18"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+				type: "item"
+			}]
+			x: 11.235d
+			y: -12.502d
+		}
+		{
+			dependencies: ["213FDA8694BDE2F5"]
+			icon: {
+				id: "electroenergetics:insulated_wire"
+			}
+			icon_scale: 0.95d
+			id: "6E338F41663D7933"
+			rewards: [{
+				auto: "enabled"
+				id: "36511F95439CEDDD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0D21A87C206462DA"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5FF7659130B8F659"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+			]
+			x: 9.099d
+			y: -12.41d
+		}
+		{
+			dependencies: ["08ACD10B84F19375"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			icon_scale: 0.95d
+			id: "16F1830789E192C5"
+			rewards: [{
+				auto: "enabled"
+				id: "5ED036BFFF14963A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "50FF5A511E129071"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5378BD8ED5E3748E"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 11.334d
+			y: 3.832d
+		}
+		{
+			dependencies: ["16F1830789E192C5"]
+			icon: {
+				id: "electroenergetics:ground_rod"
+			}
+			icon_scale: 0.95d
+			id: "2F180B3EECDBB630"
+			rewards: [{
+				auto: "enabled"
+				id: "37ED94DDF78702DC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "6CE64F9FB8B50934"
+				item: { count: 1, id: "electroenergetics:ground_rod" }
+				type: "item"
+			}]
+			x: 12.904d
+			y: 2.343d
+		}
+		{
+			dependencies: ["00E84A6CCFFC95F4"]
+			icon: {
+				id: "modern_industrialization:analog_circuit"
+			}
+			id: "28D836770698FB8C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6CF7204E08A08A2F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7302FE78A260333C"
+					item: {
+						count: 1
+						id: "create:yellow_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "776D4D40779A3135"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23B9F9475C01B08F"
+					item: { count: 1, id: "modern_industrialization:motor" }
+					type: "item"
+				}
+			]
+			x: 45.261d
+			y: -9.002d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				id: "electroenergetics:alternator_rotor"
+			}
+			icon_scale: 0.95d
+			id: "79074CED9461BDA5"
+			rewards: [{
+				auto: "enabled"
+				id: "764FE7416664B2D2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4C06C2532A33CE3E"
+				item: { count: 1, id: "electroenergetics:alternator_rotor" }
+				type: "item"
+			}]
+			x: -12.478d
+			y: 14.807d
+		}
+		{
+			dependencies: ["08ACD10B84F19375"]
+			icon: {
+				id: "modern_industrialization:electric_macerator"
+			}
+			icon_scale: 0.95d
+			id: "4DA8A9525ABF3127"
+			rewards: [{
+				auto: "enabled"
+				id: "03AFCDF7662467DE"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "7EF668F17B338A17"
+				item: { count: 1, id: "modern_industrialization:electric_macerator" }
+				type: "item"
+			}]
+			x: 26.161d
+			y: -2.493d
+		}
+		{
+			dependencies: ["213FDA8694BDE2F5"]
+			icon: {
+				id: "create:electron_tube"
+			}
+			icon_scale: 0.95d
+			id: "10E12019B00BD62D"
+			rewards: [{
+				auto: "enabled"
+				id: "5260B2861DEE6430"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "2F8275A1FB0DBB0E"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 6.68d
+			y: -13.015d
+		}
+		{
+			dependencies: ["4DA8A9525ABF3127"]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			icon_scale: 0.95d
+			id: "7CFD90C02A07659F"
+			rewards: [{
+				auto: "enabled"
+				id: "12D02CD5C8CBAEB2"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "27718AE6D0AB2176"
+					item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "264DCF2F6200958D"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 24.025d
+			y: -2.4d
+		}
+		{
+			dependencies: ["2F180B3EECDBB630"]
+			icon: {
+				id: "electroenergetics:insulated_wire"
+			}
+			icon_scale: 0.95d
+			id: "4B4FF0417DFF552B"
+			rewards: [{
+				auto: "enabled"
+				id: "78EC400F339F6AAD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7BFC212C9FB5A09C"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+				{
+					id: "27DDD74352FA08FD"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 14.758d
+			y: 1.552d
+		}
+		{
+			dependencies: ["4B4FF0417DFF552B"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			icon_scale: 0.94d
+			id: "11DAECD240AEF379"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "2B3E89905D982F25"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "41AC9FEAAF2745AF"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2958D760228EB3BD"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "57E9D89FBCAF454F"
+					item: { count: 1, id: "modern_industrialization:motor" }
+					type: "item"
+				}
+			]
+			x: 16.847d
+			y: 1.342d
+		}
+		{
+			dependencies: [
+				"7CFD90C02A07659F"
+				"11DAECD240AEF379"
+			]
+			icon: {
+				id: "modern_industrialization:electric_compressor"
+			}
+			icon_scale: 0.96d
+			id: "09593A41C8AFBD75"
+			rewards: [{
+				auto: "enabled"
+				id: "4698AE6647664FB9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_low_voltage_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "247DF5630B82467B"
+				item: { count: 1, id: "modern_industrialization:electric_compressor" }
+				type: "item"
+			}]
+			x: 4.387d
+			y: -7.944d
+		}
+		{
+			dependencies: ["09593A41C8AFBD75"]
+			icon: {
+				id: "electroenergetics:cut_off_switch"
+			}
+			icon_scale: 0.92d
+			id: "3E3054C45B8078A7"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1BE41181DD612AC3"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "110CCBE127189DA9"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "7A3B08C5AC0090CC"
+					item: { count: 1, id: "electroenergetics:cut_off_switch" }
+					type: "item"
+				}
+				{
+					id: "3748EF6CAF8E80D6"
+					item: { count: 1, id: "electroenergetics:fuse_holder" }
+					type: "item"
+				}
+			]
+			x: 21.888d
+			y: -2.308d
+		}
+		{
+			dependencies: ["3E3054C45B8078A7"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.92d
+			id: "726E70BD8B31C231"
+			rewards: [{
+				auto: "enabled"
+				id: "0658FB924E57AF2B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "793FE8DE542812A1"
+				item: { count: 1, id: "electroenergetics:accumulator" }
+				type: "item"
+			}]
+			x: 19.752d
+			y: -2.215d
+		}
+		{
+			dependencies: ["726E70BD8B31C231"]
+			icon: {
+				id: "modern_industrialization:motor"
+			}
+			icon_scale: 0.92d
+			id: "7985F331A44D4756"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4EDF8722114DB613"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2E0D7092A0C82624"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3226421438D88F75"
+					item: { count: 1, id: "modern_industrialization:motor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "513EE525D3527C91"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 17.333d
+			y: -2.821d
+		}
+		{
+			dependencies: [
+				"16F1830789E192C5"
+				"28D836770698FB8C"
+				"72FE5FB900814DC9"
+				"7727CEC258BAA527"
+				"20F4EF68438B138E"
+				"15380E3932D29868"
+				"08ACD10B84F19375"
+				"4DA65DD9E621FE07"
+				"022B09856C4D4BFD"
+				"3423607BB6D25891"
+				"52BB0CEF01AF4365"
+				"25821E8CB2BAB173"
+				"7D6499EC8771BC3C"
+			]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			icon_scale: 1.1d
+			id: "408FCBE8C6059DC5"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4F369A54DB931A01"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CF54DCCCA417B17"
+					item: {
+						count: 1
+						id: "supplementaries:sconce_lever"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0EAC3F1829DCF2"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_capstone"
+			size: 3.5d
+			tags: [
+				"theme_low_voltage_capstone"
+				"role_capstone"
+				"canonical_age_06"
+			]
+			tasks: [
+				{
+					id: "62FE92FA353E1D4A"
+					item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+					type: "item"
+				}
+				{
+					id: "0FEE4F89A92DF8D2"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+			]
+			x: -4.314d
+			y: 11.645d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:copper_wire"
+			}
+			id: "4353BD7BCDC95B4E"
+			rewards: [{
+				auto: "enabled"
+				id: "016E8DDCCC3AD59F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "29D76EC944F3169C"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "5294BB046096A7D0"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+			]
+			x: -3.281d
+			y: -16.136d
+		}
+		{
+			dependencies: ["4353BD7BCDC95B4E"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			id: "002E706C40AD67E3"
+			rewards: [{
+				auto: "enabled"
+				id: "74EE06D064925E79"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 8L
+				id: "354F34B4B802B5BF"
+				item: { count: 1, id: "electroenergetics:connector" }
+				type: "item"
+			}]
+			x: -5.417d
+			y: -16.044d
+		}
+		{
+			dependencies: ["002E706C40AD67E3"]
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "72FE5FB900814DC9"
+			rewards: [{
+				auto: "enabled"
+				id: "069409F71A011E24"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "341374A683A5B2FA"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1F36549CB8EB5411"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -7.27d
+			y: -15.253d
+		}
+		{
+			dependencies: ["79074CED9461BDA5"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			id: "781B84CA4BF0B0F6"
+			rewards: [{
+				auto: "enabled"
+				id: "2D65B73085E3C1A7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3E28F8777846656A"
+				max_input: 25000L
+				type: "forge_energy"
+				value: 25000L
+			}]
+			x: -10.625d
+			y: 14.017d
+		}
+		{
+			dependencies: ["781B84CA4BF0B0F6"]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "77E74DB4F30E0730"
+			rewards: [{
+				auto: "enabled"
+				id: "7060F97F90136F3D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "4BDF3094A5CAB182"
+					max_input: 50000L
+					type: "forge_energy"
+					value: 50000L
+				}
+				{
+					id: "57AB6600B0FE2FBE"
+					item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+					type: "item"
+				}
+			]
+			x: -8.771d
+			y: 13.226d
+		}
+		{
+			dependencies: ["77E74DB4F30E0730"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "7727CEC258BAA527"
+			rewards: [{
+				auto: "enabled"
+				id: "6EEF0CE0EC7F228B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "79E9FC53757FF17C"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 100000L
+				}
+				{
+					count: 4L
+					id: "1C3B40D1CF33BC0A"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
+					type: "item"
+				}
+			]
+			x: -6.918d
+			y: 12.435d
+		}
+		{
+			dependencies: ["10E12019B00BD62D"]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			icon_scale: 0.94d
+			id: "5C5A4F2552C56231"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1F7138BE01BB4E05"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2B266309D2AA4E6C"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:lv_steam_turbine"
+				criterion: ""
+				id: "64A77AE36427A76C"
+				type: "advancement"
+			}]
+			x: 4.543d
+			y: -12.923d
+		}
+		{
+			dependencies: ["10E12019B00BD62D"]
+			icon: {
+				id: "modern_industrialization:electronic_circuit"
+			}
+			id: "20F4EF68438B138E"
+			rewards: [{
+				auto: "enabled"
+				id: "184798389AC8B548"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:analog_circuit"
+				criterion: ""
+				id: "2D28D39CFC74ED6E"
+				type: "advancement"
+			}]
+			x: -0.295d
+			y: -14.134d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			icon_scale: 0.96d
+			id: "78D66599CD3A14E1"
+			rewards: [{
+				auto: "enabled"
+				id: "3C4381E737E0EB46"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_low_voltage_optional"
+				"role_optional"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:electric_blast_furnace"
+				criterion: ""
+				id: "43C15C12F90E38DA"
+				type: "advancement"
+			}]
+			x: -18.038d
+			y: 17.179d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:copper_wire"
+			}
+			id: "4C7F00AE817953FC"
+			rewards: [{
+				auto: "enabled"
+				id: "4AA5003C29E90BC1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4CEAF8FCB1D3486E"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EFE2A083F9AC29A"
+					item: { count: 1, id: "modern_industrialization:motor" }
+					type: "item"
+				}
+			]
+			x: -9.407d
+			y: -15.161d
+		}
+		{
+			dependencies: ["4C7F00AE817953FC"]
+			icon: {
+				id: "electroenergetics:insulated_wire"
+			}
+			id: "527B26255E4012DF"
+			rewards: [{
+				auto: "enabled"
+				id: "629D508FF3DB4ADC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "0D5350EFBBD9A71E"
+				item: { count: 1, id: "electroenergetics:insulated_wire" }
+				type: "item"
+			}]
+			x: -11.543d
+			y: -15.068d
+		}
+		{
+			dependencies: ["527B26255E4012DF"]
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "15380E3932D29868"
+			rewards: [{
+				auto: "enabled"
+				id: "554D17759EDDC288"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4EEFD6F03EA71AB6"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F1C6531B16E5EBF"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+			]
+			x: -13.397d
+			y: -14.278d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"29DD5348EB69DEB4"
+			]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "10ED3DA5474CCAB6"
+			rewards: [{
+				auto: "enabled"
+				id: "2D6BE14EAB96C93B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "4E2D5BC94F3F98A9"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: -58.018d
+			y: -49.285d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"10ED3DA5474CCAB6"
+			]
+			icon: {
+				id: "electroenergetics:clamp_meter"
+			}
+			icon_scale: 0.96d
+			id: "4DA65DD9E621FE07"
+			rewards: [{
+				auto: "enabled"
+				id: "06E11A82E161F575"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "57CEC1C4EED1C409"
+					item: { count: 1, id: "electroenergetics:clamp_meter" }
+					type: "item"
+				}
+				{
+					id: "7966CEF57263BA32"
+					item: { count: 1, id: "electroenergetics:ammeter" }
+					type: "item"
+				}
+				{
+					id: "29C65DA425FE8316"
+					item: { count: 1, id: "electroenergetics:voltmeter" }
+					type: "item"
+				}
+			]
+			x: -25.042d
+			y: 26.717d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"4DA65DD9E621FE07"
+			]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.96d
+			id: "022B09856C4D4BFD"
+			rewards: [{
+				auto: "enabled"
+				id: "0D1680DAA640E7FE"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "00F1F9C2504D8B69"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5194EAB9A058758F"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					id: "562E728DD0B76DB2"
+					item: { count: 1, id: "electroenergetics:wire_spool" }
+					type: "item"
+				}
+			]
+			x: -22.623d
+			y: 27.322d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"2A1C71C4782F2F0F"
+			]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.96d
+			id: "5F55C63D125EE1C9"
+			rewards: [{
+				auto: "enabled"
+				id: "6B1AE3D2B732BA5B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "066711A406CE92FA"
+				item: { count: 1, id: "electroenergetics:accumulator" }
+				type: "item"
+			}]
+			x: -14.799d
+			y: 30.535d
+		}
+		{
+			dependencies: ["04A01A53CD67A510"]
+			icon: {
+				id: "modern_industrialization:lv_diesel_generator"
+			}
+			icon_scale: 0.96d
+			id: "5305FA53CCDE90F4"
+			rewards: [{
+				auto: "enabled"
+				id: "4DBBE0A8A0DB96D9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "26BE751A2352A0C5"
+				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
+				type: "item"
+			}]
+			x: -12.38d
+			y: 31.141d
+		}
+		{
+			dependencies: ["10ED3DA5474CCAB6"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.95d
+			id: "05E764D33EB28B72"
+			rewards: [{
+				auto: "enabled"
+				id: "3C8C24A2DD6DB8F2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "068155C972D2E593"
+				item: { count: 1, id: "electroenergetics:accumulator" }
+				type: "item"
+			}]
+			x: -22.467d
+			y: 22.343d
+		}
+		{
+			dependencies: ["05E764D33EB28B72"]
+			icon: {
+				id: "electroenergetics:connector"
+			}
+			icon_scale: 0.95d
+			id: "2A1C71C4782F2F0F"
+			rewards: [{
+				auto: "enabled"
+				id: "00D6DA31FDD90185"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "162CCB2F9A8F2532"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					id: "04DAF09D2F1F1BEC"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -23.189d
+			y: 25.926d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"10ED3DA5474CCAB6"
+			]
+			icon: {
+				id: "modern_industrialization:lv_diesel_generator"
+			}
+			icon_scale: 0.95d
+			id: "62F8AD59DE2C5D34"
+			rewards: [{
+				auto: "enabled"
+				id: "25EE33214B1260DC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "45F1A72F177319D5"
+					item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
+					type: "item"
+				}
+				{
+					id: "79C6FFDFF9A0F43F"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -60.438d
+			y: -49.891d
+		}
+		{
+			dependencies: ["62F8AD59DE2C5D34"]
+			icon: {
+				id: "electroenergetics:fuse_holder"
+			}
+			icon_scale: 0.95d
+			id: "3423607BB6D25891"
+			rewards: [{
+				auto: "enabled"
+				id: "3AB295CBEF235E0C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "36EE79684953BD5E"
+					item: { count: 1, id: "electroenergetics:fuse_holder" }
+					type: "item"
+				}
+				{
+					id: "502431424136A73F"
+					item: { count: 1, id: "electroenergetics:fuse_holder" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "187154A41B80AA46"
+					item: { count: 1, id: "electroenergetics:fuse" }
+					type: "item"
+				}
+				{
+					id: "087DFE77D9DB1351"
+					item: { count: 1, id: "electroenergetics:ground_rod" }
+					type: "item"
+				}
+			]
+			x: -70.115d
+			y: -52.313d
+		}
+		{
+			dependencies: [
+				"5E5E16BD637676D3"
+				"05BFC094C0A68CBD"
+			]
+			icon: {
+				id: "electroenergetics:clamp_meter"
+			}
+			icon_scale: 0.95d
+			id: "0E23DA3DBC9BCB9C"
+			rewards: [{
+				auto: "enabled"
+				id: "2986169358963ECF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "2F6C835F62EABEF0"
+				item: { count: 1, id: "electroenergetics:clamp_meter" }
+				type: "item"
+			}]
+			x: -23.907d
+			y: -39.939d
+		}
+		{
+			dependencies: ["022B09856C4D4BFD"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			icon_scale: 0.94d
+			id: "58B0FD3F7DF517E2"
+			rewards: [{
+				auto: "enabled"
+				id: "71956FF9F3A45B63"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "383F12277D152F41"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: -17.94d
+			y: 33.513d
+		}
+		{
+			dependencies: ["05E764D33EB28B72"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.95d
+			id: "3D43E5213326E101"
+			rewards: [{
+				auto: "enabled"
+				id: "303E40FF24FF9ED1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0ECCDB984FAE8ECD"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "13F3CA10502B62DA"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: -17.628d
+			y: 23.554d
+		}
+		{
+			dependencies: ["68A7B225E6CD77CD"]
+			icon: {
+				id: "electroenergetics:clamp_meter"
+			}
+			icon_scale: 0.95d
+			id: "0A6C53082103E54A"
+			rewards: [{
+				auto: "enabled"
+				id: "45CD35A1BAA8DE81"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "75F6CDBD6D36F434"
+				max_input: 1000000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: -27.207d
+			y: 37.466d
+		}
+		{
+			dependencies: ["3423607BB6D25891"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "electroenergetics:copper_wire"
+			}
+			icon_scale: 0.95d
+			id: "73B7963EFEF231FD"
+			rewards: [{
+				auto: "enabled"
+				id: "674628965273A644"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3B6244FB0EA951D5"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+				type: "item"
+			}]
+			x: -29.061d
+			y: 38.256d
+		}
+		{
+			dependencies: ["73B7963EFEF231FD"]
+			icon: {
+				id: "electroenergetics:cut_off_switch"
+			}
+			icon_scale: 0.95d
+			id: "7D6499EC8771BC3C"
+			rewards: [{
+				auto: "enabled"
+				id: "09FBA411C8736FFB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "334565A2E98E5CCE"
+				item: { count: 1, id: "electroenergetics:cut_off_switch" }
+				type: "item"
+			}]
+			x: -26.641d
+			y: 38.862d
+		}
+		{
+			dependencies: ["022B09856C4D4BFD"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:copper_wire"
+			}
+			icon_scale: 0.92d
+			id: "46338255C3AFC8B8"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1916697EB23C1CB1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "430DCBEABCE478D6"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "36E9EF031F108ABE"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:copper_wire" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6F98D74F8F486EA2"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -12.945d
+			y: 29.745d
+		}
+		{
+			dependencies: ["05E764D33EB28B72"]
+			icon: {
+				id: "electroenergetics:clamp_meter"
+			}
+			icon_scale: 0.92d
+			id: "016857EA9D59D58A"
+			rewards: [{
+				auto: "enabled"
+				id: "27D51A3C7807FF19"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "1B21BEE37E2558A7"
+					item: { count: 1, id: "electroenergetics:clamp_meter" }
+					type: "item"
+				}
+				{
+					id: "42C83C71AA031172"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -19.482d
+			y: 24.345d
+		}
+		{
+			dependencies: [
+				"29DD5348EB69DEB4"
+				"05BFC094C0A68CBD"
+			]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.94d
+			id: "580704E8A469E350"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "477119C3717DDD01"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "19B01F6E71D967E1"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "57A0868B92A68115"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					id: "1677BCB3187046C9"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 47.964d
+			y: -7.699d
+		}
+		{
+			dependencies: ["0E23DA3DBC9BCB9C"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "electroenergetics:copper_wire"
+			}
+			icon_scale: 0.98d
+			id: "5A481A4B9180CB79"
+			rewards: [{
+				auto: "enabled"
+				id: "6B10EAA66CB1620C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "25971AB992AB1785"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "285BA308EC382DF2"
+					item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+					type: "item"
+				}
+			]
+			x: -38.433d
+			y: -43.528d
+		}
+		{
+			dependencies: ["0E23DA3DBC9BCB9C"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.94d
+			id: "25821E8CB2BAB173"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6BF629A88B78929C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "73E89275BE505D0D"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					id: "2E028815F8F76124"
+					max_input: 250000L
+					type: "forge_energy"
+					value: 250000L
+				}
+				{
+					id: "48A717D05F8D61AB"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+			]
+			x: -26.002d
+			y: -40.015d
+		}
+		{
+			dependencies: ["25821E8CB2BAB173"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.98d
+			id: "0DEBEEC0D0063526"
+			rewards: [{
+				auto: "enabled"
+				id: "2BD601B4D8B22420"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "610E0B18622DA5A4"
+				item: { count: 1, id: "electroenergetics:accumulator" }
+				type: "item"
+			}]
+			x: -28.138d
+			y: -39.923d
+		}
+		{
+			dependencies: ["0DEBEEC0D0063526"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "electroenergetics:copper_wire"
+			}
+			icon_scale: 0.98d
+			id: "78FAADC20C3595A1"
+			rewards: [{
+				auto: "enabled"
+				id: "0737677AD5F0AC39"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					id: "78B8C65C130FA264"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "207D171A6A8D22BA"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+				{
+					id: "6DFA4589E0F8C051"
+					item: { count: 1, id: "electroenergetics:copper_wire_spool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "596BF3E5A9A1A173"
+					item: { count: 1, id: "electroenergetics:connector" }
+					type: "item"
+				}
+			]
+			x: -30.569d
+			y: -40.455d
+		}
+		{
+			dependencies: ["5F55C63D125EE1C9"]
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			icon_scale: 0.98d
+			id: "68A7B225E6CD77CD"
+			rewards: [{
+				auto: "enabled"
+				id: "15C3429563BEF2A4"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1D921536C3A56CEC"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6144C8A5B51678D3"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+			]
+			x: -16.086d
+			y: 32.722d
+		}
+		{
+			dependencies: ["25821E8CB2BAB173"]
+			icon: {
+				id: "minecraft:leather_boots"
+			}
+			icon_scale: 0.98d
+			id: "248916BF3AE65CCF"
+			rewards: [{
+				auto: "enabled"
+				id: "4F3049667D93DADC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_electrical_grid_production"
+				"role_production"
+			]
+			tasks: [{
+				id: "6676D6277D23807F"
+				stat: "minecraft:crouch_one_cm"
+				type: "stat"
+				value: 10000
+			}]
+			x: -32.977d
+			y: -41.134d
+		}
+		{
+			dependencies: ["248916BF3AE65CCF"]
+			hide_lock_icon: true
+			icon: {
+				id: "tfc:wood/barrel/oak"
+			}
+			icon_scale: 0.88d
+			id: "4987FD2C8412115E"
+			rewards: [{
+				auto: "enabled"
+				id: "19A29939E0A00BEC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_info"
+			size: 0.88d
+			tags: [
+				"theme_electrical_grid_info"
+				"role_info"
+			]
+			tasks: [{
+				id: "3B245144BC6F58CF"
+				stat: "minecraft:open_barrel"
+				type: "stat"
+				value: 50
+			}]
+			x: -35.679d
+			y: -42.438d
+		}
+		{
+			dependencies: ["3423607BB6D25891"]
+			icon: {
+				id: "electroenergetics:fuse_holder"
+			}
+			icon_scale: 0.94d
+			id: "5BA9C03408072793"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "70BB9043E1EFD5CA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "1D6FC3A14F3C27EC"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "27835A4D266C128D"
+				item: { count: 1, id: "electroenergetics:fuse_holder" }
+				type: "item"
+			}]
+			x: -27.675d
+			y: 52.403d
+		}
+		{
+			dependencies: [
+				"5E5E16BD637676D3"
+				"09DA0EFC9C85F330"
+			]
+			icon: {
+				id: "electroenergetics:cut_off_switch"
+			}
+			icon_scale: 0.94d
+			id: "05BFC094C0A68CBD"
+			rewards: [{
+				auto: "enabled"
+				id: "1BF7F69172975B65"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_efficiency"
+				"role_efficiency"
+			]
+			tasks: [{
+				id: "5BFFE74FEEAB644E"
+				item: { count: 1, id: "electroenergetics:cut_off_switch" }
+				type: "item"
+			}]
+			x: 70.205d
+			y: -17.185d
+		}
+		{
+			dependencies: ["10ED3DA5474CCAB6"]
+			icon: {
+				id: "electroenergetics:white_electric_motor"
+			}
+			icon_scale: 0.96d
+			id: "52BB0CEF01AF4365"
+			rewards: [{
+				auto: "enabled"
+				id: "1180DA489616DF21"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3DBA183F4D6F3F44"
+				item: { count: 1, id: "electroenergetics:white_electric_motor" }
+				type: "item"
+			}]
+			x: -40.8d
+			y: -44.347d
+		}
+		{
+			dependencies: ["52BB0CEF01AF4365"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			icon_scale: 0.94d
+			id: "00296840EB519311"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3C8886CE8A12ABB6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "61345F4491BB1759"
+					item: {
+						count: 1
+						id: "tfmg:multimeter"
+					}
+					type: "item"
+				}
+			]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_electrical_grid_recovery"
+				"role_recovery"
+			]
+			tasks: [{
+				id: "2DBC75F97362D04A"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: -43.22d
+			y: -44.953d
+		}
+		{
+			dependencies: [
+				"3E47A95F4DB0740A"
+				"04A01A53CD67A510"
+			]
+			icon: {
+				id: "modern_industrialization:electric_macerator"
+			}
+			id: "6AAB05DE2ECA0C5B"
+			rewards: [{
+				auto: "enabled"
+				id: "1D80098DC2689FAC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1A61E1E94B143E0D"
+				item: { count: 1, id: "modern_industrialization:electric_macerator" }
+				type: "item"
+			}]
+			x: -21.803d
+			y: 40.073d
+		}
+		{
+			dependencies: ["6AAB05DE2ECA0C5B"]
+			icon: {
+				id: "modern_industrialization:electric_compressor"
+			}
+			id: "682B5B91DA4B2490"
+			rewards: [{
+				auto: "enabled"
+				id: "3457D469E3FCAC9C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "3382FA9C22749867"
+				item: { count: 1, id: "modern_industrialization:electric_compressor" }
+				type: "item"
+			}]
+			x: -19.383d
+			y: 40.679d
+		}
+		{
+			dependencies: [
+				"04A01A53CD67A510"
+				"682B5B91DA4B2490"
+			]
+			icon: {
+				id: "modern_industrialization:assembler"
+			}
+			id: "78B03D44BEC85E33"
+			rewards: [{
+				auto: "enabled"
+				id: "7A43E41DFB9C6037"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.42d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "32B57D6520BAD1C8"
+				item: { count: 1, id: "modern_industrialization:assembler" }
+				type: "item"
+			}]
+			x: -16.964d
+			y: 41.284d
+		}
+		{
+			dependencies: ["78B03D44BEC85E33"]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			icon_scale: 0.96d
+			id: "3F46C281C95CF4BD"
+			rewards: [{
+				auto: "enabled"
+				id: "6A82631378B948F7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_mass_processing_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "57ECEFB9FABF6E55"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -25.821d
+			y: 51.613d
+		}
+		{
+			dependencies: ["78B03D44BEC85E33"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:bronze_plate"
+			}
+			icon_scale: 0.95d
+			id: "0319E7AB634015F4"
+			rewards: [{
+				auto: "enabled"
+				id: "442D7619FA3FC553"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "2D6C6BAF46542096"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+				type: "item"
+			}]
+			x: -10.994d
+			y: 45.288d
+		}
+		{
+			dependencies: ["0319E7AB634015F4"]
+			icon: {
+				id: "moderndynamics:item_pipe"
+			}
+			icon_scale: 0.95d
+			id: "08802334BAA9018C"
+			rewards: [{
+				auto: "enabled"
+				id: "4FAD4B2FDAD39034"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "071989D21A11C07F"
+				item: { count: 1, id: "moderndynamics:item_pipe" }
+				type: "item"
+			}]
+			x: -12.847d
+			y: 46.079d
+		}
+		{
+			dependencies: [
+				"102A58D325A45A3D"
+				"7D6499EC8771BC3C"
+			]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			icon_scale: 0.94d
+			id: "2A88FF5E5FAF8EE0"
+			rewards: [{
+				auto: "enabled"
+				id: "7A1E20AD6C61E857"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_efficiency"
+			size: 1.04d
+			tags: [
+				"theme_mass_processing_efficiency"
+				"role_efficiency"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "76BB40E8B64FE7E1"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "632ED2E9C48384C2"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+			]
+			x: -24.222d
+			y: 39.467d
+		}
+		{
+			dependencies: ["78B03D44BEC85E33"]
+			icon: {
+				id: "modern_industrialization:bronze_macerator"
+			}
+			icon_scale: 0.95d
+			id: "7B95BBC96811B34A"
+			rewards: [{
+				auto: "enabled"
+				id: "132AFB403B8DDA7B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "29A6571D928BD3B9"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: -7.287d
+			y: 43.707d
+		}
+		{
+			dependencies: ["7B95BBC96811B34A"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "modern_industrialization:bronze_plate"
+			}
+			icon_scale: 0.95d
+			id: "468DC34B071A3DDC"
+			rewards: [{
+				auto: "enabled"
+				id: "01626705BE0B7BD1"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_mass_processing_required"
+				"role_required"
+			]
+			tasks: [{
+				count: 16L
+				id: "2441E54AFFE77C1E"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "modern_industrialization:bronze_plate" }
+				type: "item"
+			}]
+			x: -9.14d
+			y: 44.498d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			icon: {
+				id: "modern_industrialization:large_steam_boiler"
+			}
+			id: "29DD5348EB69DEB4"
+			rewards: [{
+				auto: "enabled"
+				id: "06060A469DEDBDE3"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_electrical_grid_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "739D21870FBD821D"
+				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+				type: "item"
+			}]
+			x: -20.613d
+			y: 21.552d
+		}
+		{
+			dependencies: [
+				"0C462947C2A27098"
+				"09DA0EFC9C85F330"
+			]
+			icon: {
+				id: "rubberworks:rubber_sheet"
+			}
+			icon_scale: 0.95d
+			id: "0ADD8B1590469343"
+			rewards: [{
+				auto: "enabled"
+				id: "23F3B15B41FD3FA8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_heavy_industry_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "22DCEA6E801D8FE3"
+					item: { count: 1, id: "rubberworks:rubber_sheet" }
+					type: "item"
+				}
+				{
+					id: "66FA6D2281914237"
+					item: { count: 1, id: "modern_industrialization:distillery" }
+					type: "item"
+				}
+			]
+			x: -14.331d
+			y: 15.598d
+		}
+		{
+			dependencies: ["0ADD8B1590469343"]
+			icon: {
+				id: "modern_industrialization:distillery"
+			}
+			icon_scale: 0.98d
+			id: "43B718A034CF42A5"
+			rewards: [{
+				auto: "enabled"
+				id: "256C8676B502A026"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_heavy_industry_production"
+				"role_production"
+			]
+			tasks: [{
+				advancement: "modern_industrialization:distillery"
+				criterion: ""
+				id: "6D444BE8D29000D3"
+				type: "advancement"
+			}]
+			x: -16.185d
+			y: 16.388d
+		}
+		{
+			dependencies: ["00E84A6CCFFC95F4"]
+			icon: {
+				id: "colossalchests:colossal_chest_wood"
+			}
+			id: "28B110DC18EA3D8C"
+			rewards: [{
+				auto: "enabled"
+				id: "69A1D79266E0CB5A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_low_voltage_optional"
+				"role_optional"
+			]
+			tasks: [
+				{
+					id: "72897F2487EAEB68"
+					item: { count: 1, id: "colossalchests:colossal_chest_wood" }
+					type: "item"
+				}
+				{
+					id: "0BF2C1358C16A083"
+					item: { count: 1, id: "colossalchests:interface_wood" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "358732E7EB7242D2"
+					item: { count: 1, id: "colossalchests:chest_wall_wood" }
+					type: "item"
+				}
+			]
+			x: 110.0d
+			y: -42.0d
+		}
+		{
+			dependencies: ["52BB0CEF01AF4365"]
+			hide_dependency_lines: true
+			icon: {
+				id: "adchimneys:metal_pump"
+			}
+			id: "2B955B633D13ECC9"
+			rewards: [{
+				auto: "enabled"
+				id: "4CC8FD805F2AFE3A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "createch_optional"
+			size: 0.94d
+			tags: [
+				"theme_low_voltage_optional"
+				"role_optional"
+			]
+			tasks: [{
+				id: "0BAA47CF22A51578"
+				item: { count: 1, id: "adchimneys:metal_pump" }
+				type: "item"
+			}]
+			x: 114.0d
+			y: -42.0d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"0E2455931392BE9E"
+			]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "179043EF25421123"
+			rewards: [{
+				auto: "enabled"
+				id: "4AD2FC2CAE882A40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "createch_optional"
+			size: 2.1d
+			tags: [
+				"theme_low_voltage_capstone"
+				"role_optional"
+				"discipline_mastery"
+			]
+			tasks: [
+				{
+					id: "13D7D7BC29A3AD89"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					id: "6DB9295597805F3B"
+					item: { count: 1, id: "aeroworks:mechanical_servo" }
+					type: "item"
+				}
+				{
+					id: "254EF4A47CD8327D"
+					item: { count: 1, id: "aeroworks:control_desk" }
+					type: "item"
+				}
+			]
+			x: 146.0d
+			y: -63.0d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modern_industrialization:basic_machine_hull"
+			}
+			id: "0506EC6258285666"
+			rewards: [{
+				auto: "enabled"
+				id: "6AFA5FD96865F3B8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [{
+				id: "1DAFEE92F801FE04"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: 176.0d
+			y: -69.5d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:low_covalence_dust"
+			}
+			id: "6391FE6B21D318A1"
+			rewards: [{
+				auto: "enabled"
+				id: "7039285D48D6CEE4"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [{
+				count: 8L
+				id: "4EFD696372614F59"
+				item: { count: 1, id: "projecte:low_covalence_dust" }
+				type: "item"
+			}]
+			x: 194.0d
+			y: -76.0d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			hide_dependency_lines: true
+			icon: {
+				id: "moderndynamics:item_pipe"
+			}
+			id: "78BBCB68691334D9"
+			rewards: [{
+				auto: "enabled"
+				id: "6BD0B7493F3DED7C"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "16401C18D8485FD9"
+					item: { count: 1, id: "moderndynamics:item_pipe" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "544A4D4B95C56179"
+					item: { count: 1, id: "moderndynamics:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "284A2A3EBBAE270E"
+					item: { count: 1, id: "moderndynamics:extractor" }
+					type: "item"
+				}
+			]
+			x: 226.0d
+			y: -76.0d
+		}
+		{
+			dependencies: ["09DA0EFC9C85F330"]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:ferricore_ingot"
+			}
+			id: "646C5F4F3861467B"
+			rewards: [{
+				auto: "enabled"
+				id: "683694672003556F"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_target"
+			size: 1.14d
+			tags: [
+				"theme_low_voltage_production"
+				"role_production"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2E69F743D92AAB4F"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+				{
+					id: "2A72FC431F37F22D"
+					item: { count: 1, id: "justdirethings:template_ferricore" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -76.0d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"646C5F4F3861467B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:blockplacert1"
+			}
+			id: "2914934F74DA044D"
+			rewards: [{
+				auto: "enabled"
+				id: "7ED030E5D41C1A71"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			size: 1.22d
+			tags: [
+				"theme_low_voltage_required"
+				"role_required"
+			]
+			tasks: [
+				{
+					id: "24B7C048AABF415E"
+					item: { count: 1, id: "justdirethings:blockplacert1" }
+					type: "item"
+				}
+				{
+					id: "53C35808197EB18A"
+					item: { count: 1, id: "justdirethings:blockbreakert1" }
+					type: "item"
+				}
+				{
+					id: "33BA398689B278D2"
+					item: { count: 1, id: "justdirethings:sensort1" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -72.75d
+		}
+		{
+			dependencies: [
+				"09DA0EFC9C85F330"
+				"2914934F74DA044D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:ferricore_ingot"
+			}
+			id: "65BF748E23159DE8"
+			rewards: [{
+				auto: "enabled"
+				id: "00B31D8453BE1149"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "createch_recovery"
+			size: 1.04d
+			tags: [
+				"theme_low_voltage_recovery"
+				"role_recovery"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "26810991EA1C1DF8"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5050B86F39F0CCA6"
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1414CF11D0C7FCF7"
+					item: { count: 1, id: "electroenergetics:converter" }
+					type: "item"
+				}
+			]
+			x: 244.0d
+			y: -69.5d
+		}
+	]
+	tags: ["theme_low_voltage_chapter"]
+}

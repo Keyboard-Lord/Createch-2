@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "CHC",
+    "PFP"
+  ],
+  "key": {
+    "T": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "H": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    },
+    "F": {
+      "tag": "createch2:chemical_filter_media"
+    }
+  },
+  "result": {
+    "id": "mekanism:chemical_washer",
+    "count": 1
+  }
+}

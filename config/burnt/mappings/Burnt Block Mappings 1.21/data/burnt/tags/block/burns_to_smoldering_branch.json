@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cedar_branch",
+      "required": false
+    },
+    {
+      "id": "yourmod:oak_twig",
+      "required": false
+    }
+  ]
+}

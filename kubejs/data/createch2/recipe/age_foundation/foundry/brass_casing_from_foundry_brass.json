@@ -1,0 +1,17 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "c:stripped_logs"
+    },
+    {
+      "tag": "createch2:materials/brass/foundry"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:brass_casing"
+    }
+  ]
+}

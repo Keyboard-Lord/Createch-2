@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "PHP",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "greate:titanium_cogwheel"
+    },
+    "S": {
+      "item": "greate:titanium_shaft"
+    },
+    "P": {
+      "tag": "c:plates/titanium"
+    },
+    "H": {
+      "item": "greate:stainless_steel_gearbox"
+    }
+  },
+  "result": {
+    "id": "greate:titanium_gearbox",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "BHB",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_large_plate"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "H": {
+      "item": "productivebees:advanced_oak_beehive"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "id": "modularbees:modular_beehive_core",
+    "count": 1
+  }
+}

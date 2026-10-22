@@ -1,0 +1,47 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "create:shaft"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mec_01_rotary_mechanics.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mec_01_rotary_mechanics.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:age_foundation/create/shaft",
+      "createch2:age_foundation/create/hand_crank",
+      "createch2:age_foundation/create/water_wheel",
+      "createch2:age_foundation/create/large_water_wheel",
+      "createch2:research/pack/kinetic_data_workshop",
+      "createch2:mobility/field_glider",
+      "createch2:mobility/field_glider_repair",
+      "greate:integration/createch2/research/pack/kinetic_data_workshop",
+      "greate:integration/createch_2_/research/pack/kinetic_data_workshop"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/block/compressed_iron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/slab/compressed_iron",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/stairs/compressed_iron",
+      "required": false
+    }
+  ]
+}

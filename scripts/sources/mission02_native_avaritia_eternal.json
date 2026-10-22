@@ -1,0 +1,967 @@
+{
+  "schema": 1,
+  "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+  "jarSha256": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
+  "classes": {
+    "singularity": {
+      "class": "committee.nova.mods.avaritia.core.singularity.Singularity",
+      "sha256": "07ff8c3f46ad3f8fb6e0d63193162ec58d33f369fef0d8299dfccd7eaefc340e"
+    },
+    "reload": {
+      "class": "committee.nova.mods.avaritia.core.singularity.SingularityReloadListener",
+      "sha256": "af0156d1bc6df26521f687215315e40136dcd3c2eee4b10c3751238c493070ed"
+    },
+    "internal": {
+      "class": "committee.nova.mods.avaritia.init.handler.InternalRecipeHandler",
+      "sha256": "b02fea3ab5ce49a19c787181d9ace303fa792daf34a533434b9127b6eeb11337"
+    },
+    "api": {
+      "class": "committee.nova.mods.avaritia.ModApi",
+      "sha256": "3d5bd66d07e0e2b9198addd13c69f523782855e4e6a377589ed498c412939737"
+    },
+    "utils": {
+      "class": "committee.nova.mods.avaritia.util.SingularityUtils",
+      "sha256": "7fbeae0bea181e7d14bba3228904f7ae05853831ba6703fb31cc417703df215f"
+    },
+    "compressor": {
+      "class": "committee.nova.mods.avaritia.common.tile.NeutronCompressorTile",
+      "sha256": "b8788728e38c2d32d8d01a057862f7f0b202c3143de522d7ff48e0d29bd3f57d"
+    },
+    "tier": {
+      "class": "committee.nova.mods.avaritia.init.registry.enums.CompressorTier",
+      "sha256": "70a54fbecadcc835b17c79324343a1184e516cdc9be0589b8e21c863decde315"
+    },
+    "eternal": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.EternalSingularityCraftRecipe",
+      "sha256": "b89f9c3633d35b896a1cfad9e56255f0aaa26f7e19bde7c08f14c88833da6e37"
+    },
+    "catalyst": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.InfinityCatalystCraftRecipe",
+      "sha256": "4506d71c1c965e39a43aa80f9a07779c0a1c9491a1dcc5082d5ac55f39e39d74"
+    },
+    "catalystSerializer": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.InfinityCatalystCraftRecipe$Serializer",
+      "sha256": "27998a8273c1ef7f7721cc522557d1d7a5c24967e9267b713e332111a6aa0019"
+    },
+    "shaped": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.ShapedTableCraftingRecipe",
+      "sha256": "cb3d47c1180e19f0100cce925f387b4815c7334467acd4cca9b2146369028d65"
+    },
+    "pattern": {
+      "class": "committee.nova.mods.avaritia.api.common.crafting.ShapedRecipePatternCodecs",
+      "sha256": "b639963464c6d9c6615e8dc37e407d167bd4e607a8b536f36199811ad98e9f6a"
+    },
+    "shapedSerializer": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.ShapedTableCraftingRecipe$Serializer",
+      "sha256": "5b5347222b18dd14f0ef521b7dee10360b7fba68ea1d998ab6208da318a96700"
+    },
+    "shapeless": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.ShapelessTableCraftingRecipe",
+      "sha256": "b4b71c6b1808d6294fbc8f94c6b34433bcfd9bdedb1a44657c70db81fb4cbe0b"
+    },
+    "shapelessSerializer": {
+      "class": "committee.nova.mods.avaritia.common.crafting.recipe.ShapelessTableCraftingRecipe$Serializer",
+      "sha256": "512d9fc881a660d048c3519364a54528c00d24eac66a79158091ed6837039d12"
+    },
+    "craftTier": {
+      "class": "committee.nova.mods.avaritia.init.registry.enums.ModCraftTier",
+      "sha256": "77063d2da339c2284aba95e8c18b3091a9368123a9ed7d1780c1d7a3a0dda127"
+    },
+    "osmium": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.machine.TileEntityOsmiumCompressor",
+      "sha256": "8cdf9e8e33fde79fb96c512977150ab32d8fecd6a8b171c38b9facf756e72286"
+    },
+    "advanced": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.common.tile.prefab.TileEntityAdvancedElectricMachine",
+      "sha256": "a7194953f748c9cd0d8bacc38f02c82b850523faf4fede175a9b49b8dad92b99"
+    },
+    "constant": {
+      "jar": "Mekanism-1.21.1-10.7.19.85.jar",
+      "class": "mekanism.api.recipes.cache.ItemStackConstantChemicalToObjectCachedRecipe$ChemicalUsageMultiplier",
+      "sha256": "5484c533e6b3cff3eca17972b6c3356e2fc301a456f52b6983ec9d4628018d3a"
+    },
+    "kjsCatalyst": {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "class": "committee.nova.mods.avaritia.init.compat.kubejs.schema.InfinityCatalystRecipeSchema",
+      "sha256": "42ebbacfcbcd4fc65a7a7ab1e09967dfde10af5e6771bc0a89ab84025bfcbf9a"
+    },
+    "kjsEternal": {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "class": "committee.nova.mods.avaritia.init.compat.kubejs.schema.EternalSingularityRecipeSchema",
+      "sha256": "fe8eb2744d0589be7c48596dbb16a1e814c3aaa1bc39f8b019c2d58c82e20890"
+    },
+    "kjsOutput": {
+      "jar": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "class": "dev.latvian.mods.kubejs.recipe.filter.OutputFilter",
+      "sha256": "1afe4c78106b6f5820c34ace1c5167757e77aa3b86a004a43649461f778475ce"
+    },
+    "kjsRecipe": {
+      "jar": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "class": "dev.latvian.mods.kubejs.recipe.KubeRecipe",
+      "sha256": "58c22d4db597ae59008a88997105844782b94e9b258412f2170da9c1c4586993"
+    }
+  },
+  "nativeSingularities": {
+    "data/avaritia/singularities/emerald.json": {
+      "displayName": "singularity.avaritia.emerald",
+      "ingredient": {
+        "item": "minecraft:emerald"
+      },
+      "name": "avaritia:emerald",
+      "overlayColor": 8255660,
+      "underlayColor": 36378
+    },
+    "data/avaritia/singularities/coal.json": {
+      "displayName": "singularity.avaritia.coal",
+      "ingredient": {
+        "item": "minecraft:coal"
+      },
+      "name": "avaritia:coal",
+      "overlayColor": 3553081,
+      "underlayColor": 2498084
+    },
+    "data/avaritia/singularities/diamond.json": {
+      "displayName": "singularity.avaritia.diamond",
+      "ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "name": "avaritia:diamond",
+      "overlayColor": 10943721,
+      "underlayColor": 1748136
+    },
+    "data/avaritia/singularities/bronze.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/bronze"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.bronze",
+      "ingredient": {
+        "tag": "c:ingots/bronze"
+      },
+      "name": "avaritia:bronze",
+      "overlayColor": 14262083,
+      "underlayColor": 12282683
+    },
+    "data/avaritia/singularities/nickel.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/nickel"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.nickel",
+      "ingredient": {
+        "tag": "c:ingots/nickel"
+      },
+      "name": "avaritia:nickel",
+      "overlayColor": 14800792,
+      "underlayColor": 11638636
+    },
+    "data/avaritia/singularities/aluminum.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/aluminum"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.aluminum",
+      "ingredient": {
+        "tag": "c:ingots/aluminum"
+      },
+      "name": "avaritia:aluminum",
+      "overlayColor": 13290714,
+      "underlayColor": 10132646
+    },
+    "data/avaritia/singularities/copper.json": {
+      "displayName": "singularity.avaritia.copper",
+      "ingredient": {
+        "item": "minecraft:copper_ingot"
+      },
+      "name": "avaritia:copper",
+      "overlayColor": 16422780,
+      "underlayColor": 12342320
+    },
+    "data/avaritia/singularities/silver.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/silver"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.silver",
+      "ingredient": {
+        "tag": "c:ingots/silver"
+      },
+      "name": "avaritia:silver",
+      "overlayColor": 12635602,
+      "underlayColor": 6254204
+    },
+    "data/avaritia/singularities/amethyst_shard.json": {
+      "displayName": "singularity.avaritia.amethyst_shard",
+      "ingredient": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "name": "avaritia:amethyst_shard",
+      "overlayColor": 13607155,
+      "underlayColor": 9267916
+    },
+    "data/avaritia/singularities/platinum.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/platinum"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.platinum",
+      "ingredient": {
+        "tag": "c:ingots/platinum"
+      },
+      "name": "avaritia:platinum",
+      "overlayColor": 7334639,
+      "underlayColor": 5748924
+    },
+    "data/avaritia/singularities/uranium.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/uranium"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.uranium",
+      "ingredient": {
+        "tag": "c:ingots/uranium"
+      },
+      "name": "avaritia:uranium",
+      "overlayColor": 13826513,
+      "underlayColor": 10929572
+    },
+    "data/avaritia/singularities/blue_ice.json": {
+      "displayName": "singularity.avaritia.blue_ice",
+      "ingredient": {
+        "item": "minecraft:blue_ice"
+      },
+      "name": "avaritia:blue_ice",
+      "overlayColor": 9353470,
+      "underlayColor": 7052795
+    },
+    "data/avaritia/singularities/redstone.json": {
+      "displayName": "singularity.avaritia.redstone",
+      "ingredient": {
+        "item": "minecraft:redstone"
+      },
+      "name": "avaritia:redstone",
+      "overlayColor": 16711680,
+      "underlayColor": 9046273
+    },
+    "data/avaritia/singularities/steel.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/steel"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.steel",
+      "ingredient": {
+        "tag": "c:ingots/steel"
+      },
+      "name": "avaritia:steel",
+      "overlayColor": 5658198,
+      "underlayColor": 2302755
+    },
+    "data/avaritia/singularities/tin.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/tin"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.tin",
+      "ingredient": {
+        "tag": "c:ingots/tin"
+      },
+      "name": "avaritia:tin",
+      "overlayColor": 10534589,
+      "underlayColor": 5404809
+    },
+    "data/avaritia/singularities/netherite.json": {
+      "displayName": "singularity.avaritia.netherite",
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "name": "avaritia:netherite",
+      "overlayColor": 4471355,
+      "underlayColor": 1709590
+    },
+    "data/avaritia/singularities/obsidian.json": {
+      "displayName": "singularity.avaritia.obsidian",
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "name": "avaritia:obsidian",
+      "underlayColor": 1051676
+    },
+    "data/avaritia/singularities/quartz.json": {
+      "displayName": "singularity.avaritia.quartz",
+      "ingredient": {
+        "item": "minecraft:quartz"
+      },
+      "name": "avaritia:quartz",
+      "overlayColor": 15394270,
+      "underlayColor": 11969678
+    },
+    "data/avaritia/singularities/lapis_lazuli.json": {
+      "displayName": "singularity.avaritia.lapis_lazuli",
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "name": "avaritia:lapis_lazuli",
+      "overlayColor": 6786538,
+      "underlayColor": 1790887
+    },
+    "data/avaritia/singularities/electrum.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/electrum"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.electrum",
+      "ingredient": {
+        "tag": "c:ingots/electrum"
+      },
+      "name": "avaritia:electrum",
+      "overlayColor": 16118158,
+      "underlayColor": 10390846
+    },
+    "data/avaritia/singularities/gold.json": {
+      "displayName": "singularity.avaritia.gold",
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      },
+      "name": "avaritia:gold",
+      "overlayColor": 16643423,
+      "underlayColor": 14257668
+    },
+    "data/avaritia/singularities/iron.json": {
+      "displayName": "singularity.avaritia.iron",
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      },
+      "name": "avaritia:iron",
+      "overlayColor": 14803425,
+      "underlayColor": 7105644
+    },
+    "data/avaritia/singularities/glowstone.json": {
+      "displayName": "singularity.avaritia.glowstone",
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "name": "avaritia:glowstone",
+      "overlayColor": 16765839,
+      "underlayColor": 10510645
+    },
+    "data/avaritia/singularities/invar.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/invar"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.invar",
+      "ingredient": {
+        "tag": "c:ingots/invar"
+      },
+      "name": "avaritia:invar",
+      "overlayColor": 12371387,
+      "underlayColor": 6125687
+    },
+    "data/avaritia/singularities/lead.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/lead"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.lead",
+      "ingredient": {
+        "tag": "c:ingots/lead"
+      },
+      "name": "avaritia:lead",
+      "overlayColor": 7110034,
+      "underlayColor": 3290466
+    },
+    "data/avaritia/singularities/osmium.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/osmium"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.osmium",
+      "ingredient": {
+        "tag": "c:ingots/osmium"
+      },
+      "name": "avaritia:osmium",
+      "overlayColor": 15134455,
+      "underlayColor": 12633293
+    },
+    "data/avaritia/singularities/refined_obsidian.json": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ingots/refined_obsidian"
+          }
+        }
+      ],
+      "displayName": "singularity.avaritia.refined_obsidian",
+      "ingredient": {
+        "tag": "c:ingots/refined_obsidian"
+      },
+      "name": "avaritia:refined_obsidian",
+      "overlayColor": 11116984,
+      "underlayColor": 9271479
+    }
+  },
+  "resourceCensus": [
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/emerald.json",
+      "data": {
+        "displayName": "singularity.avaritia.emerald",
+        "ingredient": {
+          "item": "minecraft:emerald"
+        },
+        "name": "avaritia:emerald",
+        "overlayColor": 8255660,
+        "underlayColor": 36378
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/coal.json",
+      "data": {
+        "displayName": "singularity.avaritia.coal",
+        "ingredient": {
+          "item": "minecraft:coal"
+        },
+        "name": "avaritia:coal",
+        "overlayColor": 3553081,
+        "underlayColor": 2498084
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/diamond.json",
+      "data": {
+        "displayName": "singularity.avaritia.diamond",
+        "ingredient": {
+          "item": "minecraft:diamond"
+        },
+        "name": "avaritia:diamond",
+        "overlayColor": 10943721,
+        "underlayColor": 1748136
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/bronze.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/bronze"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.bronze",
+        "ingredient": {
+          "tag": "c:ingots/bronze"
+        },
+        "name": "avaritia:bronze",
+        "overlayColor": 14262083,
+        "underlayColor": 12282683
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/nickel.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/nickel"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.nickel",
+        "ingredient": {
+          "tag": "c:ingots/nickel"
+        },
+        "name": "avaritia:nickel",
+        "overlayColor": 14800792,
+        "underlayColor": 11638636
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/aluminum.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/aluminum"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.aluminum",
+        "ingredient": {
+          "tag": "c:ingots/aluminum"
+        },
+        "name": "avaritia:aluminum",
+        "overlayColor": 13290714,
+        "underlayColor": 10132646
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/copper.json",
+      "data": {
+        "displayName": "singularity.avaritia.copper",
+        "ingredient": {
+          "item": "minecraft:copper_ingot"
+        },
+        "name": "avaritia:copper",
+        "overlayColor": 16422780,
+        "underlayColor": 12342320
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/silver.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/silver"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.silver",
+        "ingredient": {
+          "tag": "c:ingots/silver"
+        },
+        "name": "avaritia:silver",
+        "overlayColor": 12635602,
+        "underlayColor": 6254204
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/amethyst_shard.json",
+      "data": {
+        "displayName": "singularity.avaritia.amethyst_shard",
+        "ingredient": {
+          "item": "minecraft:amethyst_shard"
+        },
+        "name": "avaritia:amethyst_shard",
+        "overlayColor": 13607155,
+        "underlayColor": 9267916
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/platinum.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/platinum"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.platinum",
+        "ingredient": {
+          "tag": "c:ingots/platinum"
+        },
+        "name": "avaritia:platinum",
+        "overlayColor": 7334639,
+        "underlayColor": 5748924
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/uranium.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/uranium"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.uranium",
+        "ingredient": {
+          "tag": "c:ingots/uranium"
+        },
+        "name": "avaritia:uranium",
+        "overlayColor": 13826513,
+        "underlayColor": 10929572
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/blue_ice.json",
+      "data": {
+        "displayName": "singularity.avaritia.blue_ice",
+        "ingredient": {
+          "item": "minecraft:blue_ice"
+        },
+        "name": "avaritia:blue_ice",
+        "overlayColor": 9353470,
+        "underlayColor": 7052795
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/redstone.json",
+      "data": {
+        "displayName": "singularity.avaritia.redstone",
+        "ingredient": {
+          "item": "minecraft:redstone"
+        },
+        "name": "avaritia:redstone",
+        "overlayColor": 16711680,
+        "underlayColor": 9046273
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/steel.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/steel"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.steel",
+        "ingredient": {
+          "tag": "c:ingots/steel"
+        },
+        "name": "avaritia:steel",
+        "overlayColor": 5658198,
+        "underlayColor": 2302755
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/tin.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/tin"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.tin",
+        "ingredient": {
+          "tag": "c:ingots/tin"
+        },
+        "name": "avaritia:tin",
+        "overlayColor": 10534589,
+        "underlayColor": 5404809
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/netherite.json",
+      "data": {
+        "displayName": "singularity.avaritia.netherite",
+        "ingredient": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "name": "avaritia:netherite",
+        "overlayColor": 4471355,
+        "underlayColor": 1709590
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/obsidian.json",
+      "data": {
+        "displayName": "singularity.avaritia.obsidian",
+        "ingredient": {
+          "item": "minecraft:obsidian"
+        },
+        "name": "avaritia:obsidian",
+        "underlayColor": 1051676
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/quartz.json",
+      "data": {
+        "displayName": "singularity.avaritia.quartz",
+        "ingredient": {
+          "item": "minecraft:quartz"
+        },
+        "name": "avaritia:quartz",
+        "overlayColor": 15394270,
+        "underlayColor": 11969678
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/lapis_lazuli.json",
+      "data": {
+        "displayName": "singularity.avaritia.lapis_lazuli",
+        "ingredient": {
+          "item": "minecraft:lapis_lazuli"
+        },
+        "name": "avaritia:lapis_lazuli",
+        "overlayColor": 6786538,
+        "underlayColor": 1790887
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/electrum.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/electrum"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.electrum",
+        "ingredient": {
+          "tag": "c:ingots/electrum"
+        },
+        "name": "avaritia:electrum",
+        "overlayColor": 16118158,
+        "underlayColor": 10390846
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/gold.json",
+      "data": {
+        "displayName": "singularity.avaritia.gold",
+        "ingredient": {
+          "item": "minecraft:gold_ingot"
+        },
+        "name": "avaritia:gold",
+        "overlayColor": 16643423,
+        "underlayColor": 14257668
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/iron.json",
+      "data": {
+        "displayName": "singularity.avaritia.iron",
+        "ingredient": {
+          "item": "minecraft:iron_ingot"
+        },
+        "name": "avaritia:iron",
+        "overlayColor": 14803425,
+        "underlayColor": 7105644
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/glowstone.json",
+      "data": {
+        "displayName": "singularity.avaritia.glowstone",
+        "ingredient": {
+          "item": "minecraft:glowstone_dust"
+        },
+        "name": "avaritia:glowstone",
+        "overlayColor": 16765839,
+        "underlayColor": 10510645
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/invar.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/invar"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.invar",
+        "ingredient": {
+          "tag": "c:ingots/invar"
+        },
+        "name": "avaritia:invar",
+        "overlayColor": 12371387,
+        "underlayColor": 6125687
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/lead.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/lead"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.lead",
+        "ingredient": {
+          "tag": "c:ingots/lead"
+        },
+        "name": "avaritia:lead",
+        "overlayColor": 7110034,
+        "underlayColor": 3290466
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/osmium.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/osmium"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.osmium",
+        "ingredient": {
+          "tag": "c:ingots/osmium"
+        },
+        "name": "avaritia:osmium",
+        "overlayColor": 15134455,
+        "underlayColor": 12633293
+      }
+    },
+    {
+      "jar": "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+      "path": "data/avaritia/singularities/refined_obsidian.json",
+      "data": {
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:not",
+            "value": {
+              "type": "neoforge:tag_empty",
+              "tag": "c:ingots/refined_obsidian"
+            }
+          }
+        ],
+        "displayName": "singularity.avaritia.refined_obsidian",
+        "ingredient": {
+          "tag": "c:ingots/refined_obsidian"
+        },
+        "name": "avaritia:refined_obsidian",
+        "overlayColor": 11116984,
+        "underlayColor": 9271479
+      }
+    }
+  ],
+  "sharedNativeCodeSha256": {
+    "infuser": {
+      "infuser": "3f4d34bf7922c9dcff4867e010d6caa0c4d71bbb4c7592200aadb207115cde12",
+      "energySlot": "505f3d89b80482105bd4362c30246a6d5095bb1e0a59533738bd1ee6c9b93ae3",
+      "chemicalSlot": "0b24b0f20f742ddd71a7d73afa1a6e3bd89a4265aee89ee28564644c790482e0",
+      "machineEnergy": "a7a992d0dd4e2c0f4f3eb782b081dddf2827d8130401d90ff4266c2bdd1cbe20",
+      "cached": "30ec6b2844b1c8aa82075edfacdc18ae9b275c18c0d06e49442ab89ef567fe6a",
+      "twoInput": "c5b6eb3b0dca554da4bffd8868d31bfce31d37721666cf40ae8db60cabc31262",
+      "serializer": "1c24186a42da04cf315a3b59ac1bd8086566290a6fcc6ad56b4af066ca8bde47",
+      "ingredient": "8913eda49e7acee2c5209d128adb078d511090e2bac5e0f312a4701db74811d9",
+      "blockTypes": "6351fb732237968ae05248dc9467b5c6f232bb7d27dd05505681f4dd53d77929",
+      "chemicalTank": "e9ee7a8e4fb56400813af90de4bb98c7230fd32778d88eb52e4ed5b6be2973ae"
+    },
+    "lv": {
+      "crafter": "8f59bb82a3f07194fa94008f93268da1835985ef3906d48ddc216a9aa1366fd6",
+      "behavior": "9b0a42685f6dacff29e1334a99b6de9bea8ebf94c57f7021f1ba390e4c9f5683",
+      "electric": "76ead9b8226a84b654965e8903c12552beec781509394d37313f9c263bb66fd4",
+      "energy": "d01eec6de0554f8cf8b9256a5593953678ffdc618ff605b24fcd8b3725d8d763",
+      "upgrades": "b2c87532986646b1aaf86cbc393fe457ae8c113c99098f44d37895f19cc9cbd6",
+      "registration": "718f85096ab053890f699c25b94bc20bca54563aa1d3d574733c7f2daa0f66a5",
+      "tier": "98a53961ea2565fe2626c3608172fdcdc76f01493a29880ddc417d4cce93775f",
+      "casing": "8f9be7e4e85d13721d59aa64c840ccf71b839dd569f6e15c761a72c7ee413de0",
+      "cable": "b7419bba67a7433663f3fd67ae458195e3306c32ede9c885bb08d68467e38111",
+      "cablePart": "43f0a956c3047267b1dc87deb682eb91f4b615f3fecce321323c5c1e4f4f9205",
+      "materials": "ff014b008a867f19d7935c3d02ed2cf7b4293df5b0eb84c5cb761b8b64f9be8d",
+      "network": "a71252c150a211892fc4beaea32e7907fb696c4dddb24ad1538134b85edd7e44",
+      "networkBootstrap": "0bef5ebaf991804da0117710efe6f20aac1d2db097b7ca8e1b06be30c28a48a3",
+      "networkNode": "ebec8b8e26bfc8489b538844a4eaeb6fb39bd86de06c1322cef7b19963943e61",
+      "recipe": "8a38ceb99bcb761783502f0b56736addd74631d229743be5e8c2b5616acda8f0"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_metal_blocks/wrought_iron",
+    "#createch2:tfc_metal_blocks/cast_iron"
+  ]
+}

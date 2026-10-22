@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "rocketnautics:jetpack",
+    "create:copper_backtank",
+    "create:netherite_backtank",
+    "stellaris:oxygen_tank",
+    "stellaris:big_oxygen_tank",
+    "stellaris:space_suit_chestplate",
+    "stellaris:jet_suit_chestplate"
+  ]
+}

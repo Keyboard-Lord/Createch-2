@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BHB",
+    "TCT",
+    "PEP"
+  ],
+  "key": {
+    "B": {
+      "item": "electroenergetics:sulfur_hexafluoride_breaker"
+    },
+    "H": {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    "T": {
+      "item": "electroenergetics:transformer_core"
+    },
+    "C": {
+      "item": "modern_industrialization:processing_unit"
+    },
+    "P": {
+      "item": "modern_industrialization:platinum_plate"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "result": {
+    "id": "gtceu:iv_1a_energy_converter",
+    "count": 1
+  }
+}

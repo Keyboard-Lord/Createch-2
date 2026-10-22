@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S#",
+    "SPP",
+    "BWW"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "tag": "c:ingots/bronze"
+    },
+    "P": {
+      "item": "tfc:wood/planks/spruce"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "W": {
+      "item": "tfcastikorcarts:wheel/spruce"
+    }
+  },
+  "result": {
+    "id": "tfcastikorcarts:reaper/spruce",
+    "count": 1
+  }
+}

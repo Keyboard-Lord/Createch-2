@@ -1,0 +1,39 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 110,
+    "min_y": -24,
+    "max_y": 24,
+    "size": 24,
+    "density": 0.3,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "minecraft:terracotta"
+        ],
+        "with": [
+          {
+            "weight": 100,
+            "block": "sgjourney:naquadah_ore"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 118,
+      "underground_rarity": 6,
+      "underground_count": 1,
+      "depth": 58,
+      "blocks": [
+        {
+          "block": "minecraft:small_amethyst_bud"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_abydos_naquadah_tfc_vein"
+  }
+}

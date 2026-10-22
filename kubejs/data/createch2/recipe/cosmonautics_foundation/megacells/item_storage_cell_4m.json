@@ -1,0 +1,19 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megacells:mega_item_cell_housing"
+    },
+    {
+      "item": "megacells:cell_component_4m"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "result": {
+    "id": "megacells:item_storage_cell_4m",
+    "count": 1
+  }
+}

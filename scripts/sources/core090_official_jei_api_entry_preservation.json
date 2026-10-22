@@ -1,0 +1,74 @@
+{
+  "truth": "STATIC_CORE090_OFFICIAL_JEI_API_ENTRY_PRESERVATION",
+  "before": "cc9e9a5c15ed050faccbeb9b340d180a74a7a647e8b2a905d18f094d8a3eb9a6",
+  "after": "5d3f7be8766cc613194eb425d644ee9cdaf788a9f0aae5cdf3f4a6598fab6e0c",
+  "added": [
+    "createch2/core/compat/client/Createch2JeiPlugin.class",
+    "createch2/core/compat/client/Createch2JeiPresentation$PresentationRemoveEntriesEvent.class",
+    "createch2/core/compat/client/Createch2JeiPresentation.class"
+  ],
+  "changed": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/neoforge.mods.toml",
+    "createch2/core/CoreRuntimeValidation.class",
+    "createch2/core/Createch2Core.class",
+    "createch2core.mixins.json"
+  ],
+  "removed": [
+    "createch2/core/mixin/performance/client/IngredientManagerBuilderMixin.class",
+    "createch2/core/performance/jei/Createch2JeiPrefilter$PreBuildRemoveEntriesEvent.class",
+    "createch2/core/performance/jei/Createch2JeiPrefilter.class"
+  ],
+  "allOtherEntriesByteIdentical": true,
+  "unchangedEntries": 383,
+  "unchangedEntriesSha256": "329c8fd33da96dc6cba50a64c1f64688e4b2f3189619dedb122dd6880d9c3157",
+  "sourceCheckpoint": "a4932df",
+  "rollback": "/Users/mcrae/Documents/Greate-Createch-Codex-Handoff/Createch-Pack-Development/createch-dev/docs/createch2_080/rollback/createch2core-pre-080-cc9e9a5c15ed050faccbeb9b340d180a74a7a647e8b2a905d18f094d8a3eb9a6.jar",
+  "entrySha256": {
+    "createch2/core/compat/client/Createch2JeiPlugin.class": {
+      "before": null,
+      "after": "e3af53c5be4abcbd3b6753a4b59717cd62a6d101ffceddd625dbf32ba5d5191c"
+    },
+    "createch2/core/compat/client/Createch2JeiPresentation$PresentationRemoveEntriesEvent.class": {
+      "before": null,
+      "after": "2dfbce58ffc344419a85bcb7016d4c56350c84a2f8f1a89ba11010dce026eeac"
+    },
+    "createch2/core/compat/client/Createch2JeiPresentation.class": {
+      "before": null,
+      "after": "e0af9f07fb15dae4eb5b1e32430040cad55b32d3efe54093cb036fc6d1066713"
+    },
+    "META-INF/MANIFEST.MF": {
+      "before": "78f8a12f62df100fb4faca41e28312515255f04efd2ba9af35e545c136a48ccc",
+      "after": "62c23df5e8ca2de09f6c0bfa42898fd5bc469d52ca98874076bd87f787b8182f"
+    },
+    "META-INF/neoforge.mods.toml": {
+      "before": "22b0f92db7cb409aa9e8f095f0784b2e8506175207c57af28d4dc918cae18a4b",
+      "after": "29c9bcbb66764c47bd9bd0f6acadf380a7c27db693e09ded327f38b6d62282d8"
+    },
+    "createch2/core/CoreRuntimeValidation.class": {
+      "before": "a4ccd67d7a3d08bf554b8064f5390905e5422efb5013226bfca616ffa9843880",
+      "after": "f703a64b9aa99f51708261d687784e0d54e2a74562a4bf3f2fb8f1f4256de0ae"
+    },
+    "createch2/core/Createch2Core.class": {
+      "before": "60c071d72e5b52d88413fb6e7d967dae25fd8595b528abd9228b710c99f1be46",
+      "after": "159cb0de16d207c6ba7141ede656d7ed3c9695cec28ffcda3a1c9f6a8247702c"
+    },
+    "createch2core.mixins.json": {
+      "before": "19607f99d490d0a4fca419010f6eafc4962fd0ed052f450a81da6852c16fead1",
+      "after": "8dc5251a4f5adbc092ab9b8a9109078eac01e4d9c14d87719ea6dfa3d169a8c6"
+    },
+    "createch2/core/mixin/performance/client/IngredientManagerBuilderMixin.class": {
+      "before": "c5d0d503272bcee8ed03202a936e1d749a34b41fa1b078d7d4f18bfd7ea85fb7",
+      "after": null
+    },
+    "createch2/core/performance/jei/Createch2JeiPrefilter$PreBuildRemoveEntriesEvent.class": {
+      "before": "8d3beafd890560d409f337f0e0132d754ae215e477afb1663b33bed441f42713",
+      "after": null
+    },
+    "createch2/core/performance/jei/Createch2JeiPrefilter.class": {
+      "before": "39a49b366105229d0c619d6c4ff9820873f4877cea33b01d1bb2313222d1b5c9",
+      "after": null
+    }
+  },
+  "scope": "Core0.9.0 metadata; retire internal JEI builder injection/prefilter; public JEI API plugin applies the same KubeJS removeEntries rules with EMI. Runtime validator checks the public plugin method. All other entries byte-identical, including progression guards. Official JEI19.64.0.455 file9205121;19.69.0.457 remains official but native CF rescans produce installed fingerprint0/status19/Modified after two native reinstalls. No metadata manually edited."
+}

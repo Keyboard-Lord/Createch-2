@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:food/nutrition/raw_meat",
+    "#createch2:food/nutrition/cooked_meat",
+    "#createch2:food/nutrition/raw_fish",
+    "#createch2:food/nutrition/cooked_fish"
+  ]
+}

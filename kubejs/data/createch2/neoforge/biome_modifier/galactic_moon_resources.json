@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:moon_biomes",
+  "features": [
+    "createch2:galactic_moon_hematite_tfc_vein"
+  ],
+  "step": "underground_ores"
+}

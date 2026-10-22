@@ -1,0 +1,828 @@
+{
+  "scope": "Existing aluminum/stainless forming and twelve-step controller line. Native code and finite drive/material/component ledgers only; no machine/network/world execution.",
+  "nativeClasses": {
+    "saw": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlockEntity"
+    ],
+    "sawBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredSawBlock"
+    ],
+    "cutting": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.saw.TieredCuttingRecipe"
+    ],
+    "press": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredMechanicalPressBlockEntity"
+    ],
+    "pressBlock": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredMechanicalPressBlock"
+    ],
+    "pressing": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.press.TieredPressingRecipe"
+    ],
+    "conditions": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.data.recipe.TieredRecipeConditions"
+    ],
+    "network": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinKineticNetwork"
+    ],
+    "tier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.content.kinetics.simpleRelays.ITieredKineticBlockEntity"
+    ],
+    "tierConfig": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GConfigUtility"
+    ],
+    "stress": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GStress"
+    ],
+    "configs": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GreateConfigs"
+    ],
+    "configsV": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.infrastructure.config.GreateConfigs",
+      true
+    ],
+    "values": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.GreateValues"
+    ],
+    "sawRegistry": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.registry.Saws"
+    ],
+    "pressRegistry": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.registry.MechanicalPresses"
+    ],
+    "results": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeHelper"
+    ],
+    "createSaw": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlockEntity"
+    ],
+    "createSawBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.saw.SawBlock"
+    ],
+    "createPress": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.press.MechanicalPressBlockEntity"
+    ],
+    "pressBehaviour": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.press.PressingBehaviour"
+    ],
+    "kinetic": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.KineticBlockEntity"
+    ],
+    "kineticBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.KineticBlock"
+    ],
+    "rotate": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.IRotate"
+    ],
+    "rotation": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.RotationPropagator"
+    ],
+    "deployer": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerBlockEntity"
+    ],
+    "deployerBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.DeployerBlock"
+    ],
+    "deployerBelt": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.deployer.BeltDeployerCallbacks"
+    ],
+    "spout": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.SpoutBlockEntity"
+    ],
+    "filling": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout"
+    ],
+    "depot": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.logistics.depot.DepotBehaviour"
+    ],
+    "sequence": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.sequenced.SequencedAssemblyRecipe"
+    ],
+    "processing": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.processing.recipe.ProcessingRecipe"
+    ],
+    "fluidNetwork": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork"
+    ],
+    "fluidNode": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetworkNode"
+    ],
+    "fluidStorage": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.inventory.MIFluidStorage"
+    ],
+    "fluidInsert": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$1"
+    ],
+    "fluidExtract": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.pipes.fluid.FluidNetwork$TransferOperation$2"
+    ],
+    "createPressBlock": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.press.MechanicalPressBlock"
+    ],
+    "directional": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock"
+    ],
+    "horizontal": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.HorizontalKineticBlock"
+    ],
+    "createNetwork": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.KineticNetwork"
+    ],
+    "miMachine": [
+      "Modern-Industrialization-2.5.10.jar",
+      "aztech.modern_industrialization.machines.MachineBlockEntity"
+    ],
+    "applier": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.foundation.recipe.TieredRecipeApplier"
+    ]
+  },
+  "nativeCodeSha256": {
+    "saw": "7e2e38be0682530d3265f902fb454eaf03acfe1c0a092e445fe8d15181f60bf0",
+    "sawBlock": "75dd79fd7585f6d91581ff30cda2b33d37160f6f7a965fe42a302fe17abd892a",
+    "cutting": "50e292e2681b493bd4121d6c40b128fb0a8407e01982fe5ea7d604fa075a4a34",
+    "press": "57fb860f87bdae3a4851afac770467f15d1a0d0011b90fdd77e923578d834ec4",
+    "pressBlock": "0d21e5eb9342676308e1bcd45c5d060c9f1cd187eddaab9571704dc38626ec7f",
+    "pressing": "097c5bddf538159b4404df990a6a0157fc6a7c1130d219cafcfc1094603e929a",
+    "conditions": "d19111bdd6524f12a0c54e1f2d876435741e0738c82076d37e3729d144dda246",
+    "network": "66f4ae03c559d3d391033ce5b091f156a0e30b4cf571f8b8229d13235c42483f",
+    "tier": "1bd1ef4f294ec88225ecc8cea072fc5b7205bb30b1756a4b872d569bafd42fd0",
+    "tierConfig": "2648805a84fd4c9316f5f2e331b0b04b047eed6b6460550771d7b9a3d527d65e",
+    "stress": "461a6c4d917e15fa0c4ddbf6e255065f8e6955fadff412d6975f0384fe5b2fea",
+    "configs": "1f68bbbf3611164c998c669a380fc85633785f0e993876140a5ea5969a82f1e4",
+    "configsV": "2ae1b587b403dcefc308035cd488ae0b8c872a196da02355466cb85bab45093d",
+    "values": "c0a678929edb0ac5f3704a89c135e7a3a932050fd272958a5b6ec3c056b83df7",
+    "sawRegistry": "417f84a82c30b8e888eb98c614d464f06a23efd8ee24ea721faa4fdea0745844",
+    "pressRegistry": "014c09c5451a909338c83bc746862d93cb0cc74cfd8d1c3039f2d434977ad5fc",
+    "results": "5e1f2ff0e9a5e83dc426ae6faf37b19080081b011a821a3a4fb37fa9ccc56e91",
+    "createSaw": "ec223c2745e4b53f1f24b94d6039b240a3ec04eb1d3a3f378c0f279ebb2dc7b7",
+    "createSawBlock": "4af96a9cb073350f35492854ef637cd6be7ae110db50e431c19b577ed225fb8b",
+    "createPress": "cd0e52ee9c6c515ae2a40832b461cbdc7b214d4208bca50a3b63d7310710597c",
+    "pressBehaviour": "f5cfcb84e4433ba7ca49a719de0bdd3a42d1a89345f9651820ca0723661c7069",
+    "kinetic": "3831d0cf1c0a9235fa8c5b1d00ef5184144d90808f2e440c50ab73a1bcef85e3",
+    "kineticBlock": "c62f905dc62d972803080cb7965911675b21f862b28e4420af9b893009092efa",
+    "rotate": "810b7d0ae48d1b8e4695a20105683877b9b0f87055a43f52c5de973826eb8f47",
+    "rotation": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+    "deployer": "254d9cab418721fbed96f50b95f214ea2a00d6ff593878a1bb6e0d62e9443de1",
+    "deployerBlock": "298598976163123197b4c4161d231a45dc4065fb737b7717b3dd04d637bc11f1",
+    "deployerBelt": "06a79fedad74589c6d3bdf4df149728b368016a43d24c70216ad449370a54fad",
+    "spout": "58e301764efe3e47bf055281a08f9c4a830676c85dd0cd34591f0d606912eb72",
+    "filling": "a1241eed48a107ef1db927e5c0417f44c384db06525f057f246e4115727d7730",
+    "depot": "4743a24fac8ef345f014a6995fec4f817592cd1dd5b7962c630fe5e2c31dc016",
+    "sequence": "aafa9e0274dc454aa2f14daf5805aa1f07a69cccd772c05ea7955525a8b90177",
+    "processing": "432fa64c0b18d12fa9247463f4c8a7ab65c2ebfb4e4ed7c86a391cab805c40a3",
+    "fluidNetwork": "845771d7fa97c71cbf64e769ffd78dc23b9cb84c92ec4ead7263f5497f78ae57",
+    "fluidNode": "965ec682b5d57a7c6ea8378c17bc017b4561bc0002ab5310329e3a72a57f7616",
+    "fluidStorage": "7fc858caea118eedb00e12650ef7602012727f7c193fd43eec6ba92cd676fe82",
+    "fluidInsert": "cdf676ef40d709d08111f8d626f8515be8c3cf6ea71122fa61d81254d1291091",
+    "fluidExtract": "3088821e79a1b5f18928d6775a4c0ca48c4ebad3107df050ed56b13f09012872",
+    "createPressBlock": "8067b7e74624a32f9706349f98b6db4221bc98fd365df2db9768d30bc26c691c",
+    "directional": "670ea26986b4be63af2c51b25919efc7544f97425d94a8e1b5b74cfd6acaaf9e",
+    "horizontal": "596df63de1ddf154380a59d86e29b7b63c984ff18d6f7fcdde71921ac65ad3e0",
+    "createNetwork": "3c4e3554ee6dd2d7e4ce55b5ead7e2f3e1faa65fa338e4fa5bda25a37b0208ac",
+    "miMachine": "258c86f3bb1a8e6ee9e2838aec85e9e31d9663dd230199baaa105b4aaa36293f",
+    "applier": "fc08cbccd7b0047b964eea65fe63e8191bd2f9967cce2aa116c0b8529b22d536"
+  },
+  "recipes": {
+    "createch2:greate/tier_2/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 1,
+      "ingredients": [
+        {
+          "tag": "c:plates/aluminum"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:aluminium_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:greate/tier_2/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:steel_cogwheel"
+        },
+        {
+          "item": "greate:aluminium_shaft"
+        },
+        {
+          "tag": "c:plates/aluminum"
+        }
+      ],
+      "result": {
+        "id": "greate:aluminium_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_2/mechanical_saw": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "HMS",
+        " C "
+      ],
+      "key": {
+        "P": {
+          "tag": "c:plates/aluminum"
+        },
+        "G": {
+          "item": "greate:steel_mechanical_saw"
+        },
+        "H": {
+          "item": "modern_industrialization:advanced_machine_hull"
+        },
+        "M": {
+          "item": "modern_industrialization:advanced_motor"
+        },
+        "S": {
+          "item": "greate:aluminium_cogwheel"
+        },
+        "C": {
+          "item": "modern_industrialization:electronic_circuit"
+        }
+      },
+      "result": {
+        "id": "greate:aluminium_mechanical_saw",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_2/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "CHC",
+        " M "
+      ],
+      "key": {
+        "P": {
+          "tag": "c:plates/aluminum"
+        },
+        "G": {
+          "item": "greate:steel_mechanical_press"
+        },
+        "C": {
+          "item": "greate:aluminium_cogwheel"
+        },
+        "H": {
+          "item": "modern_industrialization:advanced_machine_hull"
+        },
+        "M": {
+          "item": "modern_industrialization:electronic_circuit"
+        }
+      },
+      "result": {
+        "id": "greate:aluminium_mechanical_press",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_3/shaft_cutting": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "greate:cutting",
+      "recipe_tier": 2,
+      "ingredients": [
+        {
+          "tag": "c:plates/stainless_steel"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "greate:stainless_steel_shaft",
+          "count": 6
+        }
+      ]
+    },
+    "createch2:greate/tier_3/cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:aluminium_cogwheel"
+        },
+        {
+          "item": "greate:stainless_steel_shaft"
+        },
+        {
+          "tag": "c:plates/stainless_steel"
+        }
+      ],
+      "result": {
+        "id": "greate:stainless_steel_cogwheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_3/mechanical_press": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PGP",
+        "CHC",
+        " M "
+      ],
+      "key": {
+        "P": {
+          "tag": "c:plates/stainless_steel"
+        },
+        "G": {
+          "item": "greate:aluminium_mechanical_press"
+        },
+        "C": {
+          "item": "greate:stainless_steel_cogwheel"
+        },
+        "H": {
+          "item": "modern_industrialization:advanced_machine_hull"
+        },
+        "M": {
+          "item": "modern_industrialization:digital_circuit"
+        }
+      },
+      "result": {
+        "id": "greate:stainless_steel_mechanical_press",
+        "count": 1
+      }
+    },
+    "createch2:stainless_digital/ae2/controller_workpiece": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 32,
+      "duration": 500,
+      "item_inputs": [
+        {
+          "item": "modern_industrialization:advanced_machine_hull",
+          "amount": 1
+        },
+        {
+          "item": "modern_industrialization:stainless_steel_large_plate",
+          "amount": 4
+        },
+        {
+          "item": "ae2:fluix_crystal",
+          "amount": 3
+        }
+      ],
+      "fluid_inputs": {
+        "fluid": "modern_industrialization:soldering_alloy",
+        "amount": 144
+      },
+      "item_outputs": [
+        {
+          "item": "create_connected:incomplete_control_chip",
+          "amount": 1
+        }
+      ]
+    },
+    "createch2:stainless_digital/ae2/controller_assembly": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "create_connected:incomplete_control_chip"
+      },
+      "transitional_item": {
+        "id": "create_connected:incomplete_control_chip"
+      },
+      "loops": 1,
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:logic_processor"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:calculation_processor"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:engineering_processor"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:formation_core"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:annihilation_core"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "modern_industrialization:digital_circuit"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:energy_acceptor"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "create_connected:control_chip"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "ae2:fluix_glass_cable"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "item": "electroenergetics:converter"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 144,
+              "fluid": "modern_industrialization:soldering_alloy"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ]
+        },
+        {
+          "type": "greate:pressing",
+          "ingredients": [
+            {
+              "item": "create_connected:incomplete_control_chip"
+            }
+          ],
+          "results": [
+            {
+              "id": "create_connected:incomplete_control_chip"
+            }
+          ],
+          "recipe_tier": 3
+        }
+      ],
+      "results": [
+        {
+          "id": "ae2:controller"
+        }
+      ]
+    },
+    "createch2:stainless_digital/ae2/control_chip": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "modern_industrialization:assembler",
+      "eu": 32,
+      "duration": 400,
+      "item_inputs": [
+        {
+          "item": "create:golden_sheet",
+          "amount": 1
+        },
+        {
+          "item": "create:electron_tube",
+          "amount": 2
+        },
+        {
+          "item": "minecraft:redstone",
+          "amount": 2
+        },
+        {
+          "item": "create:precision_mechanism",
+          "amount": 1
+        }
+      ],
+      "fluid_inputs": {
+        "fluid": "modern_industrialization:soldering_alloy",
+        "amount": 72
+      },
+      "item_outputs": [
+        {
+          "item": "create_connected:control_chip",
+          "amount": 1
+        }
+      ]
+    },
+    "createch2:stainless_digital/ae2/formation_core": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CFL",
+        " D "
+      ],
+      "key": {
+        "C": {
+          "tag": "c:gems/certus_quartz"
+        },
+        "F": {
+          "tag": "c:dusts/fluix"
+        },
+        "L": {
+          "item": "ae2:logic_processor"
+        },
+        "D": {
+          "item": "modern_industrialization:digital_circuit"
+        }
+      },
+      "result": {
+        "id": "ae2:formation_core",
+        "count": 2
+      }
+    },
+    "createch2:stainless_digital/ae2/annihilation_core": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "QFL",
+        " D "
+      ],
+      "key": {
+        "Q": {
+          "tag": "c:gems/quartz"
+        },
+        "F": {
+          "tag": "c:dusts/fluix"
+        },
+        "L": {
+          "item": "ae2:logic_processor"
+        },
+        "D": {
+          "item": "modern_industrialization:digital_circuit"
+        }
+      },
+      "result": {
+        "id": "ae2:annihilation_core",
+        "count": 2
+      }
+    },
+    "createch2:stainless_digital/ae2/energy_acceptor": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SQS",
+        "QMQ",
+        "SCS"
+      ],
+      "key": {
+        "S": {
+          "item": "modern_industrialization:stainless_steel_plate"
+        },
+        "Q": {
+          "item": "ae2:quartz_glass"
+        },
+        "M": {
+          "item": "modern_industrialization:advanced_machine_hull"
+        },
+        "C": {
+          "item": "electroenergetics:hanging_glass_insulator"
+        }
+      },
+      "result": {
+        "id": "ae2:energy_acceptor",
+        "count": 1
+      }
+    },
+    "createch2:stainless_digital/ae2/fluix_glass_cable": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "ae2:quartz_fiber"
+        },
+        {
+          "item": "ae2:fluix_crystal"
+        },
+        {
+          "item": "ae2:fluix_crystal"
+        },
+        {
+          "item": "modern_industrialization:stainless_steel_bolt"
+        }
+      ],
+      "result": {
+        "id": "ae2:fluix_glass_cable",
+        "count": 4
+      }
+    },
+    "createch2:stainless_digital/ae2/quartz_glass": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GCG",
+        "CQC",
+        "GCG"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:glass_blocks/cheap"
+        },
+        "C": {
+          "tag": "c:dusts/certus_quartz"
+        },
+        "Q": {
+          "item": "modern_industrialization:silicon_plate"
+        }
+      },
+      "result": {
+        "id": "ae2:quartz_glass",
+        "count": 4
+      }
+    },
+    "createch2:stainless_digital/ae2/quartz_fiber": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "GGG",
+        "CCC",
+        "GGG"
+      ],
+      "key": {
+        "G": {
+          "tag": "c:glass_blocks/cheap"
+        },
+        "C": {
+          "tag": "c:dusts/certus_quartz"
+        }
+      },
+      "result": {
+        "id": "ae2:quartz_fiber",
+        "count": 3
+      }
+    },
+    "modern_industrialization:materials/blast_furnace/soldering_alloy": {
+      "type": "modern_industrialization:blast_furnace",
+      "eu": 4,
+      "duration": 300,
+      "item_inputs": {
+        "tag": "c:dusts/soldering_alloy",
+        "amount": 1
+      },
+      "fluid_outputs": {
+        "fluid": "modern_industrialization:soldering_alloy",
+        "amount": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/andesite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/basalt",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/chalk",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/chert",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/claystone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/conglomerate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/dacite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/diorite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/dolomite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/gabbro",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/gneiss",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/granite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/limestone",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/marble",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/phyllite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/quartzite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/rhyolite",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/schist",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/shale",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/slate",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:ore/rich_native_iridium/tuff",
+      "required": false
+    }
+  ]
+}

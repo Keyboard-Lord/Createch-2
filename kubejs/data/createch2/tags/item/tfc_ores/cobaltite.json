@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#createch2:tfc_ores/cobaltite/small",
+    "#createch2:tfc_ores/cobaltite/poor",
+    "#createch2:tfc_ores/cobaltite/normal",
+    "#createch2:tfc_ores/cobaltite/rich"
+  ]
+}

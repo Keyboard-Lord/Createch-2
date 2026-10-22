@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:dusts/tantalum"
+    },
+    {
+      "tag": "c:physical_dusts/tantalum"
+    }
+  ],
+  "heat_capacity": 0.227,
+  "forging_temperature": 924,
+  "welding_temperature": 1232
+}

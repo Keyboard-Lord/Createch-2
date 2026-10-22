@@ -1,0 +1,13 @@
+{
+  "ingredient": [
+    {
+      "tag": "c:rings/chromium"
+    },
+    {
+      "tag": "c:physical_rings/chromium"
+    }
+  ],
+  "heat_capacity": 1.424,
+  "forging_temperature": 750,
+  "welding_temperature": 1000
+}

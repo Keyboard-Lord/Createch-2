@@ -1,0 +1,82 @@
+{
+  "feature": {
+    "type": "createch2core:landform",
+    "config": {
+      "pillar": true,
+      "palette": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:obsidian"
+        }
+      },
+      "replaceable": {
+        "type": "minecraft:true"
+      },
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 10
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "tip_scale": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0.15,
+        "max_exclusive": 0.45
+      },
+      "noise_frequency": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0.01,
+        "max_exclusive": 0.1
+      },
+      "euclidean_weight": 20,
+      "manhattan_weight": 2,
+      "chebyshev_weight": 1
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 155
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "below_top": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 12,
+      "allowed_search_condition": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
+      },
+      "target_condition": {
+        "type": "minecraft:has_sturdy_face",
+        "direction": "up"
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "modern_industrialization:titanium_large_plate"
+    },
+    "B": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "C": {
+      "item": "rocketnautics:titanium_casing"
+    },
+    "D": {
+      "item": "stellaris:big_rocket_upgrade"
+    },
+    "E": {
+      "item": "rocketnautics:titanium_nozzle"
+    },
+    "F": {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    "I": {
+      "tag": "c:plates/iridium"
+    },
+    "P": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "IEI",
+    "FPF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rocketnautics:booster_thruster"
+  },
+  "show_notification": false
+}

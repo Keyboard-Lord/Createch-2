@@ -1,0 +1,43 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "railcraft:steam_locomotive"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:logistics_reports",
+      "createch2:kinetic_data",
+      "createch2:material_specimens"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:log_02_railway_engineering",
+    "createch2:mec_03_steel_mechanisms"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:transportation_space",
+  "display": {
+    "name": {
+      "translate": "research.createch2.log_03_locomotive_systems.title"
+    },
+    "desc": {
+      "translate": "research.createch2.log_03_locomotive_systems.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:railway/locomotive/underframe",
+      "createch2:railway/locomotive/steam_assembly",
+      "createch2:research/pack/logistics_reports_freight"
+    ]
+  }
+}

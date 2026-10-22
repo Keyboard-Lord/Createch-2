@@ -1,0 +1,24 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ASA",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "A": {
+      "item": "modern_industrialization:mixed_plate_nuclear"
+    },
+    "S": {
+      "item": "eternal_starlight:starcore"
+    }
+  },
+  "result": {
+    "id": "avaritia:crystal_matrix",
+    "count": 1
+  }
+}

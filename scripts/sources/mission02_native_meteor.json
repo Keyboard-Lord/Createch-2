@@ -1,0 +1,248 @@
+{
+  "structure": "stellaris:meteor",
+  "dimension": "rocketnautics:moon",
+  "block": "stellaris:meteorite",
+  "capability": "capability:chronological_meteor_visit",
+  "chapter": "config/ftbquests/quests/chapters/createch2_13_age_12_cosmonautics.snbt",
+  "quest": "465FBE95E0BE7F38",
+  "task": "40CC5591472F5ED3",
+  "tagSnapshot": {
+    "replace": false,
+    "values": [
+      "#createch2:cosmonautics_moon_biomes"
+    ]
+  },
+  "before": {
+    "truth": "TARGETED_NATIVE_METEOR_BIOME_CENSUS",
+    "eligibleTfcBiomes": [],
+    "eligibleActiveMoonBiomes": [],
+    "nativeTfcBiomeCount": 125,
+    "resolvedMeteorBiomes": [
+      "minecraft:bamboo_jungle",
+      "minecraft:birch_forest",
+      "minecraft:dark_forest",
+      "minecraft:desert",
+      "minecraft:flower_forest",
+      "minecraft:forest",
+      "minecraft:grove",
+      "minecraft:jungle",
+      "minecraft:old_growth_birch_forest",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "minecraft:plains",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:snowy_plains",
+      "minecraft:snowy_taiga",
+      "minecraft:sparse_jungle",
+      "minecraft:sunflower_plains",
+      "minecraft:taiga",
+      "minecraft:windswept_savanna",
+      "stellaris:moon_caves",
+      "stellaris:moon_desert",
+      "vampirism:vampire_forest",
+      "werewolves:werewolf_heaven"
+    ]
+  },
+  "templates": [
+    {
+      "template": "stellaris:meteor_1",
+      "path": "kubejs/data/stellaris/structure/meteor_1.nbt",
+      "nativeSha256": "7647af4317ed2cf211355a8a00427a129855c2134adba9706e459641a90e4474",
+      "repairedSha256": "1c1249c93398f224cae98c7c4f2521f3eedbea7029f562e4757a00b2da6db0b0",
+      "paletteChanges": [
+        {
+          "index": 8,
+          "before": "stellaris:sky_stone",
+          "after": "stellaris:meteorite"
+        },
+        {
+          "index": 11,
+          "before": "boss_tools:sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23507,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        19,
+        4,
+        26
+      ],
+      "floor": "minecraft:polished_basalt"
+    },
+    {
+      "template": "stellaris:meteor_2",
+      "path": "kubejs/data/stellaris/structure/meteor_2.nbt",
+      "nativeSha256": "d83205750afdd3e954f0e0965a6bd2611e31edf196d1e08278e2ae0a29c3fefe",
+      "repairedSha256": "b291c7bb8a47e59aab637d25d62eb32a91ab73044d64a56c278fc5d4ecd55ec6",
+      "paletteChanges": [
+        {
+          "index": 4,
+          "before": "stellaris:sky_stone",
+          "after": "stellaris:meteorite"
+        },
+        {
+          "index": 8,
+          "before": "boss_tools:sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23507,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        17,
+        5,
+        20
+      ],
+      "floor": "minecraft:basalt"
+    },
+    {
+      "template": "stellaris:meteor_3",
+      "path": "kubejs/data/stellaris/structure/meteor_3.nbt",
+      "nativeSha256": "bb55de4095735d92849a14092e76162dc5a8fc8cb7cec65a0e718e5d5f3a9cec",
+      "repairedSha256": "45278f68ae41c4e1addb3814212fef9545119941408a63ecfc1368abf66d5319",
+      "paletteChanges": [
+        {
+          "index": 5,
+          "before": "stellaris:sky_stone",
+          "after": "stellaris:meteorite"
+        },
+        {
+          "index": 9,
+          "before": "boss_tools:sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23506,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        18,
+        4,
+        21
+      ],
+      "floor": "minecraft:basalt"
+    },
+    {
+      "template": "stellaris:meteor_4",
+      "path": "kubejs/data/stellaris/structure/meteor_4.nbt",
+      "nativeSha256": "d8140c480bcb84a59f9dbc162840ee678a45e1b34533e3a2d77a938137fcfcc7",
+      "repairedSha256": "a4b5d32a542aa3432b2240418f858d998ca8343a4ff33f03f18e0e0b568c2f08",
+      "paletteChanges": [
+        {
+          "index": 11,
+          "before": "boss_tools:sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23446,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        18,
+        4,
+        22
+      ],
+      "floor": "minecraft:polished_basalt"
+    },
+    {
+      "template": "stellaris:meteor_5",
+      "path": "kubejs/data/stellaris/structure/meteor_5.nbt",
+      "nativeSha256": "d06098a8e2f6678a4954e0d20a6f67168eddd9884d9ebd25b4b15ea8f3ba85e9",
+      "repairedSha256": "3975ab11d9f378c0c0d687bb3715d9fd19ebb731e178deb9a6f7601e821c80bb",
+      "paletteChanges": [
+        {
+          "index": 7,
+          "before": "stellaris:sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23507,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        17,
+        5,
+        21
+      ],
+      "floor": "minecraft:basalt"
+    },
+    {
+      "template": "stellaris:meteor_6",
+      "path": "kubejs/data/stellaris/structure/meteor_6.nbt",
+      "nativeSha256": "f506b99b4a92ad5f33a03057e764932ed7397a2f25f9c3f9aa2d329982b835dc",
+      "repairedSha256": "d685e2bc239b625824353c1139137adae769d003620378e32ba7b7bcde33bf34",
+      "paletteChanges": [
+        {
+          "index": 8,
+          "before": ":sky_stone",
+          "after": "stellaris:meteorite"
+        }
+      ],
+      "size": [
+        47,
+        31,
+        46
+      ],
+      "blockRecordsUnchanged": 23507,
+      "allNonPaletteDataUnchanged": true,
+      "standingPoint": [
+        18,
+        4,
+        21
+      ],
+      "floor": "minecraft:basalt"
+    }
+  ],
+  "classes": {
+    "task": [
+      "ftb-quests-neoforge-2101.1.36.jar",
+      "dev.ftb.mods.ftbquests.quest.task.StructureTask"
+    ],
+    "blocks": [
+      "stellaris-1.21-neoforge-1.4.25.jar",
+      "com.st0x0ef.stellaris.common.registry.BlocksRegistry"
+    ],
+    "processor": [
+      "stellaris-1.21-neoforge-1.4.25.jar",
+      "com.st0x0ef.stellaris.common.world.processor.VoidProcessor"
+    ]
+  },
+  "nativeCodeSha256": {
+    "task": "70aab74cc45a95a206728870016d865dfef135677435dddf30e8f3f8417a4f27",
+    "blocks": "55e39f220d36b095244069d99711ab03459e67f781ee90564f4cd3d06c6709d1",
+    "processor": "016642dcc2f9655888868b11e21e8f26b193895c33e50a0f0e9be05b8eecdd33"
+  },
+  "sharedOperationSha256": {
+    "booleanTask": "b70096c508e31705e14bd29401c1f817770422e0517db91b317ed1f0aa7c0a25",
+    "taskTicker": "25b47faac084af7405245c61d90e2641a57e9153b3c85d56b3a444633de619ce"
+  },
+  "biomes": [
+    "createch2:moon_ancient_delta",
+    "createch2:moon_prismachasm",
+    "createch2:moon_redstone_caves"
+  ]
+}

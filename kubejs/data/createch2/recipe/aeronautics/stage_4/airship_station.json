@@ -1,0 +1,36 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LTR",
+    "SPS",
+    "ACA"
+  ],
+  "key": {
+    "L": {
+      "item": "railcraft:advanced_item_loader"
+    },
+    "T": {
+      "item": "create:track_station"
+    },
+    "R": {
+      "item": "railcraft:advanced_item_unloader"
+    },
+    "S": {
+      "item": "electroenergetics:hanging_glass_insulator"
+    },
+    "P": {
+      "item": "simulated:physics_assembler"
+    },
+    "A": {
+      "item": "ae2:pattern_provider"
+    },
+    "C": {
+      "item": "computercraft:computer_advanced"
+    }
+  },
+  "result": {
+    "id": "create_aeronautics_automated_logistics:airship_station",
+    "count": 1
+  }
+}

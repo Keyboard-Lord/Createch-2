@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "PCP",
+    "BWB"
+  ],
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/spruce"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "W": {
+      "item": "tfcastikorcarts:wheel/spruce"
+    },
+    "B": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "result": {
+    "id": "tfcastikorcarts:supply_cart/spruce",
+    "count": 1
+  }
+}

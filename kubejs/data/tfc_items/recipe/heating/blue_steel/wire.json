@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    }
+  ],
+  
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:wires/blue_steel"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/blue_steel",
+    "amount": 25
+  },
+  "temperature": 1540
+}

@@ -1,0 +1,32 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 128,
+  "duration": 900,
+  "item_inputs": [
+    {
+      "tag": "createch2:chemical_filter_media",
+      "amount": 1,
+      "probability": 0.8
+    },
+    {
+      "tag": "createch2:control/factory/digital",
+      "amount": 1,
+      "probability": 0
+    }
+  ],
+  "fluid_inputs": {
+    "fluid": "tfmg:heavy_oil",
+    "amount": 1000
+  },
+  "fluid_outputs": [
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 250
+    },
+    {
+      "fluid": "modern_industrialization:naphtha",
+      "amount": 250
+    }
+  ]
+}

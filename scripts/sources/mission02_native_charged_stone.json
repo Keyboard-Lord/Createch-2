@@ -1,0 +1,509 @@
+{
+  "truth": "NATIVE_ALTAR_KETTLE_GOLDEN_CHALK_TO_CHARGED_STONE",
+  "nativeClasses": {
+    "altar": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.entity.AltarBlockEntity"
+    ],
+    "altarBlock": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.altar.AltarBlock"
+    ],
+    "altarHelper": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.altar.AltarHelper"
+    ],
+    "powerData": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.altar.AltarPowerData"
+    ],
+    "powerProvider": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.altar.PowerProvider"
+    ],
+    "upgrade": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.altar.AltarUpgrade"
+    ],
+    "observer": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.stateobservers.AltarStateObserver"
+    ],
+    "powerHelper": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.api.altar.PowerHelper"
+    ],
+    "kettle": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.entity.KettleBlockEntity"
+    ],
+    "kettleBlock": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.KettleBlock"
+    ],
+    "kettleRecipe": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.recipes.KettleRecipe"
+    ],
+    "fluid": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.platform.services.NeoFluidHelper"
+    ],
+    "fluidWrapper": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.neoforge.common.capabilities.EFluidContainerWrapper"
+    ],
+    "neo": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.neoforge.common.EnchantedNeo"
+    ],
+    "items": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.init.EItems"
+    ],
+    "blocks": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.init.EBlocks"
+    ],
+    "data": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.init.EData"
+    ],
+    "factories": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.init.ERiteFactories"
+    ],
+    "crops": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.crops.CropBlockAgeFive"
+    ],
+    "mandrake": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.crops.MandrakeBlock"
+    ],
+    "chalk": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.items.ChalkItem"
+    ],
+    "goldBlock": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.chalk.GoldChalkBlock"
+    ],
+    "goldEntity": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.blocks.entity.GoldChalkBlockEntity"
+    ],
+    "shape": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.circle_magic.CircleMagicShape"
+    ],
+    "riteType": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.circle_magic.RiteType"
+    ],
+    "itemFactory": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.circle_magic.rites.factory.CreateItemFactory"
+    ],
+    "itemRite": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.circle_magic.rites.CreateItemRite"
+    ],
+    "rite": [
+      "enchanted-neoforge-1.21.1-4.2.7.jar",
+      "net.favouriteless.enchanted.common.enchanted.circle_magic.rites.Rite"
+    ],
+    "tfcLeaves": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.blocks.wood.TFCLeavesBlock"
+    ],
+    "hoe": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.item.HoeItem"
+    ],
+    "crop": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.level.block.CropBlock"
+    ],
+    "farmland": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.level.block.FarmBlock"
+    ],
+    "blockItem": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.item.ItemNameBlockItem"
+    ],
+    "tfcTiers": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.common.TFCTiers"
+    ],
+    "tfcMetal": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Metal"
+    ],
+    "tfcMetalItem": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.util.Metal$ItemType"
+    ],
+    "tfcEvents": [
+      "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar",
+      "net.dries007.tfc.ForgeEventHandler"
+    ],
+    "shears": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.item.ShearsItem"
+    ],
+    "mcTiers": [
+      "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "net.minecraft.world.item.Tiers"
+    ]
+  },
+  "nativeCodeSha256": {
+    "altar": "7780196ed36d480019f311bcd9974d354bbb2dbbcccd30475fbc7c61a90d0252",
+    "altarBlock": "0cf73eb335a607d587538744136ba566dbc73b67253a2f303de4d5e8688c445c",
+    "altarHelper": "c9142170f7dd6e683d691ca50761ff2e193ad34fa61ac404d4176a4ea079d4b3",
+    "powerData": "7264c5826959b8a4fdd3bea0a338c37d2fcefc90ad639c2ac829d03c8174542c",
+    "powerProvider": "990b8a56ac65643018b6bcbffec0043fa280d8c577e8b9e70fd42089c8ecd22a",
+    "upgrade": "3c2e7bb84da4080ef0264a04440ff78aa1a1f6b37e28e6d727f12ebf0906ae74",
+    "observer": "0093f34d67f6fa05f6c464ca13a3f8c2b7fbad884aec87ad1d56ac92abe64b32",
+    "powerHelper": "389de8699e8ea89705235a2958c7d8881fe712a83f03f44df1d401dace9c1809",
+    "kettle": "81013c8d7e43040153d7090b570bcb249ff9d0522d7dd9574311b9369364f8c3",
+    "kettleBlock": "8345fac24109239815b040e4e663511513403d9063dc19cfb60be3aa97c9a377",
+    "kettleRecipe": "9a37ec23618137584c2bf1c8cba2d05cc349fe0b88a203d004611e0b5d4f7b54",
+    "fluid": "c2359dc489f46f5cc988466aba692cff0c9637d2271b74357d318aed17b29838",
+    "fluidWrapper": "3d667ab6ba59e59c2d53ac9f14859134ecb157712f41e009feefa70bc36c42e4",
+    "neo": "2d8fe0eb0cac606e794105e91cc51d30c927e51b263a55c574df639d997581b5",
+    "items": "4ae37a3241be757f332aca846f8b6c3157d61d731ca48cc230ae83d752a162d2",
+    "blocks": "c09a738e7adcbfdcbf8ffab09a6a0fde774ca27783bf4ecc502ac645d26d416e",
+    "data": "6b6ea0968db03c777746d5ced29dd8664c8bbf82f5aa47aa2941f29d8ca0a967",
+    "factories": "1ecdf698c10846424d5eceebf6467f860eb62318dc67d8e897759356dc45c73d",
+    "crops": "f795669e7841dff54b74a0d0b09881f71844bf138e9998127ba9d2f1bdea2ebe",
+    "mandrake": "d8940ac3280f3275f6c16087230ec51e609a87e7447467585d3cb6da66678c5c",
+    "chalk": "15c2d454aa7e60af2d5e4941f65e727fa1c6b1e90fcd7dbfa517e4170d6e58b6",
+    "goldBlock": "62de7d4ba1237f3a6320ad9880df312d61b793356d8d2ff0ffe15380abf8aa49",
+    "goldEntity": "5fb8f35fd3ee30b7d1ce198044bce3a0f2e4f0c162fd0036c17a96c00975185a",
+    "shape": "dd08276347634cd7adc91bae2229aef5a6a178d68688f620f8e15a5494d135ed",
+    "riteType": "4653786bc2704e14b14b6aff550f75ca3a9ce731f7d8e0b8b044a00a536e2218",
+    "itemFactory": "7e9aca819c45e40297f214732d92016be6068d5f3fff3b16fd37009f0e900bb1",
+    "itemRite": "42fa26fb56217822064dec478013aa564ce1b44462fc6775aa2624003c7145cf",
+    "rite": "4e101e0cb52af7960efc2d19a9f3499dfaa7bc8b13c37a6b89e420a3a383418a",
+    "tfcLeaves": "613b57149fa449d022dd63a4cf12391099d73b39981511f2cb97254d55db3bf6",
+    "hoe": "fbd3a57a146a6bdcf0db42ded7b0f2d637bc505082bcc7efe1483ba2f437e8e0",
+    "crop": "ff401dd130a7f2b3c6db117ea69956e2302032f7eb383ebeadfb190f768dee3f",
+    "farmland": "d8653f20d84c791b0089e31ef3a051cefd80cecfa60dcb56e602a586eb4b9d97",
+    "blockItem": "cc7663fadf7176e296bf7125c324259cb395ea7fbcf752ff0bae67d44ec2c1f0",
+    "tfcTiers": "cbd04bd897481c03549e0efc86d33e251a99f5da596f3629e79dbbef66434ebb",
+    "tfcMetal": "79b6265feb7303074ccd44cfad7cd219673468a10a904f975f19751b243b907f",
+    "tfcMetalItem": "bc2ba2a748e1dd9cb739fee10ae4f515097c5b5927ba094f913af13aa8f04bdc",
+    "tfcEvents": "ca11e6cb68fa7a1b77066d9a48f0a042c32fa5cf834a02c3c271cbdfc4e08d70",
+    "shears": "9da2ee2bf6b27a15ecf288c5b68669fe33b7588aff958f611754051c42f8e0c4",
+    "mcTiers": "61e270ecf93ac645234c471f077973eb8ea596734adb78665e949c7513d8b486"
+  },
+  "nativeJars": {
+    "enchanted-neoforge-1.21.1-4.2.7.jar": "205a3e1edb7e53e9bbf3b8ab965ac5eb3840bc43760e1b003200e4735ebf1bb0",
+    "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar": "3c2d80e47c78cfbd617823ebe0d3d5e2f9ba9e7f04c1b34867dbab3894584440"
+  },
+  "minecraftJar": "/Users/mcrae/Documents/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+  "minecraftJarSha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4",
+  "nativeResources": {
+    "data/enchanted/enchanted/circle_magic/rite/charging_stone.json": {
+      "items": [
+        {
+          "id": "enchanted:attuned_stone",
+          "count": 1
+        },
+        {
+          "id": "enchanted:wood_ash",
+          "count": 1
+        },
+        {
+          "id": "enchanted:quicklime",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        }
+      ],
+      "shapes": {
+        "enchanted:small_circle": "enchanted:ritual_chalk",
+        "enchanted:medium_circle": "enchanted:ritual_chalk"
+      },
+      "power": 2000,
+      "factory": {
+        "type": "enchanted:create_item",
+        "items": [
+          {
+            "id": "enchanted:attuned_stone_charged",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "data/enchanted/enchanted/circle_magic/shape/small_circle.json": [
+      "  XXX  ",
+      " XOOOX ",
+      "XOOOOOX",
+      "XOOOOOX",
+      "XOOOOOX",
+      " XOOOX ",
+      "  XXX  "
+    ],
+    "data/enchanted/enchanted/circle_magic/shape/medium_circle.json": [
+      "   XXXXX   ",
+      "  XOOOOOX  ",
+      " XOOOOOOOX ",
+      "XOOOOOOOOOX",
+      "XOOOOOOOOOX",
+      "XOOOOOOOOOX",
+      "XOOOOOOOOOX",
+      "XOOOOOOOOOX",
+      " XOOOOOOOX ",
+      "  XOOOOOX  ",
+      "   XXXXX   "
+    ],
+    "data/enchanted/enchanted/altar/upgrade/chalice.json": {
+      "type": "enchanted:chalice",
+      "block": "enchanted:chalice",
+      "power": 1,
+      "recharge": 0,
+      "priority": 0
+    },
+    "data/enchanted/enchanted/altar/upgrade/skeleton_skull.json": {
+      "type": "enchanted:skull",
+      "block": "minecraft:skeleton_skull",
+      "power": 1,
+      "recharge": 1,
+      "priority": 0
+    },
+    "data/minecraft/enchanted/altar/block/dirt.json": {
+      "limit": 100,
+      "power": 1
+    },
+    "data/minecraft/enchanted/altar/block/water.json": {
+      "limit": 50,
+      "power": 1
+    },
+    "data/minecraft/enchanted/altar/tag/logs.json": {
+      "limit": 50,
+      "power": 4
+    },
+    "data/minecraft/enchanted/altar/tag/leaves.json": {
+      "limit": 150,
+      "power": 2
+    },
+    "data/enchanted/enchanted/altar/block/belladonna.json": {
+      "limit": 20,
+      "power": 8
+    },
+    "data/enchanted/enchanted/altar/block/mandrake.json": {
+      "limit": 20,
+      "power": 8
+    },
+    "data/enchanted/enchanted/altar/block/snowbell.json": {
+      "limit": 20,
+      "power": 8
+    }
+  },
+  "goldenChalkRecipe": {
+    "id": "enchanted:kettle/golden_chalk",
+    "data": {
+      "type": "enchanted:kettle",
+      "cook_colour": "594000",
+      "final_colour": "C29B00",
+      "ingredients": [
+        {
+          "count": 1,
+          "id": "enchanted:mandrake_root"
+        },
+        {
+          "count": 1,
+          "id": "minecraft:gold_nugget"
+        },
+        {
+          "count": 1,
+          "id": "enchanted:ritual_chalk"
+        }
+      ],
+      "power": 3000,
+      "result": {
+        "count": 1,
+        "id": "enchanted:golden_chalk"
+      }
+    }
+  },
+  "oakLeafLoot": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "loot_pool",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "tfc:wood/leaves/oak",
+            "conditions": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": "#c:tools/shear"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      },
+      {
+        "name": "loot_pool",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "tfc:wood/sapling/oak",
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.013
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      },
+      {
+        "name": "loot_pool",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": "#tfc:tools/sharp"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stick",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#c:tools/shear"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "predicates": {
+                          "minecraft:enchantments": [
+                            {
+                              "enchantments": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceSha256": {
+    "config/enchanted-server.toml": "647f13bca46f728a47d1db7090a9607026e9ab1078501d67fe89da5ae946e27c",
+    "kubejs/server_scripts/research/magic_research.js": "db2dfc818507039d4c4c3c687df366b8e065dbf70b7817f97be43266bbb03fdb",
+    "kubejs/data/minecraft/tags/block/logs.json": "2ce15baac4a11daca2d363d740c3d4fb617c722638df9d36353e41d3d23b5677"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "researchd:simple",
+  "color": {
+    "r": 224,
+    "g": 205,
+    "b": 139
+  },
+  "sorting_value": 104,
+  "display": {
+    "name": {
+      "translate": "researchpack.createch2.mercurian_coordinates.title"
+    },
+    "desc": {
+      "translate": "researchpack.createch2.mercurian_coordinates.description"
+    }
+  }
+}

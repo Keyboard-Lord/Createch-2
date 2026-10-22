@@ -1,0 +1,13 @@
+{
+  "type": "burnt_additions:sunken",
+  "template": "burnt_additions:geyser",
+  "y_offset": 5,
+  "flatness": 2,
+  "footprint": 7,
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "biomes": "#createch2:burnt_geyser_planets",
+  "blend": false,
+  "gate": "geyser"
+}

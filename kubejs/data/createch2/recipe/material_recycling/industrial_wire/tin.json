@@ -1,0 +1,25 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:wires/tin"
+      }
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:wires/tin"
+  },
+  "result_fluid": {
+    "id": "tfc:metal/tin",
+    "amount": 50
+  },
+  "temperature": 230
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "second_input": {
+    "tag": "c:ingots/compressed_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/double_ingot/compressed_iron"
+  }
+}

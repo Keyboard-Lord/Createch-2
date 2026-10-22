@@ -1,0 +1,70 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "mekanismgenerators:fission_reactor_logic_adapter"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:nuclear_assays",
+      "createch2:grid_telemetry",
+      "createch2:computational_models",
+      "createch2:material_specimens"
+    ],
+    "count": 12,
+    "duration": 250
+  },
+  "parents": [
+    "createch2:nuc_03_fission_fuel_cycle",
+    "createch2:com_04_digital_fabrication"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:nuclear_frontier",
+  "display": {
+    "name": {
+      "translate": "research.createch2.nuc_04_reactor_instrumentation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.nuc_04_reactor_instrumentation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:and",
+    "effects": [
+      {
+        "type": "researchd:unlock_recipe",
+        "recipes": [
+          "createch2:nuclear/crowns/heat_exchanger",
+          "createch2:nuclear/crowns/fuel_rod",
+          "createch2:nuclear/crowns/fuel_assembly",
+          "createch2:nuclear/crowns/steam_input",
+          "createch2:nuclear/crowns/steam_collector",
+          "createch2:nuclear/crowns/turbine_casing",
+          "createch2:nuclear/crowns/turbine_stage",
+          "createch2:systems/radiation/mekanism_fission_logic_adapter",
+          "createch2:research/pack/nuclear_assays_advanced",
+          "createch2:factory_scaling/nuclear/empty_heat_sink_batch",
+          "createch2:material_recycling/nuclear_turbine/turbine_casing",
+          "createch2:material_recycling/nuclear_turbine/turbine_blade",
+          "createch2:material_recycling/nuclear_turbine/turbine_rotor",
+          "createch2:material_recycling/nuclear_turbine/electromagnetic_coil",
+          "createch2:material_recycling/nuclear_turbine/saturating_condenser",
+          "createch2:material_recycling/nuclear_turbine/crowns_turbine_casing",
+          "createch2:material_recycling/nuclear_thermal/crowns_heat_exchanger",
+          "createch2:material_recycling/mi_process/small_heat_exchanger",
+          "createch2:material_recycling/mi_process/heat_exchanger"
+        ]
+      },
+      {
+        "type": "researchd:multiply_value",
+        "value": "researchd:research_lab_productivity",
+        "amount": 1.15
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "TPT",
+    "CAC"
+  ],
+  "key": {
+    "N": {
+      "item": "simulated:navigation_table"
+    },
+    "T": {
+      "item": "tfmg:transistor_item"
+    },
+    "P": {
+      "item": "simulated:physics_assembler"
+    },
+    "C": {
+      "item": "tfmg:copper_spool"
+    },
+    "A": {
+      "tag": "createch2:control/factory/digital"
+    }
+  },
+  "result": {
+    "id": "create_aeronautics_automated_logistics:ship_transponder",
+    "count": 1
+  }
+}

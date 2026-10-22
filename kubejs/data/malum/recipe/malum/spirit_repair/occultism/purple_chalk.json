@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 2,
+    "tag": "c:dusts/obsidian"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "occultism:chalk_purple"
+  ]
+}

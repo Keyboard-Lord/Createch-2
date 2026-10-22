@@ -1,0 +1,45 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 72,
+    "min_y": -32,
+    "max_y": 96,
+    "size": 24,
+    "density": 0.36,
+    "blocks": [
+      {
+        "replace": [
+          "minecraft:netherrack",
+          "minecraft:basalt",
+          "minecraft:blackstone"
+        ],
+        "with": [
+          {
+            "weight": 30,
+            "block": "tfc_metallurgy:ore/poor_stibnite/basalt"
+          },
+          {
+            "weight": 55,
+            "block": "tfc_metallurgy:ore/normal_stibnite/basalt"
+          },
+          {
+            "weight": 15,
+            "block": "tfc_metallurgy:ore/rich_stibnite/basalt"
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 14,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "depth": 40,
+      "blocks": [
+        {
+          "block": "tfc_metallurgy:ore/small_stibnite"
+        }
+      ]
+    },
+    "random_name": "createch2_planetary_nether_stibnite_tfc_vein"
+  }
+}

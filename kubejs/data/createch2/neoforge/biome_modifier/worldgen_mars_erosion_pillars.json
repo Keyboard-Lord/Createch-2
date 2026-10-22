@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#createch2:no_biomes",
+  "features": [
+    "createch2:mars_erosion_pillars"
+  ],
+  "step": "local_modifications"
+}

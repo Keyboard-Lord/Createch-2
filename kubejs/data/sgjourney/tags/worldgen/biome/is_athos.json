@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "createch2:athos_wisteria_grove",
+    "createch2:athos_magnolia_woodland",
+    "createch2:athos_clover_plains",
+    "createch2:athos_flower_fields",
+    "createch2:athos_temperate_grove",
+    "createch2:athos_orchard",
+    "createch2:athos_bioshroom_caves",
+    "createch2:athos_prismachasm"
+  ]
+}

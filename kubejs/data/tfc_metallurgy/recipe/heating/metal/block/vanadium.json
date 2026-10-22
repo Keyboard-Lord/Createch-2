@@ -1,0 +1,12 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_material_form_units.mjs",
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:plated_blocks/vanadium"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc_metallurgy:metal/vanadium"
+  },
+  "temperature": 1910
+}

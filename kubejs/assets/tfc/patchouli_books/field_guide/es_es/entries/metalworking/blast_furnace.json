@@ -1,0 +1,40 @@
+{
+  "name": "Alto horno de TFMG",
+  "category": "tfc:metalworking",
+  "icon": "tfmg:blast_furnace_hatch",
+  "read_by_default": true,
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TFMG sustituye al alto horno de TFC. El horno eléctrico posterior de MI conserva su función.$(br2)Construye el alto horno, la toma de aire, la estufa de aire caliente y la cubeta de colada de TFMG. Sus ladrillos refractarios proceden de ladrillos cocidos de TFC. Consulta la escena Ponder de la escotilla para montar la estructura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfmg:crafting/materials/blast_furnace_output",
+      "recipe2": "tfmg:crafting/materials/blast_furnace_hatch"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Carga polvo de coque como combustible y suministra aire caliente. El fundente de TFC va en la entrada de fundente, no en el combustible. Separa las salidas de metal, escoria y gas; vacía el tanque de metal antes de cambiar de producto."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/ingot/pig_iron",
+      "text": "Para obtener arrabio de TFC, carga un lingote de hierro fundido de TFC y un fundente de TFC. El horno produce 100 mB de arrabio, que se moldean en un lingote. La calidad del mineral sigue determinando el hierro obtenido mediante el calentamiento de TFC."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfmg:steel_ingot",
+      "text": "El hierro triturado o en polvo con fundente de TFC produce acero fundido de TFMG. Moldea 144 mB para obtener un lingote. Estas recetas y la del arrabio comparten la investigación existente de Calor industrial."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "La instalación de TFMG suministra el arrabio para las recetas de yunque y soldadura de TFC. Los aceros de alto carbono, negro, rojo y azul conservan sus requisitos de forja y aleación."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Los hornos antiguos de TFC conservan su contenido, pero ya no procesan recetas. Fabrica con el aislamiento retirado para recuperar tres láminas de hierro forjado; los ladrillos aislados también devuelven su bloque refractario."
+    }
+  ]
+}

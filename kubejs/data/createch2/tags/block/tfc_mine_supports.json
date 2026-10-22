@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/support/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/support/willow",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc_metallurgy:metal/anvil/osmiridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/chain/osmiridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/lamp/osmiridium",
+      "required": false
+    },
+    {
+      "id": "tfc_metallurgy:metal/trapdoor/osmiridium",
+      "required": false
+    }
+  ]
+}

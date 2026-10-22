@@ -1,0 +1,16 @@
+{
+  "type": "productivebees:stone_nest",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "c:stones/raw"
+        },
+        "state": {
+          "Name": "productivebees:stone_nest"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "avaritia:infinity_catalyst",
+  "group": "eternal_singularity",
+  "ingredients": [
+    {
+      "item": "avaritia:eternal_singularity"
+    },
+    {
+      "item": "avaritia:crystal_matrix"
+    },
+    {
+      "item": "avaritia:neutron_ingot"
+    },
+    {
+      "item": "avaritia:cosmic_meatballs"
+    },
+    {
+      "item": "avaritia:ultimate_stew"
+    },
+    {
+      "item": "avaritia:endest_pearl"
+    },
+    {
+      "item": "avaritia:record_fragment"
+    },
+    {
+      "item": "avaritia:star_fuel"
+    },
+    {
+      "item": "modern_industrialization:bronze_machine_casing"
+    },
+    {
+      "item": "modern_industrialization:bronze_curved_plate"
+    },
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "tfmg:steel_mechanism"
+    },
+    {
+      "item": "tfmg:heavy_plate"
+    },
+    {
+      "item": "tfmg:coal_coke"
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    {
+      "item": "tfmg:lubrication_oil_bucket"
+    },
+    {
+      "item": "modern_industrialization:motor"
+    },
+    {
+      "item": "modern_industrialization:pump"
+    },
+    {
+      "item": "electroenergetics:inductor"
+    },
+    {
+      "item": "stellaris:rocket_engine"
+    },
+    {
+      "item": "stellaris:big_oxygen_tank"
+    },
+    {
+      "item": "modern_industrialization:sulfuric_acid_bucket"
+    },
+    {
+      "item": "modern_industrialization:carbon_plate"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    {
+      "item": "megacells:cell_component_4m"
+    },
+    {
+      "item": "modern_industrialization:titanium_large_plate"
+    },
+    {
+      "item": "rocketnautics:titanium_nozzle"
+    },
+    {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    {
+      "item": "mekanism:pellet_plutonium"
+    },
+    {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    {
+      "item": "eternal_starlight:crystalborn_catalyst"
+    },
+    {
+      "item": "eternal_starlight:starcore"
+    },
+    {
+      "item": "eternal_starlight:aethersent_ingot"
+    },
+    {
+      "item": "eternal_starlight:thioquartz_shard"
+    },
+    {
+      "item": "eternal_starlight:malarite"
+    },
+    {
+      "item": "eternal_starlight:soul_dew"
+    },
+    {
+      "item": "eternal_starlight:deepsilver_ingot"
+    },
+    {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    {
+      "item": "modern_industrialization:singularity"
+    },
+    {
+      "item": "modern_industrialization:uu_matter_bucket"
+    },
+    {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    {
+      "item": "tfmg:heavy_machinery_casing"
+    },
+    {
+      "item": "enchanted:infinity_egg"
+    },
+    {
+      "item": "tfmg:heavy_plate"
+    },
+    {
+      "item": "modern_industrialization:advanced_motor"
+    },
+    {
+      "item": "modern_industrialization:advanced_pump"
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet"
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    {
+      "item": "modern_industrialization:processing_unit"
+    },
+    {
+      "item": "sgjourney:naquadah_alloy"
+    },
+    {
+      "item": "rocketnautics:rocket_thruster"
+    },
+    {
+      "item": "rocketnautics:rocket_thruster"
+    },
+    {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    {
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    {
+      "item": "modern_industrialization:nuclear_alloy_plate"
+    },
+    {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    {
+      "item": "modern_industrialization:superconductor_coil"
+    },
+    {
+      "item": "eternal_starlight:starcore"
+    },
+    {
+      "item": "modern_industrialization:singularity"
+    },
+    {
+      "item": "modern_industrialization:uu_matter_bucket"
+    },
+    {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    {
+      "item": "gtceu:luv_robot_arm"
+    },
+    {
+      "item": "gtceu:luv_sensor"
+    },
+    {
+      "item": "gtceu:luv_emitter"
+    },
+    {
+      "item": "avaritia:star_fuel"
+    },
+    {
+      "item": "gtceu:uxv_electric_motor"
+    },
+    {
+      "item": "gtceu:uxv_electric_pump"
+    },
+    {
+      "item": "gtceu:uxv_electric_piston"
+    },
+    {
+      "item": "gtceu:uxv_conveyor_module"
+    },
+    {
+      "item": "gtceu:uxv_robot_arm"
+    },
+    {
+      "item": "gtceu:uxv_sensor"
+    },
+    {
+      "item": "gtceu:uxv_emitter"
+    },
+    {
+      "item": "gtceu:uxv_field_generator"
+    }
+  ]
+}

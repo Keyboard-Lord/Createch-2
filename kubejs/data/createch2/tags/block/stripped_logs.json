@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:wood/stripped_log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/willow",
+      "required": false
+    }
+  ]
+}

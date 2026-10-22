@@ -1,0 +1,271 @@
+{
+  "scope": "Native standalone TFMG air intake; hot-air and steel are not admitted",
+  "nativeClasses": {
+    "airIntake": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.air_intake.AirIntakeBlockEntity",
+      false
+    ],
+    "airBlock": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.content.machinery.misc.air_intake.AirIntakeBlock",
+      false
+    ],
+    "forceTank": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.fluid.ForceableFluidTank",
+      false
+    ],
+    "blockStress": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.stress.BlockStressValues",
+      false
+    ],
+    "stress": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.config.server.TFMGStress",
+      false
+    ],
+    "tfmgConfigs": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.config.TFMGConfigs",
+      false
+    ],
+    "tfmgConfigsV": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.config.TFMGConfigs",
+      true
+    ],
+    "blockRegistry": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGBlocks",
+      false
+    ],
+    "kineticBE": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.base.KineticBlockEntity",
+      false
+    ],
+    "tfmgRegistrate": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.base.TFMGRegistrate",
+      false
+    ],
+    "createRegistrate": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.foundation.data.CreateRegistrate",
+      false
+    ],
+    "cStress": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.infrastructure.config.CStress",
+      false
+    ],
+    "greateKineticMixin": [
+      "greate-createch-1.21.1.jar",
+      "electrolyte.greate.mixin.MixinKineticBlockEntity",
+      false
+    ],
+    "fluidTags": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGTags$Fluids",
+      false
+    ],
+    "tagNamespace": [
+      "tfmg-1.21.1-1.3.2a-community.jar",
+      "com.drmangotea.tfmg.registry.TFMGTags$NameSpace",
+      false
+    ]
+  },
+  "nativeCodeSha256": {
+    "airIntake": "23f8c56e5f4170a101406757da99e7b50ada83f8f0d063526950e6495109d42b",
+    "airBlock": "8733d4f0f001ed2aae2f56c93a3921312044c0d5e11fe8462e6657cc5c7b2ebf",
+    "forceTank": "2787c7d14fba88beeff390cac8e937869a00abc75a152a1c4555a1e0f69adade",
+    "blockStress": "e8bc2790af3253c3df22b0434568600dd3f56a6253deb6b2cb6e685e3921f691",
+    "stress": "083e3b3b865b86aa60c353755192c544fa381be8b727f3ed5660eb79bf89825b",
+    "tfmgConfigs": "d60d15f23c992ca245f32fe30b3aa7d538deffaa11ecd1b40c08b605c3683e02",
+    "tfmgConfigsV": "592e4a3ce94769ccd57d5b4bac942aa19bbe40bf228ddeea1b6afd66945507dd",
+    "blockRegistry": "ec3b220dfdbdef5ac9661237f1f839657e29fb8a0e25bd46d276bf7cd201d52b",
+    "kineticBE": "3831d0cf1c0a9235fa8c5b1d00ef5184144d90808f2e440c50ab73a1bcef85e3",
+    "tfmgRegistrate": "2a42807d41348e2871044f2f0481615e6696d789b1454973d33f8acac276aee9",
+    "createRegistrate": "f871e46ca13d315e92a04eb987cec97c84fd254b5650ae4d1c29cc9bd4b21c64",
+    "cStress": "99b5de6d36c9afc6fe0412c8f281f1f372e538482ee971b5181a3d4af0adb62b",
+    "greateKineticMixin": "48d52ec3b276e9d8637d949377cf291a43f825e8e5a4e4f2109255354b7b4df6",
+    "fluidTags": "b4882baba67f5ccc79bca941a0616018757c57f1828aa49e0af20aea8ce3d951",
+    "tagNamespace": "4c9fd36f7ade02389b79bb52a2fd1243395f119df487b53443c6c7049f86533e"
+  },
+  "ids": {
+    "waterWheel": "createch2:age_foundation/create/water_wheel",
+    "largeCog": "createch2:greate/tier_0/large_cogwheel"
+  },
+  "recipes": {
+    "createch2:age_foundation/create/water_wheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "PPP",
+        "PSP",
+        "PLP"
+      ],
+      "key": {
+        "P": {
+          "tag": "minecraft:planks"
+        },
+        "S": {
+          "item": "greate:andesite_alloy_shaft"
+        },
+        "L": {
+          "item": "createbigcannons:basin_foundry_lid"
+        }
+      },
+      "result": {
+        "id": "create:water_wheel",
+        "count": 1
+      }
+    },
+    "createch2:greate/tier_0/large_cogwheel": {
+      "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "item": "greate:andesite_alloy_cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "id": "greate:large_andesite_alloy_cogwheel",
+        "count": 1
+      }
+    }
+  },
+  "drive": {
+    "source": [
+      -8,
+      0,
+      0
+    ],
+    "sourceAxis": "X",
+    "sourceRpm": 8,
+    "sourceCapacity": 8,
+    "inputLarge": [
+      [
+        -6,
+        0,
+        0
+      ],
+      [
+        -4,
+        1,
+        1
+      ],
+      [
+        -2,
+        2,
+        2
+      ]
+    ],
+    "outputSmall": [
+      [
+        -6,
+        1,
+        1
+      ],
+      [
+        -4,
+        2,
+        2
+      ],
+      [
+        -2,
+        3,
+        3
+      ]
+    ],
+    "shafts": [
+      [
+        -7,
+        0,
+        0
+      ],
+      [
+        -5,
+        1,
+        1
+      ],
+      [
+        -3,
+        2,
+        2
+      ],
+      [
+        -1,
+        3,
+        3
+      ]
+    ],
+    "intake": [
+      0,
+      3,
+      3
+    ],
+    "intakeFacing": "EAST",
+    "stageRpm": [
+      -16,
+      32,
+      -64
+    ],
+    "intakeRpmMagnitude": 64,
+    "intakeImpact": 0,
+    "load": 0,
+    "limit": "Exact reviewed provider/default path; loaded third-party stress hooks are not runtime proof.",
+    "status": "STATIC_CONSTRUCTIVE_LAYOUT"
+  },
+  "rotationSha256": "831d6d35b816afb7f6fe16fca2c52f839e87979122071577a2400ede31df169f",
+  "quantityPlan": {
+    "intakesPerCraft": 3,
+    "intakesUsed": 1,
+    "spareIntakes": 2,
+    "waterWheels": 1,
+    "shafts": 4,
+    "smallCogs": 3,
+    "largeCogs": 3,
+    "diameter": 1,
+    "sourceRpm": 8,
+    "intakeRpmMagnitude": 64,
+    "airMbPerProductionCall": 1,
+    "intakeTankMb": 8000,
+    "exampleAirMb": 50,
+    "steadyProductionCallsForExample": 50,
+    "driveManufacturing": {
+      "placed": {
+        "wheels": 1,
+        "shafts": 4,
+        "smallCogs": 3,
+        "largeCogs": 3
+      },
+      "smallCogCrafts": 9,
+      "shaftDemandIncludingCogsAndWheel": 14,
+      "shaftCrafts": 2,
+      "shaftsProduced": 16,
+      "spareShafts": 2,
+      "andesiteAlloy": 13,
+      "planks": 19,
+      "foundryLids": 3,
+      "scope": "Drive only; intake and all upstream workshop/foundry procurement are additional."
+    }
+  },
+  "airTag": {
+    "id": "c:air",
+    "native": {
+      "values": [
+        "tfmg:flowing_air",
+        "tfmg:air"
+      ]
+    }
+  }
+}

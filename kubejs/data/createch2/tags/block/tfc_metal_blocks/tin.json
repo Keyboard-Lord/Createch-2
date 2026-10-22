@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:metal/block/tin",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/tin_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:metal/block/tin_stairs",
+      "required": false
+    }
+  ]
+}

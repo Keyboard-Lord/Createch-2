@@ -1,0 +1,28 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 170,
+    "min_y": -60,
+    "max_y": -12,
+    "size": 8,
+    "density": 0.18,
+    "random_name": "createch2_malum_cthonic_gold",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/slate",
+          "tfc:rock/raw/phyllite",
+          "tfc:rock/raw/schist",
+          "tfc:rock/raw/gneiss",
+          "tfc:rock/raw/basalt"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "malum:cthonic_gold_ore"
+          }
+        ]
+      }
+    ]
+  }
+}

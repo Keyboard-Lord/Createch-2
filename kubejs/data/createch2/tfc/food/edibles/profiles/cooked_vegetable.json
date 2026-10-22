@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/cooked_vegetable"
+  },
+  "edible": true,
+  "hunger": 4,
+  "saturation": 1,
+  "vegetables": 1.2,
+  "decay_modifier": 2
+}

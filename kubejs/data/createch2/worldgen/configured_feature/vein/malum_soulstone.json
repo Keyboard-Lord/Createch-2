@@ -1,0 +1,30 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 55,
+    "min_y": -48,
+    "max_y": 55,
+    "size": 24,
+    "density": 0.35,
+    "random_name": "createch2_malum_soulstone",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/shale",
+          "tfc:rock/raw/claystone",
+          "tfc:rock/raw/limestone",
+          "tfc:rock/raw/conglomerate",
+          "tfc:rock/raw/dolomite",
+          "tfc:rock/raw/chert",
+          "tfc:rock/raw/chalk"
+        ],
+        "with": [
+          {
+            "weight": 1,
+            "block": "malum:soulstone_ore"
+          }
+        ]
+      }
+    ]
+  }
+}

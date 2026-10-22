@@ -1,0 +1,27 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "PHP",
+    "TCT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "C": {
+      "tag": "createch2:mekanism_advanced_control"
+    },
+    "P": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "H": {
+      "item": "mekanism:advanced_chemical_tank"
+    }
+  },
+  "result": {
+    "id": "mekanism:advanced_pressurized_tube",
+    "count": 8
+  }
+}

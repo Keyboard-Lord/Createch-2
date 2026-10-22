@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "minecraft:dried_kelp"
+  },
+  "edible": true,
+  "vegetables": 0.5,
+  "decay_modifier": 2.5,
+  "hunger": 4
+}

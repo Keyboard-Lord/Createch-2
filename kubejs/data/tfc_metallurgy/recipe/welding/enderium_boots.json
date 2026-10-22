@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "bonus": "copy_best",
+  "first_input": {
+    "item": "tfc_metallurgy:metal/unfinished_boots/enderium"
+  },
+  "second_input": {
+    "tag": "c:sheets/enderium"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfc_metallurgy:metal/boots/enderium"
+  }
+}

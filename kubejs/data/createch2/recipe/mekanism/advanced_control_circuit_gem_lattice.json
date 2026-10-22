@@ -1,0 +1,33 @@
+{
+  "_generated_by": "createch-dev/scripts/generate_recipe_families.mjs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "CBC",
+    "AUA"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "G": {
+      "item": "tfc:gem/sapphire"
+    },
+    "C": {
+      "tag": "createch2:mekanism_basic_control"
+    },
+    "B": {
+      "item": "tfmg:capacitor_item"
+    },
+    "A": {
+      "tag": "c:plates/aluminum"
+    },
+    "U": {
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "result": {
+    "id": "mekanism:advanced_control_circuit",
+    "count": 2
+  }
+}

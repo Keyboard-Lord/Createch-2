@@ -1,0 +1,269 @@
+{
+  "truth": "REVIEWED_NATIVE_HYDRO_ALTERNATOR_TO_TASK_SCREEN",
+  "classes": {
+    "rotor": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.AlternatorRotorBlockEntity"
+    ],
+    "rotorBlock": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.AlternatorRotorBlock"
+    ],
+    "stator": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.StatorBlock"
+    ],
+    "brushBE": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.AlternatorBrushesBlockEntity"
+    ],
+    "brushBlock": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.AlternatorBrushesBlock"
+    ],
+    "brushDevice": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.rotor.AlternatorBrushesDevice"
+    ],
+    "generator": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.foundation.base.GeneratingDevice"
+    ],
+    "builder": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.simulation.BridgeCollector$Builder"
+    ],
+    "converter": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.converter.ConverterDevice"
+    ],
+    "converterBlock": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.converter.ConverterBlock"
+    ],
+    "spool": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.content.wire_spool.WireSpoolItem"
+    ],
+    "wireData": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.simulation.infrastructure.WireData"
+    ],
+    "wireLife": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.simulation.infrastructure.WireLifetimeModule"
+    ],
+    "largeWheel": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.waterwheel.LargeWaterWheelBlockEntity"
+    ],
+    "wheel": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.content.kinetics.waterwheel.WaterWheelBlockEntity"
+    ],
+    "stressValues": [
+      "create-1.21.1-6.0.10.jar",
+      "com.simibubi.create.api.stress.BlockStressValues"
+    ],
+    "eeBlocks": [
+      "electroenergetics-1.21.1-1.1.4.jar",
+      "com.george_vi.electroenergetics.CEEBlocks"
+    ]
+  },
+  "nativeCodeSha256": {
+    "rotor": "c945ba75f939d44ffe6714e0551cd4117d5b0021a85a76d1241dcf4e0494bd34",
+    "rotorBlock": "87647d708829b432fcffe41f27813b072eee8ce9475394817b14d4593b508468",
+    "stator": "37998e9474a97252412a1a285a44a676eeb511302853b8d75d2e8579603a62ea",
+    "brushBE": "00164eeabccebd789084c503da0c43c06884a3382c66b1206a28606a32466ec6",
+    "brushBlock": "19bfb1cbbda04dc699958d971d1710ab1db96c1256e663ba2e8eb73429633d02",
+    "brushDevice": "050b03598b44d5704daf111a05e0f55cf40a7c4271b0dbb3c5f9849bea6f80c2",
+    "generator": "1cb3d66f06774af8d6d3b6fcbe857367c6d9e8314d91c034b2cf6958b08275df",
+    "builder": "3b07c247ffff83f53d092397e249dea81b9f6d08bf9a389c635741dcb9e0bae0",
+    "converter": "ad9cb0c2fdcead53fd1df8297f225faca21b019279ec36139663bc79f314db98",
+    "converterBlock": "86e60fb70d44325f73c6abc5a15e2b632db1862a2f9075896968386e00b86213",
+    "spool": "5f88dd37c2360b943011101719e937af12385757c7d95c6238e270f3e4228446",
+    "wireData": "ce354a9a6cce10af8101140034905ba9b411a99631aa271469577bda4192c856",
+    "wireLife": "8f693a8f9e83c36b8c4ee7bde7f29b7c392b45db190f3511e18f40c06fe51f81",
+    "largeWheel": "48c6b368522eab247c3db071a547748d7aea57c37fabc75b7c4e0a651c6529b1",
+    "wheel": "b379148a257a22a8c33c0231d07f359ef0229ffd6543d4d1974835bad1a21032",
+    "stressValues": "e8bc2790af3253c3df22b0434568600dd3f56a6253deb6b2cb6e685e3921f691",
+    "eeBlocks": "fb3b99ea2aeb2a5a3dcb557fb43c2766656b3f47ad2f92e2f76ba8f475fb02bc"
+  },
+  "layout": {
+    "axis": "X",
+    "rotor": [
+      0,
+      0,
+      0
+    ],
+    "stator": {
+      "position": [
+        0,
+        1,
+        0
+      ],
+      "facing": "DOWN",
+      "roll": true
+    },
+    "brushes": [
+      {
+        "position": [
+          -1,
+          0,
+          0
+        ],
+        "facing": "WEST"
+      },
+      {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "facing": "EAST"
+      }
+    ],
+    "wheels": [
+      [
+        -2,
+        0,
+        0
+      ],
+      [
+        -3,
+        0,
+        0
+      ],
+      [
+        -4,
+        0,
+        0
+      ],
+      [
+        -5,
+        0,
+        0
+      ],
+      [
+        -6,
+        0,
+        0
+      ],
+      [
+        -7,
+        0,
+        0
+      ],
+      [
+        -8,
+        0,
+        0
+      ],
+      [
+        -9,
+        0,
+        0
+      ],
+      [
+        -10,
+        0,
+        0
+      ],
+      [
+        -11,
+        0,
+        0
+      ],
+      [
+        -12,
+        0,
+        0
+      ],
+      [
+        -13,
+        0,
+        0
+      ],
+      [
+        -14,
+        0,
+        0
+      ],
+      [
+        -15,
+        0,
+        0
+      ],
+      [
+        -16,
+        0,
+        0
+      ],
+      [
+        -17,
+        0,
+        0
+      ],
+      [
+        -18,
+        0,
+        0
+      ],
+      [
+        -19,
+        0,
+        0
+      ],
+      [
+        -20,
+        0,
+        0
+      ],
+      [
+        -21,
+        0,
+        0
+      ]
+    ],
+    "converter": {
+      "position": [
+        -1,
+        0,
+        20
+      ],
+      "facing": "EAST",
+      "source": false
+    },
+    "screen": [
+      -2,
+      0,
+      20
+    ],
+    "wireNodePairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "wireLengthBounds": [
+      19,
+      21
+    ],
+    "wireSpools": 2
+  },
+  "finitePlan": {
+    "waterWheels": 20,
+    "stators": 1,
+    "rotors": 1,
+    "brushes": 2,
+    "converters": 1,
+    "taskScreens": 1,
+    "configurators": 1,
+    "wireSpools": 2,
+    "priorEnergyUsed": 0
+  }
+}

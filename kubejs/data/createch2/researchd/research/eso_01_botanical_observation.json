@@ -1,0 +1,44 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "enchanted:belladonna_flower"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:esoteric_records",
+      "createch2:material_specimens"
+    ],
+    "count": 3,
+    "duration": 200
+  },
+  "parents": [
+    "createch2:sci_01_empirical_method"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:esoteric_studies",
+  "display": {
+    "name": {
+      "translate": "research.createch2.eso_01_botanical_observation.title"
+    },
+    "desc": {
+      "translate": "research.createch2.eso_01_botanical_observation.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "enchanted:soft_clay_jar",
+      "enchanted:clay_jar",
+      "enchanted:witch_oven",
+      "createch2:research/pack/esoteric_records_botanical",
+      "greate:integration/createch2/research/pack/esoteric_records_botanical",
+      "greate:integration/createch_2_/research/pack/esoteric_records_botanical"
+    ]
+  }
+}

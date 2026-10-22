@@ -1,0 +1,14 @@
+{
+  "ingredient": {
+    "tag": "createch2:food/nutrition/arcane_feast"
+  },
+  "edible": true,
+  "hunger": 12,
+  "saturation": 12,
+  "grain": 1.5,
+  "vegetables": 1.5,
+  "fruit": 1.5,
+  "protein": 1.5,
+  "dairy": 1.5,
+  "decay_modifier": 0.1
+}

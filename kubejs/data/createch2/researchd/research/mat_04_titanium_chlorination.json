@@ -1,0 +1,44 @@
+{
+  "type": "researchd:simple",
+  "icon": {
+    "type": "researchd:item_research_icon",
+    "items": [
+      {
+        "id": "modern_industrialization:titanium_ingot"
+      }
+    ]
+  },
+  "method": {
+    "type": "researchd:consume_research_pack",
+    "packs": [
+      "createch2:material_specimens",
+      "createch2:grid_telemetry",
+      "createch2:geological_surveys"
+    ],
+    "count": 8,
+    "duration": 225
+  },
+  "parents": [
+    "createch2:mat_03_space_aluminum",
+    "createch2:spc_05_planetary_operations"
+  ],
+  "requires_parent": true,
+  "research_page": "createch2:fabrication_materials",
+  "display": {
+    "name": {
+      "translate": "research.createch2.mat_04_titanium_chlorination.title"
+    },
+    "desc": {
+      "translate": "research.createch2.mat_04_titanium_chlorination.description"
+    }
+  },
+  "effect": {
+    "type": "researchd:unlock_recipe",
+    "recipes": [
+      "createch2:high_pressure/titanium/chloride_sponge",
+      "createch2:high_pressure/titanium/hot_ingot",
+      "createch2:factory_scaling/materials/titanium_chloride_batch",
+      "createch2:factory_scaling/materials/titanium_hot_ingot_batch"
+    ]
+  }
+}

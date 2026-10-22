@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yourmod:cedar_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "yourmod:redwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "minecraft:pale_oak_pressure_plate",
+      "required": false
+    }
+  ]
+}
